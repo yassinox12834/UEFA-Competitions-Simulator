@@ -1,0 +1,4425 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "42"
+  },
+  "errors": [],
+  "results": 63,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1208023,
+        "referee": "J. Gillett",
+        "timezone": "UTC",
+        "date": "2024-08-17T14:00:00+00:00",
+        "timestamp": 1723903200,
+        "periods": {
+          "first": 1723903200,
+          "second": 1723906800
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 39,
+          "name": "Wolves",
+          "logo": "https://media.api-sports.io/football/teams/39.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208032,
+        "referee": "M. Oliver",
+        "timezone": "UTC",
+        "date": "2024-08-24T16:30:00+00:00",
+        "timestamp": 1724517000,
+        "periods": {
+          "first": 1724517000,
+          "second": 1724520600
+        },
+        "venue": {
+          "id": 495,
+          "name": "Villa Park",
+          "city": "Birmingham"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208041,
+        "referee": "C. Kavanagh",
+        "timezone": "UTC",
+        "date": "2024-08-31T11:30:00+00:00",
+        "timestamp": 1725103800,
+        "periods": {
+          "first": 1725103800,
+          "second": 1725107400
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        },
+        "away": {
+          "id": 51,
+          "name": "Brighton",
+          "logo": "https://media.api-sports.io/football/teams/51.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208059,
+        "referee": "J. Gillett",
+        "timezone": "UTC",
+        "date": "2024-09-15T13:00:00+00:00",
+        "timestamp": 1726405200,
+        "periods": {
+          "first": 1726405200,
+          "second": 1726408800
+        },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208067,
+        "referee": "M. Oliver",
+        "timezone": "UTC",
+        "date": "2024-09-22T15:30:00+00:00",
+        "timestamp": 1727019000,
+        "periods": {
+          "first": 1727019000,
+          "second": 1727022600
+        },
+        "venue": {
+          "id": 555,
+          "name": "Etihad Stadium",
+          "city": "Manchester"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 50,
+          "name": "Manchester City",
+          "logo": "https://media.api-sports.io/football/teams/50.png",
+          "winner": null
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208072,
+        "referee": "S. Barrott",
+        "timezone": "UTC",
+        "date": "2024-09-28T14:00:00+00:00",
+        "timestamp": 1727532000,
+        "periods": {
+          "first": 1727532000,
+          "second": 1727535600
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208081,
+        "referee": "T. Harrington",
+        "timezone": "UTC",
+        "date": "2024-10-05T14:00:00+00:00",
+        "timestamp": 1728136800,
+        "periods": {
+          "first": 1728136800,
+          "second": 1728140400
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media.api-sports.io/football/teams/41.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208091,
+        "referee": "R. Jones",
+        "timezone": "UTC",
+        "date": "2024-10-19T16:30:00+00:00",
+        "timestamp": 1729355400,
+        "periods": {
+          "first": 1729355400,
+          "second": 1729359000
+        },
+        "venue": {
+          "id": 504,
+          "name": "Vitality Stadium",
+          "city": "Bournemouth, Dorset"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 35,
+          "name": "Bournemouth",
+          "logo": "https://media.api-sports.io/football/teams/35.png",
+          "winner": true
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208103,
+        "referee": "A. Taylor",
+        "timezone": "UTC",
+        "date": "2024-10-27T15:30:00+00:00",
+        "timestamp": 1730043000,
+        "periods": {
+          "first": 1730043000,
+          "second": 1730046600
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        },
+        "away": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208118,
+        "referee": "J. Brooks",
+        "timezone": "UTC",
+        "date": "2024-11-02T12:30:00+00:00",
+        "timestamp": 1730550600,
+        "periods": {
+          "first": 1730550600,
+          "second": 1730554200
+        },
+        "venue": {
+          "id": 562,
+          "name": "St. James' Park",
+          "city": "Newcastle upon Tyne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png",
+          "winner": true
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208125,
+        "referee": "M. Oliver",
+        "timezone": "UTC",
+        "date": "2024-11-10T16:30:00+00:00",
+        "timestamp": 1731256200,
+        "periods": {
+          "first": 1731256200,
+          "second": 1731259800
+        },
+        "venue": {
+          "id": 519,
+          "name": "Stamford Bridge",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
+          "winner": null
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208134,
+        "referee": "S. Hooper",
+        "timezone": "UTC",
+        "date": "2024-11-23T15:00:00+00:00",
+        "timestamp": 1732374000,
+        "periods": {
+          "first": 1732374000,
+          "second": 1732377600
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 65,
+          "name": "Nottingham Forest",
+          "logo": "https://media.api-sports.io/football/teams/65.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208151,
+        "referee": "A. Taylor",
+        "timezone": "UTC",
+        "date": "2024-11-30T17:30:00+00:00",
+        "timestamp": 1732987800,
+        "periods": {
+          "first": 1732987800,
+          "second": 1732991400
+        },
+        "venue": {
+          "id": 598,
+          "name": "London Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 48,
+          "name": "West Ham",
+          "logo": "https://media.api-sports.io/football/teams/48.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 5
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208154,
+        "referee": "S. Barrott",
+        "timezone": "UTC",
+        "date": "2024-12-04T20:15:00+00:00",
+        "timestamp": 1733343300,
+        "periods": {
+          "first": 1733343300,
+          "second": 1733346900
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208167,
+        "referee": "C. Kavanagh",
+        "timezone": "UTC",
+        "date": "2024-12-08T14:00:00+00:00",
+        "timestamp": 1733666400,
+        "periods": {
+          "first": 1733666400,
+          "second": 1733670000
+        },
+        "venue": {
+          "id": 535,
+          "name": "Craven Cottage",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png",
+          "winner": null
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208174,
+        "referee": "C. Pawson",
+        "timezone": "UTC",
+        "date": "2024-12-14T15:00:00+00:00",
+        "timestamp": 1734188400,
+        "periods": {
+          "first": 1734188400,
+          "second": 1734192000
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        },
+        "away": {
+          "id": 45,
+          "name": "Everton",
+          "logo": "https://media.api-sports.io/football/teams/45.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208185,
+        "referee": "S. Hooper",
+        "timezone": "UTC",
+        "date": "2024-12-21T17:30:00+00:00",
+        "timestamp": 1734802200,
+        "periods": {
+          "first": 1734802200,
+          "second": 1734805800
+        },
+        "venue": {
+          "id": 525,
+          "name": "Selhurst Park",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 52,
+          "name": "Crystal Palace",
+          "logo": "https://media.api-sports.io/football/teams/52.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208194,
+        "referee": "D. England",
+        "timezone": "UTC",
+        "date": "2024-12-27T20:15:00+00:00",
+        "timestamp": 1735330500,
+        "periods": {
+          "first": 1735330500,
+          "second": 1735334100
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208204,
+        "referee": "P. Bankes",
+        "timezone": "UTC",
+        "date": "2025-01-01T17:30:00+00:00",
+        "timestamp": 1735752600,
+        "periods": {
+          "first": 1735752600,
+          "second": 1735756200
+        },
+        "venue": {
+          "id": 10503,
+          "name": "Gtech Community Stadium",
+          "city": "Brentford, Middlesex"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media.api-sports.io/football/teams/55.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208215,
+        "referee": "A. Taylor",
+        "timezone": "UTC",
+        "date": "2025-01-04T17:30:00+00:00",
+        "timestamp": 1736011800,
+        "periods": {
+          "first": 1736011800,
+          "second": 1736015400
+        },
+        "venue": {
+          "id": 508,
+          "name": "American Express Stadium",
+          "city": "Falmer, East Sussex"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 51,
+          "name": "Brighton",
+          "logo": "https://media.api-sports.io/football/teams/51.png",
+          "winner": null
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208223,
+        "referee": "S. Hooper",
+        "timezone": "UTC",
+        "date": "2025-01-15T20:00:00+00:00",
+        "timestamp": 1736971200,
+        "periods": {
+          "first": 1736971200,
+          "second": 1736974800
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208233,
+        "referee": "C. Kavanagh",
+        "timezone": "UTC",
+        "date": "2025-01-18T17:30:00+00:00",
+        "timestamp": 1737221400,
+        "periods": {
+          "first": 1737221400,
+          "second": 1737225000
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        },
+        "away": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208252,
+        "referee": "M. Oliver",
+        "timezone": "UTC",
+        "date": "2025-01-25T15:00:00+00:00",
+        "timestamp": 1737817200,
+        "periods": {
+          "first": 1737817200,
+          "second": 1737820800
+        },
+        "venue": {
+          "id": 600,
+          "name": "Molineux Stadium",
+          "city": "Wolverhampton, West Midlands"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 39,
+          "name": "Wolves",
+          "logo": "https://media.api-sports.io/football/teams/39.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208254,
+        "referee": "P. Bankes",
+        "timezone": "UTC",
+        "date": "2025-02-02T16:30:00+00:00",
+        "timestamp": 1738513800,
+        "periods": {
+          "first": 1738513800,
+          "second": 1738517400
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 50,
+          "name": "Manchester City",
+          "logo": "https://media.api-sports.io/football/teams/50.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208267,
+        "referee": "S. Barrott",
+        "timezone": "UTC",
+        "date": "2025-02-15T12:30:00+00:00",
+        "timestamp": 1739622600,
+        "periods": {
+          "first": 1739622600,
+          "second": 1739626200
+        },
+        "venue": {
+          "id": 547,
+          "name": "King Power Stadium",
+          "city": "Leicester, Leicestershire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208274,
+        "referee": "C. Pawson",
+        "timezone": "UTC",
+        "date": "2025-02-22T15:00:00+00:00",
+        "timestamp": 1740236400,
+        "periods": {
+          "first": 1740236400,
+          "second": 1740240000
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        },
+        "away": {
+          "id": 48,
+          "name": "West Ham",
+          "logo": "https://media.api-sports.io/football/teams/48.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208285,
+        "referee": "A. Madley",
+        "timezone": "UTC",
+        "date": "2025-02-26T19:30:00+00:00",
+        "timestamp": 1740598200,
+        "periods": {
+          "first": 1740598200,
+          "second": 1740601800
+        },
+        "venue": {
+          "id": 566,
+          "name": "The City Ground",
+          "city": "Nottingham, Nottinghamshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 65,
+          "name": "Nottingham Forest",
+          "logo": "https://media.api-sports.io/football/teams/65.png",
+          "winner": null
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208298,
+        "referee": "A. Taylor",
+        "timezone": "UTC",
+        "date": "2025-03-09T16:30:00+00:00",
+        "timestamp": 1741537800,
+        "periods": {
+          "first": 1741537800,
+          "second": 1741541400
+        },
+        "venue": {
+          "id": 556,
+          "name": "Old Trafford",
+          "city": "Manchester"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": null
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208304,
+        "referee": "C. Kavanagh",
+        "timezone": "UTC",
+        "date": "2025-03-16T13:30:00+00:00",
+        "timestamp": 1742131800,
+        "periods": {
+          "first": 1742131800,
+          "second": 1742135400
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208314,
+        "referee": "J. Brooks",
+        "timezone": "UTC",
+        "date": "2025-04-01T18:45:00+00:00",
+        "timestamp": 1743533100,
+        "periods": {
+          "first": 1743533100,
+          "second": 1743536700
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208326,
+        "referee": "D. England",
+        "timezone": "UTC",
+        "date": "2025-04-05T11:30:00+00:00",
+        "timestamp": 1743852600,
+        "periods": {
+          "first": 1743852600,
+          "second": 1743856200
+        },
+        "venue": {
+          "id": 8560,
+          "name": "Goodison Park",
+          "city": "Liverpool"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 45,
+          "name": "Everton",
+          "logo": "https://media.api-sports.io/football/teams/45.png",
+          "winner": null
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208334,
+        "referee": "S. Hooper",
+        "timezone": "UTC",
+        "date": "2025-04-12T16:30:00+00:00",
+        "timestamp": 1744475400,
+        "periods": {
+          "first": 1744475400,
+          "second": 1744479000
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        },
+        "away": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media.api-sports.io/football/teams/55.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208348,
+        "referee": "C. Kavanagh",
+        "timezone": "UTC",
+        "date": "2025-04-20T13:00:00+00:00",
+        "timestamp": 1745154000,
+        "periods": {
+          "first": 1745154000,
+          "second": 1745157600
+        },
+        "venue": {
+          "id": 545,
+          "name": "Portman Road",
+          "city": "Ipswich, Suffolk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208354,
+        "referee": "M. Salisbury",
+        "timezone": "UTC",
+        "date": "2025-04-23T19:00:00+00:00",
+        "timestamp": 1745434800,
+        "periods": {
+          "first": 1745434800,
+          "second": 1745438400
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        },
+        "away": {
+          "id": 52,
+          "name": "Crystal Palace",
+          "logo": "https://media.api-sports.io/football/teams/52.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208363,
+        "referee": "J. Gillett",
+        "timezone": "UTC",
+        "date": "2025-05-03T16:30:00+00:00",
+        "timestamp": 1746289800,
+        "periods": {
+          "first": 1746289800,
+          "second": 1746293400
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 35",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        },
+        "away": {
+          "id": 35,
+          "name": "Bournemouth",
+          "logo": "https://media.api-sports.io/football/teams/35.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208376,
+        "referee": "A. Taylor",
+        "timezone": "UTC",
+        "date": "2025-05-11T15:30:00+00:00",
+        "timestamp": 1746977400,
+        "periods": {
+          "first": 1746977400,
+          "second": 1746981000
+        },
+        "venue": {
+          "id": 550,
+          "name": "Anfield",
+          "city": "Liverpool"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 36",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png",
+          "winner": null
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208383,
+        "referee": "S. Hooper",
+        "timezone": "UTC",
+        "date": "2025-05-18T15:30:00+00:00",
+        "timestamp": 1747582200,
+        "periods": {
+          "first": 1747582200,
+          "second": 1747585800
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 37",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208400,
+        "referee": "D. Bond",
+        "timezone": "UTC",
+        "date": "2025-05-25T15:00:00+00:00",
+        "timestamp": 1748185200,
+        "periods": {
+          "first": 1748185200,
+          "second": 1748188800
+        },
+        "venue": {
+          "id": 585,
+          "name": "St. Mary's Stadium",
+          "city": "Southampton, Hampshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Regular Season - 38",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media.api-sports.io/football/teams/41.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1215286,
+        "referee": "C. Pawson",
+        "timezone": "UTC",
+        "date": "2024-08-11T13:00:00+00:00",
+        "timestamp": 1723381200,
+        "periods": {
+          "first": 1723381200,
+          "second": 1723384800
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 937,
+        "name": "Emirates Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/937.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1217973,
+        "referee": "T. Ford",
+        "timezone": "UTC",
+        "date": "2024-07-28T00:00:00+00:00",
+        "timestamp": 1722124800,
+        "periods": {
+          "first": 1722124800,
+          "second": 1722128400
+        },
+        "venue": {
+          "id": null,
+          "name": "SoFi Stadium",
+          "city": "Inglewood, California"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        },
+        "away": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 3,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1219970,
+        "referee": "R. Touchan",
+        "timezone": "UTC",
+        "date": "2024-07-31T23:30:00+00:00",
+        "timestamp": 1722468600,
+        "periods": {
+          "first": 1722468600,
+          "second": 1722472200
+        },
+        "venue": {
+          "id": null,
+          "name": "Lincoln Financial Field",
+          "city": "Philadelphia, Pennsylvania"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png",
+          "winner": true
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225631,
+        "referee": "B. Stevis",
+        "timezone": "UTC",
+        "date": "2024-07-25T02:30:00+00:00",
+        "timestamp": 1721874600,
+        "periods": {
+          "first": 1721874600,
+          "second": 1721878200
+        },
+        "venue": {
+          "id": 1616,
+          "name": "Dignity Health Sports Park",
+          "city": "Carson, California"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 35,
+          "name": "Bournemouth",
+          "logo": "https://media.api-sports.io/football/teams/35.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 5,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1276295,
+        "referee": "S. Barrott",
+        "timezone": "UTC",
+        "date": "2024-08-07T17:00:00+00:00",
+        "timestamp": 1723050000,
+        "periods": {
+          "first": 1723050000,
+          "second": 1723053600
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 168,
+          "name": "Bayer Leverkusen",
+          "logo": "https://media.api-sports.io/football/teams/168.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1298642,
+        "referee": "J. Smith",
+        "timezone": "UTC",
+        "date": "2024-09-25T18:45:00+00:00",
+        "timestamp": 1727289900,
+        "periods": {
+          "first": 1727289900,
+          "second": 1727293500
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 68,
+          "name": "Bolton",
+          "logo": "https://media.api-sports.io/football/teams/68.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1298998,
+        "referee": "C. Turpin",
+        "timezone": "UTC",
+        "date": "2024-09-19T19:00:00+00:00",
+        "timestamp": 1726772400,
+        "periods": {
+          "first": 1726772400,
+          "second": 1726776000
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299010,
+        "referee": "S. Vin\u010di\u0107",
+        "timezone": "UTC",
+        "date": "2024-10-01T19:00:00+00:00",
+        "timestamp": 1727809200,
+        "periods": {
+          "first": 1727809200,
+          "second": 1727812800
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299027,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2024-10-22T19:00:00+00:00",
+        "timestamp": 1729623600,
+        "periods": {
+          "first": 1729623600,
+          "second": 1729627200
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299052,
+        "referee": "I. Kov\u00e1cs",
+        "timezone": "UTC",
+        "date": "2024-11-06T20:00:00+00:00",
+        "timestamp": 1730923200,
+        "periods": {
+          "first": 1730923200,
+          "second": 1730926800
+        },
+        "venue": {
+          "id": 907,
+          "name": "Stadio Giuseppe Meazza",
+          "city": "Milano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png",
+          "winner": true
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299063,
+        "referee": "S. Marciniak",
+        "timezone": "UTC",
+        "date": "2024-11-26T20:00:00+00:00",
+        "timestamp": 1732651200,
+        "periods": {
+          "first": 1732651200,
+          "second": 1732654800
+        },
+        "venue": {
+          "id": 1293,
+          "name": "Est\u00e1dio Jos\u00e9 Alvalade",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299091,
+        "referee": "D. Massa",
+        "timezone": "UTC",
+        "date": "2024-12-11T20:00:00+00:00",
+        "timestamp": 1733947200,
+        "periods": {
+          "first": 1733947200,
+          "second": 1733950800
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media.api-sports.io/football/teams/91.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299108,
+        "referee": "D. Siebert",
+        "timezone": "UTC",
+        "date": "2025-01-22T20:00:00+00:00",
+        "timestamp": 1737576000,
+        "periods": {
+          "first": 1737576000,
+          "second": 1737579600
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299118,
+        "referee": "M. Mariani",
+        "timezone": "UTC",
+        "date": "2025-01-29T20:00:00+00:00",
+        "timestamp": 1738180800,
+        "periods": {
+          "first": 1738180800,
+          "second": 1738184400
+        },
+        "venue": {
+          "id": 1478,
+          "name": "Estadi Municipal de Montilivi",
+          "city": "Girona"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 547,
+          "name": "Girona",
+          "logo": "https://media.api-sports.io/football/teams/547.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1309284,
+        "referee": "P. Bankes",
+        "timezone": "UTC",
+        "date": "2024-10-30T19:45:00+00:00",
+        "timestamp": 1730317500,
+        "periods": {
+          "first": 1730317500,
+          "second": 1730321100
+        },
+        "venue": {
+          "id": 574,
+          "name": "Deepdale",
+          "city": "Preston"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314297,
+        "referee": "A. Madley",
+        "timezone": "UTC",
+        "date": "2024-12-18T19:30:00+00:00",
+        "timestamp": 1734550200,
+        "periods": {
+          "first": 1734550200,
+          "second": 1734553800
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 52,
+          "name": "Crystal Palace",
+          "logo": "https://media.api-sports.io/football/teams/52.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1318838,
+        "referee": "A. Madley",
+        "timezone": "UTC",
+        "date": "2025-01-12T15:00:00+00:00",
+        "timestamp": 1736694000,
+        "periods": {
+          "first": 1736694000,
+          "second": 1736697600
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        },
+        "away": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 3,
+          "away": 5
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327988,
+        "referee": "J. Brooks",
+        "timezone": "UTC",
+        "date": "2025-01-07T20:00:00+00:00",
+        "timestamp": 1736280000,
+        "periods": {
+          "first": 1736280000,
+          "second": 1736283600
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        },
+        "away": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327989,
+        "referee": "S. Hooper",
+        "timezone": "UTC",
+        "date": "2025-02-05T20:00:00+00:00",
+        "timestamp": 1738785600,
+        "periods": {
+          "first": 1738785600,
+          "second": 1738789200
+        },
+        "venue": {
+          "id": 562,
+          "name": "St. James' Park",
+          "city": "Newcastle upon Tyne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png",
+          "winner": true
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353172,
+        "referee": "Gil Manzano",
+        "timezone": "UTC",
+        "date": "2025-03-04T20:00:00+00:00",
+        "timestamp": 1741118400,
+        "periods": {
+          "first": 1741118400,
+          "second": 1741122000
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 7
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 7
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353173,
+        "referee": "R. Obrenovi\u0107",
+        "timezone": "UTC",
+        "date": "2025-03-12T20:00:00+00:00",
+        "timestamp": 1741809600,
+        "periods": {
+          "first": 1741809600,
+          "second": 1741813200
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360764,
+        "referee": "I. Peljto",
+        "timezone": "UTC",
+        "date": "2025-04-08T19:00:00+00:00",
+        "timestamp": 1744138800,
+        "periods": {
+          "first": 1744138800,
+          "second": 1744142400
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360765,
+        "referee": "F. Letexier",
+        "timezone": "UTC",
+        "date": "2025-04-16T19:00:00+00:00",
+        "timestamp": 1744830000,
+        "periods": {
+          "first": 1744830000,
+          "second": 1744833600
+        },
+        "venue": {
+          "id": 1456,
+          "name": "Estadio Santiago Bernab\u00e9u",
+          "city": "Madrid"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371730,
+        "referee": "S. Vin\u010di\u0107",
+        "timezone": "UTC",
+        "date": "2025-04-29T19:00:00+00:00",
+        "timestamp": 1745953200,
+        "periods": {
+          "first": 1745953200,
+          "second": 1745956800
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371731,
+        "referee": "F. Zwayer",
+        "timezone": "UTC",
+        "date": "2025-05-07T19:00:00+00:00",
+        "timestamp": 1746644400,
+        "periods": {
+          "first": 1746644400,
+          "second": 1746648000
+        },
+        "venue": {
+          "id": 671,
+          "name": "Parc des Princes",
+          "city": "Paris"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png",
+          "winner": true
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

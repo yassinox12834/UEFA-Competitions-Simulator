@@ -1,0 +1,4635 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "543"
+  },
+  "errors": [],
+  "results": 66,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1208495,
+        "referee": "Miguel Ortiz",
+        "timezone": "UTC",
+        "date": "2024-08-15T19:30:00+00:00",
+        "timestamp": 1723750200,
+        "periods": {
+          "first": 1723750200,
+          "second": 1723753800
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 547,
+          "name": "Girona",
+          "logo": "https://media.api-sports.io/football/teams/547.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208508,
+        "referee": "Mateo Busquets",
+        "timezone": "UTC",
+        "date": "2024-08-25T17:15:00+00:00",
+        "timestamp": 1724606100,
+        "periods": {
+          "first": 1724606100,
+          "second": 1724609700
+        },
+        "venue": {
+          "id": 1470,
+          "name": "Estadio de Mendizorroza",
+          "city": "Vitoria-Gasteiz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 542,
+          "name": "Alaves",
+          "logo": "https://media.api-sports.io/football/teams/542.png",
+          "winner": null
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208513,
+        "referee": "Juan Pulido",
+        "timezone": "UTC",
+        "date": "2024-09-18T17:00:00+00:00",
+        "timestamp": 1726678800,
+        "periods": {
+          "first": 1726678800,
+          "second": 1726682400
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 546,
+          "name": "Getafe",
+          "logo": "https://media.api-sports.io/football/teams/546.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208527,
+        "referee": "Javier Alberola",
+        "timezone": "UTC",
+        "date": "2024-09-01T19:30:00+00:00",
+        "timestamp": 1725219000,
+        "periods": {
+          "first": 1725219000,
+          "second": 1725222600
+        },
+        "venue": {
+          "id": 1456,
+          "name": "Estadio Santiago Bernab\u00e9u",
+          "city": "Madrid"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208531,
+        "referee": "Pablo Gonz\u00e1lez",
+        "timezone": "UTC",
+        "date": "2024-09-13T19:00:00+00:00",
+        "timestamp": 1726254000,
+        "periods": {
+          "first": 1726254000,
+          "second": 1726257600
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 537,
+          "name": "Leganes",
+          "logo": "https://media.api-sports.io/football/teams/537.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208540,
+        "referee": "V\u00edctor Garc\u00eda",
+        "timezone": "UTC",
+        "date": "2024-09-23T19:00:00+00:00",
+        "timestamp": 1727118000,
+        "periods": {
+          "first": 1727118000,
+          "second": 1727121600
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        },
+        "away": {
+          "id": 798,
+          "name": "Mallorca",
+          "logo": "https://media.api-sports.io/football/teams/798.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208554,
+        "referee": "Jos\u00e9 S\u00e1nchez",
+        "timezone": "UTC",
+        "date": "2024-09-26T17:00:00+00:00",
+        "timestamp": 1727370000,
+        "periods": {
+          "first": 1727370000,
+          "second": 1727373600
+        },
+        "venue": {
+          "id": 1481,
+          "name": "Estadio de Gran Canaria",
+          "city": "Las Palmas de Gran Canaria"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 534,
+          "name": "Las Palmas",
+          "logo": "https://media.api-sports.io/football/teams/534.png",
+          "winner": null
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208572,
+        "referee": "Juan Mart\u00ednez",
+        "timezone": "UTC",
+        "date": "2024-10-06T16:30:00+00:00",
+        "timestamp": 1728232200,
+        "periods": {
+          "first": 1728232200,
+          "second": 1728235800
+        },
+        "venue": {
+          "id": 1494,
+          "name": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208581,
+        "referee": "Alejandro Mu\u00f1iz",
+        "timezone": "UTC",
+        "date": "2024-10-19T14:15:00+00:00",
+        "timestamp": 1729347300,
+        "periods": {
+          "first": 1729347300,
+          "second": 1729350900
+        },
+        "venue": {
+          "id": 1486,
+          "name": "Estadio El Sadar",
+          "city": "Iru\u00f1ea"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208586,
+        "referee": "Gil Manzano",
+        "timezone": "UTC",
+        "date": "2024-10-27T16:30:00+00:00",
+        "timestamp": 1730046600,
+        "periods": {
+          "first": 1730046600,
+          "second": 1730050200
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208593,
+        "referee": "Javier Alberola",
+        "timezone": "UTC",
+        "date": "2024-11-03T20:00:00+00:00",
+        "timestamp": 1730664000,
+        "periods": {
+          "first": 1730664000,
+          "second": 1730667600
+        },
+        "venue": {
+          "id": 1460,
+          "name": "San Mam\u00e9s Barria",
+          "city": "Bilbao"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png",
+          "winner": null
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208602,
+        "referee": "Miguel Ortiz",
+        "timezone": "UTC",
+        "date": "2024-11-10T13:00:00+00:00",
+        "timestamp": 1731243600,
+        "periods": {
+          "first": 1731243600,
+          "second": 1731247200
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 538,
+          "name": "Celta Vigo",
+          "logo": "https://media.api-sports.io/football/teams/538.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208617,
+        "referee": "Ricardo De Burgos",
+        "timezone": "UTC",
+        "date": "2024-11-23T13:00:00+00:00",
+        "timestamp": 1732366800,
+        "periods": {
+          "first": 1732366800,
+          "second": 1732370400
+        },
+        "venue": {
+          "id": 1497,
+          "name": "Estadio de Mestalla",
+          "city": "Valencia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208625,
+        "referee": "Francisco Hern\u00e1ndez",
+        "timezone": "UTC",
+        "date": "2024-12-01T20:00:00+00:00",
+        "timestamp": 1733083200,
+        "periods": {
+          "first": 1733083200,
+          "second": 1733086800
+        },
+        "venue": {
+          "id": 1491,
+          "name": "Reale Arena",
+          "city": "Donostia-San Sebasti\u00e1n"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208635,
+        "referee": "Alejandro Mu\u00f1iz",
+        "timezone": "UTC",
+        "date": "2024-12-07T15:15:00+00:00",
+        "timestamp": 1733584500,
+        "periods": {
+          "first": 1733584500,
+          "second": 1733588100
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208642,
+        "referee": "Guillermo Cuadra",
+        "timezone": "UTC",
+        "date": "2024-12-15T17:30:00+00:00",
+        "timestamp": 1734283800,
+        "periods": {
+          "first": 1734283800,
+          "second": 1734287400
+        },
+        "venue": {
+          "id": 1498,
+          "name": "Estadio de la Cer\u00e1mica",
+          "city": "Villarreal"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208647,
+        "referee": "V\u00edctor Garc\u00eda",
+        "timezone": "UTC",
+        "date": "2024-12-22T20:00:00+00:00",
+        "timestamp": 1734897600,
+        "periods": {
+          "first": 1734897600,
+          "second": 1734901200
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 728,
+          "name": "Rayo Vallecano",
+          "logo": "https://media.api-sports.io/football/teams/728.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208662,
+        "referee": "Adri\u00e1n Cordero",
+        "timezone": "UTC",
+        "date": "2025-01-11T15:15:00+00:00",
+        "timestamp": 1736608500,
+        "periods": {
+          "first": 1736608500,
+          "second": 1736612100
+        },
+        "venue": {
+          "id": 1492,
+          "name": "Estadio Municipal Jos\u00e9 Zorrilla",
+          "city": "Valladolid"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 12
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 720,
+          "name": "Valladolid",
+          "logo": "https://media.api-sports.io/football/teams/720.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208673,
+        "referee": "Alejandro Hern\u00e1ndez",
+        "timezone": "UTC",
+        "date": "2025-01-18T17:30:00+00:00",
+        "timestamp": 1737221400,
+        "periods": {
+          "first": 1737221400,
+          "second": 1737225000
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        },
+        "away": {
+          "id": 542,
+          "name": "Alaves",
+          "logo": "https://media.api-sports.io/football/teams/542.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208679,
+        "referee": "Javier Alberola",
+        "timezone": "UTC",
+        "date": "2025-01-25T13:00:00+00:00",
+        "timestamp": 1737810000,
+        "periods": {
+          "first": 1737810000,
+          "second": 1737813600
+        },
+        "venue": {
+          "id": 19940,
+          "name": "Estadi Mallorca Son Moix",
+          "city": "Palma de Mallorca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 798,
+          "name": "Mallorca",
+          "logo": "https://media.api-sports.io/football/teams/798.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208689,
+        "referee": "Juan Mart\u00ednez",
+        "timezone": "UTC",
+        "date": "2025-02-02T20:00:00+00:00",
+        "timestamp": 1738526400,
+        "periods": {
+          "first": 1738526400,
+          "second": 1738530000
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208699,
+        "referee": "Mateo Busquets",
+        "timezone": "UTC",
+        "date": "2025-02-08T13:00:00+00:00",
+        "timestamp": 1739019600,
+        "periods": {
+          "first": 1739019600,
+          "second": 1739023200
+        },
+        "venue": {
+          "id": 22784,
+          "name": "Estadio Abanca-Bala\u00eddos",
+          "city": "Vigo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 538,
+          "name": "Celta Vigo",
+          "logo": "https://media.api-sports.io/football/teams/538.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208703,
+        "referee": "Gil Manzano",
+        "timezone": "UTC",
+        "date": "2025-02-16T20:00:00+00:00",
+        "timestamp": 1739736000,
+        "periods": {
+          "first": 1739736000,
+          "second": 1739739600
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208715,
+        "referee": "Javier Alberola",
+        "timezone": "UTC",
+        "date": "2025-02-23T17:30:00+00:00",
+        "timestamp": 1740331800,
+        "periods": {
+          "first": 1740331800,
+          "second": 1740335400
+        },
+        "venue": {
+          "id": 20422,
+          "name": "Estadio Coliseum",
+          "city": "Getafe"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 546,
+          "name": "Getafe",
+          "logo": "https://media.api-sports.io/football/teams/546.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208720,
+        "referee": "Alejandro Hern\u00e1ndez",
+        "timezone": "UTC",
+        "date": "2025-03-01T17:30:00+00:00",
+        "timestamp": 1740850200,
+        "periods": {
+          "first": 1740850200,
+          "second": 1740853800
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208730,
+        "referee": "Jos\u00e9 S\u00e1nchez",
+        "timezone": "UTC",
+        "date": "2025-03-09T17:30:00+00:00",
+        "timestamp": 1741541400,
+        "periods": {
+          "first": 1741541400,
+          "second": 1741545000
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 534,
+          "name": "Las Palmas",
+          "logo": "https://media.api-sports.io/football/teams/534.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208741,
+        "referee": "C\u00e9sar Soto",
+        "timezone": "UTC",
+        "date": "2025-03-16T13:00:00+00:00",
+        "timestamp": 1742130000,
+        "periods": {
+          "first": 1742130000,
+          "second": 1742133600
+        },
+        "venue": {
+          "id": 1464,
+          "name": "Estadio Municipal de Butarque",
+          "city": "Legan\u00e9s"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 537,
+          "name": "Leganes",
+          "logo": "https://media.api-sports.io/football/teams/537.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208748,
+        "referee": "Mateo Busquets",
+        "timezone": "UTC",
+        "date": "2025-03-30T19:00:00+00:00",
+        "timestamp": 1743361200,
+        "periods": {
+          "first": 1743361200,
+          "second": 1743364800
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208755,
+        "referee": "Gil Manzano",
+        "timezone": "UTC",
+        "date": "2025-04-05T19:00:00+00:00",
+        "timestamp": 1743879600,
+        "periods": {
+          "first": 1743879600,
+          "second": 1743883200
+        },
+        "venue": {
+          "id": 19939,
+          "name": "Estadi Ol\u00edmpic Llu\u00eds Companys",
+          "city": "Barcelona"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png",
+          "winner": null
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208766,
+        "referee": "Juan Pulido",
+        "timezone": "UTC",
+        "date": "2025-04-13T16:30:00+00:00",
+        "timestamp": 1744561800,
+        "periods": {
+          "first": 1744561800,
+          "second": 1744565400
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        },
+        "away": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208777,
+        "referee": "Alejandro Hern\u00e1ndez",
+        "timezone": "UTC",
+        "date": "2025-04-21T19:00:00+00:00",
+        "timestamp": 1745262000,
+        "periods": {
+          "first": 1745262000,
+          "second": 1745265600
+        },
+        "venue": {
+          "id": 1478,
+          "name": "Estadi Municipal de Montilivi",
+          "city": "Girona"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 547,
+          "name": "Girona",
+          "logo": "https://media.api-sports.io/football/teams/547.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208785,
+        "referee": "Francisco Hern\u00e1ndez",
+        "timezone": "UTC",
+        "date": "2025-04-24T19:30:00+00:00",
+        "timestamp": 1745523000,
+        "periods": {
+          "first": 1745523000,
+          "second": 1745526600
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 720,
+          "name": "Valladolid",
+          "logo": "https://media.api-sports.io/football/teams/720.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208802,
+        "referee": "Miguel Ortiz",
+        "timezone": "UTC",
+        "date": "2025-05-11T19:00:00+00:00",
+        "timestamp": 1746990000,
+        "periods": {
+          "first": 1746990000,
+          "second": 1746993600
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 35",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208812,
+        "referee": "Pablo Gonz\u00e1lez",
+        "timezone": "UTC",
+        "date": "2025-05-15T17:00:00+00:00",
+        "timestamp": 1747328400,
+        "periods": {
+          "first": 1747328400,
+          "second": 1747332000
+        },
+        "venue": {
+          "id": 1488,
+          "name": "Estadio de Vallecas",
+          "city": "Madrid"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 36",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 728,
+          "name": "Rayo Vallecano",
+          "logo": "https://media.api-sports.io/football/teams/728.png",
+          "winner": null
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208818,
+        "referee": "Adri\u00e1n Cordero",
+        "timezone": "UTC",
+        "date": "2025-05-18T17:00:00+00:00",
+        "timestamp": 1747587600,
+        "periods": {
+          "first": 1747587600,
+          "second": 1747591200
+        },
+        "venue": {
+          "id": 19217,
+          "name": "Riyadh Air Metropolitano",
+          "city": "Madrid"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 37",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208828,
+        "referee": "V\u00edctor Garc\u00eda",
+        "timezone": "UTC",
+        "date": "2025-05-23T19:00:00+00:00",
+        "timestamp": 1748026800,
+        "periods": {
+          "first": 1748026800,
+          "second": 1748030400
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 38",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212917,
+        "referee": "Alejandro Hern\u00e1ndez",
+        "timezone": "UTC",
+        "date": "2024-09-29T16:30:00+00:00",
+        "timestamp": 1727627400,
+        "periods": {
+          "first": 1727627400,
+          "second": 1727631000
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 540,
+          "name": "Espanyol",
+          "logo": "https://media.api-sports.io/football/teams/540.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212943,
+        "referee": "Guillermo Cuadra",
+        "timezone": "UTC",
+        "date": "2025-05-04T16:30:00+00:00",
+        "timestamp": 1746376200,
+        "periods": {
+          "first": 1746376200,
+          "second": 1746379800
+        },
+        "venue": {
+          "id": 1474,
+          "name": "RCDE Stadium",
+          "city": "Cornella de Llobregat"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 540,
+          "name": "Espanyol",
+          "logo": "https://media.api-sports.io/football/teams/540.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1217969,
+        "referee": "M. Allatin",
+        "timezone": "UTC",
+        "date": "2024-07-26T23:30:00+00:00",
+        "timestamp": 1722036600,
+        "periods": {
+          "first": 1722036600,
+          "second": 1722040200
+        },
+        "venue": {
+          "id": null,
+          "name": "Acrisure Stadium",
+          "city": "Pittsburgh, Pennsylvania"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1219972,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-01T02:00:00+00:00",
+        "timestamp": 1722477600,
+        "periods": {
+          "first": 1722477600,
+          "second": 1722481200
+        },
+        "venue": {
+          "id": null,
+          "name": "Snapdragon Stadium",
+          "city": "San Diego, California"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225687,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-20T12:00:00+00:00",
+        "timestamp": 1721476800,
+        "periods": {
+          "first": 1721476800,
+          "second": 1721480400
+        },
+        "venue": {
+          "id": 3792,
+          "name": "Max-Aicher-Stadion",
+          "city": "Salzburg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5000,
+          "name": "Austria Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/5000.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225821,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-03T19:00:00+00:00",
+        "timestamp": 1722711600,
+        "periods": {
+          "first": 1722711600,
+          "second": 1722715200
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1276326,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-07T18:30:00+00:00",
+        "timestamp": 1723055400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 6689,
+          "name": "Estadio Municipal de La L\u00ednea de la Concepci\u00f3n",
+          "city": "La L\u00ednea de la Concepci\u00f3n"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "CANC",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 976,
+          "name": "Raja Casablanca",
+          "logo": "https://media.api-sports.io/football/teams/976.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1276327,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-07T18:30:00+00:00",
+        "timestamp": 1723055400,
+        "periods": {
+          "first": 1723055400,
+          "second": 1723059000
+        },
+        "venue": {
+          "id": 6689,
+          "name": "Estadio Municipal de La L\u00ednea de la Concepci\u00f3n",
+          "city": "La L\u00ednea de la Concepci\u00f3n"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 724,
+          "name": "Cadiz",
+          "logo": "https://media.api-sports.io/football/teams/724.png",
+          "winner": null
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1280529,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-10T13:30:00+00:00",
+        "timestamp": 1723296600,
+        "periods": {
+          "first": 1723296600,
+          "second": 1723300200
+        },
+        "venue": {
+          "id": 699,
+          "name": "BayArena",
+          "city": "Leverkusen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 168,
+          "name": "Bayer Leverkusen",
+          "logo": "https://media.api-sports.io/football/teams/168.png",
+          "winner": null
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287590,
+        "referee": "A. Karde\u015fler",
+        "timezone": "UTC",
+        "date": "2024-08-22T18:00:00+00:00",
+        "timestamp": 1724349600,
+        "periods": {
+          "first": 1724349600,
+          "second": 1724353200
+        },
+        "venue": {
+          "id": 18644,
+          "name": "Ko\u0161ick\u00e1 futbalov\u00e1 ar\u00e9na",
+          "city": "Ko\u0161ice"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6489,
+          "name": "Kryvbas KR",
+          "logo": "https://media.api-sports.io/football/teams/6489.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287591,
+        "referee": "I. Paja\u010d",
+        "timezone": "UTC",
+        "date": "2024-08-29T19:00:00+00:00",
+        "timestamp": 1724958000,
+        "periods": {
+          "first": 1724958000,
+          "second": 1724961600
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6489,
+          "name": "Kryvbas KR",
+          "logo": "https://media.api-sports.io/football/teams/6489.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299300,
+        "referee": "L. Pairetto",
+        "timezone": "UTC",
+        "date": "2024-10-03T16:45:00+00:00",
+        "timestamp": 1727973900,
+        "periods": {
+          "first": 1727973900,
+          "second": 1727977500
+        },
+        "venue": {
+          "id": 1253,
+          "name": "Stadion Miejski Legii Warszawa im. Marsza\u0142ka J\u00f3zefa Pi\u0142sudskiego",
+          "city": "Warszawa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 339,
+          "name": "Legia Warszawa",
+          "logo": "https://media.api-sports.io/football/teams/339.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299326,
+        "referee": "W. Delajod",
+        "timezone": "UTC",
+        "date": "2024-10-24T19:00:00+00:00",
+        "timestamp": 1729796400,
+        "periods": {
+          "first": 1729796400,
+          "second": 1729800000
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299345,
+        "referee": "N. Simovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-11-07T20:00:00+00:00",
+        "timestamp": 1731009600,
+        "periods": {
+          "first": 1731009600,
+          "second": 1731013200
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4360,
+          "name": "Celje",
+          "logo": "https://media.api-sports.io/football/teams/4360.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299361,
+        "referee": "D. Schlager",
+        "timezone": "UTC",
+        "date": "2024-11-28T20:00:00+00:00",
+        "timestamp": 1732824000,
+        "periods": {
+          "first": 1732824000,
+          "second": 1732827600
+        },
+        "venue": {
+          "id": 2494,
+          "name": "Lokotrans Ar\u00e9na",
+          "city": "Mlad\u00e1 Boleslav"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299370,
+        "referee": "L. D'hondt",
+        "timezone": "UTC",
+        "date": "2024-12-12T17:45:00+00:00",
+        "timestamp": 1734025500,
+        "periods": {
+          "first": 1734025500,
+          "second": 1734029100
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299398,
+        "referee": "P. Kolari\u0107",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1311433,
+        "referee": "Jos\u00e9 S\u00e1nchez",
+        "timezone": "UTC",
+        "date": "2024-10-31T20:00:00+00:00",
+        "timestamp": 1730404800,
+        "periods": {
+          "first": 1730404800,
+          "second": 1730408400
+        },
+        "venue": {
+          "id": 1475,
+          "name": "Estadio Francisco de la Hera",
+          "city": "Almendralejo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 25032,
+          "name": "G\u00e9vora",
+          "logo": "https://media.api-sports.io/football/teams/25032.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1317916,
+        "referee": "Mateo Busquets",
+        "timezone": "UTC",
+        "date": "2024-12-04T18:00:00+00:00",
+        "timestamp": 1733335200,
+        "periods": {
+          "first": 1733335200,
+          "second": 1733338800
+        },
+        "venue": {
+          "id": 3991,
+          "name": "Camp Municipal Narc\u00eds Sala",
+          "city": "Barcelona"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5277,
+          "name": "Sant Andreu",
+          "logo": "https://media.api-sports.io/football/teams/5277.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1321229,
+        "referee": "Miguel Ortiz",
+        "timezone": "UTC",
+        "date": "2025-01-04T14:30:00+00:00",
+        "timestamp": 1736001000,
+        "periods": {
+          "first": 1736001000,
+          "second": 1736004600
+        },
+        "venue": {
+          "id": 1480,
+          "name": "Estadio El Alcoraz",
+          "city": "Huesca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Round of 32",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 726,
+          "name": "Huesca",
+          "logo": "https://media.api-sports.io/football/teams/726.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1325898,
+        "referee": "H. Fe\u0219nic",
+        "timezone": "UTC",
+        "date": "2025-02-13T20:00:00+00:00",
+        "timestamp": 1739476800,
+        "periods": {
+          "first": 1739476800,
+          "second": 1739480400
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1325899,
+        "referee": "D. Sylwestrzak",
+        "timezone": "UTC",
+        "date": "2025-02-20T17:45:00+00:00",
+        "timestamp": 1740073500,
+        "periods": {
+          "first": 1740073500,
+          "second": 1740077100
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1334033,
+        "referee": "Jos\u00e9 S\u00e1nchez",
+        "timezone": "UTC",
+        "date": "2025-01-15T20:00:00+00:00",
+        "timestamp": 1736971200,
+        "periods": {
+          "first": 1736971200,
+          "second": 1736974800
+        },
+        "venue": {
+          "id": 19939,
+          "name": "Estadi Ol\u00edmpic Llu\u00eds Companys",
+          "city": "Barcelona"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png",
+          "winner": true
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353202,
+        "referee": "N. Dabanovi\u0107",
+        "timezone": "UTC",
+        "date": "2025-03-06T17:45:00+00:00",
+        "timestamp": 1741283100,
+        "periods": {
+          "first": 1741283100,
+          "second": 1741286700
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353203,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-03-13T20:00:00+00:00",
+        "timestamp": 1741896000,
+        "periods": {
+          "first": 1741896000,
+          "second": 1741899600
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361284,
+        "referee": "A. Taylor",
+        "timezone": "UTC",
+        "date": "2025-04-10T19:00:00+00:00",
+        "timestamp": 1744311600,
+        "periods": {
+          "first": 1744311600,
+          "second": 1744315200
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 336,
+          "name": "Jagiellonia",
+          "logo": "https://media.api-sports.io/football/teams/336.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361285,
+        "referee": "C. Turpin",
+        "timezone": "UTC",
+        "date": "2025-04-17T16:45:00+00:00",
+        "timestamp": 1744908300,
+        "periods": {
+          "first": 1744908300,
+          "second": 1744911900
+        },
+        "venue": {
+          "id": null,
+          "name": "Chorten Arena",
+          "city": "Bia\u0142ystok"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 336,
+          "name": "Jagiellonia",
+          "logo": "https://media.api-sports.io/football/teams/336.png",
+          "winner": null
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371996,
+        "referee": "M. Oliver",
+        "timezone": "UTC",
+        "date": "2025-05-01T19:00:00+00:00",
+        "timestamp": 1746126000,
+        "periods": {
+          "first": 1746126000,
+          "second": 1746129600
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371997,
+        "referee": "G. Nyberg",
+        "timezone": "UTC",
+        "date": "2025-05-08T19:00:00+00:00",
+        "timestamp": 1746730800,
+        "periods": {
+          "first": 1746730800,
+          "second": 1746734400
+        },
+        "venue": {
+          "id": 902,
+          "name": "Stadio Artemio Franchi",
+          "city": "Firenze"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png",
+          "winner": null
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 1
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1374899,
+        "referee": "I. Peljto",
+        "timezone": "UTC",
+        "date": "2025-05-28T19:00:00+00:00",
+        "timestamp": 1748458800,
+        "periods": {
+          "first": 1748458800,
+          "second": 1748462400
+        },
+        "venue": {
+          "id": 18628,
+          "name": "Tarczy\u0144ski Arena",
+          "city": "Wroc\u0142aw"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Final",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        },
+        "away": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

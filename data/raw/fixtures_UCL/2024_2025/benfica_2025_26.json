@@ -1,0 +1,4355 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "211"
+  },
+  "errors": [],
+  "results": 62,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1210620,
+        "referee": "H\u00e9lder Malheiro",
+        "timezone": "UTC",
+        "date": "2024-10-30T20:15:00+00:00",
+        "timestamp": 1730319300,
+        "periods": {
+          "first": 1730319300,
+          "second": 1730322900
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Ta\u00e7a da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218144,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-12T19:00:00+00:00",
+        "timestamp": 1720810800,
+        "periods": {
+          "first": 1720810800,
+          "second": 1720814400
+        },
+        "venue": {
+          "id": 3648,
+          "name": "Est\u00e1dio Municipal de \u00c1gueda",
+          "city": "\u00c1gueda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218171,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T18:00:00+00:00",
+        "timestamp": 1720893600,
+        "periods": {
+          "first": 1720893600,
+          "second": 1720897200
+        },
+        "venue": {
+          "id": 3648,
+          "name": "Est\u00e1dio Municipal de \u00c1gueda",
+          "city": "\u00c1gueda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": null
+        },
+        "away": {
+          "id": 538,
+          "name": "Celta Vigo",
+          "logo": "https://media.api-sports.io/football/teams/538.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218312,
+        "referee": "Ricardo Baixinho",
+        "timezone": "UTC",
+        "date": "2024-07-25T19:00:00+00:00",
+        "timestamp": 1721934000,
+        "periods": {
+          "first": 1721934000,
+          "second": 1721937600
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": null
+        },
+        "away": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media.api-sports.io/football/teams/55.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1219571,
+        "referee": "Lu\u00eds Godinho",
+        "timezone": "UTC",
+        "date": "2024-07-28T19:00:00+00:00",
+        "timestamp": 1722193200,
+        "periods": {
+          "first": 1722193200,
+          "second": 1722196800
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231735,
+        "referee": "F\u00e1bio Ver\u00edssimo",
+        "timezone": "UTC",
+        "date": "2024-08-11T17:00:00+00:00",
+        "timestamp": 1723395600,
+        "periods": {
+          "first": 1723395600,
+          "second": 1723399200
+        },
+        "venue": {
+          "id": 1276,
+          "name": "Est\u00e1dio Municipal 22 de Junho",
+          "city": "Vila Nova de Famalic\u00e3o"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 242,
+          "name": "Famalicao",
+          "logo": "https://media.api-sports.io/football/teams/242.png",
+          "winner": true
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231743,
+        "referee": "Iancu Vasilica",
+        "timezone": "UTC",
+        "date": "2024-08-17T19:30:00+00:00",
+        "timestamp": 1723923000,
+        "periods": {
+          "first": 1723923000,
+          "second": 1723926600
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231754,
+        "referee": "H\u00e9lder Malheiro",
+        "timezone": "UTC",
+        "date": "2024-08-24T19:30:00+00:00",
+        "timestamp": 1724527800,
+        "periods": {
+          "first": 1724527800,
+          "second": 1724531400
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 15130,
+          "name": "Estrela",
+          "logo": "https://media.api-sports.io/football/teams/15130.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231762,
+        "referee": "Andr\u00e9 Narciso",
+        "timezone": "UTC",
+        "date": "2024-08-30T19:15:00+00:00",
+        "timestamp": 1725045300,
+        "periods": {
+          "first": 1725045300,
+          "second": 1725048900
+        },
+        "venue": {
+          "id": 1280,
+          "name": "Parque Desportivo Comendador Joaquim de Almeida Freitas",
+          "city": "Moreira de C\u00f3negos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 215,
+          "name": "Moreirense",
+          "logo": "https://media.api-sports.io/football/teams/215.png",
+          "winner": null
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231772,
+        "referee": "Cl\u00e1udio Pereira",
+        "timezone": "UTC",
+        "date": "2024-09-14T19:30:00+00:00",
+        "timestamp": 1726342200,
+        "periods": {
+          "first": 1726342200,
+          "second": 1726345800
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231782,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2024-09-23T19:15:00+00:00",
+        "timestamp": 1727118900,
+        "periods": {
+          "first": 1727118900,
+          "second": 1727122500
+        },
+        "venue": {
+          "id": 1267,
+          "name": "Est\u00e1dio do Bessa S\u00e9culo XXI",
+          "city": "Porto"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 222,
+          "name": "Boavista",
+          "logo": "https://media.api-sports.io/football/teams/222.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231790,
+        "referee": "Miguel Nogueira",
+        "timezone": "UTC",
+        "date": "2024-09-28T19:30:00+00:00",
+        "timestamp": 1727551800,
+        "periods": {
+          "first": 1727551800,
+          "second": 1727555400
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231798,
+        "referee": "Gustavo Correia",
+        "timezone": "UTC",
+        "date": "2024-12-19T17:00:00+00:00",
+        "timestamp": 1734627600,
+        "periods": {
+          "first": 1734627600,
+          "second": 1734631200
+        },
+        "venue": {
+          "id": 1281,
+          "name": "Est\u00e1dio da Madeira",
+          "city": "Ilha da Madeira"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231808,
+        "referee": "Tiago Martins",
+        "timezone": "UTC",
+        "date": "2024-10-27T18:00:00+00:00",
+        "timestamp": 1730052000,
+        "periods": {
+          "first": 1730052000,
+          "second": 1730055600
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231815,
+        "referee": "Cl\u00e1udio Pereira",
+        "timezone": "UTC",
+        "date": "2024-11-02T18:00:00+00:00",
+        "timestamp": 1730570400,
+        "periods": {
+          "first": 1730570400,
+          "second": 1730574000
+        },
+        "venue": {
+          "id": 10889,
+          "name": "Est\u00e1dio Do Algarve",
+          "city": "Almancil"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231826,
+        "referee": "Jose Antonio De Almeida Pinheiro",
+        "timezone": "UTC",
+        "date": "2024-11-10T20:45:00+00:00",
+        "timestamp": 1731271500,
+        "periods": {
+          "first": 1731271500,
+          "second": 1731275100
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231835,
+        "referee": "Lu\u00eds Godinho",
+        "timezone": "UTC",
+        "date": "2024-12-01T18:00:00+00:00",
+        "timestamp": 1733076000,
+        "periods": {
+          "first": 1733076000,
+          "second": 1733079600
+        },
+        "venue": {
+          "id": 1275,
+          "name": "Est\u00e1dio Municipal de Arouca",
+          "city": "Arouca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 240,
+          "name": "Arouca",
+          "logo": "https://media.api-sports.io/football/teams/240.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231844,
+        "referee": "Miguel Nogueira",
+        "timezone": "UTC",
+        "date": "2024-12-07T18:00:00+00:00",
+        "timestamp": 1733594400,
+        "periods": {
+          "first": 1733594400,
+          "second": 1733598000
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231851,
+        "referee": "Jo\u00e3o Ferreira",
+        "timezone": "UTC",
+        "date": "2024-12-15T18:00:00+00:00",
+        "timestamp": 1734285600,
+        "periods": {
+          "first": 1734285600,
+          "second": 1734289200
+        },
+        "venue": {
+          "id": 1272,
+          "name": "Est\u00e1dio Clube Desportivo das Aves",
+          "city": "Vila das Aves"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png",
+          "winner": null
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231862,
+        "referee": "Ant\u00f3nio Nobre",
+        "timezone": "UTC",
+        "date": "2024-12-23T18:45:00+00:00",
+        "timestamp": 1734979500,
+        "periods": {
+          "first": 1734979500,
+          "second": 1734983100
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231864,
+        "referee": "F\u00e1bio Ver\u00edssimo",
+        "timezone": "UTC",
+        "date": "2024-12-29T20:30:00+00:00",
+        "timestamp": 1735504200,
+        "periods": {
+          "first": 1735504200,
+          "second": 1735507800
+        },
+        "venue": {
+          "id": 1293,
+          "name": "Est\u00e1dio Jos\u00e9 Alvalade",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": true
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231880,
+        "referee": "Lu\u00eds Godinho",
+        "timezone": "UTC",
+        "date": "2025-01-04T18:00:00+00:00",
+        "timestamp": 1736013600,
+        "periods": {
+          "first": 1736013600,
+          "second": 1736017200
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        },
+        "away": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231886,
+        "referee": "Jo\u00e3o Ferreira",
+        "timezone": "UTC",
+        "date": "2025-01-17T20:15:00+00:00",
+        "timestamp": 1737144900,
+        "periods": {
+          "first": 1737144900,
+          "second": 1737148500
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 242,
+          "name": "Famalicao",
+          "logo": "https://media.api-sports.io/football/teams/242.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231896,
+        "referee": "Ant\u00f3nio Nobre",
+        "timezone": "UTC",
+        "date": "2025-01-25T18:00:00+00:00",
+        "timestamp": 1737828000,
+        "periods": {
+          "first": 1737828000,
+          "second": 1737831600
+        },
+        "venue": {
+          "id": 3565,
+          "name": "Est\u00e1dio Municipal de Rio Maior",
+          "city": "Rio Maior"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png",
+          "winner": true
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231905,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2025-02-02T20:30:00+00:00",
+        "timestamp": 1738528200,
+        "periods": {
+          "first": 1738528200,
+          "second": 1738531800
+        },
+        "venue": {
+          "id": 19187,
+          "name": "Est\u00e1dio Jos\u00e9 Gomes",
+          "city": "Amadora"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 15130,
+          "name": "Estrela",
+          "logo": "https://media.api-sports.io/football/teams/15130.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231915,
+        "referee": "Bruno Pires Costa",
+        "timezone": "UTC",
+        "date": "2025-02-08T18:00:00+00:00",
+        "timestamp": 1739037600,
+        "periods": {
+          "first": 1739037600,
+          "second": 1739041200
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 215,
+          "name": "Moreirense",
+          "logo": "https://media.api-sports.io/football/teams/215.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231923,
+        "referee": "H\u00e9lder Malheiro",
+        "timezone": "UTC",
+        "date": "2025-02-15T18:00:00+00:00",
+        "timestamp": 1739642400,
+        "periods": {
+          "first": 1739642400,
+          "second": 1739646000
+        },
+        "venue": {
+          "id": 1289,
+          "name": "Est\u00e1dio de S\u00e3o Miguel",
+          "city": "Ponta Delgada, Ilha de S\u00e3o Miguel, A\u00e7ores"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231935,
+        "referee": "Jos\u00e9 Bessa",
+        "timezone": "UTC",
+        "date": "2025-02-22T18:00:00+00:00",
+        "timestamp": 1740247200,
+        "periods": {
+          "first": 1740247200,
+          "second": 1740250800
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 222,
+          "name": "Boavista",
+          "logo": "https://media.api-sports.io/football/teams/222.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231943,
+        "referee": "Miguel Nogueira",
+        "timezone": "UTC",
+        "date": "2025-03-28T20:15:00+00:00",
+        "timestamp": 1743192900,
+        "periods": {
+          "first": 1743192900,
+          "second": 1743196500
+        },
+        "venue": {
+          "id": 2811,
+          "name": "Est\u00e1dio Cidade de Barcelos",
+          "city": "Barcelos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231951,
+        "referee": "Andr\u00e9 Narciso",
+        "timezone": "UTC",
+        "date": "2025-03-08T18:00:00+00:00",
+        "timestamp": 1741456800,
+        "periods": {
+          "first": 1741456800,
+          "second": 1741460400
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231961,
+        "referee": "Jo\u00e3o Ferreira",
+        "timezone": "UTC",
+        "date": "2025-03-16T18:00:00+00:00",
+        "timestamp": 1742148000,
+        "periods": {
+          "first": 1742148000,
+          "second": 1742151600
+        },
+        "venue": {
+          "id": 1288,
+          "name": "Est\u00e1dio do Rio Ave Futebol Clube",
+          "city": "Vila do Conde"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231971,
+        "referee": "H\u00e9lder Carvalho",
+        "timezone": "UTC",
+        "date": "2025-04-02T19:15:00+00:00",
+        "timestamp": 1743621300,
+        "periods": {
+          "first": 1743621300,
+          "second": 1743624900
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231977,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2025-04-06T19:30:00+00:00",
+        "timestamp": 1743967800,
+        "periods": {
+          "first": 1743967800,
+          "second": 1743971400
+        },
+        "venue": {
+          "id": 1286,
+          "name": "Est\u00e1dio Do Drag\u00e3o",
+          "city": "Porto"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231986,
+        "referee": "Ant\u00f3nio Nobre",
+        "timezone": "UTC",
+        "date": "2025-04-13T17:00:00+00:00",
+        "timestamp": 1744563600,
+        "periods": {
+          "first": 1744563600,
+          "second": 1744567200
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": null
+        },
+        "away": {
+          "id": 240,
+          "name": "Arouca",
+          "logo": "https://media.api-sports.io/football/teams/240.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231997,
+        "referee": "Gustavo Correia",
+        "timezone": "UTC",
+        "date": "2025-04-19T19:30:00+00:00",
+        "timestamp": 1745091000,
+        "periods": {
+          "first": 1745091000,
+          "second": 1745094600
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1232007,
+        "referee": "Carlos Macedo",
+        "timezone": "UTC",
+        "date": "2025-04-27T17:00:00+00:00",
+        "timestamp": 1745773200,
+        "periods": {
+          "first": 1745773200,
+          "second": 1745776800
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1232015,
+        "referee": "Jo\u00e3o Ferreira",
+        "timezone": "UTC",
+        "date": "2025-05-03T19:30:00+00:00",
+        "timestamp": 1746300600,
+        "periods": {
+          "first": 1746300600,
+          "second": 1746304200
+        },
+        "venue": {
+          "id": 1274,
+          "name": "Est\u00e1dio Ant\u00f3nio Coimbra da Mota",
+          "city": "Estoril"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1232017,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2025-05-10T17:00:00+00:00",
+        "timestamp": 1746896400,
+        "periods": {
+          "first": 1746896400,
+          "second": 1746900000
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": null
+        },
+        "away": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1232031,
+        "referee": "Miguel Nogueira",
+        "timezone": "UTC",
+        "date": "2025-05-17T17:00:00+00:00",
+        "timestamp": 1747501200,
+        "periods": {
+          "first": 1747501200,
+          "second": 1747504800
+        },
+        "venue": {
+          "id": 1291,
+          "name": "Est\u00e1dio Municipal de Braga",
+          "city": "Braga"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": null
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1245555,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-21T13:30:00+00:00",
+        "timestamp": 1721568600,
+        "periods": {
+          "first": 1721568600,
+          "second": 1721572200
+        },
+        "venue": {
+          "id": 10664,
+          "name": "Stade Joseph Moynat",
+          "city": "Thonon-les-Bains"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1268892,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-02T19:00:00+00:00",
+        "timestamp": 1722625200,
+        "periods": {
+          "first": 1722625200,
+          "second": 1722628800
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio Do Algarve",
+          "city": "Almancil"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        },
+        "away": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1298996,
+        "referee": "M. Oliver",
+        "timezone": "UTC",
+        "date": "2024-09-19T16:45:00+00:00",
+        "timestamp": 1726764300,
+        "periods": {
+          "first": 1726764300,
+          "second": 1726767900
+        },
+        "venue": {
+          "id": 1406,
+          "name": "Stadion Rajko Miti\u0107",
+          "city": "Beograd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299014,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2024-10-02T19:00:00+00:00",
+        "timestamp": 1727895600,
+        "periods": {
+          "first": 1727895600,
+          "second": 1727899200
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299033,
+        "referee": "H. Meler",
+        "timezone": "UTC",
+        "date": "2024-10-23T19:00:00+00:00",
+        "timestamp": 1729710000,
+        "periods": {
+          "first": 1729710000,
+          "second": 1729713600
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        },
+        "away": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299050,
+        "referee": "D. Massa",
+        "timezone": "UTC",
+        "date": "2024-11-06T20:00:00+00:00",
+        "timestamp": 1730923200,
+        "periods": {
+          "first": 1730923200,
+          "second": 1730926800
+        },
+        "venue": {
+          "id": 700,
+          "name": "Allianz Arena",
+          "city": "M\u00fcnchen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png",
+          "winner": true
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299072,
+        "referee": "R. Obrenovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-11-27T20:00:00+00:00",
+        "timestamp": 1732737600,
+        "periods": {
+          "first": 1732737600,
+          "second": 1732741200
+        },
+        "venue": {
+          "id": 20470,
+          "name": "Stade Louis-II",
+          "city": "Monaco"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media.api-sports.io/football/teams/91.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299085,
+        "referee": "R. Petrescu",
+        "timezone": "UTC",
+        "date": "2024-12-11T20:00:00+00:00",
+        "timestamp": 1733947200,
+        "periods": {
+          "first": 1733947200,
+          "second": 1733950800
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": null
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299095,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2025-01-21T20:00:00+00:00",
+        "timestamp": 1737489600,
+        "periods": {
+          "first": 1737489600,
+          "second": 1737493200
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        },
+        "away": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299120,
+        "referee": "I. Kov\u00e1cs",
+        "timezone": "UTC",
+        "date": "2025-01-29T20:00:00+00:00",
+        "timestamp": 1738180800,
+        "periods": {
+          "first": 1738180800,
+          "second": 1738184400
+        },
+        "venue": {
+          "id": 909,
+          "name": "Allianz Stadium",
+          "city": "Torino"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1308767,
+        "referee": "David Silva",
+        "timezone": "UTC",
+        "date": "2024-10-19T19:15:00+00:00",
+        "timestamp": 1729365300,
+        "periods": {
+          "first": 1729365300,
+          "second": 1729368900
+        },
+        "venue": {
+          "id": 1280,
+          "name": "Parque Desportivo Comendador Joaquim de Almeida Freitas",
+          "city": "Moreira de C\u00f3negos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 96,
+        "name": "Ta\u00e7a de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 6362,
+          "name": "Pevidem",
+          "logo": "https://media.api-sports.io/football/teams/6362.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1312962,
+        "referee": "Andr\u00e9 Narciso",
+        "timezone": "UTC",
+        "date": "2024-11-23T20:45:00+00:00",
+        "timestamp": 1732394700,
+        "periods": {
+          "first": 1732394700,
+          "second": 1732398300
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 96,
+        "name": "Ta\u00e7a de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 15130,
+          "name": "Estrela",
+          "logo": "https://media.api-sports.io/football/teams/15130.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 7,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 7,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314357,
+        "referee": "Cl\u00e1udio Pereira",
+        "timezone": "UTC",
+        "date": "2025-01-08T19:45:00+00:00",
+        "timestamp": 1736365500,
+        "periods": {
+          "first": 1736365500,
+          "second": 1736369100
+        },
+        "venue": {
+          "id": 3514,
+          "name": "Est\u00e1dio Dr. Magalh\u00e3es Pessoa",
+          "city": "Leiria"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Ta\u00e7a da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1316616,
+        "referee": "H\u00e9lder Malheiro",
+        "timezone": "UTC",
+        "date": "2025-01-14T20:15:00+00:00",
+        "timestamp": 1736885700,
+        "periods": {
+          "first": 1736885700,
+          "second": 1736889300
+        },
+        "venue": {
+          "id": 1290,
+          "name": "Est\u00e1dio de S\u00e3o L\u00fais",
+          "city": "Faro"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 96,
+        "name": "Ta\u00e7a de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1334027,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2025-01-11T19:45:00+00:00",
+        "timestamp": 1736624700,
+        "periods": {
+          "first": 1736624700,
+          "second": 1736628300
+        },
+        "venue": {
+          "id": 3514,
+          "name": "Est\u00e1dio Dr. Magalh\u00e3es Pessoa",
+          "city": "Leiria"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Ta\u00e7a da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 6,
+          "away": 7
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1336205,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2025-02-26T20:45:00+00:00",
+        "timestamp": 1740602700,
+        "periods": {
+          "first": 1740602700,
+          "second": 1740606300
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 96,
+        "name": "Ta\u00e7a de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345749,
+        "referee": "M. Mariani",
+        "timezone": "UTC",
+        "date": "2025-02-12T20:00:00+00:00",
+        "timestamp": 1739390400,
+        "periods": {
+          "first": 1739390400,
+          "second": 1739394000
+        },
+        "venue": {
+          "id": 20470,
+          "name": "Stade Louis-II",
+          "city": "Monaco"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media.api-sports.io/football/teams/91.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345750,
+        "referee": "G. Nyberg",
+        "timezone": "UTC",
+        "date": "2025-02-18T20:00:00+00:00",
+        "timestamp": 1739908800,
+        "periods": {
+          "first": 1739908800,
+          "second": 1739912400
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": null
+        },
+        "away": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media.api-sports.io/football/teams/91.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353176,
+        "referee": "F. Zwayer",
+        "timezone": "UTC",
+        "date": "2025-03-05T20:00:00+00:00",
+        "timestamp": 1741204800,
+        "periods": {
+          "first": 1741204800,
+          "second": 1741208400
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        },
+        "away": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353177,
+        "referee": "F. Letexier",
+        "timezone": "UTC",
+        "date": "2025-03-11T17:45:00+00:00",
+        "timestamp": 1741715100,
+        "periods": {
+          "first": 1741715100,
+          "second": 1741718700
+        },
+        "venue": {
+          "id": 19939,
+          "name": "Estadi Ol\u00edmpic Llu\u00eds Companys",
+          "city": "Barcelona"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png",
+          "winner": true
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1355268,
+        "referee": "David Silva",
+        "timezone": "UTC",
+        "date": "2025-04-09T19:45:00+00:00",
+        "timestamp": 1744227900,
+        "periods": {
+          "first": 1744227900,
+          "second": 1744231500
+        },
+        "venue": {
+          "id": 2811,
+          "name": "Est\u00e1dio Cidade de Barcelos",
+          "city": "Barcelos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 96,
+        "name": "Ta\u00e7a de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 15128,
+          "name": "Tirsense",
+          "logo": "https://media.api-sports.io/football/teams/15128.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1355269,
+        "referee": "Bruno Pires Costa",
+        "timezone": "UTC",
+        "date": "2025-04-23T19:15:00+00:00",
+        "timestamp": 1745435700,
+        "periods": {
+          "first": 1745435700,
+          "second": 1745439300
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 96,
+        "name": "Ta\u00e7a de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 15128,
+          "name": "Tirsense",
+          "logo": "https://media.api-sports.io/football/teams/15128.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372957,
+        "referee": "Lu\u00eds Godinho",
+        "timezone": "UTC",
+        "date": "2025-05-25T16:15:00+00:00",
+        "timestamp": 1748189700,
+        "periods": {
+          "first": 1748189700,
+          "second": 1748193300
+        },
+        "venue": {
+          "id": 1262,
+          "name": "Est\u00e1dio Nacional",
+          "city": "Jamor, Oeiras"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 96,
+        "name": "Ta\u00e7a de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        },
+        "away": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 2
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

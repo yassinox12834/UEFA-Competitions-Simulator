@@ -1,0 +1,4355 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "201"
+  },
+  "errors": [],
+  "results": 62,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1156145,
+        "referee": "Jos\u00e9 Guzm\u00e1n",
+        "timezone": "UTC",
+        "date": "2024-01-06T14:00:00+00:00",
+        "timestamp": 1704549600,
+        "periods": {
+          "first": 1704549600,
+          "second": 1704553200
+        },
+        "venue": {
+          "id": null,
+          "name": "Ban\u00fas Football Center",
+          "city": "Marbella"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 165,
+          "name": "Borussia Dortmund",
+          "logo": "https://media.api-sports.io/football/teams/165.png",
+          "winner": null
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1207307,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T12:00:00+00:00",
+        "timestamp": 1720872000,
+        "periods": {
+          "first": 1720872000,
+          "second": 1720875600
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 196,
+          "name": "Excelsior",
+          "logo": "https://media.api-sports.io/football/teams/196.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 8,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 8,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212858,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-20T12:00:00+00:00",
+        "timestamp": 1721476800,
+        "periods": {
+          "first": 1721476800,
+          "second": 1721480400
+        },
+        "venue": {
+          "id": null,
+          "name": "Sportpark Overdie",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 734,
+          "name": "Kortrijk",
+          "logo": "https://media.api-sports.io/football/teams/734.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213444,
+        "referee": "M. van den Kerkhof",
+        "timezone": "UTC",
+        "date": "2024-08-10T18:00:00+00:00",
+        "timestamp": 1723312800,
+        "periods": {
+          "first": 1723312800,
+          "second": 1723316400
+        },
+        "venue": {
+          "id": 1141,
+          "name": "Yanmar Stadion",
+          "city": "Almere"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 419,
+          "name": "Almere City FC",
+          "logo": "https://media.api-sports.io/football/teams/419.png",
+          "winner": false
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213453,
+        "referee": "E. van de Graaf",
+        "timezone": "UTC",
+        "date": "2024-08-17T18:00:00+00:00",
+        "timestamp": 1723917600,
+        "periods": {
+          "first": 1723917600,
+          "second": 1723921200
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213464,
+        "referee": "J. Manschot",
+        "timezone": "UTC",
+        "date": "2024-08-25T10:15:00+00:00",
+        "timestamp": 1724580900,
+        "periods": {
+          "first": 1724580900,
+          "second": 1724584500
+        },
+        "venue": {
+          "id": 12276,
+          "name": "Euroborg",
+          "city": "Groningen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 202,
+          "name": "Groningen",
+          "logo": "https://media.api-sports.io/football/teams/202.png",
+          "winner": null
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213468,
+        "referee": "R. Dieperink",
+        "timezone": "UTC",
+        "date": "2024-08-30T18:00:00+00:00",
+        "timestamp": 1725040800,
+        "periods": {
+          "first": 1725040800,
+          "second": 1725044400
+        },
+        "venue": {
+          "id": 1144,
+          "name": "Mandemakers Stadion",
+          "city": "Waalwijk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 417,
+          "name": "Waalwijk",
+          "logo": "https://media.api-sports.io/football/teams/417.png",
+          "winner": false
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213480,
+        "referee": "S. van der Eijk",
+        "timezone": "UTC",
+        "date": "2024-09-14T19:00:00+00:00",
+        "timestamp": 1726340400,
+        "periods": {
+          "first": 1726340400,
+          "second": 1726344000
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 210,
+          "name": "Heerenveen",
+          "logo": "https://media.api-sports.io/football/teams/210.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 9,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 9,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213486,
+        "referee": "I. Oostrom",
+        "timezone": "UTC",
+        "date": "2024-09-20T18:00:00+00:00",
+        "timestamp": 1726855200,
+        "periods": {
+          "first": 1726855200,
+          "second": 1726858800
+        },
+        "venue": {
+          "id": 1160,
+          "name": "MAC\u00b3PARK Stadion",
+          "city": "Zwolle"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png",
+          "winner": false
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213503,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2024-09-29T18:00:00+00:00",
+        "timestamp": 1727632800,
+        "periods": {
+          "first": 1727632800,
+          "second": 1727636400
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        },
+        "away": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213512,
+        "referee": "J. Kamphuis",
+        "timezone": "UTC",
+        "date": "2024-10-06T18:00:00+00:00",
+        "timestamp": 1728237600,
+        "periods": {
+          "first": 1728237600,
+          "second": 1728241200
+        },
+        "venue": {
+          "id": 1129,
+          "name": "Fortuna Sittard Stadion",
+          "city": "Sittard"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 205,
+          "name": "Fortuna Sittard",
+          "logo": "https://media.api-sports.io/football/teams/205.png",
+          "winner": true
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213514,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2024-10-19T16:45:00+00:00",
+        "timestamp": 1729356300,
+        "periods": {
+          "first": 1729356300,
+          "second": 1729359900
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213528,
+        "referee": "R. Martens",
+        "timezone": "UTC",
+        "date": "2024-10-27T19:00:00+00:00",
+        "timestamp": 1730055600,
+        "periods": {
+          "first": 1730055600,
+          "second": 1730059200
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        },
+        "away": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213531,
+        "referee": "D. Higler",
+        "timezone": "UTC",
+        "date": "2024-11-02T20:00:00+00:00",
+        "timestamp": 1730577600,
+        "periods": {
+          "first": 1730577600,
+          "second": 1730581200
+        },
+        "venue": {
+          "id": 1128,
+          "name": "Stadion Feijenoord",
+          "city": "Rotterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png",
+          "winner": true
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213548,
+        "referee": "J. Kooij",
+        "timezone": "UTC",
+        "date": "2024-11-10T15:45:00+00:00",
+        "timestamp": 1731253500,
+        "periods": {
+          "first": 1731253500,
+          "second": 1731257100
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        },
+        "away": {
+          "id": 195,
+          "name": "Willem II",
+          "logo": "https://media.api-sports.io/football/teams/195.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213555,
+        "referee": "J. van der Laan",
+        "timezone": "UTC",
+        "date": "2024-11-24T13:30:00+00:00",
+        "timestamp": 1732455000,
+        "periods": {
+          "first": 1732455000,
+          "second": 1732458600
+        },
+        "venue": {
+          "id": 10505,
+          "name": "Sparta-Stadion Het Kasteel",
+          "city": "Rotterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png",
+          "winner": false
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213564,
+        "referee": "E. Blank",
+        "timezone": "UTC",
+        "date": "2024-12-01T13:30:00+00:00",
+        "timestamp": 1733059800,
+        "periods": {
+          "first": 1733059800,
+          "second": 1733063400
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213568,
+        "referee": "M. Nagtegaal",
+        "timezone": "UTC",
+        "date": "2024-12-08T13:30:00+00:00",
+        "timestamp": 1733664600,
+        "periods": {
+          "first": 1733664600,
+          "second": 1733668200
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213582,
+        "referee": "E. van de Graaf",
+        "timezone": "UTC",
+        "date": "2024-12-15T19:00:00+00:00",
+        "timestamp": 1734289200,
+        "periods": {
+          "first": 1734289200,
+          "second": 1734292800
+        },
+        "venue": {
+          "id": 1139,
+          "name": "Rat Verlegh Stadion",
+          "city": "Breda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png",
+          "winner": false
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213586,
+        "referee": "J. Kooij",
+        "timezone": "UTC",
+        "date": "2024-12-21T19:00:00+00:00",
+        "timestamp": 1734807600,
+        "periods": {
+          "first": 1734807600,
+          "second": 1734811200
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 415,
+          "name": "Twente",
+          "logo": "https://media.api-sports.io/football/teams/415.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213602,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2025-01-11T20:00:00+00:00",
+        "timestamp": 1736625600,
+        "periods": {
+          "first": 1736625600,
+          "second": 1736629200
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213604,
+        "referee": "D. Higler",
+        "timezone": "UTC",
+        "date": "2025-01-18T17:45:00+00:00",
+        "timestamp": 1737222300,
+        "periods": {
+          "first": 1737222300,
+          "second": 1737225900
+        },
+        "venue": {
+          "id": 1154,
+          "name": "Stadion Galgenwaard",
+          "city": "Utrecht"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png",
+          "winner": null
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213613,
+        "referee": "R. Dieperink",
+        "timezone": "UTC",
+        "date": "2025-01-26T15:45:00+00:00",
+        "timestamp": 1737906300,
+        "periods": {
+          "first": 1737906300,
+          "second": 1737909900
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        },
+        "away": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213629,
+        "referee": "M. Nagtegaal",
+        "timezone": "UTC",
+        "date": "2025-02-02T19:00:00+00:00",
+        "timestamp": 1738522800,
+        "periods": {
+          "first": 1738522800,
+          "second": 1738526400
+        },
+        "venue": {
+          "id": 1159,
+          "name": "Koning Willem II Stadion",
+          "city": "Tilburg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 195,
+          "name": "Willem II",
+          "logo": "https://media.api-sports.io/football/teams/195.png",
+          "winner": false
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213630,
+        "referee": "S. van der Eijk",
+        "timezone": "UTC",
+        "date": "2025-02-09T15:45:00+00:00",
+        "timestamp": 1739115900,
+        "periods": {
+          "first": 1739115900,
+          "second": 1739119500
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213640,
+        "referee": "J. van der Laan",
+        "timezone": "UTC",
+        "date": "2025-02-23T15:45:00+00:00",
+        "timestamp": 1740325500,
+        "periods": {
+          "first": 1740325500,
+          "second": 1740329100
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 205,
+          "name": "Fortuna Sittard",
+          "logo": "https://media.api-sports.io/football/teams/205.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213655,
+        "referee": "A. Bos",
+        "timezone": "UTC",
+        "date": "2025-03-02T11:15:00+00:00",
+        "timestamp": 1740914100,
+        "periods": {
+          "first": 1740914100,
+          "second": 1740917700
+        },
+        "venue": {
+          "id": 1132,
+          "name": "Abe Lenstra Stadion",
+          "city": "Heerenveen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 210,
+          "name": "Heerenveen",
+          "logo": "https://media.api-sports.io/football/teams/210.png",
+          "winner": true
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213657,
+        "referee": "R. Dieperink",
+        "timezone": "UTC",
+        "date": "2025-04-01T18:00:00+00:00",
+        "timestamp": 1743530400,
+        "periods": {
+          "first": 1743530400,
+          "second": 1743534000
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        },
+        "away": {
+          "id": 417,
+          "name": "Waalwijk",
+          "logo": "https://media.api-sports.io/football/teams/417.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213666,
+        "referee": "D. Higler",
+        "timezone": "UTC",
+        "date": "2025-03-16T15:45:00+00:00",
+        "timestamp": 1742139900,
+        "periods": {
+          "first": 1742139900,
+          "second": 1742143500
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": null
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213679,
+        "referee": "E. Blank",
+        "timezone": "UTC",
+        "date": "2025-03-29T20:00:00+00:00",
+        "timestamp": 1743278400,
+        "periods": {
+          "first": 1743278400,
+          "second": 1743282000
+        },
+        "venue": {
+          "id": 1140,
+          "name": "Goffertstadion",
+          "city": "Nijmegen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png",
+          "winner": null
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213686,
+        "referee": "J. Manschot",
+        "timezone": "UTC",
+        "date": "2025-04-05T14:30:00+00:00",
+        "timestamp": 1743863400,
+        "periods": {
+          "first": 1743863400,
+          "second": 1743867000
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        },
+        "away": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213695,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-04-13T12:30:00+00:00",
+        "timestamp": 1744547400,
+        "periods": {
+          "first": 1744547400,
+          "second": 1744551000
+        },
+        "venue": {
+          "id": 11906,
+          "name": "Asito Stadion",
+          "city": "Almelo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png",
+          "winner": true
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213704,
+        "referee": "M. van den Kerkhof",
+        "timezone": "UTC",
+        "date": "2025-04-24T16:45:00+00:00",
+        "timestamp": 1745513100,
+        "periods": {
+          "first": 1745513100,
+          "second": 1745516700
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        },
+        "away": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213713,
+        "referee": "B. Nijhuis",
+        "timezone": "UTC",
+        "date": "2025-05-04T12:30:00+00:00",
+        "timestamp": 1746361800,
+        "periods": {
+          "first": 1746361800,
+          "second": 1746365400
+        },
+        "venue": {
+          "id": 1130,
+          "name": "De Adelaarshorst",
+          "city": "Deventer"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": false
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213722,
+        "referee": "S. van der Eijk",
+        "timezone": "UTC",
+        "date": "2025-05-11T14:45:00+00:00",
+        "timestamp": 1746974700,
+        "periods": {
+          "first": 1746974700,
+          "second": 1746978300
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 202,
+          "name": "Groningen",
+          "logo": "https://media.api-sports.io/football/teams/202.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213731,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2025-05-14T18:00:00+00:00",
+        "timestamp": 1747245600,
+        "periods": {
+          "first": 1747245600,
+          "second": 1747249200
+        },
+        "venue": {
+          "id": 1153,
+          "name": "De Grolsch Veste",
+          "city": "Enschede"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 415,
+          "name": "Twente",
+          "logo": "https://media.api-sports.io/football/teams/415.png",
+          "winner": false
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213739,
+        "referee": "I. Oostrom",
+        "timezone": "UTC",
+        "date": "2025-05-18T12:30:00+00:00",
+        "timestamp": 1747571400,
+        "periods": {
+          "first": 1747571400,
+          "second": 1747575000
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        },
+        "away": {
+          "id": 419,
+          "name": "Almere City FC",
+          "logo": "https://media.api-sports.io/football/teams/419.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218010,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-28T09:30:00+00:00",
+        "timestamp": 1719567000,
+        "periods": {
+          "first": 1719567000,
+          "second": 1719570600
+        },
+        "venue": {
+          "id": 1136,
+          "name": "AFAS Trainingscomplex",
+          "city": "Wijdewormer"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 575,
+          "name": "AEK Athens FC",
+          "logo": "https://media.api-sports.io/football/teams/575.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218385,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-27T13:00:00+00:00",
+        "timestamp": 1722085200,
+        "periods": {
+          "first": 1722085200,
+          "second": 1722088800
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225695,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-24T16:30:00+00:00",
+        "timestamp": 1721838600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "Sportpark vv Dirkshorn",
+          "city": "Dirkshorn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1123,
+          "name": "Aris Thessalonikis",
+          "logo": "https://media.api-sports.io/football/teams/1123.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225706,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-31T17:00:00+00:00",
+        "timestamp": 1722445200,
+        "periods": {
+          "first": 1722445200,
+          "second": 1722448800
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        },
+        "away": {
+          "id": 111,
+          "name": "Le Havre",
+          "logo": "https://media.api-sports.io/football/teams/111.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225798,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-03T14:00:00+00:00",
+        "timestamp": 1722693600,
+        "periods": {
+          "first": 1722693600,
+          "second": 1722697200
+        },
+        "venue": {
+          "id": 588,
+          "name": "bet365 Stadium",
+          "city": "Stoke-on-Trent, Staffordshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 75,
+          "name": "Stoke City",
+          "logo": "https://media.api-sports.io/football/teams/75.png",
+          "winner": false
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1252989,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-21T12:00:00+00:00",
+        "timestamp": 1721563200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "Sportpark de Bundel",
+          "city": "Zeeland"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "Canc",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        },
+        "away": {
+          "id": 192,
+          "name": "1. FC K\u00f6ln",
+          "logo": "https://media.api-sports.io/football/teams/192.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299128,
+        "referee": "J. Xhaja",
+        "timezone": "UTC",
+        "date": "2024-09-25T16:45:00+00:00",
+        "timestamp": 1727282700,
+        "periods": {
+          "first": 1727282700,
+          "second": 1727286300
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 372,
+          "name": "IF Elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299155,
+        "referee": "B. Berke",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 1460,
+          "name": "San Mam\u00e9s Barria",
+          "city": "Bilbao"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png",
+          "winner": true
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299181,
+        "referee": "M. Lukjan\u010dukas",
+        "timezone": "UTC",
+        "date": "2024-10-24T19:00:00+00:00",
+        "timestamp": 1729796400,
+        "periods": {
+          "first": 1729796400,
+          "second": 1729800000
+        },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png",
+          "winner": true
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299193,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2024-11-07T20:00:00+00:00",
+        "timestamp": 1731009600,
+        "periods": {
+          "first": 1731009600,
+          "second": 1731013200
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299201,
+        "referee": "H. Fe\u0219nic",
+        "timezone": "UTC",
+        "date": "2024-11-28T17:45:00+00:00",
+        "timestamp": 1732815900,
+        "periods": {
+          "first": 1732815900,
+          "second": 1732819500
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299219,
+        "referee": "K. Tohver",
+        "timezone": "UTC",
+        "date": "2024-12-12T17:45:00+00:00",
+        "timestamp": 1734025500,
+        "periods": {
+          "first": 1734025500,
+          "second": 1734029100
+        },
+        "venue": {
+          "id": 10547,
+          "name": "Huvepharma Arena",
+          "city": "Razgrad"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png",
+          "winner": null
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299238,
+        "referee": "I. Peljto",
+        "timezone": "UTC",
+        "date": "2025-01-23T17:45:00+00:00",
+        "timestamp": 1737654300,
+        "periods": {
+          "first": 1737654300,
+          "second": 1737657900
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 497,
+          "name": "AS Roma",
+          "logo": "https://media.api-sports.io/football/teams/497.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299260,
+        "referee": "N. Minakovi\u0107",
+        "timezone": "UTC",
+        "date": "2025-01-30T20:00:00+00:00",
+        "timestamp": 1738267200,
+        "periods": {
+          "first": 1738267200,
+          "second": 1738270800
+        },
+        "venue": {
+          "id": 799,
+          "name": "Groupama Ar\u00e9na",
+          "city": "Budapest"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png",
+          "winner": true
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314674,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2024-12-18T20:00:00+00:00",
+        "timestamp": 1734552000,
+        "periods": {
+          "first": 1734552000,
+          "second": 1734555600
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/90.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 202,
+          "name": "Groningen",
+          "logo": "https://media.api-sports.io/football/teams/202.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327590,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-01-14T17:45:00+00:00",
+        "timestamp": 1736876700,
+        "periods": {
+          "first": 1736876700,
+          "second": 1736880300
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/90.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338277,
+        "referee": "B. Nijhuis",
+        "timezone": "UTC",
+        "date": "2025-02-06T19:00:00+00:00",
+        "timestamp": 1738868400,
+        "periods": {
+          "first": 1738868400,
+          "second": 1738872000
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/90.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1272,
+          "name": "Quick Boys",
+          "logo": "https://media.api-sports.io/football/teams/1272.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345763,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2025-02-13T20:00:00+00:00",
+        "timestamp": 1739476800,
+        "periods": {
+          "first": 1739476800,
+          "second": 1739480400
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345764,
+        "referee": "A. Taylor",
+        "timezone": "UTC",
+        "date": "2025-02-20T17:45:00+00:00",
+        "timestamp": 1740073500,
+        "periods": {
+          "first": 1740073500,
+          "second": 1740077100
+        },
+        "venue": {
+          "id": null,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1349129,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-02-27T19:00:00+00:00",
+        "timestamp": 1740682800,
+        "periods": {
+          "first": 1740682800,
+          "second": 1740686400
+        },
+        "venue": {
+          "id": null,
+          "name": "Asito Stadion",
+          "city": "Almelo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/90.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png",
+          "winner": false
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 3,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353186,
+        "referee": "R. Obrenovi\u0107",
+        "timezone": "UTC",
+        "date": "2025-03-06T17:45:00+00:00",
+        "timestamp": 1741283100,
+        "periods": {
+          "first": 1741283100,
+          "second": 1741286700
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353187,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2025-03-13T20:00:00+00:00",
+        "timestamp": 1741896000,
+        "periods": {
+          "first": 1741896000,
+          "second": 1741899600
+        },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png",
+          "winner": true
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1355654,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2025-04-21T16:00:00+00:00",
+        "timestamp": 1745251200,
+        "periods": {
+          "first": 1745251200,
+          "second": 1745254800
+        },
+        "venue": {
+          "id": 1128,
+          "name": "Stadion Feijenoord",
+          "city": "Rotterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/90.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        },
+        "away": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 2,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1375839,
+        "referee": "M. Nagtegaal",
+        "timezone": "UTC",
+        "date": "2025-05-22T16:45:00+00:00",
+        "timestamp": 1747932300,
+        "periods": {
+          "first": 1747932300,
+          "second": 1747935900
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Conference League Play-offs - Semi-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 210,
+          "name": "Heerenveen",
+          "logo": "https://media.api-sports.io/football/teams/210.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1376257,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-05-25T16:00:00+00:00",
+        "timestamp": 1748188800,
+        "periods": {
+          "first": 1748188800,
+          "second": 1748192400
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Conference League Play-offs - Final",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 415,
+          "name": "Twente",
+          "logo": "https://media.api-sports.io/football/teams/415.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

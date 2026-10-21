@@ -1,0 +1,4075 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "224"
+  },
+  "errors": [],
+  "results": 58,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1210622,
+        "referee": "F\u00e1bio Ver\u00edssimo",
+        "timezone": "UTC",
+        "date": "2024-10-31T18:45:00+00:00",
+        "timestamp": 1730400300,
+        "periods": {
+          "first": 1730400300,
+          "second": 1730403900
+        },
+        "venue": {
+          "id": 1291,
+          "name": "Est\u00e1dio Municipal de Braga",
+          "city": "Braga"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Ta\u00e7a da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": true
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218076,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-06T09:00:00+00:00",
+        "timestamp": 1720256400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4801,
+          "name": "Trofense",
+          "logo": "https://media.api-sports.io/football/teams/4801.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218117,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-10T12:00:00+00:00",
+        "timestamp": 1720612800,
+        "periods": {
+          "first": 1720612800,
+          "second": 1720616400
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218147,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T11:00:00+00:00",
+        "timestamp": 1720868400,
+        "periods": {
+          "first": 1720868400,
+          "second": 1720872000
+        },
+        "venue": {
+          "id": null,
+          "name": "The Campus",
+          "city": "Quinta do Lago"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1230566,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-10T00:00:00+00:00",
+        "timestamp": 1720569600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 216,
+          "name": "Portimonense",
+          "logo": "https://media.api-sports.io/football/teams/216.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1230596,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-17T00:00:00+00:00",
+        "timestamp": 1721174400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        },
+        "away": {
+          "id": 244,
+          "name": "Leixoes",
+          "logo": "https://media.api-sports.io/football/teams/244.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1230607,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-20T18:30:00+00:00",
+        "timestamp": 1721500200,
+        "periods": {
+          "first": 1721500200,
+          "second": 1721503800
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 728,
+          "name": "Rayo Vallecano",
+          "logo": "https://media.api-sports.io/football/teams/728.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231734,
+        "referee": "Gustavo Correia",
+        "timezone": "UTC",
+        "date": "2024-08-12T19:15:00+00:00",
+        "timestamp": 1723490100,
+        "periods": {
+          "first": 1723490100,
+          "second": 1723493700
+        },
+        "venue": {
+          "id": 1275,
+          "name": "Est\u00e1dio Municipal de Arouca",
+          "city": "Arouca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 240,
+          "name": "Arouca",
+          "logo": "https://media.api-sports.io/football/teams/240.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231738,
+        "referee": "Andr\u00e9 Narciso",
+        "timezone": "UTC",
+        "date": "2024-08-18T17:00:00+00:00",
+        "timestamp": 1724000400,
+        "periods": {
+          "first": 1724000400,
+          "second": 1724004000
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231747,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2024-08-25T19:30:00+00:00",
+        "timestamp": 1724614200,
+        "periods": {
+          "first": 1724614200,
+          "second": 1724617800
+        },
+        "venue": {
+          "id": 1272,
+          "name": "Est\u00e1dio Clube Desportivo das Aves",
+          "city": "Vila das Aves"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png",
+          "winner": true
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231758,
+        "referee": "Jo\u00e3o Ferreira",
+        "timezone": "UTC",
+        "date": "2024-09-01T19:30:00+00:00",
+        "timestamp": 1725219000,
+        "periods": {
+          "first": 1725219000,
+          "second": 1725222600
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 242,
+          "name": "Famalicao",
+          "logo": "https://media.api-sports.io/football/teams/242.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231769,
+        "referee": "Lu\u00eds Godinho",
+        "timezone": "UTC",
+        "date": "2024-09-15T19:30:00+00:00",
+        "timestamp": 1726428600,
+        "periods": {
+          "first": 1726428600,
+          "second": 1726432200
+        },
+        "venue": {
+          "id": 1291,
+          "name": "Est\u00e1dio Municipal de Braga",
+          "city": "Braga"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231781,
+        "referee": "F\u00e1bio Ver\u00edssimo",
+        "timezone": "UTC",
+        "date": "2024-09-21T17:00:00+00:00",
+        "timestamp": 1726938000,
+        "periods": {
+          "first": 1726938000,
+          "second": 1726941600
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        },
+        "away": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231791,
+        "referee": "Carlos Macedo",
+        "timezone": "UTC",
+        "date": "2024-09-28T17:00:00+00:00",
+        "timestamp": 1727542800,
+        "periods": {
+          "first": 1727542800,
+          "second": 1727546400
+        },
+        "venue": {
+          "id": 3565,
+          "name": "Est\u00e1dio Municipal de Rio Maior",
+          "city": "Rio Maior"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png",
+          "winner": null
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231797,
+        "referee": "Lu\u00eds Godinho",
+        "timezone": "UTC",
+        "date": "2024-10-06T14:30:00+00:00",
+        "timestamp": 1728225000,
+        "periods": {
+          "first": 1728225000,
+          "second": 1728228600
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        },
+        "away": {
+          "id": 222,
+          "name": "Boavista",
+          "logo": "https://media.api-sports.io/football/teams/222.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231806,
+        "referee": "Ant\u00f3nio Nobre",
+        "timezone": "UTC",
+        "date": "2024-10-27T20:30:00+00:00",
+        "timestamp": 1730061000,
+        "periods": {
+          "first": 1730061000,
+          "second": 1730064600
+        },
+        "venue": {
+          "id": 19187,
+          "name": "Est\u00e1dio Jos\u00e9 Gomes",
+          "city": "Amadora"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 15130,
+          "name": "Estrela",
+          "logo": "https://media.api-sports.io/football/teams/15130.png",
+          "winner": null
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231816,
+        "referee": "Miguel Nogueira",
+        "timezone": "UTC",
+        "date": "2024-11-03T18:00:00+00:00",
+        "timestamp": 1730656800,
+        "periods": {
+          "first": 1730656800,
+          "second": 1730660400
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 215,
+          "name": "Moreirense",
+          "logo": "https://media.api-sports.io/football/teams/215.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231819,
+        "referee": "Gustavo Correia",
+        "timezone": "UTC",
+        "date": "2024-11-10T16:30:00+00:00",
+        "timestamp": 1731256200,
+        "periods": {
+          "first": 1731256200,
+          "second": 1731259800
+        },
+        "venue": {
+          "id": 1289,
+          "name": "Est\u00e1dio de S\u00e3o Miguel",
+          "city": "Ponta Delgada, Ilha de S\u00e3o Miguel, A\u00e7ores"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png",
+          "winner": true
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231834,
+        "referee": "Tiago Martins",
+        "timezone": "UTC",
+        "date": "2024-12-02T18:45:00+00:00",
+        "timestamp": 1733165100,
+        "periods": {
+          "first": 1733165100,
+          "second": 1733168700
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231844,
+        "referee": "Miguel Nogueira",
+        "timezone": "UTC",
+        "date": "2024-12-07T18:00:00+00:00",
+        "timestamp": 1733594400,
+        "periods": {
+          "first": 1733594400,
+          "second": 1733598000
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231850,
+        "referee": "Ant\u00f3nio Nobre",
+        "timezone": "UTC",
+        "date": "2024-12-16T20:45:00+00:00",
+        "timestamp": 1734381900,
+        "periods": {
+          "first": 1734381900,
+          "second": 1734385500
+        },
+        "venue": {
+          "id": 1288,
+          "name": "Est\u00e1dio do Rio Ave Futebol Clube",
+          "city": "Vila do Conde"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png",
+          "winner": null
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231861,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2024-12-23T18:45:00+00:00",
+        "timestamp": 1734979500,
+        "periods": {
+          "first": 1734979500,
+          "second": 1734983100
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        },
+        "away": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231869,
+        "referee": "Bruno Vieira",
+        "timezone": "UTC",
+        "date": "2024-12-29T15:30:00+00:00",
+        "timestamp": 1735486200,
+        "periods": {
+          "first": 1735486200,
+          "second": 1735489800
+        },
+        "venue": {
+          "id": 1290,
+          "name": "Est\u00e1dio de S\u00e3o L\u00fais",
+          "city": "Faro"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png",
+          "winner": null
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231879,
+        "referee": "Jo\u00e3o Ferreira",
+        "timezone": "UTC",
+        "date": "2025-01-03T20:15:00+00:00",
+        "timestamp": 1735935300,
+        "periods": {
+          "first": 1735935300,
+          "second": 1735938900
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        },
+        "away": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231889,
+        "referee": "Miguel Nogueira",
+        "timezone": "UTC",
+        "date": "2025-01-18T20:30:00+00:00",
+        "timestamp": 1737232200,
+        "periods": {
+          "first": 1737232200,
+          "second": 1737235800
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        },
+        "away": {
+          "id": 240,
+          "name": "Arouca",
+          "logo": "https://media.api-sports.io/football/teams/240.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231891,
+        "referee": "Lu\u00eds Godinho",
+        "timezone": "UTC",
+        "date": "2025-01-26T15:30:00+00:00",
+        "timestamp": 1737905400,
+        "periods": {
+          "first": 1737905400,
+          "second": 1737909000
+        },
+        "venue": {
+          "id": 1274,
+          "name": "Est\u00e1dio Ant\u00f3nio Coimbra da Mota",
+          "city": "Estoril"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png",
+          "winner": true
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231900,
+        "referee": "H\u00e9lder Malheiro",
+        "timezone": "UTC",
+        "date": "2025-02-01T20:30:00+00:00",
+        "timestamp": 1738441800,
+        "periods": {
+          "first": 1738441800,
+          "second": 1738445400
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231911,
+        "referee": "Andr\u00e9 Narciso",
+        "timezone": "UTC",
+        "date": "2025-02-08T20:30:00+00:00",
+        "timestamp": 1739046600,
+        "periods": {
+          "first": 1739046600,
+          "second": 1739050200
+        },
+        "venue": {
+          "id": 1276,
+          "name": "Est\u00e1dio Municipal 22 de Junho",
+          "city": "Vila Nova de Famalic\u00e3o"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 242,
+          "name": "Famalicao",
+          "logo": "https://media.api-sports.io/football/teams/242.png",
+          "winner": null
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231925,
+        "referee": "Jo\u00e3o Ferreira",
+        "timezone": "UTC",
+        "date": "2025-02-16T20:30:00+00:00",
+        "timestamp": 1739737800,
+        "periods": {
+          "first": 1739737800,
+          "second": 1739741400
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        },
+        "away": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231934,
+        "referee": "Ant\u00f3nio Nobre",
+        "timezone": "UTC",
+        "date": "2025-02-24T20:15:00+00:00",
+        "timestamp": 1740428100,
+        "periods": {
+          "first": 1740428100,
+          "second": 1740431700
+        },
+        "venue": {
+          "id": 1286,
+          "name": "Est\u00e1dio Do Drag\u00e3o",
+          "city": "Porto"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png",
+          "winner": null
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231944,
+        "referee": "Andr\u00e9 Narciso",
+        "timezone": "UTC",
+        "date": "2025-03-01T20:30:00+00:00",
+        "timestamp": 1740861000,
+        "periods": {
+          "first": 1740861000,
+          "second": 1740864600
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231950,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2025-03-09T20:30:00+00:00",
+        "timestamp": 1741552200,
+        "periods": {
+          "first": 1741552200,
+          "second": 1741555800
+        },
+        "venue": {
+          "id": 1267,
+          "name": "Est\u00e1dio do Bessa S\u00e9culo XXI",
+          "city": "Porto"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 222,
+          "name": "Boavista",
+          "logo": "https://media.api-sports.io/football/teams/222.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231959,
+        "referee": "Ant\u00f3nio Nobre",
+        "timezone": "UTC",
+        "date": "2025-03-16T20:30:00+00:00",
+        "timestamp": 1742157000,
+        "periods": {
+          "first": 1742157000,
+          "second": 1742160600
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 15130,
+          "name": "Estrela",
+          "logo": "https://media.api-sports.io/football/teams/15130.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231970,
+        "referee": "Cl\u00e1udio Pereira",
+        "timezone": "UTC",
+        "date": "2025-03-30T19:30:00+00:00",
+        "timestamp": 1743363000,
+        "periods": {
+          "first": 1743363000,
+          "second": 1743366600
+        },
+        "venue": {
+          "id": 1280,
+          "name": "Parque Desportivo Comendador Joaquim de Almeida Freitas",
+          "city": "Moreira de C\u00f3negos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 215,
+          "name": "Moreirense",
+          "logo": "https://media.api-sports.io/football/teams/215.png",
+          "winner": null
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231975,
+        "referee": "H\u00e9lder Carvalho",
+        "timezone": "UTC",
+        "date": "2025-04-05T19:30:00+00:00",
+        "timestamp": 1743881400,
+        "periods": {
+          "first": 1743881400,
+          "second": 1743885000
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231988,
+        "referee": "Ricardo Baixinho",
+        "timezone": "UTC",
+        "date": "2025-04-11T19:15:00+00:00",
+        "timestamp": 1744398900,
+        "periods": {
+          "first": 1744398900,
+          "second": 1744402500
+        },
+        "venue": {
+          "id": 2811,
+          "name": "Est\u00e1dio Cidade de Barcelos",
+          "city": "Barcelos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1231997,
+        "referee": "Gustavo Correia",
+        "timezone": "UTC",
+        "date": "2025-04-19T19:30:00+00:00",
+        "timestamp": 1745091000,
+        "periods": {
+          "first": 1745091000,
+          "second": 1745094600
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1232003,
+        "referee": "Jos\u00e9 Bessa",
+        "timezone": "UTC",
+        "date": "2025-04-27T17:00:00+00:00",
+        "timestamp": 1745773200,
+        "periods": {
+          "first": 1745773200,
+          "second": 1745776800
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1232014,
+        "referee": "S\u00e9rgio Guelho",
+        "timezone": "UTC",
+        "date": "2025-05-03T14:30:00+00:00",
+        "timestamp": 1746282600,
+        "periods": {
+          "first": 1746282600,
+          "second": 1746286200
+        },
+        "venue": {
+          "id": 1281,
+          "name": "Est\u00e1dio da Madeira",
+          "city": "Ilha da Madeira"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1232022,
+        "referee": "David Silva",
+        "timezone": "UTC",
+        "date": "2025-05-11T17:00:00+00:00",
+        "timestamp": 1746982800,
+        "periods": {
+          "first": 1746982800,
+          "second": 1746986400
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        },
+        "away": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1232032,
+        "referee": "F\u00e1bio Ver\u00edssimo",
+        "timezone": "UTC",
+        "date": "2025-05-17T17:00:00+00:00",
+        "timestamp": 1747501200,
+        "periods": {
+          "first": 1747501200,
+          "second": 1747504800
+        },
+        "venue": {
+          "id": 1293,
+          "name": "Est\u00e1dio Jos\u00e9 Alvalade",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": true
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250988,
+        "referee": "B. McMaster",
+        "timezone": "UTC",
+        "date": "2024-07-25T17:00:00+00:00",
+        "timestamp": 1721926800,
+        "periods": {
+          "first": 1721926800,
+          "second": 1721930400
+        },
+        "venue": {
+          "id": 1067,
+          "name": "MFA Centenary Stadium",
+          "city": "Ta'Qali"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4625,
+          "name": "Floriana",
+          "logo": "https://media.api-sports.io/football/teams/4625.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250989,
+        "referee": "I. Orlic",
+        "timezone": "UTC",
+        "date": "2024-08-01T19:15:00+00:00",
+        "timestamp": 1722539700,
+        "periods": {
+          "first": 1722539700,
+          "second": 1722543300
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4625,
+          "name": "Floriana",
+          "logo": "https://media.api-sports.io/football/teams/4625.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274799,
+        "referee": "M. Barbu",
+        "timezone": "UTC",
+        "date": "2024-08-08T17:00:00+00:00",
+        "timestamp": 1723136400,
+        "periods": {
+          "first": 1723136400,
+          "second": 1723140000
+        },
+        "venue": {
+          "id": 1533,
+          "name": "Stadion Letzigrund",
+          "city": "Z\u00fcrich"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 783,
+          "name": "FC Zurich",
+          "logo": "https://media.api-sports.io/football/teams/783.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274800,
+        "referee": "O. Derevinskyi",
+        "timezone": "UTC",
+        "date": "2024-08-15T19:15:00+00:00",
+        "timestamp": 1723749300,
+        "periods": {
+          "first": 1723749300,
+          "second": 1723752900
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 783,
+          "name": "FC Zurich",
+          "logo": "https://media.api-sports.io/football/teams/783.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287560,
+        "referee": "V. Fotias",
+        "timezone": "UTC",
+        "date": "2024-08-21T16:45:00+00:00",
+        "timestamp": 1724258700,
+        "periods": {
+          "first": 1724258700,
+          "second": 1724262300
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 588,
+          "name": "Zrinjski",
+          "logo": "https://media.api-sports.io/football/teams/588.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287561,
+        "referee": "R. Jones",
+        "timezone": "UTC",
+        "date": "2024-08-29T18:00:00+00:00",
+        "timestamp": 1724954400,
+        "periods": {
+          "first": 1724954400,
+          "second": 1724958000
+        },
+        "venue": {
+          "id": 202,
+          "name": "Stadion Bijeli Brijeg",
+          "city": "Mostar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 588,
+          "name": "Zrinjski",
+          "logo": "https://media.api-sports.io/football/teams/588.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299294,
+        "referee": "L. D'hondt",
+        "timezone": "UTC",
+        "date": "2024-10-02T14:30:00+00:00",
+        "timestamp": 1727879400,
+        "periods": {
+          "first": 1727879400,
+          "second": 1727883000
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4360,
+          "name": "Celje",
+          "logo": "https://media.api-sports.io/football/teams/4360.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299312,
+        "referee": "G. Nuza",
+        "timezone": "UTC",
+        "date": "2024-10-24T16:45:00+00:00",
+        "timestamp": 1729788300,
+        "periods": {
+          "first": 1729788300,
+          "second": 1729791900
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299346,
+        "referee": "P. Raczkowski",
+        "timezone": "UTC",
+        "date": "2024-11-07T20:00:00+00:00",
+        "timestamp": 1731009600,
+        "periods": {
+          "first": 1731009600,
+          "second": 1731013200
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299348,
+        "referee": "N. Dabanovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-11-28T15:30:00+00:00",
+        "timestamp": 1732807800,
+        "periods": {
+          "first": 1732807800,
+          "second": 1732811400
+        },
+        "venue": {
+          "id": null,
+          "name": "Ortalyq stad\u0131on",
+          "city": "Almaty"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 562,
+          "name": "FC Astana",
+          "logo": "https://media.api-sports.io/football/teams/562.png",
+          "winner": null
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299375,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-12-12T20:00:00+00:00",
+        "timestamp": 1734033600,
+        "periods": {
+          "first": 1734033600,
+          "second": 1734037200
+        },
+        "venue": {
+          "id": 1543,
+          "name": "kybunpark",
+          "city": "St. Gallen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1011,
+          "name": "FC ST. Gallen",
+          "logo": "https://media.api-sports.io/football/teams/1011.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299400,
+        "referee": "J. Xhaja",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        },
+        "away": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1308753,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2024-10-19T15:15:00+00:00",
+        "timestamp": 1729350900,
+        "periods": {
+          "first": 1729350900,
+          "second": 1729354500
+        },
+        "venue": {
+          "id": 1283,
+          "name": "Est\u00e1dio da Capital do M\u00f3vel",
+          "city": "Pa\u00e7os de Ferreira"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 96,
+        "name": "Ta\u00e7a de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 234,
+          "name": "Pacos Ferreira",
+          "logo": "https://media.api-sports.io/football/teams/234.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1312955,
+        "referee": "Miguel Fonseca",
+        "timezone": "UTC",
+        "date": "2024-11-23T16:45:00+00:00",
+        "timestamp": 1732380300,
+        "periods": {
+          "first": 1732380300,
+          "second": 1732383900
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 96,
+        "name": "Ta\u00e7a de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4662,
+          "name": "Uni\u00e3o de Leiria",
+          "logo": "https://media.api-sports.io/football/teams/4662.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1316675,
+        "referee": "Pedro Ramalho",
+        "timezone": "UTC",
+        "date": "2025-01-12T14:00:00+00:00",
+        "timestamp": 1736690400,
+        "periods": {
+          "first": 1736690400,
+          "second": 1736694000
+        },
+        "venue": {
+          "id": 12161,
+          "name": "Campo Domingos Carrilho Patalino",
+          "city": "Elvas"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 96,
+        "name": "Ta\u00e7a de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 17388,
+          "name": "O Elvas",
+          "logo": "https://media.api-sports.io/football/teams/17388.png",
+          "winner": true
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353202,
+        "referee": "N. Dabanovi\u0107",
+        "timezone": "UTC",
+        "date": "2025-03-06T17:45:00+00:00",
+        "timestamp": 1741283100,
+        "periods": {
+          "first": 1741283100,
+          "second": 1741286700
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353203,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-03-13T20:00:00+00:00",
+        "timestamp": 1741896000,
+        "periods": {
+          "first": 1741896000,
+          "second": 1741899600
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Est\u00e1dio Dom Afonso Henriques",
+          "city": "Guimar\u00e3es"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

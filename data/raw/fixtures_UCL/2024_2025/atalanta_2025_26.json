@@ -1,0 +1,3865 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "499"
+  },
+  "errors": [],
+  "results": 55,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1202168,
+        "referee": "S. Sch\u00e4rer",
+        "timezone": "UTC",
+        "date": "2024-08-14T19:00:00+00:00",
+        "timestamp": 1723662000,
+        "periods": {
+          "first": 1723662000,
+          "second": 1723665600
+        },
+        "venue": {
+          "id": 1245,
+          "name": "Stadion Narodowy",
+          "city": "Warszawa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 531,
+        "name": "UEFA Super Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/531.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png",
+          "winner": true
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218385,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-27T13:00:00+00:00",
+        "timestamp": 1722085200,
+        "periods": {
+          "first": 1722085200,
+          "second": 1722088800
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223602,
+        "referee": "D. Massa",
+        "timezone": "UTC",
+        "date": "2024-08-19T16:30:00+00:00",
+        "timestamp": 1724085000,
+        "periods": {
+          "first": 1724085000,
+          "second": 1724088600
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Ettore Giardiniero - Via del Mare",
+          "city": "Lecce"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 867,
+          "name": "Lecce",
+          "logo": "https://media.api-sports.io/football/teams/867.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223613,
+        "referee": "A. Rapuano",
+        "timezone": "UTC",
+        "date": "2024-08-25T16:30:00+00:00",
+        "timestamp": 1724603400,
+        "periods": {
+          "first": 1724603400,
+          "second": 1724607000
+        },
+        "venue": {
+          "id": 943,
+          "name": "Stadio Olimpico Grande Torino",
+          "city": "Torino"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 503,
+          "name": "Torino",
+          "logo": "https://media.api-sports.io/football/teams/503.png",
+          "winner": true
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223618,
+        "referee": "M. Marchetti",
+        "timezone": "UTC",
+        "date": "2024-08-30T18:45:00+00:00",
+        "timestamp": 1725043500,
+        "periods": {
+          "first": 1725043500,
+          "second": 1725047100
+        },
+        "venue": {
+          "id": 907,
+          "name": "Stadio Giuseppe Meazza",
+          "city": "Milano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png",
+          "winner": true
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223625,
+        "referee": "J. Sacchi",
+        "timezone": "UTC",
+        "date": "2024-09-15T13:00:00+00:00",
+        "timestamp": 1726405200,
+        "periods": {
+          "first": 1726405200,
+          "second": 1726408800
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223635,
+        "referee": "P. Tremolada",
+        "timezone": "UTC",
+        "date": "2024-09-24T18:45:00+00:00",
+        "timestamp": 1727203500,
+        "periods": {
+          "first": 1727203500,
+          "second": 1727207100
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        },
+        "away": {
+          "id": 895,
+          "name": "Como",
+          "logo": "https://media.api-sports.io/football/teams/895.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223645,
+        "referee": "A. Rapuano",
+        "timezone": "UTC",
+        "date": "2024-09-28T18:45:00+00:00",
+        "timestamp": 1727549100,
+        "periods": {
+          "first": 1727549100,
+          "second": 1727552700
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223655,
+        "referee": "D. Chiffi",
+        "timezone": "UTC",
+        "date": "2024-10-05T16:00:00+00:00",
+        "timestamp": 1728144000,
+        "periods": {
+          "first": 1728144000,
+          "second": 1728147600
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 495,
+          "name": "Genoa",
+          "logo": "https://media.api-sports.io/football/teams/495.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223674,
+        "referee": "L. Zufferli",
+        "timezone": "UTC",
+        "date": "2024-10-20T13:00:00+00:00",
+        "timestamp": 1729429200,
+        "periods": {
+          "first": 1729429200,
+          "second": 1729432800
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Pier Luigi Penzo",
+          "city": "Venezia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 517,
+          "name": "Venezia",
+          "logo": "https://media.api-sports.io/football/teams/517.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223675,
+        "referee": "E. Feliciani",
+        "timezone": "UTC",
+        "date": "2024-10-26T18:45:00+00:00",
+        "timestamp": 1729968300,
+        "periods": {
+          "first": 1729968300,
+          "second": 1729971900
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 504,
+          "name": "Hellas Verona",
+          "logo": "https://media.api-sports.io/football/teams/504.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 5,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223685,
+        "referee": "M. Piccinini",
+        "timezone": "UTC",
+        "date": "2024-10-30T19:45:00+00:00",
+        "timestamp": 1730317500,
+        "periods": {
+          "first": 1730317500,
+          "second": 1730321100
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1579,
+          "name": "Monza",
+          "logo": "https://media.api-sports.io/football/teams/1579.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223701,
+        "referee": "D. Doveri",
+        "timezone": "UTC",
+        "date": "2024-11-03T11:30:00+00:00",
+        "timestamp": 1730633400,
+        "periods": {
+          "first": 1730633400,
+          "second": 1730637000
+        },
+        "venue": {
+          "id": 11904,
+          "name": "Stadio Diego Armando Maradona",
+          "city": "Napoli"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223705,
+        "referee": "M. Di Bello",
+        "timezone": "UTC",
+        "date": "2024-11-10T11:30:00+00:00",
+        "timestamp": 1731238200,
+        "periods": {
+          "first": 1731238200,
+          "second": 1731241800
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 494,
+          "name": "Udinese",
+          "logo": "https://media.api-sports.io/football/teams/494.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223722,
+        "referee": "G. Manganiello",
+        "timezone": "UTC",
+        "date": "2024-11-23T19:45:00+00:00",
+        "timestamp": 1732391100,
+        "periods": {
+          "first": 1732391100,
+          "second": 1732394700
+        },
+        "venue": {
+          "id": 921,
+          "name": "Stadio Ennio Tardini",
+          "city": "Parma"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 523,
+          "name": "Parma",
+          "logo": "https://media.api-sports.io/football/teams/523.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223732,
+        "referee": "M. Guida",
+        "timezone": "UTC",
+        "date": "2024-12-02T19:45:00+00:00",
+        "timestamp": 1733168700,
+        "periods": {
+          "first": 1733168700,
+          "second": 1733172300
+        },
+        "venue": {
+          "id": 910,
+          "name": "Stadio Olimpico",
+          "city": "Roma"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 497,
+          "name": "AS Roma",
+          "logo": "https://media.api-sports.io/football/teams/497.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223735,
+        "referee": "F. La Penna",
+        "timezone": "UTC",
+        "date": "2024-12-06T19:45:00+00:00",
+        "timestamp": 1733514300,
+        "periods": {
+          "first": 1733514300,
+          "second": 1733517900
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 489,
+          "name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223746,
+        "referee": "L. Pairetto",
+        "timezone": "UTC",
+        "date": "2024-12-14T14:00:00+00:00",
+        "timestamp": 1734184800,
+        "periods": {
+          "first": 1734184800,
+          "second": 1734188400
+        },
+        "venue": {
+          "id": 12275,
+          "name": "Unipol Domus",
+          "city": "Cagliari"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 490,
+          "name": "Cagliari",
+          "logo": "https://media.api-sports.io/football/teams/490.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223755,
+        "referee": "E. Feliciani",
+        "timezone": "UTC",
+        "date": "2024-12-22T17:00:00+00:00",
+        "timestamp": 1734886800,
+        "periods": {
+          "first": 1734886800,
+          "second": 1734890400
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 511,
+          "name": "Empoli",
+          "logo": "https://media.api-sports.io/football/teams/511.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223770,
+        "referee": "D. Massa",
+        "timezone": "UTC",
+        "date": "2024-12-28T19:45:00+00:00",
+        "timestamp": 1735415100,
+        "periods": {
+          "first": 1735415100,
+          "second": 1735418700
+        },
+        "venue": {
+          "id": 910,
+          "name": "Stadio Olimpico",
+          "city": "Roma"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png",
+          "winner": null
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223775,
+        "referee": "D. Doveri",
+        "timezone": "UTC",
+        "date": "2025-01-14T19:45:00+00:00",
+        "timestamp": 1736883900,
+        "periods": {
+          "first": 1736883900,
+          "second": 1736887500
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        },
+        "away": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223793,
+        "referee": "M. Mariani",
+        "timezone": "UTC",
+        "date": "2025-01-11T14:00:00+00:00",
+        "timestamp": 1736604000,
+        "periods": {
+          "first": 1736604000,
+          "second": 1736607600
+        },
+        "venue": {
+          "id": 20416,
+          "name": "Bluenergy Stadium",
+          "city": "Udine"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 494,
+          "name": "Udinese",
+          "logo": "https://media.api-sports.io/football/teams/494.png",
+          "winner": null
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223795,
+        "referee": "A. Colombo",
+        "timezone": "UTC",
+        "date": "2025-01-18T19:45:00+00:00",
+        "timestamp": 1737229500,
+        "periods": {
+          "first": 1737229500,
+          "second": 1737233100
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        },
+        "away": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223805,
+        "referee": "L. Pairetto",
+        "timezone": "UTC",
+        "date": "2025-01-25T14:00:00+00:00",
+        "timestamp": 1737813600,
+        "periods": {
+          "first": 1737813600,
+          "second": 1737817200
+        },
+        "venue": {
+          "id": 892,
+          "name": "Stadio Giuseppe Sinigaglia",
+          "city": "Como"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 895,
+          "name": "Como",
+          "logo": "https://media.api-sports.io/football/teams/895.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223815,
+        "referee": "M. Piccinini",
+        "timezone": "UTC",
+        "date": "2025-02-01T17:00:00+00:00",
+        "timestamp": 1738429200,
+        "periods": {
+          "first": 1738429200,
+          "second": 1738432800
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        },
+        "away": {
+          "id": 503,
+          "name": "Torino",
+          "logo": "https://media.api-sports.io/football/teams/503.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223828,
+        "referee": "S. Sozza",
+        "timezone": "UTC",
+        "date": "2025-02-08T14:00:00+00:00",
+        "timestamp": 1739023200,
+        "periods": {
+          "first": 1739023200,
+          "second": 1739026800
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Marcantonio Bentegodi",
+          "city": "Verona"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 504,
+          "name": "Hellas Verona",
+          "logo": "https://media.api-sports.io/football/teams/504.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 4
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223835,
+        "referee": "M. Marchetti",
+        "timezone": "UTC",
+        "date": "2025-02-15T14:00:00+00:00",
+        "timestamp": 1739628000,
+        "periods": {
+          "first": 1739628000,
+          "second": 1739631600
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        },
+        "away": {
+          "id": 490,
+          "name": "Cagliari",
+          "logo": "https://media.api-sports.io/football/teams/490.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223847,
+        "referee": "M. Mariani",
+        "timezone": "UTC",
+        "date": "2025-02-23T17:00:00+00:00",
+        "timestamp": 1740330000,
+        "periods": {
+          "first": 1740330000,
+          "second": 1740333600
+        },
+        "venue": {
+          "id": 20109,
+          "name": "Stadio Carlo Castellani \u2013 Computer Gross Arena",
+          "city": "Empoli"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 511,
+          "name": "Empoli",
+          "logo": "https://media.api-sports.io/football/teams/511.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223855,
+        "referee": "G. Collu",
+        "timezone": "UTC",
+        "date": "2025-03-01T14:00:00+00:00",
+        "timestamp": 1740837600,
+        "periods": {
+          "first": 1740837600,
+          "second": 1740841200
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        },
+        "away": {
+          "id": 517,
+          "name": "Venezia",
+          "logo": "https://media.api-sports.io/football/teams/517.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223870,
+        "referee": "S. Sozza",
+        "timezone": "UTC",
+        "date": "2025-03-09T19:45:00+00:00",
+        "timestamp": 1741549500,
+        "periods": {
+          "first": 1741549500,
+          "second": 1741553100
+        },
+        "venue": {
+          "id": 909,
+          "name": "Allianz Stadium",
+          "city": "Torino"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223875,
+        "referee": "D. Massa",
+        "timezone": "UTC",
+        "date": "2025-03-16T19:45:00+00:00",
+        "timestamp": 1742154300,
+        "periods": {
+          "first": 1742154300,
+          "second": 1742157900
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 13
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        },
+        "away": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223887,
+        "referee": "D. Doveri",
+        "timezone": "UTC",
+        "date": "2025-03-30T13:00:00+00:00",
+        "timestamp": 1743339600,
+        "periods": {
+          "first": 1743339600,
+          "second": 1743343200
+        },
+        "venue": {
+          "id": 902,
+          "name": "Stadio Artemio Franchi",
+          "city": "Firenze"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png",
+          "winner": true
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223895,
+        "referee": "D. Chiffi",
+        "timezone": "UTC",
+        "date": "2025-04-06T16:00:00+00:00",
+        "timestamp": 1743955200,
+        "periods": {
+          "first": 1743955200,
+          "second": 1743958800
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        },
+        "away": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223905,
+        "referee": "M. Mariani",
+        "timezone": "UTC",
+        "date": "2025-04-13T10:30:00+00:00",
+        "timestamp": 1744540200,
+        "periods": {
+          "first": 1744540200,
+          "second": 1744543800
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223920,
+        "referee": "M. Piccinini",
+        "timezone": "UTC",
+        "date": "2025-04-20T18:45:00+00:00",
+        "timestamp": 1745174700,
+        "periods": {
+          "first": 1745174700,
+          "second": 1745178300
+        },
+        "venue": {
+          "id": 907,
+          "name": "Stadio Giuseppe Meazza",
+          "city": "Milano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 489,
+          "name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223925,
+        "referee": "F. La Penna",
+        "timezone": "UTC",
+        "date": "2025-04-27T18:45:00+00:00",
+        "timestamp": 1745779500,
+        "periods": {
+          "first": 1745779500,
+          "second": 1745783100
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        },
+        "away": {
+          "id": 867,
+          "name": "Lecce",
+          "logo": "https://media.api-sports.io/football/teams/867.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223941,
+        "referee": "L. Pairetto",
+        "timezone": "UTC",
+        "date": "2025-05-04T13:00:00+00:00",
+        "timestamp": 1746363600,
+        "periods": {
+          "first": 1746363600,
+          "second": 1746367200
+        },
+        "venue": {
+          "id": 12086,
+          "name": "U-Power Stadium",
+          "city": "Monza"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 35",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1579,
+          "name": "Monza",
+          "logo": "https://media.api-sports.io/football/teams/1579.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223945,
+        "referee": "S. Sozza",
+        "timezone": "UTC",
+        "date": "2025-05-12T18:45:00+00:00",
+        "timestamp": 1747075500,
+        "periods": {
+          "first": 1747075500,
+          "second": 1747079100
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 36",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 497,
+          "name": "AS Roma",
+          "logo": "https://media.api-sports.io/football/teams/497.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223957,
+        "referee": "D. Ghersini",
+        "timezone": "UTC",
+        "date": "2025-05-17T18:45:00+00:00",
+        "timestamp": 1747507500,
+        "periods": {
+          "first": 1747507500,
+          "second": 1747511100
+        },
+        "venue": {
+          "id": 905,
+          "name": "Stadio Comunale Luigi Ferraris",
+          "city": "Genova"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 37",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 495,
+          "name": "Genoa",
+          "logo": "https://media.api-sports.io/football/teams/495.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223965,
+        "referee": "L. Marinelli",
+        "timezone": "UTC",
+        "date": "2025-05-25T18:45:00+00:00",
+        "timestamp": 1748198700,
+        "periods": {
+          "first": 1748198700,
+          "second": 1748202300
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 38",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        },
+        "away": {
+          "id": 523,
+          "name": "Parma",
+          "logo": "https://media.api-sports.io/football/teams/523.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1276484,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-04T12:00:00+00:00",
+        "timestamp": 1722772800,
+        "periods": {
+          "first": 1722772800,
+          "second": 1722776400
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 523,
+          "name": "Parma",
+          "logo": "https://media.api-sports.io/football/teams/523.png",
+          "winner": true
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1277899,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-09T16:30:00+00:00",
+        "timestamp": 1723221000,
+        "periods": {
+          "first": 1723221000,
+          "second": 1723224600
+        },
+        "venue": {
+          "id": 745,
+          "name": "Millerntor-Stadion",
+          "city": "Hamburg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 186,
+          "name": "FC St. Pauli",
+          "logo": "https://media.api-sports.io/football/teams/186.png",
+          "winner": true
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1298998,
+        "referee": "C. Turpin",
+        "timezone": "UTC",
+        "date": "2024-09-19T19:00:00+00:00",
+        "timestamp": 1726772400,
+        "periods": {
+          "first": 1726772400,
+          "second": 1726776000
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299012,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2024-10-02T16:45:00+00:00",
+        "timestamp": 1727887500,
+        "periods": {
+          "first": 1727887500,
+          "second": 1727891100
+        },
+        "venue": {
+          "id": 741,
+          "name": "VELTINS-Arena",
+          "city": "Gelsenkirchen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299029,
+        "referee": "I. Peljto",
+        "timezone": "UTC",
+        "date": "2024-10-23T16:45:00+00:00",
+        "timestamp": 1729701900,
+        "periods": {
+          "first": 1729701900,
+          "second": 1729705500
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299055,
+        "referee": "R. Obrenovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-11-06T20:00:00+00:00",
+        "timestamp": 1730923200,
+        "periods": {
+          "first": 1730923200,
+          "second": 1730926800
+        },
+        "venue": {
+          "id": 20473,
+          "name": "MHPArena",
+          "city": "Stuttgart"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 172,
+          "name": "VfB Stuttgart",
+          "logo": "https://media.api-sports.io/football/teams/172.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299064,
+        "referee": "M. Lukjan\u010dukas",
+        "timezone": "UTC",
+        "date": "2024-11-26T20:00:00+00:00",
+        "timestamp": 1732651200,
+        "periods": {
+          "first": 1732651200,
+          "second": 1732654800
+        },
+        "venue": {
+          "id": 10500,
+          "name": "Stadion Wankdorf",
+          "city": "Bern"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 4
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299076,
+        "referee": "S. Marciniak",
+        "timezone": "UTC",
+        "date": "2024-12-10T20:00:00+00:00",
+        "timestamp": 1733860800,
+        "periods": {
+          "first": 1733860800,
+          "second": 1733864400
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        },
+        "away": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299092,
+        "referee": "D. Rum\u0161as",
+        "timezone": "UTC",
+        "date": "2025-01-21T17:45:00+00:00",
+        "timestamp": 1737481500,
+        "periods": {
+          "first": 1737481500,
+          "second": 1737485100
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 637,
+          "name": "Sturm Graz",
+          "logo": "https://media.api-sports.io/football/teams/637.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299111,
+        "referee": "M. Oliver",
+        "timezone": "UTC",
+        "date": "2025-01-29T20:00:00+00:00",
+        "timestamp": 1738180800,
+        "periods": {
+          "first": 1738180800,
+          "second": 1738184400
+        },
+        "venue": {
+          "id": 19939,
+          "name": "Estadi Ol\u00edmpic Llu\u00eds Companys",
+          "city": "Barcelona"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png",
+          "winner": null
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1308636,
+        "referee": "D. Perenzoni",
+        "timezone": "UTC",
+        "date": "2024-12-18T17:30:00+00:00",
+        "timestamp": 1734543000,
+        "periods": {
+          "first": 1734543000,
+          "second": 1734546600
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 137,
+        "name": "Coppa Italia",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 509,
+          "name": "Cesena",
+          "logo": "https://media.api-sports.io/football/teams/509.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1311195,
+        "referee": "D. Chiffi",
+        "timezone": "UTC",
+        "date": "2025-01-02T19:00:00+00:00",
+        "timestamp": 1735844400,
+        "periods": {
+          "first": 1735844400,
+          "second": 1735848000
+        },
+        "venue": {
+          "id": null,
+          "name": "Al-Awwal Park",
+          "city": "Riyadh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 547,
+        "name": "Super Cup",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/547.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png",
+          "winner": true
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1323909,
+        "referee": "L. Marinelli",
+        "timezone": "UTC",
+        "date": "2025-02-04T20:00:00+00:00",
+        "timestamp": 1738699200,
+        "periods": {
+          "first": 1738699200,
+          "second": 1738702800
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 137,
+        "name": "Coppa Italia",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345745,
+        "referee": "H. Meler",
+        "timezone": "UTC",
+        "date": "2025-02-12T17:45:00+00:00",
+        "timestamp": 1739382300,
+        "periods": {
+          "first": 1739382300,
+          "second": 1739385900
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png",
+          "winner": true
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345746,
+        "referee": "F. Zwayer",
+        "timezone": "UTC",
+        "date": "2025-02-18T20:00:00+00:00",
+        "timestamp": 1739908800,
+        "periods": {
+          "first": 1739908800,
+          "second": 1739912400
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        },
+        "away": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

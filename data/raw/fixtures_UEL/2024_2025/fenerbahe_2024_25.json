@@ -1,0 +1,4285 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "611"
+  },
+  "errors": [],
+  "results": 61,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1207126,
+        "referee": "A. Harkam",
+        "timezone": "UTC",
+        "date": "2024-07-13T16:00:00+00:00",
+        "timestamp": 1720886400,
+        "periods": {
+          "first": 1720886400,
+          "second": 1720890000
+        },
+        "venue": {
+          "id": 150,
+          "name": "Merkur Arena",
+          "city": "Graz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 95,
+          "name": "Strasbourg",
+          "logo": "https://media.api-sports.io/football/teams/95.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 4
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208851,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-29T07:30:00+00:00",
+        "timestamp": 1719646200,
+        "periods": {
+          "first": 1719646200,
+          "second": 1719649800
+        },
+        "venue": {
+          "id": null,
+          "name": "Fenerbahce SK Topuk Yaylasi Tesisleri",
+          "city": "Kayna\u015fl\u0131"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2598,
+          "name": "Petrolul Ploiesti",
+          "logo": "https://media.api-sports.io/football/teams/2598.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208852,
+        "referee": "J. Semler",
+        "timezone": "UTC",
+        "date": "2024-07-06T17:00:00+00:00",
+        "timestamp": 1720285200,
+        "periods": {
+          "first": 1720285200,
+          "second": 1720288800
+        },
+        "venue": {
+          "id": 20412,
+          "name": "DATENPOL ARENA",
+          "city": "Maria Enzersdorf"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1023,
+          "name": "Admira Wacker",
+          "logo": "https://media.api-sports.io/football/teams/1023.png",
+          "winner": null
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208853,
+        "referee": "C. Ciochirca",
+        "timezone": "UTC",
+        "date": "2024-07-10T17:00:00+00:00",
+        "timestamp": 1720630800,
+        "periods": {
+          "first": 1720630800,
+          "second": 1720634400
+        },
+        "venue": {
+          "id": 150,
+          "name": "Merkur Arena",
+          "city": "Graz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        },
+        "away": {
+          "id": 608,
+          "name": "HNK Hajduk Split",
+          "logo": "https://media.api-sports.io/football/teams/608.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209235,
+        "referee": "Tiago Martins",
+        "timezone": "UTC",
+        "date": "2024-07-23T18:30:00+00:00",
+        "timestamp": 1721759400,
+        "periods": {
+          "first": 1721759400,
+          "second": 1721763000
+        },
+        "venue": {
+          "id": 1544,
+          "name": "Stockhorn Arena",
+          "city": "Thun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209236,
+        "referee": "R. Jones",
+        "timezone": "UTC",
+        "date": "2024-07-30T17:00:00+00:00",
+        "timestamp": 1722358800,
+        "periods": {
+          "first": 1722358800,
+          "second": 1722362400
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237853,
+        "referee": "A. Karao\u011flan",
+        "timezone": "UTC",
+        "date": "2024-08-10T18:45:00+00:00",
+        "timestamp": 1723315500,
+        "periods": {
+          "first": 1723315500,
+          "second": 1723319100
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237858,
+        "referee": "K. Sa\u011flam",
+        "timezone": "UTC",
+        "date": "2024-08-17T18:45:00+00:00",
+        "timestamp": 1723920300,
+        "periods": {
+          "first": 1723920300,
+          "second": 1723923900
+        },
+        "venue": {
+          "id": 1583,
+          "name": "G\u00f6ztepe G\u00fcrsel Aksel Stad\u0131",
+          "city": "\u0130zmir"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 994,
+          "name": "G\u00f6ztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png",
+          "winner": null
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237874,
+        "referee": "T. Doman",
+        "timezone": "UTC",
+        "date": "2024-08-25T18:45:00+00:00",
+        "timestamp": 1724611500,
+        "periods": {
+          "first": 1724611500,
+          "second": 1724615100
+        },
+        "venue": {
+          "id": 1580,
+          "name": "\u00c7aykur Didi Stadyumu",
+          "city": "Rize"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237884,
+        "referee": "M. T\u00fcrkmen",
+        "timezone": "UTC",
+        "date": "2024-08-30T18:00:00+00:00",
+        "timestamp": 1725040800,
+        "periods": {
+          "first": 1725040800,
+          "second": 1725044400
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 996,
+          "name": "Alanyaspor",
+          "logo": "https://media.api-sports.io/football/teams/996.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237887,
+        "referee": "H. Meler",
+        "timezone": "UTC",
+        "date": "2024-09-15T14:00:00+00:00",
+        "timestamp": 1726408800,
+        "periods": {
+          "first": 1726408800,
+          "second": 1726412400
+        },
+        "venue": {
+          "id": 1585,
+          "name": "Recep Tayyip Erdo\u011fan Stadyumu",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1004,
+          "name": "Kas\u0131mpa\u015fa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237897,
+        "referee": "A. Karao\u011flan",
+        "timezone": "UTC",
+        "date": "2024-09-21T17:00:00+00:00",
+        "timestamp": 1726938000,
+        "periods": {
+          "first": 1726938000,
+          "second": 1726941600
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237906,
+        "referee": "C. Ayd\u0131n",
+        "timezone": "UTC",
+        "date": "2024-09-29T16:00:00+00:00",
+        "timestamp": 1727625600,
+        "periods": {
+          "first": 1727625600,
+          "second": 1727629200
+        },
+        "venue": {
+          "id": 19220,
+          "name": "Corendon Airlines Park",
+          "city": "Antalya"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1005,
+          "name": "Antalyaspor",
+          "logo": "https://media.api-sports.io/football/teams/1005.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237926,
+        "referee": "M. Meto\u011flu",
+        "timezone": "UTC",
+        "date": "2024-10-20T16:00:00+00:00",
+        "timestamp": 1729440000,
+        "periods": {
+          "first": 1729440000,
+          "second": 1729443600
+        },
+        "venue": {
+          "id": 11925,
+          "name": "Samsun Yeni 19 May\u0131s Stadyumu",
+          "city": "Samsun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png",
+          "winner": null
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237938,
+        "referee": "M. T\u00fcrkmen",
+        "timezone": "UTC",
+        "date": "2024-10-27T15:00:00+00:00",
+        "timestamp": 1730041200,
+        "periods": {
+          "first": 1730041200,
+          "second": 1730044800
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3583,
+          "name": "Bodrum FK",
+          "logo": "https://media.api-sports.io/football/teams/3583.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237943,
+        "referee": "O. \u00c7ak\u0131r",
+        "timezone": "UTC",
+        "date": "2024-11-03T16:00:00+00:00",
+        "timestamp": 1730649600,
+        "periods": {
+          "first": 1730649600,
+          "second": 1730653200
+        },
+        "venue": {
+          "id": 20189,
+          "name": "Papara Park",
+          "city": "Trabzon"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 16
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 998,
+          "name": "Trabzonspor",
+          "logo": "https://media.api-sports.io/football/teams/998.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237956,
+        "referee": "K. Sa\u011flam",
+        "timezone": "UTC",
+        "date": "2024-11-10T16:00:00+00:00",
+        "timestamp": 1731254400,
+        "periods": {
+          "first": 1731254400,
+          "second": 1731258000
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237959,
+        "referee": "D. Tonusluo\u011flu",
+        "timezone": "UTC",
+        "date": "2024-11-23T13:00:00+00:00",
+        "timestamp": 1732366800,
+        "periods": {
+          "first": 1732366800,
+          "second": 1732370400
+        },
+        "venue": {
+          "id": 19613,
+          "name": "RHG Enert\u00fcrk Enerji Stadyumu",
+          "city": "Kayseri"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237974,
+        "referee": "A. Akarsu",
+        "timezone": "UTC",
+        "date": "2024-12-02T17:00:00+00:00",
+        "timestamp": 1733158800,
+        "periods": {
+          "first": 1733158800,
+          "second": 1733162400
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3573,
+          "name": "Gaziantep FK",
+          "logo": "https://media.api-sports.io/football/teams/3573.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237975,
+        "referee": "M. T\u00fcrkmen",
+        "timezone": "UTC",
+        "date": "2024-12-07T16:00:00+00:00",
+        "timestamp": 1733587200,
+        "periods": {
+          "first": 1733587200,
+          "second": 1733590800
+        },
+        "venue": {
+          "id": 20423,
+          "name": "T\u00fcpra\u015f Stadyumu",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 549,
+          "name": "Be\u015fikta\u015f",
+          "logo": "https://media.api-sports.io/football/teams/549.png",
+          "winner": true
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237992,
+        "referee": "O. Erg\u00fcn",
+        "timezone": "UTC",
+        "date": "2024-12-15T16:00:00+00:00",
+        "timestamp": 1734278400,
+        "periods": {
+          "first": 1734278400,
+          "second": 1734282000
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 564,
+          "name": "Ba\u015fak\u015fehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237998,
+        "referee": "E. Karg\u0131n",
+        "timezone": "UTC",
+        "date": "2024-12-20T17:00:00+00:00",
+        "timestamp": 1734714000,
+        "periods": {
+          "first": 1734714000,
+          "second": 1734717600
+        },
+        "venue": {
+          "id": 1585,
+          "name": "Recep Tayyip Erdo\u011fan Stadyumu",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3588,
+          "name": "Ey\u00fcpspor",
+          "logo": "https://media.api-sports.io/football/teams/3588.png",
+          "winner": null
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238010,
+        "referee": "O. \u00c7ak\u0131r",
+        "timezone": "UTC",
+        "date": "2025-01-05T16:00:00+00:00",
+        "timestamp": 1736092800,
+        "periods": {
+          "first": 1736092800,
+          "second": 1736096400
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238015,
+        "referee": "D. Tonusluo\u011flu",
+        "timezone": "UTC",
+        "date": "2025-01-13T17:00:00+00:00",
+        "timestamp": 1736787600,
+        "periods": {
+          "first": 1736787600,
+          "second": 1736791200
+        },
+        "venue": {
+          "id": 22762,
+          "name": "Meda\u015f Konya B\u00fcy\u00fck\u015fehir Stadyumu",
+          "city": "Konya"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 607,
+          "name": "Konyaspor",
+          "logo": "https://media.api-sports.io/football/teams/607.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238026,
+        "referee": "H. Meler",
+        "timezone": "UTC",
+        "date": "2025-01-19T16:00:00+00:00",
+        "timestamp": 1737302400,
+        "periods": {
+          "first": 1737302400,
+          "second": 1737306000
+        },
+        "venue": {
+          "id": 11924,
+          "name": "Yeni Adana Stadyumu",
+          "city": "Adana"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238029,
+        "referee": "A. Karao\u011flan",
+        "timezone": "UTC",
+        "date": "2025-01-26T16:00:00+00:00",
+        "timestamp": 1737907200,
+        "periods": {
+          "first": 1737907200,
+          "second": 1737910800
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 994,
+          "name": "G\u00f6ztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238046,
+        "referee": "B. Pakkan",
+        "timezone": "UTC",
+        "date": "2025-02-02T16:00:00+00:00",
+        "timestamp": 1738512000,
+        "periods": {
+          "first": 1738512000,
+          "second": 1738515600
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238049,
+        "referee": "C. Ayd\u0131n",
+        "timezone": "UTC",
+        "date": "2025-02-09T13:00:00+00:00",
+        "timestamp": 1739106000,
+        "periods": {
+          "first": 1739106000,
+          "second": 1739109600
+        },
+        "venue": {
+          "id": 21379,
+          "name": "GAIN Park Stadium",
+          "city": "Antalya"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 996,
+          "name": "Alanyaspor",
+          "logo": "https://media.api-sports.io/football/teams/996.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238063,
+        "referee": "A. \u015eansalan",
+        "timezone": "UTC",
+        "date": "2025-02-16T16:00:00+00:00",
+        "timestamp": 1739721600,
+        "periods": {
+          "first": 1739721600,
+          "second": 1739725200
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1004,
+          "name": "Kas\u0131mpa\u015fa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238071,
+        "referee": "S. Vin\u010di\u0107",
+        "timezone": "UTC",
+        "date": "2025-02-24T17:00:00+00:00",
+        "timestamp": 1740416400,
+        "periods": {
+          "first": 1740416400,
+          "second": 1740420000
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238082,
+        "referee": "M. T\u00fcrkmen",
+        "timezone": "UTC",
+        "date": "2025-03-02T17:30:00+00:00",
+        "timestamp": 1740936600,
+        "periods": {
+          "first": 1740936600,
+          "second": 1740940200
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1005,
+          "name": "Antalyaspor",
+          "logo": "https://media.api-sports.io/football/teams/1005.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238097,
+        "referee": "C. Ayd\u0131n",
+        "timezone": "UTC",
+        "date": "2025-03-16T17:30:00+00:00",
+        "timestamp": 1742146200,
+        "periods": {
+          "first": 1742146200,
+          "second": 1742149800
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238109,
+        "referee": "A. Karao\u011flan",
+        "timezone": "UTC",
+        "date": "2025-03-28T17:30:00+00:00",
+        "timestamp": 1743183000,
+        "periods": {
+          "first": 1743183000,
+          "second": 1743186600
+        },
+        "venue": {
+          "id": 2385,
+          "name": "Grey Beton Bodrum Stadyumu",
+          "city": "Mu\u011fla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3583,
+          "name": "Bodrum FK",
+          "logo": "https://media.api-sports.io/football/teams/3583.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 4
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238113,
+        "referee": "M. T\u00fcrkmen",
+        "timezone": "UTC",
+        "date": "2025-04-06T16:00:00+00:00",
+        "timestamp": 1743955200,
+        "periods": {
+          "first": 1743955200,
+          "second": 1743958800
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 998,
+          "name": "Trabzonspor",
+          "logo": "https://media.api-sports.io/football/teams/998.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238119,
+        "referee": "Y. Kol",
+        "timezone": "UTC",
+        "date": "2025-04-13T16:00:00+00:00",
+        "timestamp": 1744560000,
+        "periods": {
+          "first": 1744560000,
+          "second": 1744563600
+        },
+        "venue": {
+          "id": 20425,
+          "name": "BG Group 4 Eyl\u00fcl Stadyumu",
+          "city": "Sivas"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238135,
+        "referee": "O. \u00c7ak\u0131r",
+        "timezone": "UTC",
+        "date": "2025-04-20T16:00:00+00:00",
+        "timestamp": 1745164800,
+        "periods": {
+          "first": 1745164800,
+          "second": 1745168400
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238145,
+        "referee": "D. Tonusluo\u011flu",
+        "timezone": "UTC",
+        "date": "2025-04-26T16:00:00+00:00",
+        "timestamp": 1745683200,
+        "periods": {
+          "first": 1745683200,
+          "second": 1745686800
+        },
+        "venue": {
+          "id": 2375,
+          "name": "Gaziantep Stadyumu",
+          "city": "Gaziantep"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3573,
+          "name": "Gaziantep FK",
+          "logo": "https://media.api-sports.io/football/teams/3573.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238153,
+        "referee": "Y. Kol",
+        "timezone": "UTC",
+        "date": "2025-05-04T16:00:00+00:00",
+        "timestamp": 1746374400,
+        "periods": {
+          "first": 1746374400,
+          "second": 1746378000
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        },
+        "away": {
+          "id": 549,
+          "name": "Be\u015fikta\u015f",
+          "logo": "https://media.api-sports.io/football/teams/549.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238160,
+        "referee": "B. Pakkan",
+        "timezone": "UTC",
+        "date": "2025-05-09T17:00:00+00:00",
+        "timestamp": 1746810000,
+        "periods": {
+          "first": 1746810000,
+          "second": 1746813600
+        },
+        "venue": {
+          "id": 1584,
+          "name": "Ba\u015fak\u015fehir Fatih Terim Stadyumu",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 35",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 564,
+          "name": "Ba\u015fak\u015fehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238172,
+        "referee": "O. Erg\u00fcn",
+        "timezone": "UTC",
+        "date": "2025-05-18T16:00:00+00:00",
+        "timestamp": 1747584000,
+        "periods": {
+          "first": 1747584000,
+          "second": 1747587600
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 36",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3588,
+          "name": "Ey\u00fcpspor",
+          "logo": "https://media.api-sports.io/football/teams/3588.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238174,
+        "referee": "Y. Arslan",
+        "timezone": "UTC",
+        "date": "2025-05-26T17:00:00+00:00",
+        "timestamp": 1748278800,
+        "periods": {
+          "first": 1748278800,
+          "second": 1748282400
+        },
+        "venue": {
+          "id": 8392,
+          "name": "Mersin Stadyumu",
+          "city": "Mersin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 37",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png",
+          "winner": true
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238185,
+        "referee": "O. \u00c7ak\u0131r",
+        "timezone": "UTC",
+        "date": "2025-05-31T13:00:00+00:00",
+        "timestamp": 1748696400,
+        "periods": {
+          "first": 1748696400,
+          "second": 1748700000
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 38",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 607,
+          "name": "Konyaspor",
+          "logo": "https://media.api-sports.io/football/teams/607.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1271720,
+        "referee": "I. Kov\u00e1cs",
+        "timezone": "UTC",
+        "date": "2024-08-06T18:30:00+00:00",
+        "timestamp": 1722969000,
+        "periods": {
+          "first": 1722969000,
+          "second": 1722972600
+        },
+        "venue": {
+          "id": 686,
+          "name": "Stade du Hainaut",
+          "city": "Valenciennes"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1271721,
+        "referee": "Jos\u00e9 S\u00e1nchez",
+        "timezone": "UTC",
+        "date": "2024-08-13T17:00:00+00:00",
+        "timestamp": 1723568400,
+        "periods": {
+          "first": 1723568400,
+          "second": 1723572000
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 1
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299137,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2024-09-26T16:45:00+00:00",
+        "timestamp": 1727369100,
+        "periods": {
+          "first": 1727369100,
+          "second": 1727372700
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1393,
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299159,
+        "referee": "C. Kavanagh",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 1153,
+          "name": "De Grolsch Veste",
+          "city": "Enschede"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 415,
+          "name": "Twente",
+          "logo": "https://media.api-sports.io/football/teams/415.png",
+          "winner": null
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299176,
+        "referee": "C. Turpin",
+        "timezone": "UTC",
+        "date": "2024-10-24T19:00:00+00:00",
+        "timestamp": 1729796400,
+        "periods": {
+          "first": 1729796400,
+          "second": 1729800000
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        },
+        "away": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299193,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2024-11-07T20:00:00+00:00",
+        "timestamp": 1731009600,
+        "periods": {
+          "first": 1731009600,
+          "second": 1731013200
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299215,
+        "referee": "S. Stegemann",
+        "timezone": "UTC",
+        "date": "2024-11-28T20:00:00+00:00",
+        "timestamp": 1732824000,
+        "periods": {
+          "first": 1732824000,
+          "second": 1732827600
+        },
+        "venue": {
+          "id": 18856,
+          "name": "Fortuna Arena",
+          "city": "Praha"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299218,
+        "referee": "I. Peljto",
+        "timezone": "UTC",
+        "date": "2024-12-11T15:30:00+00:00",
+        "timestamp": 1733931000,
+        "periods": {
+          "first": 1733931000,
+          "second": 1733934600
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        },
+        "away": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299241,
+        "referee": "S. Sozza",
+        "timezone": "UTC",
+        "date": "2025-01-23T17:45:00+00:00",
+        "timestamp": 1737654300,
+        "periods": {
+          "first": 1737654300,
+          "second": 1737657900
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299257,
+        "referee": "Lu\u00eds Godinho",
+        "timezone": "UTC",
+        "date": "2025-01-30T20:00:00+00:00",
+        "timestamp": 1738267200,
+        "periods": {
+          "first": 1738267200,
+          "second": 1738270800
+        },
+        "venue": {
+          "id": 453,
+          "name": "MCH Arena",
+          "city": "Herning"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 397,
+          "name": "FC Midtjylland",
+          "logo": "https://media.api-sports.io/football/teams/397.png",
+          "winner": null
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1313040,
+        "referee": "O. Erg\u00fcn",
+        "timezone": "UTC",
+        "date": "2024-11-15T17:00:00+00:00",
+        "timestamp": 1731690000,
+        "periods": {
+          "first": 1731690000,
+          "second": 1731693600
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327555,
+        "referee": "K. Sa\u011flam",
+        "timezone": "UTC",
+        "date": "2025-01-09T17:30:00+00:00",
+        "timestamp": 1736443800,
+        "periods": {
+          "first": 1736443800,
+          "second": 1736447400
+        },
+        "venue": {
+          "id": 1585,
+          "name": "Recep Tayyip Erdo\u011fan Stadyumu",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 206,
+        "name": "T\u00fcrkiye Kupas\u0131",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/206.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Group Stage - 2",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1004,
+          "name": "Kas\u0131mpa\u015fa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327565,
+        "referee": "A. Kayatepe",
+        "timezone": "UTC",
+        "date": "2025-02-05T17:30:00+00:00",
+        "timestamp": 1738776600,
+        "periods": {
+          "first": 1738776600,
+          "second": 1738780200
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 206,
+        "name": "T\u00fcrkiye Kupas\u0131",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/206.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Group Stage - 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1009,
+          "name": "Erzurumspor FK",
+          "logo": "https://media.api-sports.io/football/teams/1009.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327577,
+        "referee": "Y. Kol",
+        "timezone": "UTC",
+        "date": "2025-02-27T13:00:00+00:00",
+        "timestamp": 1740661200,
+        "periods": {
+          "first": 1740661200,
+          "second": 1740664800
+        },
+        "venue": {
+          "id": 2375,
+          "name": "Gaziantep Stadyumu",
+          "city": "Gaziantep"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 206,
+        "name": "T\u00fcrkiye Kupas\u0131",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/206.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Group Stage - 4",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3573,
+          "name": "Gaziantep FK",
+          "logo": "https://media.api-sports.io/football/teams/3573.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345759,
+        "referee": "N. Dabanovi\u0107",
+        "timezone": "UTC",
+        "date": "2025-02-13T17:45:00+00:00",
+        "timestamp": 1739468700,
+        "periods": {
+          "first": 1739468700,
+          "second": 1739472300
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 554,
+          "name": "Anderlecht",
+          "logo": "https://media.api-sports.io/football/teams/554.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345760,
+        "referee": "S. Sch\u00e4rer",
+        "timezone": "UTC",
+        "date": "2025-02-20T20:00:00+00:00",
+        "timestamp": 1740081600,
+        "periods": {
+          "first": 1740081600,
+          "second": 1740085200
+        },
+        "venue": {
+          "id": null,
+          "name": "Lotto Park",
+          "city": "Brussel"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 554,
+          "name": "Anderlecht",
+          "logo": "https://media.api-sports.io/football/teams/554.png",
+          "winner": null
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353188,
+        "referee": "Alejandro Hern\u00e1ndez",
+        "timezone": "UTC",
+        "date": "2025-03-06T17:45:00+00:00",
+        "timestamp": 1741283100,
+        "periods": {
+          "first": 1741283100,
+          "second": 1741286700
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353189,
+        "referee": "E. Esk\u00e5s",
+        "timezone": "UTC",
+        "date": "2025-03-13T20:00:00+00:00",
+        "timestamp": 1741896000,
+        "periods": {
+          "first": 1741896000,
+          "second": 1741899600
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 3,
+          "away": 2
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1359787,
+        "referee": "C. Ayd\u0131n",
+        "timezone": "UTC",
+        "date": "2025-04-02T17:45:00+00:00",
+        "timestamp": 1743615900,
+        "periods": {
+          "first": 1743615900,
+          "second": 1743619500
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 206,
+        "name": "T\u00fcrkiye Kupas\u0131",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/206.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4565 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "631"
+  },
+  "errors": [],
+  "results": 65,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1161129,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-12T00:00:00+00:00",
+        "timestamp": 1705017600,
+        "periods": {
+          "first": 1705017600,
+          "second": 1705021200
+        },
+        "venue": {
+          "id": null,
+          "name": "Oliva Nova Golf & Beach Resort Campo 1",
+          "city": "Oliva"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2246,
+          "name": "CFR 1907 Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2246.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1207159,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-29T17:00:00+00:00",
+        "timestamp": 1719680400,
+        "periods": {
+          "first": 1719680400,
+          "second": 1719684000
+        },
+        "venue": {
+          "id": 19949,
+          "name": "Sportpark Molenkouter",
+          "city": "Merelbeke"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5871,
+          "name": "Merelbeke",
+          "logo": "https://media.api-sports.io/football/teams/5871.png",
+          "winner": false
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208957,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-05T17:00:00+00:00",
+        "timestamp": 1720198800,
+        "periods": {
+          "first": 1720198800,
+          "second": 1720202400
+        },
+        "venue": {
+          "id": 4317,
+          "name": "Jozef Plaetinck Stadion",
+          "city": "Kalken"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5813,
+          "name": "HO Kalken",
+          "logo": "https://media.api-sports.io/football/teams/5813.png",
+          "winner": false
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 9
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 4
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 9
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208967,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-06T12:00:00+00:00",
+        "timestamp": 1720267200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "CANC",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        },
+        "away": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208997,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-10T13:00:00+00:00",
+        "timestamp": 1720616400,
+        "periods": {
+          "first": 1720616400,
+          "second": 1720620000
+        },
+        "venue": {
+          "id": null,
+          "name": "Sportpark Van Zuijen",
+          "city": "Burgh-Haamstede"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 575,
+          "name": "AEK Athens FC",
+          "logo": "https://media.api-sports.io/football/teams/575.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209015,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T12:00:00+00:00",
+        "timestamp": 1720872000,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "CANC",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": null
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209585,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-20T12:00:00+00:00",
+        "timestamp": 1721476800,
+        "periods": {
+          "first": 1721476800,
+          "second": 1721480400
+        },
+        "venue": {
+          "id": 19273,
+          "name": "Chillax Arena",
+          "city": "Oostakker"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 600,
+          "name": "Zulte Waregem",
+          "logo": "https://media.api-sports.io/football/teams/600.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213206,
+        "referee": "N. Verboomen",
+        "timezone": "UTC",
+        "date": "2024-07-28T14:00:00+00:00",
+        "timestamp": 1722175200,
+        "periods": {
+          "first": 1722175200,
+          "second": 1722178800
+        },
+        "venue": {
+          "id": 182,
+          "name": "Guldensporenstadion",
+          "city": "Kortrijk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 734,
+          "name": "Kortrijk",
+          "logo": "https://media.api-sports.io/football/teams/734.png",
+          "winner": false
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213216,
+        "referee": "J. Boterberg",
+        "timezone": "UTC",
+        "date": "2024-08-04T17:15:00+00:00",
+        "timestamp": 1722791700,
+        "periods": {
+          "first": 1722791700,
+          "second": 1722795300
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 6215,
+          "name": "Dender",
+          "logo": "https://media.api-sports.io/football/teams/6215.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213223,
+        "referee": "L. D'hondt",
+        "timezone": "UTC",
+        "date": "2024-08-11T16:30:00+00:00",
+        "timestamp": 1723393800,
+        "periods": {
+          "first": 1723393800,
+          "second": 1723397400
+        },
+        "venue": {
+          "id": 177,
+          "name": "Stade du Pays de Charleroi",
+          "city": "Charleroi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 736,
+          "name": "Charleroi",
+          "logo": "https://media.api-sports.io/football/teams/736.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213232,
+        "referee": "E. Lambrechts",
+        "timezone": "UTC",
+        "date": "2024-08-18T17:15:00+00:00",
+        "timestamp": 1724001300,
+        "periods": {
+          "first": 1724001300,
+          "second": 1724004900
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 261,
+          "name": "KVC Westerlo",
+          "logo": "https://media.api-sports.io/football/teams/261.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213234,
+        "referee": "J. Boterberg",
+        "timezone": "UTC",
+        "date": "2024-09-26T18:45:00+00:00",
+        "timestamp": 1727376300,
+        "periods": {
+          "first": 1727376300,
+          "second": 1727379900
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213246,
+        "referee": "N. Verboomen",
+        "timezone": "UTC",
+        "date": "2024-09-01T14:00:00+00:00",
+        "timestamp": 1725199200,
+        "periods": {
+          "first": 1725199200,
+          "second": 1725202800
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        },
+        "away": {
+          "id": 740,
+          "name": "Antwerp",
+          "logo": "https://media.api-sports.io/football/teams/740.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213256,
+        "referee": "K. Van Damme",
+        "timezone": "UTC",
+        "date": "2024-09-15T17:15:00+00:00",
+        "timestamp": 1726420500,
+        "periods": {
+          "first": 1726420500,
+          "second": 1726424100
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 266,
+          "name": "KV Mechelen",
+          "logo": "https://media.api-sports.io/football/teams/266.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213257,
+        "referee": "N. Laforge",
+        "timezone": "UTC",
+        "date": "2024-09-22T11:30:00+00:00",
+        "timestamp": 1727004600,
+        "periods": {
+          "first": 1727004600,
+          "second": 1727008200
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png",
+          "winner": false
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213267,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2024-09-29T16:30:00+00:00",
+        "timestamp": 1727627400,
+        "periods": {
+          "first": 1727627400,
+          "second": 1727631000
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 260,
+          "name": "OH Leuven",
+          "logo": "https://media.api-sports.io/football/teams/260.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213278,
+        "referee": "J. Vergoote",
+        "timezone": "UTC",
+        "date": "2024-10-06T17:15:00+00:00",
+        "timestamp": 1728234900,
+        "periods": {
+          "first": 1728234900,
+          "second": 1728238500
+        },
+        "venue": {
+          "id": 19611,
+          "name": "Daio Wasabi Stayen Stadium",
+          "city": "St.-Trond"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 735,
+          "name": "St. Truiden",
+          "logo": "https://media.api-sports.io/football/teams/735.png",
+          "winner": null
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213281,
+        "referee": "N. Verboomen",
+        "timezone": "UTC",
+        "date": "2024-10-19T18:45:00+00:00",
+        "timestamp": 1729363500,
+        "periods": {
+          "first": 1729363500,
+          "second": 1729367100
+        },
+        "venue": {
+          "id": 194,
+          "name": "Stade Joseph Mari\u00ebn",
+          "city": "Brussels"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1393,
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png",
+          "winner": null
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213291,
+        "referee": "N. Laforge",
+        "timezone": "UTC",
+        "date": "2024-10-27T17:30:00+00:00",
+        "timestamp": 1730050200,
+        "periods": {
+          "first": 1730050200,
+          "second": 1730053800
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 742,
+          "name": "Genk",
+          "logo": "https://media.api-sports.io/football/teams/742.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213300,
+        "referee": "M. Allaerts",
+        "timezone": "UTC",
+        "date": "2024-11-03T18:15:00+00:00",
+        "timestamp": 1730657700,
+        "periods": {
+          "first": 1730657700,
+          "second": 1730661300
+        },
+        "venue": {
+          "id": 181,
+          "name": "Olympisch Stadion",
+          "city": "Anvers"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 263,
+          "name": "Beerschot VA",
+          "logo": "https://media.api-sports.io/football/teams/263.png",
+          "winner": null
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213306,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2024-11-10T15:00:00+00:00",
+        "timestamp": 1731250800,
+        "periods": {
+          "first": 1731250800,
+          "second": 1731254400
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 733,
+          "name": "Standard Liege",
+          "logo": "https://media.api-sports.io/football/teams/733.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213314,
+        "referee": "L. D'hondt",
+        "timezone": "UTC",
+        "date": "2024-11-24T17:30:00+00:00",
+        "timestamp": 1732469400,
+        "periods": {
+          "first": 1732469400,
+          "second": 1732473000
+        },
+        "venue": {
+          "id": 174,
+          "name": "Lotto Park",
+          "city": "Brussel"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 554,
+          "name": "Anderlecht",
+          "logo": "https://media.api-sports.io/football/teams/554.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213327,
+        "referee": "S. Bourdeaud'hui",
+        "timezone": "UTC",
+        "date": "2024-12-01T18:15:00+00:00",
+        "timestamp": 1733076900,
+        "periods": {
+          "first": 1733076900,
+          "second": 1733080500
+        },
+        "venue": {
+          "id": 195,
+          "name": "Het Kuipje",
+          "city": "Westerlo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 261,
+          "name": "KVC Westerlo",
+          "logo": "https://media.api-sports.io/football/teams/261.png",
+          "winner": null
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213331,
+        "referee": "N. Verboomen",
+        "timezone": "UTC",
+        "date": "2024-12-07T19:45:00+00:00",
+        "timestamp": 1733600700,
+        "periods": {
+          "first": 1733600700,
+          "second": 1733604300
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 735,
+          "name": "St. Truiden",
+          "logo": "https://media.api-sports.io/football/teams/735.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213339,
+        "referee": "J. Boterberg",
+        "timezone": "UTC",
+        "date": "2024-12-15T18:15:00+00:00",
+        "timestamp": 1734286500,
+        "periods": {
+          "first": 1734286500,
+          "second": 1734290100
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213347,
+        "referee": "J. Vergoote",
+        "timezone": "UTC",
+        "date": "2024-12-22T15:00:00+00:00",
+        "timestamp": 1734879600,
+        "periods": {
+          "first": 1734879600,
+          "second": 1734883200
+        },
+        "venue": {
+          "id": 192,
+          "name": "Stade Maurice Dufrasne",
+          "city": "Luik"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 733,
+          "name": "Standard Liege",
+          "logo": "https://media.api-sports.io/football/teams/733.png",
+          "winner": false
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213355,
+        "referee": "N. Laforge",
+        "timezone": "UTC",
+        "date": "2024-12-26T19:45:00+00:00",
+        "timestamp": 1735242300,
+        "periods": {
+          "first": 1735242300,
+          "second": 1735245900
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1393,
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213368,
+        "referee": "N. Laforge",
+        "timezone": "UTC",
+        "date": "2025-01-12T15:00:00+00:00",
+        "timestamp": 1736694000,
+        "periods": {
+          "first": 1736694000,
+          "second": 1736697600
+        },
+        "venue": {
+          "id": 19052,
+          "name": "DENDER Football Complex",
+          "city": "Denderleeuw"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6215,
+          "name": "Dender",
+          "logo": "https://media.api-sports.io/football/teams/6215.png",
+          "winner": null
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213371,
+        "referee": "B. Put",
+        "timezone": "UTC",
+        "date": "2025-01-17T19:45:00+00:00",
+        "timestamp": 1737143100,
+        "periods": {
+          "first": 1737143100,
+          "second": 1737146700
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        },
+        "away": {
+          "id": 736,
+          "name": "Charleroi",
+          "logo": "https://media.api-sports.io/football/teams/736.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213381,
+        "referee": "E. Lambrechts",
+        "timezone": "UTC",
+        "date": "2025-01-26T18:15:00+00:00",
+        "timestamp": 1737915300,
+        "periods": {
+          "first": 1737915300,
+          "second": 1737918900
+        },
+        "venue": {
+          "id": 186,
+          "name": "King Power at Den Dreef Stadion",
+          "city": "Heverlee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 260,
+          "name": "OH Leuven",
+          "logo": "https://media.api-sports.io/football/teams/260.png",
+          "winner": null
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213387,
+        "referee": "N. Verboomen",
+        "timezone": "UTC",
+        "date": "2025-02-02T17:30:00+00:00",
+        "timestamp": 1738517400,
+        "periods": {
+          "first": 1738517400,
+          "second": 1738521000
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 554,
+          "name": "Anderlecht",
+          "logo": "https://media.api-sports.io/football/teams/554.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213398,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2025-02-07T19:45:00+00:00",
+        "timestamp": 1738957500,
+        "periods": {
+          "first": 1738957500,
+          "second": 1738961100
+        },
+        "venue": {
+          "id": 20336,
+          "name": "AFAS Stadion",
+          "city": "Malines"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 14
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 266,
+          "name": "KV Mechelen",
+          "logo": "https://media.api-sports.io/football/teams/266.png",
+          "winner": null
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213402,
+        "referee": "K. Van Damme",
+        "timezone": "UTC",
+        "date": "2025-02-16T12:30:00+00:00",
+        "timestamp": 1739709000,
+        "periods": {
+          "first": 1739709000,
+          "second": 1739712600
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 263,
+          "name": "Beerschot VA",
+          "logo": "https://media.api-sports.io/football/teams/263.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213411,
+        "referee": "J. Vergoote",
+        "timezone": "UTC",
+        "date": "2025-02-23T15:00:00+00:00",
+        "timestamp": 1740322800,
+        "periods": {
+          "first": 1740322800,
+          "second": 1740326400
+        },
+        "venue": {
+          "id": 12455,
+          "name": "Cegeka Arena",
+          "city": "Genk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 742,
+          "name": "Genk",
+          "logo": "https://media.api-sports.io/football/teams/742.png",
+          "winner": null
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213418,
+        "referee": "J. Boterberg",
+        "timezone": "UTC",
+        "date": "2025-03-01T15:00:00+00:00",
+        "timestamp": 1740841200,
+        "periods": {
+          "first": 1740841200,
+          "second": 1740844800
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        },
+        "away": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213426,
+        "referee": "E. Lambrechts",
+        "timezone": "UTC",
+        "date": "2025-03-09T17:30:00+00:00",
+        "timestamp": 1741541400,
+        "periods": {
+          "first": 1741541400,
+          "second": 1741545000
+        },
+        "venue": {
+          "id": 175,
+          "name": "Bosuilstadion",
+          "city": "Deurne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 740,
+          "name": "Antwerp",
+          "logo": "https://media.api-sports.io/football/teams/740.png",
+          "winner": false
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213436,
+        "referee": "K. Van Damme",
+        "timezone": "UTC",
+        "date": "2025-03-16T17:30:00+00:00",
+        "timestamp": 1742146200,
+        "periods": {
+          "first": 1742146200,
+          "second": 1742149800
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 734,
+          "name": "Kortrijk",
+          "logo": "https://media.api-sports.io/football/teams/734.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222432,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-17T17:30:00+00:00",
+        "timestamp": 1721237400,
+        "periods": {
+          "first": 1721237400,
+          "second": 1721241000
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250972,
+        "referee": "V. Th\u00f3rarinsson",
+        "timezone": "UTC",
+        "date": "2024-07-25T18:00:00+00:00",
+        "timestamp": 1721930400,
+        "periods": {
+          "first": 1721930400,
+          "second": 1721934000
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 580,
+          "name": "Vikingur Gota",
+          "logo": "https://media.api-sports.io/football/teams/580.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250973,
+        "referee": "M. K\u00e1pr\u00e1ly",
+        "timezone": "UTC",
+        "date": "2024-08-01T18:00:00+00:00",
+        "timestamp": 1722535200,
+        "periods": {
+          "first": 1722535200,
+          "second": 1722538800
+        },
+        "venue": {
+          "id": 21585,
+          "name": "Vi\u00f0 Dj\u00fapum\u00fdrar",
+          "city": "Klaksv\u00edk, Bor\u00f0oy"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 580,
+          "name": "Vikingur Gota",
+          "logo": "https://media.api-sports.io/football/teams/580.png",
+          "winner": false
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274831,
+        "referee": "C. Ciochirca",
+        "timezone": "UTC",
+        "date": "2024-08-08T16:30:00+00:00",
+        "timestamp": 1723134600,
+        "periods": {
+          "first": 1723134600,
+          "second": 1723138200
+        },
+        "venue": {
+          "id": 459,
+          "name": "JYSK park",
+          "city": "Silkeborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2073,
+          "name": "Silkeborg",
+          "logo": "https://media.api-sports.io/football/teams/2073.png",
+          "winner": null
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274832,
+        "referee": "Jos\u00e9 Munuera",
+        "timezone": "UTC",
+        "date": "2024-08-15T18:30:00+00:00",
+        "timestamp": 1723746600,
+        "periods": {
+          "first": 1723746600,
+          "second": 1723750200
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2073,
+          "name": "Silkeborg",
+          "logo": "https://media.api-sports.io/football/teams/2073.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": 1,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287588,
+        "referee": "E. M\u0259siyev",
+        "timezone": "UTC",
+        "date": "2024-08-22T18:15:00+00:00",
+        "timestamp": 1724350500,
+        "periods": {
+          "first": 1724350500,
+          "second": 1724354100
+        },
+        "venue": {
+          "id": 1424,
+          "name": "Stadion Partizana",
+          "city": "Beograd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 573,
+          "name": "FK Partizan",
+          "logo": "https://media.api-sports.io/football/teams/573.png",
+          "winner": false
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287589,
+        "referee": "F. Glova",
+        "timezone": "UTC",
+        "date": "2024-08-28T16:00:00+00:00",
+        "timestamp": 1724860800,
+        "periods": {
+          "first": 1724860800,
+          "second": 1724864400
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 573,
+          "name": "FK Partizan",
+          "logo": "https://media.api-sports.io/football/teams/573.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299304,
+        "referee": "D. Schlager",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 519,
+          "name": "Stamford Bridge",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299316,
+        "referee": "G. Kikacheishvili",
+        "timezone": "UTC",
+        "date": "2024-10-24T16:45:00+00:00",
+        "timestamp": 1729788300,
+        "periods": {
+          "first": 1729788300,
+          "second": 1729791900
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 329,
+          "name": "Molde",
+          "logo": "https://media.api-sports.io/football/teams/329.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299332,
+        "referee": "T. Bogn\u00e1r",
+        "timezone": "UTC",
+        "date": "2024-11-07T17:45:00+00:00",
+        "timestamp": 1731001500,
+        "periods": {
+          "first": 1731001500,
+          "second": 1731005100
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3402,
+          "name": "Omonia Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/3402.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299360,
+        "referee": "E. Jorgji",
+        "timezone": "UTC",
+        "date": "2024-11-28T20:00:00+00:00",
+        "timestamp": 1732824000,
+        "periods": {
+          "first": 1732824000,
+          "second": 1732827600
+        },
+        "venue": {
+          "id": 1544,
+          "name": "Stockhorn Arena",
+          "city": "Thun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299377,
+        "referee": "A. Ghaltakchyan",
+        "timezone": "UTC",
+        "date": "2024-12-12T20:00:00+00:00",
+        "timestamp": 1734033600,
+        "periods": {
+          "first": 1734033600,
+          "second": 1734037200
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2646,
+          "name": "TSC Backa Topola",
+          "logo": "https://media.api-sports.io/football/teams/2646.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299393,
+        "referee": "S. Kringstad",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 1971,
+          "name": "Windsor Park",
+          "city": "Belfast"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5354,
+          "name": "Larne",
+          "logo": "https://media.api-sports.io/football/teams/5354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1304297,
+        "referee": "T. Diskeuve",
+        "timezone": "UTC",
+        "date": "2024-10-30T19:00:00+00:00",
+        "timestamp": 1730314800,
+        "periods": {
+          "first": 1730314800,
+          "second": 1730318400
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 147,
+        "name": "Cup",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/147.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Round of 32",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5914,
+          "name": "Rochefort",
+          "logo": "https://media.api-sports.io/football/teams/5914.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 7,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 7,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1305909,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-05T00:00:00+00:00",
+        "timestamp": 1725494400,
+        "periods": {
+          "first": 1725494400,
+          "second": 1725498000
+        },
+        "venue": {
+          "id": 19273,
+          "name": "Chillax Arena",
+          "city": "Oostakker"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 736,
+          "name": "Charleroi",
+          "logo": "https://media.api-sports.io/football/teams/736.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314655,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2024-12-04T19:00:00+00:00",
+        "timestamp": 1733338800,
+        "periods": {
+          "first": 1733338800,
+          "second": 1733342400
+        },
+        "venue": {
+          "id": 194,
+          "name": "Stade Joseph Mari\u00ebn",
+          "city": "Brussels"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 147,
+        "name": "Cup",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/147.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1393,
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1325898,
+        "referee": "H. Fe\u0219nic",
+        "timezone": "UTC",
+        "date": "2025-02-13T20:00:00+00:00",
+        "timestamp": 1739476800,
+        "periods": {
+          "first": 1739476800,
+          "second": 1739480400
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1325899,
+        "referee": "D. Sylwestrzak",
+        "timezone": "UTC",
+        "date": "2025-02-20T17:45:00+00:00",
+        "timestamp": 1740073500,
+        "periods": {
+          "first": 1740073500,
+          "second": 1740077100
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": false
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361730,
+        "referee": "J. Boterberg",
+        "timezone": "UTC",
+        "date": "2025-03-30T16:30:00+00:00",
+        "timestamp": 1743352200,
+        "periods": {
+          "first": 1743352200,
+          "second": 1743355800
+        },
+        "venue": {
+          "id": 12455,
+          "name": "Cegeka Arena",
+          "city": "Genk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Championship Round - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 742,
+          "name": "Genk",
+          "logo": "https://media.api-sports.io/football/teams/742.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361731,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2025-04-05T18:45:00+00:00",
+        "timestamp": 1743878700,
+        "periods": {
+          "first": 1743878700,
+          "second": 1743882300
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Championship Round - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1393,
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361735,
+        "referee": "N. Verboomen",
+        "timezone": "UTC",
+        "date": "2025-04-13T11:30:00+00:00",
+        "timestamp": 1744543800,
+        "periods": {
+          "first": 1744543800,
+          "second": 1744547400
+        },
+        "venue": {
+          "id": 175,
+          "name": "Bosuilstadion",
+          "city": "Deurne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Championship Round - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 740,
+          "name": "Antwerp",
+          "logo": "https://media.api-sports.io/football/teams/740.png",
+          "winner": false
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361739,
+        "referee": "J. Boterberg",
+        "timezone": "UTC",
+        "date": "2025-04-20T16:30:00+00:00",
+        "timestamp": 1745166600,
+        "periods": {
+          "first": 1745166600,
+          "second": 1745170200
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Championship Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361741,
+        "referee": "N. Laforge",
+        "timezone": "UTC",
+        "date": "2025-04-23T18:30:00+00:00",
+        "timestamp": 1745433000,
+        "periods": {
+          "first": 1745433000,
+          "second": 1745436600
+        },
+        "venue": {
+          "id": 174,
+          "name": "Lotto Park",
+          "city": "Brussel"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Championship Round - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 554,
+          "name": "Anderlecht",
+          "logo": "https://media.api-sports.io/football/teams/554.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361743,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2025-04-27T11:30:00+00:00",
+        "timestamp": 1745753400,
+        "periods": {
+          "first": 1745753400,
+          "second": 1745757000
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Championship Round - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 554,
+          "name": "Anderlecht",
+          "logo": "https://media.api-sports.io/football/teams/554.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361747,
+        "referee": "W. Smet",
+        "timezone": "UTC",
+        "date": "2025-05-01T14:15:00+00:00",
+        "timestamp": 1746108900,
+        "periods": {
+          "first": 1746108900,
+          "second": 1746112500
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Championship Round - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361750,
+        "referee": "L. D'hondt",
+        "timezone": "UTC",
+        "date": "2025-05-11T11:30:00+00:00",
+        "timestamp": 1746963000,
+        "periods": {
+          "first": 1746963000,
+          "second": 1746966600
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Championship Round - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 740,
+          "name": "Antwerp",
+          "logo": "https://media.api-sports.io/football/teams/740.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361754,
+        "referee": "J. Boterberg",
+        "timezone": "UTC",
+        "date": "2025-05-18T16:30:00+00:00",
+        "timestamp": 1747585800,
+        "periods": {
+          "first": 1747585800,
+          "second": 1747589400
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Championship Round - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 742,
+          "name": "Genk",
+          "logo": "https://media.api-sports.io/football/teams/742.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361756,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2025-05-25T16:30:00+00:00",
+        "timestamp": 1748190600,
+        "periods": {
+          "first": 1748190600,
+          "second": 1748194200
+        },
+        "venue": {
+          "id": 194,
+          "name": "Stade Joseph Mari\u00ebn",
+          "city": "Brussels"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Championship Round - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1393,
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

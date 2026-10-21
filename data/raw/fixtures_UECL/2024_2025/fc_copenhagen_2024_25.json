@@ -1,0 +1,4915 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "400"
+  },
+  "errors": [],
+  "results": 70,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1156461,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-16T20:00:00+00:00",
+        "timestamp": 1705435200,
+        "periods": {
+          "first": 1705435200,
+          "second": 1705438800
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1156566,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-20T11:00:00+00:00",
+        "timestamp": 1705748400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "CANC",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2065,
+          "name": "Fremad Amager",
+          "logo": "https://media.api-sports.io/football/teams/2065.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1156600,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-20T14:00:00+00:00",
+        "timestamp": 1705759200,
+        "periods": {
+          "first": 1705759200,
+          "second": 1705762800
+        },
+        "venue": {
+          "id": 19513,
+          "name": "epet ARENA",
+          "city": "Praha"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 628,
+          "name": "Sparta Praha",
+          "logo": "https://media.api-sports.io/football/teams/628.png",
+          "winner": true
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1156730,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-27T00:00:00+00:00",
+        "timestamp": 1706313600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "Canc",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        },
+        "away": {
+          "id": 406,
+          "name": "Aarhus",
+          "logo": "https://media.api-sports.io/football/teams/406.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1157044,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-09T00:00:00+00:00",
+        "timestamp": 1707436800,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "Canc",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 329,
+          "name": "Molde",
+          "logo": "https://media.api-sports.io/football/teams/329.png",
+          "winner": null
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1161005,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-04T19:00:00+00:00",
+        "timestamp": 1707073200,
+        "periods": {
+          "first": 1707073200,
+          "second": 1707076800
+        },
+        "venue": {
+          "id": 10889,
+          "name": "Est\u00e1dio Do Algarve",
+          "city": "Almancil"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 903,
+        "name": "The Atlantic Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/903.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Group Stage - 2",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 372,
+          "name": "IF Elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1161006,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-05T12:00:00+00:00",
+        "timestamp": 1707134400,
+        "periods": {
+          "first": 1707134400,
+          "second": 1707138000
+        },
+        "venue": {
+          "id": 10889,
+          "name": "Est\u00e1dio Do Algarve",
+          "city": "Almancil"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 903,
+        "name": "The Atlantic Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/903.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Group Stage - 2",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        },
+        "away": {
+          "id": 407,
+          "name": "Brondby",
+          "logo": "https://media.api-sports.io/football/teams/407.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1161010,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-08T19:00:00+00:00",
+        "timestamp": 1707418800,
+        "periods": {
+          "first": 1707418800,
+          "second": 1707422400
+        },
+        "venue": {
+          "id": 10889,
+          "name": "Est\u00e1dio Do Algarve",
+          "city": "Almancil"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 903,
+        "name": "The Atlantic Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/903.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Group Stage - 2",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 329,
+          "name": "Molde",
+          "logo": "https://media.api-sports.io/football/teams/329.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1187538,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-26T11:00:00+00:00",
+        "timestamp": 1711450800,
+        "periods": {
+          "first": 1711450800,
+          "second": 1711454400
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6009,
+          "name": "B 93",
+          "logo": "https://media.api-sports.io/football/teams/6009.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1203285,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-27T11:00:00+00:00",
+        "timestamp": 1719486000,
+        "periods": {
+          "first": 1719486000,
+          "second": 1719489600
+        },
+        "venue": {
+          "id": null,
+          "name": "FC K\u00f8benhavns tr\u00e6ningsanl\u00e6g Nummer 10",
+          "city": "Frederiksberg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2073,
+          "name": "Silkeborg",
+          "logo": "https://media.api-sports.io/football/teams/2073.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205429,
+        "referee": "J. Sundberg",
+        "timezone": "UTC",
+        "date": "2024-07-22T17:00:00+00:00",
+        "timestamp": 1721667600,
+        "periods": {
+          "first": 1721667600,
+          "second": 1721671200
+        },
+        "venue": {
+          "id": 452,
+          "name": "Lyngby Stadion",
+          "city": "Lyngby"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 625,
+          "name": "Lyngby",
+          "logo": "https://media.api-sports.io/football/teams/625.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205434,
+        "referee": "L. Graagaard",
+        "timezone": "UTC",
+        "date": "2024-07-28T16:00:00+00:00",
+        "timestamp": 1722182400,
+        "periods": {
+          "first": 1722182400,
+          "second": 1722186000
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 406,
+          "name": "Aarhus",
+          "logo": "https://media.api-sports.io/football/teams/406.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205439,
+        "referee": "M. Tykgaard",
+        "timezone": "UTC",
+        "date": "2024-08-04T14:00:00+00:00",
+        "timestamp": 1722780000,
+        "periods": {
+          "first": 1722780000,
+          "second": 1722783600
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        },
+        "away": {
+          "id": 401,
+          "name": "Randers FC",
+          "logo": "https://media.api-sports.io/football/teams/401.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205446,
+        "referee": "J. Kehlet",
+        "timezone": "UTC",
+        "date": "2024-08-11T16:00:00+00:00",
+        "timestamp": 1723392000,
+        "periods": {
+          "first": 1723392000,
+          "second": 1723395600
+        },
+        "venue": {
+          "id": 460,
+          "name": "Sydbank Park",
+          "city": "Haderslev"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 396,
+          "name": "Sonderjyske",
+          "logo": "https://media.api-sports.io/football/teams/396.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205451,
+        "referee": "S. Putros",
+        "timezone": "UTC",
+        "date": "2024-08-18T14:00:00+00:00",
+        "timestamp": 1723989600,
+        "periods": {
+          "first": 1723989600,
+          "second": 1723993200
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2070,
+          "name": "Viborg",
+          "logo": "https://media.api-sports.io/football/teams/2070.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205457,
+        "referee": "J. Karlsen",
+        "timezone": "UTC",
+        "date": "2024-08-25T14:00:00+00:00",
+        "timestamp": 1724594400,
+        "periods": {
+          "first": 1724594400,
+          "second": 1724598000
+        },
+        "venue": {
+          "id": 454,
+          "name": "Right to Dream Park",
+          "city": "Farum"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 398,
+          "name": "FC Nordsjaelland",
+          "logo": "https://media.api-sports.io/football/teams/398.png",
+          "winner": true
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205463,
+        "referee": "M. Krogh",
+        "timezone": "UTC",
+        "date": "2024-09-01T12:00:00+00:00",
+        "timestamp": 1725192000,
+        "periods": {
+          "first": 1725192000,
+          "second": 1725195600
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 407,
+          "name": "Brondby",
+          "logo": "https://media.api-sports.io/football/teams/407.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205471,
+        "referee": "J. Sundberg",
+        "timezone": "UTC",
+        "date": "2024-09-14T16:00:00+00:00",
+        "timestamp": 1726329600,
+        "periods": {
+          "first": 1726329600,
+          "second": 1726333200
+        },
+        "venue": {
+          "id": 453,
+          "name": "MCH Arena",
+          "city": "Herning"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 397,
+          "name": "FC Midtjylland",
+          "logo": "https://media.api-sports.io/football/teams/397.png",
+          "winner": true
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205477,
+        "referee": "M. Redder",
+        "timezone": "UTC",
+        "date": "2024-09-23T17:00:00+00:00",
+        "timestamp": 1727110800,
+        "periods": {
+          "first": 1727110800,
+          "second": 1727114400
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 402,
+          "name": "Aalborg",
+          "logo": "https://media.api-sports.io/football/teams/402.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205483,
+        "referee": "J. Hansen",
+        "timezone": "UTC",
+        "date": "2024-09-29T16:00:00+00:00",
+        "timestamp": 1727625600,
+        "periods": {
+          "first": 1727625600,
+          "second": 1727629200
+        },
+        "venue": {
+          "id": 462,
+          "name": "Vejle Stadion",
+          "city": "Vejle"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 395,
+          "name": "Vejle",
+          "logo": "https://media.api-sports.io/football/teams/395.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205486,
+        "referee": "J. Kehlet",
+        "timezone": "UTC",
+        "date": "2024-10-06T18:00:00+00:00",
+        "timestamp": 1728237600,
+        "periods": {
+          "first": 1728237600,
+          "second": 1728241200
+        },
+        "venue": {
+          "id": 459,
+          "name": "JYSK park",
+          "city": "Silkeborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2073,
+          "name": "Silkeborg",
+          "logo": "https://media.api-sports.io/football/teams/2073.png",
+          "winner": null
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205491,
+        "referee": "M. Kristoffersen",
+        "timezone": "UTC",
+        "date": "2024-10-18T17:00:00+00:00",
+        "timestamp": 1729270800,
+        "periods": {
+          "first": 1729270800,
+          "second": 1729274400
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 395,
+          "name": "Vejle",
+          "logo": "https://media.api-sports.io/football/teams/395.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205496,
+        "referee": "J. Sundberg",
+        "timezone": "UTC",
+        "date": "2024-10-27T10:00:00+00:00",
+        "timestamp": 1730023200,
+        "periods": {
+          "first": 1730023200,
+          "second": 1730026800
+        },
+        "venue": {
+          "id": 443,
+          "name": "Br\u00f8ndby Stadion",
+          "city": "Br\u00f8ndby"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 407,
+          "name": "Brondby",
+          "logo": "https://media.api-sports.io/football/teams/407.png",
+          "winner": null
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205503,
+        "referee": "J. Kehlet",
+        "timezone": "UTC",
+        "date": "2024-11-04T18:00:00+00:00",
+        "timestamp": 1730743200,
+        "periods": {
+          "first": 1730743200,
+          "second": 1730746800
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 12
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2073,
+          "name": "Silkeborg",
+          "logo": "https://media.api-sports.io/football/teams/2073.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205508,
+        "referee": "J. Maae",
+        "timezone": "UTC",
+        "date": "2024-11-10T17:00:00+00:00",
+        "timestamp": 1731258000,
+        "periods": {
+          "first": 1731258000,
+          "second": 1731261600
+        },
+        "venue": {
+          "id": 441,
+          "name": "Ceres Park & Arena",
+          "city": "\u00c5rhus"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 406,
+          "name": "Aarhus",
+          "logo": "https://media.api-sports.io/football/teams/406.png",
+          "winner": null
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205514,
+        "referee": "J. Hansen",
+        "timezone": "UTC",
+        "date": "2024-11-24T17:00:00+00:00",
+        "timestamp": 1732467600,
+        "periods": {
+          "first": 1732467600,
+          "second": 1732471200
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 625,
+          "name": "Lyngby",
+          "logo": "https://media.api-sports.io/football/teams/625.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205520,
+        "referee": "S. Putros",
+        "timezone": "UTC",
+        "date": "2024-12-02T18:00:00+00:00",
+        "timestamp": 1733162400,
+        "periods": {
+          "first": 1733162400,
+          "second": 1733166000
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 398,
+          "name": "FC Nordsjaelland",
+          "logo": "https://media.api-sports.io/football/teams/398.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205530,
+        "referee": "M. Redder",
+        "timezone": "UTC",
+        "date": "2025-02-17T18:00:00+00:00",
+        "timestamp": 1739815200,
+        "periods": {
+          "first": 1739815200,
+          "second": 1739818800
+        },
+        "venue": {
+          "id": 457,
+          "name": "Cepheus Park Randers",
+          "city": "Randers"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 401,
+          "name": "Randers FC",
+          "logo": "https://media.api-sports.io/football/teams/401.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205532,
+        "referee": "J. Karlsen",
+        "timezone": "UTC",
+        "date": "2025-02-23T17:00:00+00:00",
+        "timestamp": 1740330000,
+        "periods": {
+          "first": 1740330000,
+          "second": 1740333600
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 397,
+          "name": "FC Midtjylland",
+          "logo": "https://media.api-sports.io/football/teams/397.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205540,
+        "referee": "M. Krogh",
+        "timezone": "UTC",
+        "date": "2025-03-02T17:00:00+00:00",
+        "timestamp": 1740934800,
+        "periods": {
+          "first": 1740934800,
+          "second": 1740938400
+        },
+        "venue": {
+          "id": 440,
+          "name": "Aalborg Portland Park",
+          "city": "Aalborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 402,
+          "name": "Aalborg",
+          "logo": "https://media.api-sports.io/football/teams/402.png",
+          "winner": null
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205545,
+        "referee": "J. Sundberg",
+        "timezone": "UTC",
+        "date": "2025-03-09T17:00:00+00:00",
+        "timestamp": 1741539600,
+        "periods": {
+          "first": 1741539600,
+          "second": 1741543200
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        },
+        "away": {
+          "id": 396,
+          "name": "Sonderjyske",
+          "logo": "https://media.api-sports.io/football/teams/396.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1205554,
+        "referee": "J. Kehlet",
+        "timezone": "UTC",
+        "date": "2025-03-16T16:00:00+00:00",
+        "timestamp": 1742140800,
+        "periods": {
+          "first": 1742140800,
+          "second": 1742144400
+        },
+        "venue": {
+          "id": 463,
+          "name": "Energi Viborg Arena",
+          "city": "Viborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2070,
+          "name": "Viborg",
+          "logo": "https://media.api-sports.io/football/teams/2070.png",
+          "winner": true
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1207229,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-12T14:00:00+00:00",
+        "timestamp": 1720792800,
+        "periods": {
+          "first": 1720792800,
+          "second": 1720796400
+        },
+        "venue": {
+          "id": 3740,
+          "name": "Kufstein-Arena",
+          "city": "Kufstein"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png",
+          "winner": null
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212772,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-02T10:00:00+00:00",
+        "timestamp": 1719914400,
+        "periods": {
+          "first": 1719914400,
+          "second": 1719918000
+        },
+        "venue": {
+          "id": null,
+          "name": "FC K\u00f8benhavns tr\u00e6ningsanl\u00e6g Nummer 10",
+          "city": "Frederiksberg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        },
+        "away": {
+          "id": 6026,
+          "name": "Hiller\u00f8d",
+          "logo": "https://media.api-sports.io/football/teams/6026.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218108,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-08T16:30:00+00:00",
+        "timestamp": 1720456200,
+        "periods": {
+          "first": 1720456200,
+          "second": 1720459800
+        },
+        "venue": {
+          "id": 153,
+          "name": "Gernot Langes Stadion",
+          "city": "Wattens"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1398,
+          "name": "WSG Wattens",
+          "logo": "https://media.api-sports.io/football/teams/1398.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218179,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-16T12:00:00+00:00",
+        "timestamp": 1721131200,
+        "periods": {
+          "first": 1721131200,
+          "second": 1721134800
+        },
+        "venue": {
+          "id": null,
+          "name": "FC K\u00f8benhavns tr\u00e6ningsanl\u00e6g Nummer 10",
+          "city": "Frederiksberg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 396,
+          "name": "Sonderjyske",
+          "logo": "https://media.api-sports.io/football/teams/396.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250968,
+        "referee": "D. Muntean",
+        "timezone": "UTC",
+        "date": "2024-08-01T17:00:00+00:00",
+        "timestamp": 1722531600,
+        "periods": {
+          "first": 1722531600,
+          "second": 1722535200
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 16135,
+          "name": "Magpies",
+          "logo": "https://media.api-sports.io/football/teams/16135.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250969,
+        "referee": "Cl\u00e1udio Pereira",
+        "timezone": "UTC",
+        "date": "2024-07-25T16:00:00+00:00",
+        "timestamp": 1721923200,
+        "periods": {
+          "first": 1721923200,
+          "second": 1721926800
+        },
+        "venue": {
+          "id": null,
+          "name": "Europa Point Stadium",
+          "city": "Gibraltar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 16135,
+          "name": "Magpies",
+          "logo": "https://media.api-sports.io/football/teams/16135.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274793,
+        "referee": "N. Verboomen",
+        "timezone": "UTC",
+        "date": "2024-08-07T17:00:00+00:00",
+        "timestamp": 1723050000,
+        "periods": {
+          "first": 1723050000,
+          "second": 1723053600
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3713,
+          "name": "Ban\u00edk Ostrava",
+          "logo": "https://media.api-sports.io/football/teams/3713.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274794,
+        "referee": "S. Attwell",
+        "timezone": "UTC",
+        "date": "2024-08-15T17:00:00+00:00",
+        "timestamp": 1723741200,
+        "periods": {
+          "first": 1723741200,
+          "second": 1723744800
+        },
+        "venue": {
+          "id": 2495,
+          "name": "M\u011bstsk\u00fd stadion - V\u00edtkovice Ar\u00e9na",
+          "city": "Ostrava"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3713,
+          "name": "Ban\u00edk Ostrava",
+          "logo": "https://media.api-sports.io/football/teams/3713.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 1,
+          "away": 2
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287580,
+        "referee": "F. Maresca",
+        "timezone": "UTC",
+        "date": "2024-08-22T17:00:00+00:00",
+        "timestamp": 1724346000,
+        "periods": {
+          "first": 1724346000,
+          "second": 1724349600
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287581,
+        "referee": "R. Gidzhenov",
+        "timezone": "UTC",
+        "date": "2024-08-29T18:00:00+00:00",
+        "timestamp": 1724954400,
+        "periods": {
+          "first": 1724954400,
+          "second": 1724958000
+        },
+        "venue": {
+          "id": 19215,
+          "name": "The BBSP Stadium Rugby Park",
+          "city": "Kilmarnock"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": null
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299305,
+        "referee": "R. Harvey",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        },
+        "away": {
+          "id": 336,
+          "name": "Jagiellonia",
+          "logo": "https://media.api-sports.io/football/teams/336.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299326,
+        "referee": "W. Delajod",
+        "timezone": "UTC",
+        "date": "2024-10-24T19:00:00+00:00",
+        "timestamp": 1729796400,
+        "periods": {
+          "first": 1729796400,
+          "second": 1729800000
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": null
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299340,
+        "referee": "J. Kooij",
+        "timezone": "UTC",
+        "date": "2024-11-07T20:00:00+00:00",
+        "timestamp": 1731009600,
+        "periods": {
+          "first": 1731009600,
+          "second": 1731013200
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        },
+        "away": {
+          "id": 564,
+          "name": "Ba\u015fak\u015fehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299351,
+        "referee": "M. O\u010den\u00e1\u0161",
+        "timezone": "UTC",
+        "date": "2024-11-28T17:45:00+00:00",
+        "timestamp": 1732815900,
+        "periods": {
+          "first": 1732815900,
+          "second": 1732819500
+        },
+        "venue": {
+          "id": 4130,
+          "name": "Mehdi H\u00fcseynzad\u0259 ad\u0131na Sumqay\u0131t \u015f\u0259h\u0259r stadionu",
+          "city": "Sumqay\u0131t"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 394,
+          "name": "Dinamo Minsk",
+          "logo": "https://media.api-sports.io/football/teams/394.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299367,
+        "referee": "A. Colombo",
+        "timezone": "UTC",
+        "date": "2024-12-12T17:45:00+00:00",
+        "timestamp": 1734025500,
+        "periods": {
+          "first": 1734025500,
+          "second": 1734029100
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299399,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 145,
+          "name": "Allianz Stadion",
+          "city": "Wien"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png",
+          "winner": true
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1301581,
+        "referee": "J. Karlsen",
+        "timezone": "UTC",
+        "date": "2024-09-26T17:00:00+00:00",
+        "timestamp": 1727370000,
+        "periods": {
+          "first": 1727370000,
+          "second": 1727373600
+        },
+        "venue": {
+          "id": 447,
+          "name": "Herf\u00f8lge Stadion",
+          "city": "Herf\u00f8lge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 121,
+        "name": "DBU Pokalen",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/121.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2063,
+          "name": "HB Koge",
+          "logo": "https://media.api-sports.io/football/teams/2063.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1301854,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-05T11:00:00+00:00",
+        "timestamp": 1725534000,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "FC K\u00f8benhavns tr\u00e6ningsanl\u00e6g Nummer 10",
+          "city": "Frederiksberg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2176,
+          "name": "Landskrona BoIS",
+          "logo": "https://media.api-sports.io/football/teams/2176.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1309290,
+        "referee": "M. Krogh",
+        "timezone": "UTC",
+        "date": "2024-10-30T19:00:00+00:00",
+        "timestamp": 1730314800,
+        "periods": {
+          "first": 1730314800,
+          "second": 1730318400
+        },
+        "venue": {
+          "id": 460,
+          "name": "Sydbank Park",
+          "city": "Haderslev"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 121,
+        "name": "DBU Pokalen",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/121.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 396,
+          "name": "Sonderjyske",
+          "logo": "https://media.api-sports.io/football/teams/396.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314528,
+        "referee": "J. Kehlet",
+        "timezone": "UTC",
+        "date": "2024-12-07T13:00:00+00:00",
+        "timestamp": 1733576400,
+        "periods": {
+          "first": 1733576400,
+          "second": 1733580000
+        },
+        "venue": {
+          "id": 3525,
+          "name": "Autocentralen Park",
+          "city": "Kolding"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 121,
+        "name": "DBU Pokalen",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/121.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 4676,
+          "name": "Kolding IF",
+          "logo": "https://media.api-sports.io/football/teams/4676.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314529,
+        "referee": "M. Tykgaard",
+        "timezone": "UTC",
+        "date": "2024-12-15T15:00:00+00:00",
+        "timestamp": 1734274800,
+        "periods": {
+          "first": 1734274800,
+          "second": 1734278400
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 121,
+        "name": "DBU Pokalen",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/121.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4676,
+          "name": "Kolding IF",
+          "logo": "https://media.api-sports.io/football/teams/4676.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1323630,
+        "referee": "S. Putros",
+        "timezone": "UTC",
+        "date": "2025-05-01T17:30:00+00:00",
+        "timestamp": 1746120600,
+        "periods": {
+          "first": 1746120600,
+          "second": 1746124200
+        },
+        "venue": {
+          "id": 463,
+          "name": "Energi Viborg Arena",
+          "city": "Viborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 121,
+        "name": "DBU Pokalen",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/121.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2070,
+          "name": "Viborg",
+          "logo": "https://media.api-sports.io/football/teams/2070.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1323631,
+        "referee": "M. Krogh",
+        "timezone": "UTC",
+        "date": "2025-05-08T17:00:00+00:00",
+        "timestamp": 1746723600,
+        "periods": {
+          "first": 1746723600,
+          "second": 1746727200
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 121,
+        "name": "DBU Pokalen",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/121.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2070,
+          "name": "Viborg",
+          "logo": "https://media.api-sports.io/football/teams/2070.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1325902,
+        "referee": "A. Tsakalidis",
+        "timezone": "UTC",
+        "date": "2025-02-13T20:00:00+00:00",
+        "timestamp": 1739476800,
+        "periods": {
+          "first": 1739476800,
+          "second": 1739480400
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        },
+        "away": {
+          "id": 180,
+          "name": "1. FC Heidenheim",
+          "logo": "https://media.api-sports.io/football/teams/180.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1325903,
+        "referee": "N. Dabanovi\u0107",
+        "timezone": "UTC",
+        "date": "2025-02-20T17:45:00+00:00",
+        "timestamp": 1740073500,
+        "periods": {
+          "first": 1740073500,
+          "second": 1740077100
+        },
+        "venue": {
+          "id": 723,
+          "name": "Voith-Arena",
+          "city": "Heidenheim an der Brenz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 180,
+          "name": "1. FC Heidenheim",
+          "logo": "https://media.api-sports.io/football/teams/180.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": 0,
+          "away": 1
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353208,
+        "referee": "G. Kabakov",
+        "timezone": "UTC",
+        "date": "2025-03-06T17:45:00+00:00",
+        "timestamp": 1741283100,
+        "periods": {
+          "first": 1741283100,
+          "second": 1741286700
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        },
+        "away": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353209,
+        "referee": "R. Petrescu",
+        "timezone": "UTC",
+        "date": "2025-03-13T20:00:00+00:00",
+        "timestamp": 1741896000,
+        "periods": {
+          "first": 1741896000,
+          "second": 1741899600
+        },
+        "venue": {
+          "id": 519,
+          "name": "Stamford Bridge",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
+          "winner": true
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1362764,
+        "referee": "J. Hansen",
+        "timezone": "UTC",
+        "date": "2025-03-31T17:00:00+00:00",
+        "timestamp": 1743440400,
+        "periods": {
+          "first": 1743440400,
+          "second": 1743444000
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Championship Round - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 401,
+          "name": "Randers FC",
+          "logo": "https://media.api-sports.io/football/teams/401.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1362766,
+        "referee": "M. Kristoffersen",
+        "timezone": "UTC",
+        "date": "2025-04-06T16:00:00+00:00",
+        "timestamp": 1743955200,
+        "periods": {
+          "first": 1743955200,
+          "second": 1743958800
+        },
+        "venue": {
+          "id": 454,
+          "name": "Right to Dream Park",
+          "city": "Farum"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Championship Round - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 398,
+          "name": "FC Nordsjaelland",
+          "logo": "https://media.api-sports.io/football/teams/398.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1362768,
+        "referee": "S. Putros",
+        "timezone": "UTC",
+        "date": "2025-04-13T12:00:00+00:00",
+        "timestamp": 1744545600,
+        "periods": {
+          "first": 1744545600,
+          "second": 1744549200
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 13
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Championship Round - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        },
+        "away": {
+          "id": 407,
+          "name": "Brondby",
+          "logo": "https://media.api-sports.io/football/teams/407.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1362772,
+        "referee": "M. Tykgaard",
+        "timezone": "UTC",
+        "date": "2025-04-17T16:00:00+00:00",
+        "timestamp": 1744905600,
+        "periods": {
+          "first": 1744905600,
+          "second": 1744909200
+        },
+        "venue": {
+          "id": 453,
+          "name": "MCH Arena",
+          "city": "Herning"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Championship Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 397,
+          "name": "FC Midtjylland",
+          "logo": "https://media.api-sports.io/football/teams/397.png",
+          "winner": true
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1362775,
+        "referee": "J. Sundberg",
+        "timezone": "UTC",
+        "date": "2025-04-21T16:00:00+00:00",
+        "timestamp": 1745251200,
+        "periods": {
+          "first": 1745251200,
+          "second": 1745254800
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Championship Round - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 406,
+          "name": "Aarhus",
+          "logo": "https://media.api-sports.io/football/teams/406.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1362778,
+        "referee": "J. Karlsen",
+        "timezone": "UTC",
+        "date": "2025-04-27T14:00:00+00:00",
+        "timestamp": 1745762400,
+        "periods": {
+          "first": 1745762400,
+          "second": 1745766000
+        },
+        "venue": {
+          "id": 22125,
+          "name": "Ceres Park Vejlby",
+          "city": "Risskov"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Championship Round - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 406,
+          "name": "Aarhus",
+          "logo": "https://media.api-sports.io/football/teams/406.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1362781,
+        "referee": "M. Kristoffersen",
+        "timezone": "UTC",
+        "date": "2025-05-04T14:00:00+00:00",
+        "timestamp": 1746367200,
+        "periods": {
+          "first": 1746367200,
+          "second": 1746370800
+        },
+        "venue": {
+          "id": 443,
+          "name": "Br\u00f8ndby Stadion",
+          "city": "Br\u00f8ndby"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Championship Round - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 407,
+          "name": "Brondby",
+          "logo": "https://media.api-sports.io/football/teams/407.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1362785,
+        "referee": "M. Redder",
+        "timezone": "UTC",
+        "date": "2025-05-11T18:00:00+00:00",
+        "timestamp": 1746986400,
+        "periods": {
+          "first": 1746986400,
+          "second": 1746990000
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Championship Round - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        },
+        "away": {
+          "id": 397,
+          "name": "FC Midtjylland",
+          "logo": "https://media.api-sports.io/football/teams/397.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1362787,
+        "referee": "J. Sundberg",
+        "timezone": "UTC",
+        "date": "2025-05-18T16:00:00+00:00",
+        "timestamp": 1747584000,
+        "periods": {
+          "first": 1747584000,
+          "second": 1747587600
+        },
+        "venue": {
+          "id": 457,
+          "name": "Cepheus Park Randers",
+          "city": "Randers"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Championship Round - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 401,
+          "name": "Randers FC",
+          "logo": "https://media.api-sports.io/football/teams/401.png",
+          "winner": false
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1362790,
+        "referee": "M. Tykgaard",
+        "timezone": "UTC",
+        "date": "2025-05-25T15:00:00+00:00",
+        "timestamp": 1748185200,
+        "periods": {
+          "first": 1748185200,
+          "second": 1748188800
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Championship Round - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 398,
+          "name": "FC Nordsjaelland",
+          "logo": "https://media.api-sports.io/football/teams/398.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1375069,
+        "referee": "J. Karlsen",
+        "timezone": "UTC",
+        "date": "2025-05-29T15:00:00+00:00",
+        "timestamp": 1748530800,
+        "periods": {
+          "first": 1748530800,
+          "second": 1748534400
+        },
+        "venue": {
+          "id": 453,
+          "name": "MCH Arena",
+          "city": "Herning"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 121,
+        "name": "DBU Pokalen",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/121.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2073,
+          "name": "Silkeborg",
+          "logo": "https://media.api-sports.io/football/teams/2073.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

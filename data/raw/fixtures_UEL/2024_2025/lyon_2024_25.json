@@ -1,0 +1,3795 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "80"
+  },
+  "errors": [],
+  "results": 54,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1213755,
+        "referee": "B. Millot",
+        "timezone": "UTC",
+        "date": "2024-08-18T18:45:00+00:00",
+        "timestamp": 1724006700,
+        "periods": {
+          "first": 1724006700,
+          "second": 1724010300
+        },
+        "venue": {
+          "id": 680,
+          "name": "Roazhon Park",
+          "city": "Rennes"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 94,
+          "name": "Rennes",
+          "logo": "https://media.api-sports.io/football/teams/94.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213763,
+        "referee": "S. Frappart",
+        "timezone": "UTC",
+        "date": "2024-08-24T15:00:00+00:00",
+        "timestamp": 1724511600,
+        "periods": {
+          "first": 1724511600,
+          "second": 1724515200
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        },
+        "away": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media.api-sports.io/football/teams/91.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213766,
+        "referee": "T. L\u00e9onard",
+        "timezone": "UTC",
+        "date": "2024-08-30T18:45:00+00:00",
+        "timestamp": 1725043500,
+        "periods": {
+          "first": 1725043500,
+          "second": 1725047100
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 95,
+          "name": "Strasbourg",
+          "logo": "https://media.api-sports.io/football/teams/95.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213776,
+        "referee": "B. Dechepy",
+        "timezone": "UTC",
+        "date": "2024-09-15T18:45:00+00:00",
+        "timestamp": 1726425900,
+        "periods": {
+          "first": 1726425900,
+          "second": 1726429500
+        },
+        "venue": {
+          "id": 654,
+          "name": "Stade Bollaert-Delelis",
+          "city": "Lens"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 116,
+          "name": "Lens",
+          "logo": "https://media.api-sports.io/football/teams/116.png",
+          "winner": null
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213783,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2024-09-22T18:45:00+00:00",
+        "timestamp": 1727030700,
+        "periods": {
+          "first": 1727030700,
+          "second": 1727034300
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        },
+        "away": {
+          "id": 81,
+          "name": "Marseille",
+          "logo": "https://media.api-sports.io/football/teams/81.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213798,
+        "referee": "G. Angoula",
+        "timezone": "UTC",
+        "date": "2024-09-29T13:00:00+00:00",
+        "timestamp": 1727614800,
+        "periods": {
+          "first": 1727614800,
+          "second": 1727618400
+        },
+        "venue": {
+          "id": 682,
+          "name": "Stadium de Toulouse",
+          "city": "Toulouse"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 96,
+          "name": "Toulouse",
+          "logo": "https://media.api-sports.io/football/teams/96.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213801,
+        "referee": "M. Bollengier",
+        "timezone": "UTC",
+        "date": "2024-10-06T13:00:00+00:00",
+        "timestamp": 1728219600,
+        "periods": {
+          "first": 1728219600,
+          "second": 1728223200
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 83,
+          "name": "Nantes",
+          "logo": "https://media.api-sports.io/football/teams/83.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213812,
+        "referee": "A. Kherradji",
+        "timezone": "UTC",
+        "date": "2024-10-20T13:00:00+00:00",
+        "timestamp": 1729429200,
+        "periods": {
+          "first": 1729429200,
+          "second": 1729432800
+        },
+        "venue": {
+          "id": 652,
+          "name": "Stade Oc\u00e9ane",
+          "city": "Le Havre"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 111,
+          "name": "Le Havre",
+          "logo": "https://media.api-sports.io/football/teams/111.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213822,
+        "referee": "J. Stinat",
+        "timezone": "UTC",
+        "date": "2024-10-27T13:00:00+00:00",
+        "timestamp": 1730034000,
+        "periods": {
+          "first": 1730034000,
+          "second": 1730037600
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        },
+        "away": {
+          "id": 108,
+          "name": "Auxerre",
+          "logo": "https://media.api-sports.io/football/teams/108.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213833,
+        "referee": "J. Brisard",
+        "timezone": "UTC",
+        "date": "2024-11-01T20:00:00+00:00",
+        "timestamp": 1730491200,
+        "periods": {
+          "first": 1730491200,
+          "second": 1730494800
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213838,
+        "referee": "W. Delajod",
+        "timezone": "UTC",
+        "date": "2024-11-10T19:45:00+00:00",
+        "timestamp": 1731267900,
+        "periods": {
+          "first": 1731267900,
+          "second": 1731271500
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1063,
+          "name": "Saint Etienne",
+          "logo": "https://media.api-sports.io/football/teams/1063.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213854,
+        "referee": "S. Frappart",
+        "timezone": "UTC",
+        "date": "2024-11-23T20:00:00+00:00",
+        "timestamp": 1732392000,
+        "periods": {
+          "first": 1732392000,
+          "second": 1732395600
+        },
+        "venue": {
+          "id": 22707,
+          "name": "Stade Auguste-Delaune",
+          "city": "Reims"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png",
+          "winner": null
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213863,
+        "referee": "B. Dechepy",
+        "timezone": "UTC",
+        "date": "2024-12-01T16:00:00+00:00",
+        "timestamp": 1733068800,
+        "periods": {
+          "first": 1733068800,
+          "second": 1733072400
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213867,
+        "referee": "M. Bollengier",
+        "timezone": "UTC",
+        "date": "2024-12-07T20:00:00+00:00",
+        "timestamp": 1733601600,
+        "periods": {
+          "first": 1733601600,
+          "second": 1733605200
+        },
+        "venue": {
+          "id": 634,
+          "name": "Stade Raymond Kopa",
+          "city": "Angers"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 77,
+          "name": "Angers",
+          "logo": "https://media.api-sports.io/football/teams/77.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213881,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2024-12-15T19:45:00+00:00",
+        "timestamp": 1734291900,
+        "periods": {
+          "first": 1734291900,
+          "second": 1734295500
+        },
+        "venue": {
+          "id": 671,
+          "name": "Parc des Princes",
+          "city": "Paris"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213883,
+        "referee": "J. Stinat",
+        "timezone": "UTC",
+        "date": "2025-01-04T20:00:00+00:00",
+        "timestamp": 1736020800,
+        "periods": {
+          "first": 1736020800,
+          "second": 1736024400
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 82,
+          "name": "Montpellier",
+          "logo": "https://media.api-sports.io/football/teams/82.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213897,
+        "referee": "E. Wattellier",
+        "timezone": "UTC",
+        "date": "2025-01-11T16:00:00+00:00",
+        "timestamp": 1736611200,
+        "periods": {
+          "first": 1736611200,
+          "second": 1736614800
+        },
+        "venue": {
+          "id": 641,
+          "name": "Stade Francis-Le Bl\u00e9",
+          "city": "Brest"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 106,
+          "name": "Stade Brestois 29",
+          "logo": "https://media.api-sports.io/football/teams/106.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213903,
+        "referee": "B. Millot",
+        "timezone": "UTC",
+        "date": "2025-01-18T20:05:00+00:00",
+        "timestamp": 1737230700,
+        "periods": {
+          "first": 1737230700,
+          "second": 1737234300
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        },
+        "away": {
+          "id": 96,
+          "name": "Toulouse",
+          "logo": "https://media.api-sports.io/football/teams/96.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213910,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2025-01-26T16:15:00+00:00",
+        "timestamp": 1737908100,
+        "periods": {
+          "first": 1737908100,
+          "second": 1737911700
+        },
+        "venue": {
+          "id": 662,
+          "name": "Stade de la Beaujoire - Louis Fonteneau",
+          "city": "Nantes"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 83,
+          "name": "Nantes",
+          "logo": "https://media.api-sports.io/football/teams/83.png",
+          "winner": null
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213918,
+        "referee": "J. Brisard",
+        "timezone": "UTC",
+        "date": "2025-02-02T19:45:00+00:00",
+        "timestamp": 1738525500,
+        "periods": {
+          "first": 1738525500,
+          "second": 1738529100
+        },
+        "venue": {
+          "id": 667,
+          "name": "Orange V\u00e9lodrome",
+          "city": "Marseille"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 81,
+          "name": "Marseille",
+          "logo": "https://media.api-sports.io/football/teams/81.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213933,
+        "referee": "F. Letexier",
+        "timezone": "UTC",
+        "date": "2025-02-09T14:00:00+00:00",
+        "timestamp": 1739109600,
+        "periods": {
+          "first": 1739109600,
+          "second": 1739113200
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213938,
+        "referee": "M. Bollengier",
+        "timezone": "UTC",
+        "date": "2025-02-16T14:00:00+00:00",
+        "timestamp": 1739714400,
+        "periods": {
+          "first": 1739714400,
+          "second": 1739718000
+        },
+        "venue": {
+          "id": 20107,
+          "name": "Stade de la Mosson-Mondial 98",
+          "city": "Montpellier"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 82,
+          "name": "Montpellier",
+          "logo": "https://media.api-sports.io/football/teams/82.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213953,
+        "referee": "E. Wattellier",
+        "timezone": "UTC",
+        "date": "2025-02-23T19:45:00+00:00",
+        "timestamp": 1740339900,
+        "periods": {
+          "first": 1740339900,
+          "second": 1740343500
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213956,
+        "referee": "B. Millot",
+        "timezone": "UTC",
+        "date": "2025-03-02T14:00:00+00:00",
+        "timestamp": 1740924000,
+        "periods": {
+          "first": 1740924000,
+          "second": 1740927600
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 106,
+          "name": "Stade Brestois 29",
+          "logo": "https://media.api-sports.io/football/teams/106.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213967,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2025-03-09T19:45:00+00:00",
+        "timestamp": 1741549500,
+        "periods": {
+          "first": 1741549500,
+          "second": 1741553100
+        },
+        "venue": {
+          "id": 663,
+          "name": "Allianz Riviera",
+          "city": "Nice"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213976,
+        "referee": "B. Dechepy",
+        "timezone": "UTC",
+        "date": "2025-03-16T14:00:00+00:00",
+        "timestamp": 1742133600,
+        "periods": {
+          "first": 1742133600,
+          "second": 1742137200
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 111,
+          "name": "Le Havre",
+          "logo": "https://media.api-sports.io/football/teams/111.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213984,
+        "referee": "R. Lissorgue",
+        "timezone": "UTC",
+        "date": "2025-03-28T19:45:00+00:00",
+        "timestamp": 1743191100,
+        "periods": {
+          "first": 1743191100,
+          "second": 1743194700
+        },
+        "venue": {
+          "id": 681,
+          "name": "Stade de la Meinau",
+          "city": "Strasbourg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 95,
+          "name": "Strasbourg",
+          "logo": "https://media.api-sports.io/football/teams/95.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213994,
+        "referee": "E. Wattellier",
+        "timezone": "UTC",
+        "date": "2025-04-05T19:05:00+00:00",
+        "timestamp": 1743879900,
+        "periods": {
+          "first": 1743879900,
+          "second": 1743883500
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214001,
+        "referee": "S. Frappart",
+        "timezone": "UTC",
+        "date": "2025-04-13T18:45:00+00:00",
+        "timestamp": 1744569900,
+        "periods": {
+          "first": 1744569900,
+          "second": 1744573500
+        },
+        "venue": {
+          "id": 636,
+          "name": "Stade de l'Abb\u00e9 Deschamps",
+          "city": "Auxerre"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 108,
+          "name": "Auxerre",
+          "logo": "https://media.api-sports.io/football/teams/108.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214008,
+        "referee": "F. Letexier",
+        "timezone": "UTC",
+        "date": "2025-04-20T18:45:00+00:00",
+        "timestamp": 1745174700,
+        "periods": {
+          "first": 1745174700,
+          "second": 1745178300
+        },
+        "venue": {
+          "id": 676,
+          "name": "Stade Geoffroy-Guichard",
+          "city": "Saint-\u00c8tienne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1063,
+          "name": "Saint Etienne",
+          "logo": "https://media.api-sports.io/football/teams/1063.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214025,
+        "referee": "M. Bollengier",
+        "timezone": "UTC",
+        "date": "2025-04-26T19:05:00+00:00",
+        "timestamp": 1745694300,
+        "periods": {
+          "first": 1745694300,
+          "second": 1745697900
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 94,
+          "name": "Rennes",
+          "logo": "https://media.api-sports.io/football/teams/94.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214026,
+        "referee": "J. Stinat",
+        "timezone": "UTC",
+        "date": "2025-05-04T15:15:00+00:00",
+        "timestamp": 1746371700,
+        "periods": {
+          "first": 1746371700,
+          "second": 1746375300
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        },
+        "away": {
+          "id": 116,
+          "name": "Lens",
+          "logo": "https://media.api-sports.io/football/teams/116.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214043,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2025-05-10T19:00:00+00:00",
+        "timestamp": 1746903600,
+        "periods": {
+          "first": 1746903600,
+          "second": 1746907200
+        },
+        "venue": {
+          "id": 20470,
+          "name": "Stade Louis-II",
+          "city": "Monaco"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media.api-sports.io/football/teams/91.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214045,
+        "referee": "S. Frappart",
+        "timezone": "UTC",
+        "date": "2025-05-17T19:00:00+00:00",
+        "timestamp": 1747508400,
+        "periods": {
+          "first": 1747508400,
+          "second": 1747512000
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 77,
+          "name": "Angers",
+          "logo": "https://media.api-sports.io/football/teams/77.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1215286,
+        "referee": "C. Pawson",
+        "timezone": "UTC",
+        "date": "2024-08-11T13:00:00+00:00",
+        "timestamp": 1723381200,
+        "periods": {
+          "first": 1723381200,
+          "second": 1723384800
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 937,
+        "name": "Emirates Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/937.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218170,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T17:00:00+00:00",
+        "timestamp": 1720890000,
+        "periods": {
+          "first": 1720890000,
+          "second": 1720893600
+        },
+        "venue": {
+          "id": 20055,
+          "name": "Terrain d'honneur G\u00e9rard Houllier",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3036,
+          "name": "Chassieu D\u00e9cines",
+          "logo": "https://media.api-sports.io/football/teams/3036.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 7,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 7,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218198,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-19T15:30:00+00:00",
+        "timestamp": 1721403000,
+        "periods": {
+          "first": 1721403000,
+          "second": 1721406600
+        },
+        "venue": {
+          "id": 153,
+          "name": "Gernot Langes Stadion",
+          "city": "Wattens"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1398,
+          "name": "WSG Wattens",
+          "logo": "https://media.api-sports.io/football/teams/1398.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220047,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-31T18:00:00+00:00",
+        "timestamp": 1722448800,
+        "periods": {
+          "first": 1722448800,
+          "second": 1722452400
+        },
+        "venue": {
+          "id": null,
+          "name": "Stade Pierre Rajon",
+          "city": "Bourgoin-Jallieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        },
+        "away": {
+          "id": 503,
+          "name": "Torino",
+          "logo": "https://media.api-sports.io/football/teams/503.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1230620,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-24T16:00:00+00:00",
+        "timestamp": 1721836800,
+        "periods": {
+          "first": 1721836800,
+          "second": 1721840400
+        },
+        "venue": {
+          "id": 3749,
+          "name": "Silberstadt Arena Schwaz",
+          "city": "Schwaz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 186,
+          "name": "FC St. Pauli",
+          "logo": "https://media.api-sports.io/football/teams/186.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1268905,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-03T15:00:00+00:00",
+        "timestamp": 1722697200,
+        "periods": {
+          "first": 1722697200,
+          "second": 1722700800
+        },
+        "venue": {
+          "id": 748,
+          "name": "Stadion An der Alten F\u00f6rsterei",
+          "city": "Berlin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 182,
+          "name": "Union Berlin",
+          "logo": "https://media.api-sports.io/football/teams/182.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299142,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2024-09-26T19:00:00+00:00",
+        "timestamp": 1727377200,
+        "periods": {
+          "first": 1727377200,
+          "second": 1727380800
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299161,
+        "referee": "S. Jablonski",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299177,
+        "referee": "H. Osmers",
+        "timezone": "UTC",
+        "date": "2024-10-24T19:00:00+00:00",
+        "timestamp": 1729796400,
+        "periods": {
+          "first": 1729796400,
+          "second": 1729800000
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        },
+        "away": {
+          "id": 549,
+          "name": "Be\u015fikta\u015f",
+          "logo": "https://media.api-sports.io/football/teams/549.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299198,
+        "referee": "M. Barbu",
+        "timezone": "UTC",
+        "date": "2024-11-07T20:00:00+00:00",
+        "timestamp": 1731009600,
+        "periods": {
+          "first": 1731009600,
+          "second": 1731013200
+        },
+        "venue": {
+          "id": 724,
+          "name": "PreZero Arena",
+          "city": "Sinsheim"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 167,
+          "name": "1899 Hoffenheim",
+          "logo": "https://media.api-sports.io/football/teams/167.png",
+          "winner": null
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299205,
+        "referee": "N. Minakovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-11-28T17:45:00+00:00",
+        "timestamp": 1732815900,
+        "periods": {
+          "first": 1732815900,
+          "second": 1732819500
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299231,
+        "referee": "A. Treimanis",
+        "timezone": "UTC",
+        "date": "2024-12-12T20:00:00+00:00",
+        "timestamp": 1734033600,
+        "periods": {
+          "first": 1734033600,
+          "second": 1734037200
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 169,
+          "name": "Eintracht Frankfurt",
+          "logo": "https://media.api-sports.io/football/teams/169.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299241,
+        "referee": "S. Sozza",
+        "timezone": "UTC",
+        "date": "2025-01-23T17:45:00+00:00",
+        "timestamp": 1737654300,
+        "periods": {
+          "first": 1737654300,
+          "second": 1737657900
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299261,
+        "referee": "A. Sidiropoulos",
+        "timezone": "UTC",
+        "date": "2025-01-30T20:00:00+00:00",
+        "timestamp": 1738267200,
+        "periods": {
+          "first": 1738267200,
+          "second": 1738270800
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        },
+        "away": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1318798,
+        "referee": "G. Angoula",
+        "timezone": "UTC",
+        "date": "2024-12-21T17:00:00+00:00",
+        "timestamp": 1734800400,
+        "periods": {
+          "first": 1734800400,
+          "second": 1734804000
+        },
+        "venue": {
+          "id": 686,
+          "name": "Stade du Hainaut",
+          "city": "Valenciennes"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Round of 64",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3176,
+          "name": "Feignies-Aulnoye",
+          "logo": "https://media.api-sports.io/football/teams/3176.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327893,
+        "referee": "M. Lesage",
+        "timezone": "UTC",
+        "date": "2025-01-15T17:00:00+00:00",
+        "timestamp": 1736960400,
+        "periods": {
+          "first": 1736960400,
+          "second": 1736964000
+        },
+        "venue": {
+          "id": null,
+          "name": "Stade Pierre Rajon",
+          "city": "Bourgoin-Jallieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Round of 32",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 9268,
+          "name": "Bourgoin-Jallieu",
+          "logo": "https://media.api-sports.io/football/teams/9268.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 4,
+          "away": 2
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353190,
+        "referee": "T. Stieler",
+        "timezone": "UTC",
+        "date": "2025-03-06T17:45:00+00:00",
+        "timestamp": 1741283100,
+        "periods": {
+          "first": 1741283100,
+          "second": 1741286700
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353191,
+        "referee": "A. Taylor",
+        "timezone": "UTC",
+        "date": "2025-03-13T20:00:00+00:00",
+        "timestamp": 1741896000,
+        "periods": {
+          "first": 1741896000,
+          "second": 1741899600
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361282,
+        "referee": "G. Nyberg",
+        "timezone": "UTC",
+        "date": "2025-04-10T19:00:00+00:00",
+        "timestamp": 1744311600,
+        "periods": {
+          "first": 1744311600,
+          "second": 1744315200
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        },
+        "away": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361283,
+        "referee": "S. Sch\u00e4rer",
+        "timezone": "UTC",
+        "date": "2025-04-17T19:00:00+00:00",
+        "timestamp": 1744916400,
+        "periods": {
+          "first": 1744916400,
+          "second": 1744920000
+        },
+        "venue": {
+          "id": 556,
+          "name": "Old Trafford",
+          "city": "Manchester"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": true
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": 3,
+          "away": 2
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

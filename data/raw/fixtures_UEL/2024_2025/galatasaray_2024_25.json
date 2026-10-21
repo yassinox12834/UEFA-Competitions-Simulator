@@ -1,0 +1,4285 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "645"
+  },
+  "errors": [],
+  "results": 61,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1225625,
+        "referee": "J. Weinberger",
+        "timezone": "UTC",
+        "date": "2024-07-11T17:30:00+00:00",
+        "timestamp": 1720719000,
+        "periods": {
+          "first": 1720719000,
+          "second": 1720722600
+        },
+        "venue": {
+          "id": null,
+          "name": "Raiffeisen Arena",
+          "city": "Linz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1026,
+          "name": "Lask Linz",
+          "logo": "https://media.api-sports.io/football/teams/1026.png",
+          "winner": true
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225627,
+        "referee": "W. Altmann",
+        "timezone": "UTC",
+        "date": "2024-07-18T17:30:00+00:00",
+        "timestamp": 1721323800,
+        "periods": {
+          "first": 1721323800,
+          "second": 1721327400
+        },
+        "venue": {
+          "id": null,
+          "name": "Raiffeisen Arena",
+          "city": "Linz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 655,
+          "name": "AS Trencin",
+          "logo": "https://media.api-sports.io/football/teams/655.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225630,
+        "referee": "S. Ebner",
+        "timezone": "UTC",
+        "date": "2024-07-24T17:30:00+00:00",
+        "timestamp": 1721842200,
+        "periods": {
+          "first": 1721842200,
+          "second": 1721845800
+        },
+        "venue": {
+          "id": null,
+          "name": "Raiffeisen Arena",
+          "city": "Linz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 867,
+          "name": "Lecce",
+          "logo": "https://media.api-sports.io/football/teams/867.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225633,
+        "referee": "A. Kijas",
+        "timezone": "UTC",
+        "date": "2024-07-27T18:15:00+00:00",
+        "timestamp": 1722104100,
+        "periods": {
+          "first": 1722104100,
+          "second": 1722107700
+        },
+        "venue": {
+          "id": null,
+          "name": "Raiffeisen Arena",
+          "city": "Linz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": false
+        },
+        "away": {
+          "id": 523,
+          "name": "Parma",
+          "logo": "https://media.api-sports.io/football/teams/523.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237855,
+        "referee": "T. Doman",
+        "timezone": "UTC",
+        "date": "2024-08-09T18:00:00+00:00",
+        "timestamp": 1723226400,
+        "periods": {
+          "first": 1723226400,
+          "second": 1723230000
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237862,
+        "referee": "D. Tonusluo\u011flu",
+        "timezone": "UTC",
+        "date": "2024-08-16T18:00:00+00:00",
+        "timestamp": 1723831200,
+        "periods": {
+          "first": 1723831200,
+          "second": 1723834800
+        },
+        "venue": {
+          "id": 22762,
+          "name": "Meda\u015f Konya B\u00fcy\u00fck\u015fehir Stadyumu",
+          "city": "Konya"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 607,
+          "name": "Konyaspor",
+          "logo": "https://media.api-sports.io/football/teams/607.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237873,
+        "referee": "C. Ayd\u0131n",
+        "timezone": "UTC",
+        "date": "2024-09-17T17:00:00+00:00",
+        "timestamp": 1726592400,
+        "periods": {
+          "first": 1726592400,
+          "second": 1726596000
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3573,
+          "name": "Gaziantep FK",
+          "logo": "https://media.api-sports.io/football/teams/3573.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237880,
+        "referee": "K. Sa\u011flam",
+        "timezone": "UTC",
+        "date": "2024-08-31T18:45:00+00:00",
+        "timestamp": 1725129900,
+        "periods": {
+          "first": 1725129900,
+          "second": 1725133500
+        },
+        "venue": {
+          "id": 11924,
+          "name": "Yeni Adana Stadyumu",
+          "city": "Adana"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 4
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237892,
+        "referee": "A. Karde\u015fler",
+        "timezone": "UTC",
+        "date": "2024-09-14T17:00:00+00:00",
+        "timestamp": 1726333200,
+        "periods": {
+          "first": 1726333200,
+          "second": 1726336800
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237897,
+        "referee": "A. Karao\u011flan",
+        "timezone": "UTC",
+        "date": "2024-09-21T17:00:00+00:00",
+        "timestamp": 1726938000,
+        "periods": {
+          "first": 1726938000,
+          "second": 1726941600
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237909,
+        "referee": "O. \u00c7ak\u0131r",
+        "timezone": "UTC",
+        "date": "2024-09-28T16:00:00+00:00",
+        "timestamp": 1727539200,
+        "periods": {
+          "first": 1727539200,
+          "second": 1727542800
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1004,
+          "name": "Kas\u0131mpa\u015fa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237914,
+        "referee": "M. T\u00fcrkmen",
+        "timezone": "UTC",
+        "date": "2024-10-06T16:00:00+00:00",
+        "timestamp": 1728230400,
+        "periods": {
+          "first": 1728230400,
+          "second": 1728234000
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 996,
+          "name": "Alanyaspor",
+          "logo": "https://media.api-sports.io/football/teams/996.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237924,
+        "referee": "A. \u015eansalan",
+        "timezone": "UTC",
+        "date": "2024-10-19T16:00:00+00:00",
+        "timestamp": 1729353600,
+        "periods": {
+          "first": 1729353600,
+          "second": 1729357200
+        },
+        "venue": {
+          "id": 19220,
+          "name": "Corendon Airlines Park",
+          "city": "Antalya"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1005,
+          "name": "Antalyaspor",
+          "logo": "https://media.api-sports.io/football/teams/1005.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237932,
+        "referee": "A. Karde\u015fler",
+        "timezone": "UTC",
+        "date": "2024-10-28T17:00:00+00:00",
+        "timestamp": 1730134800,
+        "periods": {
+          "first": 1730134800,
+          "second": 1730138400
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 549,
+          "name": "Be\u015fikta\u015f",
+          "logo": "https://media.api-sports.io/football/teams/549.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237949,
+        "referee": "H. Meler",
+        "timezone": "UTC",
+        "date": "2024-11-10T13:00:00+00:00",
+        "timestamp": 1731243600,
+        "periods": {
+          "first": 1731243600,
+          "second": 1731247200
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237964,
+        "referee": "M. Meto\u011flu",
+        "timezone": "UTC",
+        "date": "2024-11-23T16:00:00+00:00",
+        "timestamp": 1732377600,
+        "periods": {
+          "first": 1732377600,
+          "second": 1732381200
+        },
+        "venue": {
+          "id": 2385,
+          "name": "Grey Beton Bodrum Stadyumu",
+          "city": "Mu\u011fla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3583,
+          "name": "Bodrum FK",
+          "logo": "https://media.api-sports.io/football/teams/3583.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237966,
+        "referee": "O. \u00c7ak\u0131r",
+        "timezone": "UTC",
+        "date": "2024-12-01T16:00:00+00:00",
+        "timestamp": 1733068800,
+        "periods": {
+          "first": 1733068800,
+          "second": 1733072400
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3588,
+          "name": "Ey\u00fcpspor",
+          "logo": "https://media.api-sports.io/football/teams/3588.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237976,
+        "referee": "T. Doman",
+        "timezone": "UTC",
+        "date": "2024-12-08T13:00:00+00:00",
+        "timestamp": 1733662800,
+        "periods": {
+          "first": 1733662800,
+          "second": 1733666400
+        },
+        "venue": {
+          "id": 20425,
+          "name": "BG Group 4 Eyl\u00fcl Stadyumu",
+          "city": "Sivas"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237986,
+        "referee": "K. Sa\u011flam",
+        "timezone": "UTC",
+        "date": "2024-12-16T18:00:00+00:00",
+        "timestamp": 1734372000,
+        "periods": {
+          "first": 1734372000,
+          "second": 1734375600
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 998,
+          "name": "Trabzonspor",
+          "logo": "https://media.api-sports.io/football/teams/998.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1237996,
+        "referee": "M. T\u00fcrkmen",
+        "timezone": "UTC",
+        "date": "2024-12-22T13:00:00+00:00",
+        "timestamp": 1734872400,
+        "periods": {
+          "first": 1734872400,
+          "second": 1734876000
+        },
+        "venue": {
+          "id": 19613,
+          "name": "RHG Enert\u00fcrk Enerji Stadyumu",
+          "city": "Kayseri"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238003,
+        "referee": "A. Akarsu",
+        "timezone": "UTC",
+        "date": "2025-01-04T16:00:00+00:00",
+        "timestamp": 1736006400,
+        "periods": {
+          "first": 1736006400,
+          "second": 1736010000
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 994,
+          "name": "G\u00f6ztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238017,
+        "referee": "A. Karao\u011flan",
+        "timezone": "UTC",
+        "date": "2025-01-12T16:00:00+00:00",
+        "timestamp": 1736697600,
+        "periods": {
+          "first": 1736697600,
+          "second": 1736701200
+        },
+        "venue": {
+          "id": 1584,
+          "name": "Ba\u015fak\u015fehir Fatih Terim Stadyumu",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 564,
+          "name": "Ba\u015fak\u015fehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238027,
+        "referee": "C. Ayd\u0131n",
+        "timezone": "UTC",
+        "date": "2025-01-17T17:00:00+00:00",
+        "timestamp": 1737133200,
+        "periods": {
+          "first": 1737133200,
+          "second": 1737136800
+        },
+        "venue": {
+          "id": 8392,
+          "name": "Mersin Stadyumu",
+          "city": "Mersin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png",
+          "winner": null
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238035,
+        "referee": "H. Meler",
+        "timezone": "UTC",
+        "date": "2025-01-25T16:00:00+00:00",
+        "timestamp": 1737820800,
+        "periods": {
+          "first": 1737820800,
+          "second": 1737824400
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 607,
+          "name": "Konyaspor",
+          "logo": "https://media.api-sports.io/football/teams/607.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238038,
+        "referee": "K. Sa\u011flam",
+        "timezone": "UTC",
+        "date": "2025-02-03T17:00:00+00:00",
+        "timestamp": 1738602000,
+        "periods": {
+          "first": 1738602000,
+          "second": 1738605600
+        },
+        "venue": {
+          "id": 2375,
+          "name": "Gaziantep Stadyumu",
+          "city": "Gaziantep"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3573,
+          "name": "Gaziantep FK",
+          "logo": "https://media.api-sports.io/football/teams/3573.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238054,
+        "referee": "O. \u00c7ak\u0131r",
+        "timezone": "UTC",
+        "date": "2025-02-09T16:00:00+00:00",
+        "timestamp": 1739116800,
+        "periods": {
+          "first": 1739116800,
+          "second": 1739120400
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238059,
+        "referee": "Z. K\u00fc\u00e7\u00fck",
+        "timezone": "UTC",
+        "date": "2025-02-17T17:00:00+00:00",
+        "timestamp": 1739811600,
+        "periods": {
+          "first": 1739811600,
+          "second": 1739815200
+        },
+        "venue": {
+          "id": 1580,
+          "name": "\u00c7aykur Didi Stadyumu",
+          "city": "Rize"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238071,
+        "referee": "S. Vin\u010di\u0107",
+        "timezone": "UTC",
+        "date": "2025-02-24T17:00:00+00:00",
+        "timestamp": 1740416400,
+        "periods": {
+          "first": 1740416400,
+          "second": 1740420000
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238080,
+        "referee": "C. Ayd\u0131n",
+        "timezone": "UTC",
+        "date": "2025-03-02T13:00:00+00:00",
+        "timestamp": 1740920400,
+        "periods": {
+          "first": 1740920400,
+          "second": 1740924000
+        },
+        "venue": {
+          "id": 1585,
+          "name": "Recep Tayyip Erdo\u011fan Stadyumu",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1004,
+          "name": "Kas\u0131mpa\u015fa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png",
+          "winner": null
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238086,
+        "referee": "Y. Kol",
+        "timezone": "UTC",
+        "date": "2025-03-09T17:30:00+00:00",
+        "timestamp": 1741541400,
+        "periods": {
+          "first": 1741541400,
+          "second": 1741545000
+        },
+        "venue": {
+          "id": 21379,
+          "name": "GAIN Park Stadium",
+          "city": "Antalya"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 996,
+          "name": "Alanyaspor",
+          "logo": "https://media.api-sports.io/football/teams/996.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238096,
+        "referee": "O. Erg\u00fcn",
+        "timezone": "UTC",
+        "date": "2025-03-14T17:30:00+00:00",
+        "timestamp": 1741973400,
+        "periods": {
+          "first": 1741973400,
+          "second": 1741977000
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1005,
+          "name": "Antalyaspor",
+          "logo": "https://media.api-sports.io/football/teams/1005.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238102,
+        "referee": "Y. Kol",
+        "timezone": "UTC",
+        "date": "2025-03-29T17:30:00+00:00",
+        "timestamp": 1743269400,
+        "periods": {
+          "first": 1743269400,
+          "second": 1743273000
+        },
+        "venue": {
+          "id": 20423,
+          "name": "T\u00fcpra\u015f Stadyumu",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 549,
+          "name": "Be\u015fikta\u015f",
+          "logo": "https://media.api-sports.io/football/teams/549.png",
+          "winner": true
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238123,
+        "referee": "O. Erg\u00fcn",
+        "timezone": "UTC",
+        "date": "2025-04-11T17:00:00+00:00",
+        "timestamp": 1744390800,
+        "periods": {
+          "first": 1744390800,
+          "second": 1744394400
+        },
+        "venue": {
+          "id": 11925,
+          "name": "Samsun Yeni 19 May\u0131s Stadyumu",
+          "city": "Samsun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238131,
+        "referee": "M. T\u00fcrkmen",
+        "timezone": "UTC",
+        "date": "2025-04-18T17:00:00+00:00",
+        "timestamp": 1744995600,
+        "periods": {
+          "first": 1744995600,
+          "second": 1744999200
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3583,
+          "name": "Bodrum FK",
+          "logo": "https://media.api-sports.io/football/teams/3583.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238142,
+        "referee": "\u00c7. Altay",
+        "timezone": "UTC",
+        "date": "2025-04-27T16:00:00+00:00",
+        "timestamp": 1745769600,
+        "periods": {
+          "first": 1745769600,
+          "second": 1745773200
+        },
+        "venue": {
+          "id": 1585,
+          "name": "Recep Tayyip Erdo\u011fan Stadyumu",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3588,
+          "name": "Ey\u00fcpspor",
+          "logo": "https://media.api-sports.io/football/teams/3588.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238146,
+        "referee": "O. Erg\u00fcn",
+        "timezone": "UTC",
+        "date": "2025-05-03T16:00:00+00:00",
+        "timestamp": 1746288000,
+        "periods": {
+          "first": 1746288000,
+          "second": 1746291600
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238159,
+        "referee": "A. Karao\u011flan",
+        "timezone": "UTC",
+        "date": "2025-05-10T16:00:00+00:00",
+        "timestamp": 1746892800,
+        "periods": {
+          "first": 1746892800,
+          "second": 1746896400
+        },
+        "venue": {
+          "id": 20189,
+          "name": "Papara Park",
+          "city": "Trabzon"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 35",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 998,
+          "name": "Trabzonspor",
+          "logo": "https://media.api-sports.io/football/teams/998.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238165,
+        "referee": "A. \u015eansalan",
+        "timezone": "UTC",
+        "date": "2025-05-18T16:00:00+00:00",
+        "timestamp": 1747584000,
+        "periods": {
+          "first": 1747584000,
+          "second": 1747587600
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 36",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238181,
+        "referee": "B. Kolak",
+        "timezone": "UTC",
+        "date": "2025-05-24T16:00:00+00:00",
+        "timestamp": 1748102400,
+        "periods": {
+          "first": 1748102400,
+          "second": 1748106000
+        },
+        "venue": {
+          "id": 1583,
+          "name": "G\u00fcrsel Aksel Stadyumu",
+          "city": "\u0130zmir"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 37",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 994,
+          "name": "G\u00f6ztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1238183,
+        "referee": "B. Ta\u015fk\u0131nsoy",
+        "timezone": "UTC",
+        "date": "2025-05-30T17:00:00+00:00",
+        "timestamp": 1748624400,
+        "periods": {
+          "first": 1748624400,
+          "second": 1748628000
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "S\u00fcper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Regular Season - 38",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 564,
+          "name": "Ba\u015fak\u015fehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1244980,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-15T17:30:00+00:00",
+        "timestamp": 1721064600,
+        "periods": {
+          "first": 1721064600,
+          "second": 1721068200
+        },
+        "venue": {
+          "id": null,
+          "name": "Raiffeisen Arena",
+          "city": "Linz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 158,
+          "name": "Fortuna D\u00fcsseldorf",
+          "logo": "https://media.api-sports.io/football/teams/158.png",
+          "winner": true
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1260806,
+        "referee": "A. Karao\u011flan",
+        "timezone": "UTC",
+        "date": "2024-08-03T17:45:00+00:00",
+        "timestamp": 1722707100,
+        "periods": {
+          "first": 1722707100,
+          "second": 1722710700
+        },
+        "venue": {
+          "id": 1968,
+          "name": "Atat\u00fcrk Olimpiyat Stad\u0131",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 551,
+        "name": "Super Cup",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/551.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": false
+        },
+        "away": {
+          "id": 549,
+          "name": "Be\u015fikta\u015f",
+          "logo": "https://media.api-sports.io/football/teams/549.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1280666,
+        "referee": "D. Siebert",
+        "timezone": "UTC",
+        "date": "2024-08-21T19:00:00+00:00",
+        "timestamp": 1724266800,
+        "periods": {
+          "first": 1724266800,
+          "second": 1724270400
+        },
+        "venue": {
+          "id": 10500,
+          "name": "Stadion Wankdorf",
+          "city": "Bern"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "winner": true
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1280667,
+        "referee": "E. Esk\u00e5s",
+        "timezone": "UTC",
+        "date": "2024-08-27T19:00:00+00:00",
+        "timestamp": 1724785200,
+        "periods": {
+          "first": 1724785200,
+          "second": 1724788800
+        },
+        "venue": {
+          "id": null,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": false
+        },
+        "away": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299132,
+        "referee": "Alejandro Hern\u00e1ndez",
+        "timezone": "UTC",
+        "date": "2024-09-25T19:00:00+00:00",
+        "timestamp": 1727290800,
+        "periods": {
+          "first": 1727290800,
+          "second": 1727294400
+        },
+        "venue": {
+          "id": null,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 619,
+          "name": "PAOK",
+          "logo": "https://media.api-sports.io/football/teams/619.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299152,
+        "referee": "F. Glova",
+        "timezone": "UTC",
+        "date": "2024-10-03T16:45:00+00:00",
+        "timestamp": 1727973900,
+        "periods": {
+          "first": 1727973900,
+          "second": 1727977500
+        },
+        "venue": {
+          "id": null,
+          "name": "Daugavas Stadion\u0101",
+          "city": "Riga"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4160,
+          "name": "R\u012bgas FS",
+          "logo": "https://media.api-sports.io/football/teams/4160.png",
+          "winner": null
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299164,
+        "referee": "M. Jug",
+        "timezone": "UTC",
+        "date": "2024-10-23T14:30:00+00:00",
+        "timestamp": 1729693800,
+        "periods": {
+          "first": 1729693800,
+          "second": 1729697400
+        },
+        "venue": {
+          "id": null,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 372,
+          "name": "IF Elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299187,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2024-11-07T17:45:00+00:00",
+        "timestamp": 1731001500,
+        "periods": {
+          "first": 1731001500,
+          "second": 1731005100
+        },
+        "venue": {
+          "id": null,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299201,
+        "referee": "H. Fe\u0219nic",
+        "timezone": "UTC",
+        "date": "2024-11-28T17:45:00+00:00",
+        "timestamp": 1732815900,
+        "periods": {
+          "first": 1732815900,
+          "second": 1732819500
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299220,
+        "referee": "J. Brooks",
+        "timezone": "UTC",
+        "date": "2024-12-12T17:45:00+00:00",
+        "timestamp": 1734025500,
+        "periods": {
+          "first": 1734025500,
+          "second": 1734029100
+        },
+        "venue": {
+          "id": 1518,
+          "name": "Eleda Stadion",
+          "city": "Malm\u00f6"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png",
+          "winner": null
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299236,
+        "referee": "K. Tohver",
+        "timezone": "UTC",
+        "date": "2025-01-21T15:30:00+00:00",
+        "timestamp": 1737473400,
+        "periods": {
+          "first": 1737473400,
+          "second": 1737477000
+        },
+        "venue": {
+          "id": null,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        },
+        "away": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299254,
+        "referee": "Gil Manzano",
+        "timezone": "UTC",
+        "date": "2025-01-30T20:00:00+00:00",
+        "timestamp": 1738267200,
+        "periods": {
+          "first": 1738267200,
+          "second": 1738270800
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1307038,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-08T00:00:00+00:00",
+        "timestamp": 1725753600,
+        "periods": {
+          "first": 1725753600,
+          "second": 1725757200
+        },
+        "venue": {
+          "id": 5701,
+          "name": "Florya Metin Oktay Tesisleri",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 2",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        },
+        "away": {
+          "id": 7402,
+          "name": "Esenler Erokspor",
+          "logo": "https://media.api-sports.io/football/teams/7402.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 8,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 8,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327558,
+        "referee": "A. \u015eansalan",
+        "timezone": "UTC",
+        "date": "2025-01-08T17:30:00+00:00",
+        "timestamp": 1736357400,
+        "periods": {
+          "first": 1736357400,
+          "second": 1736361000
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 206,
+        "name": "T\u00fcrkiye Kupas\u0131",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/206.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Group Stage - 2",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        },
+        "away": {
+          "id": 564,
+          "name": "Ba\u015fak\u015fehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327568,
+        "referee": "Y. Arslan",
+        "timezone": "UTC",
+        "date": "2025-02-06T13:00:00+00:00",
+        "timestamp": 1738846800,
+        "periods": {
+          "first": 1738846800,
+          "second": 1738850400
+        },
+        "venue": {
+          "id": 2371,
+          "name": "Bolu Atat\u00fcrk Stadyumu",
+          "city": "Bolu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 206,
+        "name": "T\u00fcrkiye Kupas\u0131",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/206.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Group Stage - 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3569,
+          "name": "Boluspor",
+          "logo": "https://media.api-sports.io/football/teams/3569.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327580,
+        "referee": "M. Meto\u011flu",
+        "timezone": "UTC",
+        "date": "2025-02-27T16:00:00+00:00",
+        "timestamp": 1740672000,
+        "periods": {
+          "first": 1740672000,
+          "second": 1740675600
+        },
+        "venue": {
+          "id": 22761,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 206,
+        "name": "T\u00fcrkiye Kupas\u0131",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/206.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Group Stage - 4",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        },
+        "away": {
+          "id": 607,
+          "name": "Konyaspor",
+          "logo": "https://media.api-sports.io/football/teams/607.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345763,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2025-02-13T20:00:00+00:00",
+        "timestamp": 1739476800,
+        "periods": {
+          "first": 1739476800,
+          "second": 1739480400
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345764,
+        "referee": "A. Taylor",
+        "timezone": "UTC",
+        "date": "2025-02-20T17:45:00+00:00",
+        "timestamp": 1740073500,
+        "periods": {
+          "first": 1740073500,
+          "second": 1740077100
+        },
+        "venue": {
+          "id": null,
+          "name": "RAMS Park",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": null
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1359787,
+        "referee": "C. Ayd\u0131n",
+        "timezone": "UTC",
+        "date": "2025-04-02T17:45:00+00:00",
+        "timestamp": 1743615900,
+        "periods": {
+          "first": 1743615900,
+          "second": 1743619500
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 206,
+        "name": "T\u00fcrkiye Kupas\u0131",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/206.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1367754,
+        "referee": "A. Y\u0131lmaz",
+        "timezone": "UTC",
+        "date": "2025-04-22T17:30:00+00:00",
+        "timestamp": 1745343000,
+        "periods": {
+          "first": 1745343000,
+          "second": 1745346600
+        },
+        "venue": {
+          "id": 22762,
+          "name": "Meda\u015f Konya B\u00fcy\u00fck\u015fehir Stadyumu",
+          "city": "Konya"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 206,
+        "name": "T\u00fcrkiye Kupas\u0131",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/206.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 607,
+          "name": "Konyaspor",
+          "logo": "https://media.api-sports.io/football/teams/607.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1373028,
+        "referee": "C. Ayd\u0131n",
+        "timezone": "UTC",
+        "date": "2025-05-14T17:45:00+00:00",
+        "timestamp": 1747244700,
+        "periods": {
+          "first": 1747244700,
+          "second": 1747248300
+        },
+        "venue": {
+          "id": 2375,
+          "name": "Gaziantep Stadyumu",
+          "city": "Gaziantep"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 206,
+        "name": "T\u00fcrkiye Kupas\u0131",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/206.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 998,
+          "name": "Trabzonspor",
+          "logo": "https://media.api-sports.io/football/teams/998.png",
+          "winner": false
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

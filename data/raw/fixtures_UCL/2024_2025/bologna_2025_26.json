@@ -1,0 +1,3795 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "500"
+  },
+  "errors": [],
+  "results": 54,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1223595,
+        "referee": "M. Ferrieri Caputi",
+        "timezone": "UTC",
+        "date": "2024-08-18T16:30:00+00:00",
+        "timestamp": 1723998600,
+        "periods": {
+          "first": 1723998600,
+          "second": 1724002200
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        },
+        "away": {
+          "id": 494,
+          "name": "Udinese",
+          "logo": "https://media.api-sports.io/football/teams/494.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223610,
+        "referee": "L. Pairetto",
+        "timezone": "UTC",
+        "date": "2024-08-25T18:45:00+00:00",
+        "timestamp": 1724611500,
+        "periods": {
+          "first": 1724611500,
+          "second": 1724615100
+        },
+        "venue": {
+          "id": 11904,
+          "name": "Stadio Diego Armando Maradona",
+          "city": "Napoli"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png",
+          "winner": true
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223615,
+        "referee": "L. Marinelli",
+        "timezone": "UTC",
+        "date": "2024-08-31T16:30:00+00:00",
+        "timestamp": 1725121800,
+        "periods": {
+          "first": 1725121800,
+          "second": 1725125400
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        },
+        "away": {
+          "id": 511,
+          "name": "Empoli",
+          "logo": "https://media.api-sports.io/football/teams/511.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223627,
+        "referee": "M. Piccinini",
+        "timezone": "UTC",
+        "date": "2024-09-14T13:00:00+00:00",
+        "timestamp": 1726318800,
+        "periods": {
+          "first": 1726318800,
+          "second": 1726322400
+        },
+        "venue": {
+          "id": 892,
+          "name": "Stadio Giuseppe Sinigaglia",
+          "city": "Como"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 895,
+          "name": "Como",
+          "logo": "https://media.api-sports.io/football/teams/895.png",
+          "winner": null
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223642,
+        "referee": "D. Massa",
+        "timezone": "UTC",
+        "date": "2024-09-22T13:00:00+00:00",
+        "timestamp": 1727010000,
+        "periods": {
+          "first": 1727010000,
+          "second": 1727013600
+        },
+        "venue": {
+          "id": 12086,
+          "name": "U-Power Stadium",
+          "city": "Monza"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1579,
+          "name": "Monza",
+          "logo": "https://media.api-sports.io/football/teams/1579.png",
+          "winner": false
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223645,
+        "referee": "A. Rapuano",
+        "timezone": "UTC",
+        "date": "2024-09-28T18:45:00+00:00",
+        "timestamp": 1727549100,
+        "periods": {
+          "first": 1727549100,
+          "second": 1727552700
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223656,
+        "referee": "M. Di Bello",
+        "timezone": "UTC",
+        "date": "2024-10-06T13:00:00+00:00",
+        "timestamp": 1728219600,
+        "periods": {
+          "first": 1728219600,
+          "second": 1728223200
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        },
+        "away": {
+          "id": 523,
+          "name": "Parma",
+          "logo": "https://media.api-sports.io/football/teams/523.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223668,
+        "referee": "D. Doveri",
+        "timezone": "UTC",
+        "date": "2024-10-19T13:00:00+00:00",
+        "timestamp": 1729342800,
+        "periods": {
+          "first": 1729342800,
+          "second": 1729346400
+        },
+        "venue": {
+          "id": 905,
+          "name": "Stadio Comunale Luigi Ferraris",
+          "city": "Genova"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 495,
+          "name": "Genoa",
+          "logo": "https://media.api-sports.io/football/teams/495.png",
+          "winner": null
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223676,
+        "referee": "M. Mariani",
+        "timezone": "UTC",
+        "date": "2025-02-27T19:45:00+00:00",
+        "timestamp": 1740685500,
+        "periods": {
+          "first": 1740685500,
+          "second": 1740689100
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 489,
+          "name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223686,
+        "referee": "F. Fourneau",
+        "timezone": "UTC",
+        "date": "2024-10-29T17:30:00+00:00",
+        "timestamp": 1730223000,
+        "periods": {
+          "first": 1730223000,
+          "second": 1730226600
+        },
+        "venue": {
+          "id": 12275,
+          "name": "Unipol Domus",
+          "city": "Cagliari"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 490,
+          "name": "Cagliari",
+          "logo": "https://media.api-sports.io/football/teams/490.png",
+          "winner": false
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223695,
+        "referee": "G. Collu",
+        "timezone": "UTC",
+        "date": "2024-11-02T14:00:00+00:00",
+        "timestamp": 1730556000,
+        "periods": {
+          "first": 1730556000,
+          "second": 1730559600
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 867,
+          "name": "Lecce",
+          "logo": "https://media.api-sports.io/football/teams/867.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223713,
+        "referee": "G. Manganiello",
+        "timezone": "UTC",
+        "date": "2024-11-10T14:00:00+00:00",
+        "timestamp": 1731247200,
+        "periods": {
+          "first": 1731247200,
+          "second": 1731250800
+        },
+        "venue": {
+          "id": 910,
+          "name": "Stadio Olimpico",
+          "city": "Roma"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 497,
+          "name": "AS Roma",
+          "logo": "https://media.api-sports.io/football/teams/497.png",
+          "winner": false
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223719,
+        "referee": "A. Rapuano",
+        "timezone": "UTC",
+        "date": "2024-11-24T19:45:00+00:00",
+        "timestamp": 1732477500,
+        "periods": {
+          "first": 1732477500,
+          "second": 1732481100
+        },
+        "venue": {
+          "id": 910,
+          "name": "Stadio Olimpico",
+          "city": "Roma"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png",
+          "winner": true
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223725,
+        "referee": "L. Massimi",
+        "timezone": "UTC",
+        "date": "2024-11-30T19:45:00+00:00",
+        "timestamp": 1732995900,
+        "periods": {
+          "first": 1732995900,
+          "second": 1732999500
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 517,
+          "name": "Venezia",
+          "logo": "https://media.api-sports.io/football/teams/517.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223740,
+        "referee": "M. Marchetti",
+        "timezone": "UTC",
+        "date": "2024-12-07T17:00:00+00:00",
+        "timestamp": 1733590800,
+        "periods": {
+          "first": 1733590800,
+          "second": 1733594400
+        },
+        "venue": {
+          "id": 909,
+          "name": "Allianz Stadium",
+          "city": "Torino"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
+          "winner": null
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223745,
+        "referee": "M. Fabbri",
+        "timezone": "UTC",
+        "date": "2024-12-15T14:00:00+00:00",
+        "timestamp": 1734271200,
+        "periods": {
+          "first": 1734271200,
+          "second": 1734274800
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223763,
+        "referee": "M. Piccinini",
+        "timezone": "UTC",
+        "date": "2024-12-21T14:00:00+00:00",
+        "timestamp": 1734789600,
+        "periods": {
+          "first": 1734789600,
+          "second": 1734793200
+        },
+        "venue": {
+          "id": 943,
+          "name": "Stadio Olimpico Grande Torino",
+          "city": "Torino"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 503,
+          "name": "Torino",
+          "logo": "https://media.api-sports.io/football/teams/503.png",
+          "winner": false
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223765,
+        "referee": "G. Ayroldi",
+        "timezone": "UTC",
+        "date": "2024-12-30T19:45:00+00:00",
+        "timestamp": 1735587900,
+        "periods": {
+          "first": 1735587900,
+          "second": 1735591500
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        },
+        "away": {
+          "id": 504,
+          "name": "Hellas Verona",
+          "logo": "https://media.api-sports.io/football/teams/504.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223779,
+        "referee": "L. Pairetto",
+        "timezone": "UTC",
+        "date": "2025-01-15T19:45:00+00:00",
+        "timestamp": 1736970300,
+        "periods": {
+          "first": 1736970300,
+          "second": 1736973900
+        },
+        "venue": {
+          "id": 907,
+          "name": "Stadio Giuseppe Meazza",
+          "city": "Milano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png",
+          "winner": null
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223785,
+        "referee": "R. Abisso",
+        "timezone": "UTC",
+        "date": "2025-01-12T17:00:00+00:00",
+        "timestamp": 1736701200,
+        "periods": {
+          "first": 1736701200,
+          "second": 1736704800
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        },
+        "away": {
+          "id": 497,
+          "name": "AS Roma",
+          "logo": "https://media.api-sports.io/football/teams/497.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223796,
+        "referee": "M. Mariani",
+        "timezone": "UTC",
+        "date": "2025-01-18T14:00:00+00:00",
+        "timestamp": 1737208800,
+        "periods": {
+          "first": 1737208800,
+          "second": 1737212400
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1579,
+          "name": "Monza",
+          "logo": "https://media.api-sports.io/football/teams/1579.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223806,
+        "referee": "F. La Penna",
+        "timezone": "UTC",
+        "date": "2025-01-25T19:45:00+00:00",
+        "timestamp": 1737834300,
+        "periods": {
+          "first": 1737834300,
+          "second": 1737837900
+        },
+        "venue": {
+          "id": 20109,
+          "name": "Stadio Carlo Castellani \u2013 Computer Gross Arena",
+          "city": "Empoli"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 511,
+          "name": "Empoli",
+          "logo": "https://media.api-sports.io/football/teams/511.png",
+          "winner": null
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223816,
+        "referee": "L. Massimi",
+        "timezone": "UTC",
+        "date": "2025-02-01T19:45:00+00:00",
+        "timestamp": 1738439100,
+        "periods": {
+          "first": 1738439100,
+          "second": 1738442700
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 895,
+          "name": "Como",
+          "logo": "https://media.api-sports.io/football/teams/895.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223831,
+        "referee": "F. Fourneau",
+        "timezone": "UTC",
+        "date": "2025-02-09T17:00:00+00:00",
+        "timestamp": 1739120400,
+        "periods": {
+          "first": 1739120400,
+          "second": 1739124000
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Ettore Giardiniero - Via del Mare",
+          "city": "Lecce"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 867,
+          "name": "Lecce",
+          "logo": "https://media.api-sports.io/football/teams/867.png",
+          "winner": null
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223836,
+        "referee": "M. Fabbri",
+        "timezone": "UTC",
+        "date": "2025-02-14T19:45:00+00:00",
+        "timestamp": 1739562300,
+        "periods": {
+          "first": 1739562300,
+          "second": 1739565900
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 503,
+          "name": "Torino",
+          "logo": "https://media.api-sports.io/football/teams/503.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223851,
+        "referee": "R. Abisso",
+        "timezone": "UTC",
+        "date": "2025-02-22T14:00:00+00:00",
+        "timestamp": 1740232800,
+        "periods": {
+          "first": 1740232800,
+          "second": 1740236400
+        },
+        "venue": {
+          "id": 921,
+          "name": "Stadio Ennio Tardini",
+          "city": "Parma"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 523,
+          "name": "Parma",
+          "logo": "https://media.api-sports.io/football/teams/523.png",
+          "winner": true
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223856,
+        "referee": "L. Zufferli",
+        "timezone": "UTC",
+        "date": "2025-03-02T14:00:00+00:00",
+        "timestamp": 1740924000,
+        "periods": {
+          "first": 1740924000,
+          "second": 1740927600
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 490,
+          "name": "Cagliari",
+          "logo": "https://media.api-sports.io/football/teams/490.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223868,
+        "referee": "A. Rapuano",
+        "timezone": "UTC",
+        "date": "2025-03-09T11:30:00+00:00",
+        "timestamp": 1741519800,
+        "periods": {
+          "first": 1741519800,
+          "second": 1741523400
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Marcantonio Bentegodi",
+          "city": "Verona"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 504,
+          "name": "Hellas Verona",
+          "logo": "https://media.api-sports.io/football/teams/504.png",
+          "winner": false
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223876,
+        "referee": "A. Colombo",
+        "timezone": "UTC",
+        "date": "2025-03-16T14:00:00+00:00",
+        "timestamp": 1742133600,
+        "periods": {
+          "first": 1742133600,
+          "second": 1742137200
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223894,
+        "referee": "M. Di Bello",
+        "timezone": "UTC",
+        "date": "2025-03-29T14:00:00+00:00",
+        "timestamp": 1743256800,
+        "periods": {
+          "first": 1743256800,
+          "second": 1743260400
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Pier Luigi Penzo",
+          "city": "Venezia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 517,
+          "name": "Venezia",
+          "logo": "https://media.api-sports.io/football/teams/517.png",
+          "winner": false
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223896,
+        "referee": "D. Massa",
+        "timezone": "UTC",
+        "date": "2025-04-07T18:45:00+00:00",
+        "timestamp": 1744051500,
+        "periods": {
+          "first": 1744051500,
+          "second": 1744055100
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        },
+        "away": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223905,
+        "referee": "M. Mariani",
+        "timezone": "UTC",
+        "date": "2025-04-13T10:30:00+00:00",
+        "timestamp": 1744540200,
+        "periods": {
+          "first": 1744540200,
+          "second": 1744543800
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223915,
+        "referee": "A. Colombo",
+        "timezone": "UTC",
+        "date": "2025-04-20T16:00:00+00:00",
+        "timestamp": 1745164800,
+        "periods": {
+          "first": 1745164800,
+          "second": 1745168400
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223933,
+        "referee": "F. Maresca",
+        "timezone": "UTC",
+        "date": "2025-04-28T16:30:00+00:00",
+        "timestamp": 1745857800,
+        "periods": {
+          "first": 1745857800,
+          "second": 1745861400
+        },
+        "venue": {
+          "id": 20416,
+          "name": "Bluenergy Stadium",
+          "city": "Udine"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 494,
+          "name": "Udinese",
+          "logo": "https://media.api-sports.io/football/teams/494.png",
+          "winner": null
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223935,
+        "referee": "D. Doveri",
+        "timezone": "UTC",
+        "date": "2025-05-04T18:45:00+00:00",
+        "timestamp": 1746384300,
+        "periods": {
+          "first": 1746384300,
+          "second": 1746387900
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 35",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        },
+        "away": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223950,
+        "referee": "L. Marinelli",
+        "timezone": "UTC",
+        "date": "2025-05-09T18:45:00+00:00",
+        "timestamp": 1746816300,
+        "periods": {
+          "first": 1746816300,
+          "second": 1746819900
+        },
+        "venue": {
+          "id": 907,
+          "name": "Stadio Giuseppe Meazza",
+          "city": "Milano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 36",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 489,
+          "name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png",
+          "winner": true
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223956,
+        "referee": "L. Zufferli",
+        "timezone": "UTC",
+        "date": "2025-05-18T18:45:00+00:00",
+        "timestamp": 1747593900,
+        "periods": {
+          "first": 1747593900,
+          "second": 1747597500
+        },
+        "venue": {
+          "id": 902,
+          "name": "Stadio Artemio Franchi",
+          "city": "Firenze"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 37",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png",
+          "winner": true
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223966,
+        "referee": "M. Monaldi",
+        "timezone": "UTC",
+        "date": "2025-05-24T16:00:00+00:00",
+        "timestamp": 1748102400,
+        "periods": {
+          "first": 1748102400,
+          "second": 1748106000
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Regular Season - 38",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        },
+        "away": {
+          "id": 495,
+          "name": "Genoa",
+          "logo": "https://media.api-sports.io/football/teams/495.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1230636,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-27T15:00:00+00:00",
+        "timestamp": 1722092400,
+        "periods": {
+          "first": 1722092400,
+          "second": 1722096000
+        },
+        "venue": {
+          "id": null,
+          "name": "Camp de Futbol de La Roca del Vall\u00e8s",
+          "city": "La Roca del Vall\u00e8s"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 9465,
+          "name": "Caldiero Terme",
+          "logo": "https://media.api-sports.io/football/teams/9465.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1230645,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-31T16:00:00+00:00",
+        "timestamp": 1722441600,
+        "periods": {
+          "first": 1722441600,
+          "second": 1722445200
+        },
+        "venue": {
+          "id": null,
+          "name": "Sportplatz Klaus Seebacher",
+          "city": "Brixen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        },
+        "away": {
+          "id": 955,
+          "name": "Asteras Tripolis",
+          "logo": "https://media.api-sports.io/football/teams/955.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1280562,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-10T18:30:00+00:00",
+        "timestamp": 1723314600,
+        "periods": {
+          "first": 1723314600,
+          "second": 1723318200
+        },
+        "venue": {
+          "id": 19940,
+          "name": "Estadi Mallorca Son Moix",
+          "city": "Palma de Mallorca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 798,
+          "name": "Mallorca",
+          "logo": "https://media.api-sports.io/football/teams/798.png",
+          "winner": false
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1298990,
+        "referee": "R. Saggi",
+        "timezone": "UTC",
+        "date": "2024-09-18T16:45:00+00:00",
+        "timestamp": 1726677900,
+        "periods": {
+          "first": 1726677900,
+          "second": 1726681500
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299017,
+        "referee": "N. Dabanovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-10-02T19:00:00+00:00",
+        "timestamp": 1727895600,
+        "periods": {
+          "first": 1727895600,
+          "second": 1727899200
+        },
+        "venue": {
+          "id": 550,
+          "name": "Anfield",
+          "city": "Liverpool"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png",
+          "winner": true
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299022,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2024-10-22T19:00:00+00:00",
+        "timestamp": 1729623600,
+        "periods": {
+          "first": 1729623600,
+          "second": 1729627200
+        },
+        "venue": {
+          "id": 495,
+          "name": "Villa Park",
+          "city": "Birmingham"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png",
+          "winner": true
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299040,
+        "referee": "\u018f. A\u011fayev",
+        "timezone": "UTC",
+        "date": "2024-11-05T20:00:00+00:00",
+        "timestamp": 1730836800,
+        "periods": {
+          "first": 1730836800,
+          "second": 1730840400
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        },
+        "away": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media.api-sports.io/football/teams/91.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299068,
+        "referee": "M. Oliver",
+        "timezone": "UTC",
+        "date": "2024-11-27T20:00:00+00:00",
+        "timestamp": 1732737600,
+        "periods": {
+          "first": 1732737600,
+          "second": 1732741200
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299085,
+        "referee": "R. Petrescu",
+        "timezone": "UTC",
+        "date": "2024-12-11T20:00:00+00:00",
+        "timestamp": 1733947200,
+        "periods": {
+          "first": 1733947200,
+          "second": 1733950800
+        },
+        "venue": {
+          "id": null,
+          "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": null
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299096,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-01-21T20:00:00+00:00",
+        "timestamp": 1737489600,
+        "periods": {
+          "first": 1737489600,
+          "second": 1737493200
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 165,
+          "name": "Borussia Dortmund",
+          "logo": "https://media.api-sports.io/football/teams/165.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299125,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2025-01-29T20:00:00+00:00",
+        "timestamp": 1738180800,
+        "periods": {
+          "first": 1738180800,
+          "second": 1738184400
+        },
+        "venue": {
+          "id": 1293,
+          "name": "Est\u00e1dio Jos\u00e9 Alvalade",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": null
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1309294,
+        "referee": "M. Ferrieri Caputi",
+        "timezone": "UTC",
+        "date": "2024-12-03T17:30:00+00:00",
+        "timestamp": 1733247000,
+        "periods": {
+          "first": 1733247000,
+          "second": 1733250600
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 137,
+        "name": "Coppa Italia",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1579,
+          "name": "Monza",
+          "logo": "https://media.api-sports.io/football/teams/1579.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1323909,
+        "referee": "L. Marinelli",
+        "timezone": "UTC",
+        "date": "2025-02-04T20:00:00+00:00",
+        "timestamp": 1738699200,
+        "periods": {
+          "first": 1738699200,
+          "second": 1738702800
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 137,
+        "name": "Coppa Italia",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": false
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1355083,
+        "referee": "L. Zufferli",
+        "timezone": "UTC",
+        "date": "2025-04-01T19:00:00+00:00",
+        "timestamp": 1743534000,
+        "periods": {
+          "first": 1743534000,
+          "second": 1743537600
+        },
+        "venue": {
+          "id": 20109,
+          "name": "Stadio Carlo Castellani \u2013 Computer Gross Arena",
+          "city": "Empoli"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 137,
+        "name": "Coppa Italia",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 511,
+          "name": "Empoli",
+          "logo": "https://media.api-sports.io/football/teams/511.png",
+          "winner": false
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1355084,
+        "referee": "M. Marcenaro",
+        "timezone": "UTC",
+        "date": "2025-04-24T19:00:00+00:00",
+        "timestamp": 1745521200,
+        "periods": {
+          "first": 1745521200,
+          "second": 1745524800
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 137,
+        "name": "Coppa Italia",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        },
+        "away": {
+          "id": 511,
+          "name": "Empoli",
+          "logo": "https://media.api-sports.io/football/teams/511.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1373026,
+        "referee": "M. Mariani",
+        "timezone": "UTC",
+        "date": "2025-05-14T19:00:00+00:00",
+        "timestamp": 1747249200,
+        "periods": {
+          "first": 1747249200,
+          "second": 1747252800
+        },
+        "venue": {
+          "id": 910,
+          "name": "Stadio Olimpico",
+          "city": "Roma"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 137,
+        "name": "Coppa Italia",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 489,
+          "name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png",
+          "winner": false
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

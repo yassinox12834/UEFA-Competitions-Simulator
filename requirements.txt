@@ -1,0 +1,16 @@
+# Install with:  pip install -r requirements.txt
+# Python 3.10 or newer. Tkinter is also needed but does not come from pip:
+# it ships with the python.org installers (Linux: sudo apt install python3-tk).
+
+# The app: window and images
+customtkinter>=5.2
+Pillow>=10
+
+# Data, ratings and match model (also imported by the simulation)
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+
+# Downloading data from API-Football (datahandler/ and scripts/)
+requests>=2.31
+python-dotenv>=1.0

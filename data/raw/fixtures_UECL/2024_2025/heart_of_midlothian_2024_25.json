@@ -1,0 +1,3795 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "254"
+  },
+  "errors": [],
+  "results": 54,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1207337,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T14:00:00+00:00",
+        "timestamp": 1720879200,
+        "periods": {
+          "first": 1720879200,
+          "second": 1720882800
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1373,
+          "name": "Leyton Orient",
+          "logo": "https://media.api-sports.io/football/teams/1373.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208856,
+        "referee": "M. McDermid",
+        "timezone": "UTC",
+        "date": "2024-07-17T18:00:00+00:00",
+        "timestamp": 1721239200,
+        "periods": {
+          "first": 1721239200,
+          "second": 1721242800
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218399,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-27T14:00:00+00:00",
+        "timestamp": 1722088800,
+        "periods": {
+          "first": 1722088800,
+          "second": 1722092400
+        },
+        "venue": {
+          "id": 533,
+          "name": "Highbury Stadium",
+          "city": "Fleetwood, Lancashire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1336,
+          "name": "Fleetwood Town",
+          "logo": "https://media.api-sports.io/football/teams/1336.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220110,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-08-03T11:30:00+00:00",
+        "timestamp": 1722684600,
+        "periods": {
+          "first": 1722684600,
+          "second": 1722688200
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": null
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220120,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2024-08-10T16:30:00+00:00",
+        "timestamp": 1723307400,
+        "periods": {
+          "first": 1723307400,
+          "second": 1723311000
+        },
+        "venue": {
+          "id": 20420,
+          "name": "The Scot Foam Stadium at Dens Park",
+          "city": "Dundee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220125,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2024-08-25T14:00:00+00:00",
+        "timestamp": 1724594400,
+        "periods": {
+          "first": 1724594400,
+          "second": 1724598000
+        },
+        "venue": {
+          "id": 1398,
+          "name": "Fir Park",
+          "city": "Motherwell"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220130,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-09-01T14:00:00+00:00",
+        "timestamp": 1725199200,
+        "periods": {
+          "first": 1725199200,
+          "second": 1725202800
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220135,
+        "referee": "C. Steven",
+        "timezone": "UTC",
+        "date": "2024-09-14T14:00:00+00:00",
+        "timestamp": 1726322400,
+        "periods": {
+          "first": 1726322400,
+          "second": 1726326000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220141,
+        "referee": "I. Snedden",
+        "timezone": "UTC",
+        "date": "2024-09-28T14:00:00+00:00",
+        "timestamp": 1727532000,
+        "periods": {
+          "first": 1727532000,
+          "second": 1727535600
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": null
+        },
+        "away": {
+          "id": 902,
+          "name": "Ross County",
+          "logo": "https://media.api-sports.io/football/teams/902.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220146,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2024-10-06T14:00:00+00:00",
+        "timestamp": 1728223200,
+        "periods": {
+          "first": 1728223200,
+          "second": 1728226800
+        },
+        "venue": {
+          "id": 1383,
+          "name": "Pittodrie Stadium",
+          "city": "Aberdeen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220154,
+        "referee": "C. Steven",
+        "timezone": "UTC",
+        "date": "2024-10-19T14:00:00+00:00",
+        "timestamp": 1729346400,
+        "periods": {
+          "first": 1729346400,
+          "second": 1729350000
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        },
+        "away": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220160,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2024-10-27T11:00:00+00:00",
+        "timestamp": 1730026800,
+        "periods": {
+          "first": 1730026800,
+          "second": 1730030400
+        },
+        "venue": {
+          "id": 1394,
+          "name": "Easter Road Stadium",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": null
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220167,
+        "referee": "E. Anderson",
+        "timezone": "UTC",
+        "date": "2024-10-30T19:45:00+00:00",
+        "timestamp": 1730317500,
+        "periods": {
+          "first": 1730317500,
+          "second": 1730321100
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220174,
+        "referee": "C. Graham",
+        "timezone": "UTC",
+        "date": "2024-11-02T15:00:00+00:00",
+        "timestamp": 1730559600,
+        "periods": {
+          "first": 1730559600,
+          "second": 1730563200
+        },
+        "venue": {
+          "id": 1403,
+          "name": "McDiarmid Park",
+          "city": "Perth"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": false
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220181,
+        "referee": "M. McDermid",
+        "timezone": "UTC",
+        "date": "2024-11-10T17:00:00+00:00",
+        "timestamp": 1731258000,
+        "periods": {
+          "first": 1731258000,
+          "second": 1731261600
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220183,
+        "referee": "S. McLean",
+        "timezone": "UTC",
+        "date": "2024-11-23T19:45:00+00:00",
+        "timestamp": 1732391100,
+        "periods": {
+          "first": 1732391100,
+          "second": 1732394700
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220190,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2024-12-01T15:00:00+00:00",
+        "timestamp": 1733065200,
+        "periods": {
+          "first": 1733065200,
+          "second": 1733068800
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": null
+        },
+        "away": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220199,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2024-09-21T14:00:00+00:00",
+        "timestamp": 1726927200,
+        "periods": {
+          "first": 1726927200,
+          "second": 1726930800
+        },
+        "venue": {
+          "id": 11913,
+          "name": "The SMISA Stadium",
+          "city": "Paisley"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220203,
+        "referee": "C. Steven",
+        "timezone": "UTC",
+        "date": "2024-12-07T15:00:00+00:00",
+        "timestamp": 1733583600,
+        "periods": {
+          "first": 1733583600,
+          "second": 1733587200
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        },
+        "away": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220208,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2024-12-15T15:00:00+00:00",
+        "timestamp": 1734274800,
+        "periods": {
+          "first": 1734274800,
+          "second": 1734278400
+        },
+        "venue": {
+          "id": 19215,
+          "name": "The BBSP Stadium Rugby Park",
+          "city": "Kilmarnock"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220214,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2024-12-22T15:00:00+00:00",
+        "timestamp": 1734879600,
+        "periods": {
+          "first": 1734879600,
+          "second": 1734883200
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        },
+        "away": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220218,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-12-26T12:30:00+00:00",
+        "timestamp": 1735216200,
+        "periods": {
+          "first": 1735216200,
+          "second": 1735219800
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220228,
+        "referee": "R. Hardie",
+        "timezone": "UTC",
+        "date": "2024-12-29T15:00:00+00:00",
+        "timestamp": 1735484400,
+        "periods": {
+          "first": 1735484400,
+          "second": 1735488000
+        },
+        "venue": {
+          "id": 1402,
+          "name": "Global Energy Stadium",
+          "city": "Dingwall"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 902,
+          "name": "Ross County",
+          "logo": "https://media.api-sports.io/football/teams/902.png",
+          "winner": null
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220231,
+        "referee": "C. Scott",
+        "timezone": "UTC",
+        "date": "2025-01-02T15:00:00+00:00",
+        "timestamp": 1735830000,
+        "periods": {
+          "first": 1735830000,
+          "second": 1735833600
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        },
+        "away": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220237,
+        "referee": "M. McDermid",
+        "timezone": "UTC",
+        "date": "2025-01-05T15:00:00+00:00",
+        "timestamp": 1736089200,
+        "periods": {
+          "first": 1736089200,
+          "second": 1736092800
+        },
+        "venue": {
+          "id": 22722,
+          "name": "CalForth Construction Arena at Tannadice Park",
+          "city": "Dundee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png",
+          "winner": false
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220242,
+        "referee": "S. McLean",
+        "timezone": "UTC",
+        "date": "2025-01-12T15:00:00+00:00",
+        "timestamp": 1736694000,
+        "periods": {
+          "first": 1736694000,
+          "second": 1736697600
+        },
+        "venue": {
+          "id": 1383,
+          "name": "Pittodrie Stadium",
+          "city": "Aberdeen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": null
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220251,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2025-01-25T15:00:00+00:00",
+        "timestamp": 1737817200,
+        "periods": {
+          "first": 1737817200,
+          "second": 1737820800
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        },
+        "away": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220254,
+        "referee": "L. Wilson",
+        "timezone": "UTC",
+        "date": "2025-02-01T15:00:00+00:00",
+        "timestamp": 1738422000,
+        "periods": {
+          "first": 1738422000,
+          "second": 1738425600
+        },
+        "venue": {
+          "id": 20420,
+          "name": "The Scot Foam Stadium at Dens Park",
+          "city": "Dundee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": false
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220262,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2025-02-16T12:00:00+00:00",
+        "timestamp": 1739707200,
+        "periods": {
+          "first": 1739707200,
+          "second": 1739710800
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220271,
+        "referee": "C. Scott",
+        "timezone": "UTC",
+        "date": "2025-02-23T12:00:00+00:00",
+        "timestamp": 1740312000,
+        "periods": {
+          "first": 1740312000,
+          "second": 1740315600
+        },
+        "venue": {
+          "id": 1403,
+          "name": "McDiarmid Park",
+          "city": "Perth"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": false
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220274,
+        "referee": "E. Anderson",
+        "timezone": "UTC",
+        "date": "2025-02-26T19:45:00+00:00",
+        "timestamp": 1740599100,
+        "periods": {
+          "first": 1740599100,
+          "second": 1740602700
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        },
+        "away": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220280,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2025-03-02T12:30:00+00:00",
+        "timestamp": 1740918600,
+        "periods": {
+          "first": 1740918600,
+          "second": 1740922200
+        },
+        "venue": {
+          "id": 1394,
+          "name": "Easter Road Stadium",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220286,
+        "referee": "C. Scott",
+        "timezone": "UTC",
+        "date": "2025-03-15T15:00:00+00:00",
+        "timestamp": 1742050800,
+        "periods": {
+          "first": 1742050800,
+          "second": 1742054400
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        },
+        "away": {
+          "id": 902,
+          "name": "Ross County",
+          "logo": "https://media.api-sports.io/football/teams/902.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220291,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2025-03-29T15:00:00+00:00",
+        "timestamp": 1743260400,
+        "periods": {
+          "first": 1743260400,
+          "second": 1743264000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220297,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2025-04-06T13:30:00+00:00",
+        "timestamp": 1743946200,
+        "periods": {
+          "first": 1743946200,
+          "second": 1743949800
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220306,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2025-04-12T14:00:00+00:00",
+        "timestamp": 1744466400,
+        "periods": {
+          "first": 1744466400,
+          "second": 1744470000
+        },
+        "venue": {
+          "id": 1398,
+          "name": "Fir Park",
+          "city": "Motherwell"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png",
+          "winner": null
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1269136,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2024-08-17T14:00:00+00:00",
+        "timestamp": 1723903200,
+        "periods": {
+          "first": 1723903200,
+          "second": 1723906800
+        },
+        "venue": {
+          "id": null,
+          "name": "Falkirk Stadium",
+          "city": "Falkirk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/185.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1389,
+          "name": "Falkirk",
+          "logo": "https://media.api-sports.io/football/teams/1389.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287614,
+        "referee": "S. Jablonski",
+        "timezone": "UTC",
+        "date": "2024-08-22T17:00:00+00:00",
+        "timestamp": 1724346000,
+        "periods": {
+          "first": 1724346000,
+          "second": 1724349600
+        },
+        "venue": {
+          "id": 438,
+          "name": "Doosan Ar\u00e9na",
+          "city": "Plze\u0148"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287615,
+        "referee": "G. Kabakov",
+        "timezone": "UTC",
+        "date": "2024-08-29T18:45:00+00:00",
+        "timestamp": 1724957100,
+        "periods": {
+          "first": 1724957100,
+          "second": 1724960700
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299298,
+        "referee": "M. Al Hakim",
+        "timezone": "UTC",
+        "date": "2024-10-03T16:45:00+00:00",
+        "timestamp": 1727973900,
+        "periods": {
+          "first": 1727973900,
+          "second": 1727977500
+        },
+        "venue": {
+          "id": 4130,
+          "name": "Mehdi H\u00fcseynzad\u0259 ad\u0131na Sumqay\u0131t \u015f\u0259h\u0259r stadionu",
+          "city": "Sumqay\u0131t"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 394,
+          "name": "Dinamo Minsk",
+          "logo": "https://media.api-sports.io/football/teams/394.png",
+          "winner": false
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299314,
+        "referee": "M. O\u010den\u00e1\u0161",
+        "timezone": "UTC",
+        "date": "2024-10-24T16:45:00+00:00",
+        "timestamp": 1729788300,
+        "periods": {
+          "first": 1729788300,
+          "second": 1729791900
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3402,
+          "name": "Omonia Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/3402.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299341,
+        "referee": "K. Hagenes",
+        "timezone": "UTC",
+        "date": "2024-11-07T20:00:00+00:00",
+        "timestamp": 1731009600,
+        "periods": {
+          "first": 1731009600,
+          "second": 1731013200
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 180,
+          "name": "1. FC Heidenheim",
+          "logo": "https://media.api-sports.io/football/teams/180.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299350,
+        "referee": "E. M\u0259siyev",
+        "timezone": "UTC",
+        "date": "2024-11-28T17:45:00+00:00",
+        "timestamp": 1732815900,
+        "periods": {
+          "first": 1732815900,
+          "second": 1732819500
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299367,
+        "referee": "A. Colombo",
+        "timezone": "UTC",
+        "date": "2024-12-12T17:45:00+00:00",
+        "timestamp": 1734025500,
+        "periods": {
+          "first": 1734025500,
+          "second": 1734029100
+        },
+        "venue": {
+          "id": 11600,
+          "name": "Parken",
+          "city": "K\u00f8benhavn"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299391,
+        "referee": "O. Berka",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1318879,
+        "referee": "G. Irvine",
+        "timezone": "UTC",
+        "date": "2025-01-17T19:45:00+00:00",
+        "timestamp": 1737143100,
+        "periods": {
+          "first": 1737143100,
+          "second": 1737146700
+        },
+        "venue": {
+          "id": 20428,
+          "name": "The Carnegie Fuels Stadium at Glebe Park",
+          "city": "Brechin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/181.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1390,
+          "name": "Brechin",
+          "logo": "https://media.api-sports.io/football/teams/1390.png",
+          "winner": false
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338622,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2025-02-10T19:45:00+00:00",
+        "timestamp": 1739216700,
+        "periods": {
+          "first": 1739216700,
+          "second": 1739220300
+        },
+        "venue": {
+          "id": 11913,
+          "name": "The SMISA Stadium",
+          "city": "Paisley"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/181.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": false
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 2,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1349963,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2025-03-07T19:45:00+00:00",
+        "timestamp": 1741376700,
+        "periods": {
+          "first": 1741376700,
+          "second": 1741380300
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/181.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        },
+        "away": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360339,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2025-04-19T11:30:00+00:00",
+        "timestamp": 1745062200,
+        "periods": {
+          "first": 1745062200,
+          "second": 1745065800
+        },
+        "venue": {
+          "id": 2617,
+          "name": "Hampden Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/181.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 1
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371467,
+        "referee": "R. Hardie",
+        "timezone": "UTC",
+        "date": "2025-04-26T14:00:00+00:00",
+        "timestamp": 1745676000,
+        "periods": {
+          "first": 1745676000,
+          "second": 1745679600
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371473,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2025-05-03T14:00:00+00:00",
+        "timestamp": 1746280800,
+        "periods": {
+          "first": 1746280800,
+          "second": 1746284400
+        },
+        "venue": {
+          "id": 1402,
+          "name": "Global Energy Stadium",
+          "city": "Dingwall"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 902,
+          "name": "Ross County",
+          "logo": "https://media.api-sports.io/football/teams/902.png",
+          "winner": false
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371478,
+        "referee": "R. Lee",
+        "timezone": "UTC",
+        "date": "2025-05-10T14:00:00+00:00",
+        "timestamp": 1746885600,
+        "periods": {
+          "first": 1746885600,
+          "second": 1746889200
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        },
+        "away": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371486,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2025-05-14T18:45:00+00:00",
+        "timestamp": 1747248300,
+        "periods": {
+          "first": 1747248300,
+          "second": 1747251900
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        },
+        "away": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371491,
+        "referee": "D. McFarlane",
+        "timezone": "UTC",
+        "date": "2025-05-18T14:00:00+00:00",
+        "timestamp": 1747576800,
+        "periods": {
+          "first": 1747576800,
+          "second": 1747580400
+        },
+        "venue": {
+          "id": 19215,
+          "name": "The BBSP Stadium Rugby Park",
+          "city": "Kilmarnock"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": false
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

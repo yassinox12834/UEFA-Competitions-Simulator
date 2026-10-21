@@ -1,0 +1,4005 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "79"
+  },
+  "errors": [],
+  "results": 57,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1210364,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-20T16:30:00+00:00",
+        "timestamp": 1721493000,
+        "periods": {
+          "first": 1721493000,
+          "second": 1721496600
+        },
+        "venue": {
+          "id": 12455,
+          "name": "Cegeka Arena",
+          "city": "Genk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 742,
+          "name": "Genk",
+          "logo": "https://media.api-sports.io/football/teams/742.png",
+          "winner": null
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213752,
+        "referee": "E. Wattellier",
+        "timezone": "UTC",
+        "date": "2024-08-17T17:00:00+00:00",
+        "timestamp": 1723914000,
+        "periods": {
+          "first": 1723914000,
+          "second": 1723917600
+        },
+        "venue": {
+          "id": 22707,
+          "name": "Stade Auguste-Delaune",
+          "city": "Reims"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213760,
+        "referee": "A. Kherradji",
+        "timezone": "UTC",
+        "date": "2024-08-24T17:00:00+00:00",
+        "timestamp": 1724518800,
+        "periods": {
+          "first": 1724518800,
+          "second": 1724522400
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 77,
+          "name": "Angers",
+          "logo": "https://media.api-sports.io/football/teams/77.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213765,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2024-09-01T18:45:00+00:00",
+        "timestamp": 1725216300,
+        "periods": {
+          "first": 1725216300,
+          "second": 1725219900
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213780,
+        "referee": "F. Letexier",
+        "timezone": "UTC",
+        "date": "2024-09-13T18:45:00+00:00",
+        "timestamp": 1726253100,
+        "periods": {
+          "first": 1726253100,
+          "second": 1726256700
+        },
+        "venue": {
+          "id": 676,
+          "name": "Stade Geoffroy-Guichard",
+          "city": "Saint-\u00c8tienne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1063,
+          "name": "Saint Etienne",
+          "logo": "https://media.api-sports.io/football/teams/1063.png",
+          "winner": true
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213789,
+        "referee": "J. Brisard",
+        "timezone": "UTC",
+        "date": "2024-09-21T15:00:00+00:00",
+        "timestamp": 1726930800,
+        "periods": {
+          "first": 1726930800,
+          "second": 1726934400
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        },
+        "away": {
+          "id": 95,
+          "name": "Strasbourg",
+          "logo": "https://media.api-sports.io/football/teams/95.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213797,
+        "referee": "B. Dechepy",
+        "timezone": "UTC",
+        "date": "2024-09-28T17:00:00+00:00",
+        "timestamp": 1727542800,
+        "periods": {
+          "first": 1727542800,
+          "second": 1727546400
+        },
+        "venue": {
+          "id": 652,
+          "name": "Stade Oc\u00e9ane",
+          "city": "Le Havre"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 111,
+          "name": "Le Havre",
+          "logo": "https://media.api-sports.io/football/teams/111.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213803,
+        "referee": "C. Turpin",
+        "timezone": "UTC",
+        "date": "2024-10-05T17:00:00+00:00",
+        "timestamp": 1728147600,
+        "periods": {
+          "first": 1728147600,
+          "second": 1728151200
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 96,
+          "name": "Toulouse",
+          "logo": "https://media.api-sports.io/football/teams/96.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213815,
+        "referee": "E. Wattellier",
+        "timezone": "UTC",
+        "date": "2024-10-18T18:45:00+00:00",
+        "timestamp": 1729277100,
+        "periods": {
+          "first": 1729277100,
+          "second": 1729280700
+        },
+        "venue": {
+          "id": 20470,
+          "name": "Stade Louis-II",
+          "city": "Monaco"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media.api-sports.io/football/teams/91.png",
+          "winner": null
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213820,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2024-10-26T19:00:00+00:00",
+        "timestamp": 1729969200,
+        "periods": {
+          "first": 1729969200,
+          "second": 1729972800
+        },
+        "venue": {
+          "id": 654,
+          "name": "Stade Bollaert-Delelis",
+          "city": "Lens"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 13
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 116,
+          "name": "Lens",
+          "logo": "https://media.api-sports.io/football/teams/116.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213833,
+        "referee": "J. Brisard",
+        "timezone": "UTC",
+        "date": "2024-11-01T20:00:00+00:00",
+        "timestamp": 1730491200,
+        "periods": {
+          "first": 1730491200,
+          "second": 1730494800
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213844,
+        "referee": "J. Stinat",
+        "timezone": "UTC",
+        "date": "2024-11-10T14:00:00+00:00",
+        "timestamp": 1731247200,
+        "periods": {
+          "first": 1731247200,
+          "second": 1731250800
+        },
+        "venue": {
+          "id": 663,
+          "name": "Allianz Riviera",
+          "city": "Nice"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png",
+          "winner": null
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213850,
+        "referee": "M. Vernice",
+        "timezone": "UTC",
+        "date": "2024-11-24T14:00:00+00:00",
+        "timestamp": 1732456800,
+        "periods": {
+          "first": 1732456800,
+          "second": 1732460400
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 94,
+          "name": "Rennes",
+          "logo": "https://media.api-sports.io/football/teams/94.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213860,
+        "referee": "B. Millot",
+        "timezone": "UTC",
+        "date": "2024-12-01T14:00:00+00:00",
+        "timestamp": 1733061600,
+        "periods": {
+          "first": 1733061600,
+          "second": 1733065200
+        },
+        "venue": {
+          "id": 20107,
+          "name": "Stade de la Mosson-Mondial 98",
+          "city": "Montpellier"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 82,
+          "name": "Montpellier",
+          "logo": "https://media.api-sports.io/football/teams/82.png",
+          "winner": null
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213868,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2024-12-06T18:00:00+00:00",
+        "timestamp": 1733508000,
+        "periods": {
+          "first": 1733508000,
+          "second": 1733511600
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 106,
+          "name": "Stade Brestois 29",
+          "logo": "https://media.api-sports.io/football/teams/106.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213880,
+        "referee": "W. Delajod",
+        "timezone": "UTC",
+        "date": "2024-12-14T16:00:00+00:00",
+        "timestamp": 1734192000,
+        "periods": {
+          "first": 1734192000,
+          "second": 1734195600
+        },
+        "venue": {
+          "id": 667,
+          "name": "Orange V\u00e9lodrome",
+          "city": "Marseille"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 81,
+          "name": "Marseille",
+          "logo": "https://media.api-sports.io/football/teams/81.png",
+          "winner": null
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213887,
+        "referee": "J. Pignard",
+        "timezone": "UTC",
+        "date": "2025-01-04T18:00:00+00:00",
+        "timestamp": 1736013600,
+        "periods": {
+          "first": 1736013600,
+          "second": 1736017200
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        },
+        "away": {
+          "id": 83,
+          "name": "Nantes",
+          "logo": "https://media.api-sports.io/football/teams/83.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213893,
+        "referee": "G. Angoula",
+        "timezone": "UTC",
+        "date": "2025-01-10T20:05:00+00:00",
+        "timestamp": 1736539500,
+        "periods": {
+          "first": 1736539500,
+          "second": 1736543100
+        },
+        "venue": {
+          "id": 636,
+          "name": "Stade de l'Abb\u00e9 Deschamps",
+          "city": "Auxerre"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 108,
+          "name": "Auxerre",
+          "logo": "https://media.api-sports.io/football/teams/108.png",
+          "winner": null
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213902,
+        "referee": "F. Letexier",
+        "timezone": "UTC",
+        "date": "2025-01-17T20:05:00+00:00",
+        "timestamp": 1737144300,
+        "periods": {
+          "first": 1737144300,
+          "second": 1737147900
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213909,
+        "referee": "W. Delajod",
+        "timezone": "UTC",
+        "date": "2025-01-25T18:00:00+00:00",
+        "timestamp": 1737828000,
+        "periods": {
+          "first": 1737828000,
+          "second": 1737831600
+        },
+        "venue": {
+          "id": 681,
+          "name": "Stade de la Meinau",
+          "city": "Strasbourg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 95,
+          "name": "Strasbourg",
+          "logo": "https://media.api-sports.io/football/teams/95.png",
+          "winner": true
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213921,
+        "referee": "E. Wattellier",
+        "timezone": "UTC",
+        "date": "2025-02-01T20:05:00+00:00",
+        "timestamp": 1738440300,
+        "periods": {
+          "first": 1738440300,
+          "second": 1738443900
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1063,
+          "name": "Saint Etienne",
+          "logo": "https://media.api-sports.io/football/teams/1063.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213930,
+        "referee": "T. L\u00e9onard",
+        "timezone": "UTC",
+        "date": "2025-02-08T18:00:00+00:00",
+        "timestamp": 1739037600,
+        "periods": {
+          "first": 1739037600,
+          "second": 1739041200
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        },
+        "away": {
+          "id": 111,
+          "name": "Le Havre",
+          "logo": "https://media.api-sports.io/football/teams/111.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213941,
+        "referee": "R. Lissorgue",
+        "timezone": "UTC",
+        "date": "2025-02-16T19:45:00+00:00",
+        "timestamp": 1739735100,
+        "periods": {
+          "first": 1739735100,
+          "second": 1739738700
+        },
+        "venue": {
+          "id": 680,
+          "name": "Roazhon Park",
+          "city": "Rennes"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 94,
+          "name": "Rennes",
+          "logo": "https://media.api-sports.io/football/teams/94.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213947,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2025-02-22T16:00:00+00:00",
+        "timestamp": 1740240000,
+        "periods": {
+          "first": 1740240000,
+          "second": 1740243600
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media.api-sports.io/football/teams/91.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213954,
+        "referee": "F. Letexier",
+        "timezone": "UTC",
+        "date": "2025-03-01T20:05:00+00:00",
+        "timestamp": 1740859500,
+        "periods": {
+          "first": 1740859500,
+          "second": 1740863100
+        },
+        "venue": {
+          "id": 671,
+          "name": "Parc des Princes",
+          "city": "Paris"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png",
+          "winner": true
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213969,
+        "referee": "J. Pignard",
+        "timezone": "UTC",
+        "date": "2025-03-08T18:00:00+00:00",
+        "timestamp": 1741456800,
+        "periods": {
+          "first": 1741456800,
+          "second": 1741460400
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 82,
+          "name": "Montpellier",
+          "logo": "https://media.api-sports.io/football/teams/82.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213979,
+        "referee": "B. Millot",
+        "timezone": "UTC",
+        "date": "2025-03-15T16:00:00+00:00",
+        "timestamp": 1742054400,
+        "periods": {
+          "first": 1742054400,
+          "second": 1742058000
+        },
+        "venue": {
+          "id": 662,
+          "name": "Stade de la Beaujoire - Louis Fonteneau",
+          "city": "Nantes"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 83,
+          "name": "Nantes",
+          "logo": "https://media.api-sports.io/football/teams/83.png",
+          "winner": true
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213988,
+        "referee": "M. Vernice",
+        "timezone": "UTC",
+        "date": "2025-03-30T18:45:00+00:00",
+        "timestamp": 1743360300,
+        "periods": {
+          "first": 1743360300,
+          "second": 1743363900
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 116,
+          "name": "Lens",
+          "logo": "https://media.api-sports.io/football/teams/116.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213994,
+        "referee": "E. Wattellier",
+        "timezone": "UTC",
+        "date": "2025-04-05T19:05:00+00:00",
+        "timestamp": 1743879900,
+        "periods": {
+          "first": 1743879900,
+          "second": 1743883500
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213999,
+        "referee": "J. Brisard",
+        "timezone": "UTC",
+        "date": "2025-04-12T17:00:00+00:00",
+        "timestamp": 1744477200,
+        "periods": {
+          "first": 1744477200,
+          "second": 1744480800
+        },
+        "venue": {
+          "id": 682,
+          "name": "Stadium de Toulouse",
+          "city": "Toulouse"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 96,
+          "name": "Toulouse",
+          "logo": "https://media.api-sports.io/football/teams/96.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214011,
+        "referee": "T. L\u00e9onard",
+        "timezone": "UTC",
+        "date": "2025-04-20T13:00:00+00:00",
+        "timestamp": 1745154000,
+        "periods": {
+          "first": 1745154000,
+          "second": 1745157600
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 108,
+          "name": "Auxerre",
+          "logo": "https://media.api-sports.io/football/teams/108.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214022,
+        "referee": "H. Ben El Hadj",
+        "timezone": "UTC",
+        "date": "2025-04-27T13:00:00+00:00",
+        "timestamp": 1745758800,
+        "periods": {
+          "first": 1745758800,
+          "second": 1745762400
+        },
+        "venue": {
+          "id": 634,
+          "name": "Stade Raymond Kopa",
+          "city": "Angers"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 77,
+          "name": "Angers",
+          "logo": "https://media.api-sports.io/football/teams/77.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214027,
+        "referee": "E. Wattellier",
+        "timezone": "UTC",
+        "date": "2025-05-04T18:45:00+00:00",
+        "timestamp": 1746384300,
+        "periods": {
+          "first": 1746384300,
+          "second": 1746387900
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        },
+        "away": {
+          "id": 81,
+          "name": "Marseille",
+          "logo": "https://media.api-sports.io/football/teams/81.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214042,
+        "referee": "T. L\u00e9onard",
+        "timezone": "UTC",
+        "date": "2025-05-10T19:00:00+00:00",
+        "timestamp": 1746903600,
+        "periods": {
+          "first": 1746903600,
+          "second": 1746907200
+        },
+        "venue": {
+          "id": 641,
+          "name": "Stade Francis-Le Bl\u00e9",
+          "city": "Brest"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 106,
+          "name": "Stade Brestois 29",
+          "logo": "https://media.api-sports.io/football/teams/106.png",
+          "winner": true
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214048,
+        "referee": "W. Delajod",
+        "timezone": "UTC",
+        "date": "2025-05-17T19:00:00+00:00",
+        "timestamp": 1747508400,
+        "periods": {
+          "first": 1747508400,
+          "second": 1747512000
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218112,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-09T15:00:00+00:00",
+        "timestamp": 1720537200,
+        "periods": {
+          "first": 1720537200,
+          "second": 1720540800
+        },
+        "venue": {
+          "id": 20133,
+          "name": "Complexe Sportif de Luchin",
+          "city": "Camphin-en-P\u00e9v\u00e8le"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1219607,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T15:00:00+00:00",
+        "timestamp": 1720882800,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 20133,
+          "name": "Complexe Sportif de Luchin",
+          "city": "Camphin-en-P\u00e9v\u00e8le"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        },
+        "away": {
+          "id": 266,
+          "name": "KV Mechelen",
+          "logo": "https://media.api-sports.io/football/teams/266.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222432,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-17T17:30:00+00:00",
+        "timestamp": 1721237400,
+        "periods": {
+          "first": 1721237400,
+          "second": 1721241000
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222439,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-24T14:30:00+00:00",
+        "timestamp": 1721831400,
+        "periods": {
+          "first": 1721831400,
+          "second": 1721835000
+        },
+        "venue": {
+          "id": 8237,
+          "name": "Jahnstadion",
+          "city": "Rheda-Wiedenbr\u00fcck"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1025,
+          "name": "Wolfsberger AC",
+          "logo": "https://media.api-sports.io/football/teams/1025.png",
+          "winner": true
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261864,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-30T17:00:00+00:00",
+        "timestamp": 1722358800,
+        "periods": {
+          "first": 1722358800,
+          "second": 1722362400
+        },
+        "venue": {
+          "id": 686,
+          "name": "Stade du Hainaut",
+          "city": "Valenciennes"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 538,
+          "name": "Celta Vigo",
+          "logo": "https://media.api-sports.io/football/teams/538.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1271720,
+        "referee": "I. Kov\u00e1cs",
+        "timezone": "UTC",
+        "date": "2024-08-06T18:30:00+00:00",
+        "timestamp": 1722969000,
+        "periods": {
+          "first": 1722969000,
+          "second": 1722972600
+        },
+        "venue": {
+          "id": 686,
+          "name": "Stade du Hainaut",
+          "city": "Valenciennes"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1271721,
+        "referee": "Jos\u00e9 S\u00e1nchez",
+        "timezone": "UTC",
+        "date": "2024-08-13T17:00:00+00:00",
+        "timestamp": 1723568400,
+        "periods": {
+          "first": 1723568400,
+          "second": 1723572000
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": null
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 1
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1286255,
+        "referee": "S. Marciniak",
+        "timezone": "UTC",
+        "date": "2024-08-20T19:00:00+00:00",
+        "timestamp": 1724180400,
+        "periods": {
+          "first": 1724180400,
+          "second": 1724184000
+        },
+        "venue": {
+          "id": 686,
+          "name": "Stade du Hainaut",
+          "city": "Valenciennes"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1286256,
+        "referee": "S. Vin\u010di\u0107",
+        "timezone": "UTC",
+        "date": "2024-08-28T19:00:00+00:00",
+        "timestamp": 1724871600,
+        "periods": {
+          "first": 1724871600,
+          "second": 1724875200
+        },
+        "venue": {
+          "id": 18856,
+          "name": "Fortuna Arena",
+          "city": "Praha"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png",
+          "winner": true
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1298988,
+        "referee": "D. Rum\u0161as",
+        "timezone": "UTC",
+        "date": "2024-09-17T19:00:00+00:00",
+        "timestamp": 1726599600,
+        "periods": {
+          "first": 1726599600,
+          "second": 1726603200
+        },
+        "venue": {
+          "id": 1293,
+          "name": "Est\u00e1dio Jos\u00e9 Alvalade",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": true
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299016,
+        "referee": "M. Mariani",
+        "timezone": "UTC",
+        "date": "2024-10-02T19:00:00+00:00",
+        "timestamp": 1727895600,
+        "periods": {
+          "first": 1727895600,
+          "second": 1727899200
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299031,
+        "referee": "M. Guida",
+        "timezone": "UTC",
+        "date": "2024-10-23T19:00:00+00:00",
+        "timestamp": 1729710000,
+        "periods": {
+          "first": 1729710000,
+          "second": 1729713600
+        },
+        "venue": {
+          "id": null,
+          "name": "Riyadh Air Metropolitano",
+          "city": "Madrid"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299043,
+        "referee": "I. Peljto",
+        "timezone": "UTC",
+        "date": "2024-11-05T20:00:00+00:00",
+        "timestamp": 1730836800,
+        "periods": {
+          "first": 1730836800,
+          "second": 1730840400
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        },
+        "away": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299068,
+        "referee": "M. Oliver",
+        "timezone": "UTC",
+        "date": "2024-11-27T20:00:00+00:00",
+        "timestamp": 1732737600,
+        "periods": {
+          "first": 1732737600,
+          "second": 1732741200
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299084,
+        "referee": "G. Kabakov",
+        "timezone": "UTC",
+        "date": "2024-12-11T17:45:00+00:00",
+        "timestamp": 1733939100,
+        "periods": {
+          "first": 1733939100,
+          "second": 1733942700
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 637,
+          "name": "Sturm Graz",
+          "logo": "https://media.api-sports.io/football/teams/637.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299099,
+        "referee": "F. Zwayer",
+        "timezone": "UTC",
+        "date": "2025-01-21T20:00:00+00:00",
+        "timestamp": 1737489600,
+        "periods": {
+          "first": 1737489600,
+          "second": 1737493200
+        },
+        "venue": {
+          "id": 550,
+          "name": "Anfield",
+          "city": "Liverpool"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png",
+          "winner": true
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299121,
+        "referee": "S. Vin\u010di\u0107",
+        "timezone": "UTC",
+        "date": "2025-01-29T20:00:00+00:00",
+        "timestamp": 1738180800,
+        "periods": {
+          "first": 1738180800,
+          "second": 1738184400
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        },
+        "away": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1318787,
+        "referee": "S. Frappart",
+        "timezone": "UTC",
+        "date": "2024-12-20T20:00:00+00:00",
+        "timestamp": 1734724800,
+        "periods": {
+          "first": 1734724800,
+          "second": 1734728400
+        },
+        "venue": {
+          "id": 672,
+          "name": "Stade Robert Diochon",
+          "city": "Le Petit-Quevilly"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Round of 64",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3221,
+          "name": "Rouen",
+          "logo": "https://media.api-sports.io/football/teams/3221.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327888,
+        "referee": "C. Turpin",
+        "timezone": "UTC",
+        "date": "2025-01-14T20:10:00+00:00",
+        "timestamp": 1736885400,
+        "periods": {
+          "first": 1736885400,
+          "second": 1736889000
+        },
+        "venue": {
+          "id": 667,
+          "name": "Orange V\u00e9lodrome",
+          "city": "Marseille"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Round of 32",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 81,
+          "name": "Marseille",
+          "logo": "https://media.api-sports.io/football/teams/81.png",
+          "winner": false
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 3,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1339887,
+        "referee": "B. Millot",
+        "timezone": "UTC",
+        "date": "2025-02-04T18:00:00+00:00",
+        "timestamp": 1738692000,
+        "periods": {
+          "first": 1738692000,
+          "second": 1738695600
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1304,
+          "name": "Dunkerque",
+          "logo": "https://media.api-sports.io/football/teams/1304.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 4,
+          "away": 5
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353168,
+        "referee": "Jos\u00e9 S\u00e1nchez",
+        "timezone": "UTC",
+        "date": "2025-03-04T20:00:00+00:00",
+        "timestamp": 1741118400,
+        "periods": {
+          "first": 1741118400,
+          "second": 1741122000
+        },
+        "venue": {
+          "id": 19381,
+          "name": "SIGNAL IDUNA PARK",
+          "city": "Dortmund"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 165,
+          "name": "Borussia Dortmund",
+          "logo": "https://media.api-sports.io/football/teams/165.png",
+          "winner": null
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353169,
+        "referee": "S. Sch\u00e4rer",
+        "timezone": "UTC",
+        "date": "2025-03-12T17:45:00+00:00",
+        "timestamp": 1741801500,
+        "periods": {
+          "first": 1741801500,
+          "second": 1741805100
+        },
+        "venue": {
+          "id": null,
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
+          "city": "Villeneuve d'Ascq"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png",
+          "winner": false
+        },
+        "away": {
+          "id": 165,
+          "name": "Borussia Dortmund",
+          "logo": "https://media.api-sports.io/football/teams/165.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

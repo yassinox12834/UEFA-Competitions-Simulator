@@ -1,0 +1,4005 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "550"
+  },
+  "errors": [],
+  "results": 57,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1156615,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-21T14:30:00+00:00",
+        "timestamp": 1705847400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "Mardan Stadyumu",
+          "city": "Antalya"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "CANC",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        },
+        "away": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1156683,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-25T15:00:00+00:00",
+        "timestamp": 1706194800,
+        "periods": {
+          "first": 1706194800,
+          "second": 1706198400
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 347,
+          "name": "Lech Poznan",
+          "logo": "https://media.api-sports.io/football/teams/347.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1165962,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-22T12:30:00+00:00",
+        "timestamp": 1705926600,
+        "periods": {
+          "first": 1705926600,
+          "second": 1705930200
+        },
+        "venue": {
+          "id": null,
+          "name": "Titanic Hotel Spor Kompleks Field 3",
+          "city": "Lara"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 709,
+          "name": "Pyunik Yerevan",
+          "logo": "https://media.api-sports.io/football/teams/709.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1166013,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-03T14:30:00+00:00",
+        "timestamp": 1706970600,
+        "periods": {
+          "first": 1706970600,
+          "second": 1706974200
+        },
+        "venue": {
+          "id": null,
+          "name": "Mardan Stadyumu",
+          "city": "Antalya"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3381,
+          "name": "Vele\u017e",
+          "logo": "https://media.api-sports.io/football/teams/3381.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1168775,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-28T14:30:00+00:00",
+        "timestamp": 1706452200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "CANC",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 552,
+          "name": "Maribor",
+          "logo": "https://media.api-sports.io/football/teams/552.png",
+          "winner": null
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1169694,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-03T10:00:00+00:00",
+        "timestamp": 1706954400,
+        "periods": {
+          "first": 1706954400,
+          "second": 1706958000
+        },
+        "venue": {
+          "id": null,
+          "name": "Cullinan Hotel",
+          "city": "Antalya"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3723,
+          "name": "Hradec Kr\u00e1lov\u00e9",
+          "logo": "https://media.api-sports.io/football/teams/3723.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1172641,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-08T10:00:00+00:00",
+        "timestamp": 1707386400,
+        "periods": {
+          "first": 1707386400,
+          "second": 1707390000
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 21232,
+          "name": "Arkadag",
+          "logo": "https://media.api-sports.io/football/teams/21232.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1172644,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-08T14:30:00+00:00",
+        "timestamp": 1707402600,
+        "periods": {
+          "first": 1707402600,
+          "second": 1707406200
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 343,
+          "name": "Lechia Gdansk",
+          "logo": "https://media.api-sports.io/football/teams/343.png",
+          "winner": null
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208970,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-06T16:30:00+00:00",
+        "timestamp": 1720283400,
+        "periods": {
+          "first": 1720283400,
+          "second": 1720287000
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        },
+        "away": {
+          "id": 608,
+          "name": "HNK Hajduk Split",
+          "logo": "https://media.api-sports.io/football/teams/608.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220102,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-29T15:30:00+00:00",
+        "timestamp": 1719675000,
+        "periods": {
+          "first": 1719675000,
+          "second": 1719678600
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 679,
+          "name": "FK Sarajevo",
+          "logo": "https://media.api-sports.io/football/teams/679.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220868,
+        "referee": "M. Balakin",
+        "timezone": "UTC",
+        "date": "2024-08-04T12:30:00+00:00",
+        "timestamp": 1722774600,
+        "periods": {
+          "first": 1722774600,
+          "second": 1722778200
+        },
+        "venue": {
+          "id": 20115,
+          "name": "Stadion Vorskla im. Oleksiya Butovskoho",
+          "city": "Poltava"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1121,
+          "name": "Vorskla Poltava",
+          "logo": "https://media.api-sports.io/football/teams/1121.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220878,
+        "referee": "O. Shandor",
+        "timezone": "UTC",
+        "date": "2024-08-11T15:00:00+00:00",
+        "timestamp": 1723388400,
+        "periods": {
+          "first": 1723388400,
+          "second": 1723392000
+        },
+        "venue": {
+          "id": 20196,
+          "name": "Stadion Livyi Bereh",
+          "city": "Kyiv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        },
+        "away": {
+          "id": 6496,
+          "name": "Polessya",
+          "logo": "https://media.api-sports.io/football/teams/6496.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220885,
+        "referee": "O. Afanasiev",
+        "timezone": "UTC",
+        "date": "2025-02-24T16:00:00+00:00",
+        "timestamp": 1740412800,
+        "periods": {
+          "first": 1740412800,
+          "second": 1740416400
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 17162,
+          "name": "Livyi Bereh",
+          "logo": "https://media.api-sports.io/football/teams/17162.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220892,
+        "referee": "V. Romanov",
+        "timezone": "UTC",
+        "date": "2024-08-24T10:00:00+00:00",
+        "timestamp": 1724493600,
+        "periods": {
+          "first": 1724493600,
+          "second": 1724497200
+        },
+        "venue": {
+          "id": null,
+          "name": "CSC Nika",
+          "city": "Oleksandriia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3619,
+          "name": "Oleksandria",
+          "logo": "https://media.api-sports.io/football/teams/3619.png",
+          "winner": true
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220906,
+        "referee": "D. Shurman",
+        "timezone": "UTC",
+        "date": "2025-04-16T11:45:00+00:00",
+        "timestamp": 1744803900,
+        "periods": {
+          "first": 1744803900,
+          "second": 1744807500
+        },
+        "venue": {
+          "id": 22336,
+          "name": "Stadion Hirnyk",
+          "city": "Kryvyi Rih"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6489,
+          "name": "Kryvbas KR",
+          "logo": "https://media.api-sports.io/football/teams/6489.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220909,
+        "referee": "A. Kovalenko",
+        "timezone": "UTC",
+        "date": "2024-09-14T15:00:00+00:00",
+        "timestamp": 1726326000,
+        "periods": {
+          "first": 1726326000,
+          "second": 1726329600
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3617,
+          "name": "Karpaty",
+          "logo": "https://media.api-sports.io/football/teams/3617.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220917,
+        "referee": "R. Blavatskyi",
+        "timezone": "UTC",
+        "date": "2024-09-23T15:00:00+00:00",
+        "timestamp": 1727103600,
+        "periods": {
+          "first": 1727103600,
+          "second": 1727107200
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3630,
+          "name": "Obolon'-Brovar",
+          "logo": "https://media.api-sports.io/football/teams/3630.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220924,
+        "referee": "M. Kozyriatskyi",
+        "timezone": "UTC",
+        "date": "2024-09-27T15:00:00+00:00",
+        "timestamp": 1727449200,
+        "periods": {
+          "first": 1727449200,
+          "second": 1727452800
+        },
+        "venue": {
+          "id": 20308,
+          "name": "Stadion Avanhard",
+          "city": "Rivne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6501,
+          "name": "Veres Rivne",
+          "logo": "https://media.api-sports.io/football/teams/6501.png",
+          "winner": null
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220932,
+        "referee": "D. Shurman",
+        "timezone": "UTC",
+        "date": "2024-10-06T12:30:00+00:00",
+        "timestamp": 1728217800,
+        "periods": {
+          "first": 1728217800,
+          "second": 1728221400
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 17161,
+          "name": "LNZ Cherkasy",
+          "logo": "https://media.api-sports.io/football/teams/17161.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220940,
+        "referee": "O. Derevinskyi",
+        "timezone": "UTC",
+        "date": "2024-10-18T15:00:00+00:00",
+        "timestamp": 1729263600,
+        "periods": {
+          "first": 1729263600,
+          "second": 1729267200
+        },
+        "venue": {
+          "id": 20120,
+          "name": "Stadion Kolos",
+          "city": "Kovalivka"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3627,
+          "name": "Kolos Kovalivka",
+          "logo": "https://media.api-sports.io/football/teams/3627.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220948,
+        "referee": "M. Balakin",
+        "timezone": "UTC",
+        "date": "2024-10-27T15:00:00+00:00",
+        "timestamp": 1730041200,
+        "periods": {
+          "first": 1730041200,
+          "second": 1730044800
+        },
+        "venue": {
+          "id": 22335,
+          "name": "Stadion Dynamo im. Valeriy Lobanovskyi",
+          "city": "Kyiv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png",
+          "winner": null
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220962,
+        "referee": "D. Panchyshyn",
+        "timezone": "UTC",
+        "date": "2024-11-02T16:00:00+00:00",
+        "timestamp": 1730563200,
+        "periods": {
+          "first": 1730563200,
+          "second": 1730566800
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3615,
+          "name": "Chornomorets",
+          "logo": "https://media.api-sports.io/football/teams/3615.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220967,
+        "referee": "O. Afanasiev",
+        "timezone": "UTC",
+        "date": "2024-11-10T13:30:00+00:00",
+        "timestamp": 1731245400,
+        "periods": {
+          "first": 1731245400,
+          "second": 1731249000
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 599,
+          "name": "Zorya Luhansk",
+          "logo": "https://media.api-sports.io/football/teams/599.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220973,
+        "referee": "A. Romaniuk",
+        "timezone": "UTC",
+        "date": "2025-05-18T12:30:00+00:00",
+        "timestamp": 1747571400,
+        "periods": {
+          "first": 1747571400,
+          "second": 1747575000
+        },
+        "venue": {
+          "id": 2420,
+          "name": "Stadion Ukraina",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3625,
+          "name": "Inhulets",
+          "logo": "https://media.api-sports.io/football/teams/3625.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220983,
+        "referee": "V. Kopiievskyi",
+        "timezone": "UTC",
+        "date": "2024-12-01T16:00:00+00:00",
+        "timestamp": 1733068800,
+        "periods": {
+          "first": 1733068800,
+          "second": 1733072400
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3632,
+          "name": "Ruh Lviv",
+          "logo": "https://media.api-sports.io/football/teams/3632.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220989,
+        "referee": "O. Derevinskyi",
+        "timezone": "UTC",
+        "date": "2024-12-05T16:00:00+00:00",
+        "timestamp": 1733414400,
+        "periods": {
+          "first": 1733414400,
+          "second": 1733418000
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1121,
+          "name": "Vorskla Poltava",
+          "logo": "https://media.api-sports.io/football/teams/1121.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220996,
+        "referee": "V. Romanov",
+        "timezone": "UTC",
+        "date": "2024-12-15T16:00:00+00:00",
+        "timestamp": 1734278400,
+        "periods": {
+          "first": 1734278400,
+          "second": 1734282000
+        },
+        "venue": {
+          "id": 11948,
+          "name": "Tsentralnyi Stadion",
+          "city": "Zhytomyr"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6496,
+          "name": "Polessya",
+          "logo": "https://media.api-sports.io/football/teams/6496.png",
+          "winner": true
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221005,
+        "referee": "D. Panchyshyn",
+        "timezone": "UTC",
+        "date": "2024-08-18T15:00:00+00:00",
+        "timestamp": 1723993200,
+        "periods": {
+          "first": 1723993200,
+          "second": 1723996800
+        },
+        "venue": {
+          "id": 20196,
+          "name": "Stadion Livyi Bereh",
+          "city": "Kyiv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 17162,
+          "name": "Livyi Bereh",
+          "logo": "https://media.api-sports.io/football/teams/17162.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221013,
+        "referee": "M. Balakin",
+        "timezone": "UTC",
+        "date": "2025-03-01T16:00:00+00:00",
+        "timestamp": 1740844800,
+        "periods": {
+          "first": 1740844800,
+          "second": 1740848400
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3619,
+          "name": "Oleksandria",
+          "logo": "https://media.api-sports.io/football/teams/3619.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221021,
+        "referee": "O. Derevinskyi",
+        "timezone": "UTC",
+        "date": "2025-03-06T16:00:00+00:00",
+        "timestamp": 1741276800,
+        "periods": {
+          "first": 1741276800,
+          "second": 1741280400
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        },
+        "away": {
+          "id": 6489,
+          "name": "Kryvbas KR",
+          "logo": "https://media.api-sports.io/football/teams/6489.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221031,
+        "referee": "V. Romanov",
+        "timezone": "UTC",
+        "date": "2025-03-11T16:00:00+00:00",
+        "timestamp": 1741708800,
+        "periods": {
+          "first": 1741708800,
+          "second": 1741712400
+        },
+        "venue": {
+          "id": 2420,
+          "name": "Stadion Ukraina",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3617,
+          "name": "Karpaty",
+          "logo": "https://media.api-sports.io/football/teams/3617.png",
+          "winner": null
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221037,
+        "referee": "A. Kovalenko",
+        "timezone": "UTC",
+        "date": "2025-03-29T13:30:00+00:00",
+        "timestamp": 1743255000,
+        "periods": {
+          "first": 1743255000,
+          "second": 1743258600
+        },
+        "venue": {
+          "id": 8330,
+          "name": "Obolon Arena",
+          "city": "Kyiv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3630,
+          "name": "Obolon'-Brovar",
+          "logo": "https://media.api-sports.io/football/teams/3630.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221046,
+        "referee": "D. Shurman",
+        "timezone": "UTC",
+        "date": "2025-04-06T15:00:00+00:00",
+        "timestamp": 1743951600,
+        "periods": {
+          "first": 1743951600,
+          "second": 1743955200
+        },
+        "venue": {
+          "id": 20196,
+          "name": "Stadion Livyi Bereh",
+          "city": "Kyiv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6501,
+          "name": "Veres Rivne",
+          "logo": "https://media.api-sports.io/football/teams/6501.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221056,
+        "referee": "D. Panchyshyn",
+        "timezone": "UTC",
+        "date": "2025-04-11T12:30:00+00:00",
+        "timestamp": 1744374600,
+        "periods": {
+          "first": 1744374600,
+          "second": 1744378200
+        },
+        "venue": {
+          "id": 12063,
+          "name": "Cherkasy Arena",
+          "city": "Cherkasy"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 17161,
+          "name": "LNZ Cherkasy",
+          "logo": "https://media.api-sports.io/football/teams/17161.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221061,
+        "referee": "V. Novokhatnyi",
+        "timezone": "UTC",
+        "date": "2025-04-19T15:00:00+00:00",
+        "timestamp": 1745074800,
+        "periods": {
+          "first": 1745074800,
+          "second": 1745078400
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 14
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3627,
+          "name": "Kolos Kovalivka",
+          "logo": "https://media.api-sports.io/football/teams/3627.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221068,
+        "referee": "V. Romanov",
+        "timezone": "UTC",
+        "date": "2025-04-27T15:00:00+00:00",
+        "timestamp": 1745766000,
+        "periods": {
+          "first": 1745766000,
+          "second": 1745769600
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        },
+        "away": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221082,
+        "referee": "R. Blavatskyi",
+        "timezone": "UTC",
+        "date": "2025-05-03T10:00:00+00:00",
+        "timestamp": 1746266400,
+        "periods": {
+          "first": 1746266400,
+          "second": 1746270000
+        },
+        "venue": {
+          "id": 2418,
+          "name": "Stadion Chornomorets",
+          "city": "Odesa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3615,
+          "name": "Chornomorets",
+          "logo": "https://media.api-sports.io/football/teams/3615.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221088,
+        "referee": "O. Shandor",
+        "timezone": "UTC",
+        "date": "2025-05-09T12:30:00+00:00",
+        "timestamp": 1746793800,
+        "periods": {
+          "first": 1746793800,
+          "second": 1746797400
+        },
+        "venue": {
+          "id": 1597,
+          "name": "Stadion Dynamo im. Valeriy Lobanovskyi",
+          "city": "Kyiv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 599,
+          "name": "Zorya Luhansk",
+          "logo": "https://media.api-sports.io/football/teams/599.png",
+          "winner": null
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221093,
+        "referee": "O. Kalionov",
+        "timezone": "UTC",
+        "date": "2024-11-23T16:00:00+00:00",
+        "timestamp": 1732377600,
+        "periods": {
+          "first": 1732377600,
+          "second": 1732381200
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3625,
+          "name": "Inhulets",
+          "logo": "https://media.api-sports.io/football/teams/3625.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1221101,
+        "referee": "V. Kopiievskyi",
+        "timezone": "UTC",
+        "date": "2025-05-24T12:30:00+00:00",
+        "timestamp": 1748089800,
+        "periods": {
+          "first": 1748089800,
+          "second": 1748093400
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 333,
+        "name": "Premier League",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/333.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3632,
+          "name": "Ruh Lviv",
+          "logo": "https://media.api-sports.io/football/teams/3632.png",
+          "winner": null
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225661,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-11T15:30:00+00:00",
+        "timestamp": 1720711800,
+        "periods": {
+          "first": 1720711800,
+          "second": 1720715400
+        },
+        "venue": {
+          "id": null,
+          "name": "Nacionalni Nogometni Center Brdo",
+          "city": "Kranj"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2646,
+          "name": "TSC Backa Topola",
+          "logo": "https://media.api-sports.io/football/teams/2646.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1230543,
+        "referee": "D. Halilovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-07-17T16:30:00+00:00",
+        "timestamp": 1721233800,
+        "periods": {
+          "first": 1721233800,
+          "second": 1721237400
+        },
+        "venue": {
+          "id": 3332,
+          "name": "Stadion Z'de\u017eele",
+          "city": "Celje"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 549,
+          "name": "Be\u015fikta\u015f",
+          "logo": "https://media.api-sports.io/football/teams/549.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1230628,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-27T17:00:00+00:00",
+        "timestamp": 1722099600,
+        "periods": {
+          "first": 1722099600,
+          "second": 1722103200
+        },
+        "venue": {
+          "id": 412,
+          "name": "Stadion Maksimir",
+          "city": "Zagreb"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png",
+          "winner": null
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1244975,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-14T15:00:00+00:00",
+        "timestamp": 1720969200,
+        "periods": {
+          "first": 1720969200,
+          "second": 1720972800
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1253014,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-26T17:00:00+00:00",
+        "timestamp": 1722013200,
+        "periods": {
+          "first": 1722013200,
+          "second": 1722016800
+        },
+        "venue": {
+          "id": 412,
+          "name": "Stadion Hitrec Kacian",
+          "city": "Zagreb"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png",
+          "winner": true
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1298695,
+        "referee": "D. Shurman",
+        "timezone": "UTC",
+        "date": "2024-10-30T16:00:00+00:00",
+        "timestamp": 1730304000,
+        "periods": {
+          "first": 1730304000,
+          "second": 1730307600
+        },
+        "venue": {
+          "id": 20124,
+          "name": "Arena Lviv",
+          "city": "Lviv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 335,
+        "name": "Cup",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/335.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 599,
+          "name": "Zorya Luhansk",
+          "logo": "https://media.api-sports.io/football/teams/599.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1298990,
+        "referee": "R. Saggi",
+        "timezone": "UTC",
+        "date": "2024-09-18T16:45:00+00:00",
+        "timestamp": 1726677900,
+        "periods": {
+          "first": 1726677900,
+          "second": 1726681500
+        },
+        "venue": {
+          "id": 881,
+          "name": "Stadio Renato Dall'Ara",
+          "city": "Bologna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png",
+          "winner": null
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299012,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2024-10-02T16:45:00+00:00",
+        "timestamp": 1727887500,
+        "periods": {
+          "first": 1727887500,
+          "second": 1727891100
+        },
+        "venue": {
+          "id": 741,
+          "name": "VELTINS-Arena",
+          "city": "Gelsenkirchen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        },
+        "away": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299027,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2024-10-22T19:00:00+00:00",
+        "timestamp": 1729623600,
+        "periods": {
+          "first": 1729623600,
+          "second": 1729627200
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299048,
+        "referee": "O. Grinfeeld",
+        "timezone": "UTC",
+        "date": "2024-11-06T17:45:00+00:00",
+        "timestamp": 1730915100,
+        "periods": {
+          "first": 1730915100,
+          "second": 1730918700
+        },
+        "venue": {
+          "id": 741,
+          "name": "VELTINS-Arena",
+          "city": "Gelsenkirchen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299073,
+        "referee": "U. Schnyder",
+        "timezone": "UTC",
+        "date": "2024-11-27T20:00:00+00:00",
+        "timestamp": 1732737600,
+        "periods": {
+          "first": 1732737600,
+          "second": 1732741200
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299082,
+        "referee": "H. Meler",
+        "timezone": "UTC",
+        "date": "2024-12-10T20:00:00+00:00",
+        "timestamp": 1733860800,
+        "periods": {
+          "first": 1733860800,
+          "second": 1733864400
+        },
+        "venue": {
+          "id": 741,
+          "name": "VELTINS-Arena",
+          "city": "Gelsenkirchen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        },
+        "away": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299102,
+        "referee": "S. Sch\u00e4rer",
+        "timezone": "UTC",
+        "date": "2025-01-22T17:45:00+00:00",
+        "timestamp": 1737567900,
+        "periods": {
+          "first": 1737567900,
+          "second": 1737571500
+        },
+        "venue": {
+          "id": 741,
+          "name": "VELTINS-Arena",
+          "city": "Gelsenkirchen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        },
+        "away": {
+          "id": 106,
+          "name": "Stade Brestois 29",
+          "logo": "https://media.api-sports.io/football/teams/106.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299113,
+        "referee": "G. Nyberg",
+        "timezone": "UTC",
+        "date": "2025-01-29T20:00:00+00:00",
+        "timestamp": 1738180800,
+        "periods": {
+          "first": 1738180800,
+          "second": 1738184400
+        },
+        "venue": {
+          "id": 19381,
+          "name": "SIGNAL IDUNA PARK",
+          "city": "Dortmund"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 165,
+          "name": "Borussia Dortmund",
+          "logo": "https://media.api-sports.io/football/teams/165.png",
+          "winner": true
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1315261,
+        "referee": "M. Balakin",
+        "timezone": "UTC",
+        "date": "2025-04-02T11:00:00+00:00",
+        "timestamp": 1743591600,
+        "periods": {
+          "first": 1743591600,
+          "second": 1743595200
+        },
+        "venue": {
+          "id": null,
+          "name": "CSC Nika",
+          "city": "Oleksandriia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 335,
+        "name": "Cup",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/335.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3619,
+          "name": "Oleksandria",
+          "logo": "https://media.api-sports.io/football/teams/3619.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1367911,
+        "referee": "D. Panchyshyn",
+        "timezone": "UTC",
+        "date": "2025-04-23T15:00:00+00:00",
+        "timestamp": 1745420400,
+        "periods": {
+          "first": 1745420400,
+          "second": 1745424000
+        },
+        "venue": {
+          "id": 11948,
+          "name": "Tsentralnyi Stadion",
+          "city": "Zhytomyr"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 335,
+        "name": "Cup",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/335.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 6496,
+          "name": "Polessya",
+          "logo": "https://media.api-sports.io/football/teams/6496.png",
+          "winner": false
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372951,
+        "referee": "M. Balakin",
+        "timezone": "UTC",
+        "date": "2025-05-14T15:30:00+00:00",
+        "timestamp": 1747236600,
+        "periods": {
+          "first": 1747236600,
+          "second": 1747240200
+        },
+        "venue": {
+          "id": 11948,
+          "name": "Tsentralnyi Stadion",
+          "city": "Zhytomyr"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 335,
+        "name": "Cup",
+        "country": "Ukraine",
+        "logo": "https://media.api-sports.io/football/leagues/335.png",
+        "flag": "https://media.api-sports.io/flags/ua.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": null
+        },
+        "away": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

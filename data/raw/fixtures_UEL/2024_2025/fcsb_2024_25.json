@@ -1,0 +1,4845 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "559"
+  },
+  "errors": [],
+  "results": 69,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1156420,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-14T00:00:00+00:00",
+        "timestamp": 1705190400,
+        "periods": {
+          "first": 1705190400,
+          "second": 1705194000
+        },
+        "venue": {
+          "id": null,
+          "name": "Gloria Sports Arena",
+          "city": "Belek"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1026,
+          "name": "Lask Linz",
+          "logo": "https://media.api-sports.io/football/teams/1026.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1187533,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-23T14:30:00+00:00",
+        "timestamp": 1711204200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 298,
+          "name": "Stadion Lokomotiv",
+          "city": "Plovdiv"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "CANC",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1201019,
+        "referee": "F. Andrei",
+        "timezone": "UTC",
+        "date": "2024-07-04T17:00:00+00:00",
+        "timestamp": 1720112400,
+        "periods": {
+          "first": 1720112400,
+          "second": 1720116000
+        },
+        "venue": {
+          "id": 12042,
+          "name": "Stadionul Steaua",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 555,
+        "name": "Supercupa",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/555.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 20034,
+          "name": "Corvinul Hunedoara",
+          "logo": "https://media.api-sports.io/football/teams/20034.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1203287,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-28T14:00:00+00:00",
+        "timestamp": 1719583200,
+        "periods": {
+          "first": 1719583200,
+          "second": 1719586800
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 419,
+          "name": "Almere City FC",
+          "logo": "https://media.api-sports.io/football/teams/419.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208424,
+        "referee": "A. Bandi\u0107",
+        "timezone": "UTC",
+        "date": "2024-07-09T19:00:00+00:00",
+        "timestamp": 1720551600,
+        "periods": {
+          "first": 1720551600,
+          "second": 1720555200
+        },
+        "venue": {
+          "id": 2616,
+          "name": "Stadio Olimpico di Serravalle",
+          "city": "Serravalle"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5308,
+          "name": "Virtus",
+          "logo": "https://media.api-sports.io/football/teams/5308.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 7
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 5
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 7
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208425,
+        "referee": "S. Ebner",
+        "timezone": "UTC",
+        "date": "2024-07-16T17:30:00+00:00",
+        "timestamp": 1721151000,
+        "periods": {
+          "first": 1721151000,
+          "second": 1721154600
+        },
+        "venue": {
+          "id": 12042,
+          "name": "Stadionul Steaua",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5308,
+          "name": "Virtus",
+          "logo": "https://media.api-sports.io/football/teams/5308.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212748,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-24T17:00:00+00:00",
+        "timestamp": 1719248400,
+        "periods": {
+          "first": 1719248400,
+          "second": 1719252000
+        },
+        "venue": {
+          "id": null,
+          "name": "Sportpark Wiesel",
+          "city": "Wenum-Wiesel"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1267,
+          "name": "Csv Apeldoorn",
+          "logo": "https://media.api-sports.io/football/teams/1267.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 8
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 4
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 8
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220363,
+        "referee": "A. Cojocaru",
+        "timezone": "UTC",
+        "date": "2024-07-13T19:00:00+00:00",
+        "timestamp": 1720897200,
+        "periods": {
+          "first": 1720897200,
+          "second": 1720900800
+        },
+        "venue": {
+          "id": 12042,
+          "name": "Stadionul Steaua",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2599,
+          "name": "Universitatea Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2599.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220371,
+        "referee": "V. B\u0103ban",
+        "timezone": "UTC",
+        "date": "2024-07-19T19:00:00+00:00",
+        "timestamp": 1721415600,
+        "periods": {
+          "first": 1721415600,
+          "second": 1721419200
+        },
+        "venue": {
+          "id": 20116,
+          "name": "Clinceni - Arena 1",
+          "city": "Clinceni"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6916,
+          "name": "Unirea Slobozia",
+          "logo": "https://media.api-sports.io/football/teams/6916.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220379,
+        "referee": "A. Moroi\u0163\u0103",
+        "timezone": "UTC",
+        "date": "2024-07-26T19:00:00+00:00",
+        "timestamp": 1722020400,
+        "periods": {
+          "first": 1722020400,
+          "second": 1722024000
+        },
+        "venue": {
+          "id": 12042,
+          "name": "Stadionul Steaua",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        },
+        "away": {
+          "id": 6886,
+          "name": "O\u0163elul",
+          "logo": "https://media.api-sports.io/football/teams/6886.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220387,
+        "referee": "S. Col\u021bescu",
+        "timezone": "UTC",
+        "date": "2024-11-21T18:00:00+00:00",
+        "timestamp": 1732212000,
+        "periods": {
+          "first": 1732212000,
+          "second": 1732215600
+        },
+        "venue": {
+          "id": 1309,
+          "name": "Stadionul Municipal",
+          "city": "Boto\u015fani"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2581,
+          "name": "FC Botosani",
+          "logo": "https://media.api-sports.io/football/teams/2581.png",
+          "winner": true
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220396,
+        "referee": "I. Kov\u00e1cs",
+        "timezone": "UTC",
+        "date": "2024-08-09T18:00:00+00:00",
+        "timestamp": 1723226400,
+        "periods": {
+          "first": 1723226400,
+          "second": 1723230000
+        },
+        "venue": {
+          "id": 12042,
+          "name": "Stadionul Steaua",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2596,
+          "name": "Farul Constanta",
+          "logo": "https://media.api-sports.io/football/teams/2596.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220405,
+        "referee": "I. Coza",
+        "timezone": "UTC",
+        "date": "2024-08-17T19:00:00+00:00",
+        "timestamp": 1723921200,
+        "periods": {
+          "first": 1723921200,
+          "second": 1723924800
+        },
+        "venue": {
+          "id": 12042,
+          "name": "Stadionul Steaua",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2583,
+          "name": "Politehnica Iasi",
+          "logo": "https://media.api-sports.io/football/teams/2583.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220412,
+        "referee": "V. Flueran",
+        "timezone": "UTC",
+        "date": "2024-08-25T19:00:00+00:00",
+        "timestamp": 1724612400,
+        "periods": {
+          "first": 1724612400,
+          "second": 1724616000
+        },
+        "venue": {
+          "id": 1894,
+          "name": "Stadionul Municipal",
+          "city": "Sibiu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2579,
+          "name": "AFC Hermannstadt",
+          "logo": "https://media.api-sports.io/football/teams/2579.png",
+          "winner": true
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220419,
+        "referee": "G. G\u0103man",
+        "timezone": "UTC",
+        "date": "2024-09-01T18:30:00+00:00",
+        "timestamp": 1725215400,
+        "periods": {
+          "first": 1725215400,
+          "second": 1725219000
+        },
+        "venue": {
+          "id": 19612,
+          "name": "Stadionul Arcul de Triumf",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2589,
+          "name": "Uta Arad",
+          "logo": "https://media.api-sports.io/football/teams/2589.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220426,
+        "referee": "M. Barbu",
+        "timezone": "UTC",
+        "date": "2024-09-15T18:00:00+00:00",
+        "timestamp": 1726423200,
+        "periods": {
+          "first": 1726423200,
+          "second": 1726426800
+        },
+        "venue": {
+          "id": 1311,
+          "name": "Stadionul Dr. Constantin R\u0103dulescu",
+          "city": "Cluj-Napoca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2246,
+          "name": "CFR 1907 Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2246.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220433,
+        "referee": "R. Vidican",
+        "timezone": "UTC",
+        "date": "2024-09-21T18:30:00+00:00",
+        "timestamp": 1726943400,
+        "periods": {
+          "first": 1726943400,
+          "second": 1726947000
+        },
+        "venue": {
+          "id": 12042,
+          "name": "Stadionul Steaua",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2598,
+          "name": "Petrolul Ploiesti",
+          "logo": "https://media.api-sports.io/football/teams/2598.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220438,
+        "referee": "A. Moroi\u0163\u0103",
+        "timezone": "UTC",
+        "date": "2024-09-29T18:30:00+00:00",
+        "timestamp": 1727634600,
+        "periods": {
+          "first": 1727634600,
+          "second": 1727638200
+        },
+        "venue": {
+          "id": 12593,
+          "name": "Arena Sepsi OSK",
+          "city": "Sf\u00e2ntu Gheorghe"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2585,
+          "name": "Sepsi OSK Sfantu Gheorghe",
+          "logo": "https://media.api-sports.io/football/teams/2585.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220447,
+        "referee": "S. Col\u021bescu",
+        "timezone": "UTC",
+        "date": "2024-10-06T18:00:00+00:00",
+        "timestamp": 1728237600,
+        "periods": {
+          "first": 1728237600,
+          "second": 1728241200
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6232,
+          "name": "SCM Gloria Buz\u0103u",
+          "logo": "https://media.api-sports.io/football/teams/6232.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220456,
+        "referee": "M. Barbu",
+        "timezone": "UTC",
+        "date": "2024-10-20T18:00:00+00:00",
+        "timestamp": 1729447200,
+        "periods": {
+          "first": 1729447200,
+          "second": 1729450800
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 635,
+          "name": "Dinamo Bucuresti",
+          "logo": "https://media.api-sports.io/football/teams/635.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220465,
+        "referee": "I. Kov\u00e1cs",
+        "timezone": "UTC",
+        "date": "2024-10-27T19:00:00+00:00",
+        "timestamp": 1730055600,
+        "periods": {
+          "first": 1730055600,
+          "second": 1730059200
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        },
+        "away": {
+          "id": 6231,
+          "name": "Rapid",
+          "logo": "https://media.api-sports.io/football/teams/6231.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220474,
+        "referee": "F. Andrei",
+        "timezone": "UTC",
+        "date": "2024-11-03T19:00:00+00:00",
+        "timestamp": 1730660400,
+        "periods": {
+          "first": 1730660400,
+          "second": 1730664000
+        },
+        "venue": {
+          "id": 12282,
+          "name": "Complex Sportiv Craiova",
+          "city": "Craiova"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 13
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 632,
+          "name": "Universitatea Craiova",
+          "logo": "https://media.api-sports.io/football/teams/632.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220483,
+        "referee": "M. B\u00eersan",
+        "timezone": "UTC",
+        "date": "2024-11-10T19:00:00+00:00",
+        "timestamp": 1731265200,
+        "periods": {
+          "first": 1731265200,
+          "second": 1731268800
+        },
+        "venue": {
+          "id": 1913,
+          "name": "Cluj Arena",
+          "city": "Cluj-Napoca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2599,
+          "name": "Universitatea Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2599.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220491,
+        "referee": "G. Roman",
+        "timezone": "UTC",
+        "date": "2024-11-24T16:15:00+00:00",
+        "timestamp": 1732464900,
+        "periods": {
+          "first": 1732464900,
+          "second": 1732468500
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6916,
+          "name": "Unirea Slobozia",
+          "logo": "https://media.api-sports.io/football/teams/6916.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220499,
+        "referee": "H. Fe\u0219nic",
+        "timezone": "UTC",
+        "date": "2024-12-02T18:30:00+00:00",
+        "timestamp": 1733164200,
+        "periods": {
+          "first": 1733164200,
+          "second": 1733167800
+        },
+        "venue": {
+          "id": 5026,
+          "name": "Stadionul O\u0163elul",
+          "city": "Gala\u0163i"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6886,
+          "name": "O\u0163elul",
+          "logo": "https://media.api-sports.io/football/teams/6886.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220507,
+        "referee": "A. Cojocaru",
+        "timezone": "UTC",
+        "date": "2024-12-08T18:30:00+00:00",
+        "timestamp": 1733682600,
+        "periods": {
+          "first": 1733682600,
+          "second": 1733686200
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2581,
+          "name": "FC Botosani",
+          "logo": "https://media.api-sports.io/football/teams/2581.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220516,
+        "referee": "G. G\u0103man",
+        "timezone": "UTC",
+        "date": "2024-12-15T18:45:00+00:00",
+        "timestamp": 1734288300,
+        "periods": {
+          "first": 1734288300,
+          "second": 1734291900
+        },
+        "venue": {
+          "id": 1324,
+          "name": "Stadionul Central",
+          "city": "Ovidiu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2596,
+          "name": "Farul Constanta",
+          "logo": "https://media.api-sports.io/football/teams/2596.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220525,
+        "referee": "R. Vidican",
+        "timezone": "UTC",
+        "date": "2024-12-23T18:00:00+00:00",
+        "timestamp": 1734976800,
+        "periods": {
+          "first": 1734976800,
+          "second": 1734980400
+        },
+        "venue": {
+          "id": 1322,
+          "name": "Stadionul Emil Alexandrescu",
+          "city": "Ia\u015fi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2583,
+          "name": "Politehnica Iasi",
+          "logo": "https://media.api-sports.io/football/teams/2583.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220532,
+        "referee": "A. Moroi\u0163\u0103",
+        "timezone": "UTC",
+        "date": "2025-01-17T18:00:00+00:00",
+        "timestamp": 1737136800,
+        "periods": {
+          "first": 1737136800,
+          "second": 1737140400
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2579,
+          "name": "AFC Hermannstadt",
+          "logo": "https://media.api-sports.io/football/teams/2579.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220539,
+        "referee": "V. Flueran",
+        "timezone": "UTC",
+        "date": "2025-01-26T18:00:00+00:00",
+        "timestamp": 1737914400,
+        "periods": {
+          "first": 1737914400,
+          "second": 1737918000
+        },
+        "venue": {
+          "id": 11931,
+          "name": "Stadionul Francisc von Neuman",
+          "city": "Arad"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2589,
+          "name": "Uta Arad",
+          "logo": "https://media.api-sports.io/football/teams/2589.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220546,
+        "referee": "S. Col\u021bescu",
+        "timezone": "UTC",
+        "date": "2025-02-02T18:00:00+00:00",
+        "timestamp": 1738519200,
+        "periods": {
+          "first": 1738519200,
+          "second": 1738522800
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2246,
+          "name": "CFR 1907 Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2246.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220553,
+        "referee": "M. Barbu",
+        "timezone": "UTC",
+        "date": "2025-02-06T18:30:00+00:00",
+        "timestamp": 1738866600,
+        "periods": {
+          "first": 1738866600,
+          "second": 1738870200
+        },
+        "venue": {
+          "id": 1312,
+          "name": "Stadionul Ilie Oan\u0103",
+          "city": "Ploie\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2598,
+          "name": "Petrolul Ploiesti",
+          "logo": "https://media.api-sports.io/football/teams/2598.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220558,
+        "referee": "A. Chivulete",
+        "timezone": "UTC",
+        "date": "2025-02-09T18:00:00+00:00",
+        "timestamp": 1739124000,
+        "periods": {
+          "first": 1739124000,
+          "second": 1739127600
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2585,
+          "name": "Sepsi OSK Sfantu Gheorghe",
+          "logo": "https://media.api-sports.io/football/teams/2585.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220567,
+        "referee": "S. V\u0103dana",
+        "timezone": "UTC",
+        "date": "2025-02-16T18:45:00+00:00",
+        "timestamp": 1739731500,
+        "periods": {
+          "first": 1739731500,
+          "second": 1739735100
+        },
+        "venue": {
+          "id": 4608,
+          "name": "Stadionul Gloria",
+          "city": "Buz\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6232,
+          "name": "SCM Gloria Buz\u0103u",
+          "logo": "https://media.api-sports.io/football/teams/6232.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220576,
+        "referee": "I. Kov\u00e1cs",
+        "timezone": "UTC",
+        "date": "2025-02-23T18:00:00+00:00",
+        "timestamp": 1740333600,
+        "periods": {
+          "first": 1740333600,
+          "second": 1740337200
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 635,
+          "name": "Dinamo Bucuresti",
+          "logo": "https://media.api-sports.io/football/teams/635.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220585,
+        "referee": "R. Petrescu",
+        "timezone": "UTC",
+        "date": "2025-03-02T18:00:00+00:00",
+        "timestamp": 1740938400,
+        "periods": {
+          "first": 1740938400,
+          "second": 1740942000
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6231,
+          "name": "Rapid",
+          "logo": "https://media.api-sports.io/football/teams/6231.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220594,
+        "referee": "M. Barbu",
+        "timezone": "UTC",
+        "date": "2025-03-09T18:00:00+00:00",
+        "timestamp": 1741543200,
+        "periods": {
+          "first": 1741543200,
+          "second": 1741546800
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 632,
+          "name": "Universitatea Craiova",
+          "logo": "https://media.api-sports.io/football/teams/632.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1245604,
+        "referee": "G. Bog\u00e1r",
+        "timezone": "UTC",
+        "date": "2024-07-23T17:30:00+00:00",
+        "timestamp": 1721755800,
+        "periods": {
+          "first": 1721755800,
+          "second": 1721759400
+        },
+        "venue": {
+          "id": 12042,
+          "name": "Stadionul Steaua",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        },
+        "away": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1245605,
+        "referee": "J. Pignard",
+        "timezone": "UTC",
+        "date": "2024-07-31T18:00:00+00:00",
+        "timestamp": 1722448800,
+        "periods": {
+          "first": 1722448800,
+          "second": 1722452400
+        },
+        "venue": {
+          "id": 11902,
+          "name": "Bozsik Ar\u00e9na",
+          "city": "Budapest"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273679,
+        "referee": "R. Saggi",
+        "timezone": "UTC",
+        "date": "2024-08-06T18:00:00+00:00",
+        "timestamp": 1722967200,
+        "periods": {
+          "first": 1722967200,
+          "second": 1722970800
+        },
+        "venue": {
+          "id": 19513,
+          "name": "epet ARENA",
+          "city": "Praha"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 628,
+          "name": "Sparta Praha",
+          "logo": "https://media.api-sports.io/football/teams/628.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273680,
+        "referee": "M. Krogh",
+        "timezone": "UTC",
+        "date": "2024-08-13T18:30:00+00:00",
+        "timestamp": 1723573800,
+        "periods": {
+          "first": 1723573800,
+          "second": 1723577400
+        },
+        "venue": {
+          "id": 12042,
+          "name": "Stadionul Steaua",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        },
+        "away": {
+          "id": 628,
+          "name": "Sparta Praha",
+          "logo": "https://media.api-sports.io/football/teams/628.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1286917,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2024-08-22T17:00:00+00:00",
+        "timestamp": 1724346000,
+        "periods": {
+          "first": 1724346000,
+          "second": 1724349600
+        },
+        "venue": {
+          "id": null,
+          "name": "Raiffeisen Arena",
+          "city": "Linz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1026,
+          "name": "Lask Linz",
+          "logo": "https://media.api-sports.io/football/teams/1026.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1286918,
+        "referee": "F. Zwayer",
+        "timezone": "UTC",
+        "date": "2024-08-29T18:30:00+00:00",
+        "timestamp": 1724956200,
+        "periods": {
+          "first": 1724956200,
+          "second": 1724959800
+        },
+        "venue": {
+          "id": 12042,
+          "name": "Stadionul Steaua",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1026,
+          "name": "Lask Linz",
+          "logo": "https://media.api-sports.io/football/teams/1026.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299141,
+        "referee": "Ricardo De Burgos",
+        "timezone": "UTC",
+        "date": "2024-09-26T19:00:00+00:00",
+        "timestamp": 1727377200,
+        "periods": {
+          "first": 1727377200,
+          "second": 1727380800
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4160,
+          "name": "R\u012bgas FS",
+          "logo": "https://media.api-sports.io/football/teams/4160.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299160,
+        "referee": "S. Stegemann",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 780,
+          "name": "Stadio Toumbas",
+          "city": "Thessalon\u00edki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 619,
+          "name": "PAOK",
+          "logo": "https://media.api-sports.io/football/teams/619.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299179,
+        "referee": "M. Di Bello",
+        "timezone": "UTC",
+        "date": "2024-10-24T19:00:00+00:00",
+        "timestamp": 1729796400,
+        "periods": {
+          "first": 1729796400,
+          "second": 1729800000
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299186,
+        "referee": "D. Strukan",
+        "timezone": "UTC",
+        "date": "2024-11-07T17:45:00+00:00",
+        "timestamp": 1731001500,
+        "periods": {
+          "first": 1731001500,
+          "second": 1731005100
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 397,
+          "name": "FC Midtjylland",
+          "logo": "https://media.api-sports.io/football/teams/397.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299210,
+        "referee": "S. Gishamer",
+        "timezone": "UTC",
+        "date": "2024-11-28T20:00:00+00:00",
+        "timestamp": 1732824000,
+        "periods": {
+          "first": 1732824000,
+          "second": 1732827600
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        },
+        "away": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299224,
+        "referee": "J. Xhaja",
+        "timezone": "UTC",
+        "date": "2024-12-12T17:45:00+00:00",
+        "timestamp": 1734025500,
+        "periods": {
+          "first": 1734025500,
+          "second": 1734029100
+        },
+        "venue": {
+          "id": 724,
+          "name": "PreZero Arena",
+          "city": "Sinsheim"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 167,
+          "name": "1899 Hoffenheim",
+          "logo": "https://media.api-sports.io/football/teams/167.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299243,
+        "referee": "F. Glova",
+        "timezone": "UTC",
+        "date": "2025-01-23T17:45:00+00:00",
+        "timestamp": 1737654300,
+        "periods": {
+          "first": 1737654300,
+          "second": 1737657900
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299259,
+        "referee": "H. Osmers",
+        "timezone": "UTC",
+        "date": "2025-01-30T20:00:00+00:00",
+        "timestamp": 1738267200,
+        "periods": {
+          "first": 1738267200,
+          "second": 1738270800
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        },
+        "away": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1307043,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-07T07:00:00+00:00",
+        "timestamp": 1725692400,
+        "periods": {
+          "first": 1725692400,
+          "second": 1725696000
+        },
+        "venue": {
+          "id": null,
+          "name": "Baza Sportiv\u0103 ARCOM Berceni",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2578,
+          "name": "FC Voluntari",
+          "logo": "https://media.api-sports.io/football/teams/2578.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1308602,
+        "referee": "R. Petrescu",
+        "timezone": "UTC",
+        "date": "2024-10-30T19:00:00+00:00",
+        "timestamp": 1730314800,
+        "periods": {
+          "first": 1730314800,
+          "second": 1730318400
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 285,
+        "name": "Cupa Rom\u00e2niei",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/285.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Group Stage - 2",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 635,
+          "name": "Dinamo Bucuresti",
+          "logo": "https://media.api-sports.io/football/teams/635.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1308612,
+        "referee": "V. Naidin",
+        "timezone": "UTC",
+        "date": "2024-12-05T18:30:00+00:00",
+        "timestamp": 1733423400,
+        "periods": {
+          "first": 1733423400,
+          "second": 1733427000
+        },
+        "venue": {
+          "id": 4994,
+          "name": "Teren Agricola Borcea",
+          "city": "Borcea"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 285,
+        "name": "Cupa Rom\u00e2niei",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/285.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Group Stage - 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 6841,
+          "name": "Agricola Borcea",
+          "logo": "https://media.api-sports.io/football/teams/6841.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1308623,
+        "referee": "H. Fe\u0219nic",
+        "timezone": "UTC",
+        "date": "2024-12-18T18:00:00+00:00",
+        "timestamp": 1734544800,
+        "periods": {
+          "first": 1734544800,
+          "second": 1734548400
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 285,
+        "name": "Cupa Rom\u00e2niei",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/285.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Group Stage - 4",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        },
+        "away": {
+          "id": 632,
+          "name": "Universitatea Craiova",
+          "logo": "https://media.api-sports.io/football/teams/632.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345765,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2025-02-13T20:00:00+00:00",
+        "timestamp": 1739476800,
+        "periods": {
+          "first": 1739476800,
+          "second": 1739480400
+        },
+        "venue": {
+          "id": 780,
+          "name": "Stadio Toumbas",
+          "city": "Thessalon\u00edki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 619,
+          "name": "PAOK",
+          "logo": "https://media.api-sports.io/football/teams/619.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345766,
+        "referee": "M. Jug",
+        "timezone": "UTC",
+        "date": "2025-02-20T17:45:00+00:00",
+        "timestamp": 1740073500,
+        "periods": {
+          "first": 1740073500,
+          "second": 1740077100
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 619,
+          "name": "PAOK",
+          "logo": "https://media.api-sports.io/football/teams/619.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353190,
+        "referee": "T. Stieler",
+        "timezone": "UTC",
+        "date": "2025-03-06T17:45:00+00:00",
+        "timestamp": 1741283100,
+        "periods": {
+          "first": 1741283100,
+          "second": 1741286700
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353191,
+        "referee": "A. Taylor",
+        "timezone": "UTC",
+        "date": "2025-03-13T20:00:00+00:00",
+        "timestamp": 1741896000,
+        "periods": {
+          "first": 1741896000,
+          "second": 1741899600
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "D\u00e9cines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360136,
+        "referee": "H. Fe\u0219nic",
+        "timezone": "UTC",
+        "date": "2025-03-16T19:00:00+00:00",
+        "timestamp": 1742151600,
+        "periods": {
+          "first": 1742151600,
+          "second": 1742155200
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Championship Round - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        },
+        "away": {
+          "id": 6231,
+          "name": "Rapid",
+          "logo": "https://media.api-sports.io/football/teams/6231.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360137,
+        "referee": "F. Andrei",
+        "timezone": "UTC",
+        "date": "2025-03-30T17:30:00+00:00",
+        "timestamp": 1743355800,
+        "periods": {
+          "first": 1743355800,
+          "second": 1743359400
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Championship Round - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 635,
+          "name": "Dinamo Bucuresti",
+          "logo": "https://media.api-sports.io/football/teams/635.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360140,
+        "referee": "S. Kovacs",
+        "timezone": "UTC",
+        "date": "2025-04-05T18:15:00+00:00",
+        "timestamp": 1743876900,
+        "periods": {
+          "first": 1743876900,
+          "second": 1743880500
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Championship Round - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2599,
+          "name": "Universitatea Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2599.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360143,
+        "referee": "H. Fe\u0219nic",
+        "timezone": "UTC",
+        "date": "2025-04-13T18:00:00+00:00",
+        "timestamp": 1744567200,
+        "periods": {
+          "first": 1744567200,
+          "second": 1744570800
+        },
+        "venue": {
+          "id": 12282,
+          "name": "Complex Sportiv Craiova",
+          "city": "Craiova"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Championship Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 632,
+          "name": "Universitatea Craiova",
+          "logo": "https://media.api-sports.io/football/teams/632.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360146,
+        "referee": "I. Kov\u00e1cs",
+        "timezone": "UTC",
+        "date": "2025-04-20T17:00:00+00:00",
+        "timestamp": 1745168400,
+        "periods": {
+          "first": 1745168400,
+          "second": 1745172000
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Championship Round - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2246,
+          "name": "CFR 1907 Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2246.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360149,
+        "referee": "R. Petrescu",
+        "timezone": "UTC",
+        "date": "2025-04-27T18:00:00+00:00",
+        "timestamp": 1745776800,
+        "periods": {
+          "first": 1745776800,
+          "second": 1745780400
+        },
+        "venue": {
+          "id": 19516,
+          "name": "Superbet Arena-Giule\u0219ti",
+          "city": "Bucure\u0219ti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Championship Round - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6231,
+          "name": "Rapid",
+          "logo": "https://media.api-sports.io/football/teams/6231.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360152,
+        "referee": "R. Vidican",
+        "timezone": "UTC",
+        "date": "2025-05-05T17:30:00+00:00",
+        "timestamp": 1746466200,
+        "periods": {
+          "first": 1746466200,
+          "second": 1746469800
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Championship Round - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 635,
+          "name": "Dinamo Bucuresti",
+          "logo": "https://media.api-sports.io/football/teams/635.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360155,
+        "referee": "M. Barbu",
+        "timezone": "UTC",
+        "date": "2025-05-11T17:30:00+00:00",
+        "timestamp": 1746984600,
+        "periods": {
+          "first": 1746984600,
+          "second": 1746988200
+        },
+        "venue": {
+          "id": 1913,
+          "name": "Cluj Arena",
+          "city": "Cluj-Napoca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Championship Round - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2599,
+          "name": "Universitatea Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2599.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360158,
+        "referee": "R. Vidican",
+        "timezone": "UTC",
+        "date": "2025-05-17T17:00:00+00:00",
+        "timestamp": 1747501200,
+        "periods": {
+          "first": 1747501200,
+          "second": 1747504800
+        },
+        "venue": {
+          "id": 1326,
+          "name": "Arena Na\u0163ional\u0103",
+          "city": "Bucure\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Championship Round - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        },
+        "away": {
+          "id": 632,
+          "name": "Universitatea Craiova",
+          "logo": "https://media.api-sports.io/football/teams/632.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360161,
+        "referee": "A. Moroi\u0163\u0103",
+        "timezone": "UTC",
+        "date": "2025-05-23T17:30:00+00:00",
+        "timestamp": 1748021400,
+        "periods": {
+          "first": 1748021400,
+          "second": 1748025000
+        },
+        "venue": {
+          "id": 1311,
+          "name": "Stadionul Dr. Constantin R\u0103dulescu",
+          "city": "Cluj-Napoca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 283,
+        "name": "Liga I",
+        "country": "Romania",
+        "logo": "https://media.api-sports.io/football/leagues/283.png",
+        "flag": "https://media.api-sports.io/flags/ro.svg",
+        "season": 2024,
+        "round": "Championship Round - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2246,
+          "name": "CFR 1907 Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2246.png",
+          "winner": null
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

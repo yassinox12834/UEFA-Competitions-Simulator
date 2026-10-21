@@ -1,0 +1,4495 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "606"
+  },
+  "errors": [],
+  "results": 64,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1156272,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-09T10:00:00+00:00",
+        "timestamp": 1704794400,
+        "periods": {
+          "first": 1704794400,
+          "second": 1704798000
+        },
+        "venue": {
+          "id": null,
+          "name": "Melia Villaitana Football Center",
+          "city": "Benidorm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        },
+        "away": {
+          "id": 742,
+          "name": "Genk",
+          "logo": "https://media.api-sports.io/football/teams/742.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1156312,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-12T14:00:00+00:00",
+        "timestamp": 1705068000,
+        "periods": {
+          "first": 1705068000,
+          "second": 1705071600
+        },
+        "venue": {
+          "id": 19807,
+          "name": "Stadio Comunale di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2182,
+          "name": "FC Schaffhausen",
+          "logo": "https://media.api-sports.io/football/teams/2182.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1156464,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-17T13:00:00+00:00",
+        "timestamp": 1705496400,
+        "periods": {
+          "first": 1705496400,
+          "second": 1705500000
+        },
+        "venue": {
+          "id": null,
+          "name": "Centro Sportivo Al Vallone",
+          "city": "Biasca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        },
+        "away": {
+          "id": 12717,
+          "name": "Paradiso",
+          "logo": "https://media.api-sports.io/football/teams/12717.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1203306,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-29T09:00:00+00:00",
+        "timestamp": 1719651600,
+        "periods": {
+          "first": 1719651600,
+          "second": 1719655200
+        },
+        "venue": {
+          "id": null,
+          "name": "Centro Sportivo Roque Maspoli",
+          "city": "Caslano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6646,
+          "name": "Stade Nyonnais",
+          "logo": "https://media.api-sports.io/football/teams/6646.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1203462,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-06T12:00:00+00:00",
+        "timestamp": 1720267200,
+        "periods": {
+          "first": 1720267200,
+          "second": 1720270800
+        },
+        "venue": {
+          "id": null,
+          "name": "Centro Sportivo Roque Maspoli",
+          "city": "Caslano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2177,
+          "name": "FC Aarau",
+          "logo": "https://media.api-sports.io/football/teams/2177.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208941,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-03T15:30:00+00:00",
+        "timestamp": 1720020600,
+        "periods": {
+          "first": 1720020600,
+          "second": 1720024200
+        },
+        "venue": {
+          "id": null,
+          "name": "Centro Sportivo all'Isola A",
+          "city": "Sementina"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 6616,
+          "name": "Bellinzona",
+          "logo": "https://media.api-sports.io/football/teams/6616.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209038,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T18:00:00+00:00",
+        "timestamp": 1720893600,
+        "periods": {
+          "first": 1720893600,
+          "second": 1720897200
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Comunale Cornaredo - Campo F",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 523,
+          "name": "Parma",
+          "logo": "https://media.api-sports.io/football/teams/523.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209085,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-17T12:00:00+00:00",
+        "timestamp": 1721217600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "CANC",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        },
+        "away": {
+          "id": 17441,
+          "name": "Lugano II",
+          "logo": "https://media.api-sports.io/football/teams/17441.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209235,
+        "referee": "Tiago Martins",
+        "timezone": "UTC",
+        "date": "2024-07-23T18:30:00+00:00",
+        "timestamp": 1721759400,
+        "periods": {
+          "first": 1721759400,
+          "second": 1721763000
+        },
+        "venue": {
+          "id": 1544,
+          "name": "Stockhorn Arena",
+          "city": "Thun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209236,
+        "referee": "R. Jones",
+        "timezone": "UTC",
+        "date": "2024-07-30T17:00:00+00:00",
+        "timestamp": 1722358800,
+        "periods": {
+          "first": 1722358800,
+          "second": 1722362400
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214816,
+        "referee": "U. Schnyder",
+        "timezone": "UTC",
+        "date": "2024-07-20T16:00:00+00:00",
+        "timestamp": 1721491200,
+        "periods": {
+          "first": 1721491200,
+          "second": 1721494800
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1013,
+          "name": "Grasshoppers",
+          "logo": "https://media.api-sports.io/football/teams/1013.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214824,
+        "referee": "L. F\u00e4hndrich",
+        "timezone": "UTC",
+        "date": "2024-07-27T18:30:00+00:00",
+        "timestamp": 1722105000,
+        "periods": {
+          "first": 1722105000,
+          "second": 1722108600
+        },
+        "venue": {
+          "id": 1530,
+          "name": "St. Jakob-Park",
+          "city": "Basel"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 551,
+          "name": "FC Basel 1893",
+          "logo": "https://media.api-sports.io/football/teams/551.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214829,
+        "referee": "L. Tschudi",
+        "timezone": "UTC",
+        "date": "2024-08-03T16:00:00+00:00",
+        "timestamp": 1722700800,
+        "periods": {
+          "first": 1722700800,
+          "second": 1722704400
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2184,
+          "name": "Servette FC",
+          "logo": "https://media.api-sports.io/football/teams/2184.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214834,
+        "referee": "A. Dudic",
+        "timezone": "UTC",
+        "date": "2024-08-11T14:30:00+00:00",
+        "timestamp": 1723386600,
+        "periods": {
+          "first": 1723386600,
+          "second": 1723390200
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        },
+        "away": {
+          "id": 644,
+          "name": "FC Luzern",
+          "logo": "https://media.api-sports.io/football/teams/644.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214841,
+        "referee": "J. von Mandach",
+        "timezone": "UTC",
+        "date": "2024-09-18T17:30:00+00:00",
+        "timestamp": 1726680600,
+        "periods": {
+          "first": 1726680600,
+          "second": 1726684200
+        },
+        "venue": {
+          "id": 11917,
+          "name": "Stade de la Tuili\u00e8re",
+          "city": "Lausanne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1014,
+          "name": "Lausanne",
+          "logo": "https://media.api-sports.io/football/teams/1014.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214850,
+        "referee": "A. Kanagasingam",
+        "timezone": "UTC",
+        "date": "2024-09-01T14:30:00+00:00",
+        "timestamp": 1725201000,
+        "periods": {
+          "first": 1725201000,
+          "second": 1725204600
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1011,
+          "name": "FC ST. Gallen",
+          "logo": "https://media.api-sports.io/football/teams/1011.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214856,
+        "referee": "L. F\u00e4hndrich",
+        "timezone": "UTC",
+        "date": "2024-09-22T14:30:00+00:00",
+        "timestamp": 1727015400,
+        "periods": {
+          "first": 1727015400,
+          "second": 1727019000
+        },
+        "venue": {
+          "id": 1542,
+          "name": "Stade de Tourbillon",
+          "city": "Sion"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 630,
+          "name": "FC Sion",
+          "logo": "https://media.api-sports.io/football/teams/630.png",
+          "winner": null
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214859,
+        "referee": "D. Grundbacher",
+        "timezone": "UTC",
+        "date": "2024-09-29T14:30:00+00:00",
+        "timestamp": 1727620200,
+        "periods": {
+          "first": 1727620200,
+          "second": 1727623800
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2180,
+          "name": "FC Winterthur",
+          "logo": "https://media.api-sports.io/football/teams/2180.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214867,
+        "referee": "A. Dudic",
+        "timezone": "UTC",
+        "date": "2024-10-06T12:15:00+00:00",
+        "timestamp": 1728216900,
+        "periods": {
+          "first": 1728216900,
+          "second": 1728220500
+        },
+        "venue": {
+          "id": 1533,
+          "name": "Stadion Letzigrund",
+          "city": "Z\u00fcrich"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 783,
+          "name": "FC Zurich",
+          "logo": "https://media.api-sports.io/football/teams/783.png",
+          "winner": null
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214875,
+        "referee": "D. Grundbacher",
+        "timezone": "UTC",
+        "date": "2024-10-20T14:30:00+00:00",
+        "timestamp": 1729434600,
+        "periods": {
+          "first": 1729434600,
+          "second": 1729438200
+        },
+        "venue": {
+          "id": 4859,
+          "name": "Stade Municipal",
+          "city": "Yverdon-les-Bains"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214880,
+        "referee": "L. Tschudi",
+        "timezone": "UTC",
+        "date": "2024-10-27T15:30:00+00:00",
+        "timestamp": 1730043000,
+        "periods": {
+          "first": 1730043000,
+          "second": 1730046600
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222537,
+        "referee": "D. Huwiler",
+        "timezone": "UTC",
+        "date": "2024-10-31T19:30:00+00:00",
+        "timestamp": 1730403000,
+        "periods": {
+          "first": 1730403000,
+          "second": 1730406600
+        },
+        "venue": {
+          "id": 1533,
+          "name": "Stadion Letzigrund",
+          "city": "Z\u00fcrich"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1013,
+          "name": "Grasshoppers",
+          "logo": "https://media.api-sports.io/football/teams/1013.png",
+          "winner": null
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222545,
+        "referee": "M. Turkes",
+        "timezone": "UTC",
+        "date": "2024-11-03T15:30:00+00:00",
+        "timestamp": 1730647800,
+        "periods": {
+          "first": 1730647800,
+          "second": 1730651400
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222553,
+        "referee": "S. Horisberger",
+        "timezone": "UTC",
+        "date": "2024-11-10T15:30:00+00:00",
+        "timestamp": 1731252600,
+        "periods": {
+          "first": 1731252600,
+          "second": 1731256200
+        },
+        "venue": {
+          "id": 10500,
+          "name": "Stadion Wankdorf",
+          "city": "Bern"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222558,
+        "referee": "F. San",
+        "timezone": "UTC",
+        "date": "2024-11-24T13:15:00+00:00",
+        "timestamp": 1732454100,
+        "periods": {
+          "first": 1732454100,
+          "second": 1732457700
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 783,
+          "name": "FC Zurich",
+          "logo": "https://media.api-sports.io/football/teams/783.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222562,
+        "referee": "S. Wolfensberger",
+        "timezone": "UTC",
+        "date": "2024-12-01T15:30:00+00:00",
+        "timestamp": 1733067000,
+        "periods": {
+          "first": 1733067000,
+          "second": 1733070600
+        },
+        "venue": {
+          "id": 1541,
+          "name": "Stade de Gen\u00e8ve",
+          "city": "Lancy"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2184,
+          "name": "Servette FC",
+          "logo": "https://media.api-sports.io/football/teams/2184.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222569,
+        "referee": "M. Turkes",
+        "timezone": "UTC",
+        "date": "2024-12-07T19:30:00+00:00",
+        "timestamp": 1733599800,
+        "periods": {
+          "first": 1733599800,
+          "second": 1733603400
+        },
+        "venue": {
+          "id": 1537,
+          "name": "swissporarena",
+          "city": "Luzern"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 644,
+          "name": "FC Luzern",
+          "logo": "https://media.api-sports.io/football/teams/644.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222574,
+        "referee": "N. Gianforte",
+        "timezone": "UTC",
+        "date": "2024-12-15T15:30:00+00:00",
+        "timestamp": 1734276600,
+        "periods": {
+          "first": 1734276600,
+          "second": 1734280200
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1014,
+          "name": "Lausanne",
+          "logo": "https://media.api-sports.io/football/teams/1014.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222580,
+        "referee": "S. Wolfensberger",
+        "timezone": "UTC",
+        "date": "2025-01-19T15:30:00+00:00",
+        "timestamp": 1737300600,
+        "periods": {
+          "first": 1737300600,
+          "second": 1737304200
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        },
+        "away": {
+          "id": 551,
+          "name": "FC Basel 1893",
+          "logo": "https://media.api-sports.io/football/teams/551.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222589,
+        "referee": "F. San",
+        "timezone": "UTC",
+        "date": "2025-01-25T19:30:00+00:00",
+        "timestamp": 1737833400,
+        "periods": {
+          "first": 1737833400,
+          "second": 1737837000
+        },
+        "venue": {
+          "id": 1547,
+          "name": "Stadion Sch\u00fctzenwiese",
+          "city": "Winterthur"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2180,
+          "name": "FC Winterthur",
+          "logo": "https://media.api-sports.io/football/teams/2180.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222592,
+        "referee": "A. Dudic",
+        "timezone": "UTC",
+        "date": "2025-02-01T17:00:00+00:00",
+        "timestamp": 1738429200,
+        "periods": {
+          "first": 1738429200,
+          "second": 1738432800
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 630,
+          "name": "FC Sion",
+          "logo": "https://media.api-sports.io/football/teams/630.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1222600,
+        "referee": "U. Schnyder",
+        "timezone": "UTC",
+        "date": "2025-02-05T19:30:00+00:00",
+        "timestamp": 1738783800,
+        "periods": {
+          "first": 1738783800,
+          "second": 1738787400
+        },
+        "venue": {
+          "id": 1543,
+          "name": "kybunpark",
+          "city": "St. Gallen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1011,
+          "name": "FC ST. Gallen",
+          "logo": "https://media.api-sports.io/football/teams/1011.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223591,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-18T13:00:00+00:00",
+        "timestamp": 1723986000,
+        "periods": {
+          "first": 1723986000,
+          "second": 1723989600
+        },
+        "venue": {
+          "id": 7268,
+          "name": "Paul-Gr\u00fcninger-Stadion",
+          "city": "St. Gallen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 209,
+        "name": "Schweizer Cup",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/209.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "1st Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 10587,
+          "name": "Br\u00fchl",
+          "logo": "https://media.api-sports.io/football/teams/10587.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 7
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 4
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 7
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274789,
+        "referee": "S. van der Eijk",
+        "timezone": "UTC",
+        "date": "2024-08-08T18:00:00+00:00",
+        "timestamp": 1723140000,
+        "periods": {
+          "first": 1723140000,
+          "second": 1723143600
+        },
+        "venue": {
+          "id": 1424,
+          "name": "Stadion Partizana",
+          "city": "Beograd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 573,
+          "name": "FK Partizan",
+          "logo": "https://media.api-sports.io/football/teams/573.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274790,
+        "referee": "Ricardo De Burgos",
+        "timezone": "UTC",
+        "date": "2024-08-15T18:30:00+00:00",
+        "timestamp": 1723746600,
+        "periods": {
+          "first": 1723746600,
+          "second": 1723750200
+        },
+        "venue": {
+          "id": 1544,
+          "name": "Stockhorn Arena",
+          "city": "Thun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        },
+        "away": {
+          "id": 573,
+          "name": "FK Partizan",
+          "logo": "https://media.api-sports.io/football/teams/573.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": 1,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287606,
+        "referee": "M. Krogh",
+        "timezone": "UTC",
+        "date": "2024-08-22T18:30:00+00:00",
+        "timestamp": 1724351400,
+        "periods": {
+          "first": 1724351400,
+          "second": 1724355000
+        },
+        "venue": {
+          "id": 1544,
+          "name": "Stockhorn Arena",
+          "city": "Thun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        },
+        "away": {
+          "id": 549,
+          "name": "Be\u015fikta\u015f",
+          "logo": "https://media.api-sports.io/football/teams/549.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287607,
+        "referee": "R. Petrescu",
+        "timezone": "UTC",
+        "date": "2024-08-29T18:00:00+00:00",
+        "timestamp": 1724954400,
+        "periods": {
+          "first": 1724954400,
+          "second": 1724958000
+        },
+        "venue": {
+          "id": 20423,
+          "name": "T\u00fcpra\u015f Stadyumu",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 549,
+          "name": "Be\u015fikta\u015f",
+          "logo": "https://media.api-sports.io/football/teams/549.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1293060,
+        "referee": "M. Turkes",
+        "timezone": "UTC",
+        "date": "2024-09-14T15:00:00+00:00",
+        "timestamp": 1726326000,
+        "periods": {
+          "first": 1726326000,
+          "second": 1726329600
+        },
+        "venue": {
+          "id": 1539,
+          "name": "Sportstadion Gr\u00fcnfeld",
+          "city": "Jona"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 209,
+        "name": "Schweizer Cup",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/209.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2185,
+          "name": "Rapperswil",
+          "logo": "https://media.api-sports.io/football/teams/2185.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299306,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 1544,
+          "name": "Stockhorn Arena",
+          "city": "Thun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299321,
+        "referee": "C. Theouli",
+        "timezone": "UTC",
+        "date": "2024-10-24T19:00:00+00:00",
+        "timestamp": 1729796400,
+        "periods": {
+          "first": 1729796400,
+          "second": 1729800000
+        },
+        "venue": {
+          "id": 2494,
+          "name": "Lokotrans Ar\u00e9na",
+          "city": "Mlad\u00e1 Boleslav"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299330,
+        "referee": "J. Sundberg",
+        "timezone": "UTC",
+        "date": "2024-11-07T17:45:00+00:00",
+        "timestamp": 1731001500,
+        "periods": {
+          "first": 1731001500,
+          "second": 1731005100
+        },
+        "venue": {
+          "id": 18679,
+          "name": "TSC Arena",
+          "city": "Ba\u010dka Topola"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2646,
+          "name": "TSC Backa Topola",
+          "logo": "https://media.api-sports.io/football/teams/2646.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299360,
+        "referee": "E. Jorgji",
+        "timezone": "UTC",
+        "date": "2024-11-28T20:00:00+00:00",
+        "timestamp": 1732824000,
+        "periods": {
+          "first": 1732824000,
+          "second": 1732827600
+        },
+        "venue": {
+          "id": 1544,
+          "name": "Stockhorn Arena",
+          "city": "Thun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299373,
+        "referee": "Juan Mart\u00ednez",
+        "timezone": "UTC",
+        "date": "2024-12-12T17:45:00+00:00",
+        "timestamp": 1734025500,
+        "periods": {
+          "first": 1734025500,
+          "second": 1734029100
+        },
+        "venue": {
+          "id": 1253,
+          "name": "Stadion Miejski Legii Warszawa im. Marsza\u0142ka J\u00f3zefa Pi\u0142sudskiego",
+          "city": "Warszawa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 339,
+          "name": "Legia Warszawa",
+          "logo": "https://media.api-sports.io/football/teams/339.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299388,
+        "referee": "N. Minakovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 1544,
+          "name": "Stockhorn Arena",
+          "city": "Thun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1305992,
+        "referee": "L. Cibelli",
+        "timezone": "UTC",
+        "date": "2024-12-04T19:30:00+00:00",
+        "timestamp": 1733340600,
+        "periods": {
+          "first": 1733340600,
+          "second": 1733344200
+        },
+        "venue": {
+          "id": 4859,
+          "name": "Stade Municipal",
+          "city": "Yverdon-les-Bains"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 209,
+        "name": "Schweizer Cup",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/209.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1320450,
+        "referee": "S. Horisberger",
+        "timezone": "UTC",
+        "date": "2025-02-26T19:30:00+00:00",
+        "timestamp": 1740598200,
+        "periods": {
+          "first": 1740598200,
+          "second": 1740601800
+        },
+        "venue": {
+          "id": 8063,
+          "name": "Tissot Arena",
+          "city": "Biel/Bienne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 209,
+        "name": "Schweizer Cup",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/209.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 12700,
+          "name": "Biel-Bienne",
+          "logo": "https://media.api-sports.io/football/teams/12700.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327687,
+        "referee": "L. F\u00e4hndrich",
+        "timezone": "UTC",
+        "date": "2025-02-08T17:00:00+00:00",
+        "timestamp": 1739034000,
+        "periods": {
+          "first": 1739034000,
+          "second": 1739037600
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1013,
+          "name": "Grasshoppers",
+          "logo": "https://media.api-sports.io/football/teams/1013.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327692,
+        "referee": "L. Cibelli",
+        "timezone": "UTC",
+        "date": "2025-02-15T17:00:00+00:00",
+        "timestamp": 1739638800,
+        "periods": {
+          "first": 1739638800,
+          "second": 1739642400
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 644,
+          "name": "FC Luzern",
+          "logo": "https://media.api-sports.io/football/teams/644.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327703,
+        "referee": "S. Wolfensberger",
+        "timezone": "UTC",
+        "date": "2025-02-23T15:30:00+00:00",
+        "timestamp": 1740324600,
+        "periods": {
+          "first": 1740324600,
+          "second": 1740328200
+        },
+        "venue": {
+          "id": 10500,
+          "name": "Stadion Wankdorf",
+          "city": "Bern"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327707,
+        "referee": "L. Cibelli",
+        "timezone": "UTC",
+        "date": "2025-03-02T13:15:00+00:00",
+        "timestamp": 1740921300,
+        "periods": {
+          "first": 1740921300,
+          "second": 1740924900
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        },
+        "away": {
+          "id": 783,
+          "name": "FC Zurich",
+          "logo": "https://media.api-sports.io/football/teams/783.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327715,
+        "referee": "J. von Mandach",
+        "timezone": "UTC",
+        "date": "2025-03-09T15:30:00+00:00",
+        "timestamp": 1741534200,
+        "periods": {
+          "first": 1741534200,
+          "second": 1741537800
+        },
+        "venue": {
+          "id": 1542,
+          "name": "Stade de Tourbillon",
+          "city": "Sion"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 630,
+          "name": "FC Sion",
+          "logo": "https://media.api-sports.io/football/teams/630.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327721,
+        "referee": "S. Horisberger",
+        "timezone": "UTC",
+        "date": "2025-03-16T15:30:00+00:00",
+        "timestamp": 1742139000,
+        "periods": {
+          "first": 1742139000,
+          "second": 1742142600
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2180,
+          "name": "FC Winterthur",
+          "logo": "https://media.api-sports.io/football/teams/2180.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327724,
+        "referee": "U. Schnyder",
+        "timezone": "UTC",
+        "date": "2025-03-29T19:30:00+00:00",
+        "timestamp": 1743276600,
+        "periods": {
+          "first": 1743276600,
+          "second": 1743280200
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2184,
+          "name": "Servette FC",
+          "logo": "https://media.api-sports.io/football/teams/2184.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327729,
+        "referee": "M. Turkes",
+        "timezone": "UTC",
+        "date": "2025-04-01T18:30:00+00:00",
+        "timestamp": 1743532200,
+        "periods": {
+          "first": 1743532200,
+          "second": 1743535800
+        },
+        "venue": {
+          "id": 4859,
+          "name": "Stade Municipal",
+          "city": "Yverdon-les-Bains"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327738,
+        "referee": "J. von Mandach",
+        "timezone": "UTC",
+        "date": "2025-04-06T14:30:00+00:00",
+        "timestamp": 1743949800,
+        "periods": {
+          "first": 1743949800,
+          "second": 1743953400
+        },
+        "venue": {
+          "id": 1530,
+          "name": "St. Jakob-Park",
+          "city": "Basel"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 551,
+          "name": "FC Basel 1893",
+          "logo": "https://media.api-sports.io/football/teams/551.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327743,
+        "referee": "S. Horisberger",
+        "timezone": "UTC",
+        "date": "2025-04-13T12:15:00+00:00",
+        "timestamp": 1744546500,
+        "periods": {
+          "first": 1744546500,
+          "second": 1744550100
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1011,
+          "name": "FC ST. Gallen",
+          "logo": "https://media.api-sports.io/football/teams/1011.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327748,
+        "referee": "L. Tschudi",
+        "timezone": "UTC",
+        "date": "2025-04-21T14:30:00+00:00",
+        "timestamp": 1745245800,
+        "periods": {
+          "first": 1745245800,
+          "second": 1745249400
+        },
+        "venue": {
+          "id": 11917,
+          "name": "Stade de la Tuili\u00e8re",
+          "city": "Lausanne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1014,
+          "name": "Lausanne",
+          "logo": "https://media.api-sports.io/football/teams/1014.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353212,
+        "referee": "Ant\u00f3nio Nobre",
+        "timezone": "UTC",
+        "date": "2025-03-06T20:00:00+00:00",
+        "timestamp": 1741291200,
+        "periods": {
+          "first": 1741291200,
+          "second": 1741294800
+        },
+        "venue": {
+          "id": 3332,
+          "name": "Stadion Z'de\u017eele",
+          "city": "Celje"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4360,
+          "name": "Celje",
+          "logo": "https://media.api-sports.io/football/teams/4360.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353213,
+        "referee": "A. Treimanis",
+        "timezone": "UTC",
+        "date": "2025-03-13T17:45:00+00:00",
+        "timestamp": 1741887900,
+        "periods": {
+          "first": 1741887900,
+          "second": 1741891500
+        },
+        "venue": {
+          "id": 1544,
+          "name": "Stockhorn Arena",
+          "city": "Thun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4360,
+          "name": "Celje",
+          "logo": "https://media.api-sports.io/football/teams/4360.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 3
+        },
+        "extratime": {
+          "home": 1,
+          "away": 1
+        },
+        "penalty": {
+          "home": 1,
+          "away": 3
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372869,
+        "referee": "A. Dudic",
+        "timezone": "UTC",
+        "date": "2025-05-04T14:30:00+00:00",
+        "timestamp": 1746369000,
+        "periods": {
+          "first": 1746369000,
+          "second": 1746372600
+        },
+        "venue": {
+          "id": 1537,
+          "name": "swissporarena",
+          "city": "Luzern"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Championship Round - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 644,
+          "name": "FC Luzern",
+          "logo": "https://media.api-sports.io/football/teams/644.png",
+          "winner": false
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372870,
+        "referee": "A. Dudic",
+        "timezone": "UTC",
+        "date": "2025-05-10T18:30:00+00:00",
+        "timestamp": 1746901800,
+        "periods": {
+          "first": 1746901800,
+          "second": 1746905400
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Championship Round - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        },
+        "away": {
+          "id": 551,
+          "name": "FC Basel 1893",
+          "logo": "https://media.api-sports.io/football/teams/551.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372874,
+        "referee": "L. Cibelli",
+        "timezone": "UTC",
+        "date": "2025-05-15T18:30:00+00:00",
+        "timestamp": 1747333800,
+        "periods": {
+          "first": 1747333800,
+          "second": 1747337400
+        },
+        "venue": {
+          "id": 1541,
+          "name": "Stade de Gen\u00e8ve",
+          "city": "Lancy"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Championship Round - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2184,
+          "name": "Servette FC",
+          "logo": "https://media.api-sports.io/football/teams/2184.png",
+          "winner": true
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372877,
+        "referee": "J. von Mandach",
+        "timezone": "UTC",
+        "date": "2025-05-18T14:30:00+00:00",
+        "timestamp": 1747578600,
+        "periods": {
+          "first": 1747578600,
+          "second": 1747582200
+        },
+        "venue": {
+          "id": 11917,
+          "name": "Stade de la Tuili\u00e8re",
+          "city": "Lausanne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Championship Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1014,
+          "name": "Lausanne",
+          "logo": "https://media.api-sports.io/football/teams/1014.png",
+          "winner": null
+        },
+        "away": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372880,
+        "referee": "S. Sch\u00e4rer",
+        "timezone": "UTC",
+        "date": "2025-05-24T16:00:00+00:00",
+        "timestamp": 1748102400,
+        "periods": {
+          "first": 1748102400,
+          "second": 1748106000
+        },
+        "venue": {
+          "id": 1536,
+          "name": "Stadio di Cornaredo",
+          "city": "Lugano"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2024,
+        "round": "Championship Round - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        },
+        "away": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

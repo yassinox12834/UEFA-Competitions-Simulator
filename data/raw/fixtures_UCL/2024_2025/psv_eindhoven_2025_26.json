@@ -1,0 +1,4005 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "197"
+  },
+  "errors": [],
+  "results": 57,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1156213,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-07T12:00:00+00:00",
+        "timestamp": 1704628800,
+        "periods": {
+          "first": 1704628800,
+          "second": 1704632400
+        },
+        "venue": {
+          "id": null,
+          "name": "Campo La Quinta",
+          "city": "Benahav\u00eds"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        },
+        "away": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1156215,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-07T15:30:00+00:00",
+        "timestamp": 1704641400,
+        "periods": {
+          "first": 1704641400,
+          "second": 1704645000
+        },
+        "venue": {
+          "id": null,
+          "name": "Marbella Football Center - Sur 1",
+          "city": "San Pedro de Alc\u00e1ntara"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        },
+        "away": {
+          "id": 175,
+          "name": "Hamburger SV",
+          "logo": "https://media.api-sports.io/football/teams/175.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1207124,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T11:00:00+00:00",
+        "timestamp": 1720868400,
+        "periods": {
+          "first": 1720868400,
+          "second": 1720872000
+        },
+        "venue": {
+          "id": 12681,
+          "name": "PSV Campus De Herdgang",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        },
+        "away": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213445,
+        "referee": "J. Kooij",
+        "timezone": "UTC",
+        "date": "2024-08-10T19:00:00+00:00",
+        "timestamp": 1723316400,
+        "periods": {
+          "first": 1723316400,
+          "second": 1723320000
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 417,
+          "name": "Waalwijk",
+          "logo": "https://media.api-sports.io/football/teams/417.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213455,
+        "referee": "M. van den Kerkhof",
+        "timezone": "UTC",
+        "date": "2024-08-18T10:15:00+00:00",
+        "timestamp": 1723976100,
+        "periods": {
+          "first": 1723976100,
+          "second": 1723979700
+        },
+        "venue": {
+          "id": 11906,
+          "name": "Asito Stadion",
+          "city": "Almelo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213460,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2024-08-24T18:00:00+00:00",
+        "timestamp": 1724522400,
+        "periods": {
+          "first": 1724522400,
+          "second": 1724526000
+        },
+        "venue": {
+          "id": 1141,
+          "name": "Yanmar Stadion",
+          "city": "Almere"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 419,
+          "name": "Almere City FC",
+          "logo": "https://media.api-sports.io/football/teams/419.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 7
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 7
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213476,
+        "referee": "B. Nijhuis",
+        "timezone": "UTC",
+        "date": "2024-09-01T14:45:00+00:00",
+        "timestamp": 1725201900,
+        "periods": {
+          "first": 1725201900,
+          "second": 1725205500
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213481,
+        "referee": "D. Higler",
+        "timezone": "UTC",
+        "date": "2024-09-14T14:30:00+00:00",
+        "timestamp": 1726324200,
+        "periods": {
+          "first": 1726324200,
+          "second": 1726327800
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213494,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2024-09-22T14:45:00+00:00",
+        "timestamp": 1727016300,
+        "periods": {
+          "first": 1727016300,
+          "second": 1727019900
+        },
+        "venue": {
+          "id": 1129,
+          "name": "Fortuna Sittard Stadion",
+          "city": "Sittard"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 205,
+          "name": "Fortuna Sittard",
+          "logo": "https://media.api-sports.io/football/teams/205.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213499,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2024-09-28T14:30:00+00:00",
+        "timestamp": 1727533800,
+        "periods": {
+          "first": 1727533800,
+          "second": 1727537400
+        },
+        "venue": {
+          "id": 1159,
+          "name": "Koning Willem II Stadion",
+          "city": "Tilburg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 195,
+          "name": "Willem II",
+          "logo": "https://media.api-sports.io/football/teams/195.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213507,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2024-10-05T18:00:00+00:00",
+        "timestamp": 1728151200,
+        "periods": {
+          "first": 1728151200,
+          "second": 1728154800
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213514,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2024-10-19T16:45:00+00:00",
+        "timestamp": 1729356300,
+        "periods": {
+          "first": 1729356300,
+          "second": 1729359900
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213525,
+        "referee": "R. Dieperink",
+        "timezone": "UTC",
+        "date": "2024-10-26T16:45:00+00:00",
+        "timestamp": 1729961100,
+        "periods": {
+          "first": 1729961100,
+          "second": 1729964700
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213534,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2024-11-02T17:45:00+00:00",
+        "timestamp": 1730569500,
+        "periods": {
+          "first": 1730569500,
+          "second": 1730573100
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213543,
+        "referee": "S. van der Eijk",
+        "timezone": "UTC",
+        "date": "2024-11-09T19:00:00+00:00",
+        "timestamp": 1731178800,
+        "periods": {
+          "first": 1731178800,
+          "second": 1731182400
+        },
+        "venue": {
+          "id": 1139,
+          "name": "Rat Verlegh Stadion",
+          "city": "Breda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213549,
+        "referee": "J. Kooij",
+        "timezone": "UTC",
+        "date": "2024-11-23T20:00:00+00:00",
+        "timestamp": 1732392000,
+        "periods": {
+          "first": 1732392000,
+          "second": 1732395600
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 202,
+          "name": "Groningen",
+          "logo": "https://media.api-sports.io/football/teams/202.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213563,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2024-12-01T11:15:00+00:00",
+        "timestamp": 1733051700,
+        "periods": {
+          "first": 1733051700,
+          "second": 1733055300
+        },
+        "venue": {
+          "id": 1154,
+          "name": "Stadion Galgenwaard",
+          "city": "Utrecht"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213572,
+        "referee": "S. van der Eijk",
+        "timezone": "UTC",
+        "date": "2024-12-06T19:00:00+00:00",
+        "timestamp": 1733511600,
+        "periods": {
+          "first": 1733511600,
+          "second": 1733515200
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 415,
+          "name": "Twente",
+          "logo": "https://media.api-sports.io/football/teams/415.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213584,
+        "referee": "B. Nijhuis",
+        "timezone": "UTC",
+        "date": "2024-12-14T17:45:00+00:00",
+        "timestamp": 1734198300,
+        "periods": {
+          "first": 1734198300,
+          "second": 1734201900
+        },
+        "venue": {
+          "id": 1132,
+          "name": "Abe Lenstra Stadion",
+          "city": "Heerenveen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 210,
+          "name": "Heerenveen",
+          "logo": "https://media.api-sports.io/football/teams/210.png",
+          "winner": true
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213590,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2024-12-22T13:30:00+00:00",
+        "timestamp": 1734874200,
+        "periods": {
+          "first": 1734874200,
+          "second": 1734877800
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213602,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2025-01-11T20:00:00+00:00",
+        "timestamp": 1736625600,
+        "periods": {
+          "first": 1736625600,
+          "second": 1736629200
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213608,
+        "referee": "J. Manschot",
+        "timezone": "UTC",
+        "date": "2025-01-18T15:30:00+00:00",
+        "timestamp": 1737214200,
+        "periods": {
+          "first": 1737214200,
+          "second": 1737217800
+        },
+        "venue": {
+          "id": 1160,
+          "name": "MAC\u00b3PARK Stadion",
+          "city": "Zwolle"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png",
+          "winner": true
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213619,
+        "referee": "D. Higler",
+        "timezone": "UTC",
+        "date": "2025-01-25T17:45:00+00:00",
+        "timestamp": 1737827100,
+        "periods": {
+          "first": 1737827100,
+          "second": 1737830700
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213624,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-02-01T20:00:00+00:00",
+        "timestamp": 1738440000,
+        "periods": {
+          "first": 1738440000,
+          "second": 1738443600
+        },
+        "venue": {
+          "id": 1140,
+          "name": "Goffertstadion",
+          "city": "Nijmegen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png",
+          "winner": null
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213636,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2025-02-08T17:45:00+00:00",
+        "timestamp": 1739036700,
+        "periods": {
+          "first": 1739036700,
+          "second": 1739040300
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        },
+        "away": {
+          "id": 195,
+          "name": "Willem II",
+          "logo": "https://media.api-sports.io/football/teams/195.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213646,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-02-15T15:30:00+00:00",
+        "timestamp": 1739633400,
+        "periods": {
+          "first": 1739633400,
+          "second": 1739637000
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        },
+        "away": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213652,
+        "referee": "P. van Boekel",
+        "timezone": "UTC",
+        "date": "2025-03-01T17:45:00+00:00",
+        "timestamp": 1740851100,
+        "periods": {
+          "first": 1740851100,
+          "second": 1740854700
+        },
+        "venue": {
+          "id": 1130,
+          "name": "De Adelaarshorst",
+          "city": "Deventer"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": true
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213664,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2025-03-08T19:00:00+00:00",
+        "timestamp": 1741460400,
+        "periods": {
+          "first": 1741460400,
+          "second": 1741464000
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 210,
+          "name": "Heerenveen",
+          "logo": "https://media.api-sports.io/football/teams/210.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213672,
+        "referee": "J. Manschot",
+        "timezone": "UTC",
+        "date": "2025-03-15T19:00:00+00:00",
+        "timestamp": 1742065200,
+        "periods": {
+          "first": 1742065200,
+          "second": 1742068800
+        },
+        "venue": {
+          "id": 1144,
+          "name": "Mandemakers Stadion",
+          "city": "Waalwijk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 417,
+          "name": "Waalwijk",
+          "logo": "https://media.api-sports.io/football/teams/417.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213682,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-03-30T12:30:00+00:00",
+        "timestamp": 1743337800,
+        "periods": {
+          "first": 1743337800,
+          "second": 1743341400
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213687,
+        "referee": "B. Nijhuis",
+        "timezone": "UTC",
+        "date": "2025-04-05T18:00:00+00:00",
+        "timestamp": 1743876000,
+        "periods": {
+          "first": 1743876000,
+          "second": 1743879600
+        },
+        "venue": {
+          "id": 12276,
+          "name": "Euroborg",
+          "city": "Groningen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 202,
+          "name": "Groningen",
+          "logo": "https://media.api-sports.io/football/teams/202.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213699,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2025-04-12T18:00:00+00:00",
+        "timestamp": 1744480800,
+        "periods": {
+          "first": 1744480800,
+          "second": 1744484400
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 419,
+          "name": "Almere City FC",
+          "logo": "https://media.api-sports.io/football/teams/419.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213706,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2025-04-24T19:00:00+00:00",
+        "timestamp": 1745521200,
+        "periods": {
+          "first": 1745521200,
+          "second": 1745524800
+        },
+        "venue": {
+          "id": 1153,
+          "name": "De Grolsch Veste",
+          "city": "Enschede"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 415,
+          "name": "Twente",
+          "logo": "https://media.api-sports.io/football/teams/415.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213716,
+        "referee": "R. Dieperink",
+        "timezone": "UTC",
+        "date": "2025-05-03T19:00:00+00:00",
+        "timestamp": 1746298800,
+        "periods": {
+          "first": 1746298800,
+          "second": 1746302400
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 205,
+          "name": "Fortuna Sittard",
+          "logo": "https://media.api-sports.io/football/teams/205.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213724,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2025-05-11T12:30:00+00:00",
+        "timestamp": 1746966600,
+        "periods": {
+          "first": 1746966600,
+          "second": 1746970200
+        },
+        "venue": {
+          "id": 1128,
+          "name": "Stadion Feijenoord",
+          "city": "Rotterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213736,
+        "referee": "B. Nijhuis",
+        "timezone": "UTC",
+        "date": "2025-05-14T18:00:00+00:00",
+        "timestamp": 1747245600,
+        "periods": {
+          "first": 1747245600,
+          "second": 1747249200
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213746,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-05-18T12:30:00+00:00",
+        "timestamp": 1747571400,
+        "periods": {
+          "first": 1747571400,
+          "second": 1747575000
+        },
+        "venue": {
+          "id": 10505,
+          "name": "Sparta-Stadion Het Kasteel",
+          "city": "Rotterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1217966,
+        "referee": "R. Hensgens",
+        "timezone": "UTC",
+        "date": "2024-07-24T18:00:00+00:00",
+        "timestamp": 1721844000,
+        "periods": {
+          "first": 1721844000,
+          "second": 1721847600
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 422,
+          "name": "FC Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/422.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1217968,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-26T12:00:00+00:00",
+        "timestamp": 1721995200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "Canc",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        },
+        "away": {
+          "id": 14130,
+          "name": "Club Brugge II",
+          "logo": "https://media.api-sports.io/football/teams/14130.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1217970,
+        "referee": "M. Nagtegaal",
+        "timezone": "UTC",
+        "date": "2024-07-27T16:00:00+00:00",
+        "timestamp": 1722096000,
+        "periods": {
+          "first": 1722096000,
+          "second": 1722099600
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1298984,
+        "referee": "Alejandro Hern\u00e1ndez",
+        "timezone": "UTC",
+        "date": "2024-09-17T16:45:00+00:00",
+        "timestamp": 1726591500,
+        "periods": {
+          "first": 1726591500,
+          "second": 1726595100
+        },
+        "venue": {
+          "id": 909,
+          "name": "Allianz Stadium",
+          "city": "Torino"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
+          "winner": true
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299008,
+        "referee": "M. Guida",
+        "timezone": "UTC",
+        "date": "2024-10-01T19:00:00+00:00",
+        "timestamp": 1727809200,
+        "periods": {
+          "first": 1727809200,
+          "second": 1727812800
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        },
+        "away": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299025,
+        "referee": "G. Nyberg",
+        "timezone": "UTC",
+        "date": "2024-10-22T19:00:00+00:00",
+        "timestamp": 1729623600,
+        "periods": {
+          "first": 1729623600,
+          "second": 1729627200
+        },
+        "venue": {
+          "id": 671,
+          "name": "Parc des Princes",
+          "city": "Paris"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png",
+          "winner": null
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299038,
+        "referee": "M. Oliver",
+        "timezone": "UTC",
+        "date": "2024-11-05T17:45:00+00:00",
+        "timestamp": 1730828700,
+        "periods": {
+          "first": 1730828700,
+          "second": 1730832300
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 547,
+          "name": "Girona",
+          "logo": "https://media.api-sports.io/football/teams/547.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299073,
+        "referee": "U. Schnyder",
+        "timezone": "UTC",
+        "date": "2024-11-27T20:00:00+00:00",
+        "timestamp": 1732737600,
+        "periods": {
+          "first": 1732737600,
+          "second": 1732741200
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299078,
+        "referee": "Jos\u00e9 S\u00e1nchez",
+        "timezone": "UTC",
+        "date": "2024-12-10T20:00:00+00:00",
+        "timestamp": 1733860800,
+        "periods": {
+          "first": 1733860800,
+          "second": 1733864400
+        },
+        "venue": {
+          "id": 650,
+          "name": "Stade du Roudourou",
+          "city": "Guingamp"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 106,
+          "name": "Stade Brestois 29",
+          "logo": "https://media.api-sports.io/football/teams/106.png",
+          "winner": true
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299098,
+        "referee": "I. Kov\u00e1cs",
+        "timezone": "UTC",
+        "date": "2025-01-21T20:00:00+00:00",
+        "timestamp": 1737489600,
+        "periods": {
+          "first": 1737489600,
+          "second": 1737493200
+        },
+        "venue": {
+          "id": 1406,
+          "name": "Stadion Rajko Miti\u0107",
+          "city": "Beograd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png",
+          "winner": false
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299123,
+        "referee": "T. Stieler",
+        "timezone": "UTC",
+        "date": "2025-01-29T20:00:00+00:00",
+        "timestamp": 1738180800,
+        "periods": {
+          "first": 1738180800,
+          "second": 1738184400
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314670,
+        "referee": "E. Blank",
+        "timezone": "UTC",
+        "date": "2024-12-17T17:45:00+00:00",
+        "timestamp": 1734457500,
+        "periods": {
+          "first": 1734457500,
+          "second": 1734461100
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/90.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1246,
+          "name": "Koninklijke HFC",
+          "logo": "https://media.api-sports.io/football/teams/1246.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 8,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 8,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327591,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2025-01-14T20:00:00+00:00",
+        "timestamp": 1736884800,
+        "periods": {
+          "first": 1736884800,
+          "second": 1736888400
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/90.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 196,
+          "name": "Excelsior",
+          "logo": "https://media.api-sports.io/football/teams/196.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": 2,
+          "away": 1
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338276,
+        "referee": "P. van Boekel",
+        "timezone": "UTC",
+        "date": "2025-02-05T17:45:00+00:00",
+        "timestamp": 1738777500,
+        "periods": {
+          "first": 1738777500,
+          "second": 1738781100
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/90.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345741,
+        "referee": "D. Siebert",
+        "timezone": "UTC",
+        "date": "2025-02-11T20:00:00+00:00",
+        "timestamp": 1739304000,
+        "periods": {
+          "first": 1739304000,
+          "second": 1739307600
+        },
+        "venue": {
+          "id": 909,
+          "name": "Allianz Stadium",
+          "city": "Torino"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
+          "winner": true
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345742,
+        "referee": "S. Vin\u010di\u0107",
+        "timezone": "UTC",
+        "date": "2025-02-19T20:00:00+00:00",
+        "timestamp": 1739995200,
+        "periods": {
+          "first": 1739995200,
+          "second": 1739998800
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": 1,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1349128,
+        "referee": "D. Higler",
+        "timezone": "UTC",
+        "date": "2025-02-26T19:00:00+00:00",
+        "timestamp": 1740596400,
+        "periods": {
+          "first": 1740596400,
+          "second": 1740600000
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/90.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        },
+        "away": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353172,
+        "referee": "Gil Manzano",
+        "timezone": "UTC",
+        "date": "2025-03-04T20:00:00+00:00",
+        "timestamp": 1741118400,
+        "periods": {
+          "first": 1741118400,
+          "second": 1741122000
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 7
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 7
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353173,
+        "referee": "R. Obrenovi\u0107",
+        "timezone": "UTC",
+        "date": "2025-03-12T20:00:00+00:00",
+        "timestamp": 1741809600,
+        "periods": {
+          "first": 1741809600,
+          "second": 1741813200
+        },
+        "venue": {
+          "id": 494,
+          "name": "Emirates Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png",
+          "winner": null
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1420344,
+        "referee": "Joey Kooij",
+        "timezone": "UTC",
+        "date": "2025-08-03T16:00:00+00:00",
+        "timestamp": 1754236800,
+        "periods": {
+          "first": 1754236800,
+          "second": 1754240400
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 543,
+        "name": "Super Cup",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/543.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": true
+        },
+        "away": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

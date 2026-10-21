@@ -1,0 +1,4285 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "194"
+  },
+  "errors": [],
+  "results": 61,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1156149,
+        "referee": "Marcos Rodr\u00edguez",
+        "timezone": "UTC",
+        "date": "2024-01-06T15:00:00+00:00",
+        "timestamp": 1704553200,
+        "periods": {
+          "first": 1704553200,
+          "second": 1704556800
+        },
+        "venue": {
+          "id": null,
+          "name": "Campo Hotel Barcel\u00f3 Montecastillo",
+          "city": "Jerez de la Frontera"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        },
+        "away": {
+          "id": 166,
+          "name": "Hannover 96",
+          "logo": "https://media.api-sports.io/football/teams/166.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1156214,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-07T12:00:00+00:00",
+        "timestamp": 1704628800,
+        "periods": {
+          "first": 1704628800,
+          "second": 1704632400
+        },
+        "venue": {
+          "id": 6841,
+          "name": "Estadio Antonio Barbadillo",
+          "city": "Arcos de la Frontera"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 166,
+          "name": "Hannover 96",
+          "logo": "https://media.api-sports.io/football/teams/166.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1203656,
+        "referee": "M. Nagtegaal",
+        "timezone": "UTC",
+        "date": "2024-07-05T12:00:00+00:00",
+        "timestamp": 1720180800,
+        "periods": {
+          "first": 1720180800,
+          "second": 1720184400
+        },
+        "venue": {
+          "id": 1135,
+          "name": "Sportpark De Toekomst",
+          "city": "Amsterdam-Duivendrecht"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        },
+        "away": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209239,
+        "referee": "C\u00e9sar Soto",
+        "timezone": "UTC",
+        "date": "2024-07-25T18:30:00+00:00",
+        "timestamp": 1721932200,
+        "periods": {
+          "first": 1721932200,
+          "second": 1721935800
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff Arena",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 702,
+          "name": "Vojvodina",
+          "logo": "https://media.api-sports.io/football/teams/702.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209240,
+        "referee": "A. Karde\u015fler",
+        "timezone": "UTC",
+        "date": "2024-08-01T18:00:00+00:00",
+        "timestamp": 1722535200,
+        "periods": {
+          "first": 1722535200,
+          "second": 1722538800
+        },
+        "venue": {
+          "id": 18679,
+          "name": "TSC Arena",
+          "city": "Ba\u010dka Topola"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 702,
+          "name": "Vojvodina",
+          "logo": "https://media.api-sports.io/football/teams/702.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212744,
+        "referee": "D. Higler",
+        "timezone": "UTC",
+        "date": "2024-07-09T16:30:00+00:00",
+        "timestamp": 1720542600,
+        "periods": {
+          "first": 1720542600,
+          "second": 1720546200
+        },
+        "venue": {
+          "id": null,
+          "name": "Sportpark Bovenmolen",
+          "city": "Oldebroek"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 735,
+          "name": "St. Truiden",
+          "logo": "https://media.api-sports.io/football/teams/735.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212745,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T14:00:00+00:00",
+        "timestamp": 1720879200,
+        "periods": {
+          "first": 1720879200,
+          "second": 1720882800
+        },
+        "venue": {
+          "id": null,
+          "name": "Sportpark Mulderssingel",
+          "city": "Wezep"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213449,
+        "referee": "B. Nijhuis",
+        "timezone": "UTC",
+        "date": "2024-08-11T14:45:00+00:00",
+        "timestamp": 1723387500,
+        "periods": {
+          "first": 1723387500,
+          "second": 1723391100
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 210,
+          "name": "Heerenveen",
+          "logo": "https://media.api-sports.io/football/teams/210.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213458,
+        "referee": "D. Higler",
+        "timezone": "UTC",
+        "date": "2024-08-18T14:45:00+00:00",
+        "timestamp": 1723992300,
+        "periods": {
+          "first": 1723992300,
+          "second": 1723995900
+        },
+        "venue": {
+          "id": 1139,
+          "name": "Rat Verlegh Stadion",
+          "city": "Breda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png",
+          "winner": true
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213463,
+        "referee": "M. van den Kerkhof",
+        "timezone": "UTC",
+        "date": "2024-09-18T18:00:00+00:00",
+        "timestamp": 1726682400,
+        "periods": {
+          "first": 1726682400,
+          "second": 1726686000
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 205,
+          "name": "Fortuna Sittard",
+          "logo": "https://media.api-sports.io/football/teams/205.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213474,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2024-10-30T17:00:00+00:00",
+        "timestamp": 1730307600,
+        "periods": {
+          "first": 1730307600,
+          "second": 1730311200
+        },
+        "venue": {
+          "id": 1128,
+          "name": "Stadion Feijenoord",
+          "city": "Rotterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213483,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2024-12-04T19:00:00+00:00",
+        "timestamp": 1733338800,
+        "periods": {
+          "first": 1733338800,
+          "second": 1733342400
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": null
+        },
+        "away": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213489,
+        "referee": "M. Nagtegaal",
+        "timezone": "UTC",
+        "date": "2024-09-21T18:00:00+00:00",
+        "timestamp": 1726941600,
+        "periods": {
+          "first": 1726941600,
+          "second": 1726945200
+        },
+        "venue": {
+          "id": 1130,
+          "name": "De Adelaarshorst",
+          "city": "Deventer"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": null
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213502,
+        "referee": "J. Kamphuis",
+        "timezone": "UTC",
+        "date": "2024-09-29T14:45:00+00:00",
+        "timestamp": 1727621100,
+        "periods": {
+          "first": 1727621100,
+          "second": 1727624700
+        },
+        "venue": {
+          "id": 1144,
+          "name": "Mandemakers Stadion",
+          "city": "Waalwijk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 417,
+          "name": "Waalwijk",
+          "logo": "https://media.api-sports.io/football/teams/417.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213510,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2024-10-06T14:45:00+00:00",
+        "timestamp": 1728225900,
+        "periods": {
+          "first": 1728225900,
+          "second": 1728229500
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 202,
+          "name": "Groningen",
+          "logo": "https://media.api-sports.io/football/teams/202.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213520,
+        "referee": "E. van de Graaf",
+        "timezone": "UTC",
+        "date": "2024-10-20T12:30:00+00:00",
+        "timestamp": 1729427400,
+        "periods": {
+          "first": 1729427400,
+          "second": 1729431000
+        },
+        "venue": {
+          "id": 11906,
+          "name": "Asito Stadion",
+          "city": "Almelo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213530,
+        "referee": "B. Nijhuis",
+        "timezone": "UTC",
+        "date": "2024-10-27T15:45:00+00:00",
+        "timestamp": 1730043900,
+        "periods": {
+          "first": 1730043900,
+          "second": 1730047500
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 195,
+          "name": "Willem II",
+          "logo": "https://media.api-sports.io/football/teams/195.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213534,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2024-11-02T17:45:00+00:00",
+        "timestamp": 1730569500,
+        "periods": {
+          "first": 1730569500,
+          "second": 1730573100
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213546,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2024-11-10T13:30:00+00:00",
+        "timestamp": 1731245400,
+        "periods": {
+          "first": 1731245400,
+          "second": 1731249000
+        },
+        "venue": {
+          "id": 1153,
+          "name": "De Grolsch Veste",
+          "city": "Enschede"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 415,
+          "name": "Twente",
+          "logo": "https://media.api-sports.io/football/teams/415.png",
+          "winner": null
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213557,
+        "referee": "A. Bos",
+        "timezone": "UTC",
+        "date": "2024-11-24T15:45:00+00:00",
+        "timestamp": 1732463100,
+        "periods": {
+          "first": 1732463100,
+          "second": 1732466700
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213566,
+        "referee": "J. Kooij",
+        "timezone": "UTC",
+        "date": "2024-12-01T15:45:00+00:00",
+        "timestamp": 1733067900,
+        "periods": {
+          "first": 1733067900,
+          "second": 1733071500
+        },
+        "venue": {
+          "id": 1140,
+          "name": "Goffertstadion",
+          "city": "Nijmegen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213568,
+        "referee": "M. Nagtegaal",
+        "timezone": "UTC",
+        "date": "2024-12-08T13:30:00+00:00",
+        "timestamp": 1733664600,
+        "periods": {
+          "first": 1733664600,
+          "second": 1733668200
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213576,
+        "referee": "J. Manschot",
+        "timezone": "UTC",
+        "date": "2024-12-15T15:45:00+00:00",
+        "timestamp": 1734277500,
+        "periods": {
+          "first": 1734277500,
+          "second": 1734281100
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 419,
+          "name": "Almere City FC",
+          "logo": "https://media.api-sports.io/football/teams/419.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213592,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2024-12-22T11:15:00+00:00",
+        "timestamp": 1734866100,
+        "periods": {
+          "first": 1734866100,
+          "second": 1734869700
+        },
+        "venue": {
+          "id": 10505,
+          "name": "Sparta-Stadion Het Kasteel",
+          "city": "Rotterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213594,
+        "referee": "A. Bos",
+        "timezone": "UTC",
+        "date": "2025-01-11T17:45:00+00:00",
+        "timestamp": 1736617500,
+        "periods": {
+          "first": 1736617500,
+          "second": 1736621100
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 417,
+          "name": "Waalwijk",
+          "logo": "https://media.api-sports.io/football/teams/417.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213609,
+        "referee": "J. Kooij",
+        "timezone": "UTC",
+        "date": "2025-01-19T13:30:00+00:00",
+        "timestamp": 1737293400,
+        "periods": {
+          "first": 1737293400,
+          "second": 1737297000
+        },
+        "venue": {
+          "id": 1132,
+          "name": "Abe Lenstra Stadion",
+          "city": "Heerenveen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 210,
+          "name": "Heerenveen",
+          "logo": "https://media.api-sports.io/football/teams/210.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213612,
+        "referee": "J. Kooij",
+        "timezone": "UTC",
+        "date": "2025-02-23T13:30:00+00:00",
+        "timestamp": 1740317400,
+        "periods": {
+          "first": 1740317400,
+          "second": 1740321000
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213621,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2025-02-02T13:30:00+00:00",
+        "timestamp": 1738503000,
+        "periods": {
+          "first": 1738503000,
+          "second": 1738506600
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213634,
+        "referee": "D. Higler",
+        "timezone": "UTC",
+        "date": "2025-02-09T13:30:00+00:00",
+        "timestamp": 1739107800,
+        "periods": {
+          "first": 1739107800,
+          "second": 1739111400
+        },
+        "venue": {
+          "id": 1129,
+          "name": "Fortuna Sittard Stadion",
+          "city": "Sittard"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 205,
+          "name": "Fortuna Sittard",
+          "logo": "https://media.api-sports.io/football/teams/205.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213639,
+        "referee": "M. Nagtegaal",
+        "timezone": "UTC",
+        "date": "2025-02-16T15:45:00+00:00",
+        "timestamp": 1739720700,
+        "periods": {
+          "first": 1739720700,
+          "second": 1739724300
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213648,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-03-02T13:30:00+00:00",
+        "timestamp": 1740922200,
+        "periods": {
+          "first": 1740922200,
+          "second": 1740925800
+        },
+        "venue": {
+          "id": 1141,
+          "name": "Yanmar Stadion",
+          "city": "Almere"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 419,
+          "name": "Almere City FC",
+          "logo": "https://media.api-sports.io/football/teams/419.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213663,
+        "referee": "B. Nijhuis",
+        "timezone": "UTC",
+        "date": "2025-03-09T13:30:00+00:00",
+        "timestamp": 1741527000,
+        "periods": {
+          "first": 1741527000,
+          "second": 1741530600
+        },
+        "venue": {
+          "id": 1160,
+          "name": "MAC\u00b3PARK Stadion",
+          "city": "Zwolle"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213666,
+        "referee": "D. Higler",
+        "timezone": "UTC",
+        "date": "2025-03-16T15:45:00+00:00",
+        "timestamp": 1742139900,
+        "periods": {
+          "first": 1742139900,
+          "second": 1742143500
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": null
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213682,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-03-30T12:30:00+00:00",
+        "timestamp": 1743337800,
+        "periods": {
+          "first": 1743337800,
+          "second": 1743341400
+        },
+        "venue": {
+          "id": 1143,
+          "name": "Philips Stadion",
+          "city": "Eindhoven"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213684,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2025-04-06T14:45:00+00:00",
+        "timestamp": 1743950700,
+        "periods": {
+          "first": 1743950700,
+          "second": 1743954300
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213701,
+        "referee": "M. Nagtegaal",
+        "timezone": "UTC",
+        "date": "2025-04-13T14:45:00+00:00",
+        "timestamp": 1744555500,
+        "periods": {
+          "first": 1744555500,
+          "second": 1744559100
+        },
+        "venue": {
+          "id": 1159,
+          "name": "Koning Willem II Stadion",
+          "city": "Tilburg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 195,
+          "name": "Willem II",
+          "logo": "https://media.api-sports.io/football/teams/195.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213702,
+        "referee": "R. Dieperink",
+        "timezone": "UTC",
+        "date": "2025-04-27T12:30:00+00:00",
+        "timestamp": 1745757000,
+        "periods": {
+          "first": 1745757000,
+          "second": 1745760600
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": null
+        },
+        "away": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213711,
+        "referee": "B. Nijhuis",
+        "timezone": "UTC",
+        "date": "2025-04-20T10:15:00+00:00",
+        "timestamp": 1745144100,
+        "periods": {
+          "first": 1745144100,
+          "second": 1745147700
+        },
+        "venue": {
+          "id": 1154,
+          "name": "Stadion Galgenwaard",
+          "city": "Utrecht"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png",
+          "winner": true
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213720,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-05-11T14:45:00+00:00",
+        "timestamp": 1746974700,
+        "periods": {
+          "first": 1746974700,
+          "second": 1746978300
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        },
+        "away": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213730,
+        "referee": "J. Manschot",
+        "timezone": "UTC",
+        "date": "2025-05-14T18:00:00+00:00",
+        "timestamp": 1747245600,
+        "periods": {
+          "first": 1747245600,
+          "second": 1747249200
+        },
+        "venue": {
+          "id": 12276,
+          "name": "Euroborg",
+          "city": "Groningen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 13
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 202,
+          "name": "Groningen",
+          "logo": "https://media.api-sports.io/football/teams/202.png",
+          "winner": null
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213738,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2025-05-18T12:30:00+00:00",
+        "timestamp": 1747571400,
+        "periods": {
+          "first": 1747571400,
+          "second": 1747575000
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 415,
+          "name": "Twente",
+          "logo": "https://media.api-sports.io/football/teams/415.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225628,
+        "referee": "L. Timmer",
+        "timezone": "UTC",
+        "date": "2024-07-18T16:30:00+00:00",
+        "timestamp": 1721320200,
+        "periods": {
+          "first": 1721320200,
+          "second": 1721323800
+        },
+        "venue": {
+          "id": 1789,
+          "name": "Sportpark De Lok",
+          "city": "Tiel"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1225629,
+        "referee": "R. Hensgens",
+        "timezone": "UTC",
+        "date": "2024-07-19T13:00:00+00:00",
+        "timestamp": 1721394000,
+        "periods": {
+          "first": 1721394000,
+          "second": 1721397600
+        },
+        "venue": {
+          "id": null,
+          "name": "RKSV Driel Stadion",
+          "city": "Driel"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274781,
+        "referee": "F. Glova",
+        "timezone": "UTC",
+        "date": "2024-08-08T18:00:00+00:00",
+        "timestamp": 1723140000,
+        "periods": {
+          "first": 1723140000,
+          "second": 1723143600
+        },
+        "venue": {
+          "id": null,
+          "name": "Olympiako Stadio Spyros Louis",
+          "city": "Athens"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 617,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/football/teams/617.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274782,
+        "referee": "C. Kavanagh",
+        "timezone": "UTC",
+        "date": "2024-08-15T18:15:00+00:00",
+        "timestamp": 1723745700,
+        "periods": {
+          "first": 1723745700,
+          "second": 1723749300
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff Arena",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 617,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/football/teams/617.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 13,
+          "away": 12
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287616,
+        "referee": "R. Obrenovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-08-22T18:45:00+00:00",
+        "timestamp": 1724352300,
+        "periods": {
+          "first": 1724352300,
+          "second": 1724355900
+        },
+        "venue": {
+          "id": 1249,
+          "name": "Stadion Miejski",
+          "city": "Bia\u0142ystok"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 336,
+          "name": "Jagiellonia",
+          "logo": "https://media.api-sports.io/football/teams/336.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287617,
+        "referee": "M. Mariani",
+        "timezone": "UTC",
+        "date": "2024-08-29T18:00:00+00:00",
+        "timestamp": 1724954400,
+        "periods": {
+          "first": 1724954400,
+          "second": 1724958000
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 336,
+          "name": "Jagiellonia",
+          "logo": "https://media.api-sports.io/football/teams/336.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299139,
+        "referee": "J. Brooks",
+        "timezone": "UTC",
+        "date": "2024-09-26T19:00:00+00:00",
+        "timestamp": 1727377200,
+        "periods": {
+          "first": 1727377200,
+          "second": 1727380800
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 549,
+          "name": "Be\u015fikta\u015f",
+          "logo": "https://media.api-sports.io/football/teams/549.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299153,
+        "referee": "A. Treimanis",
+        "timezone": "UTC",
+        "date": "2024-10-03T16:45:00+00:00",
+        "timestamp": 1727973900,
+        "periods": {
+          "first": 1727973900,
+          "second": 1727977500
+        },
+        "venue": {
+          "id": 18856,
+          "name": "Fortuna Arena",
+          "city": "Praha"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png",
+          "winner": null
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299171,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-10-24T16:45:00+00:00",
+        "timestamp": 1729788300,
+        "periods": {
+          "first": 1729788300,
+          "second": 1729791900
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299192,
+        "referee": "O. Berka",
+        "timezone": "UTC",
+        "date": "2024-11-07T20:00:00+00:00",
+        "timestamp": 1731009600,
+        "periods": {
+          "first": 1731009600,
+          "second": 1731013200
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299214,
+        "referee": "M. Jug",
+        "timezone": "UTC",
+        "date": "2024-11-28T20:00:00+00:00",
+        "timestamp": 1732824000,
+        "periods": {
+          "first": 1732824000,
+          "second": 1732827600
+        },
+        "venue": {
+          "id": 1491,
+          "name": "Reale Arena",
+          "city": "Donostia-San Sebasti\u00e1n"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png",
+          "winner": true
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299227,
+        "referee": "I. Kru\u017eliak",
+        "timezone": "UTC",
+        "date": "2024-12-12T20:00:00+00:00",
+        "timestamp": 1734033600,
+        "periods": {
+          "first": 1734033600,
+          "second": 1734037200
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        },
+        "away": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299252,
+        "referee": "M. Barbu",
+        "timezone": "UTC",
+        "date": "2025-01-23T20:00:00+00:00",
+        "timestamp": 1737662400,
+        "periods": {
+          "first": 1737662400,
+          "second": 1737666000
+        },
+        "venue": {
+          "id": null,
+          "name": "Daugavas Stadion\u0101",
+          "city": "Riga"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4160,
+          "name": "R\u012bgas FS",
+          "logo": "https://media.api-sports.io/football/teams/4160.png",
+          "winner": true
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299254,
+        "referee": "Gil Manzano",
+        "timezone": "UTC",
+        "date": "2025-01-30T20:00:00+00:00",
+        "timestamp": 1738267200,
+        "periods": {
+          "first": 1738267200,
+          "second": 1738270800
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314661,
+        "referee": "S. van der Eijk",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/90.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 427,
+          "name": "Telstar",
+          "logo": "https://media.api-sports.io/football/teams/427.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1327590,
+        "referee": "S. G\u00f6z\u00fcb\u00fcy\u00fck",
+        "timezone": "UTC",
+        "date": "2025-01-14T17:45:00+00:00",
+        "timestamp": 1736876700,
+        "periods": {
+          "first": 1736876700,
+          "second": 1736880300
+        },
+        "venue": {
+          "id": 1119,
+          "name": "AFAS Stadion",
+          "city": "Alkmaar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/90.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345757,
+        "referee": "D. Rum\u0161as",
+        "timezone": "UTC",
+        "date": "2025-02-13T17:45:00+00:00",
+        "timestamp": 1739468700,
+        "periods": {
+          "first": 1739468700,
+          "second": 1739472300
+        },
+        "venue": {
+          "id": null,
+          "name": "Stade Roi Baudouin",
+          "city": "Brussel"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1393,
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345758,
+        "referee": "C. Kavanagh",
+        "timezone": "UTC",
+        "date": "2025-02-20T20:00:00+00:00",
+        "timestamp": 1740081600,
+        "periods": {
+          "first": 1740081600,
+          "second": 1740085200
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1393,
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": 1,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353198,
+        "referee": "S. Sozza",
+        "timezone": "UTC",
+        "date": "2025-03-06T20:00:00+00:00",
+        "timestamp": 1741291200,
+        "periods": {
+          "first": 1741291200,
+          "second": 1741294800
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff ArenA",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        },
+        "away": {
+          "id": 169,
+          "name": "Eintracht Frankfurt",
+          "logo": "https://media.api-sports.io/football/teams/169.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353199,
+        "referee": "I. Peljto",
+        "timezone": "UTC",
+        "date": "2025-03-13T17:45:00+00:00",
+        "timestamp": 1741887900,
+        "periods": {
+          "first": 1741887900,
+          "second": 1741891500
+        },
+        "venue": {
+          "id": 10491,
+          "name": "Deutsche Bank Park",
+          "city": "Frankfurt am Main"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 169,
+          "name": "Eintracht Frankfurt",
+          "logo": "https://media.api-sports.io/football/teams/169.png",
+          "winner": true
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

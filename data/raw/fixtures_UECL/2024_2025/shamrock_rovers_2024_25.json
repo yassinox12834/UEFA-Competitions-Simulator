@@ -1,0 +1,4005 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "652"
+  },
+  "errors": [],
+  "results": 57,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1161195,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-27T12:00:00+00:00",
+        "timestamp": 1706356800,
+        "periods": {
+          "first": 1706356800,
+          "second": 1706360400
+        },
+        "venue": {
+          "id": 3884,
+          "name": "Roadstone Sports & Social Club",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3853,
+          "name": "Longford Town",
+          "logo": "https://media.api-sports.io/football/teams/3853.png",
+          "winner": false
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1162616,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-20T00:00:00+00:00",
+        "timestamp": 1705708800,
+        "periods": {
+          "first": 1705708800,
+          "second": 1705712400
+        },
+        "venue": {
+          "id": 3884,
+          "name": "Roadstone Sports & Social Club",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 16498,
+          "name": "Treaty United",
+          "logo": "https://media.api-sports.io/football/teams/16498.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167362,
+        "referee": "R. Hennessy",
+        "timezone": "UTC",
+        "date": "2024-02-16T19:45:00+00:00",
+        "timestamp": 1708112700,
+        "periods": {
+          "first": 1708112700,
+          "second": 1708116300
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        },
+        "away": {
+          "id": 584,
+          "name": "Dundalk",
+          "logo": "https://media.api-sports.io/football/teams/584.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167365,
+        "referee": "R. Harvey",
+        "timezone": "UTC",
+        "date": "2024-02-23T19:45:00+00:00",
+        "timestamp": 1708717500,
+        "periods": {
+          "first": 1708717500,
+          "second": 1708721100
+        },
+        "venue": {
+          "id": 2639,
+          "name": "Tolka Park",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3854,
+          "name": "Shelbourne",
+          "logo": "https://media.api-sports.io/football/teams/3854.png",
+          "winner": true
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167372,
+        "referee": "R. Hennessy",
+        "timezone": "UTC",
+        "date": "2024-04-29T19:00:00+00:00",
+        "timestamp": 1714417200,
+        "periods": {
+          "first": 1714417200,
+          "second": 1714420800
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3850,
+          "name": "Drogheda United",
+          "logo": "https://media.api-sports.io/football/teams/3850.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167377,
+        "referee": "D. McGraith",
+        "timezone": "UTC",
+        "date": "2024-03-04T19:45:00+00:00",
+        "timestamp": 1709581500,
+        "periods": {
+          "first": 1709581500,
+          "second": 1709585100
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        },
+        "away": {
+          "id": 670,
+          "name": "Derry City",
+          "logo": "https://media.api-sports.io/football/teams/670.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167382,
+        "referee": "R. Hennessy",
+        "timezone": "UTC",
+        "date": "2024-03-09T19:45:00+00:00",
+        "timestamp": 1710013500,
+        "periods": {
+          "first": 1710013500,
+          "second": 1710017100
+        },
+        "venue": {
+          "id": 2627,
+          "name": "The Showgrounds",
+          "city": "Sligo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3842,
+          "name": "Sligo Rovers",
+          "logo": "https://media.api-sports.io/football/teams/3842.png",
+          "winner": null
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167385,
+        "referee": "P. McLaughlin",
+        "timezone": "UTC",
+        "date": "2024-03-15T19:45:00+00:00",
+        "timestamp": 1710531900,
+        "periods": {
+          "first": 1710531900,
+          "second": 1710535500
+        },
+        "venue": {
+          "id": 2636,
+          "name": "Eamonn Deacy Park",
+          "city": "Galway"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3851,
+          "name": "Galway United",
+          "logo": "https://media.api-sports.io/football/teams/3851.png",
+          "winner": false
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167392,
+        "referee": "R. Harvey",
+        "timezone": "UTC",
+        "date": "2024-03-29T19:45:00+00:00",
+        "timestamp": 1711741500,
+        "periods": {
+          "first": 1711741500,
+          "second": 1711745100
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3840,
+          "name": "Bohemians",
+          "logo": "https://media.api-sports.io/football/teams/3840.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167396,
+        "referee": "R. Hennessy",
+        "timezone": "UTC",
+        "date": "2024-04-01T16:00:00+00:00",
+        "timestamp": 1711987200,
+        "periods": {
+          "first": 1711987200,
+          "second": 1711990800
+        },
+        "venue": {
+          "id": 2630,
+          "name": "Waterford Regional Sports Centre",
+          "city": "Waterford"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3845,
+          "name": "Waterford",
+          "logo": "https://media.api-sports.io/football/teams/3845.png",
+          "winner": false
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167401,
+        "referee": "D. McGraith",
+        "timezone": "UTC",
+        "date": "2024-04-05T18:45:00+00:00",
+        "timestamp": 1712342700,
+        "periods": {
+          "first": 1712342700,
+          "second": 1712346300
+        },
+        "venue": {
+          "id": 2628,
+          "name": "Richmond Park",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3843,
+          "name": "St Patrick's Athl.",
+          "logo": "https://media.api-sports.io/football/teams/3843.png",
+          "winner": true
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167407,
+        "referee": "K. O'Sullivan",
+        "timezone": "UTC",
+        "date": "2024-04-12T19:00:00+00:00",
+        "timestamp": 1712948400,
+        "periods": {
+          "first": 1712948400,
+          "second": 1712952000
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3842,
+          "name": "Sligo Rovers",
+          "logo": "https://media.api-sports.io/football/teams/3842.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167409,
+        "referee": "P. McLaughlin",
+        "timezone": "UTC",
+        "date": "2024-04-19T18:45:00+00:00",
+        "timestamp": 1713552300,
+        "periods": {
+          "first": 1713552300,
+          "second": 1713555900
+        },
+        "venue": {
+          "id": 1172,
+          "name": "The Ryan McBride Brandywell Stadium",
+          "city": "Londonderry"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 670,
+          "name": "Derry City",
+          "logo": "https://media.api-sports.io/football/teams/670.png",
+          "winner": false
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167417,
+        "referee": "D. Dunne",
+        "timezone": "UTC",
+        "date": "2024-04-26T19:00:00+00:00",
+        "timestamp": 1714158000,
+        "periods": {
+          "first": 1714158000,
+          "second": 1714161600
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3851,
+          "name": "Galway United",
+          "logo": "https://media.api-sports.io/football/teams/3851.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167418,
+        "referee": "D. McGraith",
+        "timezone": "UTC",
+        "date": "2024-05-03T18:45:00+00:00",
+        "timestamp": 1714761900,
+        "periods": {
+          "first": 1714761900,
+          "second": 1714765500
+        },
+        "venue": {
+          "id": 2625,
+          "name": "Dalymount Park",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3840,
+          "name": "Bohemians",
+          "logo": "https://media.api-sports.io/football/teams/3840.png",
+          "winner": null
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167426,
+        "referee": "E. O'Shea",
+        "timezone": "UTC",
+        "date": "2024-05-06T16:00:00+00:00",
+        "timestamp": 1715011200,
+        "periods": {
+          "first": 1715011200,
+          "second": 1715014800
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3845,
+          "name": "Waterford",
+          "logo": "https://media.api-sports.io/football/teams/3845.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167432,
+        "referee": "P. McLaughlin",
+        "timezone": "UTC",
+        "date": "2024-05-10T18:45:00+00:00",
+        "timestamp": 1715366700,
+        "periods": {
+          "first": 1715366700,
+          "second": 1715370300
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3843,
+          "name": "St Patrick's Athl.",
+          "logo": "https://media.api-sports.io/football/teams/3843.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167434,
+        "referee": "A. Patchell",
+        "timezone": "UTC",
+        "date": "2024-05-17T18:45:00+00:00",
+        "timestamp": 1715971500,
+        "periods": {
+          "first": 1715971500,
+          "second": 1715975100
+        },
+        "venue": {
+          "id": 864,
+          "name": "Oriel Park",
+          "city": "Dundalk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 584,
+          "name": "Dundalk",
+          "logo": "https://media.api-sports.io/football/teams/584.png",
+          "winner": true
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167442,
+        "referee": "P. McLaughlin",
+        "timezone": "UTC",
+        "date": "2024-05-24T19:00:00+00:00",
+        "timestamp": 1716577200,
+        "periods": {
+          "first": 1716577200,
+          "second": 1716580800
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3854,
+          "name": "Shelbourne",
+          "logo": "https://media.api-sports.io/football/teams/3854.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167443,
+        "referee": "R. Harvey",
+        "timezone": "UTC",
+        "date": "2024-05-31T18:45:00+00:00",
+        "timestamp": 1717181100,
+        "periods": {
+          "first": 1717181100,
+          "second": 1717184700
+        },
+        "venue": {
+          "id": 19514,
+          "name": "Weavers Park",
+          "city": "Drogheda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3850,
+          "name": "Drogheda United",
+          "logo": "https://media.api-sports.io/football/teams/3850.png",
+          "winner": false
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167450,
+        "referee": "N. Doyle",
+        "timezone": "UTC",
+        "date": "2024-09-16T18:45:00+00:00",
+        "timestamp": 1726512300,
+        "periods": {
+          "first": 1726512300,
+          "second": 1726515900
+        },
+        "venue": {
+          "id": 2636,
+          "name": "Eamonn Deacy Park",
+          "city": "Galway"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3851,
+          "name": "Galway United",
+          "logo": "https://media.api-sports.io/football/teams/3851.png",
+          "winner": false
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167457,
+        "referee": "R. Hennessy",
+        "timezone": "UTC",
+        "date": "2024-09-23T18:45:00+00:00",
+        "timestamp": 1727117100,
+        "periods": {
+          "first": 1727117100,
+          "second": 1727120700
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3840,
+          "name": "Bohemians",
+          "logo": "https://media.api-sports.io/football/teams/3840.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167461,
+        "referee": "D. McGraith",
+        "timezone": "UTC",
+        "date": "2024-06-13T18:45:00+00:00",
+        "timestamp": 1718304300,
+        "periods": {
+          "first": 1718304300,
+          "second": 1718307900
+        },
+        "venue": {
+          "id": 2628,
+          "name": "Richmond Park",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3843,
+          "name": "St Patrick's Athl.",
+          "logo": "https://media.api-sports.io/football/teams/3843.png",
+          "winner": true
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167466,
+        "referee": "E. O'Shea",
+        "timezone": "UTC",
+        "date": "2024-06-28T18:45:00+00:00",
+        "timestamp": 1719600300,
+        "periods": {
+          "first": 1719600300,
+          "second": 1719603900
+        },
+        "venue": {
+          "id": 2627,
+          "name": "The Showgrounds",
+          "city": "Sligo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3842,
+          "name": "Sligo Rovers",
+          "logo": "https://media.api-sports.io/football/teams/3842.png",
+          "winner": true
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167472,
+        "referee": "M. Lynch",
+        "timezone": "UTC",
+        "date": "2024-07-04T19:00:00+00:00",
+        "timestamp": 1720119600,
+        "periods": {
+          "first": 1720119600,
+          "second": 1720123200
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 584,
+          "name": "Dundalk",
+          "logo": "https://media.api-sports.io/football/teams/584.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167474,
+        "referee": "R. Hennessy",
+        "timezone": "UTC",
+        "date": "2024-04-22T18:45:00+00:00",
+        "timestamp": 1713811500,
+        "periods": {
+          "first": 1713811500,
+          "second": 1713815100
+        },
+        "venue": {
+          "id": 2639,
+          "name": "Tolka Park",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3854,
+          "name": "Shelbourne",
+          "logo": "https://media.api-sports.io/football/teams/3854.png",
+          "winner": null
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167479,
+        "referee": "D. McGraith",
+        "timezone": "UTC",
+        "date": "2024-05-20T19:00:00+00:00",
+        "timestamp": 1716231600,
+        "periods": {
+          "first": 1716231600,
+          "second": 1716235200
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 670,
+          "name": "Derry City",
+          "logo": "https://media.api-sports.io/football/teams/670.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167487,
+        "referee": "P. McLaughlin",
+        "timezone": "UTC",
+        "date": "2024-08-02T18:45:00+00:00",
+        "timestamp": 1722624300,
+        "periods": {
+          "first": 1722624300,
+          "second": 1722627900
+        },
+        "venue": {
+          "id": 2630,
+          "name": "Waterford Regional Sports Centre",
+          "city": "Waterford"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3845,
+          "name": "Waterford",
+          "logo": "https://media.api-sports.io/football/teams/3845.png",
+          "winner": false
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167491,
+        "referee": "R. Hennessy",
+        "timezone": "UTC",
+        "date": "2024-08-11T18:00:00+00:00",
+        "timestamp": 1723399200,
+        "periods": {
+          "first": 1723399200,
+          "second": 1723402800
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3850,
+          "name": "Drogheda United",
+          "logo": "https://media.api-sports.io/football/teams/3850.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167497,
+        "referee": "G. Colfer",
+        "timezone": "UTC",
+        "date": "2024-08-25T18:00:00+00:00",
+        "timestamp": 1724608800,
+        "periods": {
+          "first": 1724608800,
+          "second": 1724612400
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3851,
+          "name": "Galway United",
+          "logo": "https://media.api-sports.io/football/teams/3851.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167498,
+        "referee": "P. McLaughlin",
+        "timezone": "UTC",
+        "date": "2024-09-01T10:30:00+00:00",
+        "timestamp": 1725186600,
+        "periods": {
+          "first": 1725186600,
+          "second": 1725190200
+        },
+        "venue": {
+          "id": 2625,
+          "name": "Dalymount Park",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3840,
+          "name": "Bohemians",
+          "logo": "https://media.api-sports.io/football/teams/3840.png",
+          "winner": true
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167507,
+        "referee": "K. O'Sullivan",
+        "timezone": "UTC",
+        "date": "2024-09-13T18:45:00+00:00",
+        "timestamp": 1726253100,
+        "periods": {
+          "first": 1726253100,
+          "second": 1726256700
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3842,
+          "name": "Sligo Rovers",
+          "logo": "https://media.api-sports.io/football/teams/3842.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167509,
+        "referee": "D. McGraith",
+        "timezone": "UTC",
+        "date": "2024-09-20T18:45:00+00:00",
+        "timestamp": 1726857900,
+        "periods": {
+          "first": 1726857900,
+          "second": 1726861500
+        },
+        "venue": {
+          "id": 1172,
+          "name": "The Ryan McBride Brandywell Stadium",
+          "city": "Londonderry"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 670,
+          "name": "Derry City",
+          "logo": "https://media.api-sports.io/football/teams/670.png",
+          "winner": null
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167517,
+        "referee": "R. Harvey",
+        "timezone": "UTC",
+        "date": "2024-09-27T19:00:00+00:00",
+        "timestamp": 1727463600,
+        "periods": {
+          "first": 1727463600,
+          "second": 1727467200
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3843,
+          "name": "St Patrick's Athl.",
+          "logo": "https://media.api-sports.io/football/teams/3843.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167522,
+        "referee": "N. Doyle",
+        "timezone": "UTC",
+        "date": "2024-10-06T16:45:00+00:00",
+        "timestamp": 1728233100,
+        "periods": {
+          "first": 1728233100,
+          "second": 1728236700
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3854,
+          "name": "Shelbourne",
+          "logo": "https://media.api-sports.io/football/teams/3854.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167523,
+        "referee": "K. O'Sullivan",
+        "timezone": "UTC",
+        "date": "2024-10-18T18:45:00+00:00",
+        "timestamp": 1729277100,
+        "periods": {
+          "first": 1729277100,
+          "second": 1729280700
+        },
+        "venue": {
+          "id": 19514,
+          "name": "Weavers Park",
+          "city": "Drogheda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3850,
+          "name": "Drogheda United",
+          "logo": "https://media.api-sports.io/football/teams/3850.png",
+          "winner": false
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167528,
+        "referee": "R. Harvey",
+        "timezone": "UTC",
+        "date": "2024-10-27T17:45:00+00:00",
+        "timestamp": 1730051100,
+        "periods": {
+          "first": 1730051100,
+          "second": 1730054700
+        },
+        "venue": {
+          "id": 864,
+          "name": "Oriel Park",
+          "city": "Dundalk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 35",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 584,
+          "name": "Dundalk",
+          "logo": "https://media.api-sports.io/football/teams/584.png",
+          "winner": false
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167536,
+        "referee": "N. Doyle",
+        "timezone": "UTC",
+        "date": "2024-11-01T19:45:00+00:00",
+        "timestamp": 1730490300,
+        "periods": {
+          "first": 1730490300,
+          "second": 1730493900
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 357,
+        "name": "Premier Division",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/357.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "Regular Season - 36",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3845,
+          "name": "Waterford",
+          "logo": "https://media.api-sports.io/football/teams/3845.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202934,
+        "referee": "R. Hennessey",
+        "timezone": "UTC",
+        "date": "2024-07-19T18:45:00+00:00",
+        "timestamp": 1721414700,
+        "periods": {
+          "first": 1721414700,
+          "second": 1721418300
+        },
+        "venue": {
+          "id": 2625,
+          "name": "Dalymount Park",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 359,
+        "name": "FAI Cup",
+        "country": "Ireland",
+        "logo": "https://media.api-sports.io/football/leagues/359.png",
+        "flag": "https://media.api-sports.io/flags/ie.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3840,
+          "name": "Bohemians",
+          "logo": "https://media.api-sports.io/football/teams/3840.png",
+          "winner": true
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208422,
+        "referee": "S. Kringstad",
+        "timezone": "UTC",
+        "date": "2024-07-09T18:45:00+00:00",
+        "timestamp": 1720550700,
+        "periods": {
+          "first": 1720550700,
+          "second": 1720554300
+        },
+        "venue": {
+          "id": 831,
+          "name": "V\u00edkingsv\u00f6llur",
+          "city": "Reykjav\u00edk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 278,
+          "name": "Vikingur Reykjavik",
+          "logo": "https://media.api-sports.io/football/teams/278.png",
+          "winner": null
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208423,
+        "referee": "J. Gillett",
+        "timezone": "UTC",
+        "date": "2024-07-16T19:00:00+00:00",
+        "timestamp": 1721156400,
+        "periods": {
+          "first": 1721156400,
+          "second": 1721160000
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 278,
+          "name": "Vikingur Reykjavik",
+          "logo": "https://media.api-sports.io/football/teams/278.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1245600,
+        "referee": "J. Kooij",
+        "timezone": "UTC",
+        "date": "2024-07-23T19:00:00+00:00",
+        "timestamp": 1721761200,
+        "periods": {
+          "first": 1721761200,
+          "second": 1721764800
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        },
+        "away": {
+          "id": 628,
+          "name": "Sparta Praha",
+          "logo": "https://media.api-sports.io/football/teams/628.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1245601,
+        "referee": "S. Sozza",
+        "timezone": "UTC",
+        "date": "2024-07-30T17:00:00+00:00",
+        "timestamp": 1722358800,
+        "periods": {
+          "first": 1722358800,
+          "second": 1722362400
+        },
+        "venue": {
+          "id": 19513,
+          "name": "epet ARENA",
+          "city": "Praha"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 628,
+          "name": "Sparta Praha",
+          "logo": "https://media.api-sports.io/football/teams/628.png",
+          "winner": true
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273692,
+        "referee": "D. Sylwestrzak",
+        "timezone": "UTC",
+        "date": "2024-08-08T18:15:00+00:00",
+        "timestamp": 1723140900,
+        "periods": {
+          "first": 1723140900,
+          "second": 1723144500
+        },
+        "venue": {
+          "id": 3332,
+          "name": "Stadion Z'de\u017eele",
+          "city": "Celje"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4360,
+          "name": "Celje",
+          "logo": "https://media.api-sports.io/football/teams/4360.png",
+          "winner": true
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273693,
+        "referee": "O. Ha\u021began",
+        "timezone": "UTC",
+        "date": "2024-08-15T19:00:00+00:00",
+        "timestamp": 1723748400,
+        "periods": {
+          "first": 1723748400,
+          "second": 1723752000
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4360,
+          "name": "Celje",
+          "logo": "https://media.api-sports.io/football/teams/4360.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": 1,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287618,
+        "referee": "E. Jorgji",
+        "timezone": "UTC",
+        "date": "2024-08-22T17:30:00+00:00",
+        "timestamp": 1724347800,
+        "periods": {
+          "first": 1724347800,
+          "second": 1724351400
+        },
+        "venue": {
+          "id": 780,
+          "name": "Stadio Toumbas",
+          "city": "Thessalon\u00edki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 619,
+          "name": "PAOK",
+          "logo": "https://media.api-sports.io/football/teams/619.png",
+          "winner": true
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287619,
+        "referee": "D. Rum\u0161as",
+        "timezone": "UTC",
+        "date": "2024-08-29T19:00:00+00:00",
+        "timestamp": 1724958000,
+        "periods": {
+          "first": 1724958000,
+          "second": 1724961600
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        },
+        "away": {
+          "id": 619,
+          "name": "PAOK",
+          "logo": "https://media.api-sports.io/football/teams/619.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299310,
+        "referee": "J. Pignard",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2247,
+          "name": "Apoel Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/2247.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299317,
+        "referee": "V. Fotias",
+        "timezone": "UTC",
+        "date": "2024-10-24T16:45:00+00:00",
+        "timestamp": 1729788300,
+        "periods": {
+          "first": 1729788300,
+          "second": 1729791900
+        },
+        "venue": {
+          "id": 1971,
+          "name": "Windsor Park",
+          "city": "Belfast"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5354,
+          "name": "Larne",
+          "logo": "https://media.api-sports.io/football/teams/5354.png",
+          "winner": false
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299335,
+        "referee": "S. Levi",
+        "timezone": "UTC",
+        "date": "2024-11-07T17:45:00+00:00",
+        "timestamp": 1731001500,
+        "periods": {
+          "first": 1731001500,
+          "second": 1731005100
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299364,
+        "referee": "G. Bog\u00e1r",
+        "timezone": "UTC",
+        "date": "2024-11-28T20:00:00+00:00",
+        "timestamp": 1732824000,
+        "periods": {
+          "first": 1732824000,
+          "second": 1732827600
+        },
+        "venue": {
+          "id": 145,
+          "name": "Allianz Stadion",
+          "city": "Wien"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png",
+          "winner": null
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299380,
+        "referee": "S. Ebner",
+        "timezone": "UTC",
+        "date": "2024-12-12T20:00:00+00:00",
+        "timestamp": 1734033600,
+        "periods": {
+          "first": 1734033600,
+          "second": 1734037200
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3364,
+          "name": "Borac Banja Luka",
+          "logo": "https://media.api-sports.io/football/teams/3364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299386,
+        "referee": "W. Delajod",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 519,
+          "name": "Stamford Bridge",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
+          "winner": true
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314897,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-11-21T19:00:00+00:00",
+        "timestamp": 1732215600,
+        "periods": {
+          "first": 1732215600,
+          "second": 1732219200
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314898,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-11-22T13:00:00+00:00",
+        "timestamp": 1732280400,
+        "periods": {
+          "first": 1732280400,
+          "second": 1732284000
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1325910,
+        "referee": "A. Treimanis",
+        "timezone": "UTC",
+        "date": "2025-02-13T17:45:00+00:00",
+        "timestamp": 1739468700,
+        "periods": {
+          "first": 1739468700,
+          "second": 1739472300
+        },
+        "venue": {
+          "id": 1184,
+          "name": "Aker Stadion",
+          "city": "Molde"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 329,
+          "name": "Molde",
+          "logo": "https://media.api-sports.io/football/teams/329.png",
+          "winner": false
+        },
+        "away": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1325911,
+        "referee": "A. Sidiropoulos",
+        "timezone": "UTC",
+        "date": "2025-02-20T20:00:00+00:00",
+        "timestamp": 1740081600,
+        "periods": {
+          "first": 1740081600,
+          "second": 1740085200
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        },
+        "away": {
+          "id": 329,
+          "name": "Molde",
+          "logo": "https://media.api-sports.io/football/teams/329.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 4,
+          "away": 5
+        }
+      }
+    }
+  ]
+}

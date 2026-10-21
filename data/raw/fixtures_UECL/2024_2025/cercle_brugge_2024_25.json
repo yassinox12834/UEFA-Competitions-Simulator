@@ -1,0 +1,4005 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "741"
+  },
+  "errors": [],
+  "results": 57,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1208977,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-06T12:00:00+00:00",
+        "timestamp": 1720267200,
+        "periods": {
+          "first": 1720267200,
+          "second": 1720270800
+        },
+        "venue": {
+          "id": 11988,
+          "name": "Sportpark De Wie\u00ebn",
+          "city": "Venray"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 614,
+          "name": "AEK Larnaca",
+          "logo": "https://media.api-sports.io/football/teams/614.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209017,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T08:30:00+00:00",
+        "timestamp": 1720859400,
+        "periods": {
+          "first": 1720859400,
+          "second": 1720863000
+        },
+        "venue": {
+          "id": null,
+          "name": "CMB Training Centre",
+          "city": "La Turbie"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media.api-sports.io/football/teams/91.png",
+          "winner": null
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209241,
+        "referee": "M. Doh\u00e1l",
+        "timezone": "UTC",
+        "date": "2024-07-25T18:30:00+00:00",
+        "timestamp": 1721932200,
+        "periods": {
+          "first": 1721932200,
+          "second": 1721935800
+        },
+        "venue": {
+          "id": 19215,
+          "name": "The BBSP Stadium Rugby Park",
+          "city": "Kilmarnock"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": null
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209242,
+        "referee": "A. \u010culina",
+        "timezone": "UTC",
+        "date": "2024-08-01T18:00:00+00:00",
+        "timestamp": 1722535200,
+        "periods": {
+          "first": 1722535200,
+          "second": 1722538800
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1210216,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-20T11:00:00+00:00",
+        "timestamp": 1721473200,
+        "periods": {
+          "first": 1721473200,
+          "second": 1721476800
+        },
+        "venue": {
+          "id": 12031,
+          "name": "Sportcomplex Varkenoord 1",
+          "city": "Rotterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213208,
+        "referee": "K. Van Damme",
+        "timezone": "UTC",
+        "date": "2024-07-28T17:15:00+00:00",
+        "timestamp": 1722186900,
+        "periods": {
+          "first": 1722186900,
+          "second": 1722190500
+        },
+        "venue": {
+          "id": 195,
+          "name": "Het Kuipje",
+          "city": "Westerlo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 261,
+          "name": "KVC Westerlo",
+          "logo": "https://media.api-sports.io/football/teams/261.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213214,
+        "referee": "W. Smet",
+        "timezone": "UTC",
+        "date": "2024-08-04T14:00:00+00:00",
+        "timestamp": 1722780000,
+        "periods": {
+          "first": 1722780000,
+          "second": 1722783600
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        },
+        "away": {
+          "id": 734,
+          "name": "Kortrijk",
+          "logo": "https://media.api-sports.io/football/teams/734.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213224,
+        "referee": "N. Verboomen",
+        "timezone": "UTC",
+        "date": "2024-08-11T17:15:00+00:00",
+        "timestamp": 1723396500,
+        "periods": {
+          "first": 1723396500,
+          "second": 1723400100
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 263,
+          "name": "Beerschot VA",
+          "logo": "https://media.api-sports.io/football/teams/263.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213230,
+        "referee": "B. Van Driessche",
+        "timezone": "UTC",
+        "date": "2024-08-18T14:00:00+00:00",
+        "timestamp": 1723989600,
+        "periods": {
+          "first": 1723989600,
+          "second": 1723993200
+        },
+        "venue": {
+          "id": 186,
+          "name": "King Power at Den Dreef Stadion",
+          "city": "Heverlee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 260,
+          "name": "OH Leuven",
+          "logo": "https://media.api-sports.io/football/teams/260.png",
+          "winner": null
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213234,
+        "referee": "J. Boterberg",
+        "timezone": "UTC",
+        "date": "2024-09-26T18:45:00+00:00",
+        "timestamp": 1727376300,
+        "periods": {
+          "first": 1727376300,
+          "second": 1727379900
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213245,
+        "referee": "J. Vergoote",
+        "timezone": "UTC",
+        "date": "2024-09-01T11:30:00+00:00",
+        "timestamp": 1725190200,
+        "periods": {
+          "first": 1725190200,
+          "second": 1725193800
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213250,
+        "referee": "B. Put",
+        "timezone": "UTC",
+        "date": "2024-09-14T14:00:00+00:00",
+        "timestamp": 1726322400,
+        "periods": {
+          "first": 1726322400,
+          "second": 1726326000
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        },
+        "away": {
+          "id": 742,
+          "name": "Genk",
+          "logo": "https://media.api-sports.io/football/teams/742.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213263,
+        "referee": "S. Bourdeaud'hui",
+        "timezone": "UTC",
+        "date": "2024-09-22T14:00:00+00:00",
+        "timestamp": 1727013600,
+        "periods": {
+          "first": 1727013600,
+          "second": 1727017200
+        },
+        "venue": {
+          "id": 20336,
+          "name": "AFAS Stadion",
+          "city": "Malines"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 266,
+          "name": "KV Mechelen",
+          "logo": "https://media.api-sports.io/football/teams/266.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213270,
+        "referee": "W. Smet",
+        "timezone": "UTC",
+        "date": "2024-09-29T17:15:00+00:00",
+        "timestamp": 1727630100,
+        "periods": {
+          "first": 1727630100,
+          "second": 1727633700
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        },
+        "away": {
+          "id": 735,
+          "name": "St. Truiden",
+          "logo": "https://media.api-sports.io/football/teams/735.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213275,
+        "referee": "N. Laforge",
+        "timezone": "UTC",
+        "date": "2024-10-06T14:00:00+00:00",
+        "timestamp": 1728223200,
+        "periods": {
+          "first": 1728223200,
+          "second": 1728226800
+        },
+        "venue": {
+          "id": 175,
+          "name": "Bosuilstadion",
+          "city": "Deurne"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 740,
+          "name": "Antwerp",
+          "logo": "https://media.api-sports.io/football/teams/740.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213285,
+        "referee": "B. Put",
+        "timezone": "UTC",
+        "date": "2024-10-19T16:15:00+00:00",
+        "timestamp": 1729354500,
+        "periods": {
+          "first": 1729354500,
+          "second": 1729358100
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        },
+        "away": {
+          "id": 6215,
+          "name": "Dender",
+          "logo": "https://media.api-sports.io/football/teams/6215.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213290,
+        "referee": "B. Van Driessche",
+        "timezone": "UTC",
+        "date": "2024-10-27T18:15:00+00:00",
+        "timestamp": 1730052900,
+        "periods": {
+          "first": 1730052900,
+          "second": 1730056500
+        },
+        "venue": {
+          "id": 194,
+          "name": "Stade Joseph Mari\u00ebn",
+          "city": "Brussels"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1393,
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png",
+          "winner": false
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213301,
+        "referee": "J. Vergoote",
+        "timezone": "UTC",
+        "date": "2024-11-03T15:00:00+00:00",
+        "timestamp": 1730646000,
+        "periods": {
+          "first": 1730646000,
+          "second": 1730649600
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 736,
+          "name": "Charleroi",
+          "logo": "https://media.api-sports.io/football/teams/736.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213309,
+        "referee": "K. Clerkx",
+        "timezone": "UTC",
+        "date": "2024-11-10T12:30:00+00:00",
+        "timestamp": 1731241800,
+        "periods": {
+          "first": 1731241800,
+          "second": 1731245400
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        },
+        "away": {
+          "id": 554,
+          "name": "Anderlecht",
+          "logo": "https://media.api-sports.io/football/teams/554.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213317,
+        "referee": "S. Bourdeaud'hui",
+        "timezone": "UTC",
+        "date": "2024-11-23T17:15:00+00:00",
+        "timestamp": 1732382100,
+        "periods": {
+          "first": 1732382100,
+          "second": 1732385700
+        },
+        "venue": {
+          "id": 192,
+          "name": "Stade Maurice Dufrasne",
+          "city": "Luik"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 733,
+          "name": "Standard Liege",
+          "logo": "https://media.api-sports.io/football/teams/733.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213324,
+        "referee": "K. Van Damme",
+        "timezone": "UTC",
+        "date": "2024-12-01T15:00:00+00:00",
+        "timestamp": 1733065200,
+        "periods": {
+          "first": 1733065200,
+          "second": 1733068800
+        },
+        "venue": {
+          "id": 181,
+          "name": "Olympisch Stadion",
+          "city": "Anvers"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 263,
+          "name": "Beerschot VA",
+          "logo": "https://media.api-sports.io/football/teams/263.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213334,
+        "referee": "L. D'hondt",
+        "timezone": "UTC",
+        "date": "2024-12-08T15:00:00+00:00",
+        "timestamp": 1733670000,
+        "periods": {
+          "first": 1733670000,
+          "second": 1733673600
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1393,
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213339,
+        "referee": "J. Boterberg",
+        "timezone": "UTC",
+        "date": "2024-12-15T18:15:00+00:00",
+        "timestamp": 1734286500,
+        "periods": {
+          "first": 1734286500,
+          "second": 1734290100
+        },
+        "venue": {
+          "id": 20727,
+          "name": "Planet Group Arena",
+          "city": "Gent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 631,
+          "name": "Gent",
+          "logo": "https://media.api-sports.io/football/teams/631.png",
+          "winner": null
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213349,
+        "referee": "M. Allaerts",
+        "timezone": "UTC",
+        "date": "2024-12-22T18:15:00+00:00",
+        "timestamp": 1734891300,
+        "periods": {
+          "first": 1734891300,
+          "second": 1734894900
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 260,
+          "name": "OH Leuven",
+          "logo": "https://media.api-sports.io/football/teams/260.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213360,
+        "referee": "B. Van Driessche",
+        "timezone": "UTC",
+        "date": "2024-12-27T19:45:00+00:00",
+        "timestamp": 1735328700,
+        "periods": {
+          "first": 1735328700,
+          "second": 1735332300
+        },
+        "venue": {
+          "id": 19611,
+          "name": "Daio Wasabi Stayen Stadium",
+          "city": "St.-Trond"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 735,
+          "name": "St. Truiden",
+          "logo": "https://media.api-sports.io/football/teams/735.png",
+          "winner": null
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213365,
+        "referee": "W. Smet",
+        "timezone": "UTC",
+        "date": "2025-01-12T18:15:00+00:00",
+        "timestamp": 1736705700,
+        "periods": {
+          "first": 1736705700,
+          "second": 1736709300
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 266,
+          "name": "KV Mechelen",
+          "logo": "https://media.api-sports.io/football/teams/266.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213376,
+        "referee": "E. Lambrechts",
+        "timezone": "UTC",
+        "date": "2025-01-18T15:00:00+00:00",
+        "timestamp": 1737212400,
+        "periods": {
+          "first": 1737212400,
+          "second": 1737216000
+        },
+        "venue": {
+          "id": 19052,
+          "name": "DENDER Football Complex",
+          "city": "Denderleeuw"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6215,
+          "name": "Dender",
+          "logo": "https://media.api-sports.io/football/teams/6215.png",
+          "winner": false
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213384,
+        "referee": "M. Allaerts",
+        "timezone": "UTC",
+        "date": "2025-01-25T17:15:00+00:00",
+        "timestamp": 1737825300,
+        "periods": {
+          "first": 1737825300,
+          "second": 1737828900
+        },
+        "venue": {
+          "id": 177,
+          "name": "Stade du Pays de Charleroi",
+          "city": "Charleroi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 736,
+          "name": "Charleroi",
+          "logo": "https://media.api-sports.io/football/teams/736.png",
+          "winner": null
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213390,
+        "referee": "W. Smet",
+        "timezone": "UTC",
+        "date": "2025-02-01T17:15:00+00:00",
+        "timestamp": 1738430100,
+        "periods": {
+          "first": 1738430100,
+          "second": 1738433700
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        },
+        "away": {
+          "id": 733,
+          "name": "Standard Liege",
+          "logo": "https://media.api-sports.io/football/teams/733.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213395,
+        "referee": "K. Van Damme",
+        "timezone": "UTC",
+        "date": "2025-02-08T19:45:00+00:00",
+        "timestamp": 1739043900,
+        "periods": {
+          "first": 1739043900,
+          "second": 1739047500
+        },
+        "venue": {
+          "id": 12455,
+          "name": "Cegeka Arena",
+          "city": "Genk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 742,
+          "name": "Genk",
+          "logo": "https://media.api-sports.io/football/teams/742.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213405,
+        "referee": "N. Verboomen",
+        "timezone": "UTC",
+        "date": "2025-02-16T18:15:00+00:00",
+        "timestamp": 1739729700,
+        "periods": {
+          "first": 1739729700,
+          "second": 1739733300
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        },
+        "away": {
+          "id": 261,
+          "name": "KVC Westerlo",
+          "logo": "https://media.api-sports.io/football/teams/261.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213413,
+        "referee": "L. D'hondt",
+        "timezone": "UTC",
+        "date": "2025-02-23T18:15:00+00:00",
+        "timestamp": 1740334500,
+        "periods": {
+          "first": 1740334500,
+          "second": 1740338100
+        },
+        "venue": {
+          "id": 182,
+          "name": "Guldensporenstadion",
+          "city": "Kortrijk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 734,
+          "name": "Kortrijk",
+          "logo": "https://media.api-sports.io/football/teams/734.png",
+          "winner": null
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213421,
+        "referee": "B. Put",
+        "timezone": "UTC",
+        "date": "2025-03-01T15:00:00+00:00",
+        "timestamp": 1740841200,
+        "periods": {
+          "first": 1740841200,
+          "second": 1740844800
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        },
+        "away": {
+          "id": 740,
+          "name": "Antwerp",
+          "logo": "https://media.api-sports.io/football/teams/740.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213428,
+        "referee": "B. Van Driessche",
+        "timezone": "UTC",
+        "date": "2025-03-09T12:30:00+00:00",
+        "timestamp": 1741523400,
+        "periods": {
+          "first": 1741523400,
+          "second": 1741527000
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        },
+        "away": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1213434,
+        "referee": "L. D'hondt",
+        "timezone": "UTC",
+        "date": "2025-03-16T17:30:00+00:00",
+        "timestamp": 1742146200,
+        "periods": {
+          "first": 1742146200,
+          "second": 1742149800
+        },
+        "venue": {
+          "id": 174,
+          "name": "Lotto Park",
+          "city": "Brussel"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 554,
+          "name": "Anderlecht",
+          "logo": "https://media.api-sports.io/football/teams/554.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274779,
+        "referee": "Lu\u00eds Godinho",
+        "timezone": "UTC",
+        "date": "2024-08-08T17:00:00+00:00",
+        "timestamp": 1723136400,
+        "periods": {
+          "first": 1723136400,
+          "second": 1723140000
+        },
+        "venue": {
+          "id": 1184,
+          "name": "Aker Stadion",
+          "city": "Molde"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 329,
+          "name": "Molde",
+          "logo": "https://media.api-sports.io/football/teams/329.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274780,
+        "referee": "B. Berke",
+        "timezone": "UTC",
+        "date": "2024-08-15T18:00:00+00:00",
+        "timestamp": 1723744800,
+        "periods": {
+          "first": 1723744800,
+          "second": 1723748400
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 329,
+          "name": "Molde",
+          "logo": "https://media.api-sports.io/football/teams/329.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287568,
+        "referee": "P. Farrugia",
+        "timezone": "UTC",
+        "date": "2024-08-22T18:30:00+00:00",
+        "timestamp": 1724351400,
+        "periods": {
+          "first": 1724351400,
+          "second": 1724355000
+        },
+        "venue": {
+          "id": 1258,
+          "name": "Stadion Miejski im. Henryka Reymana",
+          "city": "Krak\u00f3w"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 338,
+          "name": "Wisla Krakow",
+          "logo": "https://media.api-sports.io/football/teams/338.png",
+          "winner": false
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287569,
+        "referee": "H. Fe\u0219nic",
+        "timezone": "UTC",
+        "date": "2024-08-29T18:00:00+00:00",
+        "timestamp": 1724954400,
+        "periods": {
+          "first": 1724954400,
+          "second": 1724958000
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        },
+        "away": {
+          "id": 338,
+          "name": "Wisla Krakow",
+          "logo": "https://media.api-sports.io/football/teams/338.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299296,
+        "referee": "A. Karde\u015fler",
+        "timezone": "UTC",
+        "date": "2024-10-03T16:45:00+00:00",
+        "timestamp": 1727973900,
+        "periods": {
+          "first": 1727973900,
+          "second": 1727977500
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1011,
+          "name": "FC ST. Gallen",
+          "logo": "https://media.api-sports.io/football/teams/1011.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299328,
+        "referee": "V. Spasjo\u0146\u0146ikovs",
+        "timezone": "UTC",
+        "date": "2024-10-24T14:30:00+00:00",
+        "timestamp": 1729780200,
+        "periods": {
+          "first": 1729780200,
+          "second": 1729783800
+        },
+        "venue": {
+          "id": 820,
+          "name": "K\u00f3pavogsv\u00f6llur",
+          "city": "K\u00f3pavogur"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 278,
+          "name": "Vikingur Reykjavik",
+          "logo": "https://media.api-sports.io/football/teams/278.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299344,
+        "referee": "R. Gidzhenov",
+        "timezone": "UTC",
+        "date": "2024-11-07T20:00:00+00:00",
+        "timestamp": 1731009600,
+        "periods": {
+          "first": 1731009600,
+          "second": 1731013200
+        },
+        "venue": {
+          "id": null,
+          "name": "Raiffeisen Arena",
+          "city": "Linz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1026,
+          "name": "Lask Linz",
+          "logo": "https://media.api-sports.io/football/teams/1026.png",
+          "winner": null
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299350,
+        "referee": "E. M\u0259siyev",
+        "timezone": "UTC",
+        "date": "2024-11-28T17:45:00+00:00",
+        "timestamp": 1732815900,
+        "periods": {
+          "first": 1732815900,
+          "second": 1732819500
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299374,
+        "referee": "A. Ladeb\u00e4ck",
+        "timezone": "UTC",
+        "date": "2024-12-12T17:45:00+00:00",
+        "timestamp": 1734025500,
+        "periods": {
+          "first": 1734025500,
+          "second": 1734029100
+        },
+        "venue": {
+          "id": 1442,
+          "name": "Stadion Sto\u017eice",
+          "city": "Ljubljana"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 677,
+          "name": "Olimpija Ljubljana",
+          "logo": "https://media.api-sports.io/football/teams/677.png",
+          "winner": false
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299385,
+        "referee": "I. Vad II",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        },
+        "away": {
+          "id": 564,
+          "name": "Ba\u015fak\u015fehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1304291,
+        "referee": "B. Verbeke",
+        "timezone": "UTC",
+        "date": "2024-10-31T19:00:00+00:00",
+        "timestamp": 1730401200,
+        "periods": {
+          "first": 1730401200,
+          "second": 1730404800
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 147,
+        "name": "Cup",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/147.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Round of 32",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6221,
+          "name": "Olympic Charleroi",
+          "logo": "https://media.api-sports.io/football/teams/6221.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314656,
+        "referee": "M. Allaerts",
+        "timezone": "UTC",
+        "date": "2024-12-04T19:30:00+00:00",
+        "timestamp": 1733340600,
+        "periods": {
+          "first": 1733340600,
+          "second": 1733344200
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 147,
+        "name": "Cup",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/147.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        },
+        "away": {
+          "id": 735,
+          "name": "St. Truiden",
+          "logo": "https://media.api-sports.io/football/teams/735.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353210,
+        "referee": "A. Sidiropoulos",
+        "timezone": "UTC",
+        "date": "2025-03-06T20:00:00+00:00",
+        "timestamp": 1741291200,
+        "periods": {
+          "first": 1741291200,
+          "second": 1741294800
+        },
+        "venue": {
+          "id": null,
+          "name": "Chorten Arena",
+          "city": "Bia\u0142ystok"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 336,
+          "name": "Jagiellonia",
+          "logo": "https://media.api-sports.io/football/teams/336.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353211,
+        "referee": "M. Krogh",
+        "timezone": "UTC",
+        "date": "2025-03-13T17:45:00+00:00",
+        "timestamp": 1741887900,
+        "periods": {
+          "first": 1741887900,
+          "second": 1741891500
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 336,
+          "name": "Jagiellonia",
+          "logo": "https://media.api-sports.io/football/teams/336.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361759,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2025-03-30T14:00:00+00:00",
+        "timestamp": 1743343200,
+        "periods": {
+          "first": 1743343200,
+          "second": 1743346800
+        },
+        "venue": {
+          "id": 182,
+          "name": "Guldensporenstadion",
+          "city": "Kortrijk"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Relegation Round - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 734,
+          "name": "Kortrijk",
+          "logo": "https://media.api-sports.io/football/teams/734.png",
+          "winner": null
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361760,
+        "referee": "J. Vergoote",
+        "timezone": "UTC",
+        "date": "2025-04-05T14:00:00+00:00",
+        "timestamp": 1743861600,
+        "periods": {
+          "first": 1743861600,
+          "second": 1743865200
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Relegation Round - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 263,
+          "name": "Beerschot VA",
+          "logo": "https://media.api-sports.io/football/teams/263.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361763,
+        "referee": "B. Put",
+        "timezone": "UTC",
+        "date": "2025-04-12T16:15:00+00:00",
+        "timestamp": 1744474500,
+        "periods": {
+          "first": 1744474500,
+          "second": 1744478100
+        },
+        "venue": {
+          "id": 19611,
+          "name": "Daio Wasabi Stayen Stadium",
+          "city": "St.-Trond"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Relegation Round - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 735,
+          "name": "St. Truiden",
+          "logo": "https://media.api-sports.io/football/teams/735.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361765,
+        "referee": "N. Laforge",
+        "timezone": "UTC",
+        "date": "2025-04-26T18:45:00+00:00",
+        "timestamp": 1745693100,
+        "periods": {
+          "first": 1745693100,
+          "second": 1745696700
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Relegation Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 735,
+          "name": "St. Truiden",
+          "logo": "https://media.api-sports.io/football/teams/735.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361766,
+        "referee": "L. D'hondt",
+        "timezone": "UTC",
+        "date": "2025-05-03T14:00:00+00:00",
+        "timestamp": 1746280800,
+        "periods": {
+          "first": 1746280800,
+          "second": 1746284400
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Relegation Round - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        },
+        "away": {
+          "id": 734,
+          "name": "Kortrijk",
+          "logo": "https://media.api-sports.io/football/teams/734.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361768,
+        "referee": "B. Put",
+        "timezone": "UTC",
+        "date": "2025-05-10T14:00:00+00:00",
+        "timestamp": 1746885600,
+        "periods": {
+          "first": 1746885600,
+          "second": 1746889200
+        },
+        "venue": {
+          "id": 181,
+          "name": "Olympisch Stadion",
+          "city": "Anvers"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Relegation Round - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 263,
+          "name": "Beerschot VA",
+          "logo": "https://media.api-sports.io/football/teams/263.png",
+          "winner": true
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1375691,
+        "referee": "N. Laforge",
+        "timezone": "UTC",
+        "date": "2025-05-18T17:15:00+00:00",
+        "timestamp": 1747588500,
+        "periods": {
+          "first": 1747588500,
+          "second": 1747592100
+        },
+        "venue": {
+          "id": 20343,
+          "name": "Patrostadion",
+          "city": "Maasmechelen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Relegation Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 6222,
+          "name": "Patro Eisden",
+          "logo": "https://media.api-sports.io/football/teams/6222.png",
+          "winner": false
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1375692,
+        "referee": "W. Smet",
+        "timezone": "UTC",
+        "date": "2025-05-23T18:45:00+00:00",
+        "timestamp": 1748025900,
+        "periods": {
+          "first": 1748025900,
+          "second": 1748029500
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2024,
+        "round": "Relegation Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6222,
+          "name": "Patro Eisden",
+          "logo": "https://media.api-sports.io/football/teams/6222.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

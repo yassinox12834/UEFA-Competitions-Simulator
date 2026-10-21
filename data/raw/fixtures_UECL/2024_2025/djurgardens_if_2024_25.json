@@ -1,0 +1,4215 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "364"
+  },
+  "errors": [],
+  "results": 60,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1156587,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-20T13:00:00+00:00",
+        "timestamp": 1705755600,
+        "periods": {
+          "first": 1705755600,
+          "second": 1705759200
+        },
+        "venue": {
+          "id": 1503,
+          "name": "Grimsta IP",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 371,
+          "name": "IF Brommapojkarna",
+          "logo": "https://media.api-sports.io/football/teams/371.png",
+          "winner": true
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1156787,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-27T13:00:00+00:00",
+        "timestamp": 1706360400,
+        "periods": {
+          "first": 1706360400,
+          "second": 1706364000
+        },
+        "venue": {
+          "id": 19703,
+          "name": "Hitachi Energy Arena",
+          "city": "V\u00e4ster\u00e5s"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2241,
+          "name": "Vasteras SK FK",
+          "logo": "https://media.api-sports.io/football/teams/2241.png",
+          "winner": null
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1157013,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-06T16:00:00+00:00",
+        "timestamp": 1707235200,
+        "periods": {
+          "first": 1707235200,
+          "second": 1707238800
+        },
+        "venue": {
+          "id": null,
+          "name": "Campo Ernesto Aparicio",
+          "city": "Las Palmas de Gran Canaria"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2240,
+          "name": "Mjallby AIF",
+          "logo": "https://media.api-sports.io/football/teams/2240.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1157114,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-10T14:00:00+00:00",
+        "timestamp": 1707573600,
+        "periods": {
+          "first": 1707573600,
+          "second": 1707577200
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        },
+        "away": {
+          "id": 759,
+          "name": "Viking",
+          "logo": "https://media.api-sports.io/football/teams/759.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1157331,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-22T13:00:00+00:00",
+        "timestamp": 1711112400,
+        "periods": {
+          "first": 1711112400,
+          "second": 1711116000
+        },
+        "venue": {
+          "id": 4881,
+          "name": "Liding\u00f6vallen 2",
+          "city": "Liding\u00f6"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 365,
+          "name": "Orebro SK",
+          "logo": "https://media.api-sports.io/football/teams/365.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164084,
+        "referee": "G. Nyberg",
+        "timezone": "UTC",
+        "date": "2024-04-01T12:00:00+00:00",
+        "timestamp": 1711972800,
+        "periods": {
+          "first": 1711972800,
+          "second": 1711976400
+        },
+        "venue": {
+          "id": 1509,
+          "name": "Gamla Ullevi",
+          "city": "G\u00f6teborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 366,
+          "name": "IFK Goteborg",
+          "logo": "https://media.api-sports.io/football/teams/366.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164095,
+        "referee": "M. Al Hakim",
+        "timezone": "UTC",
+        "date": "2024-04-08T17:10:00+00:00",
+        "timestamp": 1712596200,
+        "periods": {
+          "first": 1712596200,
+          "second": 1712599800
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": null
+        },
+        "away": {
+          "id": 367,
+          "name": "BK Hacken",
+          "logo": "https://media.api-sports.io/football/teams/367.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164100,
+        "referee": "F. Klitte",
+        "timezone": "UTC",
+        "date": "2024-04-14T14:30:00+00:00",
+        "timestamp": 1713105000,
+        "periods": {
+          "first": 1713105000,
+          "second": 1713108600
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 370,
+          "name": "Sirius",
+          "logo": "https://media.api-sports.io/football/teams/370.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164107,
+        "referee": "G. Nyberg",
+        "timezone": "UTC",
+        "date": "2024-04-21T12:00:00+00:00",
+        "timestamp": 1713700800,
+        "periods": {
+          "first": 1713700800,
+          "second": 1713704400
+        },
+        "venue": {
+          "id": 21411,
+          "name": "Strawberry Arena",
+          "city": "Solna"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 377,
+          "name": "AIK Stockholm",
+          "logo": "https://media.api-sports.io/football/teams/377.png",
+          "winner": true
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164115,
+        "referee": "M. Al Hakim",
+        "timezone": "UTC",
+        "date": "2024-04-25T17:00:00+00:00",
+        "timestamp": 1714064400,
+        "periods": {
+          "first": 1714064400,
+          "second": 1714068000
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        },
+        "away": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164122,
+        "referee": "K. Karlsson",
+        "timezone": "UTC",
+        "date": "2024-04-28T14:30:00+00:00",
+        "timestamp": 1714314600,
+        "periods": {
+          "first": 1714314600,
+          "second": 1714318200
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2170,
+          "name": "Gais",
+          "logo": "https://media.api-sports.io/football/teams/2170.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164132,
+        "referee": "F. Klitte",
+        "timezone": "UTC",
+        "date": "2024-05-05T12:00:00+00:00",
+        "timestamp": 1714910400,
+        "periods": {
+          "first": 1714910400,
+          "second": 1714914000
+        },
+        "venue": {
+          "id": 19703,
+          "name": "Hitachi Energy Arena",
+          "city": "V\u00e4ster\u00e5s"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2241,
+          "name": "Vasteras SK FK",
+          "logo": "https://media.api-sports.io/football/teams/2241.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164141,
+        "referee": "V. Wolf",
+        "timezone": "UTC",
+        "date": "2024-05-12T14:30:00+00:00",
+        "timestamp": 1715524200,
+        "periods": {
+          "first": 1715524200,
+          "second": 1715527800
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 372,
+          "name": "IF Elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164151,
+        "referee": "J. \u00d6stling",
+        "timezone": "UTC",
+        "date": "2024-05-16T17:00:00+00:00",
+        "timestamp": 1715878800,
+        "periods": {
+          "first": 1715878800,
+          "second": 1715882400
+        },
+        "venue": {
+          "id": 1503,
+          "name": "Grimsta IP",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 371,
+          "name": "IF Brommapojkarna",
+          "logo": "https://media.api-sports.io/football/teams/371.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164156,
+        "referee": "A. Ladeb\u00e4ck",
+        "timezone": "UTC",
+        "date": "2024-05-20T17:00:00+00:00",
+        "timestamp": 1716224400,
+        "periods": {
+          "first": 1716224400,
+          "second": 1716228000
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 766,
+          "name": "Halmstad",
+          "logo": "https://media.api-sports.io/football/teams/766.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164163,
+        "referee": "G. Maqedonci",
+        "timezone": "UTC",
+        "date": "2024-05-25T15:30:00+00:00",
+        "timestamp": 1716651000,
+        "periods": {
+          "first": 1716651000,
+          "second": 1716654600
+        },
+        "venue": {
+          "id": 1519,
+          "name": "Strandvallen",
+          "city": "S\u00f6lvesborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2240,
+          "name": "Mjallby AIF",
+          "logo": "https://media.api-sports.io/football/teams/2240.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164172,
+        "referee": "M. Al Hakim",
+        "timezone": "UTC",
+        "date": "2024-06-02T12:00:00+00:00",
+        "timestamp": 1717329600,
+        "periods": {
+          "first": 1717329600,
+          "second": 1717333200
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        },
+        "away": {
+          "id": 363,
+          "name": "Hammarby FF",
+          "logo": "https://media.api-sports.io/football/teams/363.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164178,
+        "referee": "J. \u00d6stling",
+        "timezone": "UTC",
+        "date": "2024-07-08T17:00:00+00:00",
+        "timestamp": 1720458000,
+        "periods": {
+          "first": 1720458000,
+          "second": 1720461600
+        },
+        "venue": {
+          "id": 11553,
+          "name": "PlatinumCars Arena",
+          "city": "Norrk\u00f6ping"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 378,
+          "name": "IFK Norrkoping",
+          "logo": "https://media.api-sports.io/football/teams/378.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164184,
+        "referee": "F. Klitte",
+        "timezone": "UTC",
+        "date": "2024-07-14T12:00:00+00:00",
+        "timestamp": 1720958400,
+        "periods": {
+          "first": 1720958400,
+          "second": 1720962000
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2163,
+          "name": "IFK Varnamo",
+          "logo": "https://media.api-sports.io/football/teams/2163.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164197,
+        "referee": "R. Sundell",
+        "timezone": "UTC",
+        "date": "2024-07-20T13:00:00+00:00",
+        "timestamp": 1721480400,
+        "periods": {
+          "first": 1721480400,
+          "second": 1721484000
+        },
+        "venue": {
+          "id": 1517,
+          "name": "Guldf\u00e5geln Arena",
+          "city": "Kalmar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 374,
+          "name": "Kalmar FF",
+          "logo": "https://media.api-sports.io/football/teams/374.png",
+          "winner": true
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164204,
+        "referee": "V. Wolf",
+        "timezone": "UTC",
+        "date": "2024-07-28T14:30:00+00:00",
+        "timestamp": 1722177000,
+        "periods": {
+          "first": 1722177000,
+          "second": 1722180600
+        },
+        "venue": {
+          "id": 1507,
+          "name": "Bor\u00e5s Arena",
+          "city": "Bor\u00e5s"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 372,
+          "name": "IF Elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164210,
+        "referee": "K. Karlsson",
+        "timezone": "UTC",
+        "date": "2024-08-04T12:00:00+00:00",
+        "timestamp": 1722772800,
+        "periods": {
+          "first": 1722772800,
+          "second": 1722776400
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": null
+        },
+        "away": {
+          "id": 366,
+          "name": "IFK Goteborg",
+          "logo": "https://media.api-sports.io/football/teams/366.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164221,
+        "referee": "O. Johnson",
+        "timezone": "UTC",
+        "date": "2024-09-19T17:00:00+00:00",
+        "timestamp": 1726765200,
+        "periods": {
+          "first": 1726765200,
+          "second": 1726768800
+        },
+        "venue": {
+          "id": 1511,
+          "name": "Bravida Arena",
+          "city": "G\u00f6teborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 367,
+          "name": "BK Hacken",
+          "logo": "https://media.api-sports.io/football/teams/367.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164224,
+        "referee": "V. Wolf",
+        "timezone": "UTC",
+        "date": "2024-08-18T12:00:00+00:00",
+        "timestamp": 1723982400,
+        "periods": {
+          "first": 1723982400,
+          "second": 1723986000
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        },
+        "away": {
+          "id": 377,
+          "name": "AIK Stockholm",
+          "logo": "https://media.api-sports.io/football/teams/377.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164239,
+        "referee": "G. Maqedonci",
+        "timezone": "UTC",
+        "date": "2024-08-25T12:00:00+00:00",
+        "timestamp": 1724587200,
+        "periods": {
+          "first": 1724587200,
+          "second": 1724590800
+        },
+        "venue": {
+          "id": 1524,
+          "name": "Studenternas IP",
+          "city": "Uppsala"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 370,
+          "name": "Sirius",
+          "logo": "https://media.api-sports.io/football/teams/370.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164241,
+        "referee": "F. Klitte",
+        "timezone": "UTC",
+        "date": "2024-09-01T12:00:00+00:00",
+        "timestamp": 1725192000,
+        "periods": {
+          "first": 1725192000,
+          "second": 1725195600
+        },
+        "venue": {
+          "id": 1518,
+          "name": "Eleda Stadion",
+          "city": "Malm\u00f6"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png",
+          "winner": true
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164249,
+        "referee": "A. Ladeb\u00e4ck",
+        "timezone": "UTC",
+        "date": "2024-09-15T12:00:00+00:00",
+        "timestamp": 1726401600,
+        "periods": {
+          "first": 1726401600,
+          "second": 1726405200
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2240,
+          "name": "Mjallby AIF",
+          "logo": "https://media.api-sports.io/football/teams/2240.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164260,
+        "referee": "G. Nyberg",
+        "timezone": "UTC",
+        "date": "2024-09-22T12:00:00+00:00",
+        "timestamp": 1727006400,
+        "periods": {
+          "first": 1727006400,
+          "second": 1727010000
+        },
+        "venue": {
+          "id": 1509,
+          "name": "Gamla Ullevi",
+          "city": "G\u00f6teborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2170,
+          "name": "Gais",
+          "logo": "https://media.api-sports.io/football/teams/2170.png",
+          "winner": true
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164264,
+        "referee": "A. Aganovic",
+        "timezone": "UTC",
+        "date": "2024-09-25T17:00:00+00:00",
+        "timestamp": 1727283600,
+        "periods": {
+          "first": 1727283600,
+          "second": 1727287200
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 371,
+          "name": "IF Brommapojkarna",
+          "logo": "https://media.api-sports.io/football/teams/371.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164278,
+        "referee": "G. Maqedonci",
+        "timezone": "UTC",
+        "date": "2024-09-29T12:00:00+00:00",
+        "timestamp": 1727611200,
+        "periods": {
+          "first": 1727611200,
+          "second": 1727614800
+        },
+        "venue": {
+          "id": 1937,
+          "name": "Finnvedsvallen",
+          "city": "V\u00e4rnamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2163,
+          "name": "IFK Varnamo",
+          "logo": "https://media.api-sports.io/football/teams/2163.png",
+          "winner": null
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164281,
+        "referee": "J. \u00d6stling",
+        "timezone": "UTC",
+        "date": "2024-10-06T12:00:00+00:00",
+        "timestamp": 1728216000,
+        "periods": {
+          "first": 1728216000,
+          "second": 1728219600
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": null
+        },
+        "away": {
+          "id": 374,
+          "name": "Kalmar FF",
+          "logo": "https://media.api-sports.io/football/teams/374.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164288,
+        "referee": "F. Klitte",
+        "timezone": "UTC",
+        "date": "2024-10-21T12:00:00+00:00",
+        "timestamp": 1729512000,
+        "periods": {
+          "first": 1729512000,
+          "second": 1729515600
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 363,
+          "name": "Hammarby FF",
+          "logo": "https://media.api-sports.io/football/teams/363.png",
+          "winner": true
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164297,
+        "referee": "V. Wolf",
+        "timezone": "UTC",
+        "date": "2024-10-28T18:00:00+00:00",
+        "timestamp": 1730138400,
+        "periods": {
+          "first": 1730138400,
+          "second": 1730142000
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2241,
+          "name": "Vasteras SK FK",
+          "logo": "https://media.api-sports.io/football/teams/2241.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164309,
+        "referee": "F. Klitte",
+        "timezone": "UTC",
+        "date": "2024-11-03T15:30:00+00:00",
+        "timestamp": 1730647800,
+        "periods": {
+          "first": 1730647800,
+          "second": 1730651400
+        },
+        "venue": {
+          "id": 1512,
+          "name": "\u00d6rjans Vall",
+          "city": "Halmstad"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 766,
+          "name": "Halmstad",
+          "logo": "https://media.api-sports.io/football/teams/766.png",
+          "winner": true
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164313,
+        "referee": "A. Ladeb\u00e4ck",
+        "timezone": "UTC",
+        "date": "2024-11-10T14:00:00+00:00",
+        "timestamp": 1731247200,
+        "periods": {
+          "first": 1731247200,
+          "second": 1731250800
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 113,
+        "name": "Allsvenskan",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/113.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 378,
+          "name": "IFK Norrkoping",
+          "logo": "https://media.api-sports.io/football/teams/378.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1201962,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-28T16:00:00+00:00",
+        "timestamp": 1719590400,
+        "periods": {
+          "first": 1719590400,
+          "second": 1719594000
+        },
+        "venue": {
+          "id": 7976,
+          "name": "Enavallen",
+          "city": "Enk\u00f6ping"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 370,
+          "name": "Sirius",
+          "logo": "https://media.api-sports.io/football/teams/370.png",
+          "winner": null
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209261,
+        "referee": "A. Dudic",
+        "timezone": "UTC",
+        "date": "2024-07-25T17:00:00+00:00",
+        "timestamp": 1721926800,
+        "periods": {
+          "first": 1721926800,
+          "second": 1721930400
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 658,
+          "name": "Progres Niederkorn",
+          "logo": "https://media.api-sports.io/football/teams/658.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209262,
+        "referee": "G. Kikacheishvili",
+        "timezone": "UTC",
+        "date": "2024-08-01T17:00:00+00:00",
+        "timestamp": 1722531600,
+        "periods": {
+          "first": 1722531600,
+          "second": 1722535200
+        },
+        "venue": {
+          "id": null,
+          "name": "Stade Parc des Sports",
+          "city": "Differdange"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 658,
+          "name": "Progres Niederkorn",
+          "logo": "https://media.api-sports.io/football/teams/658.png",
+          "winner": true
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1234527,
+        "referee": "J. Svraka",
+        "timezone": "UTC",
+        "date": "2024-10-10T17:00:00+00:00",
+        "timestamp": 1728579600,
+        "periods": {
+          "first": 1728579600,
+          "second": 1728583200
+        },
+        "venue": {
+          "id": 19692,
+          "name": "J\u00e4rf\u00e4llavallen",
+          "city": "J\u00e4rf\u00e4lla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 115,
+        "name": "Svenska Cupen",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/115.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 16598,
+          "name": "J\u00e4rf\u00e4lla",
+          "logo": "https://media.api-sports.io/football/teams/16598.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274817,
+        "referee": "E. Ma\u013ccevs",
+        "timezone": "UTC",
+        "date": "2024-08-08T16:00:00+00:00",
+        "timestamp": 1723132800,
+        "periods": {
+          "first": 1723132800,
+          "second": 1723136400
+        },
+        "venue": {
+          "id": 617,
+          "name": "Tammelan Stadion",
+          "city": "Tampere"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1163,
+          "name": "Ilves",
+          "logo": "https://media.api-sports.io/football/teams/1163.png",
+          "winner": null
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274818,
+        "referee": "E. M\u0259siyev",
+        "timezone": "UTC",
+        "date": "2024-08-15T17:00:00+00:00",
+        "timestamp": 1723741200,
+        "periods": {
+          "first": 1723741200,
+          "second": 1723744800
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1163,
+          "name": "Ilves",
+          "logo": "https://media.api-sports.io/football/teams/1163.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287562,
+        "referee": "J. Vergoote",
+        "timezone": "UTC",
+        "date": "2024-08-22T17:00:00+00:00",
+        "timestamp": 1724346000,
+        "periods": {
+          "first": 1724346000,
+          "second": 1724349600
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 552,
+          "name": "Maribor",
+          "logo": "https://media.api-sports.io/football/teams/552.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287563,
+        "referee": "M. Lukjan\u010dukas",
+        "timezone": "UTC",
+        "date": "2024-08-29T18:15:00+00:00",
+        "timestamp": 1724955300,
+        "periods": {
+          "first": 1724955300,
+          "second": 1724958900
+        },
+        "venue": {
+          "id": 1441,
+          "name": "Ljudski vrt",
+          "city": "Maribor"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 552,
+          "name": "Maribor",
+          "logo": "https://media.api-sports.io/football/teams/552.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299309,
+        "referee": "B. Saryev",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": null,
+          "name": "Raiffeisen Arena",
+          "city": "Linz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1026,
+          "name": "Lask Linz",
+          "logo": "https://media.api-sports.io/football/teams/1026.png",
+          "winner": null
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299312,
+        "referee": "G. Nuza",
+        "timezone": "UTC",
+        "date": "2024-10-24T16:45:00+00:00",
+        "timestamp": 1729788300,
+        "periods": {
+          "first": 1729788300,
+          "second": 1729791900
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        },
+        "away": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299339,
+        "referee": "I. Paja\u010d",
+        "timezone": "UTC",
+        "date": "2024-11-07T20:00:00+00:00",
+        "timestamp": 1731009600,
+        "periods": {
+          "first": 1731009600,
+          "second": 1731013200
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 617,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/football/teams/617.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299358,
+        "referee": "P. Farrugia",
+        "timezone": "UTC",
+        "date": "2024-11-28T17:45:00+00:00",
+        "timestamp": 1732815900,
+        "periods": {
+          "first": 1732815900,
+          "second": 1732819500
+        },
+        "venue": {
+          "id": 19925,
+          "name": "The Croud Meadow",
+          "city": "Shrewsbury, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299382,
+        "referee": "L. Bilbija",
+        "timezone": "UTC",
+        "date": "2024-12-12T13:00:00+00:00",
+        "timestamp": 1734008400,
+        "periods": {
+          "first": 1734008400,
+          "second": 1734012000
+        },
+        "venue": {
+          "id": 820,
+          "name": "K\u00f3pavogsv\u00f6llur",
+          "city": "K\u00f3pavogur"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 278,
+          "name": "Vikingur Reykjavik",
+          "logo": "https://media.api-sports.io/football/teams/278.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299387,
+        "referee": "D. \u0160majc",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 339,
+          "name": "Legia Warszawa",
+          "logo": "https://media.api-sports.io/football/teams/339.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1316711,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-11-22T13:00:00+00:00",
+        "timestamp": 1732280400,
+        "periods": {
+          "first": 1732280400,
+          "second": 1732284000
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        },
+        "away": {
+          "id": 372,
+          "name": "IF Elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1316724,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-12-05T15:00:00+00:00",
+        "timestamp": 1733410800,
+        "periods": {
+          "first": 1733410800,
+          "second": 1733414400
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1320404,
+        "referee": "V. Wolf",
+        "timezone": "UTC",
+        "date": "2025-02-16T16:45:00+00:00",
+        "timestamp": 1739724300,
+        "periods": {
+          "first": 1739724300,
+          "second": 1739727900
+        },
+        "venue": {
+          "id": null,
+          "name": "3Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 115,
+        "name": "Svenska Cupen",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/115.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Group Stage - 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6697,
+          "name": "Sandviken",
+          "logo": "https://media.api-sports.io/football/teams/6697.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1320420,
+        "referee": "F. Buqa",
+        "timezone": "UTC",
+        "date": "2025-02-23T12:00:00+00:00",
+        "timestamp": 1740312000,
+        "periods": {
+          "first": 1740312000,
+          "second": 1740315600
+        },
+        "venue": {
+          "id": 1511,
+          "name": "Bravida Arena",
+          "city": "G\u00f6teborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 115,
+        "name": "Svenska Cupen",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/115.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Group Stage - 2",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 11674,
+          "name": "Oddevold",
+          "logo": "https://media.api-sports.io/football/teams/11674.png",
+          "winner": null
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1320437,
+        "referee": "G. Nyberg",
+        "timezone": "UTC",
+        "date": "2025-03-02T12:00:00+00:00",
+        "timestamp": 1740916800,
+        "periods": {
+          "first": 1740916800,
+          "second": 1740920400
+        },
+        "venue": {
+          "id": null,
+          "name": "3Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 115,
+        "name": "Svenska Cupen",
+        "country": "Sweden",
+        "logo": "https://media.api-sports.io/football/leagues/115.png",
+        "flag": "https://media.api-sports.io/flags/se.svg",
+        "season": 2024,
+        "round": "Group Stage - 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        },
+        "away": {
+          "id": 366,
+          "name": "IFK Goteborg",
+          "logo": "https://media.api-sports.io/football/teams/366.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353216,
+        "referee": "G. Kruashvili",
+        "timezone": "UTC",
+        "date": "2025-03-06T20:00:00+00:00",
+        "timestamp": 1741291200,
+        "periods": {
+          "first": 1741291200,
+          "second": 1741294800
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353217,
+        "referee": "S. Gishamer",
+        "timezone": "UTC",
+        "date": "2025-03-13T17:45:00+00:00",
+        "timestamp": 1741887900,
+        "periods": {
+          "first": 1741887900,
+          "second": 1741891500
+        },
+        "venue": {
+          "id": null,
+          "name": "3Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361290,
+        "referee": "T. Stieler",
+        "timezone": "UTC",
+        "date": "2025-04-10T19:00:00+00:00",
+        "timestamp": 1744311600,
+        "periods": {
+          "first": 1744311600,
+          "second": 1744315200
+        },
+        "venue": {
+          "id": null,
+          "name": "3Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        },
+        "away": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361291,
+        "referee": "A. Taylor",
+        "timezone": "UTC",
+        "date": "2025-04-17T19:00:00+00:00",
+        "timestamp": 1744916400,
+        "periods": {
+          "first": 1744916400,
+          "second": 1744920000
+        },
+        "venue": {
+          "id": 145,
+          "name": "Allianz Stadion",
+          "city": "Wien"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": 0,
+          "away": 2
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371998,
+        "referee": "S. Sch\u00e4rer",
+        "timezone": "UTC",
+        "date": "2025-05-01T19:00:00+00:00",
+        "timestamp": 1746126000,
+        "periods": {
+          "first": 1746126000,
+          "second": 1746129600
+        },
+        "venue": {
+          "id": null,
+          "name": "3Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        },
+        "away": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371999,
+        "referee": "Jo\u00e3o Pedro Pinheiro",
+        "timezone": "UTC",
+        "date": "2025-05-08T19:00:00+00:00",
+        "timestamp": 1746730800,
+        "periods": {
+          "first": 1746730800,
+          "second": 1746734400
+        },
+        "venue": {
+          "id": 519,
+          "name": "Stamford Bridge",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
+          "winner": true
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

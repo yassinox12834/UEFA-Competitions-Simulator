@@ -1,0 +1,4425 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "247"
+  },
+  "errors": [],
+  "results": 63,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1202449,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-05T18:45:00+00:00",
+        "timestamp": 1720205100,
+        "periods": {
+          "first": 1720205100,
+          "second": 1720208700
+        },
+        "venue": {
+          "id": 1385,
+          "name": "Somerset Park",
+          "city": "Ayr"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1387,
+          "name": "Ayr Utd",
+          "logo": "https://media.api-sports.io/football/teams/1387.png",
+          "winner": null
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1210367,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-20T23:30:00+00:00",
+        "timestamp": 1721518200,
+        "periods": {
+          "first": 1721518200,
+          "second": 1721521800
+        },
+        "venue": {
+          "id": 1613,
+          "name": "Audi Field",
+          "city": "Washington, District of Columbia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1615,
+          "name": "DC United",
+          "logo": "https://media.api-sports.io/football/teams/1615.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1217964,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-23T23:30:00+00:00",
+        "timestamp": 1721777400,
+        "periods": {
+          "first": 1721777400,
+          "second": 1721781000
+        },
+        "venue": {
+          "id": null,
+          "name": "Kenan Memorial Stadium",
+          "city": "Chapel Hill, North Carolina"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 50,
+          "name": "Manchester City",
+          "logo": "https://media.api-sports.io/football/teams/50.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1217971,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-27T20:00:00+00:00",
+        "timestamp": 1722110400,
+        "periods": {
+          "first": 1722110400,
+          "second": 1722114000
+        },
+        "venue": {
+          "id": null,
+          "name": "Notre Dame Stadium",
+          "city": "Notre Dame, Indiana"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220114,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2024-08-04T15:30:00+00:00",
+        "timestamp": 1722785400,
+        "periods": {
+          "first": 1722785400,
+          "second": 1722789000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220121,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-08-11T11:30:00+00:00",
+        "timestamp": 1723375800,
+        "periods": {
+          "first": 1723375800,
+          "second": 1723379400
+        },
+        "venue": {
+          "id": 1394,
+          "name": "Easter Road Stadium",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220127,
+        "referee": "C. Graham",
+        "timezone": "UTC",
+        "date": "2024-08-25T11:00:00+00:00",
+        "timestamp": 1724583600,
+        "periods": {
+          "first": 1724583600,
+          "second": 1724587200
+        },
+        "venue": {
+          "id": 11913,
+          "name": "The SMISA Stadium",
+          "city": "Paisley"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220128,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2024-09-01T11:30:00+00:00",
+        "timestamp": 1725190200,
+        "periods": {
+          "first": 1725190200,
+          "second": 1725193800
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220135,
+        "referee": "C. Steven",
+        "timezone": "UTC",
+        "date": "2024-09-14T14:00:00+00:00",
+        "timestamp": 1726322400,
+        "periods": {
+          "first": 1726322400,
+          "second": 1726326000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220145,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2024-09-28T16:45:00+00:00",
+        "timestamp": 1727541900,
+        "periods": {
+          "first": 1727541900,
+          "second": 1727545500
+        },
+        "venue": {
+          "id": 1403,
+          "name": "McDiarmid Park",
+          "city": "Perth"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220150,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2024-10-06T11:00:00+00:00",
+        "timestamp": 1728212400,
+        "periods": {
+          "first": 1728212400,
+          "second": 1728216000
+        },
+        "venue": {
+          "id": 1402,
+          "name": "Global Energy Stadium",
+          "city": "Dingwall"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 902,
+          "name": "Ross County",
+          "logo": "https://media.api-sports.io/football/teams/902.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220152,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-10-19T14:00:00+00:00",
+        "timestamp": 1729346400,
+        "periods": {
+          "first": 1729346400,
+          "second": 1729350000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        },
+        "away": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220161,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2024-10-27T14:00:00+00:00",
+        "timestamp": 1730037600,
+        "periods": {
+          "first": 1730037600,
+          "second": 1730041200
+        },
+        "venue": {
+          "id": 1398,
+          "name": "Fir Park",
+          "city": "Motherwell"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220165,
+        "referee": "R. Hardie",
+        "timezone": "UTC",
+        "date": "2024-10-30T19:45:00+00:00",
+        "timestamp": 1730317500,
+        "periods": {
+          "first": 1730317500,
+          "second": 1730321100
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220170,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2025-01-08T19:45:00+00:00",
+        "timestamp": 1736365500,
+        "periods": {
+          "first": 1736365500,
+          "second": 1736369100
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220179,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-11-10T15:00:00+00:00",
+        "timestamp": 1731250800,
+        "periods": {
+          "first": 1731250800,
+          "second": 1731254400
+        },
+        "venue": {
+          "id": 19215,
+          "name": "The BBSP Stadium Rugby Park",
+          "city": "Kilmarnock"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220183,
+        "referee": "S. McLean",
+        "timezone": "UTC",
+        "date": "2024-11-23T19:45:00+00:00",
+        "timestamp": 1732391100,
+        "periods": {
+          "first": 1732391100,
+          "second": 1732394700
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220188,
+        "referee": "C. Scott",
+        "timezone": "UTC",
+        "date": "2024-11-30T15:00:00+00:00",
+        "timestamp": 1732978800,
+        "periods": {
+          "first": 1732978800,
+          "second": 1732982400
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 902,
+          "name": "Ross County",
+          "logo": "https://media.api-sports.io/football/teams/902.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 5,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220194,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2024-12-04T20:00:00+00:00",
+        "timestamp": 1733342400,
+        "periods": {
+          "first": 1733342400,
+          "second": 1733346000
+        },
+        "venue": {
+          "id": 1383,
+          "name": "Pittodrie Stadium",
+          "city": "Aberdeen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220201,
+        "referee": "C. Graham",
+        "timezone": "UTC",
+        "date": "2024-12-07T15:00:00+00:00",
+        "timestamp": 1733583600,
+        "periods": {
+          "first": 1733583600,
+          "second": 1733587200
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220206,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2025-01-14T20:00:00+00:00",
+        "timestamp": 1736884800,
+        "periods": {
+          "first": 1736884800,
+          "second": 1736888400
+        },
+        "venue": {
+          "id": 20420,
+          "name": "The Scot Foam Stadium at Dens Park",
+          "city": "Dundee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": null
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220213,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2024-12-22T12:00:00+00:00",
+        "timestamp": 1734868800,
+        "periods": {
+          "first": 1734868800,
+          "second": 1734872400
+        },
+        "venue": {
+          "id": 22722,
+          "name": "CalForth Construction Arena at Tannadice Park",
+          "city": "Dundee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png",
+          "winner": null
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220219,
+        "referee": "R. Hardie",
+        "timezone": "UTC",
+        "date": "2024-12-26T15:00:00+00:00",
+        "timestamp": 1735225200,
+        "periods": {
+          "first": 1735225200,
+          "second": 1735228800
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220224,
+        "referee": "M. McDermid",
+        "timezone": "UTC",
+        "date": "2024-12-29T15:00:00+00:00",
+        "timestamp": 1735484400,
+        "periods": {
+          "first": 1735484400,
+          "second": 1735488000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220233,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2025-01-02T15:00:00+00:00",
+        "timestamp": 1735830000,
+        "periods": {
+          "first": 1735830000,
+          "second": 1735833600
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220236,
+        "referee": "G. Irvine",
+        "timezone": "UTC",
+        "date": "2025-01-05T15:00:00+00:00",
+        "timestamp": 1736089200,
+        "periods": {
+          "first": 1736089200,
+          "second": 1736092800
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220246,
+        "referee": "M. McDermid",
+        "timezone": "UTC",
+        "date": "2025-01-11T12:30:00+00:00",
+        "timestamp": 1736598600,
+        "periods": {
+          "first": 1736598600,
+          "second": 1736602200
+        },
+        "venue": {
+          "id": 1402,
+          "name": "Global Energy Stadium",
+          "city": "Dingwall"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 12
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 902,
+          "name": "Ross County",
+          "logo": "https://media.api-sports.io/football/teams/902.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220249,
+        "referee": "C. Steven",
+        "timezone": "UTC",
+        "date": "2025-02-05T19:45:00+00:00",
+        "timestamp": 1738784700,
+        "periods": {
+          "first": 1738784700,
+          "second": 1738788300
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220257,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2025-02-02T15:00:00+00:00",
+        "timestamp": 1738508400,
+        "periods": {
+          "first": 1738508400,
+          "second": 1738512000
+        },
+        "venue": {
+          "id": 1398,
+          "name": "Fir Park",
+          "city": "Motherwell"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220260,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2025-02-15T15:00:00+00:00",
+        "timestamp": 1739631600,
+        "periods": {
+          "first": 1739631600,
+          "second": 1739635200
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220268,
+        "referee": "S. McLean",
+        "timezone": "UTC",
+        "date": "2025-02-22T12:30:00+00:00",
+        "timestamp": 1740227400,
+        "periods": {
+          "first": 1740227400,
+          "second": 1740231000
+        },
+        "venue": {
+          "id": 1394,
+          "name": "Easter Road Stadium",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": true
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220272,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2025-02-25T20:00:00+00:00",
+        "timestamp": 1740513600,
+        "periods": {
+          "first": 1740513600,
+          "second": 1740517200
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220283,
+        "referee": "M. McDermid",
+        "timezone": "UTC",
+        "date": "2025-03-01T17:30:00+00:00",
+        "timestamp": 1740850200,
+        "periods": {
+          "first": 1740850200,
+          "second": 1740853800
+        },
+        "venue": {
+          "id": 11913,
+          "name": "The SMISA Stadium",
+          "city": "Paisley"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220284,
+        "referee": "S. McLean",
+        "timezone": "UTC",
+        "date": "2025-03-16T12:30:00+00:00",
+        "timestamp": 1742128200,
+        "periods": {
+          "first": 1742128200,
+          "second": 1742131800
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220291,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2025-03-29T15:00:00+00:00",
+        "timestamp": 1743260400,
+        "periods": {
+          "first": 1743260400,
+          "second": 1743264000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220301,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2025-04-06T11:00:00+00:00",
+        "timestamp": 1743937200,
+        "periods": {
+          "first": 1743937200,
+          "second": 1743940800
+        },
+        "venue": {
+          "id": 1403,
+          "name": "McDiarmid Park",
+          "city": "Perth"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": true
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220303,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2025-04-12T11:30:00+00:00",
+        "timestamp": 1744457400,
+        "periods": {
+          "first": 1744457400,
+          "second": 1744461000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1230772,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-10T18:45:00+00:00",
+        "timestamp": 1720637100,
+        "periods": {
+          "first": 1720637100,
+          "second": 1720640700
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 6778,
+          "name": "Queen's Park",
+          "logo": "https://media.api-sports.io/football/teams/6778.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1269133,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2024-08-18T14:00:00+00:00",
+        "timestamp": 1723989600,
+        "periods": {
+          "first": 1723989600,
+          "second": 1723993200
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/185.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1293136,
+        "referee": "C. Scott",
+        "timezone": "UTC",
+        "date": "2024-09-22T14:00:00+00:00",
+        "timestamp": 1727013600,
+        "periods": {
+          "first": 1727013600,
+          "second": 1727017200
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/185.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1389,
+          "name": "Falkirk",
+          "logo": "https://media.api-sports.io/football/teams/1389.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1298992,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2024-09-18T19:00:00+00:00",
+        "timestamp": 1726686000,
+        "periods": {
+          "first": 1726686000,
+          "second": 1726689600
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 656,
+          "name": "Slovan Bratislava",
+          "logo": "https://media.api-sports.io/football/teams/656.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299006,
+        "referee": "Jos\u00e9 S\u00e1nchez",
+        "timezone": "UTC",
+        "date": "2024-10-01T19:00:00+00:00",
+        "timestamp": 1727809200,
+        "periods": {
+          "first": 1727809200,
+          "second": 1727812800
+        },
+        "venue": {
+          "id": 19381,
+          "name": "SIGNAL IDUNA PARK",
+          "city": "Dortmund"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 165,
+          "name": "Borussia Dortmund",
+          "logo": "https://media.api-sports.io/football/teams/165.png",
+          "winner": true
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 7,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 5,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 7,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299029,
+        "referee": "I. Peljto",
+        "timezone": "UTC",
+        "date": "2024-10-23T16:45:00+00:00",
+        "timestamp": 1729701900,
+        "periods": {
+          "first": 1729701900,
+          "second": 1729705500
+        },
+        "venue": {
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299042,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2024-11-05T20:00:00+00:00",
+        "timestamp": 1730836800,
+        "periods": {
+          "first": 1730836800,
+          "second": 1730840400
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299069,
+        "referee": "G. Kabakov",
+        "timezone": "UTC",
+        "date": "2024-11-27T20:00:00+00:00",
+        "timestamp": 1732737600,
+        "periods": {
+          "first": 1732737600,
+          "second": 1732741200
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        },
+        "away": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299074,
+        "referee": "F. Zwayer",
+        "timezone": "UTC",
+        "date": "2024-12-10T17:45:00+00:00",
+        "timestamp": 1733852700,
+        "periods": {
+          "first": 1733852700,
+          "second": 1733856300
+        },
+        "venue": {
+          "id": 412,
+          "name": "Stadion Maksimir",
+          "city": "Zagreb"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png",
+          "winner": null
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299103,
+        "referee": "R. Saggi",
+        "timezone": "UTC",
+        "date": "2025-01-22T20:00:00+00:00",
+        "timestamp": 1737576000,
+        "periods": {
+          "first": 1737576000,
+          "second": 1737579600
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299110,
+        "referee": "C. Turpin",
+        "timezone": "UTC",
+        "date": "2025-01-29T20:00:00+00:00",
+        "timestamp": 1738180800,
+        "periods": {
+          "first": 1738180800,
+          "second": 1738184400
+        },
+        "venue": {
+          "id": 495,
+          "name": "Villa Park",
+          "city": "Birmingham"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png",
+          "winner": true
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1308226,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2024-11-02T17:30:00+00:00",
+        "timestamp": 1730568600,
+        "periods": {
+          "first": 1730568600,
+          "second": 1730572200
+        },
+        "venue": {
+          "id": 2617,
+          "name": "Hampden Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/185.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1310980,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-10-09T18:30:00+00:00",
+        "timestamp": 1728498600,
+        "periods": {
+          "first": 1728498600,
+          "second": 1728502200
+        },
+        "venue": {
+          "id": 2627,
+          "name": "The Showgrounds",
+          "city": "Sligo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3842,
+          "name": "Sligo Rovers",
+          "logo": "https://media.api-sports.io/football/teams/3842.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314882,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2024-12-15T15:30:00+00:00",
+        "timestamp": 1734276600,
+        "periods": {
+          "first": 1734276600,
+          "second": 1734280200
+        },
+        "venue": {
+          "id": 2617,
+          "name": "Hampden Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/185.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 5,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1318884,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2025-01-18T17:30:00+00:00",
+        "timestamp": 1737221400,
+        "periods": {
+          "first": 1737221400,
+          "second": 1737225000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/181.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338621,
+        "referee": "C. Graham",
+        "timezone": "UTC",
+        "date": "2025-02-08T17:30:00+00:00",
+        "timestamp": 1739035800,
+        "periods": {
+          "first": 1739035800,
+          "second": 1739039400
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/181.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1385,
+          "name": "Raith Rovers",
+          "logo": "https://media.api-sports.io/football/teams/1385.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345751,
+        "referee": "Gil Manzano",
+        "timezone": "UTC",
+        "date": "2025-02-12T20:00:00+00:00",
+        "timestamp": 1739390400,
+        "periods": {
+          "first": 1739390400,
+          "second": 1739394000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": false
+        },
+        "away": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1345752,
+        "referee": "B. Bastien",
+        "timezone": "UTC",
+        "date": "2025-02-18T20:00:00+00:00",
+        "timestamp": 1739908800,
+        "periods": {
+          "first": 1739908800,
+          "second": 1739912400
+        },
+        "venue": {
+          "id": 700,
+          "name": "Allianz Arena",
+          "city": "M\u00fcnchen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png",
+          "winner": null
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1349961,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2025-03-09T15:00:00+00:00",
+        "timestamp": 1741532400,
+        "periods": {
+          "first": 1741532400,
+          "second": 1741536000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/181.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360340,
+        "referee": "C. Scott",
+        "timezone": "UTC",
+        "date": "2025-04-20T14:00:00+00:00",
+        "timestamp": 1745157600,
+        "periods": {
+          "first": 1745157600,
+          "second": 1745161200
+        },
+        "venue": {
+          "id": 2617,
+          "name": "Hampden Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/181.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 4
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371464,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2025-04-26T11:30:00+00:00",
+        "timestamp": 1745667000,
+        "periods": {
+          "first": 1745667000,
+          "second": 1745670600
+        },
+        "venue": {
+          "id": 22722,
+          "name": "CalForth Construction Arena at Tannadice Park",
+          "city": "Dundee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371475,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2025-05-04T11:00:00+00:00",
+        "timestamp": 1746356400,
+        "periods": {
+          "first": 1746356400,
+          "second": 1746360000
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371476,
+        "referee": "C. Steven",
+        "timezone": "UTC",
+        "date": "2025-05-10T14:00:00+00:00",
+        "timestamp": 1746885600,
+        "periods": {
+          "first": 1746885600,
+          "second": 1746889200
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371482,
+        "referee": "S. McLean",
+        "timezone": "UTC",
+        "date": "2025-05-14T19:00:00+00:00",
+        "timestamp": 1747249200,
+        "periods": {
+          "first": 1747249200,
+          "second": 1747252800
+        },
+        "venue": {
+          "id": 1383,
+          "name": "Pittodrie Stadium",
+          "city": "Aberdeen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": false
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371488,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2025-05-17T11:30:00+00:00",
+        "timestamp": 1747481400,
+        "periods": {
+          "first": 1747481400,
+          "second": 1747485000
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        },
+        "away": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372545,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2025-05-24T14:00:00+00:00",
+        "timestamp": 1748095200,
+        "periods": {
+          "first": 1748095200,
+          "second": 1748098800
+        },
+        "venue": {
+          "id": 2617,
+          "name": "Hampden Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/181.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": true
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 4,
+          "away": 3
+        }
+      }
+    }
+  ]
+}

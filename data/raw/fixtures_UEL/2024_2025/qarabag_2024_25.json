@@ -1,0 +1,4145 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "556"
+  },
+  "errors": [],
+  "results": 59,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1212800,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-09T16:00:00+00:00",
+        "timestamp": 1720540800,
+        "periods": {
+          "first": 1720540800,
+          "second": 1720544400
+        },
+        "venue": {
+          "id": null,
+          "name": "Waldstadion Westendorf",
+          "city": "Westendorf"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212839,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-16T11:00:00+00:00",
+        "timestamp": 1721127600,
+        "periods": {
+          "first": 1721127600,
+          "second": 1721131200
+        },
+        "venue": {
+          "id": 5929,
+          "name": "Sportplatz Volders",
+          "city": "Volders"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1018,
+          "name": "NK Slaven Belupo",
+          "logo": "https://media.api-sports.io/football/teams/1018.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1230560,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-09T10:30:00+00:00",
+        "timestamp": 1720521000,
+        "periods": {
+          "first": 1720521000,
+          "second": 1720524600
+        },
+        "venue": {
+          "id": 10722,
+          "name": "Velly Arena Imst",
+          "city": "Imst"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 745,
+          "name": "1. FC Kaiserslautern",
+          "logo": "https://media.api-sports.io/football/teams/745.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1245598,
+        "referee": "I. Vad II",
+        "timezone": "UTC",
+        "date": "2024-07-23T16:00:00+00:00",
+        "timestamp": 1721750400,
+        "periods": {
+          "first": 1721750400,
+          "second": 1721754000
+        },
+        "venue": {
+          "id": null,
+          "name": "Europa Point Stadium",
+          "city": "Gibraltar"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 667,
+          "name": "Lincoln Red Imps FC",
+          "logo": "https://media.api-sports.io/football/teams/667.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1245599,
+        "referee": "J. Sundberg",
+        "timezone": "UTC",
+        "date": "2024-07-30T16:00:00+00:00",
+        "timestamp": 1722355200,
+        "periods": {
+          "first": 1722355200,
+          "second": 1722358800
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 667,
+          "name": "Lincoln Red Imps FC",
+          "logo": "https://media.api-sports.io/football/teams/667.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250497,
+        "referee": "E. M\u0259siyev",
+        "timezone": "UTC",
+        "date": "2024-08-02T16:00:00+00:00",
+        "timestamp": 1722614400,
+        "periods": {
+          "first": 1722614400,
+          "second": 1722618000
+        },
+        "venue": {
+          "id": null,
+          "name": "Liv Bona Dea Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 11238,
+          "name": "Araz",
+          "logo": "https://media.api-sports.io/football/teams/11238.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1260977,
+        "referee": "R. Allahverdiyev",
+        "timezone": "UTC",
+        "date": "2024-08-09T16:00:00+00:00",
+        "timestamp": 1723219200,
+        "periods": {
+          "first": 1723219200,
+          "second": 1723222800
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Az\u0259rsun Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5490,
+          "name": "Kapaz",
+          "logo": "https://media.api-sports.io/football/teams/5490.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1260982,
+        "referee": "R. \u018fhm\u0259dov",
+        "timezone": "UTC",
+        "date": "2024-12-19T10:00:00+00:00",
+        "timestamp": 1734602400,
+        "periods": {
+          "first": 1734602400,
+          "second": 1734606000
+        },
+        "venue": {
+          "id": 155,
+          "name": "\u015eamax\u0131 \u015f\u0259h\u0259r stadionu",
+          "city": "Shamakhi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 666,
+          "name": "\u015eamax\u0131 FK",
+          "logo": "https://media.api-sports.io/football/teams/666.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1260987,
+        "referee": "F. Haciyev",
+        "timezone": "UTC",
+        "date": "2024-08-24T14:15:00+00:00",
+        "timestamp": 1724508900,
+        "periods": {
+          "first": 1724508900,
+          "second": 1724512500
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Az\u0259rsun Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 5499,
+          "name": "Turan",
+          "logo": "https://media.api-sports.io/football/teams/5499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1260992,
+        "referee": "\u0130. M\u0259mm\u0259dov",
+        "timezone": "UTC",
+        "date": "2024-09-01T16:45:00+00:00",
+        "timestamp": 1725209100,
+        "periods": {
+          "first": 1725209100,
+          "second": 1725212700
+        },
+        "venue": {
+          "id": 4134,
+          "name": "Zir\u0259 q\u0259s\u0259b\u0259 stadionu",
+          "city": "Zirya"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 648,
+          "name": "Zira",
+          "logo": "https://media.api-sports.io/football/teams/648.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1260997,
+        "referee": "T. Qurbanov",
+        "timezone": "UTC",
+        "date": "2024-09-14T15:00:00+00:00",
+        "timestamp": 1726326000,
+        "periods": {
+          "first": 1726326000,
+          "second": 1726329600
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Az\u0259rsun Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4199,
+          "name": "S\u0259bail",
+          "logo": "https://media.api-sports.io/football/teams/4199.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261002,
+        "referee": "\u018f. A\u011fayev",
+        "timezone": "UTC",
+        "date": "2024-12-01T15:00:00+00:00",
+        "timestamp": 1733065200,
+        "periods": {
+          "first": 1733065200,
+          "second": 1733068800
+        },
+        "venue": {
+          "id": 20297,
+          "name": "Neft\u00e7i Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2270,
+          "name": "Neftchi Baku",
+          "logo": "https://media.api-sports.io/football/teams/2270.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261007,
+        "referee": "\u0130. M\u0259mm\u0259dov",
+        "timezone": "UTC",
+        "date": "2024-09-29T15:00:00+00:00",
+        "timestamp": 1727622000,
+        "periods": {
+          "first": 1727622000,
+          "second": 1727625600
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Az\u0259rsun Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 13976,
+          "name": "Sabah FA",
+          "logo": "https://media.api-sports.io/football/teams/13976.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261012,
+        "referee": "E. M\u0259siyev",
+        "timezone": "UTC",
+        "date": "2024-10-06T16:00:00+00:00",
+        "timestamp": 1728230400,
+        "periods": {
+          "first": 1728230400,
+          "second": 1728234000
+        },
+        "venue": {
+          "id": 4130,
+          "name": "Mehdi H\u00fcseynzad\u0259 ad\u0131na Sumqay\u0131t \u015f\u0259h\u0259r stadionu",
+          "city": "Sumqay\u0131t"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5503,
+          "name": "Sumqay\u0131t",
+          "logo": "https://media.api-sports.io/football/teams/5503.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261017,
+        "referee": "R. H\u0259mz\u0259zad\u0259",
+        "timezone": "UTC",
+        "date": "2024-10-18T14:00:00+00:00",
+        "timestamp": 1729260000,
+        "periods": {
+          "first": 1729260000,
+          "second": 1729263600
+        },
+        "venue": {
+          "id": 4131,
+          "name": "\u015e\u0259h\u0259r stadionu",
+          "city": "Tovuz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5490,
+          "name": "Kapaz",
+          "logo": "https://media.api-sports.io/football/teams/5490.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261022,
+        "referee": "C. C\u0259lilov",
+        "timezone": "UTC",
+        "date": "2024-10-27T15:00:00+00:00",
+        "timestamp": 1730041200,
+        "periods": {
+          "first": 1730041200,
+          "second": 1730044800
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 666,
+          "name": "\u015eamax\u0131 FK",
+          "logo": "https://media.api-sports.io/football/teams/666.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261027,
+        "referee": "\u018f. A\u011fayev",
+        "timezone": "UTC",
+        "date": "2024-11-01T14:30:00+00:00",
+        "timestamp": 1730471400,
+        "periods": {
+          "first": 1730471400,
+          "second": 1730475000
+        },
+        "venue": {
+          "id": 4131,
+          "name": "\u015e\u0259h\u0259r stadionu",
+          "city": "Tovuz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5499,
+          "name": "Turan",
+          "logo": "https://media.api-sports.io/football/teams/5499.png",
+          "winner": null
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261032,
+        "referee": "F. Haciyev",
+        "timezone": "UTC",
+        "date": "2024-11-10T15:00:00+00:00",
+        "timestamp": 1731250800,
+        "periods": {
+          "first": 1731250800,
+          "second": 1731254400
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 648,
+          "name": "Zira",
+          "logo": "https://media.api-sports.io/football/teams/648.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261037,
+        "referee": "N. \u0130smay\u0131ll\u0131",
+        "timezone": "UTC",
+        "date": "2024-11-23T13:00:00+00:00",
+        "timestamp": 1732366800,
+        "periods": {
+          "first": 1732366800,
+          "second": 1732370400
+        },
+        "venue": {
+          "id": 12459,
+          "name": "ASCO Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4199,
+          "name": "S\u0259bail",
+          "logo": "https://media.api-sports.io/football/teams/4199.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261042,
+        "referee": "\u018f. A\u011fayev",
+        "timezone": "UTC",
+        "date": "2024-09-20T16:00:00+00:00",
+        "timestamp": 1726848000,
+        "periods": {
+          "first": 1726848000,
+          "second": 1726851600
+        },
+        "venue": {
+          "id": null,
+          "name": "Az\u0259rsun Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2270,
+          "name": "Neftchi Baku",
+          "logo": "https://media.api-sports.io/football/teams/2270.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261047,
+        "referee": "E. M\u0259siyev",
+        "timezone": "UTC",
+        "date": "2024-12-07T14:00:00+00:00",
+        "timestamp": 1733580000,
+        "periods": {
+          "first": 1733580000,
+          "second": 1733583600
+        },
+        "venue": {
+          "id": 2783,
+          "name": "Bank Respublika Arena",
+          "city": "Masazir"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 13976,
+          "name": "Sabah FA",
+          "logo": "https://media.api-sports.io/football/teams/13976.png",
+          "winner": null
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261052,
+        "referee": "T. Qurbanov",
+        "timezone": "UTC",
+        "date": "2024-12-16T15:00:00+00:00",
+        "timestamp": 1734361200,
+        "periods": {
+          "first": 1734361200,
+          "second": 1734364800
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5503,
+          "name": "Sumqay\u0131t",
+          "logo": "https://media.api-sports.io/football/teams/5503.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261057,
+        "referee": "R. H\u0259mz\u0259zad\u0259",
+        "timezone": "UTC",
+        "date": "2024-12-22T12:30:00+00:00",
+        "timestamp": 1734870600,
+        "periods": {
+          "first": 1734870600,
+          "second": 1734874200
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 11238,
+          "name": "Araz",
+          "logo": "https://media.api-sports.io/football/teams/11238.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261062,
+        "referee": "R. Cabarov",
+        "timezone": "UTC",
+        "date": "2025-05-24T13:00:00+00:00",
+        "timestamp": 1748091600,
+        "periods": {
+          "first": 1748091600,
+          "second": 1748095200
+        },
+        "venue": {
+          "id": 155,
+          "name": "\u015eamax\u0131 \u015f\u0259h\u0259r stadionu",
+          "city": "Shamakhi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 36",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 666,
+          "name": "\u015eamax\u0131 FK",
+          "logo": "https://media.api-sports.io/football/teams/666.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261067,
+        "referee": "C. C\u0259lilov",
+        "timezone": "UTC",
+        "date": "2025-01-26T14:30:00+00:00",
+        "timestamp": 1737901800,
+        "periods": {
+          "first": 1737901800,
+          "second": 1737905400
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 5499,
+          "name": "Turan",
+          "logo": "https://media.api-sports.io/football/teams/5499.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261072,
+        "referee": "R. H\u0259mz\u0259zad\u0259",
+        "timezone": "UTC",
+        "date": "2025-02-02T15:00:00+00:00",
+        "timestamp": 1738508400,
+        "periods": {
+          "first": 1738508400,
+          "second": 1738512000
+        },
+        "venue": {
+          "id": 4134,
+          "name": "Zir\u0259 q\u0259s\u0259b\u0259 stadionu",
+          "city": "Zirya"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 648,
+          "name": "Zira",
+          "logo": "https://media.api-sports.io/football/teams/648.png",
+          "winner": true
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261077,
+        "referee": "E. M\u0259siyev",
+        "timezone": "UTC",
+        "date": "2025-02-11T15:00:00+00:00",
+        "timestamp": 1739286000,
+        "periods": {
+          "first": 1739286000,
+          "second": 1739289600
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4199,
+          "name": "S\u0259bail",
+          "logo": "https://media.api-sports.io/football/teams/4199.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261082,
+        "referee": "R. H\u0259mz\u0259zad\u0259",
+        "timezone": "UTC",
+        "date": "2025-02-16T15:00:00+00:00",
+        "timestamp": 1739718000,
+        "periods": {
+          "first": 1739718000,
+          "second": 1739721600
+        },
+        "venue": {
+          "id": 20297,
+          "name": "Neft\u00e7i Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2270,
+          "name": "Neftchi Baku",
+          "logo": "https://media.api-sports.io/football/teams/2270.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261087,
+        "referee": "\u018f. A\u011fayev",
+        "timezone": "UTC",
+        "date": "2025-02-22T15:00:00+00:00",
+        "timestamp": 1740236400,
+        "periods": {
+          "first": 1740236400,
+          "second": 1740240000
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": null
+        },
+        "away": {
+          "id": 13976,
+          "name": "Sabah FA",
+          "logo": "https://media.api-sports.io/football/teams/13976.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261092,
+        "referee": "R. Cabarov",
+        "timezone": "UTC",
+        "date": "2025-03-03T15:30:00+00:00",
+        "timestamp": 1741015800,
+        "periods": {
+          "first": 1741015800,
+          "second": 1741019400
+        },
+        "venue": {
+          "id": 4130,
+          "name": "Mehdi H\u00fcseynzad\u0259 ad\u0131na Sumqay\u0131t \u015f\u0259h\u0259r stadionu",
+          "city": "Sumqay\u0131t"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5503,
+          "name": "Sumqay\u0131t",
+          "logo": "https://media.api-sports.io/football/teams/5503.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261097,
+        "referee": "K. Umudlu",
+        "timezone": "UTC",
+        "date": "2025-03-08T15:00:00+00:00",
+        "timestamp": 1741446000,
+        "periods": {
+          "first": 1741446000,
+          "second": 1741449600
+        },
+        "venue": {
+          "id": null,
+          "name": "Liv Bona Dea Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 11238,
+          "name": "Araz",
+          "logo": "https://media.api-sports.io/football/teams/11238.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261102,
+        "referee": "F. Haciyev",
+        "timezone": "UTC",
+        "date": "2025-03-15T13:00:00+00:00",
+        "timestamp": 1742043600,
+        "periods": {
+          "first": 1742043600,
+          "second": 1742047200
+        },
+        "venue": {
+          "id": 4131,
+          "name": "\u015e\u0259h\u0259r stadionu",
+          "city": "Tovuz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5490,
+          "name": "Kapaz",
+          "logo": "https://media.api-sports.io/football/teams/5490.png",
+          "winner": null
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261107,
+        "referee": "C. C\u0259lilov",
+        "timezone": "UTC",
+        "date": "2025-03-28T15:30:00+00:00",
+        "timestamp": 1743175800,
+        "periods": {
+          "first": 1743175800,
+          "second": 1743179400
+        },
+        "venue": {
+          "id": 4131,
+          "name": "\u015e\u0259h\u0259r stadionu",
+          "city": "Tovuz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5499,
+          "name": "Turan",
+          "logo": "https://media.api-sports.io/football/teams/5499.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261112,
+        "referee": "\u0130. M\u0259mm\u0259dov",
+        "timezone": "UTC",
+        "date": "2025-04-06T15:30:00+00:00",
+        "timestamp": 1743953400,
+        "periods": {
+          "first": 1743953400,
+          "second": 1743957000
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 648,
+          "name": "Zira",
+          "logo": "https://media.api-sports.io/football/teams/648.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261117,
+        "referee": "T. Qurbanov",
+        "timezone": "UTC",
+        "date": "2025-04-11T15:00:00+00:00",
+        "timestamp": 1744383600,
+        "periods": {
+          "first": 1744383600,
+          "second": 1744387200
+        },
+        "venue": {
+          "id": 12459,
+          "name": "ASCO Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4199,
+          "name": "S\u0259bail",
+          "logo": "https://media.api-sports.io/football/teams/4199.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261122,
+        "referee": "E. M\u0259siyev",
+        "timezone": "UTC",
+        "date": "2025-04-19T16:00:00+00:00",
+        "timestamp": 1745078400,
+        "periods": {
+          "first": 1745078400,
+          "second": 1745082000
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2270,
+          "name": "Neftchi Baku",
+          "logo": "https://media.api-sports.io/football/teams/2270.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261127,
+        "referee": "T. Qurbanov",
+        "timezone": "UTC",
+        "date": "2025-04-27T16:00:00+00:00",
+        "timestamp": 1745769600,
+        "periods": {
+          "first": 1745769600,
+          "second": 1745773200
+        },
+        "venue": {
+          "id": 2783,
+          "name": "Bank Respublika Arena",
+          "city": "Masazir"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 13976,
+          "name": "Sabah FA",
+          "logo": "https://media.api-sports.io/football/teams/13976.png",
+          "winner": null
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261132,
+        "referee": "C. C\u0259lilov",
+        "timezone": "UTC",
+        "date": "2025-05-04T14:00:00+00:00",
+        "timestamp": 1746367200,
+        "periods": {
+          "first": 1746367200,
+          "second": 1746370800
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Az\u0259rsun Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5503,
+          "name": "Sumqay\u0131t",
+          "logo": "https://media.api-sports.io/football/teams/5503.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261137,
+        "referee": "\u018f. A\u011fayev",
+        "timezone": "UTC",
+        "date": "2025-05-11T16:00:00+00:00",
+        "timestamp": 1746979200,
+        "periods": {
+          "first": 1746979200,
+          "second": 1746982800
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Az\u0259rsun Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 34",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 11238,
+          "name": "Araz",
+          "logo": "https://media.api-sports.io/football/teams/11238.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261142,
+        "referee": "R. H\u0259mz\u0259zad\u0259",
+        "timezone": "UTC",
+        "date": "2025-05-18T15:00:00+00:00",
+        "timestamp": 1747580400,
+        "periods": {
+          "first": 1747580400,
+          "second": 1747584000
+        },
+        "venue": {
+          "id": 4125,
+          "name": "Az\u0259rsun Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 35",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5490,
+          "name": "Kapaz",
+          "logo": "https://media.api-sports.io/football/teams/5490.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1261147,
+        "referee": "E. M\u0259siyev",
+        "timezone": "UTC",
+        "date": "2025-01-17T15:00:00+00:00",
+        "timestamp": 1737126000,
+        "periods": {
+          "first": 1737126000,
+          "second": 1737129600
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 419,
+        "name": "Premyer Liqa",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/419.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 666,
+          "name": "\u015eamax\u0131 FK",
+          "logo": "https://media.api-sports.io/football/teams/666.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273677,
+        "referee": "U. Schnyder",
+        "timezone": "UTC",
+        "date": "2024-08-06T16:00:00+00:00",
+        "timestamp": 1722960000,
+        "periods": {
+          "first": 1722960000,
+          "second": 1722963600
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273678,
+        "referee": "S. Sozza",
+        "timezone": "UTC",
+        "date": "2024-08-13T18:00:00+00:00",
+        "timestamp": 1723572000,
+        "periods": {
+          "first": 1723572000,
+          "second": 1723575600
+        },
+        "venue": {
+          "id": 10547,
+          "name": "Huvepharma Arena",
+          "city": "Razgrad"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 7
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": 0,
+          "away": 4
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1286247,
+        "referee": "G. Nyberg",
+        "timezone": "UTC",
+        "date": "2024-08-20T19:00:00+00:00",
+        "timestamp": 1724180400,
+        "periods": {
+          "first": 1724180400,
+          "second": 1724184000
+        },
+        "venue": {
+          "id": 412,
+          "name": "Stadion Maksimir",
+          "city": "Zagreb"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png",
+          "winner": true
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1286248,
+        "referee": "M. Oliver",
+        "timezone": "UTC",
+        "date": "2024-08-28T16:45:00+00:00",
+        "timestamp": 1724863500,
+        "periods": {
+          "first": 1724863500,
+          "second": 1724867100
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299145,
+        "referee": "W. Delajod",
+        "timezone": "UTC",
+        "date": "2024-09-26T19:00:00+00:00",
+        "timestamp": 1727377200,
+        "periods": {
+          "first": 1727377200,
+          "second": 1727380800
+        },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png",
+          "winner": true
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299150,
+        "referee": "A. Papapetrou",
+        "timezone": "UTC",
+        "date": "2024-10-03T16:45:00+00:00",
+        "timestamp": 1727973900,
+        "periods": {
+          "first": 1727973900,
+          "second": 1727977500
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299171,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-10-24T16:45:00+00:00",
+        "timestamp": 1729788300,
+        "periods": {
+          "first": 1729788300,
+          "second": 1729791900
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299183,
+        "referee": "Lu\u00eds Godinho",
+        "timezone": "UTC",
+        "date": "2024-11-07T17:45:00+00:00",
+        "timestamp": 1731001500,
+        "periods": {
+          "first": 1731001500,
+          "second": 1731005100
+        },
+        "venue": {
+          "id": 1175,
+          "name": "Aspmyra Stadion",
+          "city": "Bod\u00f8"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299205,
+        "referee": "N. Minakovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-11-28T17:45:00+00:00",
+        "timestamp": 1732815900,
+        "periods": {
+          "first": 1732815900,
+          "second": 1732819500
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299229,
+        "referee": "Ant\u00f3nio Nobre",
+        "timezone": "UTC",
+        "date": "2024-12-12T20:00:00+00:00",
+        "timestamp": 1734033600,
+        "periods": {
+          "first": 1734033600,
+          "second": 1734037200
+        },
+        "venue": {
+          "id": 1507,
+          "name": "Bor\u00e5s Arena",
+          "city": "Bor\u00e5s"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 372,
+          "name": "IF Elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": true
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299243,
+        "referee": "F. Glova",
+        "timezone": "UTC",
+        "date": "2025-01-23T17:45:00+00:00",
+        "timestamp": 1737654300,
+        "periods": {
+          "first": 1737654300,
+          "second": 1737657900
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299264,
+        "referee": "R. Petrescu",
+        "timezone": "UTC",
+        "date": "2025-01-30T20:00:00+00:00",
+        "timestamp": 1738267200,
+        "periods": {
+          "first": 1738267200,
+          "second": 1738270800
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Georgios Karaisk\u00e1ki",
+          "city": "Piraeus"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png",
+          "winner": true
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314994,
+        "referee": "R. Cabarov",
+        "timezone": "UTC",
+        "date": "2024-12-04T12:00:00+00:00",
+        "timestamp": 1733313600,
+        "periods": {
+          "first": 1733313600,
+          "second": 1733317200
+        },
+        "venue": {
+          "id": 158,
+          "name": "\u015e\u0259h\u0259r stadionu",
+          "city": "Q\u0259b\u0259l\u0259"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 420,
+        "name": "Cup",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/420.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 627,
+          "name": "Qabala",
+          "logo": "https://media.api-sports.io/football/teams/627.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1320008,
+        "referee": "R. Cabarov",
+        "timezone": "UTC",
+        "date": "2025-02-06T14:30:00+00:00",
+        "timestamp": 1738852200,
+        "periods": {
+          "first": 1738852200,
+          "second": 1738855800
+        },
+        "venue": {
+          "id": 12459,
+          "name": "ASCO Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 420,
+        "name": "Cup",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/420.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 4199,
+          "name": "S\u0259bail",
+          "logo": "https://media.api-sports.io/football/teams/4199.png",
+          "winner": false
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1320009,
+        "referee": "C. C\u0259lilov",
+        "timezone": "UTC",
+        "date": "2025-02-27T12:00:00+00:00",
+        "timestamp": 1740657600,
+        "periods": {
+          "first": 1740657600,
+          "second": 1740661200
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 420,
+        "name": "Cup",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/420.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4199,
+          "name": "S\u0259bail",
+          "logo": "https://media.api-sports.io/football/teams/4199.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1356371,
+        "referee": "E. M\u0259siyev",
+        "timezone": "UTC",
+        "date": "2025-04-02T13:00:00+00:00",
+        "timestamp": 1743598800,
+        "periods": {
+          "first": 1743598800,
+          "second": 1743602400
+        },
+        "venue": {
+          "id": null,
+          "name": "Liv Bona Dea Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 420,
+        "name": "Cup",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/420.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 11238,
+          "name": "Araz",
+          "logo": "https://media.api-sports.io/football/teams/11238.png",
+          "winner": true
+        },
+        "away": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1356372,
+        "referee": "R. H\u0259mz\u0259zad\u0259",
+        "timezone": "UTC",
+        "date": "2025-04-23T13:00:00+00:00",
+        "timestamp": 1745413200,
+        "periods": {
+          "first": 1745413200,
+          "second": 1745416800
+        },
+        "venue": {
+          "id": 5799,
+          "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 420,
+        "name": "Cup",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/420.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": true
+        },
+        "away": {
+          "id": 11238,
+          "name": "Araz",
+          "logo": "https://media.api-sports.io/football/teams/11238.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372958,
+        "referee": "\u0130. M\u0259mm\u0259dov",
+        "timezone": "UTC",
+        "date": "2025-05-31T15:00:00+00:00",
+        "timestamp": 1748703600,
+        "periods": {
+          "first": 1748703600,
+          "second": 1748707200
+        },
+        "venue": {
+          "id": 4130,
+          "name": "Mehdi H\u00fcseynzad\u0259 ad\u0131na Sumqay\u0131t \u015f\u0259h\u0259r stadionu",
+          "city": "Sumqay\u0131t"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 420,
+        "name": "Cup",
+        "country": "Azerbaijan",
+        "logo": "https://media.api-sports.io/football/leagues/420.png",
+        "flag": "https://media.api-sports.io/flags/az.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png",
+          "winner": false
+        },
+        "away": {
+          "id": 13976,
+          "name": "Sabah FA",
+          "logo": "https://media.api-sports.io/football/teams/13976.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": 0,
+          "away": 1
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

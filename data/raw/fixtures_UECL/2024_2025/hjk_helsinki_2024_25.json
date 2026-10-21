@@ -1,0 +1,3795 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "649"
+  },
+  "errors": [],
+  "results": 54,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1153031,
+        "referee": "O. Reitala",
+        "timezone": "UTC",
+        "date": "2024-01-26T12:00:00+00:00",
+        "timestamp": 1706270400,
+        "periods": {
+          "first": 1706270400,
+          "second": 1706274000
+        },
+        "venue": {
+          "id": 8444,
+          "name": "Talin jalkapallohalli",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 899,
+        "name": "League Cup",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/899.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Group Stage - 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 587,
+          "name": "Mariehamn",
+          "logo": "https://media.api-sports.io/football/teams/587.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1153039,
+        "referee": "D. Antamo",
+        "timezone": "UTC",
+        "date": "2024-02-03T12:00:00+00:00",
+        "timestamp": 1706961600,
+        "periods": {
+          "first": 1706961600,
+          "second": 1706965200
+        },
+        "venue": {
+          "id": 8444,
+          "name": "Talin jalkapallohalli",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 899,
+        "name": "League Cup",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/899.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Group Stage - 2",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2082,
+          "name": "Gnistan",
+          "logo": "https://media.api-sports.io/football/teams/2082.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1153048,
+        "referee": "D. Antamo",
+        "timezone": "UTC",
+        "date": "2024-03-02T12:00:00+00:00",
+        "timestamp": 1709380800,
+        "periods": {
+          "first": 1709380800,
+          "second": 1709384400
+        },
+        "venue": {
+          "id": 8444,
+          "name": "Talin jalkapallohalli",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 899,
+        "name": "League Cup",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/899.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Group Stage - 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2078,
+          "name": "EIF",
+          "logo": "https://media.api-sports.io/football/teams/2078.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1153053,
+        "referee": "J. Manninen",
+        "timezone": "UTC",
+        "date": "2024-02-27T12:00:00+00:00",
+        "timestamp": 1709035200,
+        "periods": {
+          "first": 1709035200,
+          "second": 1709038800
+        },
+        "venue": {
+          "id": null,
+          "name": "Mukkulan halli",
+          "city": "Lahti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 899,
+        "name": "League Cup",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/899.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Group Stage - 4",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1166,
+          "name": "Lahti",
+          "logo": "https://media.api-sports.io/football/teams/1166.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1153055,
+        "referee": "M. Al Emara",
+        "timezone": "UTC",
+        "date": "2024-02-17T12:00:00+00:00",
+        "timestamp": 1708171200,
+        "periods": {
+          "first": 1708171200,
+          "second": 1708174800
+        },
+        "venue": {
+          "id": 8444,
+          "name": "Talin jalkapallohalli",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 899,
+        "name": "League Cup",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/899.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Group Stage - 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1164,
+          "name": "Inter Turku",
+          "logo": "https://media.api-sports.io/football/teams/1164.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1156735,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-27T11:15:00+00:00",
+        "timestamp": 1706354100,
+        "periods": {
+          "first": 1706354100,
+          "second": 1706357700
+        },
+        "venue": {
+          "id": 19488,
+          "name": "T\u00f6\u00f6l\u00f6 PK 1 Tekonurmi",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2082,
+          "name": "Gnistan",
+          "logo": "https://media.api-sports.io/football/teams/2082.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1157130,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-11T12:00:00+00:00",
+        "timestamp": 1707652800,
+        "periods": {
+          "first": 1707652800,
+          "second": 1707656400
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 363,
+          "name": "Hammarby FF",
+          "logo": "https://media.api-sports.io/football/teams/363.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164565,
+        "referee": "O. Reitala",
+        "timezone": "UTC",
+        "date": "2024-04-06T16:00:00+00:00",
+        "timestamp": 1712419200,
+        "periods": {
+          "first": 1712419200,
+          "second": 1712422800
+        },
+        "venue": {
+          "id": 12286,
+          "name": "V\u00e4re Areena",
+          "city": "Kuopio"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1165,
+          "name": "KuPS",
+          "logo": "https://media.api-sports.io/football/teams/1165.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164566,
+        "referee": "J. Manninen",
+        "timezone": "UTC",
+        "date": "2024-04-11T15:00:00+00:00",
+        "timestamp": 1712847600,
+        "periods": {
+          "first": 1712847600,
+          "second": 1712851200
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1166,
+          "name": "Lahti",
+          "logo": "https://media.api-sports.io/football/teams/1166.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164573,
+        "referee": "M. Roth",
+        "timezone": "UTC",
+        "date": "2024-04-20T12:00:00+00:00",
+        "timestamp": 1713614400,
+        "periods": {
+          "first": 1713614400,
+          "second": 1713618000
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 587,
+          "name": "Mariehamn",
+          "logo": "https://media.api-sports.io/football/teams/587.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164579,
+        "referee": "D. Antamo",
+        "timezone": "UTC",
+        "date": "2024-04-27T12:00:00+00:00",
+        "timestamp": 1714219200,
+        "periods": {
+          "first": 1714219200,
+          "second": 1714222800
+        },
+        "venue": {
+          "id": 614,
+          "name": "Tehtaan kentt\u00e4",
+          "city": "Valkeakoski"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2080,
+          "name": "Haka",
+          "logo": "https://media.api-sports.io/football/teams/2080.png",
+          "winner": null
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164586,
+        "referee": "P. Simani",
+        "timezone": "UTC",
+        "date": "2024-05-04T14:00:00+00:00",
+        "timestamp": 1714831200,
+        "periods": {
+          "first": 1714831200,
+          "second": 1714834800
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2078,
+          "name": "EIF",
+          "logo": "https://media.api-sports.io/football/teams/2078.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164593,
+        "referee": "A. Munukka",
+        "timezone": "UTC",
+        "date": "2024-05-11T16:00:00+00:00",
+        "timestamp": 1715443200,
+        "periods": {
+          "first": 1715443200,
+          "second": 1715446800
+        },
+        "venue": {
+          "id": 618,
+          "name": "Veritas Stadion",
+          "city": "\u00c5bo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1164,
+          "name": "Inter Turku",
+          "logo": "https://media.api-sports.io/football/teams/1164.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164596,
+        "referee": "J. Hyyti\u00e4",
+        "timezone": "UTC",
+        "date": "2024-05-17T15:00:00+00:00",
+        "timestamp": 1715958000,
+        "periods": {
+          "first": 1715958000,
+          "second": 1715961600
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        },
+        "away": {
+          "id": 650,
+          "name": "VPS",
+          "logo": "https://media.api-sports.io/football/teams/650.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164603,
+        "referee": "K. H\u00e4m\u00e4l\u00e4inen",
+        "timezone": "UTC",
+        "date": "2024-05-25T14:00:00+00:00",
+        "timestamp": 1716645600,
+        "periods": {
+          "first": 1716645600,
+          "second": 1716649200
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1163,
+          "name": "Ilves",
+          "logo": "https://media.api-sports.io/football/teams/1163.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164611,
+        "referee": "V. Nevalainen",
+        "timezone": "UTC",
+        "date": "2024-05-31T17:00:00+00:00",
+        "timestamp": 1717174800,
+        "periods": {
+          "first": 1717174800,
+          "second": 1717178400
+        },
+        "venue": {
+          "id": 627,
+          "name": "Raatin stadion",
+          "city": "Oulu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2077,
+          "name": "AC Oulu",
+          "logo": "https://media.api-sports.io/football/teams/2077.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164617,
+        "referee": "O. Reitala",
+        "timezone": "UTC",
+        "date": "2024-06-07T17:00:00+00:00",
+        "timestamp": 1717779600,
+        "periods": {
+          "first": 1717779600,
+          "second": 1717783200
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 689,
+          "name": "SJK",
+          "logo": "https://media.api-sports.io/football/teams/689.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164625,
+        "referee": "P. Simani",
+        "timezone": "UTC",
+        "date": "2024-06-12T16:00:00+00:00",
+        "timestamp": 1718208000,
+        "periods": {
+          "first": 1718208000,
+          "second": 1718211600
+        },
+        "venue": {
+          "id": 2698,
+          "name": "Mustapekka Areena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2082,
+          "name": "Gnistan",
+          "logo": "https://media.api-sports.io/football/teams/2082.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164631,
+        "referee": "A. Munukka",
+        "timezone": "UTC",
+        "date": "2024-06-19T18:00:00+00:00",
+        "timestamp": 1718820000,
+        "periods": {
+          "first": 1718820000,
+          "second": 1718823600
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1165,
+          "name": "KuPS",
+          "logo": "https://media.api-sports.io/football/teams/1165.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164637,
+        "referee": "P. Viljanen",
+        "timezone": "UTC",
+        "date": "2024-06-30T13:00:00+00:00",
+        "timestamp": 1719752400,
+        "periods": {
+          "first": 1719752400,
+          "second": 1719756000
+        },
+        "venue": {
+          "id": null,
+          "name": "Wikl\u00f6f Holding Arena",
+          "city": "\u00c5land"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 587,
+          "name": "Mariehamn",
+          "logo": "https://media.api-sports.io/football/teams/587.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164638,
+        "referee": "M. Al Emara",
+        "timezone": "UTC",
+        "date": "2024-07-06T12:00:00+00:00",
+        "timestamp": 1720267200,
+        "periods": {
+          "first": 1720267200,
+          "second": 1720270800
+        },
+        "venue": {
+          "id": 617,
+          "name": "Tammelan Stadion",
+          "city": "Tampere"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1163,
+          "name": "Ilves",
+          "logo": "https://media.api-sports.io/football/teams/1163.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164644,
+        "referee": "P. Simani",
+        "timezone": "UTC",
+        "date": "2024-04-24T16:00:00+00:00",
+        "timestamp": 1713974400,
+        "periods": {
+          "first": 1713974400,
+          "second": 1713978000
+        },
+        "venue": {
+          "id": 629,
+          "name": "OmaSP Stadion",
+          "city": "Sein\u00e4joki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 689,
+          "name": "SJK",
+          "logo": "https://media.api-sports.io/football/teams/689.png",
+          "winner": null
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164650,
+        "referee": "V. Nevalainen",
+        "timezone": "UTC",
+        "date": "2024-07-20T14:00:00+00:00",
+        "timestamp": 1721484000,
+        "periods": {
+          "first": 1721484000,
+          "second": 1721487600
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2080,
+          "name": "Haka",
+          "logo": "https://media.api-sports.io/football/teams/2080.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164657,
+        "referee": "P. Viljanen",
+        "timezone": "UTC",
+        "date": "2024-07-27T14:00:00+00:00",
+        "timestamp": 1722088800,
+        "periods": {
+          "first": 1722088800,
+          "second": 1722092400
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2077,
+          "name": "AC Oulu",
+          "logo": "https://media.api-sports.io/football/teams/2077.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164663,
+        "referee": "A. Munukka",
+        "timezone": "UTC",
+        "date": "2024-08-03T16:00:00+00:00",
+        "timestamp": 1722700800,
+        "periods": {
+          "first": 1722700800,
+          "second": 1722704400
+        },
+        "venue": {
+          "id": 623,
+          "name": "Lahden Stadion",
+          "city": "Lahti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1166,
+          "name": "Lahti",
+          "logo": "https://media.api-sports.io/football/teams/1166.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164668,
+        "referee": "O. Reitala",
+        "timezone": "UTC",
+        "date": "2024-05-22T15:00:00+00:00",
+        "timestamp": 1716390000,
+        "periods": {
+          "first": 1716390000,
+          "second": 1716393600
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2082,
+          "name": "Gnistan",
+          "logo": "https://media.api-sports.io/football/teams/2082.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164675,
+        "referee": "D. Antamo",
+        "timezone": "UTC",
+        "date": "2024-08-18T13:00:00+00:00",
+        "timestamp": 1723986000,
+        "periods": {
+          "first": 1723986000,
+          "second": 1723989600
+        },
+        "venue": {
+          "id": 20731,
+          "name": "Eken\u00e4s Sparbank Arena TN",
+          "city": "Raseborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2078,
+          "name": "EIF",
+          "logo": "https://media.api-sports.io/football/teams/2078.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164681,
+        "referee": "P. Simani",
+        "timezone": "UTC",
+        "date": "2024-08-25T13:00:00+00:00",
+        "timestamp": 1724590800,
+        "periods": {
+          "first": 1724590800,
+          "second": 1724594400
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1164,
+          "name": "Inter Turku",
+          "logo": "https://media.api-sports.io/football/teams/1164.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1164691,
+        "referee": "M. Al Emara",
+        "timezone": "UTC",
+        "date": "2024-09-01T13:00:00+00:00",
+        "timestamp": 1725195600,
+        "periods": {
+          "first": 1725195600,
+          "second": 1725199200
+        },
+        "venue": {
+          "id": 19205,
+          "name": "Lemonsoft Stadion",
+          "city": "Vaasa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 650,
+          "name": "VPS",
+          "logo": "https://media.api-sports.io/football/teams/650.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1171857,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-10T00:00:00+00:00",
+        "timestamp": 1707523200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "Pirkkahalli A",
+          "city": "Tampere"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "Canc",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 1163,
+          "name": "Ilves",
+          "logo": "https://media.api-sports.io/football/teams/1163.png",
+          "winner": null
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185121,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-29T09:45:00+00:00",
+        "timestamp": 1711705500,
+        "periods": {
+          "first": 1711705500,
+          "second": 1711709100
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        },
+        "away": {
+          "id": 10669,
+          "name": "PK-35",
+          "logo": "https://media.api-sports.io/football/teams/10669.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1188673,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-03-28T10:30:00+00:00",
+        "timestamp": 1711621800,
+        "periods": {
+          "first": 1711621800,
+          "second": 1711625400
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1168,
+          "name": "Turku PS",
+          "logo": "https://media.api-sports.io/football/teams/1168.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200629,
+        "referee": "A. Sugulle",
+        "timezone": "UTC",
+        "date": "2024-06-16T15:00:00+00:00",
+        "timestamp": 1718550000,
+        "periods": {
+          "first": 1718550000,
+          "second": 1718553600
+        },
+        "venue": {
+          "id": 8455,
+          "name": "Tuusulan Urheilukeskus Stadion",
+          "city": "Tuusula"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 246,
+        "name": "Suomen Cup",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/246.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 13532,
+          "name": "TuPS",
+          "logo": "https://media.api-sports.io/football/teams/13532.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208020,
+        "referee": "J. Vuorinen",
+        "timezone": "UTC",
+        "date": "2024-06-26T15:30:00+00:00",
+        "timestamp": 1719415800,
+        "periods": {
+          "first": 1719415800,
+          "second": 1719419400
+        },
+        "venue": {
+          "id": 20731,
+          "name": "Eken\u00e4s Sparbank Arena TN",
+          "city": "Raseborg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 246,
+        "name": "Suomen Cup",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/246.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "6th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2078,
+          "name": "EIF",
+          "logo": "https://media.api-sports.io/football/teams/2078.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208418,
+        "referee": "L. Cibelli",
+        "timezone": "UTC",
+        "date": "2024-07-09T15:30:00+00:00",
+        "timestamp": 1720539000,
+        "periods": {
+          "first": 1720539000,
+          "second": 1720542600
+        },
+        "venue": {
+          "id": 11572,
+          "name": "Auk\u0161taitija stadionas",
+          "city": "Panev\u0117\u017eys"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3874,
+          "name": "Panev\u0117\u017eys",
+          "logo": "https://media.api-sports.io/football/teams/3874.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208419,
+        "referee": "C. Pawson",
+        "timezone": "UTC",
+        "date": "2024-07-16T16:00:00+00:00",
+        "timestamp": 1721145600,
+        "periods": {
+          "first": 1721145600,
+          "second": 1721149200
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3874,
+          "name": "Panev\u0117\u017eys",
+          "logo": "https://media.api-sports.io/football/teams/3874.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1271725,
+        "referee": "S. Putros",
+        "timezone": "UTC",
+        "date": "2024-08-08T16:00:00+00:00",
+        "timestamp": 1723132800,
+        "periods": {
+          "first": 1723132800,
+          "second": 1723136400
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3745,
+          "name": "De\u010di\u0107",
+          "logo": "https://media.api-sports.io/football/teams/3745.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1271726,
+        "referee": "A. Ladeb\u00e4ck",
+        "timezone": "UTC",
+        "date": "2024-08-15T19:00:00+00:00",
+        "timestamp": 1723748400,
+        "periods": {
+          "first": 1723748400,
+          "second": 1723752000
+        },
+        "venue": {
+          "id": 1098,
+          "name": "Stadion Kraj Bistrice",
+          "city": "Nik\u0161i\u0107"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3745,
+          "name": "De\u010di\u0107",
+          "logo": "https://media.api-sports.io/football/teams/3745.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 3,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287602,
+        "referee": "L. Visser",
+        "timezone": "UTC",
+        "date": "2024-08-22T18:45:00+00:00",
+        "timestamp": 1724352300,
+        "periods": {
+          "first": 1724352300,
+          "second": 1724355900
+        },
+        "venue": {
+          "id": 2609,
+          "name": "T\u00f3rsv\u00f8llur",
+          "city": "T\u00f3rshavn, Streymoy"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 701,
+          "name": "KI Klaksvik",
+          "logo": "https://media.api-sports.io/football/teams/701.png",
+          "winner": null
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287603,
+        "referee": "D. Fuxman",
+        "timezone": "UTC",
+        "date": "2024-08-29T16:00:00+00:00",
+        "timestamp": 1724947200,
+        "periods": {
+          "first": 1724947200,
+          "second": 1724950800
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 701,
+          "name": "KI Klaksvik",
+          "logo": "https://media.api-sports.io/football/teams/701.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299306,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 1544,
+          "name": "Stockhorn Arena",
+          "city": "Thun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299323,
+        "referee": "H. Nalbandyan",
+        "timezone": "UTC",
+        "date": "2024-10-24T19:00:00+00:00",
+        "timestamp": 1729796400,
+        "periods": {
+          "first": 1729796400,
+          "second": 1729800000
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        },
+        "away": {
+          "id": 394,
+          "name": "Dinamo Minsk",
+          "logo": "https://media.api-sports.io/football/teams/394.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299331,
+        "referee": "R. Jones",
+        "timezone": "UTC",
+        "date": "2024-11-07T17:45:00+00:00",
+        "timestamp": 1731001500,
+        "periods": {
+          "first": 1731001500,
+          "second": 1731005100
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        },
+        "away": {
+          "id": 677,
+          "name": "Olimpija Ljubljana",
+          "logo": "https://media.api-sports.io/football/teams/677.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299357,
+        "referee": "D. Rum\u0161as",
+        "timezone": "UTC",
+        "date": "2024-11-28T17:45:00+00:00",
+        "timestamp": 1732815900,
+        "periods": {
+          "first": 1732815900,
+          "second": 1732819500
+        },
+        "venue": {
+          "id": null,
+          "name": "Olympiako Stadio Spyros Louis",
+          "city": "Athens"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 617,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/football/teams/617.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299371,
+        "referee": "A. Karao\u011flan",
+        "timezone": "UTC",
+        "date": "2024-12-12T17:45:00+00:00",
+        "timestamp": 1734025500,
+        "periods": {
+          "first": 1734025500,
+          "second": 1734029100
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        },
+        "away": {
+          "id": 329,
+          "name": "Molde",
+          "logo": "https://media.api-sports.io/football/teams/329.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299398,
+        "referee": "P. Kolari\u0107",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 1489,
+          "name": "Estadio Benito Villamar\u00edn",
+          "city": "Sevilla"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1301235,
+        "referee": "J. Manninen",
+        "timezone": "UTC",
+        "date": "2024-09-14T12:00:00+00:00",
+        "timestamp": 1726315200,
+        "periods": {
+          "first": 1726315200,
+          "second": 1726318800
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Championship Round - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        },
+        "away": {
+          "id": 689,
+          "name": "SJK",
+          "logo": "https://media.api-sports.io/football/teams/689.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1301239,
+        "referee": "A. Munukka",
+        "timezone": "UTC",
+        "date": "2024-09-20T17:00:00+00:00",
+        "timestamp": 1726851600,
+        "periods": {
+          "first": 1726851600,
+          "second": 1726855200
+        },
+        "venue": {
+          "id": 19205,
+          "name": "Lemonsoft Stadion",
+          "city": "Vaasa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Championship Round - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 650,
+          "name": "VPS",
+          "logo": "https://media.api-sports.io/football/teams/650.png",
+          "winner": null
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1301242,
+        "referee": "O. Reitala",
+        "timezone": "UTC",
+        "date": "2024-09-28T16:30:00+00:00",
+        "timestamp": 1727541000,
+        "periods": {
+          "first": 1727541000,
+          "second": 1727544600
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Championship Round - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        },
+        "away": {
+          "id": 1163,
+          "name": "Ilves",
+          "logo": "https://media.api-sports.io/football/teams/1163.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1301246,
+        "referee": "A. Munukka",
+        "timezone": "UTC",
+        "date": "2024-10-06T15:30:00+00:00",
+        "timestamp": 1728228600,
+        "periods": {
+          "first": 1728228600,
+          "second": 1728232200
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Championship Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2080,
+          "name": "Haka",
+          "logo": "https://media.api-sports.io/football/teams/2080.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1301247,
+        "referee": "P. Simani",
+        "timezone": "UTC",
+        "date": "2024-10-19T15:00:00+00:00",
+        "timestamp": 1729350000,
+        "periods": {
+          "first": 1729350000,
+          "second": 1729353600
+        },
+        "venue": {
+          "id": 12286,
+          "name": "V\u00e4re Areena",
+          "city": "Kuopio"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 244,
+        "name": "Veikkausliiga",
+        "country": "Finland",
+        "logo": "https://media.api-sports.io/football/leagues/244.png",
+        "flag": "https://media.api-sports.io/flags/fi.svg",
+        "season": 2024,
+        "round": "Championship Round - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1165,
+          "name": "KuPS",
+          "logo": "https://media.api-sports.io/football/teams/1165.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314897,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-11-21T19:00:00+00:00",
+        "timestamp": 1732215600,
+        "periods": {
+          "first": 1732215600,
+          "second": 1732219200
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314898,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-11-22T13:00:00+00:00",
+        "timestamp": 1732280400,
+        "periods": {
+          "first": 1732280400,
+          "second": 1732284000
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": false
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1316724,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-12-05T15:00:00+00:00",
+        "timestamp": 1733410800,
+        "periods": {
+          "first": 1733410800,
+          "second": 1733414400
+        },
+        "venue": {
+          "id": 1506,
+          "name": "Tele2 Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK Helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

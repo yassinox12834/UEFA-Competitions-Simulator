@@ -1,0 +1,3095 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "2271"
+  },
+  "errors": [],
+  "results": 44,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1161865,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-02-16T14:00:00+00:00",
+        "timestamp": 1708092000,
+        "periods": {
+          "first": 1708092000,
+          "second": 1708095600
+        },
+        "venue": {
+          "id": null,
+          "name": "Hotel RIU Kaya - Field C",
+          "city": "Belek"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208428,
+        "referee": "P. Kolari\u0107",
+        "timezone": "UTC",
+        "date": "2024-07-10T15:00:00+00:00",
+        "timestamp": 1720623600,
+        "periods": {
+          "first": 1720623600,
+          "second": 1720627200
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadion Qajimuqan Mu\u00f1aytpasov",
+          "city": "Shymkent"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 692,
+          "name": "Ordabasy",
+          "logo": "https://media.api-sports.io/football/teams/692.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208429,
+        "referee": "M. Milanovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-07-17T17:00:00+00:00",
+        "timestamp": 1721235600,
+        "periods": {
+          "first": 1721235600,
+          "second": 1721239200
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 692,
+          "name": "Ordabasy",
+          "logo": "https://media.api-sports.io/football/teams/692.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212756,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-29T08:00:00+00:00",
+        "timestamp": 1719648000,
+        "periods": {
+          "first": 1719648000,
+          "second": 1719651600
+        },
+        "venue": {
+          "id": 19739,
+          "name": "Complex Academia Gheorghe Hagi teren 2 sintetic",
+          "city": "Ovidiu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2596,
+          "name": "Farul Constanta",
+          "logo": "https://media.api-sports.io/football/teams/2596.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1214883,
+        "referee": "D. Luca",
+        "timezone": "UTC",
+        "date": "2024-10-30T15:00:00+00:00",
+        "timestamp": 1730300400,
+        "periods": {
+          "first": 1730300400,
+          "second": 1730304000
+        },
+        "venue": {
+          "id": 1094,
+          "name": "Complexul Sportiv Raional",
+          "city": "Orhei"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 691,
+          "name": "Milsami Orhei",
+          "logo": "https://media.api-sports.io/football/teams/691.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1219580,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-03T14:00:00+00:00",
+        "timestamp": 1720015200,
+        "periods": {
+          "first": 1720015200,
+          "second": 1720018800
+        },
+        "venue": {
+          "id": 19739,
+          "name": "Complex Academia Gheorghe Hagi teren 2 sintetic",
+          "city": "Ovidiu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2596,
+          "name": "Farul Constanta",
+          "logo": "https://media.api-sports.io/football/teams/2596.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239634,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-09T17:00:00+00:00",
+        "timestamp": 1723222800,
+        "periods": {
+          "first": 1723222800,
+          "second": 1723226400
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5376,
+          "name": "Flore\u015fti",
+          "logo": "https://media.api-sports.io/football/teams/5376.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239639,
+        "referee": "I. Orlic",
+        "timezone": "UTC",
+        "date": "2024-08-18T17:00:00+00:00",
+        "timestamp": 1724000400,
+        "periods": {
+          "first": 1724000400,
+          "second": 1724004000
+        },
+        "venue": {
+          "id": 1093,
+          "name": "Bolshaya Sportivnaya Arena",
+          "city": "Tiraspol"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 568,
+          "name": "Sheriff Tiraspol",
+          "logo": "https://media.api-sports.io/football/teams/568.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239641,
+        "referee": "A. Diordiev",
+        "timezone": "UTC",
+        "date": "2024-08-25T17:00:00+00:00",
+        "timestamp": 1724605200,
+        "periods": {
+          "first": 1724605200,
+          "second": 1724608800
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5375,
+          "name": "Dacia-Buiucani",
+          "logo": "https://media.api-sports.io/football/teams/5375.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239647,
+        "referee": "D. Muntean",
+        "timezone": "UTC",
+        "date": "2024-11-03T14:00:00+00:00",
+        "timestamp": 1730642400,
+        "periods": {
+          "first": 1730642400,
+          "second": 1730646000
+        },
+        "venue": {
+          "id": 19104,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "Nisporeni"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5380,
+          "name": "Spartanii Selemet",
+          "logo": "https://media.api-sports.io/football/teams/5380.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239649,
+        "referee": "D. Luca",
+        "timezone": "UTC",
+        "date": "2024-09-15T16:00:00+00:00",
+        "timestamp": 1726416000,
+        "periods": {
+          "first": 1726416000,
+          "second": 1726419600
+        },
+        "venue": {
+          "id": 19653,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "B\u0103l\u0163i"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 14008,
+          "name": "CSF B\u0103l\u021bi",
+          "logo": "https://media.api-sports.io/football/teams/14008.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239654,
+        "referee": "D. Muntean",
+        "timezone": "UTC",
+        "date": "2024-09-22T16:00:00+00:00",
+        "timestamp": 1727020800,
+        "periods": {
+          "first": 1727020800,
+          "second": 1727024400
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4633,
+          "name": "Zimbru",
+          "logo": "https://media.api-sports.io/football/teams/4633.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239658,
+        "referee": "I. Bo\u0219ca",
+        "timezone": "UTC",
+        "date": "2024-09-28T15:00:00+00:00",
+        "timestamp": 1727535600,
+        "periods": {
+          "first": 1727535600,
+          "second": 1727539200
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 691,
+          "name": "Milsami Orhei",
+          "logo": "https://media.api-sports.io/football/teams/691.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239661,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-10-06T12:00:00+00:00",
+        "timestamp": 1728216000,
+        "periods": {
+          "first": 1728216000,
+          "second": 1728219600
+        },
+        "venue": {
+          "id": 4063,
+          "name": "Stadion Dinamo",
+          "city": "Tighina"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5376,
+          "name": "Flore\u015fti",
+          "logo": "https://media.api-sports.io/football/teams/5376.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239665,
+        "referee": "A. Cojocaru",
+        "timezone": "UTC",
+        "date": "2024-10-19T15:00:00+00:00",
+        "timestamp": 1729350000,
+        "periods": {
+          "first": 1729350000,
+          "second": 1729353600
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        },
+        "away": {
+          "id": 568,
+          "name": "Sheriff Tiraspol",
+          "logo": "https://media.api-sports.io/football/teams/568.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239671,
+        "referee": "S. Leu",
+        "timezone": "UTC",
+        "date": "2024-10-27T12:00:00+00:00",
+        "timestamp": 1730030400,
+        "periods": {
+          "first": 1730030400,
+          "second": 1730034000
+        },
+        "venue": {
+          "id": 20757,
+          "name": "Baza Zimbru 2",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5375,
+          "name": "Dacia-Buiucani",
+          "logo": "https://media.api-sports.io/football/teams/5375.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239674,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-01T16:00:00+00:00",
+        "timestamp": 1725206400,
+        "periods": {
+          "first": 1725206400,
+          "second": 1725210000
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        },
+        "away": {
+          "id": 5380,
+          "name": "Spartanii Selemet",
+          "logo": "https://media.api-sports.io/football/teams/5380.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239679,
+        "referee": "D. Luca",
+        "timezone": "UTC",
+        "date": "2024-11-10T14:00:00+00:00",
+        "timestamp": 1731247200,
+        "periods": {
+          "first": 1731247200,
+          "second": 1731250800
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 14008,
+          "name": "CSF B\u0103l\u021bi",
+          "logo": "https://media.api-sports.io/football/teams/14008.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1239684,
+        "referee": "R. Jitari",
+        "timezone": "UTC",
+        "date": "2024-11-23T11:00:00+00:00",
+        "timestamp": 1732359600,
+        "periods": {
+          "first": 1732359600,
+          "second": 1732363200
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4633,
+          "name": "Zimbru",
+          "logo": "https://media.api-sports.io/football/teams/4633.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250487,
+        "referee": "R. Schr\u00f6der",
+        "timezone": "UTC",
+        "date": "2024-07-23T17:00:00+00:00",
+        "timestamp": 1721754000,
+        "periods": {
+          "first": 1721754000,
+          "second": 1721757600
+        },
+        "venue": {
+          "id": null,
+          "name": "Neo GSP",
+          "city": "Levkos\u00eda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2247,
+          "name": "Apoel Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/2247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250488,
+        "referee": "F. San",
+        "timezone": "UTC",
+        "date": "2024-07-30T17:00:00+00:00",
+        "timestamp": 1722358800,
+        "periods": {
+          "first": 1722358800,
+          "second": 1722362400
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2247,
+          "name": "Apoel Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/2247.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273694,
+        "referee": "M. Al Hakim",
+        "timezone": "UTC",
+        "date": "2024-08-06T17:00:00+00:00",
+        "timestamp": 1722963600,
+        "periods": {
+          "first": 1722963600,
+          "second": 1722967200
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273695,
+        "referee": "R. Jones",
+        "timezone": "UTC",
+        "date": "2024-08-13T17:30:00+00:00",
+        "timestamp": 1723570200,
+        "periods": {
+          "first": 1723570200,
+          "second": 1723573800
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1286915,
+        "referee": "A. Papapetrou",
+        "timezone": "UTC",
+        "date": "2024-08-22T18:00:00+00:00",
+        "timestamp": 1724349600,
+        "periods": {
+          "first": 1724349600,
+          "second": 1724353200
+        },
+        "venue": {
+          "id": 10547,
+          "name": "Huvepharma Arena",
+          "city": "Razgrad"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1286916,
+        "referee": "S. Stegemann",
+        "timezone": "UTC",
+        "date": "2024-08-29T17:00:00+00:00",
+        "timestamp": 1724950800,
+        "periods": {
+          "first": 1724950800,
+          "second": 1724954400
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        },
+        "away": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299307,
+        "referee": "M. Redder",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299315,
+        "referee": "D. Sakhi",
+        "timezone": "UTC",
+        "date": "2024-10-24T16:45:00+00:00",
+        "timestamp": 1729788300,
+        "periods": {
+          "first": 1729788300,
+          "second": 1729791900
+        },
+        "venue": {
+          "id": null,
+          "name": "Chorten Arena",
+          "city": "Bia\u0142ystok"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 336,
+          "name": "Jagiellonia",
+          "logo": "https://media.api-sports.io/football/teams/336.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299329,
+        "referee": "A. Bandi\u0107",
+        "timezone": "UTC",
+        "date": "2024-11-07T17:45:00+00:00",
+        "timestamp": 1731001500,
+        "periods": {
+          "first": 1731001500,
+          "second": 1731005100
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        },
+        "away": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299347,
+        "referee": "G. Nuza",
+        "timezone": "UTC",
+        "date": "2024-11-27T15:30:00+00:00",
+        "timestamp": 1732721400,
+        "periods": {
+          "first": 1732721400,
+          "second": 1732725000
+        },
+        "venue": {
+          "id": 1584,
+          "name": "Ba\u015fak\u015fehir Fatih Terim Stadyumu",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 564,
+          "name": "Ba\u015fak\u015fehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299370,
+        "referee": "L. D'hondt",
+        "timezone": "UTC",
+        "date": "2024-12-12T17:45:00+00:00",
+        "timestamp": 1734025500,
+        "periods": {
+          "first": 1734025500,
+          "second": 1734029100
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        },
+        "away": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299391,
+        "referee": "O. Berka",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314690,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2025-03-02T11:00:00+00:00",
+        "timestamp": 1740913200,
+        "periods": {
+          "first": 1740913200,
+          "second": 1740916800
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadionul S\u0103rata-Galben\u0103",
+          "city": "S\u0103rata-Galben\u0103"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 674,
+        "name": "Cupa",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/674.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 14010,
+          "name": "Olimp Comrat",
+          "logo": "https://media.api-sports.io/football/teams/14010.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 14,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 7,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 14,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1351549,
+        "referee": "D. Luca",
+        "timezone": "UTC",
+        "date": "2025-03-09T15:00:00+00:00",
+        "timestamp": 1741532400,
+        "periods": {
+          "first": 1741532400,
+          "second": 1741536000
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Championship Round - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 14008,
+          "name": "CSF B\u0103l\u021bi",
+          "logo": "https://media.api-sports.io/football/teams/14008.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1351552,
+        "referee": "I. Bo\u0219ca",
+        "timezone": "UTC",
+        "date": "2025-03-16T15:00:00+00:00",
+        "timestamp": 1742137200,
+        "periods": {
+          "first": 1742137200,
+          "second": 1742140800
+        },
+        "venue": {
+          "id": 1094,
+          "name": "Complexul Sportiv Raional",
+          "city": "Orhei"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Championship Round - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 691,
+          "name": "Milsami Orhei",
+          "logo": "https://media.api-sports.io/football/teams/691.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1351553,
+        "referee": "D. Luca",
+        "timezone": "UTC",
+        "date": "2025-03-29T16:00:00+00:00",
+        "timestamp": 1743264000,
+        "periods": {
+          "first": 1743264000,
+          "second": 1743267600
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Championship Round - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        },
+        "away": {
+          "id": 568,
+          "name": "Sheriff Tiraspol",
+          "logo": "https://media.api-sports.io/football/teams/568.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1357116,
+        "referee": "D. Muntean",
+        "timezone": "UTC",
+        "date": "2025-04-03T15:00:00+00:00",
+        "timestamp": 1743692400,
+        "periods": {
+          "first": 1743692400,
+          "second": 1743696000
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 674,
+        "name": "Cupa",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/674.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 691,
+          "name": "Milsami Orhei",
+          "logo": "https://media.api-sports.io/football/teams/691.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1357117,
+        "referee": "D. Muntean",
+        "timezone": "UTC",
+        "date": "2025-04-16T12:00:00+00:00",
+        "timestamp": 1744804800,
+        "periods": {
+          "first": 1744804800,
+          "second": 1744808400
+        },
+        "venue": {
+          "id": 1094,
+          "name": "Complexul Sportiv Raional",
+          "city": "Orhei"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 674,
+        "name": "Cupa",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/674.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 691,
+          "name": "Milsami Orhei",
+          "logo": "https://media.api-sports.io/football/teams/691.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360752,
+        "referee": "A. Cojocaru",
+        "timezone": "UTC",
+        "date": "2025-04-06T15:00:00+00:00",
+        "timestamp": 1743951600,
+        "periods": {
+          "first": 1743951600,
+          "second": 1743955200
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Championship Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4633,
+          "name": "Zimbru",
+          "logo": "https://media.api-sports.io/football/teams/4633.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360753,
+        "referee": "A. Bregu\u021ba",
+        "timezone": "UTC",
+        "date": "2025-04-12T13:00:00+00:00",
+        "timestamp": 1744462800,
+        "periods": {
+          "first": 1744462800,
+          "second": 1744466400
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Championship Round - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5380,
+          "name": "Spartanii Selemet",
+          "logo": "https://media.api-sports.io/football/teams/5380.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360758,
+        "referee": "D. Ivlev",
+        "timezone": "UTC",
+        "date": "2025-04-19T16:00:00+00:00",
+        "timestamp": 1745078400,
+        "periods": {
+          "first": 1745078400,
+          "second": 1745082000
+        },
+        "venue": {
+          "id": 19653,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "B\u0103l\u0163i"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Championship Round - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 14008,
+          "name": "CSF B\u0103l\u021bi",
+          "logo": "https://media.api-sports.io/football/teams/14008.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360760,
+        "referee": "I. Orlic",
+        "timezone": "UTC",
+        "date": "2025-04-26T15:00:00+00:00",
+        "timestamp": 1745679600,
+        "periods": {
+          "first": 1745679600,
+          "second": 1745683200
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Championship Round - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 691,
+          "name": "Milsami Orhei",
+          "logo": "https://media.api-sports.io/football/teams/691.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372052,
+        "referee": "D. Ivlev",
+        "timezone": "UTC",
+        "date": "2025-05-04T17:00:00+00:00",
+        "timestamp": 1746378000,
+        "periods": {
+          "first": 1746378000,
+          "second": 1746381600
+        },
+        "venue": {
+          "id": 19654,
+          "name": "Malaya Sportivnaya Arena",
+          "city": "Tiraspol"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Championship Round - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 568,
+          "name": "Sheriff Tiraspol",
+          "logo": "https://media.api-sports.io/football/teams/568.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372053,
+        "referee": "D. Muntean",
+        "timezone": "UTC",
+        "date": "2025-05-10T17:00:00+00:00",
+        "timestamp": 1746896400,
+        "periods": {
+          "first": 1746896400,
+          "second": 1746900000
+        },
+        "venue": {
+          "id": 1092,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "H\u00eence\u015fti"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Championship Round - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4633,
+          "name": "Zimbru",
+          "logo": "https://media.api-sports.io/football/teams/4633.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1372056,
+        "referee": "S. Leu",
+        "timezone": "UTC",
+        "date": "2025-05-18T17:00:00+00:00",
+        "timestamp": 1747587600,
+        "periods": {
+          "first": 1747587600,
+          "second": 1747591200
+        },
+        "venue": {
+          "id": 19104,
+          "name": "Stadionul Or\u0103\u015fenesc",
+          "city": "Nisporeni"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 394,
+        "name": "Super Liga",
+        "country": "Moldova",
+        "logo": "https://media.api-sports.io/football/leagues/394.png",
+        "flag": "https://media.api-sports.io/flags/md.svg",
+        "season": 2024,
+        "round": "Championship Round - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5380,
+          "name": "Spartanii Selemet",
+          "logo": "https://media.api-sports.io/football/teams/5380.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 6
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

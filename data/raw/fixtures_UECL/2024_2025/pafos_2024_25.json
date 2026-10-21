@@ -1,0 +1,4565 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "3403"
+  },
+  "errors": [],
+  "results": 65,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1156479,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-17T00:00:00+00:00",
+        "timestamp": 1705449600,
+        "periods": {
+          "first": 1705449600,
+          "second": 1705453200
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2414,
+          "name": "Zalaegerszegi TE",
+          "logo": "https://media.api-sports.io/football/teams/2414.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208484,
+        "referee": "D. Panchyshyn",
+        "timezone": "UTC",
+        "date": "2024-07-11T17:00:00+00:00",
+        "timestamp": 1720717200,
+        "periods": {
+          "first": 1720717200,
+          "second": 1720720800
+        },
+        "venue": {
+          "id": 1507,
+          "name": "Bor\u00e5s Arena",
+          "city": "Bor\u00e5s"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 372,
+          "name": "IF Elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208485,
+        "referee": "G. Laibuvitz",
+        "timezone": "UTC",
+        "date": "2024-07-18T16:00:00+00:00",
+        "timestamp": 1721318400,
+        "periods": {
+          "first": 1721318400,
+          "second": 1721322000
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        },
+        "away": {
+          "id": 372,
+          "name": "IF Elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208924,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-30T00:00:00+00:00",
+        "timestamp": 1719705600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Cancelled",
+          "short": "Canc",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 339,
+          "name": "Legia Warszawa",
+          "logo": "https://media.api-sports.io/football/teams/339.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1210228,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-23T15:00:00+00:00",
+        "timestamp": 1719154800,
+        "periods": {
+          "first": 1719154800,
+          "second": 1719158400
+        },
+        "venue": {
+          "id": 3789,
+          "name": "Sportstadion W\u00f6rgl",
+          "city": "W\u00f6rgl"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 632,
+          "name": "Universitatea Craiova",
+          "logo": "https://media.api-sports.io/football/teams/632.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218013,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-28T15:00:00+00:00",
+        "timestamp": 1719586800,
+        "periods": {
+          "first": 1719586800,
+          "second": 1719590400
+        },
+        "venue": {
+          "id": 18613,
+          "name": "Smaragdarena Bramberg",
+          "city": "Bramberg"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4381,
+          "name": "Ilirija",
+          "logo": "https://media.api-sports.io/football/teams/4381.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218061,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-03T14:30:00+00:00",
+        "timestamp": 1720017000,
+        "periods": {
+          "first": 1720017000,
+          "second": 1720020600
+        },
+        "venue": {
+          "id": null,
+          "name": "TBC",
+          "city": "TBC"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 617,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/football/teams/617.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1223559,
+        "referee": "C. Theouli",
+        "timezone": "UTC",
+        "date": "2024-09-25T17:30:00+00:00",
+        "timestamp": 1727285400,
+        "periods": {
+          "first": 1727285400,
+          "second": 1727289000
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 852,
+        "name": "Super Cup",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/852.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2247,
+          "name": "Apoel Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/2247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224286,
+        "referee": "A. Argyrou",
+        "timezone": "UTC",
+        "date": "2024-09-18T16:00:00+00:00",
+        "timestamp": 1726675200,
+        "periods": {
+          "first": 1726675200,
+          "second": 1726678800
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3401,
+          "name": "Nea Salamis",
+          "logo": "https://media.api-sports.io/football/teams/3401.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224290,
+        "referee": "M. Antoniou",
+        "timezone": "UTC",
+        "date": "2024-09-01T15:30:00+00:00",
+        "timestamp": 1725204600,
+        "periods": {
+          "first": 1725204600,
+          "second": 1725208200
+        },
+        "venue": {
+          "id": 430,
+          "name": "AEK Arena - George Karapatakis",
+          "city": "Larnaca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 614,
+          "name": "AEK Larnaca",
+          "logo": "https://media.api-sports.io/football/teams/614.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224299,
+        "referee": "M. Antoniou",
+        "timezone": "UTC",
+        "date": "2024-09-14T16:00:00+00:00",
+        "timestamp": 1726329600,
+        "periods": {
+          "first": 1726329600,
+          "second": 1726333200
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2269,
+          "name": "Anorthosis",
+          "logo": "https://media.api-sports.io/football/teams/2269.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224306,
+        "referee": "M. Christoforou",
+        "timezone": "UTC",
+        "date": "2024-09-22T16:00:00+00:00",
+        "timestamp": 1727020800,
+        "periods": {
+          "first": 1727020800,
+          "second": 1727024400
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3396,
+          "name": "AEL",
+          "logo": "https://media.api-sports.io/football/teams/3396.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224312,
+        "referee": "K. Fellas",
+        "timezone": "UTC",
+        "date": "2024-09-29T16:00:00+00:00",
+        "timestamp": 1727625600,
+        "periods": {
+          "first": 1727625600,
+          "second": 1727629200
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3408,
+          "name": "Aris",
+          "logo": "https://media.api-sports.io/football/teams/3408.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224316,
+        "referee": "A. Argyrou",
+        "timezone": "UTC",
+        "date": "2024-10-06T16:00:00+00:00",
+        "timestamp": 1728230400,
+        "periods": {
+          "first": 1728230400,
+          "second": 1728234000
+        },
+        "venue": {
+          "id": 2214,
+          "name": "Stadio Tasos Markou",
+          "city": "Paral\u00edmni"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 12
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3399,
+          "name": "Enosis",
+          "logo": "https://media.api-sports.io/football/teams/3399.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224325,
+        "referee": "M. Antoniou",
+        "timezone": "UTC",
+        "date": "2024-10-19T16:00:00+00:00",
+        "timestamp": 1729353600,
+        "periods": {
+          "first": 1729353600,
+          "second": 1729357200
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3413,
+          "name": "Karmiotissa",
+          "logo": "https://media.api-sports.io/football/teams/3413.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224332,
+        "referee": "P. Hadjigeorghiou",
+        "timezone": "UTC",
+        "date": "2024-10-28T17:00:00+00:00",
+        "timestamp": 1730134800,
+        "periods": {
+          "first": 1730134800,
+          "second": 1730138400
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Katokopia-Epistrofi-Glafkos Kliridis",
+          "city": "Peristerona"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 14126,
+          "name": "Omonia 29is Maiou",
+          "logo": "https://media.api-sports.io/football/teams/14126.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224338,
+        "referee": "N. Liotatis",
+        "timezone": "UTC",
+        "date": "2024-11-03T12:30:00+00:00",
+        "timestamp": 1730637000,
+        "periods": {
+          "first": 1730637000,
+          "second": 1730640600
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3416,
+          "name": "Omonia Aradippou",
+          "logo": "https://media.api-sports.io/football/teams/3416.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224348,
+        "referee": "J. Kehlet",
+        "timezone": "UTC",
+        "date": "2024-11-10T17:00:00+00:00",
+        "timestamp": 1731258000,
+        "periods": {
+          "first": 1731258000,
+          "second": 1731261600
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 11
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 602,
+          "name": "Apollon Limassol",
+          "logo": "https://media.api-sports.io/football/teams/602.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224351,
+        "referee": "H\u00e9lder Malheiro",
+        "timezone": "UTC",
+        "date": "2024-11-23T15:00:00+00:00",
+        "timestamp": 1732374000,
+        "periods": {
+          "first": 1732374000,
+          "second": 1732377600
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2247,
+          "name": "Apoel Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/2247.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224363,
+        "referee": "L. Tschudi",
+        "timezone": "UTC",
+        "date": "2024-12-02T17:00:00+00:00",
+        "timestamp": 1733158800,
+        "periods": {
+          "first": 1733158800,
+          "second": 1733162400
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3402,
+          "name": "Omonia Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/3402.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224366,
+        "referee": "M. Antoniou",
+        "timezone": "UTC",
+        "date": "2024-12-08T17:00:00+00:00",
+        "timestamp": 1733677200,
+        "periods": {
+          "first": 1733677200,
+          "second": 1733680800
+        },
+        "venue": {
+          "id": 2222,
+          "name": "Stadio Dasaki Achnas",
+          "city": "Dasaki Achnas"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3412,
+          "name": "Ethnikos Achna",
+          "logo": "https://media.api-sports.io/football/teams/3412.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224377,
+        "referee": "M. Christoforou",
+        "timezone": "UTC",
+        "date": "2024-12-16T17:00:00+00:00",
+        "timestamp": 1734368400,
+        "periods": {
+          "first": 1734368400,
+          "second": 1734372000
+        },
+        "venue": {
+          "id": 20190,
+          "name": "Stadio Vitex Ammochostos Epistrofi",
+          "city": "Larnaca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3401,
+          "name": "Nea Salamis",
+          "logo": "https://media.api-sports.io/football/teams/3401.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224381,
+        "referee": "J. Sacchi",
+        "timezone": "UTC",
+        "date": "2024-12-22T16:00:00+00:00",
+        "timestamp": 1734883200,
+        "periods": {
+          "first": 1734883200,
+          "second": 1734886800
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        },
+        "away": {
+          "id": 614,
+          "name": "AEK Larnaca",
+          "logo": "https://media.api-sports.io/football/teams/614.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224390,
+        "referee": "M. Antoniou",
+        "timezone": "UTC",
+        "date": "2025-01-02T17:00:00+00:00",
+        "timestamp": 1735837200,
+        "periods": {
+          "first": 1735837200,
+          "second": 1735840800
+        },
+        "venue": {
+          "id": 431,
+          "name": "Stadio Antonis Papadopoulos",
+          "city": "Larnaca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2269,
+          "name": "Anorthosis",
+          "logo": "https://media.api-sports.io/football/teams/2269.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224397,
+        "referee": "M. Christoforou",
+        "timezone": "UTC",
+        "date": "2025-01-06T17:00:00+00:00",
+        "timestamp": 1736182800,
+        "periods": {
+          "first": 1736182800,
+          "second": 1736186400
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3396,
+          "name": "AEL",
+          "logo": "https://media.api-sports.io/football/teams/3396.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224403,
+        "referee": "D. Sylwestrzak",
+        "timezone": "UTC",
+        "date": "2025-01-11T17:00:00+00:00",
+        "timestamp": 1736614800,
+        "periods": {
+          "first": 1736614800,
+          "second": 1736618400
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3408,
+          "name": "Aris",
+          "logo": "https://media.api-sports.io/football/teams/3408.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224407,
+        "referee": "K. Athanasiou",
+        "timezone": "UTC",
+        "date": "2025-01-19T16:00:00+00:00",
+        "timestamp": 1737302400,
+        "periods": {
+          "first": 1737302400,
+          "second": 1737306000
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3399,
+          "name": "Enosis",
+          "logo": "https://media.api-sports.io/football/teams/3399.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224416,
+        "referee": "K. Fellas",
+        "timezone": "UTC",
+        "date": "2025-01-26T15:00:00+00:00",
+        "timestamp": 1737903600,
+        "periods": {
+          "first": 1737903600,
+          "second": 1737907200
+        },
+        "venue": {
+          "id": 20190,
+          "name": "Stadio Vitex Ammochostos Epistrofi",
+          "city": "Larnaca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3413,
+          "name": "Karmiotissa",
+          "logo": "https://media.api-sports.io/football/teams/3413.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224423,
+        "referee": "A. Konstantinidis",
+        "timezone": "UTC",
+        "date": "2025-02-03T15:00:00+00:00",
+        "timestamp": 1738594800,
+        "periods": {
+          "first": 1738594800,
+          "second": 1738598400
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 14126,
+          "name": "Omonia 29is Maiou",
+          "logo": "https://media.api-sports.io/football/teams/14126.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224429,
+        "referee": "K. Athanasiou",
+        "timezone": "UTC",
+        "date": "2025-02-08T16:00:00+00:00",
+        "timestamp": 1739030400,
+        "periods": {
+          "first": 1739030400,
+          "second": 1739034000
+        },
+        "venue": {
+          "id": 431,
+          "name": "Stadio Antonis Papadopoulos",
+          "city": "Larnaca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3416,
+          "name": "Omonia Aradippou",
+          "logo": "https://media.api-sports.io/football/teams/3416.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224439,
+        "referee": "Gustavo Correia",
+        "timezone": "UTC",
+        "date": "2025-02-16T15:00:00+00:00",
+        "timestamp": 1739718000,
+        "periods": {
+          "first": 1739718000,
+          "second": 1739721600
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 602,
+          "name": "Apollon Limassol",
+          "logo": "https://media.api-sports.io/football/teams/602.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224442,
+        "referee": "R. Petrescu",
+        "timezone": "UTC",
+        "date": "2025-02-24T17:00:00+00:00",
+        "timestamp": 1740416400,
+        "periods": {
+          "first": 1740416400,
+          "second": 1740420000
+        },
+        "venue": {
+          "id": 432,
+          "name": "Neo GSP",
+          "city": "Levkos\u00eda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2247,
+          "name": "Apoel Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/2247.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224454,
+        "referee": "S. Jovanovi\u0107",
+        "timezone": "UTC",
+        "date": "2025-03-01T17:00:00+00:00",
+        "timestamp": 1740848400,
+        "periods": {
+          "first": 1740848400,
+          "second": 1740852000
+        },
+        "venue": {
+          "id": 432,
+          "name": "Neo GSP",
+          "city": "Levkos\u00eda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3402,
+          "name": "Omonia Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/3402.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1224457,
+        "referee": "P. Hadjigeorghiou",
+        "timezone": "UTC",
+        "date": "2025-03-09T17:00:00+00:00",
+        "timestamp": 1741539600,
+        "periods": {
+          "first": 1741539600,
+          "second": 1741543200
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Regular Season - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3412,
+          "name": "Ethnikos Achna",
+          "logo": "https://media.api-sports.io/football/teams/3412.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1251932,
+        "referee": "K. Hagenes",
+        "timezone": "UTC",
+        "date": "2024-07-25T16:00:00+00:00",
+        "timestamp": 1721923200,
+        "periods": {
+          "first": 1721923200,
+          "second": 1721926800
+        },
+        "venue": {
+          "id": 1030,
+          "name": "Vilniaus LFF stadionas",
+          "city": "Vilnius"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 586,
+          "name": "FK Zalgiris Vilnius",
+          "logo": "https://media.api-sports.io/football/teams/586.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1251933,
+        "referee": "S. Ebner",
+        "timezone": "UTC",
+        "date": "2024-08-01T16:00:00+00:00",
+        "timestamp": 1722528000,
+        "periods": {
+          "first": 1722528000,
+          "second": 1722531600
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 586,
+          "name": "FK Zalgiris Vilnius",
+          "logo": "https://media.api-sports.io/football/teams/586.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": 2,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274815,
+        "referee": "D. Shurman",
+        "timezone": "UTC",
+        "date": "2024-08-08T17:30:00+00:00",
+        "timestamp": 1723138200,
+        "periods": {
+          "first": 1723138200,
+          "second": 1723141800
+        },
+        "venue": {
+          "id": 1912,
+          "name": "Stadion Vasil Levski",
+          "city": "Sofia"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1426,
+          "name": "CSKA 1948",
+          "logo": "https://media.api-sports.io/football/teams/1426.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1274816,
+        "referee": "L. D'hondt",
+        "timezone": "UTC",
+        "date": "2024-08-15T17:00:00+00:00",
+        "timestamp": 1723741200,
+        "periods": {
+          "first": 1723741200,
+          "second": 1723744800
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1426,
+          "name": "CSKA 1948",
+          "logo": "https://media.api-sports.io/football/teams/1426.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": 3,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287586,
+        "referee": "N. Simovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-08-22T17:30:00+00:00",
+        "timestamp": 1724347800,
+        "periods": {
+          "first": 1724347800,
+          "second": 1724351400
+        },
+        "venue": {
+          "id": 1311,
+          "name": "Stadionul Dr. Constantin R\u0103dulescu",
+          "city": "Cluj-Napoca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2246,
+          "name": "CFR 1907 Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2246.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287587,
+        "referee": "C. Pawson",
+        "timezone": "UTC",
+        "date": "2024-08-29T17:00:00+00:00",
+        "timestamp": 1724950800,
+        "periods": {
+          "first": 1724950800,
+          "second": 1724954400
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2246,
+          "name": "CFR 1907 Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2246.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299307,
+        "referee": "M. Redder",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299325,
+        "referee": "J. Vergoote",
+        "timezone": "UTC",
+        "date": "2024-10-24T19:00:00+00:00",
+        "timestamp": 1729796400,
+        "periods": {
+          "first": 1729796400,
+          "second": 1729800000
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        },
+        "away": {
+          "id": 180,
+          "name": "1. FC Heidenheim",
+          "logo": "https://media.api-sports.io/football/teams/180.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299334,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2024-11-07T17:45:00+00:00",
+        "timestamp": 1731001500,
+        "periods": {
+          "first": 1731001500,
+          "second": 1731005100
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 562,
+          "name": "FC Astana",
+          "logo": "https://media.api-sports.io/football/teams/562.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299359,
+        "referee": "E. Esk\u00e5s",
+        "timezone": "UTC",
+        "date": "2024-11-28T20:00:00+00:00",
+        "timestamp": 1732824000,
+        "periods": {
+          "first": 1732824000,
+          "second": 1732827600
+        },
+        "venue": {
+          "id": 902,
+          "name": "Stadio Artemio Franchi",
+          "city": "Firenze"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299379,
+        "referee": "P. Raczkowski",
+        "timezone": "UTC",
+        "date": "2024-12-12T20:00:00+00:00",
+        "timestamp": 1734033600,
+        "periods": {
+          "first": 1734033600,
+          "second": 1734037200
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4360,
+          "name": "Celje",
+          "logo": "https://media.api-sports.io/football/teams/4360.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299388,
+        "referee": "N. Minakovi\u0107",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 1544,
+          "name": "Stockhorn Arena",
+          "city": "Thun"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1315251,
+        "referee": "S. Jovanovi\u0107",
+        "timezone": "UTC",
+        "date": "2025-01-15T17:00:00+00:00",
+        "timestamp": 1736960400,
+        "periods": {
+          "first": 1736960400,
+          "second": 1736964000
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 321,
+        "name": "Cup",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/321.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3408,
+          "name": "Aris",
+          "logo": "https://media.api-sports.io/football/teams/3408.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1325904,
+        "referee": "S. Sozza",
+        "timezone": "UTC",
+        "date": "2025-02-13T20:00:00+00:00",
+        "timestamp": 1739476800,
+        "periods": {
+          "first": 1739476800,
+          "second": 1739480400
+        },
+        "venue": {
+          "id": null,
+          "name": "Neo GSP",
+          "city": "Levkos\u00eda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3402,
+          "name": "Omonia Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/3402.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1325905,
+        "referee": "C. Turpin",
+        "timezone": "UTC",
+        "date": "2025-02-20T17:45:00+00:00",
+        "timestamp": 1740073500,
+        "periods": {
+          "first": 1740073500,
+          "second": 1740077100
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Knockout Round Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3402,
+          "name": "Omonia Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/3402.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1337491,
+        "referee": "M. Lukjan\u010dukas",
+        "timezone": "UTC",
+        "date": "2025-01-30T17:00:00+00:00",
+        "timestamp": 1738256400,
+        "periods": {
+          "first": 1738256400,
+          "second": 1738260000
+        },
+        "venue": {
+          "id": 432,
+          "name": "Neo GSP",
+          "city": "Levkos\u00eda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 321,
+        "name": "Cup",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/321.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2247,
+          "name": "Apoel Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/2247.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353216,
+        "referee": "G. Kruashvili",
+        "timezone": "UTC",
+        "date": "2025-03-06T20:00:00+00:00",
+        "timestamp": 1741291200,
+        "periods": {
+          "first": 1741291200,
+          "second": 1741294800
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353217,
+        "referee": "S. Gishamer",
+        "timezone": "UTC",
+        "date": "2025-03-13T17:45:00+00:00",
+        "timestamp": 1741887900,
+        "periods": {
+          "first": 1741887900,
+          "second": 1741891500
+        },
+        "venue": {
+          "id": null,
+          "name": "3Arena",
+          "city": "Stockholm"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1360059,
+        "referee": "N. Simovi\u0107",
+        "timezone": "UTC",
+        "date": "2025-03-16T17:00:00+00:00",
+        "timestamp": 1742144400,
+        "periods": {
+          "first": 1742144400,
+          "second": 1742148000
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Championship Round - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 602,
+          "name": "Apollon Limassol",
+          "logo": "https://media.api-sports.io/football/teams/602.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361567,
+        "referee": "W. Altmann",
+        "timezone": "UTC",
+        "date": "2025-03-29T17:30:00+00:00",
+        "timestamp": 1743269400,
+        "periods": {
+          "first": 1743269400,
+          "second": 1743273000
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Championship Round - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3402,
+          "name": "Omonia Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/3402.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361569,
+        "referee": "M. Krogh",
+        "timezone": "UTC",
+        "date": "2025-04-02T16:00:00+00:00",
+        "timestamp": 1743609600,
+        "periods": {
+          "first": 1743609600,
+          "second": 1743613200
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Championship Round - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3408,
+          "name": "Aris",
+          "logo": "https://media.api-sports.io/football/teams/3408.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361571,
+        "referee": "L. Massimi",
+        "timezone": "UTC",
+        "date": "2025-04-06T15:00:00+00:00",
+        "timestamp": 1743951600,
+        "periods": {
+          "first": 1743951600,
+          "second": 1743955200
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Championship Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2247,
+          "name": "Apoel Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/2247.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1364732,
+        "referee": "G. Kabakov",
+        "timezone": "UTC",
+        "date": "2025-04-13T16:00:00+00:00",
+        "timestamp": 1744560000,
+        "periods": {
+          "first": 1744560000,
+          "second": 1744563600
+        },
+        "venue": {
+          "id": 430,
+          "name": "AEK Arena - George Karapatakis",
+          "city": "Larnaca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Championship Round - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 614,
+          "name": "AEK Larnaca",
+          "logo": "https://media.api-sports.io/football/teams/614.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1364733,
+        "referee": "D. Schlager",
+        "timezone": "UTC",
+        "date": "2025-04-22T16:00:00+00:00",
+        "timestamp": 1745337600,
+        "periods": {
+          "first": 1745337600,
+          "second": 1745341200
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Championship Round - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 602,
+          "name": "Apollon Limassol",
+          "logo": "https://media.api-sports.io/football/teams/602.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371736,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2025-04-30T16:00:00+00:00",
+        "timestamp": 1746028800,
+        "periods": {
+          "first": 1746028800,
+          "second": 1746032400
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 321,
+        "name": "Cup",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/321.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 602,
+          "name": "Apollon Limassol",
+          "logo": "https://media.api-sports.io/football/teams/602.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371737,
+        "referee": "D. Sylwestrzak",
+        "timezone": "UTC",
+        "date": "2025-05-07T16:00:00+00:00",
+        "timestamp": 1746633600,
+        "periods": {
+          "first": 1746633600,
+          "second": 1746637200
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 1
+        }
+      },
+      "league": {
+        "id": 321,
+        "name": "Cup",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/321.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 602,
+          "name": "Apollon Limassol",
+          "logo": "https://media.api-sports.io/football/teams/602.png",
+          "winner": false
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371873,
+        "referee": "M. Redder",
+        "timezone": "UTC",
+        "date": "2025-04-26T16:00:00+00:00",
+        "timestamp": 1745683200,
+        "periods": {
+          "first": 1745683200,
+          "second": 1745686800
+        },
+        "venue": {
+          "id": 432,
+          "name": "Neo GSP",
+          "city": "Levkos\u00eda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Championship Round - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3402,
+          "name": "Omonia Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/3402.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371877,
+        "referee": "L. Cibelli",
+        "timezone": "UTC",
+        "date": "2025-05-04T16:00:00+00:00",
+        "timestamp": 1746374400,
+        "periods": {
+          "first": 1746374400,
+          "second": 1746378000
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Championship Round - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3408,
+          "name": "Aris",
+          "logo": "https://media.api-sports.io/football/teams/3408.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1373703,
+        "referee": "P. Hadjigeorghiou",
+        "timezone": "UTC",
+        "date": "2025-05-12T16:00:00+00:00",
+        "timestamp": 1747065600,
+        "periods": {
+          "first": 1747065600,
+          "second": 1747069200
+        },
+        "venue": {
+          "id": 432,
+          "name": "Neo GSP",
+          "city": "Levkos\u00eda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Championship Round - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2247,
+          "name": "Apoel Nicosia",
+          "logo": "https://media.api-sports.io/football/teams/2247.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1373706,
+        "referee": "I. Christodoulou",
+        "timezone": "UTC",
+        "date": "2025-05-18T15:00:00+00:00",
+        "timestamp": 1747580400,
+        "periods": {
+          "first": 1747580400,
+          "second": 1747584000
+        },
+        "venue": {
+          "id": 7134,
+          "name": "Stadio Stelios Kyriakides",
+          "city": "Paphos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 318,
+        "name": "1. Division",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/318.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Championship Round - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": true
+        },
+        "away": {
+          "id": 614,
+          "name": "AEK Larnaca",
+          "logo": "https://media.api-sports.io/football/teams/614.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1374886,
+        "referee": "D. Siebert",
+        "timezone": "UTC",
+        "date": "2025-05-24T17:00:00+00:00",
+        "timestamp": 1748106000,
+        "periods": {
+          "first": 1748106000,
+          "second": 1748109600
+        },
+        "venue": {
+          "id": 432,
+          "name": "Neo GSP",
+          "city": "Levkos\u00eda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 321,
+        "name": "Cup",
+        "country": "Cyprus",
+        "logo": "https://media.api-sports.io/football/leagues/321.png",
+        "flag": "https://media.api-sports.io/flags/cy.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 614,
+          "name": "AEK Larnaca",
+          "logo": "https://media.api-sports.io/football/teams/614.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": 1,
+          "away": 0
+        }
+      }
+    }
+  ]
+}

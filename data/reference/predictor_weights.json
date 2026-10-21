@@ -1,0 +1,37 @@
+{
+  "_comment": "Fitted by model/predictor.py. x = elo_home - elo_away; x' = (x - mean) / scale; z_k = coef[k] * x' + intercept[k]; p_k = softmax(z)_k. Classes in order: away, draw, home.",
+  "trained_at": "2026-09-15 21:12",
+  "rows": 5251,
+  "seasons": [
+    2023,
+    2024,
+    2025
+  ],
+  "features": [
+    "elo_diff"
+  ],
+  "classes": [
+    -1,
+    0,
+    1
+  ],
+  "mean": -0.1507586041213835,
+  "scale": 88.49533410068724,
+  "coef": [
+    -0.53836564021543,
+    -0.03078912808285271,
+    0.5691547682982823
+  ],
+  "intercept": [
+    -0.010324915523704679,
+    -0.3459050333867329,
+    0.3562299489105122
+  ],
+  "holdout": {
+    "holdout_season": 2024,
+    "train_rows": 457,
+    "test_rows": 4794,
+    "log_loss": 0.9667180553653566,
+    "log_loss_no_skill": 1.0506005855800056
+  }
+}

@@ -1,0 +1,4285 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "354"
+  },
+  "errors": [],
+  "results": 61,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1201960,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-27T18:00:00+00:00",
+        "timestamp": 1719511200,
+        "periods": {
+          "first": 1719511200,
+          "second": 1719514800
+        },
+        "venue": {
+          "id": 1169,
+          "name": "Solitude",
+          "city": "Belfast"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2266,
+          "name": "Cliftonville FC",
+          "logo": "https://media.api-sports.io/football/teams/2266.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208406,
+        "referee": "B. Van Driessche",
+        "timezone": "UTC",
+        "date": "2024-07-09T18:00:00+00:00",
+        "timestamp": 1720548000,
+        "periods": {
+          "first": 1720548000,
+          "second": 1720551600
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3745,
+          "name": "De\u010di\u0107",
+          "logo": "https://media.api-sports.io/football/teams/3745.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208407,
+        "referee": "A. Karao\u011flan",
+        "timezone": "UTC",
+        "date": "2024-07-16T19:00:00+00:00",
+        "timestamp": 1721156400,
+        "periods": {
+          "first": 1721156400,
+          "second": 1721160000
+        },
+        "venue": {
+          "id": 1095,
+          "name": "Stadion Pod Goricom",
+          "city": "Podgorica"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3745,
+          "name": "De\u010di\u0107",
+          "logo": "https://media.api-sports.io/football/teams/3745.png",
+          "winner": null
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208934,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-03T00:00:00+00:00",
+        "timestamp": 1719964800,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 19215,
+          "name": "The BBSP Stadium Rugby Park",
+          "city": "Kilmarnock"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209662,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-02T18:45:00+00:00",
+        "timestamp": 1722624300,
+        "periods": {
+          "first": 1722624300,
+          "second": 1722627900
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 738,
+        "name": "League Cup",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/738.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5614,
+          "name": "Flint Town United",
+          "logo": "https://media.api-sports.io/football/teams/5614.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212311,
+        "referee": "M. Petch",
+        "timezone": "UTC",
+        "date": "2024-10-09T18:45:00+00:00",
+        "timestamp": 1728499500,
+        "periods": {
+          "first": 1728499500,
+          "second": 1728503100
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        },
+        "away": {
+          "id": 356,
+          "name": "Caernarfon Town",
+          "logo": "https://media.api-sports.io/football/teams/356.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212314,
+        "referee": "M. Petch",
+        "timezone": "UTC",
+        "date": "2024-08-16T18:45:00+00:00",
+        "timestamp": 1723833900,
+        "periods": {
+          "first": 1723833900,
+          "second": 1723837500
+        },
+        "venue": {
+          "id": 4198,
+          "name": "Essity Stadium",
+          "city": "Y Fflint / Flint, Flintshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 5614,
+          "name": "Flint Town United",
+          "logo": "https://media.api-sports.io/football/teams/5614.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212320,
+        "referee": "T. Owen",
+        "timezone": "UTC",
+        "date": "2024-10-30T19:45:00+00:00",
+        "timestamp": 1730317500,
+        "periods": {
+          "first": 1730317500,
+          "second": 1730321100
+        },
+        "venue": {
+          "id": 4198,
+          "name": "Essity Stadium",
+          "city": "Y Fflint / Flint, Flintshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 357,
+          "name": "GAP Connah S Quay FC",
+          "logo": "https://media.api-sports.io/football/teams/357.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212328,
+        "referee": "M. James",
+        "timezone": "UTC",
+        "date": "2024-12-22T14:30:00+00:00",
+        "timestamp": 1734877800,
+        "periods": {
+          "first": 1734877800,
+          "second": 1734881400
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2201,
+          "name": "Briton Ferry",
+          "logo": "https://media.api-sports.io/football/teams/2201.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212330,
+        "referee": "J. Harman",
+        "timezone": "UTC",
+        "date": "2024-09-03T18:45:00+00:00",
+        "timestamp": 1725389100,
+        "periods": {
+          "first": 1725389100,
+          "second": 1725392700
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 351,
+          "name": "Aberystwyth Town",
+          "logo": "https://media.api-sports.io/football/teams/351.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212339,
+        "referee": "J. Jones",
+        "timezone": "UTC",
+        "date": "2024-09-07T13:30:00+00:00",
+        "timestamp": 1725715800,
+        "periods": {
+          "first": 1725715800,
+          "second": 1725719400
+        },
+        "venue": {
+          "id": 20426,
+          "name": "LHP Stadium",
+          "city": "Caerfyrddin / Carmarthen, Dyfed"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2194,
+          "name": "Haverfordwest County AFC",
+          "logo": "https://media.api-sports.io/football/teams/2194.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212346,
+        "referee": "T. Owen",
+        "timezone": "UTC",
+        "date": "2024-09-14T13:30:00+00:00",
+        "timestamp": 1726320600,
+        "periods": {
+          "first": 1726320600,
+          "second": 1726324200
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 361,
+          "name": "Barry Town",
+          "logo": "https://media.api-sports.io/football/teams/361.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212349,
+        "referee": "T. Owen",
+        "timezone": "UTC",
+        "date": "2024-09-20T18:45:00+00:00",
+        "timestamp": 1726857900,
+        "periods": {
+          "first": 1726857900,
+          "second": 1726861500
+        },
+        "venue": {
+          "id": 11921,
+          "name": "SDM Glass Stadium",
+          "city": "Bridgend, Bridgend County Borough"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2191,
+          "name": "Penybont",
+          "logo": "https://media.api-sports.io/football/teams/2191.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212357,
+        "referee": "A. Livesey",
+        "timezone": "UTC",
+        "date": "2024-09-24T18:45:00+00:00",
+        "timestamp": 1727203500,
+        "periods": {
+          "first": 1727203500,
+          "second": 1727207100
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        },
+        "away": {
+          "id": 352,
+          "name": "Bala Town",
+          "logo": "https://media.api-sports.io/football/teams/352.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212362,
+        "referee": "I. Griffith",
+        "timezone": "UTC",
+        "date": "2024-09-27T18:45:00+00:00",
+        "timestamp": 1727462700,
+        "periods": {
+          "first": 1727462700,
+          "second": 1727466300
+        },
+        "venue": {
+          "id": 1680,
+          "name": "G.F. Grigg Latham Park",
+          "city": "Ydrenewydd / Newtown, Powys"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 358,
+          "name": "Newtown AFC",
+          "logo": "https://media.api-sports.io/football/teams/358.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212367,
+        "referee": "B. Markham-Jones",
+        "timezone": "UTC",
+        "date": "2024-11-20T19:45:00+00:00",
+        "timestamp": 1732131900,
+        "periods": {
+          "first": 1732131900,
+          "second": 1732135500
+        },
+        "venue": {
+          "id": 1671,
+          "name": "Old Road",
+          "city": "Briton Ferry"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2201,
+          "name": "Briton Ferry",
+          "logo": "https://media.api-sports.io/football/teams/2201.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212377,
+        "referee": "D. Morgan",
+        "timezone": "UTC",
+        "date": "2024-10-12T13:30:00+00:00",
+        "timestamp": 1728739800,
+        "periods": {
+          "first": 1728739800,
+          "second": 1728743400
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 353,
+          "name": "Cardiff MET",
+          "logo": "https://media.api-sports.io/football/teams/353.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212383,
+        "referee": "N. Pratt",
+        "timezone": "UTC",
+        "date": "2024-10-15T18:45:00+00:00",
+        "timestamp": 1729017900,
+        "periods": {
+          "first": 1729017900,
+          "second": 1729021500
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5614,
+          "name": "Flint Town United",
+          "logo": "https://media.api-sports.io/football/teams/5614.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212384,
+        "referee": "J. Walker",
+        "timezone": "UTC",
+        "date": "2024-10-27T13:00:00+00:00",
+        "timestamp": 1730034000,
+        "periods": {
+          "first": 1730034000,
+          "second": 1730037600
+        },
+        "venue": {
+          "id": 1667,
+          "name": "Park Avenue",
+          "city": "Aberystwyth, Ceredigion"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 351,
+          "name": "Aberystwyth Town",
+          "logo": "https://media.api-sports.io/football/teams/351.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212391,
+        "referee": "R. Wright",
+        "timezone": "UTC",
+        "date": "2024-11-02T13:00:00+00:00",
+        "timestamp": 1730552400,
+        "periods": {
+          "first": 1730552400,
+          "second": 1730556000
+        },
+        "venue": {
+          "id": 1670,
+          "name": "Jenner Park",
+          "city": "Barry / Y Barri, Vale of Glamorgan"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 361,
+          "name": "Barry Town",
+          "logo": "https://media.api-sports.io/football/teams/361.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212401,
+        "referee": "A. McInch",
+        "timezone": "UTC",
+        "date": "2024-11-10T14:30:00+00:00",
+        "timestamp": 1731249000,
+        "periods": {
+          "first": 1731249000,
+          "second": 1731252600
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2194,
+          "name": "Haverfordwest County AFC",
+          "logo": "https://media.api-sports.io/football/teams/2194.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212407,
+        "referee": "B. Markham-Jones",
+        "timezone": "UTC",
+        "date": "2024-11-23T14:30:00+00:00",
+        "timestamp": 1732372200,
+        "periods": {
+          "first": 1732372200,
+          "second": 1732375800
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2191,
+          "name": "Penybont",
+          "logo": "https://media.api-sports.io/football/teams/2191.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212408,
+        "referee": "R. Jenkins",
+        "timezone": "UTC",
+        "date": "2024-12-04T19:45:00+00:00",
+        "timestamp": 1733341500,
+        "periods": {
+          "first": 1733341500,
+          "second": 1733345100
+        },
+        "venue": {
+          "id": 1669,
+          "name": "Maes Tegid",
+          "city": "Bala, Gwynedd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 352,
+          "name": "Bala Town",
+          "logo": "https://media.api-sports.io/football/teams/352.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212415,
+        "referee": "J. Jones",
+        "timezone": "UTC",
+        "date": "2025-01-04T14:30:00+00:00",
+        "timestamp": 1736001000,
+        "periods": {
+          "first": 1736001000,
+          "second": 1736004600
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 13
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 358,
+          "name": "Newtown AFC",
+          "logo": "https://media.api-sports.io/football/teams/358.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212423,
+        "referee": "T. Owen",
+        "timezone": "UTC",
+        "date": "2024-12-26T14:30:00+00:00",
+        "timestamp": 1735223400,
+        "periods": {
+          "first": 1735223400,
+          "second": 1735227000
+        },
+        "venue": {
+          "id": 1672,
+          "name": "The Oval",
+          "city": "Caernarfon, Gwynedd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 356,
+          "name": "Caernarfon Town",
+          "logo": "https://media.api-sports.io/football/teams/356.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212427,
+        "referee": "J. Jones",
+        "timezone": "UTC",
+        "date": "2024-12-31T14:30:00+00:00",
+        "timestamp": 1735655400,
+        "periods": {
+          "first": 1735655400,
+          "second": 1735659000
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 357,
+          "name": "GAP Connah S Quay FC",
+          "logo": "https://media.api-sports.io/football/teams/357.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212435,
+        "referee": "B. Markham-Jones",
+        "timezone": "UTC",
+        "date": "2025-01-14T19:45:00+00:00",
+        "timestamp": 1736883900,
+        "periods": {
+          "first": 1736883900,
+          "second": 1736887500
+        },
+        "venue": {
+          "id": 1686,
+          "name": "Cyncoed Campus Artificial Pitch",
+          "city": "Caerdydd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Regular Season - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 353,
+          "name": "Cardiff MET",
+          "logo": "https://media.api-sports.io/football/teams/353.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1217985,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-25T18:30:00+00:00",
+        "timestamp": 1719340200,
+        "periods": {
+          "first": 1719340200,
+          "second": 1719343800
+        },
+        "venue": {
+          "id": 4032,
+          "name": "Dixon Park",
+          "city": "Ballyclare"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 5340,
+          "name": "Ballyclare Comrades",
+          "logo": "https://media.api-sports.io/football/teams/5340.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220076,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-06-29T11:45:00+00:00",
+        "timestamp": 1719661500,
+        "periods": {
+          "first": 1719661500,
+          "second": 1719665100
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 20360,
+          "name": "Flint Mountain",
+          "logo": "https://media.api-sports.io/football/teams/20360.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1245608,
+        "referee": "Guillermo Cuadra",
+        "timezone": "UTC",
+        "date": "2024-07-23T18:00:00+00:00",
+        "timestamp": 1721757600,
+        "periods": {
+          "first": 1721757600,
+          "second": 1721761200
+        },
+        "venue": {
+          "id": 799,
+          "name": "Groupama Ar\u00e9na",
+          "city": "Budapest"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1245609,
+        "referee": "D. Sylwestrzak",
+        "timezone": "UTC",
+        "date": "2024-07-30T18:00:00+00:00",
+        "timestamp": 1722362400,
+        "periods": {
+          "first": 1722362400,
+          "second": 1722366000
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        },
+        "away": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273694,
+        "referee": "M. Al Hakim",
+        "timezone": "UTC",
+        "date": "2024-08-06T17:00:00+00:00",
+        "timestamp": 1722963600,
+        "periods": {
+          "first": 1722963600,
+          "second": 1722967200
+        },
+        "venue": {
+          "id": 2615,
+          "name": "Stadionul Zimbru",
+          "city": "Chi\u015fin\u0103u"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273695,
+        "referee": "R. Jones",
+        "timezone": "UTC",
+        "date": "2024-08-13T17:30:00+00:00",
+        "timestamp": 1723570200,
+        "periods": {
+          "first": 1723570200,
+          "second": 1723573800
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": null
+        },
+        "away": {
+          "id": 2271,
+          "name": "Petrocub",
+          "logo": "https://media.api-sports.io/football/teams/2271.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1285956,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-09-17T18:45:00+00:00",
+        "timestamp": 1726598700,
+        "periods": {
+          "first": 1726598700,
+          "second": 1726602300
+        },
+        "venue": {
+          "id": 21380,
+          "name": "The Hollingsworth Group Stadium",
+          "city": "Broughton, Flintshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 738,
+        "name": "League Cup",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/738.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 4909,
+          "name": "Airbus UK",
+          "logo": "https://media.api-sports.io/football/teams/4909.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287594,
+        "referee": "E. Hamiti",
+        "timezone": "UTC",
+        "date": "2024-08-22T16:30:00+00:00",
+        "timestamp": 1724344200,
+        "periods": {
+          "first": 1724344200,
+          "second": 1724347800
+        },
+        "venue": {
+          "id": 1030,
+          "name": "Vilniaus LFF stadionas",
+          "city": "Vilnius"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 3874,
+          "name": "Panev\u0117\u017eys",
+          "logo": "https://media.api-sports.io/football/teams/3874.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1287595,
+        "referee": "J. Sundberg",
+        "timezone": "UTC",
+        "date": "2024-08-29T17:30:00+00:00",
+        "timestamp": 1724952600,
+        "periods": {
+          "first": 1724952600,
+          "second": 1724956200
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Play-offs",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3874,
+          "name": "Panev\u0117\u017eys",
+          "logo": "https://media.api-sports.io/football/teams/3874.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299303,
+        "referee": "S. Gishamer",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 902,
+          "name": "Stadio Artemio Franchi",
+          "city": "Firenze"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299327,
+        "referee": "J. Frischer",
+        "timezone": "UTC",
+        "date": "2024-10-24T19:00:00+00:00",
+        "timestamp": 1729796400,
+        "periods": {
+          "first": 1729796400,
+          "second": 1729800000
+        },
+        "venue": {
+          "id": 19925,
+          "name": "The Croud Meadow",
+          "city": "Shrewsbury, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 562,
+          "name": "FC Astana",
+          "logo": "https://media.api-sports.io/football/teams/562.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299335,
+        "referee": "S. Levi",
+        "timezone": "UTC",
+        "date": "2024-11-07T17:45:00+00:00",
+        "timestamp": 1731001500,
+        "periods": {
+          "first": 1731001500,
+          "second": 1731005100
+        },
+        "venue": {
+          "id": 865,
+          "name": "Tallaght Stadium",
+          "city": "Dublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 652,
+          "name": "Shamrock Rovers",
+          "logo": "https://media.api-sports.io/football/teams/652.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299358,
+        "referee": "P. Farrugia",
+        "timezone": "UTC",
+        "date": "2024-11-28T17:45:00+00:00",
+        "timestamp": 1732815900,
+        "periods": {
+          "first": 1732815900,
+          "second": 1732819500
+        },
+        "venue": {
+          "id": 19925,
+          "name": "The Croud Meadow",
+          "city": "Shrewsbury, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        },
+        "away": {
+          "id": 364,
+          "name": "Djurgardens IF",
+          "logo": "https://media.api-sports.io/football/teams/364.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299381,
+        "referee": "O. Reitala",
+        "timezone": "UTC",
+        "date": "2024-12-12T20:00:00+00:00",
+        "timestamp": 1734033600,
+        "periods": {
+          "first": 1734033600,
+          "second": 1734037200
+        },
+        "venue": {
+          "id": 19925,
+          "name": "The Croud Meadow",
+          "city": "Shrewsbury, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        },
+        "away": {
+          "id": 617,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/football/teams/617.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299396,
+        "referee": "L. F\u00e4hndrich",
+        "timezone": "UTC",
+        "date": "2024-12-19T20:00:00+00:00",
+        "timestamp": 1734638400,
+        "periods": {
+          "first": 1734638400,
+          "second": 1734642000
+        },
+        "venue": {
+          "id": 3332,
+          "name": "Stadion Z'de\u017eele",
+          "city": "Celje"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 4360,
+          "name": "Celje",
+          "logo": "https://media.api-sports.io/football/teams/4360.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1307838,
+        "referee": "J. Jones",
+        "timezone": "UTC",
+        "date": "2024-11-13T19:45:00+00:00",
+        "timestamp": 1731527100,
+        "periods": {
+          "first": 1731527100,
+          "second": 1731530700
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 738,
+        "name": "League Cup",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/738.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 352,
+          "name": "Bala Town",
+          "logo": "https://media.api-sports.io/football/teams/352.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1308710,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-10-18T18:45:00+00:00",
+        "timestamp": 1729277100,
+        "periods": {
+          "first": 1729277100,
+          "second": 1729280700
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 112,
+        "name": "Welsh Cup",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/112.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 11329,
+          "name": "Llangollen Town",
+          "logo": "https://media.api-sports.io/football/teams/11329.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 16,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 9,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 16,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1313510,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-11-16T14:00:00+00:00",
+        "timestamp": 1731765600,
+        "periods": {
+          "first": 1731765600,
+          "second": 1731769200
+        },
+        "venue": {
+          "id": 1686,
+          "name": "Cyncoed Campus Artificial Pitch",
+          "city": "Caerdydd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 112,
+        "name": "Welsh Cup",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/112.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "3rd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 353,
+          "name": "Cardiff MET",
+          "logo": "https://media.api-sports.io/football/teams/353.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1315991,
+        "referee": "T. Owen",
+        "timezone": "UTC",
+        "date": "2024-12-01T17:45:00+00:00",
+        "timestamp": 1733075100,
+        "periods": {
+          "first": 1733075100,
+          "second": 1733078700
+        },
+        "venue": {
+          "id": 1670,
+          "name": "Jenner Park",
+          "city": "Barry / Y Barri, Vale of Glamorgan"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 738,
+        "name": "League Cup",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/738.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 361,
+          "name": "Barry Town",
+          "logo": "https://media.api-sports.io/football/teams/361.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1316398,
+        "referee": "I. Griffith",
+        "timezone": "UTC",
+        "date": "2024-12-15T17:30:00+00:00",
+        "timestamp": 1734283800,
+        "periods": {
+          "first": 1734283800,
+          "second": 1734287400
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 112,
+        "name": "Welsh Cup",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/112.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 5611,
+          "name": "Colwyn Bay",
+          "logo": "https://media.api-sports.io/football/teams/5611.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1318673,
+        "referee": "A. Jones",
+        "timezone": "UTC",
+        "date": "2025-02-28T19:45:00+00:00",
+        "timestamp": 1740771900,
+        "periods": {
+          "first": 1740771900,
+          "second": 1740775500
+        },
+        "venue": {
+          "id": null,
+          "name": "The Montgomery Waters Latham Park Stadium",
+          "city": "Ydrenewydd / Newtown, Powys"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 738,
+        "name": "League Cup",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/738.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 351,
+          "name": "Aberystwyth Town",
+          "logo": "https://media.api-sports.io/football/teams/351.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1325458,
+        "referee": "N. Pratt",
+        "timezone": "UTC",
+        "date": "2025-02-15T14:00:00+00:00",
+        "timestamp": 1739628000,
+        "periods": {
+          "first": 1739628000,
+          "second": 1739631600
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 112,
+        "name": "Welsh Cup",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/112.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4909,
+          "name": "Airbus UK",
+          "logo": "https://media.api-sports.io/football/teams/4909.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338854,
+        "referee": "A. Jones",
+        "timezone": "UTC",
+        "date": "2025-02-11T19:45:00+00:00",
+        "timestamp": 1739303100,
+        "periods": {
+          "first": 1739303100,
+          "second": 1739306700
+        },
+        "venue": {
+          "id": 1672,
+          "name": "The Oval",
+          "city": "Caernarfon, Gwynedd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Championship Round - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 356,
+          "name": "Caernarfon Town",
+          "logo": "https://media.api-sports.io/football/teams/356.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338859,
+        "referee": "D. Morgan",
+        "timezone": "UTC",
+        "date": "2025-02-01T14:30:00+00:00",
+        "timestamp": 1738420200,
+        "periods": {
+          "first": 1738420200,
+          "second": 1738423800
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Championship Round - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 353,
+          "name": "Cardiff MET",
+          "logo": "https://media.api-sports.io/football/teams/353.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338860,
+        "referee": "B. Markham-Jones",
+        "timezone": "UTC",
+        "date": "2025-02-08T12:15:00+00:00",
+        "timestamp": 1739016900,
+        "periods": {
+          "first": 1739016900,
+          "second": 1739020500
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Championship Round - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2191,
+          "name": "Penybont",
+          "logo": "https://media.api-sports.io/football/teams/2191.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338863,
+        "referee": "R. Jenkins",
+        "timezone": "UTC",
+        "date": "2025-02-21T19:45:00+00:00",
+        "timestamp": 1740167100,
+        "periods": {
+          "first": 1740167100,
+          "second": 1740170700
+        },
+        "venue": {
+          "id": 1669,
+          "name": "Maes Tegid",
+          "city": "Bala, Gwynedd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Championship Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 352,
+          "name": "Bala Town",
+          "logo": "https://media.api-sports.io/football/teams/352.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338868,
+        "referee": "I. Griffith",
+        "timezone": "UTC",
+        "date": "2025-03-08T12:15:00+00:00",
+        "timestamp": 1741436100,
+        "periods": {
+          "first": 1741436100,
+          "second": 1741439700
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Championship Round - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2194,
+          "name": "Haverfordwest County AFC",
+          "logo": "https://media.api-sports.io/football/teams/2194.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338870,
+        "referee": "H. Jones",
+        "timezone": "UTC",
+        "date": "2025-03-11T19:45:00+00:00",
+        "timestamp": 1741722300,
+        "periods": {
+          "first": 1741722300,
+          "second": 1741725900
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Championship Round - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 356,
+          "name": "Caernarfon Town",
+          "logo": "https://media.api-sports.io/football/teams/356.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338874,
+        "referee": "J. Jones",
+        "timezone": "UTC",
+        "date": "2025-03-22T14:30:00+00:00",
+        "timestamp": 1742653800,
+        "periods": {
+          "first": 1742653800,
+          "second": 1742657400
+        },
+        "venue": {
+          "id": 1686,
+          "name": "Cyncoed Campus Artificial Pitch",
+          "city": "Caerdydd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Championship Round - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 353,
+          "name": "Cardiff MET",
+          "logo": "https://media.api-sports.io/football/teams/353.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 6
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 6
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338877,
+        "referee": "T. Owen",
+        "timezone": "UTC",
+        "date": "2025-03-29T14:30:00+00:00",
+        "timestamp": 1743258600,
+        "periods": {
+          "first": 1743258600,
+          "second": 1743262200
+        },
+        "venue": {
+          "id": 11921,
+          "name": "SDM Glass Stadium",
+          "city": "Bridgend, Bridgend County Borough"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Championship Round - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2191,
+          "name": "Penybont",
+          "logo": "https://media.api-sports.io/football/teams/2191.png",
+          "winner": true
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338879,
+        "referee": "J. Jones",
+        "timezone": "UTC",
+        "date": "2025-04-11T18:45:00+00:00",
+        "timestamp": 1744397100,
+        "periods": {
+          "first": 1744397100,
+          "second": 1744400700
+        },
+        "venue": {
+          "id": 1684,
+          "name": "Park Hall Stadium",
+          "city": "Oswestry / Croesoswallt, Shropshire"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Championship Round - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 352,
+          "name": "Bala Town",
+          "logo": "https://media.api-sports.io/football/teams/352.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338883,
+        "referee": "B. Markham-Jones",
+        "timezone": "UTC",
+        "date": "2025-04-19T11:45:00+00:00",
+        "timestamp": 1745063100,
+        "periods": {
+          "first": 1745063100,
+          "second": 1745066700
+        },
+        "venue": {
+          "id": 1678,
+          "name": "New Bridge Meadow Stadium",
+          "city": "Hwlffordd / Haverfordwest, Pembrokeshie"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 110,
+        "name": "Premier League",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/110.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Championship Round - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 2194,
+          "name": "Haverfordwest County AFC",
+          "logo": "https://media.api-sports.io/football/teams/2194.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1352899,
+        "referee": "B. Markham-Jones",
+        "timezone": "UTC",
+        "date": "2025-03-16T12:45:00+00:00",
+        "timestamp": 1742129100,
+        "periods": {
+          "first": 1742129100,
+          "second": 1742132700
+        },
+        "venue": {
+          "id": 1667,
+          "name": "Park Avenue",
+          "city": "Aberystwyth, Ceredigion"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 112,
+        "name": "Welsh Cup",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/112.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 2202,
+          "name": "Cambrian & Clydach",
+          "logo": "https://media.api-sports.io/football/teams/2202.png",
+          "winner": false
+        },
+        "away": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 5
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361956,
+        "referee": "T. Owen",
+        "timezone": "UTC",
+        "date": "2025-05-04T15:00:00+00:00",
+        "timestamp": 1746370800,
+        "periods": {
+          "first": 1746370800,
+          "second": 1746374400
+        },
+        "venue": {
+          "id": 563,
+          "name": "Rodney Parade",
+          "city": "Casnewydd"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 112,
+        "name": "Welsh Cup",
+        "country": "Wales",
+        "logo": "https://media.api-sports.io/football/leagues/112.png",
+        "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 354,
+          "name": "The New Saints",
+          "logo": "https://media.api-sports.io/football/teams/354.png",
+          "winner": true
+        },
+        "away": {
+          "id": 357,
+          "name": "GAP Connah S Quay FC",
+          "logo": "https://media.api-sports.io/football/teams/357.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}

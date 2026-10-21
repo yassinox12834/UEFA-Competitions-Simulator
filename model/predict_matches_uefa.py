@@ -1,0 +1,1 @@
+from prepredictator import predict

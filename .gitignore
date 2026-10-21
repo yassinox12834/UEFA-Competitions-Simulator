@@ -1,0 +1,30 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.exe
+# scratch work, never committed
+ByeBye/
+sandbox/
+testing/
+MDs_to_be_ignored/
+model/elo.py
+outputs_not/
+docs_deprecated/
+# pots saved from the app: personal, timestamped, re-creatable.
+# Delete this line if you want to commit one.
+templates/saved/
+
+# raw API dumps: heavy and re-downloadable
+data/archive/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

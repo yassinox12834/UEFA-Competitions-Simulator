@@ -1,0 +1,85 @@
+{
+  "_comment": "Elo step size: K = min(k_base * comp_mult * stage_mult, k_max). Multipliers are deliberately close to 1.0: the competition label adds only a little information, because opponent quality is already handled by the expected score E. The overall speed of the ratings is set by k_base alone, which is the single number to tune by log-loss. comp_mult is anchored at 1.00 = domestic league.",
+
+  "k_base": 20,
+  "k_max": 30,
+  "season_regression": 0.7,
+
+  "competitions": {
+    "UCL": {
+      "comp_mult": 1.20,
+      "stages": {
+        "Qualifying": 0.95,
+        "League": 1.00,
+        "Playoff": 1.03,
+        "Round of 16": 1.06,
+        "Quarter Final": 1.08,
+        "Semi Final": 1.10,
+        "Final": 1.12
+      }
+    },
+
+    "UEL": {
+      "comp_mult": 1.12,
+      "stages": {
+        "Qualifying": 0.95,
+        "League": 1.00,
+        "Playoff": 1.03,
+        "Round of 16": 1.06,
+        "Quarter Final": 1.08,
+        "Semi Final": 1.10,
+        "Final": 1.12
+      }
+    },
+
+    "UECL": {
+      "comp_mult": 1.06,
+      "stages": {
+        "Qualifying": 0.95,
+        "League": 1.00,
+        "Playoff": 1.03,
+        "Round of 16": 1.06,
+        "Quarter Final": 1.08,
+        "Semi Final": 1.10,
+        "Final": 1.12
+      }
+    },
+
+    "Domestic League": {
+      "comp_mult": 1.00,
+      "stages": { "Default": 1.00 }
+    },
+
+    "Domestic Cup": {
+      "comp_mult": 0.95,
+      "stages": {
+        "Early Rounds": 0.95,
+        "Round of 32": 0.97,
+        "Round of 16": 1.00,
+        "Quarter Final": 1.04,
+        "Semi Final": 1.08,
+        "Final": 1.12
+      }
+    },
+
+    "UEFA Super Cup": {
+      "comp_mult": 1.06,
+      "stages": { "Default": 1.00 }
+    },
+
+    "Domestic Super Cup": {
+      "comp_mult": 0.90,
+      "stages": { "Default": 1.00 }
+    },
+
+    "Intercontinental": {
+      "comp_mult": 0.95,
+      "stages": { "Default": 1.00 }
+    },
+
+    "Friendly": {
+      "comp_mult": 0.00,
+      "stages": { "Default": 1.00 }
+    }
+  }
+}

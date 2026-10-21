@@ -1,0 +1,4495 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "season": "2024",
+    "team": "257"
+  },
+  "errors": [],
+  "results": 64,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1156416,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-13T15:00:00+00:00",
+        "timestamp": 1705158000,
+        "periods": {
+          "first": 1705158000,
+          "second": 1705161600
+        },
+        "venue": {
+          "id": null,
+          "name": "La Manga Club Football Centre A",
+          "city": "La Manga"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1156461,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-01-16T20:00:00+00:00",
+        "timestamp": 1705435200,
+        "periods": {
+          "first": 1705435200,
+          "second": 1705438800
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        },
+        "away": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1210218,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2024-07-20T15:00:00+00:00",
+        "timestamp": 1721487600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "Murrayfield Stadium",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        },
+        "away": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1212745,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-13T14:00:00+00:00",
+        "timestamp": 1720879200,
+        "periods": {
+          "first": 1720879200,
+          "second": 1720882800
+        },
+        "venue": {
+          "id": null,
+          "name": "Sportpark Mulderssingel",
+          "city": "Wezep"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218306,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-24T18:30:00+00:00",
+        "timestamp": 1721845800,
+        "periods": {
+          "first": 1721845800,
+          "second": 1721849400
+        },
+        "venue": {
+          "id": null,
+          "name": "St. Andrew's @ Knighthead Park",
+          "city": "Birmingham"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 54,
+          "name": "Birmingham",
+          "logo": "https://media.api-sports.io/football/teams/54.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1218435,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-07-27T15:00:00+00:00",
+        "timestamp": 1722092400,
+        "periods": {
+          "first": 1722092400,
+          "second": 1722096000
+        },
+        "venue": {
+          "id": 748,
+          "name": "Stadion An der Alten F\u00f6rsterei",
+          "city": "Berlin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Club Friendlies 3",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 182,
+          "name": "Union Berlin",
+          "logo": "https://media.api-sports.io/football/teams/182.png",
+          "winner": null
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220110,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-08-03T11:30:00+00:00",
+        "timestamp": 1722684600,
+        "periods": {
+          "first": 1722684600,
+          "second": 1722688200
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": null
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220118,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2024-08-10T14:00:00+00:00",
+        "timestamp": 1723298400,
+        "periods": {
+          "first": 1723298400,
+          "second": 1723302000
+        },
+        "venue": {
+          "id": 2617,
+          "name": "Hampden Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220126,
+        "referee": "R. Hardie",
+        "timezone": "UTC",
+        "date": "2024-08-24T14:00:00+00:00",
+        "timestamp": 1724508000,
+        "periods": {
+          "first": 1724508000,
+          "second": 1724511600
+        },
+        "venue": {
+          "id": 2617,
+          "name": "Hampden Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 902,
+          "name": "Ross County",
+          "logo": "https://media.api-sports.io/football/teams/902.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220128,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2024-09-01T11:30:00+00:00",
+        "timestamp": 1725190200,
+        "periods": {
+          "first": 1725190200,
+          "second": 1725193800
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220136,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2024-09-15T11:00:00+00:00",
+        "timestamp": 1726398000,
+        "periods": {
+          "first": 1726398000,
+          "second": 1726401600
+        },
+        "venue": {
+          "id": 22722,
+          "name": "CalForth Construction Arena at Tannadice Park",
+          "city": "Dundee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220144,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-09-29T11:00:00+00:00",
+        "timestamp": 1727607600,
+        "periods": {
+          "first": 1727607600,
+          "second": 1727611200
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220149,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2024-10-06T19:00:00+00:00",
+        "timestamp": 1728241200,
+        "periods": {
+          "first": 1728241200,
+          "second": 1728244800
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220155,
+        "referee": "S. McLean",
+        "timezone": "UTC",
+        "date": "2024-10-20T11:00:00+00:00",
+        "timestamp": 1729422000,
+        "periods": {
+          "first": 1729422000,
+          "second": 1729425600
+        },
+        "venue": {
+          "id": 19215,
+          "name": "The BBSP Stadium Rugby Park",
+          "city": "Kilmarnock"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220162,
+        "referee": "C. Scott",
+        "timezone": "UTC",
+        "date": "2024-10-27T14:00:00+00:00",
+        "timestamp": 1730037600,
+        "periods": {
+          "first": 1730037600,
+          "second": 1730041200
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 9",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220164,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2024-10-30T20:00:00+00:00",
+        "timestamp": 1730318400,
+        "periods": {
+          "first": 1730318400,
+          "second": 1730322000
+        },
+        "venue": {
+          "id": 1383,
+          "name": "Pittodrie Stadium",
+          "city": "Aberdeen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 10",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220171,
+        "referee": "C. Scott",
+        "timezone": "UTC",
+        "date": "2025-01-09T20:00:00+00:00",
+        "timestamp": 1736452800,
+        "periods": {
+          "first": 1736452800,
+          "second": 1736456400
+        },
+        "venue": {
+          "id": 20420,
+          "name": "The Scot Foam Stadium at Dens Park",
+          "city": "Dundee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 11",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": null
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220181,
+        "referee": "M. McDermid",
+        "timezone": "UTC",
+        "date": "2024-11-10T17:00:00+00:00",
+        "timestamp": 1731258000,
+        "periods": {
+          "first": 1731258000,
+          "second": 1731261600
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 12",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220184,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2024-11-23T15:45:00+00:00",
+        "timestamp": 1732376700,
+        "periods": {
+          "first": 1732376700,
+          "second": 1732380300
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 13",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220193,
+        "referee": "S. McLean",
+        "timezone": "UTC",
+        "date": "2024-12-01T12:00:00+00:00",
+        "timestamp": 1733054400,
+        "periods": {
+          "first": 1733054400,
+          "second": 1733058000
+        },
+        "venue": {
+          "id": 1403,
+          "name": "McDiarmid Park",
+          "city": "Perth"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220197,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-12-04T19:45:00+00:00",
+        "timestamp": 1733341500,
+        "periods": {
+          "first": 1733341500,
+          "second": 1733345100
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 15",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220204,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2024-12-08T12:00:00+00:00",
+        "timestamp": 1733659200,
+        "periods": {
+          "first": 1733659200,
+          "second": 1733662800
+        },
+        "venue": {
+          "id": 1402,
+          "name": "Global Energy Stadium",
+          "city": "Dingwall"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 902,
+          "name": "Ross County",
+          "logo": "https://media.api-sports.io/football/teams/902.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220210,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2025-01-15T20:00:00+00:00",
+        "timestamp": 1736971200,
+        "periods": {
+          "first": 1736971200,
+          "second": 1736974800
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 9
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 17",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220216,
+        "referee": "M. McDermid",
+        "timezone": "UTC",
+        "date": "2024-12-21T15:00:00+00:00",
+        "timestamp": 1734793200,
+        "periods": {
+          "first": 1734793200,
+          "second": 1734796800
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 18",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220223,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2024-12-26T17:45:00+00:00",
+        "timestamp": 1735235100,
+        "periods": {
+          "first": 1735235100,
+          "second": 1735238700
+        },
+        "venue": {
+          "id": 11913,
+          "name": "The SMISA Stadium",
+          "city": "Paisley"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 19",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220227,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2024-12-29T15:00:00+00:00",
+        "timestamp": 1735484400,
+        "periods": {
+          "first": 1735484400,
+          "second": 1735488000
+        },
+        "venue": {
+          "id": 1398,
+          "name": "Fir Park",
+          "city": "Motherwell"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 12
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 20",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png",
+          "winner": null
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220233,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2025-01-02T15:00:00+00:00",
+        "timestamp": 1735830000,
+        "periods": {
+          "first": 1735830000,
+          "second": 1735833600
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 21",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220238,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2025-01-05T12:00:00+00:00",
+        "timestamp": 1736078400,
+        "periods": {
+          "first": 1736078400,
+          "second": 1736082000
+        },
+        "venue": {
+          "id": 1394,
+          "name": "Easter Road Stadium",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 22",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": null
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220245,
+        "referee": "R. Hardie",
+        "timezone": "UTC",
+        "date": "2025-01-12T15:00:00+00:00",
+        "timestamp": 1736694000,
+        "periods": {
+          "first": 1736694000,
+          "second": 1736697600
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 23",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220250,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2025-01-26T12:00:00+00:00",
+        "timestamp": 1737892800,
+        "periods": {
+          "first": 1737892800,
+          "second": 1737896400
+        },
+        "venue": {
+          "id": 22722,
+          "name": "CalForth Construction Arena at Tannadice Park",
+          "city": "Dundee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 24",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220258,
+        "referee": "S. McLean",
+        "timezone": "UTC",
+        "date": "2025-02-02T15:00:00+00:00",
+        "timestamp": 1738508400,
+        "periods": {
+          "first": 1738508400,
+          "second": 1738512000
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 25",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 902,
+          "name": "Ross County",
+          "logo": "https://media.api-sports.io/football/teams/902.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220262,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2025-02-16T12:00:00+00:00",
+        "timestamp": 1739707200,
+        "periods": {
+          "first": 1739707200,
+          "second": 1739710800
+        },
+        "venue": {
+          "id": 1393,
+          "name": "Tynecastle Park",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 26",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220269,
+        "referee": "K. Clancy",
+        "timezone": "UTC",
+        "date": "2025-02-22T15:00:00+00:00",
+        "timestamp": 1740236400,
+        "periods": {
+          "first": 1740236400,
+          "second": 1740240000
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 10
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 27",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        },
+        "away": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220275,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2025-02-26T20:00:00+00:00",
+        "timestamp": 1740600000,
+        "periods": {
+          "first": 1740600000,
+          "second": 1740603600
+        },
+        "venue": {
+          "id": 19215,
+          "name": "The BBSP Stadium Rugby Park",
+          "city": "Kilmarnock"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220281,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2025-03-01T15:00:00+00:00",
+        "timestamp": 1740841200,
+        "periods": {
+          "first": 1740841200,
+          "second": 1740844800
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 29",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        },
+        "away": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220284,
+        "referee": "S. McLean",
+        "timezone": "UTC",
+        "date": "2025-03-16T12:30:00+00:00",
+        "timestamp": 1742128200,
+        "periods": {
+          "first": 1742128200,
+          "second": 1742131800
+        },
+        "venue": {
+          "id": 1386,
+          "name": "Celtic Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220292,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2025-03-29T17:30:00+00:00",
+        "timestamp": 1743269400,
+        "periods": {
+          "first": 1743269400,
+          "second": 1743273000
+        },
+        "venue": {
+          "id": 20420,
+          "name": "The Scot Foam Stadium at Dens Park",
+          "city": "Dundee"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220299,
+        "referee": "D. Robertson",
+        "timezone": "UTC",
+        "date": "2025-04-05T14:00:00+00:00",
+        "timestamp": 1743861600,
+        "periods": {
+          "first": 1743861600,
+          "second": 1743865200
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 32",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        },
+        "away": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1220302,
+        "referee": "S. McLean",
+        "timezone": "UTC",
+        "date": "2025-04-13T11:00:00+00:00",
+        "timestamp": 1744542000,
+        "periods": {
+          "first": 1744542000,
+          "second": 1744545600
+        },
+        "venue": {
+          "id": 1383,
+          "name": "Pittodrie Stadium",
+          "city": "Aberdeen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "1st Phase - 33",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": null
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1269138,
+        "referee": "M. McDermid",
+        "timezone": "UTC",
+        "date": "2024-08-17T16:45:00+00:00",
+        "timestamp": 1723913100,
+        "periods": {
+          "first": 1723913100,
+          "second": 1723916700
+        },
+        "venue": {
+          "id": 2617,
+          "name": "Hampden Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/185.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273687,
+        "referee": "D. Rum\u0161as",
+        "timezone": "UTC",
+        "date": "2024-08-06T18:00:00+00:00",
+        "timestamp": 1722967200,
+        "periods": {
+          "first": 1722967200,
+          "second": 1722970800
+        },
+        "venue": {
+          "id": 11992,
+          "name": "Arena Lublin",
+          "city": "Lublin"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png",
+          "winner": null
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1273688,
+        "referee": "M. Guida",
+        "timezone": "UTC",
+        "date": "2024-08-13T18:45:00+00:00",
+        "timestamp": 1723574700,
+        "periods": {
+          "first": 1723574700,
+          "second": 1723578300
+        },
+        "venue": {
+          "id": 2617,
+          "name": "Hampden Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        },
+        "away": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1293135,
+        "referee": "C. Graham",
+        "timezone": "UTC",
+        "date": "2024-09-21T16:30:00+00:00",
+        "timestamp": 1726936200,
+        "periods": {
+          "first": 1726936200,
+          "second": 1726939800
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 13
+        }
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/185.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299138,
+        "referee": "Lu\u00eds Godinho",
+        "timezone": "UTC",
+        "date": "2024-09-26T16:45:00+00:00",
+        "timestamp": 1727369100,
+        "periods": {
+          "first": 1727369100,
+          "second": 1727372700
+        },
+        "venue": {
+          "id": 1518,
+          "name": "Eleda Stadion",
+          "city": "Malm\u00f6"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299161,
+        "referee": "S. Jablonski",
+        "timezone": "UTC",
+        "date": "2024-10-03T19:00:00+00:00",
+        "timestamp": 1727982000,
+        "periods": {
+          "first": 1727982000,
+          "second": 1727985600
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299179,
+        "referee": "M. Di Bello",
+        "timezone": "UTC",
+        "date": "2024-10-24T19:00:00+00:00",
+        "timestamp": 1729796400,
+        "periods": {
+          "first": 1729796400,
+          "second": 1729800000
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299190,
+        "referee": "S. Stegemann",
+        "timezone": "UTC",
+        "date": "2024-11-07T17:45:00+00:00",
+        "timestamp": 1731001500,
+        "periods": {
+          "first": 1731001500,
+          "second": 1731005100
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Georgios Karaisk\u00e1ki",
+          "city": "Piraeus"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png",
+          "winner": null
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299213,
+        "referee": "Ricardo De Burgos",
+        "timezone": "UTC",
+        "date": "2024-11-28T20:00:00+00:00",
+        "timestamp": 1732824000,
+        "periods": {
+          "first": 1732824000,
+          "second": 1732827600
+        },
+        "venue": {
+          "id": 663,
+          "name": "Allianz Riviera",
+          "city": "Nice"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299233,
+        "referee": "S. Sch\u00e4rer",
+        "timezone": "UTC",
+        "date": "2024-12-12T20:00:00+00:00",
+        "timestamp": 1734033600,
+        "periods": {
+          "first": 1734033600,
+          "second": 1734037200
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299250,
+        "referee": "E. Lambrechts",
+        "timezone": "UTC",
+        "date": "2025-01-23T20:00:00+00:00",
+        "timestamp": 1737662400,
+        "periods": {
+          "first": 1737662400,
+          "second": 1737666000
+        },
+        "venue": {
+          "id": 556,
+          "name": "Old Trafford",
+          "city": "Manchester"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 7",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1299265,
+        "referee": "D. Sylwestrzak",
+        "timezone": "UTC",
+        "date": "2025-01-30T20:00:00+00:00",
+        "timestamp": 1738267200,
+        "periods": {
+          "first": 1738267200,
+          "second": 1738270800
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "League Stage - 8",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1393,
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1308227,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2024-11-03T15:00:00+00:00",
+        "timestamp": 1730646000,
+        "periods": {
+          "first": 1730646000,
+          "second": 1730649600
+        },
+        "venue": {
+          "id": 2617,
+          "name": "Hampden Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/185.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "Semi-finals",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1314882,
+        "referee": "J. Beaton",
+        "timezone": "UTC",
+        "date": "2024-12-15T15:30:00+00:00",
+        "timestamp": 1734276600,
+        "periods": {
+          "first": 1734276600,
+          "second": 1734280200
+        },
+        "venue": {
+          "id": 2617,
+          "name": "Hampden Park",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/185.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "Final",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 5,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1318878,
+        "referee": "I. Snedden",
+        "timezone": "UTC",
+        "date": "2025-01-19T14:15:00+00:00",
+        "timestamp": 1737296100,
+        "periods": {
+          "first": 1737296100,
+          "second": 1737299700
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 3
+        }
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/181.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "4th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 6769,
+          "name": "Fraserburgh",
+          "logo": "https://media.api-sports.io/football/teams/6769.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1338623,
+        "referee": "C. Scott",
+        "timezone": "UTC",
+        "date": "2025-02-09T15:30:00+00:00",
+        "timestamp": 1739115000,
+        "periods": {
+          "first": 1739115000,
+          "second": 1739118600
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/181.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "5th Round",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        },
+        "away": {
+          "id": 6778,
+          "name": "Queen's Park",
+          "logo": "https://media.api-sports.io/football/teams/6778.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353188,
+        "referee": "Alejandro Hern\u00e1ndez",
+        "timezone": "UTC",
+        "date": "2025-03-06T17:45:00+00:00",
+        "timestamp": 1741283100,
+        "periods": {
+          "first": 1741283100,
+          "second": 1741286700
+        },
+        "venue": {
+          "id": 1581,
+          "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+          "city": "\u0130stanbul"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1353189,
+        "referee": "E. Esk\u00e5s",
+        "timezone": "UTC",
+        "date": "2025-03-13T20:00:00+00:00",
+        "timestamp": 1741896000,
+        "periods": {
+          "first": 1741896000,
+          "second": 1741899600
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Round of 16",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbah\u00e7e",
+          "logo": "https://media.api-sports.io/football/teams/611.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 3,
+          "away": 2
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361280,
+        "referee": "I. Kov\u00e1cs",
+        "timezone": "UTC",
+        "date": "2025-04-10T19:00:00+00:00",
+        "timestamp": 1744311600,
+        "periods": {
+          "first": 1744311600,
+          "second": 1744315200
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 13
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        },
+        "away": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1361281,
+        "referee": "I. Peljto",
+        "timezone": "UTC",
+        "date": "2025-04-17T19:00:00+00:00",
+        "timestamp": 1744916400,
+        "periods": {
+          "first": 1744916400,
+          "second": 1744920000
+        },
+        "venue": {
+          "id": 1460,
+          "name": "San Mam\u00e9s Barria",
+          "city": "Bilbao"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Quarter-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png",
+          "winner": true
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371466,
+        "referee": "C. Steven",
+        "timezone": "UTC",
+        "date": "2025-04-26T14:00:00+00:00",
+        "timestamp": 1745676000,
+        "periods": {
+          "first": 1745676000,
+          "second": 1745679600
+        },
+        "venue": {
+          "id": 11913,
+          "name": "The SMISA Stadium",
+          "city": "Paisley"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png",
+          "winner": null
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371475,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2025-05-04T11:00:00+00:00",
+        "timestamp": 1746356400,
+        "periods": {
+          "first": 1746356400,
+          "second": 1746360000
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371481,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2025-05-11T11:00:00+00:00",
+        "timestamp": 1746961200,
+        "periods": {
+          "first": 1746961200,
+          "second": 1746964800
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 3",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371483,
+        "referee": "C. Scott",
+        "timezone": "UTC",
+        "date": "2025-05-14T18:45:00+00:00",
+        "timestamp": 1747248300,
+        "periods": {
+          "first": 1747248300,
+          "second": 1747251900
+        },
+        "venue": {
+          "id": 1401,
+          "name": "Ibrox Stadium",
+          "city": "Glasgow"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1371490,
+        "referee": "N. Walsh",
+        "timezone": "UTC",
+        "date": "2025-05-17T11:30:00+00:00",
+        "timestamp": 1747481400,
+        "periods": {
+          "first": 1747481400,
+          "second": 1747485000
+        },
+        "venue": {
+          "id": 1394,
+          "name": "Easter Road Stadium",
+          "city": "Edinburgh"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 4
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2024,
+        "round": "2nd Phase - 5",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png",
+          "winner": null
+        },
+        "away": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}
