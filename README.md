@@ -225,7 +225,7 @@ The full list, with every known bug and how to fix it, is in [`model/docs/README
 
 ## Personal facts and opinions
 
-- It took me 3 months to finish this project, because of school (lots of homework) and because of learning: I cannot learn all these concepts in one day. Of course, I forget some of them over time, because I only needed them once or twice.
+- It took me about 3 months (started in July I think) to finish this project, because of school (lots of homework) and because of learning: I cannot learn all these concepts in one day. Of course, I forget some of them over time, because I only needed them once or twice.
 
 ## Feedback and advice
 
@@ -467,7 +467,7 @@ La liste complète, avec chaque bug connu et sa correction, est dans [`model/doc
 
 ## Faits et avis personnels
 
-- Il m'a fallu 3 mois pour finir ce projet, à cause de l'école (beaucoup de devoirs) et de l'apprentissage : je ne peux pas apprendre tous ces concepts en un jour. Bien sûr, j'en oublie certains avec le temps, car je n'en ai eu besoin qu'une ou deux fois.
+- Il m'a fallu environ 3 mois (commencé en juillet je crois) pour finir ce projet, à cause de l'école (beaucoup de devoirs) et de l'apprentissage : je ne peux pas apprendre tous ces concepts en un jour. Bien sûr, j'en oublie certains avec le temps, car je n'en ai eu besoin qu'une ou deux fois.
 
 
 ## Pourquoi le project n'est pas considéré comme "temriné" pour mettre la version 1.0.0 ? 
