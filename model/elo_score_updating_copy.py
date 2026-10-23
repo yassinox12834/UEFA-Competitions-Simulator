@@ -25,9 +25,6 @@ import json
 import sys
 from pathlib import Path
 
-import numpy as np
-import pandas as pd
-
 BASE_DIR = Path(__file__).resolve().parents[1]
 JSON_TEAMS_SEED   = BASE_DIR / "data" / "reference" / "team_seed.json"
 JSON_COUNTRY_SEED = BASE_DIR / "data" / "reference" / "country_seeds.json"
@@ -188,6 +185,12 @@ def find_goal_columns(df):
 # ---------------------------------------------------------------------------
 
 def run(write=True):
+    # Imported here, not at the top: only this rebuild needs them. The app
+    # imports this module for expected_score and update_rating alone, and
+    # must not drag pandas into the .exe for that.
+    import numpy as np
+    import pandas as pd
+
     file = load_seed(JSON_TEAMS_SEED)
 
     k_base, k_max = load_k_settings(JSON_COEFS)

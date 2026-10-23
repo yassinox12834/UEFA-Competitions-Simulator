@@ -29,7 +29,7 @@ import customtkinter as ctk
 import transition as tr
 from base_view import BaseView
 from canvas_views import BracketView, LeagueTable, ProbTable, draw_shootout
-from config import (BASE_DIR, BORDER, CARD, GOLD, MC_RUNS, SURFACE_2,
+from config import (USER_DIR, BORDER, CARD, GOLD, MC_RUNS, SURFACE_2,
                     TEXT, TEXT_FAINT, TEXT_MUTED, ZONE_OUT, ZONE_PO, ZONE_R16)
 from draw_widgets import MessageDialog, flat_frame
 from fonts import FONTS, scaling, tk_font
@@ -762,7 +762,7 @@ class SimulateView(BaseView):
                           self.app.t("sim_save_bad_title"), str(exc), tone="error")
             return
         try:
-            shown = path.relative_to(BASE_DIR).as_posix()
+            shown = path.relative_to(USER_DIR).as_posix()
         except ValueError:
             shown = str(path)
         MessageDialog(self.winfo_toplevel(), self.app, self.app.t("sim_saved_title"),

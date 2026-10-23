@@ -1,4 +1,4 @@
-import pathlib
+from uefa.paths import RESOURCE_DIR as BASE_DIR, USER_DIR   # noqa: F401
 
 
 APPEARANCE = "dark"         
@@ -11,7 +11,6 @@ MIN_WIDTH = 980
 MIN_HEIGHT = 660
 
 # --- Paths ------------------------------------------------------------
-BASE_DIR = pathlib.Path(__file__).resolve().parents[1]
 IMAGES_DIR = BASE_DIR / "assets" / "images"
 FLAGS_DIR = IMAGES_DIR / "flags"
 COMPET_LOGOS_DIR = IMAGES_DIR / "compets"

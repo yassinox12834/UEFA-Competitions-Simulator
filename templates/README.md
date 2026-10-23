@@ -77,6 +77,17 @@ they stand, hand-made replacements and imported badges included, to
 templates/saved/<COMP>_<YYYYMMDD-HHMMSS>.json
 ```
 
+**In the Windows app**, the same file goes to your user folder instead,
+because the app folder is not meant to be written to:
+
+```
+C:\Users\<you>\UEFA-Simulator\templates\saved\<COMP>_<YYYYMMDD-HHMMSS>.json
+```
+
+A badge that ships with the app is then saved as a path into the app
+folder. Such a template keeps its badges only while the app stays where it
+is: move or update the app, and those clubs show their initials instead.
+
 Date before time, so the alphabetical order of the folder is also the
 chronological one. Nothing is ever overwritten: a second save in the same
 second is the only collision possible, and there is no way to produce one

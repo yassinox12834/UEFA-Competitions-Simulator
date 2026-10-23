@@ -20,7 +20,7 @@ import customtkinter as ctk
 
 import transition as tr
 from base_view import BaseView
-from config import (AWAY, BALL_FLY_MS, BALL_OPEN_MS, BASE_DIR, BORDER, CARD,
+from config import (AWAY, BALL_FLY_MS, BALL_OPEN_MS, USER_DIR, BORDER, CARD,
                     CARD_RADIUS, CHIP_BORDER, CHIP_DRAWN, CHIP_RADIUS,
                     CLUB_HOLD_MS, COMP, DEFAULT_SPEED, DRAW_SPEEDS, FORMAT,
                     HOME, LANG_NAMES, MODES, OPPONENT_GAP_MS, OPPONENT_MS,
@@ -766,7 +766,7 @@ class DrawView(BaseView):
         # "templates/saved/UCL_20260826-143012.json" can be found by eye,
         # "C:/Users/.../UEFA/templates/..." overflows the box.
         try:
-            shown = path.relative_to(BASE_DIR).as_posix()
+            shown = path.relative_to(USER_DIR).as_posix()
         except ValueError:
             shown = str(path)
         self._report("sv_ok_title",

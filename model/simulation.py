@@ -33,10 +33,11 @@ from model.match_engine import DEFAULT_ELO, STAGE_LABELS, MatchEngine, load_k_ta
 from model.names import resolve_all
 from model.predictor import MatchModel
 from model.scorelines import ScorelineSampler
+from uefa.paths import USER_DIR
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 ELO_JSON = BASE_DIR / "data" / "processed" / "eeelo_final.json"
-LOG_DIR = BASE_DIR / "data" / "processed"
+LOG_DIR = USER_DIR / "data" / "processed"
 
 STAGES = ("top8", "top24", "r16", "qf", "sf", "final", "winner")
 STAGE_TITLES = {"top8": "Top 8", "top24": "Top 24", "r16": "Round of 16",

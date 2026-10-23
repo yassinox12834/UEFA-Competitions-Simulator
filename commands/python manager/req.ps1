@@ -1,5 +1,12 @@
-# Install the requirements with the Python version you chose.
-# 1. Type  py --list  to see your versions.
-# 2. Replace 3.12 below by one of them (3.10 or newer).
-cd "$PSScriptRoot\..\.."
-py -3.12 -m pip install -r requirements.txt
+# Install the packages with the Python version written in version.ps1.
+#
+#   & ".\commands\python manager\req.ps1"
+Set-Location -Path (Join-Path $PSScriptRoot "..\..")
+. (Join-Path $PSScriptRoot "version.ps1")
+
+Write-Host "Installing the packages for Python $Version..." -ForegroundColor Cyan
+py "-$Version" -m pip install -r requirements.txt
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+Write-Host ""
+Write-Host "Done. Launch the app with:  & "".\commands\python manager\run.ps1""" -ForegroundColor Green

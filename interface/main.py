@@ -32,7 +32,9 @@ import sys
 from pathlib import Path
 
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))
+sys.path.insert(0, str(HERE.parent))   # project root: "uefa" and "model" import from here
 
 import platform_utils as platform_utils                          # noqa: E402
 

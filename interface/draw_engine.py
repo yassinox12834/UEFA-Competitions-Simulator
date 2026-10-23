@@ -37,6 +37,7 @@ if str(BASE_DIR) not in sys.path:
 from model import draw_ucl, draw_uecl                       # noqa: E402
 from model.matchdays_ucl import generate_matchdays          # noqa: E402
 from model.matchdays_uecl import verify_matchdays           # noqa: E402
+from uefa.paths import USER_DIR                             # noqa: E402
 
 # Which competition runs on which engine. UCL and UEL have exactly the
 # same format (4 pots of 9, 8 opponents), so they use the same module.
@@ -677,7 +678,7 @@ def _check_image(value, club, base_dir, problems, warnings):
 # able to go back in through there, without editing. That is the only
 # rule that matters in this section, and the end-to-end test checks it.
 
-SAVED_DIR = BASE_DIR / "templates" / "saved"
+SAVED_DIR = USER_DIR / "templates" / "saved"
 
 # Characters that a club name may contain but that a Windows file name
 # refuses. We replace them instead of removing them: "1899 Hoffenheim /
