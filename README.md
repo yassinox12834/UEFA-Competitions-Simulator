@@ -2,6 +2,8 @@
 
 *Version française : [plus bas](#fr-version-française).*
 
+*The [changelog](GHANGELOG.md) lists every notable change to the project.*
+
 ## What does it do?
 
 This project simulates any of the three UEFA club competitions: the Champions League, the Europa League and the Conference League. It also carries out the draw for the new format (since 2024/25), which is far from trivial to implement.
@@ -169,22 +171,171 @@ Other parts can be run on their own too:
 
 ```
 UEFA/
-├── main.py            starts the app
-├── requirements.txt   the packages to install
-├── commands/          ready-made install and launch scripts (Windows, macOS, Linux, Python Manager)
-├── model/             the draw, the ratings, the match model and the simulation
-│   └── docs/          how every part works, in English and French
-├── interface/         the window and its screens (CustomTkinter)
-├── datahandler/       scripts that download and clean the data from API-Football
+├── .env.example                     template for your own .env file (API key)
+├── .gitignore                       what Git must not track
+├── GHANGELOG.md                     the changelog
+├── image_downloader_logos.py        the script used to download the club badges
+├── main.py                          starts the app
+├── README.md                        this file
+├── requirements.txt                 the packages to install
+├── assets/
+│   └── images/
+│       ├── clubs/                   club badges, one folder per competition
+│       │   ├── UCL/                 36 badges, one PNG per club
+│       │   ├── UECL/                36 badges, one PNG per club
+│       │   └── UEL/                 36 badges, one PNG per club
+│       ├── compets/                 competition logos
+│       │   ├── UCL_logo.png
+│       │   ├── UECL_logo.png
+│       │   └── UEL_logo.png
+│       ├── flags/                   flags
+│       │   ├── Flag_of_France.png
+│       │   └── UK_US_flag.png
+│       ├── github/                  README pictures (banner, stars)
+│       │   ├── banner.png
+│       │   ├── banner.svg
+│       │   ├── star_en.png
+│       │   └── star_fr.png
+│       └── optional/                17 optional images
+├── commands/                        ready-made install and launch scripts
+│   ├── linux/                       Linux
+│   │   ├── get_to_file.sh
+│   │   ├── req.sh
+│   │   └── run.sh
+│   ├── MacOs/                       macOS
+│   │   ├── get_to_file.sh
+│   │   ├── req.sh
+│   │   └── run.sh
+│   ├── python manager/              Python Manager
+│   │   ├── get_to_file.ps1
+│   │   ├── req.ps1
+│   │   └── run.ps1
+│   └── windows/                     Windows
+│       ├── get_to_file.ps1
+│       ├── req.ps1
+│       └── run.ps1
 ├── data/
-│   ├── raw/           data as downloaded
-│   ├── processed/     cleaned data: matches, ratings, simulation logs
-│   └── reference/     settings: coefficients, starting ratings, model weights, score table
-├── templates/         pot files the app can load and save
-├── assets/images/     club badges, competition logos, flags, README pictures
-├── scripts/           small one-off tools (badge downloads, image clean-up)
-└── GIFs/              the demonstration above
+│   ├── processed/                   cleaned data: matches, ratings, simulation logs
+│   │   ├── all_competitions_25.csv
+│   │   ├── cleaned_clubs_25.csv
+│   │   ├── countries_filled_25.csv
+│   │   ├── eeelo_final.json
+│   │   ├── fixtures_25.csv
+│   │   ├── match_features.csv
+│   │   ├── predictions.csv
+│   │   ├── sim_UECL_20260916-192903.txt
+│   │   ├── uefa_coefficients_2021_2022.csv
+│   │   ├── uefa_coefficients_2022_23.csv
+│   │   └── uefa_countries_25.csv
+│   ├── raw/                         data as downloaded
+│   │   ├── fixtures_UCL/            36 JSON files, one per club
+│   │   ├── fixtures_UECL/           36 JSON files, one per club
+│   │   └── fixtures_UEL/            36 JSON files, one per club
+│   └── reference/                   settings: coefficients, starting ratings, model weights, score table
+│       ├── coef_table.csv
+│       ├── coefs.json
+│       ├── confr.json
+│       ├── country_seeds.json
+│       ├── predictor_weights.json
+│       ├── scorelines.json
+│       ├── team_seed.json
+│       ├── UCL.json
+│       ├── UCL_updated.json
+│       ├── UECL.json
+│       ├── UECL_updated.json
+│       ├── UEL.json
+│       └── UEL_updated.json
+├── datahandler/                     scripts that download and clean the data from API-Football
+│   ├── __init__.py
+│   ├── add_neutral_venue.py
+│   ├── build_fixtures_csv.py
+│   ├── build_team_seeds.py
+│   ├── drop_duplicate_fixtures.py
+│   ├── fetch_club_logos.py
+│   ├── fetch_competition_logos.py
+│   ├── fetch_fixtures.py
+│   ├── fetch_leagues.py
+│   ├── fetch_team_ids.py
+│   ├── README.md                    where the data comes from
+│   └── img/                         4 diagrams (English and French versions)
+├── GIFs/                            the demonstration above
+│   ├── GIF_1.gif
+│   ├── GIF_2.gif
+│   └── GIF_3.gif
+├── interface/                       the window and its screens (CustomTkinter)
+│   ├── app.py                       the window and the router
+│   ├── base_view.py                 the contract shared by every screen
+│   ├── canvas_views.py              the three large tables of the results screen
+│   ├── chrome.py                    the two bars that never move
+│   ├── config.py
+│   ├── draw_engine.py               bridge between the interface and model/
+│   ├── draw_widgets.py              building blocks of the draw screen
+│   ├── fonts.py                     the typography
+│   ├── images.py                    makes every image of the app
+│   ├── main.py                      entry point of the interface
+│   ├── platform_utils.py
+│   ├── README.md                    how the interface was written
+│   ├── sim_engine.py                bridge to model/simulation.py
+│   ├── sim_view.py                  the simulation screen
+│   ├── theme.py                     default look of the widgets
+│   ├── transition.py                animation engine
+│   ├── views.py                     the menu screens
+│   └── widgets.py                   reusable building blocks
+├── model/                           the draw, the ratings, the match model and the simulation
+│   ├── __init__.py
+│   ├── categorising.py              builds the (league, round) category table
+│   ├── coefs.py
+│   ├── draw_ucl.py                  draw engine, 8-match league phase (UCL, UEL)
+│   ├── draw_uecl.py                 draw engine, 6-match league phase (UECL)
+│   ├── elo_score_updating_copy.py   runs the Elo ratings through a season
+│   ├── knockout.py                  play-offs and knockout rounds
+│   ├── league_phase.py              plays the league phase and ranks the 36 clubs
+│   ├── match_engine.py              plays one match
+│   ├── matchdays_ucl.py             splits a draw into matchdays (UCL, UEL)
+│   ├── matchdays_uecl.py            splits a draw into matchdays (UECL)
+│   ├── names.py                     matches club names written differently
+│   ├── penalties.py                 penalty shoot-outs, kick by kick
+│   ├── predict_matches_uefa.py
+│   ├── predictor.py                 match outcome model (logistic regression)
+│   ├── prepredictator.py            fits the result classifier
+│   ├── scorelines.py                turns an outcome into a scoreline
+│   ├── seeding.py
+│   ├── simulation.py                simulates a whole competition
+│   ├── testing.py
+│   ├── tests.py
+│   └── docs/                        how every part works, in English and French
+│       ├── draw.md
+│       ├── elo.md
+│       ├── extra_time.md
+│       ├── knockout.md
+│       ├── league_phase.md
+│       ├── logistic_regression.md
+│       ├── match_engine.md
+│       ├── matchdays.md
+│       ├── monte_carlo.md
+│       ├── names.md
+│       ├── penalties.md
+│       ├── README.md                the guide to the model
+│       ├── scorelines.md
+│       ├── code/                    11 pages, the code of each part explained
+│       └── img/                     24 pictures (English and French versions)
+├── scripts/                         small one-off tools (badge downloads, image clean-up)
+│   ├── fetch_template_badges.py
+│   └── remove_black_background.py
+├── templates/                       pot files the app can load and save
+│   ├── README.md                    their format
+│   ├── 2025_2026/
+│   │   ├── UCL_2025_2026.json
+│   │   ├── UECL_2025_2026.json
+│   │   └── UEL_2025_2026.json
+│   └── 2026_2027/
+│       └── UCL.json
+└── uefa/                            shared settings
+    ├── __init__.py
+    └── config.py                    every path and constant of the project
 ```
+
+Files ignored by Git (see `.gitignore`) are left out, and folders full of similar files are summed up on one line.
 
 ## Documentation
 
@@ -195,6 +346,7 @@ UEFA/
 | [`datahandler/README.md`](datahandler/README.md) | Where the data comes from (API-Football, free plan), how to download it again, and its known problems. |
 | [`templates/README.md`](templates/README.md) | The pot files the app can load and save, and their format. |
 | [`interface/README.md`](interface/README.md) | How the interface was written, and the plan to rebuild it. |
+| [Changelog](GHANGELOG.md) | Every notable change to the project, version by version. |
 
 ## Where the data comes from
 
@@ -217,6 +369,7 @@ The full list, with every known bug and how to fix it, is in [`model/docs/README
 - Other methods for simulating the competitions.
 - Data from other seasons (the current data covers the 2024/25 season).
 - The real rule for which club hosts the second leg in the quarter-finals and semi-finals (a coin toss for now).
+- A tension bar: a bar you can set to show how tense a match is.
 
 ## Further improvements
 
@@ -243,6 +396,8 @@ If the project made you smile or taught you something, feel free to give it a st
 # [FR] Version française
 
 # Simulateur des compétitions UEFA
+
+*Le [journal des modifications](GHANGELOG.md) liste tous les changements notables du projet.*
 
 ## Que fait-il ?
 
@@ -411,22 +566,171 @@ D'autres parties peuvent aussi être lancées seules :
 
 ```
 UEFA/
-├── main.py            Lancez l'application
-├── requirements.txt   les paquets à installer
-├── commands/          scripts d'installation et de lancement (Windows, macOS, Linux, Python Manager)
-├── model/             le tirage, les notes, le modèle de match et la simulation
-│   └── docs/          comment marche chaque partie, en anglais et en français
-├── interface/         la fenêtre et ses écrans (CustomTkinter)
-├── datahandler/       les scripts qui téléchargent et nettoient les données d'API-Football
+├── .env.example                     modèle pour votre propre fichier .env (clé d'API)
+├── .gitignore                       ce que Git ne doit pas suivre
+├── GHANGELOG.md                     le journal des modifications
+├── image_downloader_logos.py        le script utilisé pour télécharger les écussons
+├── main.py                          lance l'application
+├── README.md                        ce fichier
+├── requirements.txt                 les paquets à installer
+├── assets/
+│   └── images/
+│       ├── clubs/                   écussons des clubs, un dossier par compétition
+│       │   ├── UCL/                 36 écussons, un PNG par club
+│       │   ├── UECL/                36 écussons, un PNG par club
+│       │   └── UEL/                 36 écussons, un PNG par club
+│       ├── compets/                 logos des compétitions
+│       │   ├── UCL_logo.png
+│       │   ├── UECL_logo.png
+│       │   └── UEL_logo.png
+│       ├── flags/                   drapeaux
+│       │   ├── Flag_of_France.png
+│       │   └── UK_US_flag.png
+│       ├── github/                  images du README (bannière, étoiles)
+│       │   ├── banner.png
+│       │   ├── banner.svg
+│       │   ├── star_en.png
+│       │   └── star_fr.png
+│       └── optional/                17 images facultatives
+├── commands/                        scripts d'installation et de lancement prêts à l'emploi
+│   ├── linux/                       Linux
+│   │   ├── get_to_file.sh
+│   │   ├── req.sh
+│   │   └── run.sh
+│   ├── MacOs/                       macOS
+│   │   ├── get_to_file.sh
+│   │   ├── req.sh
+│   │   └── run.sh
+│   ├── python manager/              Python Manager
+│   │   ├── get_to_file.ps1
+│   │   ├── req.ps1
+│   │   └── run.ps1
+│   └── windows/                     Windows
+│       ├── get_to_file.ps1
+│       ├── req.ps1
+│       └── run.ps1
 ├── data/
-│   ├── raw/           les données telles que téléchargées
-│   ├── processed/     les données nettoyées : matchs, notes, journaux de simulation
-│   └── reference/     les réglages : coefficients, notes de départ, poids du modèle, table des scores
-├── templates/         les fichiers de chapeaux que l'application peut charger et enregistrer
-├── assets/images/     écussons des clubs, logos des compétitions, drapeaux, images du README
-├── scripts/           petits outils ponctuels (téléchargement d'écussons, nettoyage d'images)
-└── GIFs/              la démonstration ci-dessus
+│   ├── processed/                   données nettoyées : matchs, notes, journaux de simulation
+│   │   ├── all_competitions_25.csv
+│   │   ├── cleaned_clubs_25.csv
+│   │   ├── countries_filled_25.csv
+│   │   ├── eeelo_final.json
+│   │   ├── fixtures_25.csv
+│   │   ├── match_features.csv
+│   │   ├── predictions.csv
+│   │   ├── sim_UECL_20260916-192903.txt
+│   │   ├── uefa_coefficients_2021_2022.csv
+│   │   ├── uefa_coefficients_2022_23.csv
+│   │   └── uefa_countries_25.csv
+│   ├── raw/                         données telles que téléchargées
+│   │   ├── fixtures_UCL/            36 fichiers JSON, un par club
+│   │   ├── fixtures_UECL/           36 fichiers JSON, un par club
+│   │   └── fixtures_UEL/            36 fichiers JSON, un par club
+│   └── reference/                   réglages : coefficients, notes de départ, poids du modèle, table des scores
+│       ├── coef_table.csv
+│       ├── coefs.json
+│       ├── confr.json
+│       ├── country_seeds.json
+│       ├── predictor_weights.json
+│       ├── scorelines.json
+│       ├── team_seed.json
+│       ├── UCL.json
+│       ├── UCL_updated.json
+│       ├── UECL.json
+│       ├── UECL_updated.json
+│       ├── UEL.json
+│       └── UEL_updated.json
+├── datahandler/                     scripts qui téléchargent et nettoient les données d'API-Football
+│   ├── __init__.py
+│   ├── add_neutral_venue.py
+│   ├── build_fixtures_csv.py
+│   ├── build_team_seeds.py
+│   ├── drop_duplicate_fixtures.py
+│   ├── fetch_club_logos.py
+│   ├── fetch_competition_logos.py
+│   ├── fetch_fixtures.py
+│   ├── fetch_leagues.py
+│   ├── fetch_team_ids.py
+│   ├── README.md                    d'où viennent les données
+│   └── img/                         4 schémas (versions anglaise et française)
+├── GIFs/                            la démonstration ci-dessus
+│   ├── GIF_1.gif
+│   ├── GIF_2.gif
+│   └── GIF_3.gif
+├── interface/                       la fenêtre et ses écrans (CustomTkinter)
+│   ├── app.py                       la fenêtre et le routeur
+│   ├── base_view.py                 le contrat commun à tous les écrans
+│   ├── canvas_views.py              les trois grands tableaux de l'écran des résultats
+│   ├── chrome.py                    les deux barres qui ne bougent jamais
+│   ├── config.py
+│   ├── draw_engine.py               pont entre l'interface et model/
+│   ├── draw_widgets.py              éléments de l'écran du tirage
+│   ├── fonts.py                     la typographie
+│   ├── images.py                    fabrique toutes les images de l'application
+│   ├── main.py                      point d'entrée de l'interface
+│   ├── platform_utils.py
+│   ├── README.md                    comment l'interface a été écrite
+│   ├── sim_engine.py                pont vers model/simulation.py
+│   ├── sim_view.py                  l'écran de simulation
+│   ├── theme.py                     apparence par défaut des widgets
+│   ├── transition.py                moteur d'animation
+│   ├── views.py                     les écrans du menu
+│   └── widgets.py                   éléments réutilisables
+├── model/                           le tirage, les notes, le modèle de match et la simulation
+│   ├── __init__.py
+│   ├── categorising.py              construit la table de catégories (championnat, tour)
+│   ├── coefs.py
+│   ├── draw_ucl.py                  moteur de tirage, phase de ligue à 8 matchs (LDC, LE)
+│   ├── draw_uecl.py                 moteur de tirage, phase de ligue à 6 matchs (LC)
+│   ├── elo_score_updating_copy.py   déroule les notes Elo sur une saison
+│   ├── knockout.py                  barrages et phases à élimination directe
+│   ├── league_phase.py              joue la phase de ligue et classe les 36 clubs
+│   ├── match_engine.py              joue un match
+│   ├── matchdays_ucl.py             découpe un tirage en journées (LDC, LE)
+│   ├── matchdays_uecl.py            découpe un tirage en journées (LC)
+│   ├── names.py                     relie les noms de clubs écrits différemment
+│   ├── penalties.py                 tirs au but, un tir à la fois
+│   ├── predict_matches_uefa.py
+│   ├── predictor.py                 modèle de résultat de match (régression logistique)
+│   ├── prepredictator.py            entraîne le classifieur de résultats
+│   ├── scorelines.py                transforme un résultat en score
+│   ├── seeding.py
+│   ├── simulation.py                simule toute une compétition
+│   ├── testing.py
+│   ├── tests.py
+│   └── docs/                        comment fonctionne chaque partie, en anglais et en français
+│       ├── draw.md
+│       ├── elo.md
+│       ├── extra_time.md
+│       ├── knockout.md
+│       ├── league_phase.md
+│       ├── logistic_regression.md
+│       ├── match_engine.md
+│       ├── matchdays.md
+│       ├── monte_carlo.md
+│       ├── names.md
+│       ├── penalties.md
+│       ├── README.md                le guide du modèle
+│       ├── scorelines.md
+│       ├── code/                    11 pages, le code de chaque partie expliqué
+│       └── img/                     24 images (versions anglaise et française)
+├── scripts/                         petits outils ponctuels (écussons, nettoyage d'images)
+│   ├── fetch_template_badges.py
+│   └── remove_black_background.py
+├── templates/                       fichiers de chapeaux que l'application peut charger et enregistrer
+│   ├── README.md                    leur format
+│   ├── 2025_2026/
+│   │   ├── UCL_2025_2026.json
+│   │   ├── UECL_2025_2026.json
+│   │   └── UEL_2025_2026.json
+│   └── 2026_2027/
+│       └── UCL.json
+└── uefa/                            réglages communs
+    ├── __init__.py
+    └── config.py                    tous les chemins et constantes du projet
 ```
+
+Les fichiers ignorés par Git (voir `.gitignore`) ne sont pas montrés, et les dossiers remplis de fichiers semblables sont résumés sur une seule ligne.
 
 ## Documentation
 
@@ -437,6 +741,7 @@ UEFA/
 | [`datahandler/README.md`](datahandler/README.md) | D'où viennent les données (API-Football, plan gratuit), comment les télécharger à nouveau, et leurs problèmes connus. |
 | [`templates/README.md`](templates/README.md) | Les fichiers de chapeaux que l'application peut charger et enregistrer, et leur format. |
 | [`interface/README.md`](interface/README.md) | Comment l'interface a été écrite, et le projet de la reconstruire. |
+| [Journal des modifications](GHANGELOG.md) | Chaque changement notable du projet, version par version. |
 
 ## D'où viennent les données
 
@@ -459,6 +764,7 @@ La liste complète, avec chaque bug connu et sa correction, est dans [`model/doc
 - D'autres méthodes pour simuler les compétitions.
 - Des données d'autres saisons (les données actuelles couvrent la saison 2024/25).
 - La vraie règle qui décide quel club reçoit au match retour en quarts et en demies (tirée à pile ou face pour l'instant).
+- Une barre de tension : une barre que l'on peut régler pour indiquer à quel point un match est tendu.
 
 ## Améliorations plus lointaines
 

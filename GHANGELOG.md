@@ -2,6 +2,17 @@
 
 All notable changes to this project are documented in this file.
 
+## [0.9.8] 23-10-2026
+
+### Added
+
+- A new idea in the future improvements: a tension bar, a bar you can set to show how tense a match is.
+- A link to this changelog at the top of the `README.md` and in its documentation table.
+
+### Changed
+
+- The project structure tree in the `README.md` is brought up to date, in English and French. It leaves out everything listed in `.gitignore`.
+
 ## [0.9.7] 22-10-2026
 
 ### Removed
@@ -22,6 +33,17 @@ All notable changes to this project are documented in this file.
 
 Tous les changements notables de ce projet sont documentés dans ce fichier.
 
+## [0.9.8] 23-10-2026
+
+### Ajouté
+
+- Une nouvelle idée dans les améliorations en vue : une barre de tension, une barre que l'on peut régler pour indiquer à quel point un match est tendu.
+- Un lien vers ce journal des modifications en haut du `README.md` et dans son tableau de documentation.
+
+### Modifié
+
+- L'arborescence du projet dans le `README.md` est mise à jour, en anglais et en français. Elle laisse de côté tout ce qui figure dans `.gitignore`.
+
 ## [0.9.7] 22-10-2026
 
 ### Supprimé
@@ -32,6 +54,6 @@ Tous les changements notables de ce projet sont documentés dans ce fichier.
 
 - Mise en place d'un journal des modifications : `CHANGELOG.md` (ce document). Il suit tous les changements notables apportés à ce projet.
 
-## [0.9.6] 21-1O-2026
+## [0.9.6] 21-10-2026
 
 - Première version officielle.
