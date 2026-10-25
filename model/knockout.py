@@ -52,7 +52,7 @@ of it.
 """
 
 from model import penalties
-from model.elo_score_updating_copy import expected_score, update_rating
+from model.elo_score_updating import expected_score, update_rating
 
 METHODS = ("legs", "aggregate", "oneshot")
 DEFAULT_METHOD = "legs"

@@ -31,7 +31,7 @@ import math
 from functools import lru_cache
 from pathlib import Path
 
-from model.elo_score_updating_copy import expected_score, update_rating
+from model.elo_score_updating import expected_score, update_rating
 from model.predictor import format_trace
 from model.scorelines import outcome_of
 
