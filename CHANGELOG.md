@@ -2,6 +2,23 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.0.1] 27-10-2026
+
+Small clean-up release: a results table in the READMEs, a tidier `docs/` folder and one unused model file removed.
+
+### Added
+
+- A results table in `README.md` and `README.fr.md`: the title odds of the ten likeliest clubs for the real 2025/26 Champions League pots (one draw, 10,000 replays), with a note on its limits.
+
+### Changed
+
+- The main `README.md` is reorganised, and the guides (installation, terminal commands, troubleshooting, building, project structure) now live in the `docs/` folder.
+
+### Removed
+
+- `model/prepredictator.py`, an older first version of the match model with two inputs. Nothing used it, and its "neutral ground" option did nothing. `model/predictor.py` is the model the app uses. Its mentions in `model/docs/logistic_regression.md` are removed too.
+- `model/monte_carlo_more.cpp`, an unused draft (only comments, and nothing included it).
+
 ## [1.0.0] 23-10-2026
 
 The first stable version.
@@ -50,6 +67,24 @@ The first stable version.
 # Journal des modifications (version française)
 
 Tous les changements notables de ce projet sont documentés dans ce fichier.
+
+## [1.0.1] 27-10-2026
+
+Petite version de nettoyage : un tableau de résultats dans les README, un dossier `docs/` mieux rangé et un fichier du modèle inutilisé retiré.
+
+### Ajouté
+
+- Un tableau de résultats dans `README.md` et `README.fr.md` : les chances de titre des dix clubs les plus probables avec les vrais chapeaux 2025/26 de la Ligue des champions (un tirage, 10 000 rejeux), avec une note sur ses limites.
+
+### Modifié
+
+- Le `README.md` principal est réorganisé, et les guides (installation, commandes du terminal, dépannage, création de l'application, structure du projet) sont maintenant dans le dossier `docs/`.
+
+### Supprimé
+
+- `model/prepredictator.py`, une ancienne première version du modèle de match à deux entrées. Rien ne l'utilisait, et son option « terrain neutre » ne faisait rien. `model/predictor.py` est le modèle utilisé par l'appli. Ses mentions dans `model/docs/logistic_regression.md` sont aussi retirées.
+- `model/monte_carlo_more.cpp`, un brouillon inutilisé (seulement des commentaires, et rien ne l'incluait).
+
 
 ## [1.0.0] 23-10-2026
 

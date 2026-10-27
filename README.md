@@ -24,6 +24,7 @@
 
 <p align="center">
   <a href="#see-it-in-action">See it</a> ·
+  <a href="#what-the-model-says">Odds</a> ·
   <a href="#what-you-can-do">Features</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#quick-start">Quick start</a> ·
@@ -53,6 +54,25 @@ It runs the draw with the real UEFA rules, plays every match of the season, and 
   <img src="GIFs/GIF_3.gif" alt="The simulation" width="820"><br>
   <sub><b>The simulation.</b> League table, knockout rounds, and each club's chances.</sub>
 </p>
+
+## What the model says
+
+Title odds for the real 2025/26 Champions League pots (one draw, 10,000 replays):
+
+| # | Club | Top 8 | Quarter-final | Final | Win |
+|---|---|---|---|---|---|
+| 1 | Paris Saint-Germain | 73% | 73% | 35% | 21.7% |
+| 2 | Barcelona | 64% | 67% | 29% | 16.4% |
+| 3 | Inter Milan | 61% | 61% | 21% | 10.0% |
+| 4 | Bayern Munich | 46% | 53% | 17% | 8.8% |
+| 5 | Liverpool | 49% | 51% | 15% | 7.3% |
+| 6 | Real Madrid | 53% | 48% | 12% | 5.8% |
+| 7 | Arsenal | 41% | 43% | 11% | 5.1% |
+| 8 | Atlético Madrid | 39% | 39% | 8% | 3.8% |
+| 9 | Aston Villa | 25% | 33% | 8% | 3.5% |
+| 10 | Benfica | 39% | 35% | 6% | 2.6% |
+
+<sub>One draw only (seed 1): another draw moves a club by a point or two. The ratings come from about a season and a half of matches and are treated as exact, so the chances are a little too sure of themselves. See [Known limits](#known-limits).</sub>
 
 ## What you can do
 

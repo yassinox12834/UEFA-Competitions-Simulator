@@ -24,6 +24,7 @@
 
 <p align="center">
   <a href="#en-images">En images</a> ·
+  <a href="#ce-que-dit-le-modèle">Chances</a> ·
   <a href="#ce-que-vous-pouvez-faire">Fonctions</a> ·
   <a href="#comment-ça-marche">Comment ça marche</a> ·
   <a href="#démarrage-rapide">Démarrage rapide</a> ·
@@ -53,6 +54,25 @@ Elle fait le tirage avec les vraies règles de l'UEFA, joue chaque match de la s
   <img src="GIFs/GIF_3.gif" alt="La simulation" width="820"><br>
   <sub><b>La simulation.</b> Classement, phases finales, et les chances de chaque club.</sub>
 </p>
+
+## Ce que dit le modèle
+
+Chances de gagner le titre avec les vrais chapeaux 2025/26 de la Ligue des champions (un tirage, 10 000 rejeux) :
+
+| # | Club | 8 premiers | Quarts | Finale | Titre |
+|---|---|---|---|---|---|
+| 1 | Paris Saint-Germain | 73 % | 73 % | 35 % | 21,7 % |
+| 2 | Barcelona | 64 % | 67 % | 29 % | 16,4 % |
+| 3 | Inter Milan | 61 % | 61 % | 21 % | 10,0 % |
+| 4 | Bayern Munich | 46 % | 53 % | 17 % | 8,8 % |
+| 5 | Liverpool | 49 % | 51 % | 15 % | 7,3 % |
+| 6 | Real Madrid | 53 % | 48 % | 12 % | 5,8 % |
+| 7 | Arsenal | 41 % | 43 % | 11 % | 5,1 % |
+| 8 | Atlético Madrid | 39 % | 39 % | 8 % | 3,8 % |
+| 9 | Aston Villa | 25 % | 33 % | 8 % | 3,5 % |
+| 10 | Benfica | 39 % | 35 % | 6 % | 2,6 % |
+
+<sub>Un seul tirage (graine 1) : un autre tirage déplace un club d'un point ou deux. Les notes viennent d'environ une saison et demie de matchs et sont traitées comme exactes, donc les chances affichées sont un peu trop sûres d'elles. Voir [Limites connues](#limites-connues).</sub>
 
 ## Ce que vous pouvez faire
 

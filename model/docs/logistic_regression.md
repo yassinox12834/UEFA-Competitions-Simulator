@@ -554,7 +554,6 @@ How each line works: [`code/predictor_code.md`](code/predictor_code.md).
 |---|---|
 | `data/processed/match_features.csv` | input of training (written by the Elo program) |
 | `data/reference/predictor_weights.json` | the 8 numbers, read by the app |
-| `model/prepredictator.py` | an older first version with two inputs; nothing uses it |
 
 ---
 
@@ -577,7 +576,6 @@ How each line works: [`code/predictor_code.md`](code/predictor_code.md).
 
 - **The order of the results is read but not checked.** The saved file lists the order (away, draw, home), but the prediction code ignores it and assumes that order. A file with another order would silently swap home and away.
 - **The 8 numbers are out of date** after any fix to the Elo program. After such a fix: recompute the ratings with `--write`, then train again with `--train`.
-- **`prepredictator.py` has a "neutral ground" option that does nothing.**
 
 ---
 
@@ -1180,7 +1178,6 @@ Comment marche chaque ligne : [`code/predictor_code.md`](code/predictor_code.md)
 |---|---|
 | `data/processed/match_features.csv` | entrée de l'entraînement (écrite par le programme Elo) |
 | `data/reference/predictor_weights.json` | les 8 nombres, lus par l'appli |
-| `model/prepredictator.py` | une ancienne première version à deux entrées ; rien ne l'utilise |
 
 ---
 
@@ -1203,7 +1200,6 @@ Comment marche chaque ligne : [`code/predictor_code.md`](code/predictor_code.md)
 
 - **L'ordre des résultats est lu mais pas vérifié.** Le fichier enregistré indique l'ordre (extérieur, nul, domicile), mais le code de prédiction l'ignore et suppose cet ordre. Un fichier dans un autre ordre échangerait en silence domicile et extérieur.
 - **Les 8 nombres sont périmés** après toute correction du programme Elo. Après une telle correction : recalculer les notes avec `--write`, puis réentraîner avec `--train`.
-- **`prepredictator.py` a une option « terrain neutre » qui ne fait rien.**
 
 ---
 
