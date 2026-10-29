@@ -97,9 +97,7 @@ None of these is fixed yet; each page explains the fix.
 | Page | Bug | Effect |
 |---|---|---|
 | [`elo.md`](elo.md) | The real ratings use old competition weights from `coef_table.csv`, not those of `coefs.json` | European matches move ratings at the ceiling of 30; cup matches count half |
-| [`elo.md`](elo.md) | The "home" column of the training data is always 0 | The match model cannot use it |
 | [`elo.md`](elo.md) | Friendlies are in the training data | The match model learns from 625 friendlies |
-| [`logistic_regression.md`](logistic_regression.md) | The exam is upside down: 457 training matches, 4 794 exam matches | The reported score is too pessimistic |
 | [`match_engine.md`](match_engine.md) | The app needs pandas through one import | It cannot run without pandas |
 | [`extra_time.md`](extra_time.md) | Extra-time goals count in the ratings but not in the simulation | 45 real matches treated differently |
 | [`penalties.md`](penalties.md) | The file's description says the first kicker wins 50 %; it is 51.3 % | Out-of-date text |
@@ -215,9 +213,7 @@ Aucun n'est encore corrigé ; chaque page explique la correction.
 | Page | Bug | Effet |
 |---|---|---|
 | [`elo.md`](elo.md) | Les vraies notes utilisent d'anciens poids de compétition venant de `coef_table.csv`, pas ceux de `coefs.json` | Les matchs européens font bouger les notes au plafond de 30 ; les matchs de coupe comptent moitié moins |
-| [`elo.md`](elo.md) | La colonne « domicile » des données d'entraînement vaut toujours 0 | Le modèle de match ne peut pas s'en servir |
 | [`elo.md`](elo.md) | Les amicaux sont dans les données d'entraînement | Le modèle de match apprend à partir de 625 amicaux |
-| [`logistic_regression.md`](logistic_regression.md) | L'examen est à l'envers : 457 matchs d'entraînement, 4 794 d'examen | Le score annoncé est trop pessimiste |
 | [`match_engine.md`](match_engine.md) | L'appli a besoin de pandas à cause d'un import | Elle ne peut pas tourner sans pandas |
 | [`extra_time.md`](extra_time.md) | Les buts de prolongation comptent dans les notes mais pas dans la simulation | 45 vrais matchs traités différemment |
 | [`penalties.md`](penalties.md) | La description du fichier dit que le premier tireur gagne 50 % ; c'est 51.3 % | Texte périmé |

@@ -59,14 +59,16 @@ class PredictorError(Exception):
 # 1. Training (scikit-learn side)
 # ---------------------------------------------------------------------------
 
+TRAIN_FRACTION = 0.6      # oldest 60% of matches train, newest 40% test
+
+
 def train(features_csv=FEATURES_CSV, out_json=WEIGHTS_JSON, verbose=True):
     """Fit the classifier and write its numbers to `out_json`.
 
-    Holdout: the most recent season with results is kept for scoring,
-    everything older trains. Then the model is REFIT on all seasons and
+    Holdout: the oldest 60% of matches (in date order) train, the newest
+    40% are kept for scoring. Then the model is REFIT on all matches and
     that refit is what gets written, so the holdout score describes a
-    slightly weaker model than the one shipped. That is the honest
-    direction of the bias.
+    slightly weaker model than the one shipped.
     """
     import numpy as np
     import pandas as pd
@@ -87,26 +89,23 @@ def train(features_csv=FEATURES_CSV, out_json=WEIGHTS_JSON, verbose=True):
         return Pipeline([("scaler", StandardScaler()),
                          ("lr", LogisticRegression(max_iter=1000))])
 
-    report = {}
     seasons = [int(s) for s in sorted(df["season"].unique())]
-    if len(seasons) >= 2:
-        last = seasons[-1]
-        train_mask = (df["season"] < last).to_numpy()
-        # A season with a handful of rows (the 5 rows of 2025 in the
-        # current file) is not a holdout, it is noise. Fall back to the
-        # previous season boundary in that case.
-        if (~train_mask).sum() < 50 and len(seasons) >= 3:
-            last = seasons[-2]
-            train_mask = (df["season"] < last).to_numpy()
+    report = {}
+    if len(df) >= 100:
+        cut = int(len(df) * TRAIN_FRACTION)
+        train_mask = np.arange(len(df)) < cut
+
         pipe = make().fit(X[train_mask], y[train_mask])
         proba = pipe.predict_proba(X[~train_mask])
+
         # A "no-skill" baseline: always predict the training class
         # frequencies. If the model does not beat it, the Elo gap is
         # telling us nothing.
         freq = np.bincount(y[train_mask] + 1, minlength=3) / train_mask.sum()
         base = np.tile(freq, (int((~train_mask).sum()), 1))
+
         report = {
-            "holdout_season": int(last),
+            "train_fraction": TRAIN_FRACTION,
             "train_rows": int(train_mask.sum()),
             "test_rows": int((~train_mask).sum()),
             "log_loss": float(log_loss(y[~train_mask], proba, labels=list(CLASSES))),
@@ -124,7 +123,7 @@ def train(features_csv=FEATURES_CSV, out_json=WEIGHTS_JSON, verbose=True):
                     "p_k = softmax(z)_k. Classes in order: away, draw, home.",
         "trained_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "rows": int(len(df)),
-        "seasons": [int(s) for s in seasons],
+        "seasons": seasons,
         "features": ["elo_diff"],
         "classes": list(CLASSES),
         "mean": float(scaler.mean_[0]),
@@ -139,8 +138,10 @@ def train(features_csv=FEATURES_CSV, out_json=WEIGHTS_JSON, verbose=True):
     if verbose:
         print(f"trained on {len(df)} rows, seasons {seasons}")
         if report:
-            print(f"holdout {report['holdout_season']}: log loss "
-                  f"{report['log_loss']:.4f} (no-skill {report['log_loss_no_skill']:.4f})")
+            print(f"holdout (newest {1 - report['train_fraction']:.0%} of matches, "
+                  f"{report['train_rows']} train / {report['test_rows']} test): "
+                  f"log loss {report['log_loss']:.4f} "
+                  f"(no-skill {report['log_loss_no_skill']:.4f})")
         print("mean %.3f  scale %.3f" % (weights["mean"], weights["scale"]))
         for k, w, b in zip(CLASSES, weights["coef"], weights["intercept"]):
             print(f"  {CLASS_NAMES[k]:5} w = {w:+.4f}   b = {b:+.4f}")

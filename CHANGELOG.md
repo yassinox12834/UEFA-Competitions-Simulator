@@ -2,6 +2,37 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.0.2] 29-10-2026
+
+Small fix release: two bugs fixed in the model's code, a more reliable Windows build, an unused file removed, and the licence file renamed.
+
+### Fixed
+
+- `model/elo_score_updating.py`: an empty "neutral venue" value was read as "true", so every match was marked as played on neutral ground and the "home" column of the training data was always 0. An empty value now means "not neutral".
+- `commands/windows/build.ps1` and `commands/python manager/build.ps1`: the zip step stopped with "being used by another process" when OneDrive or Windows Defender was still reading a file the build had just made. The scripts now wait and try again up to five times, check that the zip holds every file of the app, fall back to Windows' own `tar.exe`, and say what to do if it still fails.
+- `commands/MacOs/build.sh` and `commands/linux/build.sh`: without a `.venv`, they installed PyInstaller into the system Python, which recent Debian, Ubuntu and Homebrew Python refuse. They now stop and say to run `req.sh` first. They also close a running copy of the app, start from an empty archive (on macOS, `zip -r` kept files that were no longer in the app), use `ditto` on macOS so the app keeps its permissions, and check that the archive holds every file.
+- The `.sh` scripts in the project folder had Windows line endings, so bash stopped at the first line on macOS and Linux. They are back to Unix line endings.
+- `model/predictor.py`: the match model's exam was upside down (457 matches to train, 4,794 to test). The matches are now split by date: the oldest 60 % train, the newest 40 % are the exam. The model is still refit on all matches before it is saved.
+
+### Added
+
+- `.gitattributes`: the `.sh` scripts always keep Unix line endings, even when the project is checked out on Windows.
+
+### Changed
+
+- `LICENSE` is renamed `LICENCE`, and the links to it in `README.md` and `README.fr.md` are updated.
+- `docs/building.md` and `docs/troubleshooting.md` (and their French versions) explain the new zip step and two build errors: a missing `templates` folder, and a file "being used by another process".
+- A "Known bugs in version 1.0.2" section in `README.md` and `README.fr.md`. The two bugs above are removed from the list in `model/docs/README.md`.
+
+### Removed
+
+- `model/coefs.py`, an old script that wrote the competition weights. Nothing imports it; the code reads `data/reference/coefs.json`.
+
+### Known issues
+
+- The two fixes above are in the code only. `data/processed/match_features.csv` and `data/reference/predictor_weights.json` have not been rebuilt, so the app and the odds table still use the old run. Run `model/elo_score_updating.py`, then `model/predictor.py`, to rebuild them.
+- Ten older bugs are still open; the list is in the READMEs.
+
 ## [1.0.1] 27-10-2026
 
 Small clean-up release: a results table in the READMEs, a tidier `docs/` folder and one unused model file removed.
@@ -67,6 +98,37 @@ The first stable version.
 # Journal des modifications (version française)
 
 Tous les changements notables de ce projet sont documentés dans ce fichier.
+
+## [1.0.2] 29-10-2026
+
+Petite version de correction : deux bugs corrigés dans le code du modèle, une création de l'application Windows plus fiable, un fichier inutilisé retiré, et le fichier de licence renommé.
+
+### Corrigé
+
+- `model/elo_score_updating.py` : une valeur vide dans « terrain neutre » était lue comme « vrai », donc tous les matchs étaient marqués comme joués sur terrain neutre et la colonne « domicile » des données d'entraînement valait toujours 0. Une valeur vide veut maintenant dire « pas neutre ».
+- `commands/windows/build.ps1` et `commands/python manager/build.ps1` : l'étape du zip s'arrêtait avec « being used by another process » quand OneDrive ou Windows Defender lisait encore un fichier que la création venait de faire. Les scripts attendent maintenant et réessaient jusqu'à cinq fois, vérifient que le zip contient tous les fichiers de l'application, se rabattent sur le `tar.exe` de Windows, et expliquent quoi faire si cela échoue encore.
+- `commands/MacOs/build.sh` et `commands/linux/build.sh` : sans `.venv`, ils installaient PyInstaller dans le Python du système, ce que refusent les versions récentes de Debian, d'Ubuntu et le Python de Homebrew. Ils s'arrêtent maintenant en disant de lancer `req.sh` d'abord. Ils ferment aussi une copie de l'application encore ouverte, partent d'une archive vide (sous macOS, `zip -r` gardait des fichiers qui n'étaient plus dans l'application), utilisent `ditto` sous macOS pour que l'application garde ses permissions, et vérifient que l'archive contient tous les fichiers.
+- Les scripts `.sh` du dossier du projet avaient des fins de ligne Windows, donc bash s'arrêtait dès la première ligne sous macOS et Linux. Ils ont retrouvé des fins de ligne Unix.
+- `model/predictor.py` : l'examen du modèle de match était à l'envers (457 matchs pour s'entraîner, 4 794 pour l'examen). Les matchs sont maintenant découpés par date : les 60 % les plus anciens servent à s'entraîner, les 40 % les plus récents sont l'examen. Le modèle est toujours ré-entraîné sur tous les matchs avant d'être enregistré.
+
+### Ajouté
+
+- `.gitattributes` : les scripts `.sh` gardent toujours des fins de ligne Unix, même quand le projet est récupéré sous Windows.
+
+### Modifié
+
+- `LICENSE` devient `LICENCE`, et les liens vers ce fichier dans `README.md` et `README.fr.md` sont mis à jour.
+- `docs/building.md` et `docs/troubleshooting.md` (et leurs versions françaises) expliquent la nouvelle étape du zip et deux erreurs de création : un dossier `templates` absent, et un fichier « being used by another process ».
+- Une partie « Bugs connus de la version 1.0.2 » dans `README.md` et `README.fr.md`. Les deux bugs ci-dessus sont retirés de la liste de `model/docs/README.md`.
+
+### Supprimé
+
+- `model/coefs.py`, un ancien script qui écrivait les poids des compétitions. Rien ne l'importe ; le code lit `data/reference/coefs.json`.
+
+### Problèmes connus
+
+- Les deux corrections ci-dessus sont seulement dans le code. `data/processed/match_features.csv` et `data/reference/predictor_weights.json` n'ont pas été recalculés, donc l'application et le tableau des chances utilisent encore l'ancien calcul. Lancez `model/elo_score_updating.py`, puis `model/predictor.py`, pour les recalculer.
+- Dix bugs plus anciens sont encore ouverts ; la liste est dans les README.
 
 ## [1.0.1] 27-10-2026
 

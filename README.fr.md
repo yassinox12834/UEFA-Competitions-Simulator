@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/python-3.10%2B-3E7BFA?style=flat-square&logo=python&logoColor=white" alt="Python 3.10 ou plus récent">
   <img src="https://img.shields.io/badge/syst%C3%A8me-Windows%20%7C%20macOS%20%7C%20Linux-E8833A?style=flat-square" alt="Windows, macOS et Linux">
   <img src="https://img.shields.io/badge/langue-English%20%7C%20Fran%C3%A7ais-8B93A5?style=flat-square" alt="Anglais et français">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-E6BE5A?style=flat-square" alt="Licence MIT"></a>
+  <a href="LICENCE"><img src="https://img.shields.io/badge/licence-MIT-E6BE5A?style=flat-square" alt="Licence MIT"></a>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest">
+  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest/download/UEFA-Simulator-windows.zip">
     <img src="assets/images/github/readme/download_fr.svg" alt="Télécharger pour Windows" width="340">
   </a>
 </p>
@@ -117,7 +117,7 @@ Depuis 2024/25, les trois compétitions ont un nouveau format. Si vous ne l'avez
 
 ### L'application Windows (sans Python)
 
-1. Ouvrez la [dernière version](https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest) et téléchargez `UEFA-Simulator-windows.zip`.
+1. Ouvrez la [dernière version](https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest/download/UEFA-Simulator-windows.zip) et téléchargez `UEFA-Simulator-windows.zip`.
 2. Décompressez-le, ouvrez le dossier, et double-cliquez sur `UEFA-Simulator.exe`.
 
 Windows peut dire que l'éditeur est inconnu, car l'application n'est pas signée : cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
@@ -175,7 +175,27 @@ Toutes les données de matchs viennent d'[API-Football](https://www.api-football
 - Le score d'un match ne dépend pas de l'écart de force entre les deux clubs.
 - Les notes sont considérées comme exactes, donc les chances affichées sont un peu trop sûres d'elles.
 
-La liste complète, avec chaque bug connu, se trouve dans [`model/docs/`](model/docs/README.md#les-bugs-connus-au-m%C3%AAme-endroit).
+## Bugs connus de la version 1.0.2
+
+Aucun n'empêche l'application de fonctionner. Chacun est expliqué, avec sa correction, dans [`model/docs/`](model/docs/README.md#les-bugs-connus-au-m%C3%AAme-endroit).
+
+| Bug | Effet |
+|---|---|
+| Les vraies notes utilisent d'anciens poids de compétition (`coef_table.csv`), pas ceux de `coefs.json` | Les matchs européens font bouger les notes au plafond de 30 ; les matchs de coupe comptent moitié moins |
+| Les amicaux sont dans les données d'entraînement | Le modèle de match apprend à partir de 625 amicaux |
+| L'appli a besoin de pandas à cause d'un import | Elle ne peut pas tourner sans pandas |
+| Les buts de prolongation comptent dans les notes mais pas dans la simulation | 45 vrais matchs sont traités différemment |
+| Le plafond à 6 buts est appliqué avant de décider du résultat | Un 8-7 deviendrait un nul 6-6 |
+| Avec plusieurs processus, les notes personnalisées sont ignorées | Comptes différents avec 1 et 2 processus |
+| Un alias de club mal écrit échoue en silence | Un mauvais club pourrait être choisi |
+| La limite de pas des journées est bien trop haute | De rares tirages prennent des secondes au lieu d'une fraction |
+| Le journal dit « ordre alphabétique » ; le vrai ordre est celui des chapeaux | Texte faux dans le journal |
+| Le fichier des tirs au but dit que le premier tireur gagne 50 % ; c'est 51.3 % | Texte périmé |
+
+**Corrigés dans le code en 1.0.2, mais pas encore recalculés :**
+
+- La colonne « domicile » des données d'entraînement valait toujours 0 (un « terrain neutre » vide était lu comme « vrai »). Le code est corrigé, mais `data/processed/match_features.csv` a encore l'ancienne colonne.
+- L'examen du modèle de match était à l'envers (457 matchs pour s'entraîner, 4 794 pour l'examen). Le découpage se fait maintenant par date, 60 % pour s'entraîner et 40 % pour l'examen, mais `data/reference/predictor_weights.json` n'a pas été ré-entraîné : les chances ci-dessus viennent donc encore de l'ancien calcul.
 
 ## Idées pour la suite
 
@@ -191,4 +211,4 @@ Vous avez trouvé un bug, ou vous avez une idée ? [Ouvrez un ticket](https://gi
 
 ## Licence
 
-MIT, voir [LICENSE](LICENSE).
+MIT, voir [LICENCE](LICENCE).

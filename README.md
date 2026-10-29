@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/python-3.10%2B-3E7BFA?style=flat-square&logo=python&logoColor=white" alt="Python 3.10 or newer">
   <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-E8833A?style=flat-square" alt="Windows, macOS and Linux">
   <img src="https://img.shields.io/badge/language-English%20%7C%20Fran%C3%A7ais-8B93A5?style=flat-square" alt="English and French">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-E6BE5A?style=flat-square" alt="MIT licence"></a>
+  <a href="LICENCE"><img src="https://img.shields.io/badge/licence-MIT-E6BE5A?style=flat-square" alt="MIT licence"></a>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest">
+  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest/download/UEFA-Simulator-windows.zip">
     <img src="assets/images/github/readme/download_en.svg" alt="Download for Windows" width="340">
   </a>
 </p>
@@ -117,7 +117,7 @@ Since 2024/25, the three competitions use a new format. If you have not followed
 
 ### The Windows app (no Python needed)
 
-1. Open the [latest release](https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest) and download `UEFA-Simulator-windows.zip`.
+1. Open the [latest release](https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest/download/UEFA-Simulator-windows.zip) and download `UEFA-Simulator-windows.zip`.
 2. Unzip it, open the folder, and double-click `UEFA-Simulator.exe`.
 
 Windows may say the publisher is unknown, because the app is not signed: click **More info**, then **Run anyway**.
@@ -175,7 +175,27 @@ All match data comes from [API-Football](https://www.api-football.com), on its f
 - The score of a match does not depend on how much stronger the winner is.
 - The ratings are treated as exact, so the chances shown are a little too sure of themselves.
 
-The full list, with every known bug, is in [`model/docs/`](model/docs/README.md#known-bugs-all-in-one-place).
+## Known bugs in version 1.0.2
+
+None of these stops the app from working. Each one is explained, with its fix, in [`model/docs/`](model/docs/README.md#known-bugs-all-in-one-place).
+
+| Bug | Effect |
+|---|---|
+| The real ratings use old competition weights (`coef_table.csv`), not those of `coefs.json` | European matches move ratings at the ceiling of 30; cup matches count half |
+| Friendlies are in the training data | The match model learns from 625 friendlies |
+| The app needs pandas through one import | It cannot run without pandas |
+| Extra-time goals count in the ratings but not in the simulation | 45 real matches are treated differently |
+| Capping at 6 goals happens before the result is decided | An 8-7 would become a 6-6 draw |
+| With several processes, custom ratings are ignored | Different counts with 1 and 2 processes |
+| A misspelt club alias fails silently | A wrong club could be matched |
+| The step limit in the matchdays is far too high | Rare draws take seconds instead of a fraction |
+| The log says "alphabetical order"; the real order is pot order | Wrong text in the log |
+| The penalties file says the first kicker wins 50 %; it is 51.3 % | Out-of-date text |
+
+**Fixed in the code in 1.0.2, but not rebuilt yet:**
+
+- The "home" column of the training data was always 0 (an empty "neutral venue" was read as "true"). The code is fixed, but `data/processed/match_features.csv` still has the old column.
+- The match model's exam was upside down (457 matches to train, 4,794 to test). It is now split by date, 60 % to train and 40 % to test, but `data/reference/predictor_weights.json` has not been retrained, so the odds above still come from the old run.
 
 ## Ideas for later
 
@@ -191,4 +211,4 @@ Found a bug, or have an idea? [Open an issue](https://github.com/yassinox12834/U
 
 ## Licence
 
-MIT, see [LICENSE](LICENSE).
+MIT, see [LICENCE](LICENCE).

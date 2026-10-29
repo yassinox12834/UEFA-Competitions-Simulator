@@ -24,6 +24,8 @@ import csv
 import json
 import sys
 from pathlib import Path
+import math
+
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 JSON_TEAMS_SEED   = BASE_DIR / "data" / "reference" / "team_seed.json"
@@ -185,9 +187,7 @@ def find_goal_columns(df):
 # ---------------------------------------------------------------------------
 
 def run(write=True):
-    # Imported here, not at the top: only this rebuild needs them. The app
-    # imports this module for expected_score and update_rating alone, and
-    # must not drag pandas into the .exe for that.
+
     import numpy as np
     import pandas as pd
 
@@ -233,20 +233,18 @@ def run(write=True):
         away_elo = elos.get(row["away_team"])
 
         if home_elo is None or away_elo is None:
-            # Should now be unreachable: load_clubs covers every club that
-            # appears anywhere in df. Kept as a loud skip rather than a
-            # silent one, because reaching this means the fixtures used to
-            # build `elos` and the fixtures being iterated have diverged.
+
             counts["unknown_club"] += 1
             unknown_clubs.update(
                 c for c, e in ((row["home_team"], home_elo),
                                (row["away_team"], away_elo)) if e is None
             )
             continue
-
+        v = row["neutral_venue"]
+        is_neutral = (not pd.isna(v)) and bool(v)
         home_goals, away_goals = row[home_goals_col], row[away_goals_col]
         played = not (pd.isna(home_goals) or pd.isna(away_goals))
-        is_home = 0 if (has_neutral and bool(row["neutral_venue"])) else 1
+        is_home = 0 if is_neutral else 1
 
         # Snapshot BEFORE any update, and before we know whether this match
         # even qualifies for a rating change. A future fixture has no target

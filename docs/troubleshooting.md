@@ -31,6 +31,10 @@ Find the message you see in the left column.
 |---|---|
 | `Failed to load Python DLL` | You opened the `.exe` in `build\`. The real app is in `dist\UEFA-Simulator\`. |
 | `PermissionError: [WinError 5] Access is denied` | A file in `dist\UEFA-Simulator\` is in use. Close the app and any Explorer window on that folder. If the project is in OneDrive, pause syncing, then build again. |
+| `Unable to find '...\templates\2025_2026' when adding binary and data files` | A folder that `UEFA-Simulator.spec` puts inside the app is missing. Get it back with `git checkout -- templates`, then build again. |
+| `The process cannot access the file '...\base_library.zip' because it is being used by another process` | The app is built; only the zip failed, because OneDrive or Windows Defender was still reading a new file. Since 1.0.2 the build scripts wait and try again. If it still fails, pause OneDrive syncing and run `tar.exe -a -c -f dist\UEFA-Simulator-windows.zip -C dist UEFA-Simulator`. |
+| `$'\r': command not found` or `set: -: invalid option` (macOS, Linux) | The `.sh` scripts have Windows line endings, usually because the project was copied from a Windows computer. Run `perl -pi -e 's/\r$//' commands/*/*.sh`, then try again. A fresh `git clone` does not have this problem. |
+| `No .venv folder` (macOS, Linux) | Run `bash commands/MacOs/req.sh` or `bash commands/linux/req.sh` first, then build again. |
 | The `.exe` closes at once without a message | See the tip at the end of [building the app](building.md). |
 
 Not in the list? [Open an issue](https://github.com/yassinox12834/UEFA-Competitions-Simulator/issues) with the full message.

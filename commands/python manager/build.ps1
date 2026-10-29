@@ -30,6 +30,52 @@ if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 py "-$Version" -m PyInstaller --noconfirm UEFA-Simulator.spec
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
-Compress-Archive -Path "dist\UEFA-Simulator" -DestinationPath "dist\UEFA-Simulator-windows.zip" -Force
+# Zip the app. Right after the build, OneDrive or Windows Defender often holds
+# a new file for a few seconds ("being used by another process"), and
+# Compress-Archive then stops halfway. So: wait, try again, check that the zip
+# really holds every file, and fall back to Windows' own tar.exe if needed.
+$zip    = "dist\UEFA-Simulator-windows.zip"
+$folder = "dist\UEFA-Simulator"
+
+function Test-Zip {
+    if (-not (Test-Path $zip)) { return $false }
+    Add-Type -AssemblyName System.IO.Compression.FileSystem
+    try {
+        $archive = [System.IO.Compression.ZipFile]::OpenRead((Resolve-Path $zip).Path)
+        $inZip = @($archive.Entries | Where-Object { $_.Name -ne "" }).Count
+        $archive.Dispose()
+    } catch { return $false }
+    $onDisk = @(Get-ChildItem $folder -Recurse -File).Count
+    return ($inZip -eq $onDisk)
+}
+
+$zipped = $false
+for ($try = 1; $try -le 5 -and -not $zipped; $try++) {
+    Start-Sleep -Seconds 3
+    Remove-Item $zip -Force -ErrorAction SilentlyContinue
+    try {
+        Compress-Archive -Path $folder -DestinationPath $zip -Force -ErrorAction Stop
+    } catch {
+        Write-Host "Zip attempt $try of 5: a file is still in use, trying again..." -ForegroundColor Yellow
+    }
+    $zipped = Test-Zip
+}
+
+if (-not $zipped -and (Get-Command tar.exe -ErrorAction SilentlyContinue)) {
+    Write-Host "Compress-Archive failed 5 times, trying tar.exe..." -ForegroundColor Yellow
+    Remove-Item $zip -Force -ErrorAction SilentlyContinue
+    tar.exe -a -c -f $zip -C dist UEFA-Simulator
+    $zipped = Test-Zip
+}
+
+if (-not $zipped) {
+    Remove-Item $zip -Force -ErrorAction SilentlyContinue
+    Write-Host "The app is built in dist\UEFA-Simulator\, but it could not be zipped." -ForegroundColor Red
+    Write-Host "1. Pause OneDrive syncing (OneDrive icon, Pause syncing)."
+    Write-Host "2. Run only this line from the project folder:"
+    Write-Host "   tar.exe -a -c -f dist\UEFA-Simulator-windows.zip -C dist UEFA-Simulator"
+    exit 1
+}
+
 Write-Host ""
 Write-Host "Done: dist\UEFA-Simulator-windows.zip" -ForegroundColor Green
