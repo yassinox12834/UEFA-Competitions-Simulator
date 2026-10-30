@@ -1,3 +1,5 @@
 # Shell scripts must keep Unix line endings, even when the project is
 # checked out on Windows: bash stops at the first \r otherwise.
 *.sh text eol=lf
+
+*.md linguist-detectable=false
