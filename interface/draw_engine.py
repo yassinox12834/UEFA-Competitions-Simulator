@@ -27,6 +27,7 @@ import random
 import re
 import sys
 import threading
+from collections import Counter
 from pathlib import Path
 
 # interface/draw_engine.py -> interface/ -> UEFA/
@@ -80,6 +81,7 @@ class PotsModel:
         self.custom_logos = {}     # club -> path of an image supplied by the user
         self.origins = {}          # new name -> original name
         self.constraints = set()   # {(host, guest)}: "host does not receive guest"
+        self.moves = 0             # swaps of two clubs between pots, this session
 
     # ---------- reading ----------
     def club_at(self, pot_index, slot_index):
@@ -102,7 +104,12 @@ class PotsModel:
         return self.origins.get(club)
 
     def swap_count(self):
+        """How many places hold a REPLACED club (the replace box)."""
         return len(self.origins)
+
+    def move_count(self):
+        """How many times two clubs have exchanged places."""
+        return self.moves
 
     def constraint_list(self):
         """The constraints, sorted. A set has no order, a list does.
@@ -162,6 +169,82 @@ class PotsModel:
                 return "err_dupe"
         return None
 
+    # ---------- exchanging two clubs between pots ----------
+    def _overloaded(self, pots):
+        """{(pot_index, country): (clubs of it in that pot, clubs of it in all)}
+        for every association that NO draw could serve in that pot.
+
+        The counting argument, with the draw's own rules: every club plays
+        `per_pot` clubs of each pot (2 in UCL/UEL, 1 in UECL), never one of
+        its own association, and at most MAX_PER_COUNTRY (2) of any other.
+        Take an association X with m clubs in the competition, k of them in
+        pot P. Its m clubs need per_pot * m opponents from pot P, all from
+        the len(P) - k clubs of P that are not from X, and each of those
+        can face at most 2 clubs from X. So a draw needs
+
+            per_pot * m  <=  2 * (len(P) - k)
+
+        Example, 2025/26 UCL: 6 English clubs. With 3 in pot 1,
+        2 * 6 = 12 <= 2 * 6 = 12, fine. Move a fourth one in, and
+        12 > 2 * 5 = 10: no draw exists.
+
+        It is a necessary condition, not a sufficient one: it catches the
+        swaps that are impossible on their face, in a millisecond, instead
+        of letting the draw search for 2.5 seconds and fail.
+        """
+        engine = ENGINES[self.comp]
+        per_pot = 1 if self.comp == "UECL" else 2
+        cap = engine.MAX_PER_COUNTRY
+        total = Counter(self.countries.get(club, "") for pot in pots for club in pot)
+        bad = {}
+        for pot_index, pot in enumerate(pots):
+            here = Counter(self.countries.get(club, "") for club in pot)
+            for country, k in here.items():
+                if country and per_pot * total[country] > cap * (len(pot) - k):
+                    bad[(pot_index, country)] = (k, total[country])
+        return bad
+
+    def swap_problem(self, first, second):
+        """Why the clubs at `first` and `second` cannot change places, or None.
+
+        Places are (pot_index, slot_index). The answer is (key, kwargs) for
+        the view to translate: the engine speaks no language.
+
+        Only NEW impossibilities refuse a swap. Pots that were already
+        overloaded (a replaced club's association, a template) are not this
+        swap's fault, and refusing every swap because of them would leave no
+        way to repair them.
+        """
+        if first == second:
+            return ("err_swap_self", {})
+        (pot_a, slot_a), (pot_b, slot_b) = first, second
+        if pot_a == pot_b:
+            return ("err_swap_same_pot", {"pot": pot_a + 1})
+        after = [list(pot) for pot in self.pots]
+        after[pot_a][slot_a], after[pot_b][slot_b] = after[pot_b][slot_b], after[pot_a][slot_a]
+        before = self._overloaded(self.pots)
+        now = self._overloaded(after)
+        new = sorted(set(now) - set(before))
+        if new:
+            pot_index, country = new[0]
+            k, m = now[(pot_index, country)]
+            return ("err_swap_country",
+                    {"pot": pot_index + 1, "k": k, "country": country, "m": m})
+        return None
+
+    def swap(self, first, second):
+        """Exchanges the clubs at two places. Returns their names (a, b).
+
+        Check swap_problem() first. Nothing else has to follow the clubs:
+        constraints, badges, associations and replacements are all keyed
+        by club NAME, and the names do not change.
+        """
+        (pot_a, slot_a), (pot_b, slot_b) = first, second
+        a, b = self.pots[pot_a][slot_a], self.pots[pot_b][slot_b]
+        self.pots[pot_a][slot_a], self.pots[pot_b][slot_b] = b, a
+        self.moves += 1
+        return a, b
+
     def replace(self, pot_index, slot_index, name, country, image_path=None):
         """Swaps a club for another, in the same place."""
         name = name.strip()
@@ -210,8 +293,10 @@ class PotsModel:
         the user had put there by hand.
         """
         base = base_pots(self.comp)
+        base_clubs = {club for pot in base for club in pot}
         self.origins = {}
         self.custom_logos = {}
+        self.moves = 0
         # The earlier constraints leave with the earlier clubs: they were
         # about clubs that are no longer there.
         self.constraints = set(constraints)
@@ -225,7 +310,9 @@ class PotsModel:
                 if entry.get("image"):
                     self.custom_logos[club] = str(entry["image"])
                 origin = base[pot_index][slot_index]
-                if club != origin:
+                # A club of the original pots saved in another place (after
+                # a swap) is moved, not replaced: no "replaced" mark.
+                if club != origin and club not in base_clubs:
                     self.origins[club] = origin
             self.pots.append(row)
         return sum(len(pot) for pot in self.pots)

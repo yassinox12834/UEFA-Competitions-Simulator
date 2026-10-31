@@ -208,7 +208,7 @@ def resolve_all(clubs, keys):
 
 # `names.py`, ligne par ligne
 
-> Cette page explique le code de `model/names.py`, quelques lignes à la fois. Pour l'idée générale (pourquoi deux orthographes existent, les quatre essais), lis d'abord [`../names.md`](../names.md#correspondance-des-noms--un-club-deux-orthographes).
+> Cette page explique le code de `model/names.py`, quelques lignes à la fois. Pour l'idée générale (pourquoi deux orthographes existent, les quatre essais), lisez d'abord [`../names.md`](../names.md#correspondance-des-noms--un-club-deux-orthographes).
 
 ## Comment lire cette page
 

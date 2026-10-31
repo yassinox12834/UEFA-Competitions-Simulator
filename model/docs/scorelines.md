@@ -182,7 +182,7 @@ How each line works: [`code/scorelines_code.md`](code/scorelines_code.md).
 
 ### Known bugs
 
-- **Capping at 6 can change the result.** The program caps each side at 6 **before** deciding the result. No real match had both sides above 6, so nothing is wrong today, but an 8-7 would be counted as 6-6 and filed as a draw. Fix: decide the result on the real score first, then cap.
+- **Fixed in 1.1.0: capping at 6 could change the result.** The result is now read on the real score first; if the cap would make it level, the loser is put one goal behind (8-7 becomes 6-5, `cap_scoreline`). Friendlies are also left out by the same test as the Elo program (`comp_mult` 0), not only "Friendlies Clubs": 16 more friendly matches are out of the table.
 
 ---
 
@@ -243,7 +243,7 @@ Le score est toujours choisi **après** le résultat et seulement parmi les scor
 
 ## 2. Comment un score est choisi : une tombola
 
-Imagine 975 billets de tombola, un par vrai nul : 225 billets disent « 0-0 », 458 disent « 1-1 », 237 disent « 2-2 », 50 disent « 3-3 » et 5 disent « 4-4 ». Tire un billet au hasard : 1-1 sort 458 fois sur 975.
+Imaginez 975 billets de tombola, un par vrai nul : 225 billets disent « 0-0 », 458 disent « 1-1 », 237 disent « 2-2 », 50 disent « 3-3 » et 5 disent « 4-4 ». Tirez un billet au hasard : 1-1 sort 458 fois sur 975.
 
 Le programme fait la même chose sans imprimer de billets. Il aligne les billets et additionne les nombres au fur et à mesure (les **totaux cumulés**) :
 
@@ -390,7 +390,7 @@ Comment marche chaque ligne : [`code/scorelines_code.md`](code/scorelines_code.m
 
 ### Bugs connus
 
-- **Plafonner à 6 peut changer le résultat.** Le programme plafonne chaque camp à 6 **avant** de décider du résultat. Aucun vrai match n'avait les deux camps au-dessus de 6, donc rien n'est faux aujourd'hui, mais un 8-7 serait compté 6-6 et rangé comme un nul. Correction : décider du résultat sur le vrai score d'abord, puis plafonner.
+- **Corrigé en 1.1.0 : plafonner à 6 pouvait changer le résultat.** Le résultat est maintenant lu d'abord sur le vrai score ; si le plafond le rendait égal, le perdant est mis un but derrière (8-7 devient 6-5, `cap_scoreline`). Les amicaux sont aussi écartés par le même test que le programme Elo (`comp_mult` 0), pas seulement « Friendlies Clubs » : 16 matchs amicaux de plus sortent de la table.
 
 ---
 

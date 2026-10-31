@@ -185,7 +185,7 @@
 
 # `penalties.py`, ligne par ligne
 
-> Cette page explique le code de la séance de tirs au but. Pour l'idée (les règles, la règle de pression, l'échantillonnage par rejet), lis d'abord [`../penalties.md`](../penalties.md#les-tirs-au-but).
+> Cette page explique le code de la séance de tirs au but. Pour l'idée (les règles, la règle de pression, l'échantillonnage par rejet), lisez d'abord [`../penalties.md`](../penalties.md#les-tirs-au-but).
 
 ## Comment lire cette page
 

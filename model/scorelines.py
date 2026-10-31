@@ -14,7 +14,8 @@ the classifier together; see docs/MODEL.md, "Going further".
 Data
     build_table() reads data/processed/fixtures_25.csv, keeps every
     non-friendly match with a 90-minute score, and counts scorelines per
-    outcome. save_table() writes data/reference/scorelines.json so the
+    outcome. A friendly is any league whose comp_mult is 0 in
+    data/reference/coef_table.csv, the same test as elo_score_updating.py. save_table() writes data/reference/scorelines.json so the
     app never needs pandas at run time.
 
 Extra time
@@ -35,9 +36,10 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parents[1]
 FIXTURES_CSV = BASE_DIR / "data" / "processed" / "fixtures_25.csv"
 TABLE_JSON = BASE_DIR / "data" / "reference" / "scorelines.json"
+COEF_TABLE_CSV = BASE_DIR / "data" / "reference" / "coef_table.csv"
 
 OUTCOMES = ("home", "draw", "away")
-MAX_GOALS = 6            # anything above is folded into this bucket
+MAX_GOALS = 6            # goals above this are folded into it, outcome kept
 ET_KEEP = 1.0 / 3.0      # share of a full match that extra time lasts
 
 # Used when scorelines.json is missing: a rough shape of European
@@ -63,12 +65,45 @@ def outcome_of(home_goals, away_goals):
 # Building the table (pandas side, run once)
 # ---------------------------------------------------------------------------
 
+def friendly_leagues(path=COEF_TABLE_CSV):
+    """Leagues whose comp_mult is 0 in coef_table.csv: the friendlies.
+
+    Five leagues in the current data, not only "Friendlies Clubs" (the
+    Emirates Cup, the Atlantic Cup...). Reading them from the same table
+    as the Elo run means the two can never disagree on what a friendly is.
+    """
+    import csv
+    try:
+        with open(path, newline="", encoding="utf-8") as fh:
+            return {row["league"] for row in csv.DictReader(fh)
+                    if float(row["comp_mult"]) == 0}
+    except FileNotFoundError:
+        return {"Friendlies Clubs"}
+
+
+def cap_scoreline(h, a, cap=MAX_GOALS):
+    """Fold goals above `cap` into it WITHOUT changing the outcome.
+
+    Capping each side on its own turned an 8-7 home win into a 6-6 draw.
+    The outcome is read first; if the cap made the score level, the loser
+    is put one goal behind: 8-7 -> 6-5, 7-9 -> 5-6.
+    """
+    outcome = outcome_of(h, a)
+    h, a = min(h, cap), min(a, cap)
+    if outcome_of(h, a) != outcome:
+        if outcome == "home":
+            a = h - 1
+        else:
+            h = a - 1
+    return h, a
+
+
 def build_table(fixtures_csv=FIXTURES_CSV):
     """{outcome: {"h-a": count}} from real matches. Friendlies excluded."""
     import pandas as pd
 
     df = pd.read_csv(fixtures_csv)
-    df = df[df["league"] != "Friendlies Clubs"]
+    df = df[~df["league"].isin(friendly_leagues())]
     # ft_* is the 90-minute score; home_goals/away_goals includes extra
     # time in cup ties, which would pollute the regular-time table.
     home_col, away_col = ("ft_home", "ft_away") if "ft_home" in df else ("home_goals", "away_goals")
@@ -76,7 +111,7 @@ def build_table(fixtures_csv=FIXTURES_CSV):
 
     table = {o: {} for o in OUTCOMES}
     for h, a in zip(df[home_col].astype(int), df[away_col].astype(int)):
-        h, a = min(h, MAX_GOALS), min(a, MAX_GOALS)
+        h, a = cap_scoreline(h, a)
         key = f"{h}-{a}"
         bucket = table[outcome_of(h, a)]
         bucket[key] = bucket.get(key, 0) + 1

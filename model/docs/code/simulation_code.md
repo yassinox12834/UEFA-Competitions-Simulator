@@ -370,7 +370,7 @@ from model.scorelines import ScorelineSampler
 
 # `simulation.py`, ligne par ligne
 
-> Cette page explique le code qui joue une saison et le Monte Carlo. Pour l'idée (une saison, la répéter, combien de hasard il reste), lis d'abord [`../monte_carlo.md`](../monte_carlo.md#la-simulation-et-le-monte-carlo).
+> Cette page explique le code qui joue une saison et le Monte Carlo. Pour l'idée (une saison, la répéter, combien de hasard il reste), lisez d'abord [`../monte_carlo.md`](../monte_carlo.md#la-simulation-et-le-monte-carlo).
 
 ## Comment lire cette page
 

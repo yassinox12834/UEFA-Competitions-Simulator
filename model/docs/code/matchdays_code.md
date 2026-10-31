@@ -133,7 +133,7 @@ from model.draw_ucl import generate_draw
 
 ## 3. `generate_matchdays(teams, *, seed, node_budget, max_attempts)`: the entry point
 
-**Arguments:** `teams`: `dict`, a finished draw. `seed`: any value `random.Random` accepts, `None` for a fresh one. `node_budget`: `int`, steps per attempt (200 000). `max_attempts`: `int`, how many fresh starts (30). The `*` makes the last three keyword-only.
+**Arguments:** `teams`: `dict`, a finished draw. `seed`: any value `random.Random` accepts, `None` for a fresh one. `node_budget`: `int`, steps per attempt (`NODE_BUDGET`, 5 000). `max_attempts`: `int`, how many fresh starts (30). The `*` makes the last three keyword-only.
 
 ```python
     if seed is None:
@@ -248,7 +248,7 @@ from model.draw_ucl import generate_draw
 
 # `matchdays_ucl.py` et `matchdays_uecl.py`, ligne par ligne
 
-> Cette page explique le code du planificateur des journées. Pour l'idée (jours libres, le moins d'abord, défaire, recommencer), lis d'abord [`../matchdays.md`](../matchdays.md#le-planificateur-des-journées--quel-match-se-joue-quel-jour).
+> Cette page explique le code du planificateur des journées. Pour l'idée (jours libres, le moins d'abord, défaire, recommencer), lisez d'abord [`../matchdays.md`](../matchdays.md#le-planificateur-des-journées--quel-match-se-joue-quel-jour).
 
 ## Comment lire cette page
 
@@ -379,7 +379,7 @@ from model.draw_ucl import generate_draw
 
 ## 3. `generate_matchdays(teams, *, seed, node_budget, max_attempts)` : le point d'entrée
 
-**Arguments :** `teams` : `dict`, un tirage fini. `seed` : toute valeur que `random.Random` accepte, `None` pour une nouvelle. `node_budget` : `int`, pas par essai (200 000). `max_attempts` : `int`, nombre de nouveaux départs (30). Le `*` oblige à donner les trois derniers par leur nom.
+**Arguments :** `teams` : `dict`, un tirage fini. `seed` : toute valeur que `random.Random` accepte, `None` pour une nouvelle. `node_budget` : `int`, pas par essai (`NODE_BUDGET`, 5 000). `max_attempts` : `int`, nombre de nouveaux départs (30). Le `*` oblige à donner les trois derniers par leur nom.
 
 ```python
     if seed is None:

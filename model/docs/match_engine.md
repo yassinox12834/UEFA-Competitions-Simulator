@@ -180,7 +180,7 @@ It also uses three other parts of the project:
 
 | From | What |
 |---|---|
-| `model/elo_score_updating_copy.py` | `expected_score` and `update_rating` (step 5) |
+| `model/elo_score_updating.py` | `expected_score` and `update_rating` (step 5) |
 | `model/predictor.py` | the match model (step 2) and `format_trace` for the log |
 | `model/scorelines.py` | the score picker (step 4) and `outcome_of` |
 
@@ -213,7 +213,7 @@ How each line works: [`code/match_engine_code.md`](code/match_engine_code.md).
 
 ### Known bugs
 
-- **The app needs pandas although the simulation never uses it.** This file imports two small functions from `elo_score_updating_copy.py`, and that file imports pandas and numpy at the top. Fix: move the two functions (four lines) to a small file of their own.
+- **Not a bug any more: "the app needs pandas".** `elo_score_updating.py` imports pandas and numpy only inside `run()`, so this file can import its two Elo functions without them. Checked in 1.1.0: `model.simulation` imports with pandas and scikit-learn blocked, and the Windows build excludes both.
 - **On the fast way, the chances are not stored** (`Match.probs` is `None`). Any future code that reads them from a normal simulated match would crash.
 
 ---
@@ -271,7 +271,7 @@ En mode expert, chaque nombre de chaque étape est aussi écrit dans un journal,
 
 ## 2. Étape 3 : un nombre au hasard choisit le résultat
 
-Imagine une règle graduée de 0 à 1, coupée en trois morceaux. Chaque morceau est aussi long que la chance d'un résultat :
+Imaginez une règle graduée de 0 à 1, coupée en trois morceaux. Chaque morceau est aussi long que la chance d'un résultat :
 
 ```
  0                       0.622        0.816               1
@@ -401,7 +401,7 @@ Arsenal 0-0 Atalanta
 Arsenal 1787.88 -> 1785.57, Atalanta 1720.12 -> 1722.43
 ```
 
-Remplace `42` par un autre nombre pour rejouer le match avec un autre lancer de dé.
+Remplacez `42` par un autre nombre pour rejouer le match avec un autre lancer de dé.
 
 ---
 
@@ -420,7 +420,7 @@ Il utilise aussi trois autres parties du projet :
 
 | Depuis | Quoi |
 |---|---|
-| `model/elo_score_updating_copy.py` | `expected_score` et `update_rating` (étape 5) |
+| `model/elo_score_updating.py` | `expected_score` et `update_rating` (étape 5) |
 | `model/predictor.py` | le modèle de match (étape 2) et `format_trace` pour le journal |
 | `model/scorelines.py` | le tireur de scores (étape 4) et `outcome_of` |
 
@@ -453,7 +453,7 @@ Comment marche chaque ligne : [`code/match_engine_code.md`](code/match_engine_co
 
 ### Bugs connus
 
-- **L'appli a besoin de pandas alors que la simulation ne s'en sert jamais.** Ce fichier importe deux petites fonctions de `elo_score_updating_copy.py`, et ce fichier importe pandas et numpy en haut. Correction : déplacer les deux fonctions (quatre lignes) dans un petit fichier à part.
+- **Ce n'est plus un bug : « l'appli a besoin de pandas ».** `elo_score_updating.py` n'importe pandas et numpy qu'à l'intérieur de `run()`, donc ce fichier peut importer ses deux fonctions Elo sans eux. Vérifié en 1.1.0 : `model.simulation` s'importe avec pandas et scikit-learn bloqués, et la version Windows les exclut tous les deux.
 - **Sur le chemin rapide, les chances ne sont pas gardées** (`Match.probs` vaut `None`). Tout code futur qui les lirait sur un match simulé normal planterait.
 
 ---

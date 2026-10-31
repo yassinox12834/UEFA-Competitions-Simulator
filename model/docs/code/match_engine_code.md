@@ -24,13 +24,13 @@ from pathlib import Path
 - `json` (comes with Python) reads `coefs.json`; `math` gives `math.exp` for the fast softmax; `lru_cache` remembers the $K$ table after the first read; `Path` builds the file path.
 
 ```python
-from model.elo_score_updating_copy import expected_score, update_rating
+from model.elo_score_updating import expected_score, update_rating
 from model.predictor import format_trace
 from model.scorelines import outcome_of
 ```
 
 - Three imports from the project: the two Elo formulas, the function that writes the model's steps as text, and `outcome_of`, which turns a score into "home", "draw" or "away".
-- The first line has a side effect: `elo_score_updating_copy.py` imports pandas and numpy at its top, so importing this file needs them too, although nothing here uses them. This is a known bug.
+- The first line has a side effect: `elo_score_updating.py` imports pandas and numpy at its top, so importing this file needs them too, although nothing here uses them. This is a known bug.
 
 ---
 
@@ -320,7 +320,7 @@ def _load_k_table(comp, path):
 
 # `match_engine.py`, ligne par ligne
 
-> Cette page explique le code qui joue un match simulé. Pour l'idée (les cinq étapes, la règle graduée de 0 à 1), lis d'abord [`../match_engine.md`](../match_engine.md#le-moteur-de-match--un-match-simulé).
+> Cette page explique le code qui joue un match simulé. Pour l'idée (les cinq étapes, la règle graduée de 0 à 1), lisez d'abord [`../match_engine.md`](../match_engine.md#le-moteur-de-match--un-match-simulé).
 
 ## Comment lire cette page
 
@@ -342,13 +342,13 @@ from pathlib import Path
 - `json` (fourni avec Python) lit `coefs.json` ; `math` donne `math.exp` pour la softmax rapide ; `lru_cache` garde en mémoire la table des $K$ après la première lecture ; `Path` construit le chemin du fichier.
 
 ```python
-from model.elo_score_updating_copy import expected_score, update_rating
+from model.elo_score_updating import expected_score, update_rating
 from model.predictor import format_trace
 from model.scorelines import outcome_of
 ```
 
 - Trois imports du projet : les deux formules d'Elo, la fonction qui écrit les étapes du modèle en texte, et `outcome_of`, qui transforme un score en « home », « draw » ou « away ».
-- La première ligne a un effet secondaire : `elo_score_updating_copy.py` importe pandas et numpy en haut, donc importer ce fichier en a aussi besoin, alors que rien ici ne s'en sert. C'est un bug connu.
+- La première ligne a un effet secondaire : `elo_score_updating.py` importe pandas et numpy en haut, donc importer ce fichier en a aussi besoin, alors que rien ici ne s'en sert. C'est un bug connu.
 
 ---
 

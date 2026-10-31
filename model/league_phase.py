@@ -122,8 +122,10 @@ def explain_ties(ordered):
                              f"({va:g} v {vb:g})")
                 break
         else:
+            # sorted() is stable: clubs equal on every field keep the
+            # order of `clubs`, which is the pot order, not the alphabet.
             lines.append(f"{above.rank}. {above.club} and {below.rank}. {below.club}: "
-                         f"identical on every tiebreaker, alphabetical order")
+                         f"identical on every tiebreaker, kept in pot order")
     return lines
 
 

@@ -169,7 +169,7 @@ How each line works: [`code/league_phase_code.md`](code/league_phase_code.md).
 
 ### Known bugs
 
-- **The log gives the wrong reason for a perfect tie.** For two clubs equal on every tiebreaker, the log says "alphabetical order", but the real order is the order of the pots (Python's sort keeps the original order of equal items). Fix the text to "pot order".
+- **Fixed in 1.1.0: the log gave the wrong reason for a perfect tie.** It now says "kept in pot order".
 
 ---
 
@@ -362,7 +362,7 @@ Comment marche chaque ligne : [`code/league_phase_code.md`](code/league_phase_co
 
 ### Bugs connus
 
-- **Le journal donne la mauvaise raison pour une égalité parfaite.** Pour deux clubs égaux sur tous les critères, le journal dit « alphabetical order » (ordre alphabétique), mais le vrai ordre est celui des chapeaux (le tri de Python garde l'ordre d'origine des éléments égaux). Corriger le texte en « ordre des chapeaux ».
+- **Corrigé en 1.1.0 : le journal donnait la mauvaise raison pour une égalité parfaite.** Il dit maintenant « kept in pot order » (gardés dans l'ordre des chapeaux).
 
 ---
 

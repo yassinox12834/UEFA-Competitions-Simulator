@@ -40,7 +40,18 @@ ALIASES = {
     "Brest": "Stade Brestois 29",
     "Gentoise": "Gent",
     "Başakşehir Istanbul": "Başakşehir",
-    "Bodo/Glimt": "Bodo/Glimt",
+    # 2025/26 template. "newcastle united" v "newcastle" scores 0.72, under
+    # FUZZY_MIN, so without this line Newcastle (about 1740) started at
+    # the default 1500.
+    "Newcastle United": "Newcastle",
+    "Basel": "FC Basel 1893",
+    "Mainz": "FSV Mainz 05",
+    "Rijeka": "HNK Rijeka",
+    "KuPS Kuopio": "KuPS",
+    "Rakow": "Raków Częstochowa",
+    "Lausanne-Sport": "Lausanne",
+    # Hamrun Spartans has no match in the data at all: it starts at the
+    # default rating, and the simulation says so in its warnings.
 }
 
 # Words that carry no identity: "FC Porto" and "Porto" are one club.
@@ -68,7 +79,8 @@ class Resolution:
     def __init__(self, club, key, how, score=1.0):
         self.club = club        # name as written in the pots
         self.key = key          # name as written in the Elo file, or None
-        self.how = how          # "exact" | "alias" | "normalised" | "fuzzy" | "missing"
+        self.how = how          # "exact" | "alias" | "normalised" | "fuzzy" | "missing",
+                                # or "alias-<how>" when the alias itself was not found
         self.score = score      # 1.0 except for fuzzy matches
 
     def __repr__(self):
@@ -76,7 +88,15 @@ class Resolution:
 
 
 def resolve(club, keys, _norm_index=None):
-    """Find `club` among `keys`. Returns a Resolution; key is None if not found."""
+    """Find `club` among `keys`. Returns a Resolution; key is None if not found.
+
+    An alias that is not in `keys` (a typo, or a club renamed in the Elo
+    file) used to fall through silently to the fuzzy search on the CLUB's
+    name, which could pick a wrong club. Now the ALIAS is searched first
+    (it is what the person meant), then the club's name, and the result
+    is labelled "alias-<how>" so the log and the simulation warnings say
+    the alias needs fixing.
+    """
     if club in keys:
         return Resolution(club, club, "exact")
     alias = ALIASES.get(club)
@@ -84,10 +104,22 @@ def resolve(club, keys, _norm_index=None):
         return Resolution(club, alias, "alias")
 
     index = _norm_index if _norm_index is not None else build_index(keys)
-    wanted = normalise(club)
+    if alias is not None:
+        for name in (alias, club):
+            key, how, score = _search(name, index)
+            if key is not None:
+                return Resolution(club, key, "alias-" + how, score)
+        return Resolution(club, None, "alias-missing", 0.0)
+    key, how, score = _search(club, index)
+    return Resolution(club, key, how, score)
+
+
+def _search(name, index):
+    """(key, how, score) for `name` in a normalised index; key None if absent."""
+    wanted = normalise(name)
     hit = index.get(wanted)
     if hit is not None:
-        return Resolution(club, hit, "normalised")
+        return hit, "normalised", 1.0
 
     # difflib.get_close_matches would hide the runner-up; we need it to
     # apply the gap rule, so the ratios are computed by hand.
@@ -97,8 +129,8 @@ def resolve(club, keys, _norm_index=None):
         best_score, best_key = scored[0]
         second = scored[1][0] if len(scored) > 1 else 0.0
         if best_score - second >= FUZZY_GAP:
-            return Resolution(club, best_key, "fuzzy", best_score)
-    return Resolution(club, None, "missing", 0.0)
+            return best_key, "fuzzy", best_score
+    return None, "missing", 0.0
 
 
 def build_index(keys):

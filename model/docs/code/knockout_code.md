@@ -16,7 +16,7 @@
 
 ```python
 from model import penalties
-from model.elo_score_updating_copy import expected_score, update_rating
+from model.elo_score_updating import expected_score, update_rating
 ```
 
 - `penalties` (from this project) plays the shoot-outs; `expected_score` and `update_rating` (from this project) are the two Elo formulas.
@@ -362,7 +362,7 @@ def _pair_up(seeded, unseeded, rng):
 
 # `knockout.py`, ligne par ligne
 
-> Cette page explique le code de la phase à élimination directe. Pour l'idée (le tableau, les trois méthodes), lis d'abord [`../knockout.md`](../knockout.md#la-phase-à-élimination-directe--barrages-tableau-et-finale).
+> Cette page explique le code de la phase à élimination directe. Pour l'idée (le tableau, les trois méthodes), lisez d'abord [`../knockout.md`](../knockout.md#la-phase-à-élimination-directe--barrages-tableau-et-finale).
 
 ## Comment lire cette page
 
@@ -376,7 +376,7 @@ def _pair_up(seeded, unseeded, rng):
 
 ```python
 from model import penalties
-from model.elo_score_updating_copy import expected_score, update_rating
+from model.elo_score_updating import expected_score, update_rating
 ```
 
 - `penalties` (de ce projet) joue les tirs au but ; `expected_score` et `update_rating` (de ce projet) sont les deux formules d'Elo.

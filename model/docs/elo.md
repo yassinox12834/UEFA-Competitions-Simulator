@@ -9,7 +9,7 @@
 - **What goes in:** about 5 300 real matches (January 2024 to August 2025): league, cup, European and friendly matches.
 - **What comes out:** a rating for each of 984 clubs (for example Paris Saint-Germain about 1853, a small club about 1400), saved in `data/processed/eeelo_final.json`.
 - **Where it is used:** the match model ([`logistic_regression.md`](logistic_regression.md)) turns the gap between two ratings into chances of winning, and the simulation keeps updating the ratings after every simulated match.
-- **Code:** `model/elo_score_updating_copy.py`. Line-by-line walkthrough: [`code/elo_code.md`](code/elo_code.md).
+- **Code:** `model/elo_score_updating.py`. Line-by-line walkthrough: [`code/elo_code.md`](code/elo_code.md).
 
 ---
 
@@ -233,7 +233,7 @@ Notice: Arsenal win 9.69 points for a win but lose 14.31 for a defeat. A defeat 
 | `pathlib` | yes | builds file paths that work on Windows, macOS and Linux |
 | `sys` | yes | reads the `--write` option from the command line |
 
-### Functions in `model/elo_score_updating_copy.py`
+### Functions in `model/elo_score_updating.py`
 
 | Function | In one line |
 |---|---|
@@ -254,8 +254,8 @@ Notice: Arsenal win 9.69 points for a win but lose 14.31 for a defeat. A defeat 
 How to run it, from the project folder:
 
 ```bash
-python -m model.elo_score_updating_copy           # compute and print the report
-python -m model.elo_score_updating_copy --write   # also save eeelo_final.json
+python -m model.elo_score_updating           # compute and print the report
+python -m model.elo_score_updating --write   # also save eeelo_final.json
 ```
 
 How each line works: [`code/elo_code.md`](code/elo_code.md).
@@ -285,13 +285,13 @@ How each line works: [`code/elo_code.md`](code/elo_code.md).
 
 ### Known bugs
 
-- **The real ratings use old weights.** `coef_table.csv` was not updated when `coefs.json` changed (section 5). Fix: rebuild the weight columns of `coef_table.csv` from `coefs.json`, or make the program read the weights from `coefs.json` and use the CSV only to know which competition and round a match belongs to. Then recompute the ratings with `--write` and retrain the match model.
-- **The "home" column is always 0.** In the data, the "neutral venue" column is empty for most matches. Python treats an empty value as "true", so every match is marked as played on neutral ground. Nothing in the ratings uses this column, but the match model's training data does.
-- **Friendlies are in the training data.** Friendlies do not change ratings ($K = 0$), but they are still written to `match_features.csv`, so the match model learns from 625 friendlies.
-- **"Report only" still writes a file.** Without `--write`, `match_features.csv` is still overwritten.
+- **Fixed in 1.1.0: the real ratings used old weights.** `coef_table.csv` is rebuilt from `coefs.json` by `model/categorising.py`, the ratings are recomputed and the match model is retrained. Rebuild the CSV again whenever `coefs.json` changes.
+- **Fixed: the "home" column was always 0.** The code was fixed in 1.0.2 and the data is rebuilt in 1.1.0: 4 575 rows at home, 53 on neutral ground.
+- **Fixed in 1.1.0: friendlies were in the training data.** A match whose competition has `comp_mult` 0 (five friendly competitions, 700 fixtures) is skipped before it reaches `match_features.csv`.
+- **Fixed in 1.1.0: "report only" still wrote a file.** Without `--write` nothing is written now; with it, both `eeelo_final.json` and `match_features.csv` are.
 - **Two default values.** 1450 here, but 1500 in the simulation, for the same idea ("a club with no known rating").
-- **Extra-time goals are counted here** but not in the simulation (see [`extra_time.md`](extra_time.md)).
-- **The text at the top of the file is out of date.** It mentions old file names.
+- **Changed in 1.1.0: extra time and penalties.** The ratings use the 90-minute score. A match level after 90 minutes and won in extra time counts 0.8 / 0.2, on penalties 0.7 / 0.3 (`rating_scores`). The simulation uses the same scale (see [`extra_time.md`](extra_time.md)).
+- **Fixed in 1.1.0: the text at the top of the file was out of date.**
 
 ---
 
@@ -328,7 +328,7 @@ How each line works: [`code/elo_code.md`](code/elo_code.md).
 - **Ce qui entre :** environ 5 300 vrais matchs (de janvier 2024 à août 2025) : championnat, coupe, Europe et matchs amicaux.
 - **Ce qui sort :** une note pour chacun des 984 clubs (par exemple environ 1853 pour le Paris Saint-Germain, environ 1400 pour un petit club), enregistrée dans `data/processed/eeelo_final.json`.
 - **Où c'est utilisé :** le modèle de match ([`logistic_regression.md`](logistic_regression.md)) transforme l'écart entre deux notes en chances de gagner, et la simulation continue de mettre les notes à jour après chaque match simulé.
-- **Code :** `model/elo_score_updating_copy.py`. Explication ligne par ligne : [`code/elo_code.md`](code/elo_code.md).
+- **Code :** `model/elo_score_updating.py`. Explication ligne par ligne : [`code/elo_code.md`](code/elo_code.md).
 
 ---
 
@@ -336,7 +336,7 @@ How each line works: [`code/elo_code.md`](code/elo_code.md).
 
 Au début, les joueurs d'échecs étaient classés à la main, et c'était surtout une question d'avis. Les clubs voulaient une méthode juste et simple.
 
-**Arpad Elo** (1903 à 1992) était un professeur de physique américain né en Hongrie, et un bon joueur d'échecs. Son idée : **une note est une supposition sur ta force, et chaque partie te dit si la supposition était trop haute ou trop basse.**
+**Arpad Elo** (1903 à 1992) était un professeur de physique américain né en Hongrie, et un bon joueur d'échecs. Son idée : **une note est une supposition sur votre force, et chaque partie vous dit si la supposition était trop haute ou trop basse.**
 
 | Année | Ce qui s'est passé |
 |---|---|
@@ -354,7 +354,7 @@ Vidéo (en anglais) : [The Elo Rating System for Chess and Beyond (singingbanana
 
 ## 2. L'idée avec des mots simples
 
-Vois une note comme une **supposition** sur un club, comme celle d'un professeur sur le niveau d'un élève.
+Voyez une note comme une **supposition** sur un club, comme celle d'un professeur sur le niveau d'un élève.
 
 - Si un bon élève a une bonne note, le professeur n'est pas surpris : sa supposition bouge à peine.
 - Si un élève faible a une très bonne note, le professeur est surpris : sa supposition monte beaucoup.
@@ -362,7 +362,7 @@ Vois une note comme une **supposition** sur un club, comme celle d'un professeur
 
 Elo fait pareil avec le football :
 
-- Battre un club beaucoup plus fort : ta note monte beaucoup.
+- Battre un club beaucoup plus fort : votre note monte beaucoup.
 - Battre un club beaucoup plus faible : elle monte un peu.
 - Perdre contre un club beaucoup plus faible : elle baisse beaucoup.
 
@@ -376,7 +376,7 @@ Avant le match, Elo transforme l'écart de notes en **score attendu** : la part 
 
 Avec Elo, un match distribue exactement 1 point : le gagnant prend 1, le perdant 0, et un nul donne 0.5 à chaque camp. Le score attendu est la part de ce point qu'un club devrait prendre en moyenne.
 
-| Écart de notes (ton club moins l'autre) | Score attendu de ton club |
+| Écart de notes (votre club moins l'autre) | Score attendu de votre club |
 |---|---|
 | −400 | 0.09 |
 | −200 | 0.24 |
@@ -386,18 +386,18 @@ Avec Elo, un match distribue exactement 1 point : le gagnant prend 1, le perdant
 | +200 | 0.76 |
 | +400 | 0.91 |
 
-Comment lire une ligne : avec un écart de +100, ton club devrait prendre 0.64 du point en moyenne. Sur 100 matchs comme celui-ci, il récolterait environ 64 points, par exemple 54 victoires et 20 nuls.
+Comment lire une ligne : avec un écart de +100, votre club devrait prendre 0.64 du point en moyenne. Sur 100 matchs comme celui-ci, il récolterait environ 64 points, par exemple 54 victoires et 20 nuls.
 
-Les deux scores attendus font toujours 1 au total : si ton club attend 0.64, l'autre attend 0.36.
+Les deux scores attendus font toujours 1 au total : si votre club attend 0.64, l'autre attend 0.36.
 
 Le tableau vient de cette formule :
 
-$$E = \frac{1}{1 + 10^{(R_{\text{autre}} - R_{\text{toi}})/400}}$$
+$$E = \frac{1}{1 + 10^{(R_{\text{autre}} - R_{\text{vous}})/400}}$$
 
 | Symbole | Avec des mots simples |
 |---|---|
-| $E$ | le score attendu de ton club, entre 0 et 1 |
-| $R_{\text{toi}}$ | la note de ton club avant le match |
+| $E$ | le score attendu de votre club, entre 0 et 1 |
+| $R_{\text{vous}}$ | la note de votre club avant le match |
 | $R_{\text{autre}}$ | la note de l'autre club avant le match |
 | 400 | un choix d'échelle fixe : avec 400 points d'écart, le club le plus fort s'attend à prendre 10 fois plus du point que le plus faible (0.91 contre 0.09) |
 
@@ -552,7 +552,7 @@ Arsenal defeat: 1773.57, Atalanta: 1734.43
 | `pathlib` | oui | construit des chemins de fichiers qui marchent sous Windows, macOS et Linux |
 | `sys` | oui | lit l'option `--write` dans la ligne de commande |
 
-### Fonctions de `model/elo_score_updating_copy.py`
+### Fonctions de `model/elo_score_updating.py`
 
 | Fonction | En une ligne |
 |---|---|
@@ -573,8 +573,8 @@ Arsenal defeat: 1773.57, Atalanta: 1734.43
 Pour le lancer, depuis le dossier du projet :
 
 ```bash
-python -m model.elo_score_updating_copy           # calcule et affiche le rapport
-python -m model.elo_score_updating_copy --write   # enregistre aussi eeelo_final.json
+python -m model.elo_score_updating           # calcule et affiche le rapport
+python -m model.elo_score_updating --write   # enregistre aussi eeelo_final.json
 ```
 
 Comment marche chaque ligne : [`code/elo_code.md`](code/elo_code.md).
@@ -604,13 +604,13 @@ Comment marche chaque ligne : [`code/elo_code.md`](code/elo_code.md).
 
 ### Bugs connus
 
-- **Les vraies notes utilisent d'anciens poids.** `coef_table.csv` n'a pas été mis à jour quand `coefs.json` a changé (section 5). Correction : reconstruire les colonnes de poids de `coef_table.csv` à partir de `coefs.json`, ou faire lire les poids dans `coefs.json` et n'utiliser le CSV que pour savoir à quelle compétition et à quel tour appartient un match. Puis recalculer les notes avec `--write` et réentraîner le modèle de match.
-- **La colonne « domicile » vaut toujours 0.** Dans les données, la colonne « terrain neutre » est vide pour la plupart des matchs. Python considère une valeur vide comme « vraie », donc chaque match est marqué comme joué sur terrain neutre. Rien dans les notes n'utilise cette colonne, mais les données d'entraînement du modèle de match, si.
-- **Les amicaux sont dans les données d'entraînement.** Les amicaux ne changent pas les notes ($K = 0$), mais ils sont quand même écrits dans `match_features.csv`, donc le modèle de match apprend à partir de 625 amicaux.
-- **« Rapport seulement » écrit quand même un fichier.** Sans `--write`, `match_features.csv` est quand même écrasé.
+- **Corrigé en 1.1.0 : les vraies notes utilisaient d'anciens poids.** `coef_table.csv` est reconstruit à partir de `coefs.json` par `model/categorising.py`, les notes sont recalculées et le modèle de match est réentraîné. Il faut reconstruire le CSV à chaque modification de `coefs.json`.
+- **Corrigé : la colonne « domicile » valait toujours 0.** Le code a été corrigé en 1.0.2 et les données sont reconstruites en 1.1.0 : 4 575 lignes à domicile, 53 sur terrain neutre.
+- **Corrigé en 1.1.0 : les amicaux étaient dans les données d'entraînement.** Un match dont la compétition a un `comp_mult` de 0 (cinq compétitions amicales, 700 matchs) est écarté avant d'arriver dans `match_features.csv`.
+- **Corrigé en 1.1.0 : « rapport seulement » écrivait quand même un fichier.** Sans `--write`, plus rien n'est écrit ; avec, `eeelo_final.json` et `match_features.csv` le sont tous les deux.
 - **Deux valeurs par défaut.** 1450 ici, mais 1500 dans la simulation, pour la même idée (« un club sans note connue »).
-- **Les buts de prolongation sont comptés ici** mais pas dans la simulation (voir [`extra_time.md`](extra_time.md)).
-- **Le texte en haut du fichier est périmé.** Il cite d'anciens noms de fichiers.
+- **Changé en 1.1.0 : prolongation et tirs au but.** Les notes utilisent le score après 90 minutes. Un match à égalité après 90 minutes et gagné en prolongation compte 0.8 / 0.2, aux tirs au but 0.7 / 0.3 (`rating_scores`). La simulation utilise la même échelle (voir [`extra_time.md`](extra_time.md)).
+- **Corrigé en 1.1.0 : le texte en haut du fichier était périmé.**
 
 ---
 

@@ -1,8 +1,8 @@
-# `elo_score_updating_copy.py`, line by line
+# `elo_score_updating.py`, line by line
 
 > This page walks through the code that computes the Elo ratings. For the idea (expected score, surprise, $K$), read [`../elo.md`](../elo.md) first.
 
-*Version française : [plus bas](#elo_score_updating_copypy-ligne-par-ligne).*
+*Version française : [plus bas](#elo_score_updatingpy-ligne-par-ligne).*
 
 ## How to read this page
 
@@ -46,7 +46,7 @@ FIXTURES_CSV = BASE_DIR / "data" / "processed" / "fixtures_25.csv"
 OUT_JSON     = BASE_DIR / "data" / "processed" / "eeelo_final.json"
 ```
 
-- `Path(__file__)` is the path of this very file; `.resolve()` makes it complete, and `.parents[1]` goes up two folders, from `model/elo_score_updating_copy.py` to the project folder.
+- `Path(__file__)` is the path of this very file; `.resolve()` makes it complete, and `.parents[1]` goes up two folders, from `model/elo_score_updating.py` to the project folder.
 - Every other path is built from `BASE_DIR`, so the script works wherever it is launched from. A plain `"data/..."` would only work when launched from the project folder.
 - The same pattern defines all the input and output files (seven paths in total).
 
@@ -370,15 +370,15 @@ if __name__ == "__main__":
     run(write="--write" in sys.argv)
 ```
 
-- This block only runs when the file is started directly (`python -m model.elo_score_updating_copy`), not when another file imports it.
+- This block only runs when the file is started directly (`python -m model.elo_score_updating`), not when another file imports it.
 - `"--write" in sys.argv` is `True` if the user typed `--write` after the command.
 
 ---
 ---
 
-# `elo_score_updating_copy.py`, ligne par ligne
+# `elo_score_updating.py`, ligne par ligne
 
-> Cette page explique le code qui calcule les notes Elo. Pour l'idée (score attendu, surprise, $K$), lis d'abord [`../elo.md`](../elo.md#les-notes-elo--un-nombre-pour-la-force-de-chaque-club).
+> Cette page explique le code qui calcule les notes Elo. Pour l'idée (score attendu, surprise, $K$), lisez d'abord [`../elo.md`](../elo.md#les-notes-elo--un-nombre-pour-la-force-de-chaque-club).
 
 ## Comment lire cette page
 
@@ -422,7 +422,7 @@ FIXTURES_CSV = BASE_DIR / "data" / "processed" / "fixtures_25.csv"
 OUT_JSON     = BASE_DIR / "data" / "processed" / "eeelo_final.json"
 ```
 
-- `Path(__file__)` est le chemin de ce fichier même ; `.resolve()` le rend complet, et `.parents[1]` remonte de deux dossiers, de `model/elo_score_updating_copy.py` jusqu'au dossier du projet.
+- `Path(__file__)` est le chemin de ce fichier même ; `.resolve()` le rend complet, et `.parents[1]` remonte de deux dossiers, de `model/elo_score_updating.py` jusqu'au dossier du projet.
 - Tous les autres chemins sont construits à partir de `BASE_DIR`, donc le script marche d'où qu'on le lance. Un simple `"data/..."` ne marcherait que lancé depuis le dossier du projet.
 - Le même schéma définit tous les fichiers d'entrée et de sortie (sept chemins au total).
 
@@ -746,5 +746,5 @@ if __name__ == "__main__":
     run(write="--write" in sys.argv)
 ```
 
-- Ce bloc ne s'exécute que quand le fichier est lancé directement (`python -m model.elo_score_updating_copy`), pas quand un autre fichier l'importe.
+- Ce bloc ne s'exécute que quand le fichier est lancé directement (`python -m model.elo_score_updating`), pas quand un autre fichier l'importe.
 - `"--write" in sys.argv` vaut `True` si l'utilisateur a tapé `--write` après la commande.

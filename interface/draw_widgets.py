@@ -120,6 +120,9 @@ class ClubChip(ctk.CTkFrame):
         self.command = command
         self._hover = False
         self._drawn = False
+        self._selected = False     # first club picked for a swap
+        self._last_click = None    # (serial, time) of the last click handled
+        self.click_state = 0       # modifier keys held during the last click
 
         # Badge AND name in ONE SINGLE label, via compound="left".
         # Thirty-six clubs make thirty-six chips: every CustomTkinter
@@ -177,6 +180,15 @@ class ClubChip(ctk.CTkFrame):
         self.accent = accent
         self._paint(animated=False)
 
+    def set_selected(self, selected):
+        """Picked as the first club of a swap: an accent frame that stays
+        until the second click, so the user can see what they picked."""
+        if selected == self._selected:
+            return
+        self._selected = selected
+        self.configure(border_width=2 if selected else 1)
+        self._paint()
+
     def set_drawn(self, drawn):
         """The ball has come out: the club dims without disappearing."""
         if drawn == self._drawn:
@@ -203,6 +215,8 @@ class ClubChip(ctk.CTkFrame):
         """
         if self._drawn:
             border, fill = CHIP_BORDER, CHIP_DRAWN
+        elif self._selected:
+            border, fill = self.accent, CHIP_HOVER
         elif self._hover and self.command is not None:
             border, fill = self.accent, CHIP_HOVER
         else:
@@ -222,7 +236,20 @@ class ClubChip(ctk.CTkFrame):
         for child in widget.winfo_children():
             self._bind_tree(child)
 
-    def _on_click(self, _e=None):
+    def _on_click(self, e=None):
+        # One click used to run the command TWICE: _bind_tree binds
+        # <Button-1> on a CustomTkinter widget (which forwards it to its
+        # inner label) and then again on that inner label. The replace box
+        # simply opened twice; a swap picked a club and un-picked it at once.
+        # Both calls carry the same Tk event, so the second one is dropped.
+        if e is not None:
+            key = (getattr(e, "serial", None), getattr(e, "time", None))
+            if key == self._last_click:
+                return
+            self._last_click = key
+            self.click_state = getattr(e, "state", 0) or 0
+        else:
+            self.click_state = 0
         if self.command is not None:
             self.command(self)
 
@@ -346,9 +373,17 @@ class PotsBoard(ctk.CTkScrollableFrame):
             column.refresh(self.model)
 
     def refresh_one(self, pot_index, slot_index):
-        """A single chip, after a manual replacement."""
+        """A single chip, after a manual replacement or half of a swap."""
         if 0 <= pot_index < len(self.columns):
             self.columns[pot_index].refresh_one(slot_index, self.model)
+
+    def set_selected(self, pot_index, slot_index, selected=True):
+        """Marks one chip as picked for a swap, or unmarks it."""
+        if not 0 <= pot_index < len(self.columns):
+            return
+        chips = self.columns[pot_index].chips
+        if 0 <= slot_index < len(chips) and chips[slot_index].winfo_exists():
+            chips[slot_index].set_selected(selected)
 
     def set_drawn(self, club, drawn=True):
         for column in self.columns:

@@ -453,7 +453,7 @@ The Conference League file also counts opponents per country by walking through 
 
 # `draw_ucl.py` et `draw_uecl.py`, ligne par ligne
 
-> Cette page explique le code du tirage. Pour l'idée (cases, la plus difficile d'abord, défaire, recommencer, vérifier), lis d'abord [`../draw.md`](../draw.md#le-tirage--qui-joue-contre-qui).
+> Cette page explique le code du tirage. Pour l'idée (cases, la plus difficile d'abord, défaire, recommencer, vérifier), lisez d'abord [`../draw.md`](../draw.md#le-tirage--qui-joue-contre-qui).
 
 ## Comment lire cette page
 

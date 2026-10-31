@@ -218,7 +218,7 @@ def outcome_of(home_goals, away_goals):
 
 # `scorelines.py`, ligne par ligne
 
-> Cette page explique le code du tireur de scores. Pour l'idée (copier le vrai football, la tombola), lis d'abord [`../scorelines.md`](../scorelines.md#le-tireur-de-scores--dun-résultat-à-un-score). La prolongation est expliquée dans [`../extra_time.md`](../extra_time.md).
+> Cette page explique le code du tireur de scores. Pour l'idée (copier le vrai football, la tombola), lisez d'abord [`../scorelines.md`](../scorelines.md#le-tireur-de-scores--dun-résultat-à-un-score). La prolongation est expliquée dans [`../extra_time.md`](../extra_time.md).
 
 ## Comment lire cette page
 

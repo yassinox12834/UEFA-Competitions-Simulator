@@ -33,14 +33,12 @@ Order:
 python -m datahandler.fetch_team_ids
 python -m datahandler.fetch_fixtures
 python -m datahandler.build_fixtures_csv
-python -m datahandler.add_neutral_venue
-python -m datahandler.drop_duplicate_fixtures
 python -m datahandler.fetch_club_logos
 python -m datahandler.fetch_competition_logos
 python -m datahandler.build_team_seeds
 ```
 
-Read "Known problems" below before steps 3 to 5.
+Since version 1.1.0, step 3 also keeps one row per match and marks the finals as neutral, so `add_neutral_venue` and `drop_duplicate_fixtures` are no longer needed. They still work, in place, on an older `fixtures_25.csv`. Rebuilt from the raw files, step 3 gives back exactly the current `fixtures_25.csv` (5 328 rows).
 
 ## What each script does
 
@@ -48,9 +46,9 @@ Read "Known problems" below before steps 3 to 5.
 |---|---|---|
 | `fetch_team_ids.py` | Gets the id of every club in the 3 competitions (Arsenal = 42). Writes `data/reference/UCL.json`, `UEL.json`, `UECL.json`. | yes |
 | `fetch_fixtures.py` | Downloads all matches of each club, one file per club, in `data/raw/`. | yes |
-| `build_fixtures_csv.py` | Puts all the raw files in one table: `fixtures_25.csv`. | no |
-| `add_neutral_venue.py` | Adds a column that marks finals as played on neutral ground. | no |
-| `drop_duplicate_fixtures.py` | Keeps one row per match. | no |
+| `build_fixtures_csv.py` | Puts all the raw files (season sub-folders included) in one table, one row per match, finals marked neutral: `fixtures_25.csv`. Writes nothing if it finds no match. | no |
+| `add_neutral_venue.py` | Optional: marks finals as neutral in `fixtures_25.csv` itself. | no |
+| `drop_duplicate_fixtures.py` | Optional: keeps one row per match in `fixtures_25.csv` itself. | no |
 | `fetch_club_logos.py`, `fetch_competition_logos.py` | Download the badges and the competition logos. | no (images only) |
 | `fetch_leagues.py` | Checks what the API covers for the Conference League. Not part of the steps above. | yes |
 | `build_team_seeds.py` | Gives each club the starting Elo of its country. | no |
@@ -69,18 +67,16 @@ All paths are in `uefa/config.py`.
 
 Three things to know:
 
-- **Each match appears twice** in the raw files, once in each club's file. `drop_duplicate_fixtures.py` keeps one row per `fixture_id`: 6 523 rows become 5 328.
+- **Each match appears twice** in the raw files, once in each club's file. `build_fixtures_csv.py` keeps one row per `fixture_id`: 6 523 rows become 5 328.
 - **`status`** tells how the match ended: `FT` = 90 minutes, `AET` = after extra time, `PEN` = after penalties, `CANC` = cancelled. Empty cells for extra time and penalties are normal.
 - **After a shoot-out**, `home_goals` is the score before the penalties. Read `status` and `winner_home` / `winner_away` to find the winner.
 
 ## Known problems
 
-- **`build_fixtures_csv.py` can erase `fixtures_25.csv`.** It does not look in the season subfolders, so it builds an empty table and saves it over the good one. Back up first, or change `glob` to `rglob`.
-- **File names do not match.** Step 3 writes `fixtures_25.csv`, step 4 reads `fixtures.csv`, step 5 writes `fixtures_without.csv`. The files have to be renamed by hand between steps.
 - **The neutral rule is simple.** Every match called "Final" is marked neutral. That is wrong for the Emirates Cup final, and friendlies abroad are not marked.
 - **The season (`2024`) is typed by hand** in 3 scripts.
 - **No timeout** on the requests, and failed badge downloads say nothing.
-- **Do not import these scripts.** Except `fetch_fixtures.py`, they run as soon as they are imported.
+- **Do not import the `fetch_` scripts.** Except `fetch_fixtures.py`, they run as soon as they are imported. The three `build`/`add`/`drop` scripts are safe to import since 1.1.0.
 
 ---
 ---
@@ -110,8 +106,8 @@ Le projet a donc une seule saison, 2024-25 : 5 251 matchs joués. Pour les évé
 
 ## Lancer les scripts
 
-1. **Clé d'API.** Copie `.env.example` en `.env` et écris ta clé après `API_KEY=`. Ne la partage jamais. `.env` est dans `.gitignore`.
-2. **Lance depuis le dossier `UEFA/`, comme un module :** `python -m datahandler.fetch_team_ids`. Pas `python datahandler/fetch_team_ids.py` : ça échoue avec `ModuleNotFoundError`.
+1. **Clé d'API.** Copiez `.env.example` en `.env` et écrivez votre clé après `API_KEY=`. Ne la partagez jamais. `.env` est dans `.gitignore`.
+2. **Lancez depuis le dossier `UEFA/`, comme un module :** `python -m datahandler.fetch_team_ids`. Pas `python datahandler/fetch_team_ids.py` : ça échoue avec `ModuleNotFoundError`.
 3. **La limite par jour.** `fetch_fixtures.py` saute les clubs déjà téléchargés. Avec le plan gratuit, il s'arrête au club 100 : relance-le le lendemain.
 
 Ordre :
@@ -120,14 +116,12 @@ Ordre :
 python -m datahandler.fetch_team_ids
 python -m datahandler.fetch_fixtures
 python -m datahandler.build_fixtures_csv
-python -m datahandler.add_neutral_venue
-python -m datahandler.drop_duplicate_fixtures
 python -m datahandler.fetch_club_logos
 python -m datahandler.fetch_competition_logos
 python -m datahandler.build_team_seeds
 ```
 
-Lis « Problèmes connus » plus bas avant les étapes 3 à 5.
+Depuis la version 1.1.0, l'étape 3 garde aussi une seule ligne par match et marque les finales comme neutres : `add_neutral_venue` et `drop_duplicate_fixtures` ne sont plus nécessaires. Ils fonctionnent toujours, sur place, sur un ancien `fixtures_25.csv`. Reconstruit à partir des fichiers bruts, l'étape 3 redonne exactement le `fixtures_25.csv` actuel (5 328 lignes).
 
 ## Ce que fait chaque script
 
@@ -135,9 +129,9 @@ Lis « Problèmes connus » plus bas avant les étapes 3 à 5.
 |---|---|---|
 | `fetch_team_ids.py` | Récupère l'identifiant de chaque club des 3 compétitions (Arsenal = 42). Écrit `data/reference/UCL.json`, `UEL.json`, `UECL.json`. | oui |
 | `fetch_fixtures.py` | Télécharge tous les matchs de chaque club, un fichier par club, dans `data/raw/`. | oui |
-| `build_fixtures_csv.py` | Met tous les fichiers bruts dans un seul tableau : `fixtures_25.csv`. | non |
-| `add_neutral_venue.py` | Ajoute une colonne qui marque les finales comme jouées sur terrain neutre. | non |
-| `drop_duplicate_fixtures.py` | Garde une seule ligne par match. | non |
+| `build_fixtures_csv.py` | Met tous les fichiers bruts (sous-dossiers de saison compris) dans un seul tableau, une ligne par match, finales marquées neutres : `fixtures_25.csv`. N'écrit rien s'il ne trouve aucun match. | non |
+| `add_neutral_venue.py` | Facultatif : marque les finales comme neutres dans `fixtures_25.csv` lui-même. | non |
+| `drop_duplicate_fixtures.py` | Facultatif : garde une seule ligne par match dans `fixtures_25.csv` lui-même. | non |
 | `fetch_club_logos.py`, `fetch_competition_logos.py` | Téléchargent les écussons et les logos des compétitions. | non (images seulement) |
 | `fetch_leagues.py` | Vérifie ce que l'API couvre pour la Ligue Conférence. Ne fait pas partie des étapes ci-dessus. | oui |
 | `build_team_seeds.py` | Donne à chaque club l'Elo de départ de son pays. | non |
@@ -156,17 +150,15 @@ Tous les chemins sont dans `uefa/config.py`.
 
 Trois choses à savoir :
 
-- **Chaque match apparaît deux fois** dans les fichiers bruts, une fois dans le fichier de chaque club. `drop_duplicate_fixtures.py` garde une ligne par `fixture_id` : 6 523 lignes deviennent 5 328.
+- **Chaque match apparaît deux fois** dans les fichiers bruts, une fois dans le fichier de chaque club. `build_fixtures_csv.py` garde une ligne par `fixture_id` : 6 523 lignes deviennent 5 328.
 - **`status`** dit comment le match s'est fini : `FT` = 90 minutes, `AET` = après prolongation, `PEN` = après tirs au but, `CANC` = annulé. Les cases vides pour la prolongation et les tirs au but sont normales.
-- **Après une séance de tirs au but**, `home_goals` est le score avant les tirs au but. Lis `status` et `winner_home` / `winner_away` pour trouver le vainqueur.
+- **Après une séance de tirs au but**, `home_goals` est le score avant les tirs au but. Lisez `status` et `winner_home` / `winner_away` pour trouver le vainqueur.
 
 ## Problèmes connus
 
-- **`build_fixtures_csv.py` peut effacer `fixtures_25.csv`.** Il ne regarde pas dans les sous-dossiers de saison, donc il construit un tableau vide et l'enregistre par-dessus le bon. Sauvegarde d'abord, ou remplace `glob` par `rglob`.
-- **Les noms de fichiers ne correspondent pas.** L'étape 3 écrit `fixtures_25.csv`, l'étape 4 lit `fixtures.csv`, l'étape 5 écrit `fixtures_without.csv`. Il faut renommer les fichiers à la main entre les étapes.
 - **La règle du terrain neutre est simple.** Tout match appelé « Final » est marqué neutre. C'est faux pour la finale de l'Emirates Cup, et les amicaux à l'étranger ne sont pas marqués.
 - **La saison (`2024`) est écrite à la main** dans 3 scripts.
 - **Pas de délai maximum** sur les requêtes, et les téléchargements d'écussons qui échouent ne disent rien.
-- **Ne les importe pas.** Sauf `fetch_fixtures.py`, ils s'exécutent dès qu'on les importe.
+- **N'importez pas les scripts `fetch_`.** Sauf `fetch_fixtures.py`, ils s'exécutent dès qu'on les importe. Les trois scripts `build`/`add`/`drop` peuvent être importés sans risque depuis la 1.1.0.
 
 ---

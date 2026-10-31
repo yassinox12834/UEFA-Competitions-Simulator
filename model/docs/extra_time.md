@@ -167,7 +167,7 @@ The app's bracket adds the extra-time goals to the second leg's score, and the t
 
 ### Known bugs
 
-- **The Elo program and the simulation disagree about extra time.** The program that computes the real ratings counts extra-time goals: 45 real cup matches decided in extra time count as wins. The simulation treats the same kind of match as a draw after 90 minutes. Small (45 of 4 626 matches), but the two should follow one rule. Fix: make the Elo program use the 90-minute score, then recompute the ratings and retrain the match model.
+- **Fixed in 1.1.0: the Elo program and the simulation disagreed about extra time.** Both now use the 90-minute score, then the same scale for a match level after 90 minutes: 0.8 / 0.2 for a win in extra time, 0.7 / 0.3 on penalties. In the real data that is 29 matches won in extra time and 33 on penalties. In the simulation the correction is added once the tie is settled (`_credit_decider` in `knockout.py`); a match won in 90 minutes keeps its rating.
 
 ---
 
@@ -359,7 +359,7 @@ Le tableau de l'appli ajoute les buts de prolongation au score du match retour, 
 
 ### Bugs connus
 
-- **Le programme Elo et la simulation ne sont pas d'accord sur la prolongation.** Le programme qui calcule les vraies notes compte les buts de prolongation : 45 vrais matchs de coupe décidés en prolongation comptent comme des victoires. La simulation traite le même genre de match comme un nul après 90 minutes. C'est peu (45 matchs sur 4 626), mais les deux devraient suivre une seule règle. Correction : faire utiliser au programme Elo le score après 90 minutes, puis recalculer les notes et réentraîner le modèle de match.
+- **Corrigé en 1.1.0 : le programme Elo et la simulation n'étaient pas d'accord sur la prolongation.** Les deux utilisent maintenant le score après 90 minutes, puis la même échelle pour un match à égalité après 90 minutes : 0.8 / 0.2 pour une victoire en prolongation, 0.7 / 0.3 aux tirs au but. Dans les vraies données, cela fait 29 matchs gagnés en prolongation et 33 aux tirs au but. Dans la simulation, la correction est ajoutée une fois la confrontation tranchée (`_credit_decider` dans `knockout.py`) ; un match gagné en 90 minutes garde sa note.
 
 ---
 

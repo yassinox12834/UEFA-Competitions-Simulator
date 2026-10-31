@@ -13,6 +13,7 @@ self.app.show("name"). App holds the map of the journey, so adding or
 reordering a screen does not touch this file.
 """
 
+import sys
 import tkinter
 from tkinter import filedialog
 
@@ -37,6 +38,14 @@ from fonts import FONTS
 from images import (club_image, club_logo_path, club_photo, comp_image,
                     flag_image, mode_image, run_image)
 from widgets import StepHeader, card_button, ghost_button
+
+# Ctrl + click picks a club for a swap; on macOS Cmd + click works too.
+# Tk puts the held keys in event.state: 0x0004 is Control everywhere, and
+# 0x0008 is Command on macOS only (on Windows and Linux it is NumLock or
+# Alt, which must not start a swap).
+IS_MAC = sys.platform == "darwin"
+SWAP_MASK = 0x0004 | (0x0008 if IS_MAC else 0)
+SWAP_KEY = "Cmd" if IS_MAC else "Ctrl"
 
 
 # =====================================================================
@@ -249,6 +258,7 @@ class DrawView(BaseView):
         self._mode = None
         self._dialog = None        # the "replace" box, kept open
         self._cst_dialog = None    # the "constraints" box, kept as well
+        self._swap_pick = None     # (pot_index, slot_index) of the first club Ctrl-clicked
         self.job = None
         self.teams = None
         self.matchdays = None
@@ -348,6 +358,7 @@ class DrawView(BaseView):
         return self.app.mode == "draw"
 
     def on_hide(self):
+        self._swap_off()
         self._cancel_all()
         # A modal box left open would keep the keyboard and the mouse
         # while the screen underneath has disappeared: the main window
@@ -368,6 +379,11 @@ class DrawView(BaseView):
             self._go(self._phase, force=True)
 
     def on_back(self):
+        if self._phase == "pots" and self._swap_pick is not None:
+            # Esc first drops the club picked for a swap; a second Esc
+            # leaves the screen.
+            self._swap_off()
+            return
         if self._phase in ("choice", "results", "failed"):
             self._go("pots")
         elif self._phase == "ceremony":
@@ -466,6 +482,10 @@ class DrawView(BaseView):
     def _go(self, phase, force=False, error=None):
         if phase == self._phase and not force:
             return
+        if self._phase == "pots" and phase != "pots":
+            # The pots panel is kept in memory: without this, coming back
+            # would show swap mode still on and a club still picked.
+            self._swap_off()
         # Every panel except "failed" reads self.model. It may be absent:
         # _ensure_model() failed and put us on "failed", from where we
         # come back here through "try again" or "back", two paths that
@@ -573,6 +593,9 @@ class DrawView(BaseView):
         # line. Stacked, it stole the last row.
         footer = ctk.CTkFrame(parent, fg_color="transparent")
         footer.pack(side="bottom", pady=(8, 14))
+        # The status line: what has changed, the Ctrl + click hint, or the
+        # next step of a swap in progress.
+        self._swap_pick = None
         self.swaps_label = ctk.CTkLabel(footer, text="",
                                         font=self.app.fonts["tiny"],
                                         text_color=REPLACED)
@@ -617,7 +640,7 @@ class DrawView(BaseView):
                                                                padx=6)
 
         self.board = PotsBoard(parent, self.app, self.comp, self.model,
-                               on_click=self._open_replace if editable else None)
+                               on_click=self._on_chip if editable else None)
         self.board.pack(fill="both", expand=True, padx=16)
         # No board.refresh() here: the chips have just been built with the
         # right values. The refresh would rewrite the name, badge and
@@ -625,10 +648,26 @@ class DrawView(BaseView):
         self._refresh_swaps()
         self._refresh_constraints()
 
-    def _refresh_swaps(self):
-        count = self.model.swap_count() if self.model else 0
-        self.swaps_label.configure(
-            text=self.app.t("swaps_n").format(n=count) if count else "")
+    def _refresh_swaps(self, note=None):
+        """The status line: what has changed in the pots or, in swap mode,
+        what to click next. `note` overrides it once (a refusal, a swap done)."""
+        if note:
+            text = note
+        elif self._swap_pick is not None:
+            text = self.app.t("swap_pick2", key=SWAP_KEY,
+                              club=self.model.club_at(*self._swap_pick))
+        else:
+            replaced = self.model.swap_count() if self.model else 0
+            moved = self.model.move_count() if self.model else 0
+            parts = []
+            if replaced:
+                parts.append(self.app.t("swaps_n").format(n=replaced))
+            if moved:
+                parts.append(self.app.t("moves_n", n=moved))
+            if self.editable:
+                parts.append(self.app.t("swap_hint", key=SWAP_KEY))
+            text = "     ".join(parts)
+        self.swaps_label.configure(text=text)
 
     def _refresh_constraints(self):
         """The count on the button: two loaded constraints can be seen
@@ -693,6 +732,75 @@ class DrawView(BaseView):
         self.board.refresh_one(pot_index, slot_index)
         self._refresh_swaps()
 
+    # ---------- swapping two clubs between pots ----------
+    def _on_chip(self, pot_index, slot_index, chip):
+        """A click on a club.
+
+        Ctrl + click (Cmd + click on macOS) picks it for a swap. Once a club
+        is picked, the next click finishes the swap even without the key:
+        letting go of Ctrl between the two clicks is easy, and the status
+        line says what the next click will do. A plain click with nothing
+        picked opens the replace box, as before.
+        """
+        held = getattr(chip, "click_state", 0) & SWAP_MASK if chip is not None else 0
+        if held or self._swap_pick is not None:
+            self._swap_click(pot_index, slot_index)
+        else:
+            self._open_replace(pot_index, slot_index, chip)
+
+    def _swap_off(self):
+        """Drops the club picked for a swap, if any."""
+        had_pick = self._swap_pick is not None
+        self._swap_select(None)
+        label = getattr(self, "swaps_label", None)
+        if had_pick and label is not None and label.winfo_exists():
+            self._refresh_swaps()
+
+    def _swap_select(self, place):
+        """Frames `place` (pot, slot) as the first pick; None clears the frame."""
+        board = getattr(self, "board", None)
+        alive = board is not None and board.winfo_exists()
+        if self._swap_pick is not None and alive:
+            board.set_selected(*self._swap_pick, False)
+        self._swap_pick = place
+        if place is not None and alive:
+            board.set_selected(*place, True)
+
+    def _swap_click(self, pot_index, slot_index):
+        place = (pot_index, slot_index)
+        first = self._swap_pick
+        if first is None:
+            self._swap_select(place)
+            self._refresh_swaps()
+            return
+        if first == place:                  # clicked again: unpick it
+            self._swap_select(None)
+            self._refresh_swaps()
+            return
+        problem = self.model.swap_problem(first, place)
+        if problem is not None:
+            key, kw = problem
+            if key == "err_swap_same_pot":
+                # Not worth a window: the status line says it, and the
+                # club just clicked becomes the new first pick.
+                self._swap_select(place)
+                self._refresh_swaps(note=self.app.t(key, **kw))
+                return
+            self._swap_select(None)
+            self._refresh_swaps()
+            MessageDialog(self.winfo_toplevel(), self.app,
+                          self.app.t("swap_bad_title"), self.app.t(key, **kw),
+                          [], tone="error")
+            return
+        a, b = self.model.swap(first, place)
+        self._swap_select(None)
+        # The previous draw is worthless: the pots have changed.
+        self.teams = self.matchdays = self.script = None
+        # Two chips moved, not thirty-six: same reasoning as _after_replace.
+        self.board.refresh_one(*first)
+        self.board.refresh_one(*place)
+        self._refresh_swaps(note=self.app.t("swap_done", a=a, b=b))
+
     # ---------- loading a JSON template ----------
     def _load_template(self):
         """Replaces all thirty-six clubs at once, from a file.
@@ -706,6 +814,7 @@ class DrawView(BaseView):
             filetypes=[("JSON", "*.json"), ("All files", "*.*")])
         if not path:
             return
+        self._swap_off()                    # every place is about to change
         shape = FORMAT[self.comp]
         try:
             pots, constraints, warnings = load_template(

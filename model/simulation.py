@@ -25,12 +25,14 @@ import json
 import os
 import random
 import time
+from concurrent.futures.process import BrokenProcessPool
 from datetime import datetime
 from pathlib import Path
+from pickle import PicklingError
 
 from model import knockout, league_phase
 from model.match_engine import DEFAULT_ELO, STAGE_LABELS, MatchEngine, load_k_table
-from model.names import resolve_all
+from model.names import ALIASES, resolve_all
 from model.predictor import MatchModel
 from model.scorelines import ScorelineSampler
 from uefa.paths import USER_DIR
@@ -54,8 +56,12 @@ class SimConfig:
             raise ValueError(f"method must be one of {knockout.METHODS}")
         self.method = method
         self.expert = expert
-        ranint = random.randint(-400, 400)
-        self.seed = random.random() + ranint if seed is None else seed
+        # Python's shared generator is only touched when a seed has to be
+        # invented: a given seed must not change the state of `random` for
+        # the rest of the program.
+        if seed is None:
+            seed = random.random() + random.randint(-400, 400)
+        self.seed = seed
         self.runs = int(runs)
 
     def as_dict(self):
@@ -141,6 +147,9 @@ def simulate(comp, teams, matchdays, config=None, resources=None):
                          k_settings=k_settings)
     warnings = [f"{r.club}: not found in the Elo file, starting at {DEFAULT_ELO:.0f}"
                 for r in resolutions if r.key is None]
+    warnings += [f"{r.club}: alias {ALIASES.get(r.club)!r} is not in the Elo file; "
+                 f"matched to {r.key!r} by {r.how[len('alias-'):]} search, fix the alias"
+                 for r in resolutions if r.how.startswith("alias-") and r.key is not None]
 
     if config.expert:
         _log_header(engine, comp, config, res, resolutions, seeds, k_settings)
@@ -172,7 +181,12 @@ def _log_header(engine, comp, config, res, resolutions, seeds, k):
                 f"trained {meta.get('trained_at')}")
     hold = meta.get("holdout") or {}
     if hold:
-        engine.note(f"   holdout {hold.get('holdout_season')}: log loss "
+        # predictor.train() writes train_fraction / train_rows / test_rows;
+        # holdout_season is the key of weights trained before 1.0.2.
+        where = (f"newest {1 - hold['train_fraction']:.0%} of matches, "
+                 f"{hold.get('train_rows')} train / {hold.get('test_rows')} test"
+                 if "train_fraction" in hold else f"season {hold.get('holdout_season')}")
+        engine.note(f"   holdout ({where}): log loss "
                     f"{hold.get('log_loss', 0):.4f} (no-skill {hold.get('log_loss_no_skill', 0):.4f})")
     engine.note(f"   weights: coef away/draw/home = {res.model.coef}, "
                 f"intercept = {res.model.intercept}, mean = {res.model.mean:.3f}, "
@@ -227,17 +241,24 @@ def monte_carlo(comp, teams, matchdays, config=None, runs=200, resources=None,
 
     if workers is None:
         workers = min(os.cpu_count() or 1, 8) if runs >= PARALLEL_FROM else 1
+    # The SAME resources go to the worker processes. They used to build
+    # their own Resources() from the default files, so custom ratings (or
+    # a custom model) were silently ignored as soon as the run count
+    # crossed PARALLEL_FROM, and 1 and 2 processes gave different counts.
+    res = resources or Resources()
     counts = points = None
     if workers > 1:
         try:
             counts, points = _mc_parallel(comp, clubs, days, config.method, seeds,
-                                          workers, progress)
-        except Cancelled:
-            raise
-        except Exception:                           # noqa: BLE001 - no pool? do it here
+                                          workers, progress, res)
+        except (BrokenProcessPool, OSError, PicklingError):
+            # No usable process pool here (a sandbox that forbids new
+            # processes, a frozen app without freeze_support...): play the
+            # runs in this process instead. Any OTHER exception is a real
+            # error in a run, and is raised as it is rather than hidden
+            # behind a slower second attempt. Cancelled passes through.
             counts = points = None
     if counts is None:
-        res = resources or Resources()
         counts, points = _mc_block(comp, clubs, days, config.method, seeds, res,
                                    progress, runs)
     return MonteCarloResult(comp, runs, counts, points, time.perf_counter() - t0, config)
@@ -275,9 +296,10 @@ def _mc_block(comp, clubs, days, method, seeds, res, progress=None, total=None):
 _WORKER_RES = None
 
 
-def _mc_worker_init():
+def _mc_worker_init(res=None):
+    """Runs once in each worker process: keep the resources it was sent."""
     global _WORKER_RES
-    _WORKER_RES = Resources()
+    _WORKER_RES = res if res is not None else Resources()
 
 
 def _mc_worker(args):
@@ -285,7 +307,7 @@ def _mc_worker(args):
     return len(seeds), _mc_block(comp, clubs, days, method, seeds, _WORKER_RES)
 
 
-def _mc_parallel(comp, clubs, days, method, seeds, workers, progress):
+def _mc_parallel(comp, clubs, days, method, seeds, workers, progress, res=None):
     from concurrent.futures import ProcessPoolExecutor, as_completed
     # Small chunks so the progress bar moves; ~4 chunks per worker.
     size = max(50, len(seeds) // (workers * 4))
@@ -293,7 +315,8 @@ def _mc_parallel(comp, clubs, days, method, seeds, workers, progress):
     counts = {club: dict.fromkeys(STAGES, 0) for club in clubs}
     points = dict.fromkeys(clubs, 0)
     done = 0
-    pool = ProcessPoolExecutor(max_workers=workers, initializer=_mc_worker_init)
+    pool = ProcessPoolExecutor(max_workers=workers, initializer=_mc_worker_init,
+                               initargs=(res,))
     try:
         futures = [pool.submit(_mc_worker, (comp, clubs, days, method, chunk))
                    for chunk in chunks]

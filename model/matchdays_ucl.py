@@ -30,7 +30,6 @@ def _schedule_matchdays_once(all_matches, num_matchdays, rng, budget):
     dict on this exact problem, because the tie-break order the MRV
     heuristic sees changes how much of the tree gets explored. Don't
     assume a fancier data structure is faster without measuring it.
-    SHuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuut up/down
     """
     remaining = set(all_matches)
     busy = defaultdict(set)   
@@ -81,7 +80,14 @@ def _schedule_matchdays_once(all_matches, num_matchdays, rng, budget):
     return assigned if backtrack() else None
 
 
-def generate_matchdays(teams, *, seed=None, node_budget=200_000, max_attempts=30):
+# Steps allowed per attempt. A solvable schedule is almost always found in
+# a few hundred steps; the rare attempt that needs thousands is in a bad
+# corner of the search and is better restarted with a new seed. 200 000
+# made those rare draws take seconds instead of a fraction of one.
+NODE_BUDGET = 5_000
+
+
+def generate_matchdays(teams, *, seed=None, node_budget=NODE_BUDGET, max_attempts=30):
     """Split a completed draw into matchdays, UCL-style: every team plays
     exactly once per matchday, so the number of matchdays is fixed by how
     many opponents each team has (8 here) -- it's not a free parameter.
@@ -121,7 +127,7 @@ def generate_matchdays(teams, *, seed=None, node_budget=200_000, max_attempts=30
                 matchdays[day].append(match)
             return matchdays
 
-    raise RuntimeError(f'no valid {num_matchdays}-:matchday schedule found in {max_attempts} attempts')
+    raise RuntimeError(f'no valid {num_matchdays}-matchday schedule found in {max_attempts} attempts')
 
 
 if __name__ == '__main__':

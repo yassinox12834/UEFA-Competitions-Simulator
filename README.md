@@ -57,22 +57,22 @@ It runs the draw with the real UEFA rules, plays every match of the season, and 
 
 ## What the model says
 
-Title odds for the real 2025/26 Champions League pots (one draw, 10,000 replays):
+Title odds for the real 2025/26 Champions League pots (one draw, 10,000 replays, version 1.1.0):
 
 | # | Club | Top 8 | Quarter-final | Final | Win |
 |---|---|---|---|---|---|
-| 1 | Paris Saint-Germain | 73% | 73% | 35% | 21.7% |
-| 2 | Barcelona | 64% | 67% | 29% | 16.4% |
-| 3 | Inter Milan | 61% | 61% | 21% | 10.0% |
-| 4 | Bayern Munich | 46% | 53% | 17% | 8.8% |
-| 5 | Liverpool | 49% | 51% | 15% | 7.3% |
-| 6 | Real Madrid | 53% | 48% | 12% | 5.8% |
-| 7 | Arsenal | 41% | 43% | 11% | 5.1% |
-| 8 | Atlético Madrid | 39% | 39% | 8% | 3.8% |
-| 9 | Aston Villa | 25% | 33% | 8% | 3.5% |
-| 10 | Benfica | 39% | 35% | 6% | 2.6% |
+| 1 | Barcelona | 68% | 70% | 33% | 20.2% |
+| 2 | Paris Saint-Germain | 67% | 70% | 33% | 20.0% |
+| 3 | Bayern Munich | 55% | 54% | 17% | 8.2% |
+| 4 | Inter Milan | 49% | 50% | 15% | 7.5% |
+| 5 | Liverpool | 46% | 46% | 13% | 6.5% |
+| 6 | Real Madrid | 42% | 41% | 10% | 4.5% |
+| 7 | Arsenal | 37% | 37% | 9% | 3.9% |
+| 8 | Chelsea | 27% | 33% | 8% | 3.8% |
+| 9 | Benfica | 30% | 34% | 8% | 3.5% |
+| 10 | Sporting CP | 33% | 35% | 8% | 3.5% |
 
-<sub>One draw only (seed 1): another draw moves a club by a point or two. The ratings come from about a season and a half of matches and are treated as exact, so the chances are a little too sure of themselves. See [Known limits](#known-limits).</sub>
+<sub>One draw only (seed 1, pots from `templates/2025_2026/`): another draw moves a club by a point or two. Two-legged ties use the default "legs" method. The ratings come from about a season and a half of matches and are treated as exact, so the chances are a little too sure of themselves. See [Known limits](#known-limits).</sub>
 
 ## What you can do
 
@@ -80,14 +80,14 @@ Title odds for the real 2025/26 Champions League pots (one draw, 10,000 replays)
 |---|---|
 | 🎱 **Run the draw** | With the real rules: 8 opponents per club (6 in the Conference League), never a club from the same country, at most 2 from any other country. |
 | 🎬 **Watch the ceremony** | Pot by pot, or skip straight to the result. |
-| ✏️ **Change the clubs** | Replace any club, ban a match you do not want (for example, Genk must not play at home against Brann), load pots from a file, or save your own. |
+| ✏️ **Change the clubs** | In "Draw only" mode: replace any club, swap two clubs between pots with Ctrl + click (Cmd + click on a Mac; a swap that makes the draw impossible is refused), ban a match you do not want (for example, Genk must not play at home against Brann), load pots from a file, or save your own. |
 | ⚽ **Play a full season** | League table, play-offs, knockout rounds and a final on neutral ground. Every match gets a real score; penalty shoot-outs are played kick by kick. |
 | 📈 **Follow the form** | A club that keeps winning gets stronger during the season. |
 | 🔁 **Replay it 10,000 times** | See, for each club, how often it reaches each round. |
 | 📄 **Read every detail** | A full report of every match, in the app and as a text file. |
 | 🌍 **Your way** | English or French, light or dark theme. |
 
-The real 2025/26 pots of all three competitions are already included.
+The real 2025/26 pots of all three competitions come as templates in `templates/2025_2026/`.
 
 ## How it works
 
@@ -95,7 +95,7 @@ The real 2025/26 pots of all three competitions are already included.
   <img src="assets/images/github/readme/how_it_works_en.svg" alt="How it works: real matches, club ratings, the draw, the season, repeat" width="100%">
 </p>
 
-1. **Real matches.** The app learns from about 5,300 real games of the 2024/25 season.
+1. **Real matches.** The app learns from about 4,600 real games of the 2024/25 season (friendlies left out).
 2. **Club ratings.** From those results, every club gets a strength score, called an Elo rating. Beating a strong club earns more than beating a weak one.
 3. **The draw.** The pots are drawn with the same rules UEFA uses.
 4. **The season.** For each match, the app turns the two clubs' ratings into chances (home win, draw, away win), then picks a result and a score.
@@ -174,28 +174,20 @@ All match data comes from [API-Football](https://www.api-football.com), on its f
 - A result depends only on the two clubs' ratings: no injuries, no players, no recent form before the season.
 - The score of a match does not depend on how much stronger the winner is.
 - The ratings are treated as exact, so the chances shown are a little too sure of themselves.
+- The default way of settling a two-legged tie ("legs") compares wins and draws, not goals: about 27 % of ties go to penalties, against about 10 % in the real data. The "aggregate" method, the real rule, gives about 6 %.
+- Hamrun Spartans (2025/26 Conference League template) has no match in the data and starts at the default rating, 1500.
 
-## Known bugs in version 1.0.2
+## Known bugs in version 1.1.0
 
-None of these stops the app from working. Each one is explained, with its fix, in [`model/docs/`](model/docs/README.md#known-bugs-all-in-one-place).
+None of these changes a result by much. Still open:
 
 | Bug | Effect |
 |---|---|
-| The real ratings use old competition weights (`coef_table.csv`), not those of `coefs.json` | European matches move ratings at the ceiling of 30; cup matches count half |
-| Friendlies are in the training data | The match model learns from 625 friendlies |
-| The app needs pandas through one import | It cannot run without pandas |
-| Extra-time goals count in the ratings but not in the simulation | 45 real matches are treated differently |
-| Capping at 6 goals happens before the result is decided | An 8-7 would become a 6-6 draw |
-| With several processes, custom ratings are ignored | Different counts with 1 and 2 processes |
-| A misspelt club alias fails silently | A wrong club could be matched |
-| The step limit in the matchdays is far too high | Rare draws take seconds instead of a fraction |
-| The log says "alphabetical order"; the real order is pot order | Wrong text in the log |
-| The penalties file says the first kicker wins 50 %; it is 51.3 % | Out-of-date text |
+| The second leg of the quarter-finals and semi-finals is given to a club by a coin toss; since 2025/26 UEFA gives it to the clubs ranked 1 to 4 (1 and 2 in the semi-finals) | Home advantage in the second leg sometimes goes to the wrong club |
+| The quarter-final bracket (`QF_BRACKET`: 1 v 8, 3 v 5, 2 v 7, 4 v 6) has not been checked against Annex B of the UEFA regulations | The path to the final may differ from UEFA's |
+| `datahandler/`: the season is typed by hand and the requests have no timeout | See [`datahandler/`](datahandler/README.md#known-problems) |
 
-**Fixed in the code in 1.0.2, but not rebuilt yet:**
-
-- The "home" column of the training data was always 0 (an empty "neutral venue" was read as "true"). The code is fixed, but `data/processed/match_features.csv` still has the old column.
-- The match model's exam was upside down (457 matches to train, 4,794 to test). It is now split by date, 60 % to train and 40 % to test, but `data/reference/predictor_weights.json` has not been retrained, so the odds above still come from the old run.
+The ten bugs of version 1.0.2 are fixed. The list, with each fix, is in the [changelog](CHANGELOG.md) and in [`model/docs/`](model/docs/README.md#known-bugs-all-in-one-place).
 
 ## Ideas for later
 

@@ -515,7 +515,7 @@ scikit-learn, pandas and numpy are imported **inside** the training function onl
 
 | Job | Done by |
 |---|---|
-| Building the training data (ratings before each match, result) | this project, `model/elo_score_updating_copy.py` |
+| Building the training data (ratings before each match, result) | this project, `model/elo_score_updating.py` |
 | Measuring the average and typical gap | scikit-learn, `StandardScaler` |
 | Finding the six numbers (rolling down the bowl, with the brake) | scikit-learn, `LogisticRegression(max_iter=1000)` |
 | The exam and the know-nothing comparison | this project, with scikit-learn's `log_loss` |
@@ -626,7 +626,7 @@ How each line works: [`code/predictor_code.md`](code/predictor_code.md).
 
 # Le modèle de match : d'un écart de notes à trois chances
 
-> Donne à ce modèle les notes de deux clubs, et il te rend trois chances : l'équipe à domicile gagne, c'est un nul, l'équipe à l'extérieur gagne. Il a appris à le faire à partir de 5 251 vrais matchs européens. Son vrai nom est **régression logistique multinomiale** ; à la section 7, tu sauras ce que veut dire chacun de ces mots.
+> Donnez à ce modèle les notes de deux clubs, et il vous rend trois chances : l'équipe à domicile gagne, c'est un nul, l'équipe à l'extérieur gagne. Il a appris à le faire à partir de 5 251 vrais matchs européens. Son vrai nom est **régression logistique multinomiale** ; à la section 7, vous saurez ce que veut dire chacun de ces mots.
 
 ## En bref
 
@@ -635,15 +635,15 @@ How each line works: [`code/predictor_code.md`](code/predictor_code.md).
 - **Où c'est utilisé :** avant chaque match simulé, pour décider à quel point chaque résultat est probable.
 - **Code :** `model/predictor.py`. Explication ligne par ligne : [`code/predictor_code.md`](code/predictor_code.md).
 
-**Comment lire cette page.** Les sections 1 à 14 racontent l'histoire avec des nombres que tu peux vérifier à la calculatrice ; rien de plus n'est nécessaire. Les sections 15 à 17 sont pour ceux qui travaillent sur le code.
+**Comment lire cette page.** Les sections 1 à 14 racontent l'histoire avec des nombres que vous pouvez vérifier à la calculatrice ; rien de plus n'est nécessaire. Les sections 15 à 17 sont pour ceux qui travaillent sur le code.
 
-**Avant de commencer**, il te faut seulement trois choses :
+**Avant de commencer**, il vous faut seulement trois choses :
 
-| Il te faut | Petit test | Sinon |
+| Il vous faut | Petit test | Sinon |
 |---|---|---|
 | savoir ce qu'est une note Elo | Un club noté 1800 joue un club noté 1700. Lequel est le plus fort, et de combien ? | [`elo.md`](elo.md), sections 2 et 3 |
 | les pourcentages | Une météo annonce « 70 % de chances de pluie ». Sur 10 jours comme celui-ci, combien devraient être pluvieux ? | [Maths is Fun : probabilité (en anglais)](https://www.mathsisfun.com/data/probability.html) |
-| la touche $e^x$ d'une calculatrice | Tape $e^1$ : environ 2.718 ? Tape $e^{-1}$ : environ 0.368 ? | [Maths is Fun : le nombre e (en anglais)](https://www.mathsisfun.com/numbers/e-eulers-number.html) |
+| la touche $e^x$ d'une calculatrice | Tapez $e^1$ : environ 2.718 ? Tapez $e^{-1}$ : environ 0.368 ? | [Maths is Fun : le nombre e (en anglais)](https://www.mathsisfun.com/numbers/e-eulers-number.html) |
 
 ---
 
@@ -687,7 +687,7 @@ Trois choses sautent aux yeux, et tout le modèle repose sur elles :
 
 1. **Plus l'équipe à domicile est forte, plus elle gagne** : de 16 % à 77 %.
 2. **Les nuls se moquent presque de l'écart.** Ils restent autour de 20 %, un peu moins quand un camp est bien plus fort.
-3. **Regarde la ligne du milieu.** Quand les clubs sont égaux, l'équipe à domicile gagne 45 % et celle à l'extérieur seulement 31 %. C'est l'**avantage du terrain**. Il revient à la section 9.
+3. **Regardez la ligne du milieu.** Quand les clubs sont égaux, l'équipe à domicile gagne 45 % et celle à l'extérieur seulement 31 %. C'est l'**avantage du terrain**. Il revient à la section 9.
 
 Pourquoi ne pas utiliser ce tableau tel quel ? Pour Arsenal-Atalanta (écart +67.76), on lirait la ligne « +50 à +100 » : 66 / 19 / 15. Pas mal, mais :
 
@@ -705,7 +705,7 @@ La ligne lisse la plus simple est une droite. La meilleure droite à travers la 
 
 $$\text{chance de victoire à domicile} = 0.459 + 0.00214 \times \text{écart}$$
 
-Lis-la comme une recette : partir de 45.9 %, puis ajouter 0.214 % par point d'écart.
+Lisez-la comme une recette : partir de 45.9 %, puis ajouter 0.214 % par point d'écart.
 
 | Écart | Ce que dit la droite |
 |---|---|
@@ -753,7 +753,7 @@ Deux règles vont avec :
 
 Voici l'astuce, en deux étapes. La première oublie complètement les chances.
 
-Imagine trois juges. Un défend « victoire à domicile », un « nul », un « victoire à l'extérieur ». Chaque juge regarde l'écart standardisé et annonce un **score** : n'importe quel nombre, grand, petit ou négatif. Un score plus grand veut dire « je crois davantage à mon résultat ».
+Imaginez trois juges. Un défend « victoire à domicile », un « nul », un « victoire à l'extérieur ». Chaque juge regarde l'écart standardisé et annonce un **score** : n'importe quel nombre, grand, petit ou négatif. Un score plus grand veut dire « je crois davantage à mon résultat ».
 
 Chaque juge utilise sa propre droite (une droite convient ici, car un score a le droit de valoir n'importe quoi) :
 
@@ -785,11 +785,11 @@ Le juge « domicile » est le plus bruyant. Logique : Arsenal sont plus forts et
 
 ### 6.1 L'idée évidente ne marche pas
 
-« Diviser chaque score par le total. » Essaie sur trois scores inventés, 2, −1 et 0.5. Le total vaut 1.5, donc les parts valent 133 %, −67 % et 33 %. Cassé : un score négatif donne une chance négative. Chaque score doit d'abord devenir **positif**, sans changer lequel est le plus grand.
+« Diviser chaque score par le total. » Essayez sur trois scores inventés, 2, −1 et 0.5. Le total vaut 1.5, donc les parts valent 133 %, −67 % et 33 %. Cassé : un score négatif donne une chance négative. Chaque score doit d'abord devenir **positif**, sans changer lequel est le plus grand.
 
 ### 6.2 La solution : passer d'abord par $e^x$
 
-La fonction $e^x$ (une touche de ta calculatrice) a deux propriétés utiles :
+La fonction $e^x$ (une touche de votre calculatrice) a deux propriétés utiles :
 
 - elle est **toujours positive** : $e^{2} = 7.389$, $e^{0} = 1$, $e^{-1} = 0.368$, $e^{-10} = 0.0000454$ ;
 - elle **garde l'ordre** : un score plus grand donne toujours un résultat plus grand.
@@ -821,7 +821,7 @@ C'est la prévision de la section 1. Tout le modèle tient en ces deux étapes :
 
 ### 6.4 Un fait étrange mais utile
 
-Ajoute 10 à chaque score (12, 9 et 10.5 au lieu de 2, −1 et 0.5), et softmax donne exactement les mêmes 78.6 %, 3.9 %, 17.5 %.
+Ajoutez 10 à chaque score (12, 9 et 10.5 au lieu de 2, −1 et 0.5), et softmax donne exactement les mêmes 78.6 %, 3.9 %, 17.5 %.
 
 Pourquoi ? Ajouter 10 à un score multiplie son $e^x$ par le même nombre ($e^{10}$), en haut et en bas de chaque fraction, donc cela s'annule. **Seules les différences entre scores comptent.** Le code s'en sert pour éviter un plantage : il soustrait le plus grand score aux trois avant d'utiliser $e^x$, car $e^{710}$ est trop grand pour qu'un ordinateur le stocke.
 
@@ -831,7 +831,7 @@ Pourquoi ? Ajouter 10 à un score multiplie son $e^x$ par le même nombre ($e^{1
 
 ### 7.1 « Régression logistique » : la version à deux résultats
 
-Imagine un sport sans nul, comme le tennis. Softmax n'a alors que deux scores à partager, et elle se simplifie en :
+Imaginez un sport sans nul, comme le tennis. Softmax n'a alors que deux scores à partager, et elle se simplifie en :
 
 $$\text{chance de victoire} = \frac{1}{1 + e^{-d}} \qquad d = \text{score « victoire »} - \text{score « défaite »}$$
 
@@ -923,7 +923,7 @@ Arsenal passent de 62 % à 55 % : les 7 % manquants, c'était le public.
 
 ## 10. D'où viennent les nombres ? L'apprentissage
 
-Les pentes et les valeurs de départ des juges t'ont été données. L'ordinateur les a **apprises** à partir des 5 251 matchs. Voici comment, sans maths avancées.
+Les pentes et les valeurs de départ des juges vous ont été données. L'ordinateur les a **apprises** à partir des 5 251 matchs. Voici comment, sans maths avancées.
 
 ### 10.1 Mesurer à quel point une prévision se trompe : la surprise
 
@@ -931,7 +931,7 @@ Le modèle donnait 62.2 % à Arsenal et Arsenal ont gagné : pas très surprenan
 
 $$\text{surprise} = -\ln(p)$$
 
-où $p$ est la chance que le modèle donnait à **ce qui s'est vraiment passé**, et $\ln$ est le « logarithme népérien », la touche qui annule $e^x$ (si $e^{a} = b$ alors $\ln b = a$). Regarde juste les nombres :
+où $p$ est la chance que le modèle donnait à **ce qui s'est vraiment passé**, et $\ln$ est le « logarithme népérien », la touche qui annule $e^x$ (si $e^{a} = b$ alors $\ln b = a$). Regardez juste les nombres :
 
 | Ce qui s'est passé | Le modèle avait dit | Surprise |
 |---|---:|---:|
@@ -949,7 +949,7 @@ Se tromper avec assurance est puni **beaucoup** plus fort qu'être un peu hésit
 
 Les six nombres des juges sont comme six boutons. S'entraîner veut dire : **tourner les boutons jusqu'à ce que la surprise moyenne sur les 5 251 matchs soit la plus petite possible.**
 
-On peut le voir. Prends le modèle entraîné, multiplie toutes les pentes par un facteur, et mesure la surprise moyenne à chaque fois :
+On peut le voir. Prenez le modèle entraîné, multiplie toutes les pentes par un facteur, et mesure la surprise moyenne à chaque fois :
 
 | Pentes multipliées par | Ce que devient le modèle | Surprise moyenne |
 |---:|---|---:|
@@ -1023,7 +1023,7 @@ Le match C (domicile plus fort de 20 points, finit sur un **nul**) à travers le
 
 - Jusqu'à l'écart standardisé, les deux sont identiques. La différence commence aux scores.
 - Le modèle à deux résultats apprend seulement que C n'était « pas une victoire à domicile ». Le modèle à trois résultats apprend que c'était un **nul** : son erreur sur le juge « nul » (−0.669) veut dire « le nul était trop bas », et les deux autres juges sont poussés vers le bas.
-- Les surprises (0.791 et 1.106) **ne se comparent pas** : une réponse au hasard obtient 0.693 avec deux résultats et 1.099 avec trois. Compare plutôt chaque modèle à sa propre réponse au hasard.
+- Les surprises (0.791 et 1.106) **ne se comparent pas** : une réponse au hasard obtient 0.693 avec deux résultats et 1.099 avec trois. Comparez plutôt chaque modèle à sa propre réponse au hasard.
 
 ---
 
@@ -1080,11 +1080,11 @@ $u = 0.41$ donne une victoire d'Arsenal, $u = 0.70$ un nul, $u = 0.93$ une victo
 
 Le gain paraît petit, mais le football est l'un des sports les plus aléatoires : peu de buts, beaucoup de nuls, beaucoup de chance. Battre celui qui ne sait rien prouve déjà que les notes contiennent une vraie information.
 
-**« 62 % », est-ce vraiment 62 % ?** Prends tous les matchs où le modèle annonçait « entre 65 % et 80 % de victoire à domicile » : il annonçait 73 % en moyenne, et l'équipe à domicile a vraiment gagné 66.7 %. Quand il donnait moins de 20 % à l'équipe à domicile, elle a gagné 16.7 % au lieu de 13.2 %. Le modèle est donc **un peu trop sûr de lui aux deux bouts** : les outsiders gagnent un peu plus souvent qu'il ne le croit. Vérifier cela s'appelle le **calibrage**.
+**« 62 % », est-ce vraiment 62 % ?** Prenez tous les matchs où le modèle annonçait « entre 65 % et 80 % de victoire à domicile » : il annonçait 73 % en moyenne, et l'équipe à domicile a vraiment gagné 66.7 %. Quand il donnait moins de 20 % à l'équipe à domicile, elle a gagné 16.7 % au lieu de 13.2 %. Le modèle est donc **un peu trop sûr de lui aux deux bouts** : les outsiders gagnent un peu plus souvent qu'il ne le croit. Vérifier cela s'appelle le **calibrage**.
 
 ---
 
-## 14. À essayer toi-même
+## 14. À essayer vous-même
 
 Tout le modèle en Python simple, avec les vrais nombres de `predictor_weights.json`. Aucune bibliothèque à installer.
 
@@ -1114,7 +1114,7 @@ Résultat :
 {'away': 0.316, 'draw': 0.226, 'home': 0.457}
 ```
 
-Deux clubs égaux, et l'équipe à domicile reste favorite : c'est l'avantage du terrain de la section 9. Essaie de mettre toutes les pentes à 0 : chaque match reçoit alors la même prévision, quelles que soient les notes. Essaie d'ajouter 5 à chaque valeur de départ : rien ne change (section 6.4).
+Deux clubs égaux, et l'équipe à domicile reste favorite : c'est l'avantage du terrain de la section 9. Essayez de mettre toutes les pentes à 0 : chaque match reçoit alors la même prévision, quelles que soient les notes. Essayez d'ajouter 5 à chaque valeur de départ : rien ne change (section 6.4).
 
 ---
 
@@ -1139,7 +1139,7 @@ scikit-learn, pandas et numpy sont importés **à l'intérieur** de la fonction 
 
 | Tâche | Faite par |
 |---|---|
-| Construire les données d'entraînement (notes avant chaque match, résultat) | ce projet, `model/elo_score_updating_copy.py` |
+| Construire les données d'entraînement (notes avant chaque match, résultat) | ce projet, `model/elo_score_updating.py` |
 | Mesurer l'écart moyen et typique | scikit-learn, `StandardScaler` |
 | Trouver les six nombres (descendre le bol, avec le frein) | scikit-learn, `LogisticRegression(max_iter=1000)` |
 | L'examen et la comparaison avec celui qui ne sait rien | ce projet, avec `log_loss` de scikit-learn |

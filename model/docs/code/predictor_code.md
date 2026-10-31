@@ -316,7 +316,7 @@ class PredictorError(Exception):
 
 # `predictor.py`, ligne par ligne
 
-> Cette page explique le code du modèle de match. Pour l'idée (écart standardisé, trois juges, softmax, entraînement), lis d'abord [`../logistic_regression.md`](../logistic_regression.md#le-modèle-de-match--dun-écart-de-notes-à-trois-chances).
+> Cette page explique le code du modèle de match. Pour l'idée (écart standardisé, trois juges, softmax, entraînement), lisez d'abord [`../logistic_regression.md`](../logistic_regression.md#le-modèle-de-match--dun-écart-de-notes-à-trois-chances).
 
 ## Comment lire cette page
 

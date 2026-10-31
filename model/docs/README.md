@@ -19,7 +19,7 @@ Start with the idea page of a part, then open its code page if you want the deta
 
 | # | Idea page | What it answers | Code page | Main file |
 |---|---|---|---|---|
-| 1 | [`elo.md`](elo.md) | How strong is each club? One number per club, learnt from 5 300 real matches | [`code/elo_code.md`](code/elo_code.md) | `elo_score_updating_copy.py` |
+| 1 | [`elo.md`](elo.md) | How strong is each club? One number per club, learnt from 5 300 real matches | [`code/elo_code.md`](code/elo_code.md) | `elo_score_updating.py` |
 | 2 | [`logistic_regression.md`](logistic_regression.md) | Given two ratings, what are the chances of a home win, a draw and an away win? | [`code/predictor_code.md`](code/predictor_code.md) | `predictor.py` |
 | 3 | [`draw.md`](draw.md) | Who plays whom in the league phase? | [`code/draw_code.md`](code/draw_code.md) | `draw_ucl.py`, `draw_uecl.py` |
 | 4 | [`matchdays.md`](matchdays.md) | Which match is played on which day? | [`code/matchdays_code.md`](code/matchdays_code.md) | `matchdays_ucl.py`, `matchdays_uecl.py` |
@@ -92,20 +92,20 @@ Each idea is explained the first time it is needed. This table says where.
 
 ## Known bugs, all in one place
 
-None of these is fixed yet; each page explains the fix.
+All ten were fixed in version 1.1.0. Each page's "Known bugs" section says how, and lists what is still open.
 
-| Page | Bug | Effect |
+| Page | Bug (before 1.1.0) | Fix |
 |---|---|---|
-| [`elo.md`](elo.md) | The real ratings use old competition weights from `coef_table.csv`, not those of `coefs.json` | European matches move ratings at the ceiling of 30; cup matches count half |
-| [`elo.md`](elo.md) | Friendlies are in the training data | The match model learns from 625 friendlies |
-| [`match_engine.md`](match_engine.md) | The app needs pandas through one import | It cannot run without pandas |
-| [`extra_time.md`](extra_time.md) | Extra-time goals count in the ratings but not in the simulation | 45 real matches treated differently |
-| [`penalties.md`](penalties.md) | The file's description says the first kicker wins 50 %; it is 51.3 % | Out-of-date text |
-| [`scorelines.md`](scorelines.md) | Capping at 6 goals happens before the result is decided | An 8-7 would become a 6-6 draw |
-| [`league_phase.md`](league_phase.md) | The log says "alphabetical order"; the real order is pot order | Wrong text in the log |
-| [`matchdays.md`](matchdays.md) | The step limit is far too high | Rare draws take seconds instead of a fraction |
-| [`names.md`](names.md) | A misspelt alias fails silently | A wrong club could be matched |
-| [`monte_carlo.md`](monte_carlo.md) | With several processes, custom ratings are ignored | Different counts with 1 and 2 processes |
+| [`elo.md`](elo.md) | The real ratings used old competition weights from `coef_table.csv` | `coef_table.csv` rebuilt from `coefs.json`; ratings recomputed, match model retrained |
+| [`elo.md`](elo.md) | Friendlies were in the training data (625 played) | Competitions with `comp_mult` 0 are skipped |
+| [`match_engine.md`](match_engine.md) | "The app needs pandas" | Not reproduced: pandas is only imported inside `run()` |
+| [`extra_time.md`](extra_time.md) | Extra-time goals counted in the ratings but not in the simulation | Both use the 90-minute score, then 0.8 / 0.2 after extra time and 0.7 / 0.3 after penalties |
+| [`penalties.md`](penalties.md) | The description said the first kicker wins 50 % | Text updated: 51.3 % |
+| [`scorelines.md`](scorelines.md) | Capping at 6 happened before deciding the result | Result read first: 8-7 becomes 6-5 |
+| [`league_phase.md`](league_phase.md) | The log said "alphabetical order" | It says "kept in pot order" |
+| [`matchdays.md`](matchdays.md) | The step limit was far too high | 5 000 instead of 200 000: slowest schedule 0.37 s instead of 8.8 s |
+| [`names.md`](names.md) | A misspelt alias failed silently | The alias is searched first and flagged; the simulation warns |
+| [`monte_carlo.md`](monte_carlo.md) | Custom ratings were ignored with several processes | The processes receive the same ratings: identical counts with 1 and 2 |
 
 ---
 
@@ -127,7 +127,7 @@ None of these is fixed yet; each page explains the fix.
 | **Pages d'idées** | ce dossier | toute personne curieuse, sans savoir programmer | ce que fait la partie, pourquoi, un exemple complet avec de vrais nombres, un petit programme Python à essayer, les modules utilisés, les limites connues |
 | **Pages de code** | [`code/`](code/) | ceux qui lisent ou modifient le code | le vrai code, quelques lignes à la fois, avec ce que fait chaque ligne et pourquoi |
 
-Commence par la page d'idées d'une partie, puis ouvre sa page de code si tu veux les détails.
+Commencez par la page d'idées d'une partie, puis ouvrez sa page de code si vous voulez les détails.
 
 ---
 
@@ -135,7 +135,7 @@ Commence par la page d'idées d'une partie, puis ouvre sa page de code si tu veu
 
 | # | Page d'idées | La question | Page de code | Fichier principal |
 |---|---|---|---|---|
-| 1 | [`elo.md`](elo.md) | Quelle est la force de chaque club ? Un nombre par club, appris sur 5 300 vrais matchs | [`code/elo_code.md`](code/elo_code.md) | `elo_score_updating_copy.py` |
+| 1 | [`elo.md`](elo.md) | Quelle est la force de chaque club ? Un nombre par club, appris sur 5 300 vrais matchs | [`code/elo_code.md`](code/elo_code.md) | `elo_score_updating.py` |
 | 2 | [`logistic_regression.md`](logistic_regression.md) | Avec deux notes, quelles sont les chances de victoire à domicile, de nul et de victoire à l'extérieur ? | [`code/predictor_code.md`](code/predictor_code.md) | `predictor.py` |
 | 3 | [`draw.md`](draw.md) | Qui joue contre qui en phase de ligue ? | [`code/draw_code.md`](code/draw_code.md) | `draw_ucl.py`, `draw_uecl.py` |
 | 4 | [`matchdays.md`](matchdays.md) | Quel match se joue quel jour ? | [`code/matchdays_code.md`](code/matchdays_code.md) | `matchdays_ucl.py`, `matchdays_uecl.py` |
@@ -191,7 +191,7 @@ L'appli elle-même, quand elle simule, n'a besoin que des modules de Python, plu
 
 ---
 
-## Si un mot te bloque
+## Si un mot vous bloque
 
 Chaque idée est expliquée la première fois qu'on en a besoin. Ce tableau dit où.
 
@@ -208,19 +208,19 @@ Chaque idée est expliquée la première fois qu'on en a besoin. Ce tableau dit 
 
 ## Les bugs connus, au même endroit
 
-Aucun n'est encore corrigé ; chaque page explique la correction.
+Les dix ont été corrigés dans la version 1.1.0. La partie « Bugs connus » de chaque page explique comment, et liste ce qui reste ouvert.
 
-| Page | Bug | Effet |
+| Page | Bug (avant la 1.1.0) | Correction |
 |---|---|---|
-| [`elo.md`](elo.md) | Les vraies notes utilisent d'anciens poids de compétition venant de `coef_table.csv`, pas ceux de `coefs.json` | Les matchs européens font bouger les notes au plafond de 30 ; les matchs de coupe comptent moitié moins |
-| [`elo.md`](elo.md) | Les amicaux sont dans les données d'entraînement | Le modèle de match apprend à partir de 625 amicaux |
-| [`match_engine.md`](match_engine.md) | L'appli a besoin de pandas à cause d'un import | Elle ne peut pas tourner sans pandas |
-| [`extra_time.md`](extra_time.md) | Les buts de prolongation comptent dans les notes mais pas dans la simulation | 45 vrais matchs traités différemment |
-| [`penalties.md`](penalties.md) | La description du fichier dit que le premier tireur gagne 50 % ; c'est 51.3 % | Texte périmé |
-| [`scorelines.md`](scorelines.md) | Le plafond à 6 buts est appliqué avant de décider du résultat | Un 8-7 deviendrait un nul 6-6 |
-| [`league_phase.md`](league_phase.md) | Le journal dit « ordre alphabétique » ; le vrai ordre est celui des chapeaux | Texte faux dans le journal |
-| [`matchdays.md`](matchdays.md) | La limite de pas est bien trop haute | De rares tirages prennent des secondes au lieu d'une fraction |
-| [`names.md`](names.md) | Un alias mal écrit échoue en silence | Un mauvais club pourrait être choisi |
-| [`monte_carlo.md`](monte_carlo.md) | Avec plusieurs processus, les notes personnalisées sont ignorées | Comptes différents avec 1 et 2 processus |
+| [`elo.md`](elo.md) | Les vraies notes utilisaient d'anciens poids de compétition venant de `coef_table.csv` | `coef_table.csv` reconstruit à partir de `coefs.json` ; notes recalculées, modèle de match réentraîné |
+| [`elo.md`](elo.md) | Les amicaux étaient dans les données d'entraînement (625 joués) | Les compétitions avec un `comp_mult` de 0 sont écartées |
+| [`match_engine.md`](match_engine.md) | « L'appli a besoin de pandas » | Non reproduit : pandas n'est importé qu'à l'intérieur de `run()` |
+| [`extra_time.md`](extra_time.md) | Les buts de prolongation comptaient dans les notes mais pas dans la simulation | Les deux utilisent le score après 90 minutes, puis 0.8 / 0.2 après prolongation et 0.7 / 0.3 après tirs au but |
+| [`penalties.md`](penalties.md) | La description disait que le premier tireur gagne 50 % | Texte mis à jour : 51.3 % |
+| [`scorelines.md`](scorelines.md) | Le plafond à 6 buts était appliqué avant de décider du résultat | Résultat lu d'abord : 8-7 devient 6-5 |
+| [`league_phase.md`](league_phase.md) | Le journal disait « ordre alphabétique » | Il dit « kept in pot order » (ordre des chapeaux) |
+| [`matchdays.md`](matchdays.md) | La limite de pas était bien trop haute | 5 000 au lieu de 200 000 : calendrier le plus lent en 0,37 s au lieu de 8,8 s |
+| [`names.md`](names.md) | Un alias mal écrit échouait en silence | L'alias est cherché en premier et signalé ; la simulation prévient |
+| [`monte_carlo.md`](monte_carlo.md) | Les notes personnalisées étaient ignorées avec plusieurs processus | Les processus reçoivent les mêmes notes : comptes identiques avec 1 et 2 |
 
 ---

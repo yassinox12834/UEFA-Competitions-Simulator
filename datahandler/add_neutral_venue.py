@@ -1,20 +1,29 @@
-from uefa.config import PROCESSED_DIR
-import numpy as np
+"""Mark finals as played on neutral ground, in fixtures_25.csv itself.
+
+    python -m datahandler.add_neutral_venue
+
+build_fixtures_csv.py already does this. The script is kept for a CSV
+built before it did: it adds the column, or refreshes it, in place, and
+running it twice changes nothing. (It used to read fixtures.csv and write
+fixtures_updated.csv, neither of which the rest of the pipeline uses.)
+"""
+
 import pandas as pd
 
-link = PROCESSED_DIR / "fixtures.csv"
-df = pd.read_csv(link)
+from uefa.config import FIXTURES_CSV
 
-# 1. Create a conditional array for all rows
-# If the round is 'Final', set to True. Otherwise, set to an empty string ''.
-neutral_values = np.where(df["round"] == "Final", True, "")
 
-# 2. Insert 'neutral_venue' right between 'away_team' and 'home_goals' (index 12)
-# This populates the entire column automatically based on the rule above
-df.insert(loc=12, column="neutral_venue", value=neutral_values)
+def main():
+    df = pd.read_csv(FIXTURES_CSV)
+    neutral = df["round"].eq("Final").map({True: True, False: None})
+    if "neutral_venue" in df.columns:
+        df["neutral_venue"] = neutral
+    else:
+        df.insert(loc=df.columns.get_loc("away_team") + 1,
+                  column="neutral_venue", value=neutral)
+    df.to_csv(FIXTURES_CSV, index=False)
+    print(f"{int(neutral.notna().sum())} finals marked neutral in {FIXTURES_CSV}")
 
-# 3. Save the modified DataFrame
-output_filename = PROCESSED_DIR / "fixtures_updated.csv"
-df.to_csv(output_filename, index=False)
 
-print(f"Success! Scaled to all rows and saved as: {output_filename}")
+if __name__ == "__main__":
+    main()

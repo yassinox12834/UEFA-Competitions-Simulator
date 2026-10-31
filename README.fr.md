@@ -57,22 +57,22 @@ Elle fait le tirage avec les vraies règles de l'UEFA, joue chaque match de la s
 
 ## Ce que dit le modèle
 
-Chances de gagner le titre avec les vrais chapeaux 2025/26 de la Ligue des champions (un tirage, 10 000 rejeux) :
+Chances de gagner le titre avec les vrais chapeaux 2025/26 de la Ligue des champions (un tirage, 10 000 rejeux, version 1.1.0) :
 
 | # | Club | 8 premiers | Quarts | Finale | Titre |
 |---|---|---|---|---|---|
-| 1 | Paris Saint-Germain | 73 % | 73 % | 35 % | 21,7 % |
-| 2 | Barcelona | 64 % | 67 % | 29 % | 16,4 % |
-| 3 | Inter Milan | 61 % | 61 % | 21 % | 10,0 % |
-| 4 | Bayern Munich | 46 % | 53 % | 17 % | 8,8 % |
-| 5 | Liverpool | 49 % | 51 % | 15 % | 7,3 % |
-| 6 | Real Madrid | 53 % | 48 % | 12 % | 5,8 % |
-| 7 | Arsenal | 41 % | 43 % | 11 % | 5,1 % |
-| 8 | Atlético Madrid | 39 % | 39 % | 8 % | 3,8 % |
-| 9 | Aston Villa | 25 % | 33 % | 8 % | 3,5 % |
-| 10 | Benfica | 39 % | 35 % | 6 % | 2,6 % |
+| 1 | Barcelona | 68 % | 70 % | 33 % | 20,2 % |
+| 2 | Paris Saint-Germain | 67 % | 70 % | 33 % | 20,0 % |
+| 3 | Bayern Munich | 55 % | 54 % | 17 % | 8,2 % |
+| 4 | Inter Milan | 49 % | 50 % | 15 % | 7,5 % |
+| 5 | Liverpool | 46 % | 46 % | 13 % | 6,5 % |
+| 6 | Real Madrid | 42 % | 41 % | 10 % | 4,5 % |
+| 7 | Arsenal | 37 % | 37 % | 9 % | 3,9 % |
+| 8 | Chelsea | 27 % | 33 % | 8 % | 3,8 % |
+| 9 | Benfica | 30 % | 34 % | 8 % | 3,5 % |
+| 10 | Sporting CP | 33 % | 35 % | 8 % | 3,5 % |
 
-<sub>Un seul tirage (graine 1) : un autre tirage déplace un club d'un point ou deux. Les notes viennent d'environ une saison et demie de matchs et sont traitées comme exactes, donc les chances affichées sont un peu trop sûres d'elles. Voir [Limites connues](#limites-connues).</sub>
+<sub>Un seul tirage (graine 1, chapeaux de `templates/2025_2026/`) : un autre tirage déplace un club d'un point ou deux. Les confrontations aller-retour utilisent la méthode par défaut, « legs ». Les notes viennent d'environ une saison et demie de matchs et sont traitées comme exactes, donc les chances affichées sont un peu trop sûres d'elles. Voir [Limites connues](#limites-connues).</sub>
 
 ## Ce que vous pouvez faire
 
@@ -80,14 +80,14 @@ Chances de gagner le titre avec les vrais chapeaux 2025/26 de la Ligue des champ
 |---|---|
 | 🎱 **Faire le tirage** | Avec les vraies règles : 8 adversaires par club (6 en Ligue Conférence), jamais un club du même pays, au plus 2 d'un même autre pays. |
 | 🎬 **Regarder la cérémonie** | Chapeau par chapeau, ou directement le résultat. |
-| ✏️ **Changer les clubs** | Remplacer n'importe quel club, interdire un match (par exemple, Genk ne doit pas recevoir Brann), charger des chapeaux depuis un fichier, ou enregistrer les vôtres. |
+| ✏️ **Changer les clubs** | En mode « Tirage seul » : remplacer n'importe quel club, échanger deux clubs de chapeau avec Ctrl + clic (Cmd + clic sur Mac ; un échange qui rendrait le tirage impossible est refusé), interdire un match (par exemple, Genk ne doit pas recevoir Brann), charger des chapeaux depuis un fichier, ou enregistrer les vôtres. |
 | ⚽ **Jouer une saison complète** | Classement, barrages, phases finales et une finale sur terrain neutre. Chaque match a un vrai score ; les tirs au but sont joués tir par tir. |
 | 📈 **Suivre la forme** | Un club qui gagne souvent devient plus fort pendant la saison. |
 | 🔁 **La rejouer 10 000 fois** | Voir, pour chaque club, à quelle fréquence il atteint chaque tour. |
 | 📄 **Lire chaque détail** | Un compte rendu complet de chaque match, dans l'application et dans un fichier texte. |
 | 🌍 **À votre façon** | Anglais ou français, thème clair ou sombre. |
 
-Les vrais chapeaux 2025/26 des trois compétitions sont déjà inclus.
+Les vrais chapeaux 2025/26 des trois compétitions sont fournis comme modèles dans `templates/2025_2026/`.
 
 ## Comment ça marche
 
@@ -95,7 +95,7 @@ Les vrais chapeaux 2025/26 des trois compétitions sont déjà inclus.
   <img src="assets/images/github/readme/how_it_works_fr.svg" alt="Comment ça marche : vrais matchs, notes des clubs, tirage, saison, on recommence" width="100%">
 </p>
 
-1. **Vrais matchs.** L'application apprend à partir d'environ 5 300 vrais matchs de la saison 2024/25.
+1. **Vrais matchs.** L'application apprend à partir d'environ 4 600 vrais matchs de la saison 2024/25 (amicaux exclus).
 2. **Notes des clubs.** À partir de ces résultats, chaque club reçoit une note de force, appelée note Elo. Battre un club fort rapporte plus que battre un club faible.
 3. **Le tirage.** Les chapeaux sont tirés avec les mêmes règles que l'UEFA.
 4. **La saison.** Pour chaque match, l'application transforme les notes des deux clubs en chances (victoire à domicile, nul, victoire à l'extérieur), puis choisit un résultat et un score.
@@ -174,28 +174,20 @@ Toutes les données de matchs viennent d'[API-Football](https://www.api-football
 - Un résultat ne dépend que des notes des deux clubs : pas de blessures, pas de joueurs, pas de forme récente avant la saison.
 - Le score d'un match ne dépend pas de l'écart de force entre les deux clubs.
 - Les notes sont considérées comme exactes, donc les chances affichées sont un peu trop sûres d'elles.
+- La façon de trancher une confrontation aller-retour par défaut (« legs ») compare les victoires et les nuls, pas les buts : environ 27 % des confrontations vont aux tirs au but, contre environ 10 % dans les vraies données. La méthode « aggregate », la vraie règle, en donne environ 6 %.
+- Hamrun Spartans (modèle 2025/26 de la Ligue Conférence) n'a aucun match dans les données et part de la note par défaut, 1500.
 
-## Bugs connus de la version 1.0.2
+## Bugs connus de la version 1.1.0
 
-Aucun n'empêche l'application de fonctionner. Chacun est expliqué, avec sa correction, dans [`model/docs/`](model/docs/README.md#les-bugs-connus-au-m%C3%AAme-endroit).
+Aucun ne change beaucoup un résultat. Restent ouverts :
 
 | Bug | Effet |
 |---|---|
-| Les vraies notes utilisent d'anciens poids de compétition (`coef_table.csv`), pas ceux de `coefs.json` | Les matchs européens font bouger les notes au plafond de 30 ; les matchs de coupe comptent moitié moins |
-| Les amicaux sont dans les données d'entraînement | Le modèle de match apprend à partir de 625 amicaux |
-| L'appli a besoin de pandas à cause d'un import | Elle ne peut pas tourner sans pandas |
-| Les buts de prolongation comptent dans les notes mais pas dans la simulation | 45 vrais matchs sont traités différemment |
-| Le plafond à 6 buts est appliqué avant de décider du résultat | Un 8-7 deviendrait un nul 6-6 |
-| Avec plusieurs processus, les notes personnalisées sont ignorées | Comptes différents avec 1 et 2 processus |
-| Un alias de club mal écrit échoue en silence | Un mauvais club pourrait être choisi |
-| La limite de pas des journées est bien trop haute | De rares tirages prennent des secondes au lieu d'une fraction |
-| Le journal dit « ordre alphabétique » ; le vrai ordre est celui des chapeaux | Texte faux dans le journal |
-| Le fichier des tirs au but dit que le premier tireur gagne 50 % ; c'est 51.3 % | Texte périmé |
+| Le match retour des quarts et des demies est donné à un club à pile ou face ; depuis 2025/26, l'UEFA le donne aux clubs classés 1 à 4 (1 et 2 en demies) | L'avantage du terrain au retour va parfois au mauvais club |
+| Le tableau des quarts (`QF_BRACKET` : 1-8, 3-5, 2-7, 4-6) n'a pas été vérifié avec l'annexe B du règlement de l'UEFA | Le chemin vers la finale peut différer de celui de l'UEFA |
+| `datahandler/` : la saison est écrite à la main et les requêtes n'ont pas de délai maximum | Voir [`datahandler/`](datahandler/README.md#problèmes-connus) |
 
-**Corrigés dans le code en 1.0.2, mais pas encore recalculés :**
-
-- La colonne « domicile » des données d'entraînement valait toujours 0 (un « terrain neutre » vide était lu comme « vrai »). Le code est corrigé, mais `data/processed/match_features.csv` a encore l'ancienne colonne.
-- L'examen du modèle de match était à l'envers (457 matchs pour s'entraîner, 4 794 pour l'examen). Le découpage se fait maintenant par date, 60 % pour s'entraîner et 40 % pour l'examen, mais `data/reference/predictor_weights.json` n'a pas été ré-entraîné : les chances ci-dessus viennent donc encore de l'ancien calcul.
+Les dix bugs de la version 1.0.2 sont corrigés. La liste, avec chaque correction, est dans le [journal des modifications](CHANGELOG.md) et dans [`model/docs/`](model/docs/README.md#les-bugs-connus-au-m%C3%AAme-endroit).
 
 ## Idées pour la suite
 

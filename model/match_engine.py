@@ -18,7 +18,7 @@ this order, and nowhere else:
 The league phase and the knockout rounds both call play(); they differ
 only in what they do with the Match objects it returns.
 
-Elo, with every symbol (same formulas as elo_score_updating_copy.py):
+Elo, with every symbol (same formulas as elo_score_updating.py):
 
     E_A = 1 / (1 + 10^((R_B - R_A) / 400))    expected score of A
     S_A = 1 / 0.5 / 0                         actual: win / draw / loss

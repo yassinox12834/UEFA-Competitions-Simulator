@@ -44,7 +44,7 @@ Most clubs are found here. In the Champions League, 27 of the 36 clubs are.
 
 Some names have nothing in common. "Red Star Belgrade" (English) and "FK Crvena Zvezda" (Serbian) do not share a single word. No rule could guess that they are the same club.
 
-So the code keeps a small list, written by hand, of pairs that mean the same club. It is called the **alias list** (an alias is another name for the same thing). It has 12 pairs, for example:
+So the code keeps a small list, written by hand, of pairs that mean the same club. It is called the **alias list** (an alias is another name for the same thing). It has 18 pairs, for example:
 
 | In the pots | In the ratings file |
 |---|---|
@@ -207,8 +207,8 @@ Today, tries 3 and 4 are never needed for the clubs that come with the app: ever
 
 ### Known bugs
 
-- **A misspelt alias fails silently.** If someone writes a wrong name on the right side of the alias list, the code does not complain: it moves on to tries 3 and 4, which may find another club. Better: stop and say "this alias is broken".
-- **One useless alias.** "Bodo/Glimt" points to "Bodo/Glimt", itself. Try 1 always finds it first.
+- **Fixed in 1.1.0: a misspelt alias failed silently.** The alias itself is now searched first, then the club's name, and the result is labelled `alias-normalised` or `alias-fuzzy`; the simulation adds a warning that says the alias needs fixing.
+- **Fixed in 1.1.0: one useless alias** ("Bodo/Glimt" pointing to itself) is removed. Seven aliases are added for the 2025/26 templates, among them "Newcastle United": the fuzzy score against "Newcastle" is only 0.72, so Newcastle used to start at the default 1500.
 
 ---
 
@@ -256,7 +256,7 @@ Le projet utilise deux listes de clubs écrites par des personnes différentes.
 
 Un ordinateur est très strict. Pour lui, « Bayern Munich » et « Bayern München » sont deux textes différents, donc il croirait que le Bayern n'a pas de note du tout.
 
-Imagine une école avec deux listes de classe. Un professeur a écrit « Mo Salah », l'autre « Mohamed Salah ». Une personne voit tout de suite que c'est le même élève. Un ordinateur a besoin de règles pour le voir.
+Imaginez une école avec deux listes de classe. Un professeur a écrit « Mo Salah », l'autre « Mohamed Salah ». Une personne voit tout de suite que c'est le même élève. Un ordinateur a besoin de règles pour le voir.
 
 Cette partie du code est le seul endroit du projet où les deux orthographes se rencontrent.
 
@@ -278,7 +278,7 @@ La plupart des clubs sont trouvés ici. En Ligue des champions, 27 clubs sur 36.
 
 Certains noms n'ont rien en commun. « Red Star Belgrade » (anglais) et « FK Crvena Zvezda » (serbe) n'ont pas un seul mot en commun. Aucune règle ne pourrait deviner que c'est le même club.
 
-Le code garde donc une petite liste, écrite à la main, de paires qui désignent le même club. On l'appelle la **liste d'alias** (un alias est un autre nom pour la même chose). Elle contient 12 paires, par exemple :
+Le code garde donc une petite liste, écrite à la main, de paires qui désignent le même club. On l'appelle la **liste d'alias** (un alias est un autre nom pour la même chose). Elle contient 18 paires, par exemple :
 
 | Dans les chapeaux | Dans le fichier de notes |
 |---|---|
@@ -339,7 +339,7 @@ Le club n'est pas retiré. Il commence la simulation avec une note moyenne de **
 
 ## 3. Un exemple complet
 
-Imagine que le fichier de notes ne contienne que quatre noms : « Bayern München », « FC Copenhagen », « Real Madrid », « FC Porto ». Voici ce qui arrive à cinq clubs des chapeaux :
+Imaginez que le fichier de notes ne contienne que quatre noms : « Bayern München », « FC Copenhagen », « Real Madrid », « FC Porto ». Voici ce qui arrive à cinq clubs des chapeaux :
 
 | Club des chapeaux | Essai 1 : exact | Essai 2 : alias | Essai 3 : nettoyé | Résultat |
 |---|---|---|---|---|
@@ -353,7 +353,7 @@ Imagine que le fichier de notes ne contienne que quatre noms : « Bayern Münche
 
 ## 4. À essayer en Python
 
-Ce petit programme fait les mêmes quatre essais, avec seulement les outils fournis avec Python. Tu peux le copier et le lancer.
+Ce petit programme fait les mêmes quatre essais, avec seulement les outils fournis avec Python. Vous pouvez le copier et le lancer.
 
 ```python
 import difflib
@@ -399,7 +399,7 @@ Racing Casablanca -> ('Raja Casablanca', 'close (0.81)')
 Man City -> (None, 'missing')
 ```
 
-Regarde « Racing Casablanca » : il a été relié à « Raja Casablanca », qui est un **autre club**. C'est le point faible de l'essai 4 (section 6).
+Regardez « Racing Casablanca » : il a été relié à « Raja Casablanca », qui est un **autre club**. C'est le point faible de l'essai 4 (section 6).
 
 ---
 
@@ -441,8 +441,8 @@ Aujourd'hui, les essais 3 et 4 ne servent jamais pour les clubs fournis avec l'a
 
 ### Bugs connus
 
-- **Un alias mal écrit échoue sans bruit.** Si quelqu'un écrit un mauvais nom à droite dans la liste d'alias, le code ne se plaint pas : il passe aux essais 3 et 4, qui peuvent trouver un autre club. Mieux : s'arrêter et dire « cet alias est cassé ».
-- **Un alias inutile.** « Bodo/Glimt » pointe vers « Bodo/Glimt », lui-même. L'essai 1 le trouve toujours avant.
+- **Corrigé en 1.1.0 : un alias mal écrit échouait sans bruit.** L'alias lui-même est maintenant cherché en premier, puis le nom du club, et le résultat est étiqueté `alias-normalised` ou `alias-fuzzy` ; la simulation ajoute un avertissement qui dit que l'alias est à corriger.
+- **Corrigé en 1.1.0 : un alias inutile** (« Bodo/Glimt » qui pointait vers lui-même) est retiré. Sept alias sont ajoutés pour les modèles 2025/26, dont « Newcastle United » : son score de ressemblance avec « Newcastle » n'est que de 0.72, donc Newcastle partait à la note par défaut de 1500.
 
 ---
 

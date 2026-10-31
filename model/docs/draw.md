@@ -349,7 +349,7 @@ Combien de matchs ? 36 clubs × 8 matchs = 288, mais chaque match est compté de
 
 Ça a l'air facile : choisir des adversaires au hasard jusqu'à ce que chacun en ait 8. Mais les règles se gênent entre elles.
 
-Imagine que la plupart des matchs sont déjà tirés. Barcelone a encore besoin d'un adversaire du chapeau 2, à l'extérieur. Les seuls clubs du chapeau 2 qui ont encore besoin d'un match à domicile contre le chapeau 1 sont l'Atlético Madrid (espagnol, donc interdit) et un club que Barcelone joue déjà. **Impasse.** Il faut alors remettre en question les choix d'avant.
+Imaginez que la plupart des matchs sont déjà tirés. Barcelone a encore besoin d'un adversaire du chapeau 2, à l'extérieur. Les seuls clubs du chapeau 2 qui ont encore besoin d'un match à domicile contre le chapeau 1 sont l'Atlético Madrid (espagnol, donc interdit) et un club que Barcelone joue déjà. **Impasse.** Il faut alors remettre en question les choix d'avant.
 
 Et essayer tous les tirages possibles est hors de question. Un calcul grossier donne environ un 1 suivi de **89 zéros** façons possibles d'associer les clubs. Même un ordinateur qui vérifierait un milliard de tirages par seconde aurait besoin de bien plus que l'âge de l'univers.
 
@@ -503,7 +503,7 @@ Sevilla hosts Napoli
 12 games
 ```
 
-Remplace `random.Random(1)` par `random.Random(2)` : tu obtiens un autre tirage valide. Le même nombre donne toujours le même tirage ; ce nombre s'appelle la **graine** (*seed*).
+Remplacez `random.Random(1)` par `random.Random(2)` : vous obtenez un autre tirage valide. Le même nombre donne toujours le même tirage ; ce nombre s'appelle la **graine** (*seed*).
 
 ---
 

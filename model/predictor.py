@@ -28,9 +28,9 @@ The maths, with every symbol:
     p_k  = exp(z_k) / sum_j exp(z_j)          softmax, so the three p sum
                                               to 1
 
-Home advantage is NOT a feature: is_home is 0 in every row of the file,
-so it carries no information (the roadmap measured this). It is in the
-model anyway, through the intercepts b_k: the target is "home wins",
+Home advantage is NOT a feature: is_home is 1 in every row except the
+few finals played on neutral ground, so it carries almost no
+information. It is in the model anyway, through the intercepts b_k: the target is "home wins",
 "draw", "away wins", and the training rows have more home wins than away
 wins at the same Elo gap, so b_home > b_away. A neutral-venue match
 (the final) removes it by symmetry: predict A-vs-B with A at home, then
@@ -79,6 +79,12 @@ def train(features_csv=FEATURES_CSV, out_json=WEIGHTS_JSON, verbose=True):
 
     df = pd.read_csv(features_csv)
     df = df[df["target"].notna()].copy()
+    # The holdout is "the newest 40 %", so the rows must be in date order.
+    # elo_score_updating.py writes them that way, but nothing checked it:
+    # a re-sorted file would have silently scored the model on a random
+    # 40 %. Files written before 1.1.0 have no timestamp column.
+    if "timestamp" in df.columns:
+        df = df.sort_values("timestamp", kind="stable")
     if df.empty:
         raise PredictorError(f"no played match in {features_csv}")
 

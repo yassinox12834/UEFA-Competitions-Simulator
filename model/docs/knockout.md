@@ -193,7 +193,7 @@ None from outside the project. It uses two parts of the project:
 | From | What |
 |---|---|
 | `model/penalties.py` | the penalty shoot-outs ([`penalties.md`](penalties.md)) |
-| `model/elo_score_updating_copy.py` | `expected_score` (the Elo pick of "legs") and `update_rating` (the single rating step of "oneshot") |
+| `model/elo_score_updating.py` | `expected_score` (the Elo pick of "legs") and `update_rating` (the single rating step of "oneshot") |
 
 Every match goes through the match engine ([`match_engine.md`](match_engine.md)), and extra time through the score picker ([`scorelines.md`](scorelines.md)).
 
@@ -447,7 +447,7 @@ Aucun en dehors du projet. Il utilise deux parties du projet :
 | Depuis | Quoi |
 |---|---|
 | `model/penalties.py` | les séances de tirs au but ([`penalties.md`](penalties.md)) |
-| `model/elo_score_updating_copy.py` | `expected_score` (le tirage Elo de « legs ») et `update_rating` (le pas de note unique de « oneshot ») |
+| `model/elo_score_updating.py` | `expected_score` (le tirage Elo de « legs ») et `update_rating` (le pas de note unique de « oneshot ») |
 
 Chaque match passe par le moteur de match ([`match_engine.md`](match_engine.md)), et la prolongation par le tireur de scores ([`scorelines.md`](scorelines.md)).
 

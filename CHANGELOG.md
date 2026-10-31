@@ -2,6 +2,51 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.1.0] 31-10-2026 🎃
+
+A minor release, not a patch: it adds a feature (swapping two clubs between pots) and changes how the model rates matches decided after 90 minutes, so every chance the app shows moves. It also fixes the ten known bugs of 1.0.2 and rebuilds all of the model's data.
+
+### Added
+
+- Swapping two clubs between pots, in "Draw only" mode only, like the replacement. Ctrl + click a club (Cmd + click on macOS), then click a club in another pot, and they change places. A swap is refused when it would leave a pot with too many clubs from one association for any draw to exist (a counting check in `PotsModel.swap_problem`, explained in the code), or when both clubs are in the same pot. Esc cancels a pick. The status line shows the hint and counts the swaps next to the replacements. Files: `interface/draw_engine.py`, `draw_widgets.py`, `views.py`, `config.py`.
+- Matches level after 90 minutes now count in the ratings according to how they ended: 0.8 / 0.2 for a win in extra time, 0.7 / 0.3 on penalties (`rating_scores` in `model/elo_score_updating.py`). The simulation uses the same scale when a tie is settled in extra time or on penalties (`_credit_decider` in `model/knockout.py`). A match won in 90 minutes keeps 1 / 0.
+- Seven club aliases for the 2025/26 templates in `model/names.py`. Newcastle United, Basel, Mainz, Rijeka, KuPS Kuopio, Rakow and Lausanne-Sport used to start at the default rating of 1500; Newcastle's real rating is about 1740.
+- A `timestamp` column in `match_features.csv`. `predictor.train()` sorts by it before it splits the matches into training and test.
+
+### Fixed
+
+- The real ratings used old competition weights: `coef_table.csv` had been built from an older `coefs.json`. `model/categorising.py` could not rebuild it (a tuple it did not unpack, and a category renamed "Domestic League" in one place only). Both are fixed and the CSV is rebuilt from `coefs.json`.
+- Friendlies were in the match model's training data (625 played). Every competition whose `comp_mult` is 0 (five of them, 700 fixtures) is now left out of the training rows and of the score table.
+- The Elo ratings used scores that included extra time. They now use the 90-minute score, with the scale above for extra time and penalties.
+- `model/scorelines.py`: capping at 6 goals happened before the result was decided, so an 8-7 would have become a 6-6 draw. The result is now read first (`cap_scoreline`).
+- `model/simulation.py`: with several processes, the Monte Carlo ignored custom ratings, so 1 and 2 processes gave different counts. The processes now receive the same ratings, model and score table. An error inside a season was hidden by a silent restart in one process; now only a process pool that cannot start falls back. The expert log printed "holdout None" with the new model weights. `SimConfig` used Python's shared random generator even when a seed was given.
+- `model/names.py`: a misspelt alias failed silently. The alias itself is now searched first, the match is labelled, and the simulation warns.
+- `model/league_phase.py`: the log said "alphabetical order" for a perfect tie. The real order is the pot order.
+- `model/penalties.py`: the description said the club kicking first wins 50 %. It wins 51.3 %, and each club still wins half of its shoot-outs. `PRESSURE_DROP` now sits at the top of the file, the `MAX_ROUNDS` comment is corrected, and two variables are renamed.
+- `model/elo_score_updating.py`: "report only" overwrote `match_features.csv`, and without a `neutral_venue` column the script crashed right after saying it would carry on. The text at the top of the file is up to date.
+- `model/matchdays_ucl.py`: a junk line in a docstring and a typo in the error message.
+- `datahandler/build_fixtures_csv.py` only looked in the top folder, found nothing, and wrote an empty `fixtures_25.csv` over the real one. It now reads the season sub-folders, keeps one row per match, marks the finals as neutral, refuses to write an empty table, and no longer runs when it is imported. Rebuilt from the raw files, the CSV is identical to the current one. `add_neutral_venue.py` and `drop_duplicate_fixtures.py` used file names nothing else used; they now work on `fixtures_25.csv` in place.
+- The READMEs' odds table said "2025/26 pots" but had been computed with the 2024/25 pots (it listed Aston Villa).
+- `interface/draw_widgets.py`: every click on a club ran its action twice, because the click was bound on a CustomTkinter label and again on the label inside it. The replace box opened twice, and a swap picked a club and dropped it straight away. The second call is now ignored.
+- Removed from the list of bugs: "the app needs pandas". It could not be reproduced: `model.simulation` imports with pandas and scikit-learn blocked, and the Windows build excludes both.
+
+### Changed
+
+- Faster matchdays: the scheduler's step limit is 5,000 instead of 200,000. On 180 draws there was no failure, the slowest schedule went from 8.8 s to 0.37 s, and building the calendars is 3 to 10 times faster in total. The calendar changes for the few draws that needed more steps.
+- Faster failure: when the draw search proves that no draw exists (it runs out of options, not of steps), it stops at once with a clear message instead of trying 49 more seeds, about 2.5 s instead of about 2 minutes.
+- Rebuilt data: `eeelo_final.json`, `match_features.csv` (4,628 rows, 4,626 played), `scorelines.json` and `predictor_weights.json`. Exam on the newest 40 % of matches: log loss 0.967, against 1.051 for a model that always predicts the average.
+- A new odds table in both READMEs, with the real 2025/26 pots. Barcelona and Paris Saint-Germain lead at about 20 % each.
+- English interface: the replace box says "Replace" instead of "Swap", so that "swap" now only means the new exchange.
+- `model/docs/` and `datahandler/README.md`: every bug section says what was fixed and how. The file name `elo_score_updating_copy.py`, which does not exist, is corrected everywhere.
+- The French guides now always address the reader as « vous ».
+
+### Known issues
+
+- The second leg of the quarter-finals and semi-finals is given by a coin toss; since 2025/26, UEFA gives it to the clubs ranked 1 to 4 (1 and 2 in the semi-finals).
+- The quarter-final bracket (`QF_BRACKET`) has not been checked against Annex B of the UEFA regulations.
+- The default "legs" method sends about 27 % of two-legged ties to penalties, against about 10 % in the real data.
+- Hamrun Spartans (2025/26 Conference League template) is not in the match data and starts at 1500.
+
 ## [1.0.2] 29-10-2026
 
 Small fix release: two bugs fixed in the model's code, a more reliable Windows build, an unused file removed, and the licence file renamed.
@@ -98,6 +143,51 @@ The first stable version.
 # Journal des modifications (version française)
 
 Tous les changements notables de ce projet sont documentés dans ce fichier.
+
+## [1.1.0] 31-10-2026 🎃
+
+Une version mineure, pas un correctif : elle ajoute une fonction (échanger deux clubs de chapeau) et change la façon dont le modèle note les matchs décidés après 90 minutes, donc toutes les chances affichées par l'application bougent. Elle corrige aussi les dix bugs connus de la 1.0.2 et reconstruit toutes les données du modèle.
+
+### Ajouté
+
+- L'échange de deux clubs entre chapeaux, seulement en mode « Tirage seul », comme le remplacement. Ctrl + clic sur un club (Cmd + clic sur macOS), puis clic sur un club d'un autre chapeau : ils échangent leur place. Un échange est refusé s'il laisse dans un chapeau trop de clubs d'une même fédération pour qu'un tirage existe (une vérification par comptage dans `PotsModel.swap_problem`, expliquée dans le code), ou si les deux clubs sont dans le même chapeau. Échap annule un choix. La ligne d'état affiche l'astuce et compte les échanges à côté des remplacements. Fichiers : `interface/draw_engine.py`, `draw_widgets.py`, `views.py`, `config.py`.
+- Les matchs à égalité après 90 minutes comptent maintenant dans les notes selon leur fin : 0.8 / 0.2 pour une victoire en prolongation, 0.7 / 0.3 aux tirs au but (`rating_scores` dans `model/elo_score_updating.py`). La simulation utilise la même échelle quand une confrontation se termine en prolongation ou aux tirs au but (`_credit_decider` dans `model/knockout.py`). Un match gagné en 90 minutes garde 1 / 0.
+- Sept alias de clubs pour les modèles 2025/26 dans `model/names.py`. Newcastle United, Bâle, Mayence, Rijeka, KuPS Kuopio, Raków et Lausanne-Sport partaient de la note par défaut, 1500 ; la vraie note de Newcastle est d'environ 1740.
+- Une colonne `timestamp` dans `match_features.csv`. `predictor.train()` trie selon elle avant de séparer les matchs d'entraînement et d'examen.
+
+### Corrigé
+
+- Les vraies notes utilisaient d'anciens poids de compétition : `coef_table.csv` avait été construit à partir d'un ancien `coefs.json`. `model/categorising.py` ne pouvait pas le reconstruire (un tuple non décompressé, et une catégorie renommée « Domestic League » à un seul endroit). Les deux sont corrigés et le CSV est reconstruit à partir de `coefs.json`.
+- Les amicaux étaient dans les données d'entraînement du modèle de match (625 joués). Toute compétition dont le `comp_mult` vaut 0 (cinq, 700 matchs) est maintenant écartée des lignes d'entraînement et de la table des scores.
+- Les notes Elo utilisaient des scores qui comprenaient la prolongation. Elles utilisent maintenant le score après 90 minutes, avec l'échelle ci-dessus pour la prolongation et les tirs au but.
+- `model/scorelines.py` : le plafond à 6 buts était appliqué avant de décider du résultat, donc un 8-7 serait devenu un nul 6-6. Le résultat est maintenant lu d'abord (`cap_scoreline`).
+- `model/simulation.py` : avec plusieurs processus, le Monte Carlo ignorait les notes personnalisées, donc 1 et 2 processus donnaient des comptes différents. Les processus reçoivent maintenant les mêmes notes, le même modèle et la même table des scores. Une erreur dans une saison était cachée par un redémarrage silencieux dans un seul processus ; désormais, seul un groupe de processus qui ne peut pas démarrer bascule. Le journal expert affichait « holdout None » avec les nouveaux poids du modèle. `SimConfig` utilisait le générateur de hasard partagé de Python même quand une graine était donnée.
+- `model/names.py` : un alias mal écrit échouait en silence. L'alias lui-même est maintenant cherché en premier, la correspondance est étiquetée et la simulation prévient.
+- `model/league_phase.py` : le journal disait « ordre alphabétique » pour une égalité parfaite. Le vrai ordre est celui des chapeaux.
+- `model/penalties.py` : la description disait que le club qui tire en premier gagne 50 %. Il gagne 51,3 %, et chaque club gagne toujours la moitié de ses séances. `PRESSURE_DROP` est maintenant en haut du fichier, le commentaire de `MAX_ROUNDS` est corrigé et deux variables sont renommées.
+- `model/elo_score_updating.py` : « rapport seulement » écrasait `match_features.csv`, et sans colonne `neutral_venue` le script plantait juste après avoir annoncé qu'il continuait. Le texte en haut du fichier est à jour.
+- `model/matchdays_ucl.py` : une ligne parasite dans une docstring et une faute dans le message d'erreur.
+- `datahandler/build_fixtures_csv.py` ne regardait que le dossier du haut, ne trouvait rien et écrivait un `fixtures_25.csv` vide par-dessus le vrai. Il lit maintenant les sous-dossiers de saison, garde une ligne par match, marque les finales comme neutres, refuse d'écrire un tableau vide et ne s'exécute plus quand on l'importe. Reconstruit à partir des fichiers bruts, le CSV est identique à l'actuel. `add_neutral_venue.py` et `drop_duplicate_fixtures.py` utilisaient des noms de fichiers que rien d'autre n'utilisait ; ils travaillent maintenant sur place, sur `fixtures_25.csv`.
+- Le tableau des chances des README disait « chapeaux 2025/26 » mais avait été calculé avec les chapeaux 2024/25 (il contenait Aston Villa).
+- `interface/draw_widgets.py` : chaque clic sur un club lançait son action deux fois, parce que le clic était lié à une étiquette CustomTkinter et encore à l'étiquette qu'elle contient. La fenêtre de remplacement s'ouvrait deux fois, et un échange choisissait un club puis l'abandonnait aussitôt. Le second appel est maintenant ignoré.
+- Retiré de la liste des bugs : « l'appli a besoin de pandas ». Il n'a pas pu être reproduit : `model.simulation` s'importe avec pandas et scikit-learn bloqués, et la version Windows les exclut tous les deux.
+
+### Changé
+
+- Des journées plus rapides : la limite de pas du planificateur vaut 5 000 au lieu de 200 000. Sur 180 tirages, aucun échec, le calendrier le plus lent est passé de 8,8 s à 0,37 s, et la construction des calendriers est de 3 à 10 fois plus rapide au total. Le calendrier change pour les quelques tirages qui avaient besoin de plus de pas.
+- Un échec plus rapide : quand la recherche du tirage prouve qu'aucun tirage n'existe (elle manque d'options, pas de pas), elle s'arrête tout de suite avec un message clair au lieu d'essayer 49 autres graines, environ 2,5 s au lieu d'environ 2 minutes.
+- Données reconstruites : `eeelo_final.json`, `match_features.csv` (4 628 lignes, 4 626 jouées), `scorelines.json` et `predictor_weights.json`. Examen sur les 40 % de matchs les plus récents : perte logarithmique de 0,967, contre 1,051 pour un modèle qui prédit toujours la moyenne.
+- Un nouveau tableau des chances dans les deux README, avec les vrais chapeaux 2025/26. Barcelone et le Paris Saint-Germain sont en tête, à environ 20 % chacun.
+- Interface en anglais : la fenêtre de remplacement dit « Replace » au lieu de « Swap », pour que « swap » ne désigne plus que le nouvel échange.
+- `model/docs/` et `datahandler/README.md` : chaque partie sur les bugs dit ce qui a été corrigé et comment. Le nom de fichier `elo_score_updating_copy.py`, qui n'existe pas, est corrigé partout.
+- Les guides en français vouvoient maintenant toujours le lecteur.
+
+### Problèmes connus
+
+- Le match retour des quarts et des demies est attribué à pile ou face ; depuis 2025/26, l'UEFA le donne aux clubs classés 1 à 4 (1 et 2 en demies).
+- Le tableau des quarts (`QF_BRACKET`) n'a pas été vérifié avec l'annexe B du règlement de l'UEFA.
+- La méthode par défaut « legs » envoie environ 27 % des confrontations aller-retour aux tirs au but, contre environ 10 % dans les vraies données.
+- Hamrun Spartans (modèle 2025/26 de la Ligue Conférence) n'est pas dans les données de matchs et part de 1500.
 
 ## [1.0.2] 29-10-2026
 

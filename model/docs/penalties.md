@@ -186,10 +186,10 @@ How each line works: [`code/penalties_code.md`](code/penalties_code.md).
 
 ### Known bugs
 
-- **The text at the top of the file is out of date.** It says every kick has the same chance and that the club kicking first wins exactly half the time. Since the pressure rule was added, it wins 51.3 %.
-- **`PRESSURE_DROP` is hidden inside a function** instead of sitting next to `P_SCORE` at the top of the file.
-- **The comment on `MAX_ROUNDS` is wrong**: it says the chance of reaching 40 rounds is about 10⁻¹⁴; the real figure is about 10⁻⁸. Harmless.
-- **A confusing variable name**: inside `_kick_once`, `u` is the second club's chance to score, while everywhere else in the simulation `u` is a random number.
+- **Fixed in 1.1.0: the text at the top of the file was out of date.** It now says the club kicking first wins 51.3 %, while each club still wins half of its shoot-outs, since a coin picks who kicks first.
+- **Fixed in 1.1.0: `PRESSURE_DROP` was hidden inside a function.** It now sits next to `P_SCORE` at the top of the file.
+- **Fixed in 1.1.0: the comment on `MAX_ROUNDS` was wrong.** It now says about 10⁻⁸ (0.6352⁴⁰).
+- **Fixed in 1.1.0: a confusing variable name.** The two chances in `_kick_once` are now `q_first` and `q_second`.
 
 ---
 
@@ -407,10 +407,10 @@ Comment marche chaque ligne : [`code/penalties_code.md`](code/penalties_code.md)
 
 ### Bugs connus
 
-- **Le texte en haut du fichier est périmé.** Il dit que chaque tir a la même chance et que le club qui tire en premier gagne exactement une fois sur deux. Depuis l'ajout de la règle de pression, il gagne 51.3 %.
-- **`PRESSURE_DROP` est caché dans une fonction** au lieu d'être à côté de `P_SCORE` en haut du fichier.
-- **Le commentaire de `MAX_ROUNDS` est faux** : il dit que la chance d'atteindre 40 tours vaut environ 10⁻¹⁴ ; le vrai chiffre est environ 10⁻⁸. Sans conséquence.
-- **Un nom de variable trompeur** : dans `_kick_once`, `u` est la chance de marquer du second club, alors que partout ailleurs dans la simulation `u` est un nombre au hasard.
+- **Corrigé en 1.1.0 : le texte en haut du fichier était périmé.** Il dit maintenant que le club qui tire en premier gagne 51.3 %, tandis que chaque club gagne toujours la moitié de ses séances, puisqu'une pièce décide qui tire en premier.
+- **Corrigé en 1.1.0 : `PRESSURE_DROP` était caché dans une fonction.** Il est maintenant à côté de `P_SCORE`, en haut du fichier.
+- **Corrigé en 1.1.0 : le commentaire de `MAX_ROUNDS` était faux.** Il dit maintenant environ 10⁻⁸ (0.6352⁴⁰).
+- **Corrigé en 1.1.0 : un nom de variable trompeur.** Les deux chances de `_kick_once` s'appellent maintenant `q_first` et `q_second`.
 
 ---
 

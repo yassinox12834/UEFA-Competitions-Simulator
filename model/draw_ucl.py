@@ -209,8 +209,19 @@ def draw(teams, rng, pots=POTS_UCL, constraints=frozenset()):
                  for pot in range(1, len(pots) + 1)
                  for is_home in (True, False)}
 
-        if fill(teams, slots, rng, [NODE_BUDGET], pots, constraints):
+        budget = [NODE_BUDGET]
+        if fill(teams, slots, rng, budget, pots, constraints):
             return attempt
+        if budget[0] >= 0:
+            # The search ran out of OPTIONS, not out of steps: fill() is a
+            # complete backtracking search, so it has tried everything and
+            # no draw exists for these pots and constraints. The 49 other
+            # seeds would only add about two minutes before the same
+            # failure.
+            extra = f' and {len(constraints)} constraint(s)' if constraints else ''
+            raise RuntimeError(f'no valid draw exists for these pots{extra}: '
+                               f'too many clubs from one association in a pot, '
+                               f'or constraints that cannot all be met')
 
     # Say whether constraints were in play. Without that, an impossible
     # set of constraints and a genuine search failure look identical.

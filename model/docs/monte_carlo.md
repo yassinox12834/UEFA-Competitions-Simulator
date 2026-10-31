@@ -224,8 +224,8 @@ How each line works: [`code/simulation_code.md`](code/simulation_code.md).
 
 ### Known bugs
 
-- **With several processes, custom ratings are ignored.** The background processes reload the ratings from the file instead of using the ratings passed in. Tested: with every rating set to 1500, 1 process and 2 processes gave very different counts. Fix: pass the ratings to the processes, or refuse several processes when custom ratings are given.
-- **`SimConfig` uses Python's shared random generator even when a seed is given.** Harmless for the results (each season has its own generator), but it changes the state of `random` for any other code.
+- **Fixed in 1.1.0: with several processes, custom ratings were ignored.** The processes now receive the same ratings, model and score table. Tested: 300 seasons with custom ratings give identical counts on 1 and 2 processes. An error inside a season is no longer hidden by a silent restart in one process; only a pool that cannot start falls back.
+- **Fixed in 1.1.0: `SimConfig` used Python's shared random generator even when a seed was given.**
 - **If the processes fail to start, the work starts again from zero** in a single process, and the progress bar jumps back.
 - **`probability(club, ...)` fails for a club spelt the ratings-file way** ("Bayern München"): the counts use the pot spelling ("Bayern Munich").
 
@@ -478,8 +478,8 @@ Comment marche chaque ligne : [`code/simulation_code.md`](code/simulation_code.m
 
 ### Bugs connus
 
-- **Avec plusieurs processus, les notes personnalisées sont ignorées.** Les processus en arrière-plan relisent les notes depuis le fichier au lieu d'utiliser celles qu'on leur donne. Testé : avec toutes les notes à 1500, 1 processus et 2 processus ont donné des comptes très différents. Correction : donner les notes aux processus, ou refuser plusieurs processus quand des notes personnalisées sont fournies.
-- **`SimConfig` utilise le générateur de hasard partagé de Python même quand une graine est donnée.** Sans effet sur les résultats (chaque saison a son propre générateur), mais cela change l'état de `random` pour tout autre code.
+- **Corrigé en 1.1.0 : avec plusieurs processus, les notes personnalisées étaient ignorées.** Les processus reçoivent maintenant les mêmes notes, le même modèle et la même table des scores. Testé : 300 saisons avec des notes personnalisées donnent des comptes identiques avec 1 et 2 processus. Une erreur dans une saison n'est plus cachée par un redémarrage silencieux dans un seul processus ; seul un groupe de processus qui ne peut pas démarrer bascule sur un seul.
+- **Corrigé en 1.1.0 : `SimConfig` utilisait le générateur de hasard partagé de Python même quand une graine était donnée.**
 - **Si les processus n'arrivent pas à démarrer, le travail recommence à zéro** dans un seul processus, et la barre de progression revient en arrière.
 - **`probability(club, ...)` échoue pour un club écrit comme dans le fichier des notes** (« Bayern München ») : les comptes utilisent l'orthographe des chapeaux (« Bayern Munich »).
 
@@ -489,7 +489,7 @@ Comment marche chaque ligne : [`code/simulation_code.md`](code/simulation_code.m
 
 - **Une marge à l'écran**, à côté de chaque chance.
 - **Des notes incertaines** : au début de chaque saison, faire bouger un peu chaque note au hasard (par exemple d'environ ±60 points au plus). Les chances deviendraient plus honnêtes.
-- **S'arrêter quand c'est assez précis** : jouer des blocs de 200 saisons et s'arrêter quand la marge de la colonne qui t'intéresse est assez petite.
+- **S'arrêter quand c'est assez précis** : jouer des blocs de 200 saisons et s'arrêter quand la marge de la colonne qui vous intéresse est assez petite.
 - **Les chances avant le tirage** : une option pour refaire le tirage à chaque saison.
 
 ---

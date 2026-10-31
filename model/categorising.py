@@ -152,6 +152,7 @@ _RAW_STAGE_PATTERNS = {
     "UEFA Super Cup":     _FLAT,
     "Intercontinental":   _FLAT,
     "Friendly":           _FLAT,
+    "Domestic League":    _FLAT,
 }
 
 # Compile once. Compiling inside the loop would recompile ~1400 times.
@@ -191,7 +192,7 @@ def load_coefs(path):
 
 def main(write=False, force=False):
     df = pd.read_csv(CSV_LINK)
-    coefs = load_coefs(JSON_LINK_COEFS)
+    coefs, _, _ = load_coefs(JSON_LINK_COEFS)
 
     pairs = df[["league", "round"]].drop_duplicates()
 

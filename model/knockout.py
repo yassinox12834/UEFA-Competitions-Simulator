@@ -49,10 +49,18 @@ of it.
                  venues, p_B likewise, P(A advances) = p_A / (p_A + p_B).
                  One uniform draw. The ratings take one Elo step as if
                  the tie were a single neutral match.
+
+Extra time and penalties in the ratings: a match level after 90 minutes
+is first rated as a draw (S = 0.5), like any match. When the tie is then
+settled in extra time or on penalties AFTER that same match, its winner
+is re-rated with SHARE_ET (0.8) or SHARE_PEN (0.7), the same scale
+elo_score_updating.py uses on the real fixtures. A match won or lost in
+90 minutes keeps its rating, whatever happens after it.
 """
 
 from model import penalties
-from model.elo_score_updating import expected_score, update_rating
+from model.elo_score_updating import (SHARE_ET, SHARE_PEN, expected_score,
+                                      update_rating)
 
 METHODS = ("legs", "aggregate", "oneshot")
 DEFAULT_METHOD = "legs"
@@ -150,6 +158,28 @@ def _play_legs(engine, tie):
     tie.lines.append(f"level: shoot-out, P({tie.a}) = E_A = 1/(1+10^(({r_b:.1f}-{r_a:.1f})/400)) "
                      f"= {p_a:.3f}, u = {u:.4f} -> {tie.winner}")
     _log_shootout(tie, so)
+    _credit_decider(engine, tie, leg2, winner, SHARE_PEN, "penalties")
+
+
+def _credit_decider(engine, tie, match, winner, share, how):
+    """Re-rate `match` once the tie it ends is settled after 90 minutes.
+
+    `match` was rated as a draw when it was played (S = 0.5). If it was
+    level after 90 minutes and the tie was then won in extra time or on
+    penalties, its winner should score `share` instead. The Elo step is
+    linear in S, so the correction is K * (share - 0.5): added to the
+    winner, taken from the loser, zero-sum like every other step.
+    A match that was NOT level after 90 minutes is left alone: the real
+    fixtures follow the same rule (rating_scores, rule 1).
+    """
+    if match.home_goals != match.away_goals:
+        return
+    s_home = share if winner == match.home else 1.0 - share
+    delta = match.k * (s_home - 0.5)
+    engine.ratings[match.home] += delta
+    engine.ratings[match.away] -= delta
+    tie.lines.append(f"Elo after {how}: S_home = {s_home:g} instead of 0.5, "
+                     f"{match.home} {delta:+.2f}, {match.away} {-delta:+.2f}")
 
 
 def _log_shootout(tie, so):
@@ -180,12 +210,14 @@ def _settle_level(engine, tie, home, away):
     tie.lines.append(f"level after 90: extra time {home} {et_home}-{et_away} {away}")
     if et_home != et_away:
         tie.winner = home if et_home > et_away else away
+        _credit_decider(engine, tie, tie.legs[-1], tie.winner, SHARE_ET, "extra time")
         return
     so = penalties.kick(engine.rng, tie.a, tie.b)
     so.p_winner = 0.5
     tie.shootout, tie.winner = so, so.winner
     tie.lines.append(f"still level: shoot-out, every kick scored with p = {penalties.P_SCORE}")
     _log_shootout(tie, so)
+    _credit_decider(engine, tie, tie.legs[-1], tie.winner, SHARE_PEN, "penalties")
 
 
 def _play_oneshot(engine, tie):

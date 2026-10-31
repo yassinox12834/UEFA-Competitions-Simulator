@@ -33,7 +33,7 @@ The planner uses the same method as the draw ([`draw.md`](draw.md), section 3), 
 2. Pick the match with the **fewest free days** (the most constrained first). A match with only one free day is forced; a match with zero free days shows at once that an earlier choice was wrong.
 3. Try its free days in random order: place the match, then go on with the next match.
 4. If the program gets stuck later, it **undoes** the last placement and tries another day (backtracking).
-5. Each attempt may take up to 200 000 steps. If it runs out, the program starts again from an empty calendar with new random choices, up to 30 times.
+5. Each attempt may take up to 5 000 steps (200 000 before 1.1.0). If it runs out, the program starts again from an empty calendar with new random choices, up to 30 times.
 
 For the Conference League, a separate checker then reads the finished calendar and checks everything again: 6 days, 18 matches a day, all 36 clubs every day, nobody twice, and exactly the same matches as the draw, none missing and none invented.
 
@@ -123,7 +123,7 @@ Measured on 300 draws per competition:
 | Champions League (144 matches) | 280 | 18 | 2 | 15 ms | 5.6 s |
 | Conference League (108 matches) | 298 | 2 | 0 | 6 ms | 2.1 s |
 
-The slow cases are attempts that get stuck: they use all 200 000 steps (a few seconds) before restarting, and the restart then usually succeeds at once. With a limit of 5 000 steps instead, the same 300 draws never failed, and the slowest took 0.31 s. Restarting early is often better than insisting.
+The slow cases are attempts that get stuck: with the old limit they used all 200 000 steps (a few seconds) before restarting, and the restart then usually succeeded at once. With a limit of 5 000 steps, the same 300 draws never failed, and the slowest took 0.31 s. Restarting early is often better than insisting, so 5 000 is the limit since 1.1.0.
 
 ---
 
@@ -162,9 +162,9 @@ How each line works: [`code/matchdays_code.md`](code/matchdays_code.md).
 
 ### Known bugs
 
-- **The step limit is far too high** (section 6). Lowering it from 200 000 to 5 000 would make the slowest case about 18 times faster. Note: it would change the calendar of the few draws that needed more than 5 000 steps.
-- **A junk line in a comment** of `_schedule_matchdays_once` ("SHuuuu...t up/down"). It should be deleted.
-- **A typo in the error message**: it prints "8-:matchday" instead of "8-matchday".
+- **Fixed in 1.1.0: the step limit was far too high.** It is now 5 000 (`NODE_BUDGET`). Measured on 180 draws: no failure, and the slowest schedule went from 8.8 s to 0.37 s. The calendar changes for the few draws that needed more steps.
+- **Fixed in 1.1.0: a junk line in a comment** is deleted.
+- **Fixed in 1.1.0: a typo in the error message** ("8-:matchday").
 
 ---
 
@@ -211,7 +211,7 @@ Chaque club joue 8 matchs et il y a 8 journées. Chaque club doit donc jouer **e
 
 C'est comme faire l'emploi du temps d'une école : chaque professeur (club) donne 8 cours (matchs), il y a 8 créneaux (journées), et un professeur ne peut pas être dans deux salles en même temps.
 
-Pourquoi ce n'est pas évident ? Imagine Liverpool-Juventus le jour 1 et Juventus-Benfica le jour 2. Maintenant Benfica-Liverpool ne peut pas être le jour 1 (Liverpool est occupé) ni le jour 2 (Benfica est occupé). Chaque choix enlève des possibilités à d'autres matchs, et quelques mauvais choix au début peuvent laisser un match sans aucun jour libre.
+Pourquoi ce n'est pas évident ? Imaginez Liverpool-Juventus le jour 1 et Juventus-Benfica le jour 2. Maintenant Benfica-Liverpool ne peut pas être le jour 1 (Liverpool est occupé) ni le jour 2 (Benfica est occupé). Chaque choix enlève des possibilités à d'autres matchs, et quelques mauvais choix au début peuvent laisser un match sans aucun jour libre.
 
 ---
 
@@ -223,7 +223,7 @@ Le planificateur utilise la même méthode que le tirage ([`draw.md`](draw.md), 
 2. Choisir le match qui a **le moins de jours libres** (le plus contraint d'abord). Un match avec un seul jour libre est forcé ; un match avec zéro jour libre montre tout de suite qu'un choix précédent était mauvais.
 3. Essayer ses jours libres dans un ordre au hasard : placer le match, puis continuer avec le match suivant.
 4. Si le programme se retrouve bloqué plus tard, il **défait** le dernier placement et essaie un autre jour (retour sur trace).
-5. Chaque essai a droit à 200 000 pas au plus. S'il les épuise, le programme recommence à partir d'un calendrier vide avec de nouveaux choix au hasard, jusqu'à 30 fois.
+5. Chaque essai a droit à 5 000 pas au plus (200 000 avant la 1.1.0). S'il les épuise, le programme recommence à partir d'un calendrier vide avec de nouveaux choix au hasard, jusqu'à 30 fois.
 
 Pour la Ligue Conférence, un vérificateur séparé relit ensuite le calendrier fini et revérifie tout : 6 journées, 18 matchs par jour, les 36 clubs chaque jour, personne deux fois, et exactement les mêmes matchs que le tirage, aucun manquant et aucun inventé.
 
@@ -298,7 +298,7 @@ Les jours ne sont pas les mêmes qu'à la section 3, car l'ordre au hasard dans 
 
 ## 5. Un calendrier existe-t-il toujours ?
 
-Imagine les clubs comme des points, et chaque match comme un trait entre deux points. Choisir un jour pour un match, c'est comme peindre son trait d'une des 8 couleurs, avec une règle : deux traits qui touchent le même point (deux matchs du même club) doivent avoir des couleurs différentes. Les mathématiciens appellent cela une **coloration des arêtes**.
+Imaginez les clubs comme des points, et chaque match comme un trait entre deux points. Choisir un jour pour un match, c'est comme peindre son trait d'une des 8 couleurs, avec une règle : deux traits qui touchent le même point (deux matchs du même club) doivent avoir des couleurs différentes. Les mathématiciens appellent cela une **coloration des arêtes**.
 
 Un théorème (Vizing, 1964) dit que 8 ou 9 couleurs suffisent toujours quand chaque point a 8 traits. Il nous en faut exactement 8, et aucun théorème ne le garantit pour notre type de tirage. En pratique, cela a toujours marché : 300 tirages de Ligue des champions et 300 de Ligue Conférence ont tous reçu un calendrier, presque toujours au premier essai.
 
@@ -313,7 +313,7 @@ Mesuré sur 300 tirages par compétition :
 | Ligue des champions (144 matchs) | 280 | 18 | 2 | 15 ms | 5.6 s |
 | Ligue Conférence (108 matchs) | 298 | 2 | 0 | 6 ms | 2.1 s |
 
-Les cas lents sont des essais qui restent bloqués : ils utilisent les 200 000 pas (quelques secondes) avant de recommencer, et le nouvel essai réussit alors en général tout de suite. Avec une limite de 5 000 pas, les mêmes 300 tirages n'ont jamais échoué, et le plus lent a pris 0.31 s. Recommencer tôt vaut souvent mieux qu'insister.
+Les cas lents sont des essais qui restent bloqués : avec l'ancienne limite, ils utilisaient les 200 000 pas (quelques secondes) avant de recommencer, et le nouvel essai réussissait alors en général tout de suite. Avec une limite de 5 000 pas, les mêmes 300 tirages n'ont jamais échoué, et le plus lent a pris 0.31 s. Recommencer tôt vaut souvent mieux qu'insister : c'est la limite depuis la 1.1.0.
 
 ---
 
@@ -352,9 +352,9 @@ Comment marche chaque ligne : [`code/matchdays_code.md`](code/matchdays_code.md)
 
 ### Bugs connus
 
-- **La limite de pas est bien trop haute** (section 6). La faire passer de 200 000 à 5 000 rendrait le cas le plus lent environ 18 fois plus rapide. Attention : cela changerait le calendrier des quelques tirages qui avaient besoin de plus de 5 000 pas.
-- **Une ligne parasite dans un commentaire** de `_schedule_matchdays_once` (« SHuuuu...t up/down »). Elle devrait être supprimée.
-- **Une faute dans le message d'erreur** : il affiche « 8-:matchday » au lieu de « 8-matchday ».
+- **Corrigé en 1.1.0 : la limite de pas était bien trop haute.** Elle vaut maintenant 5 000 (`NODE_BUDGET`). Mesuré sur 180 tirages : aucun échec, et le calendrier le plus lent est passé de 8,8 s à 0,37 s. Le calendrier change pour les quelques tirages qui avaient besoin de plus de pas.
+- **Corrigé en 1.1.0 : une ligne parasite dans un commentaire** est supprimée.
+- **Corrigé en 1.1.0 : une faute dans le message d'erreur** (« 8-:matchday »).
 
 ---
 

@@ -219,7 +219,7 @@
 
 # `league_phase.py`, ligne par ligne
 
-> Cette page explique le code qui joue la phase de ligue et construit le classement. Pour l'idée (points, critères de départage, tri comme un dictionnaire), lis d'abord [`../league_phase.md`](../league_phase.md#la-phase-de-ligue--les-matchs-et-le-classement).
+> Cette page explique le code qui joue la phase de ligue et construit le classement. Pour l'idée (points, critères de départage, tri comme un dictionnaire), lisez d'abord [`../league_phase.md`](../league_phase.md#la-phase-de-ligue--les-matchs-et-le-classement).
 
 ## Comment lire cette page
 

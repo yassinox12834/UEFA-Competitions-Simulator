@@ -1,18 +1,19 @@
 """Run the Elo ratings forward over a season of fixtures.
 
 Reads
-    data/reference/team_seed.json    starting ratings. This file is also the
-                                     WHITELIST: a club absent from it is never
-                                     rated and never created.
+    data/reference/team_seed.json    starting ratings written by hand. A club
+                                     absent from it starts from its country's
+                                     seed (country_seeds.json), or DEFAULT_ELO.
     data/reference/coefs.json        k_base, k_max
     data/reference/coef_table.csv    (league, round) -> comp_mult, stage_mult
     data/processed/fixtures_25.csv   the matches, played and unplayed mixed
 
 Writes
-    data/processed/elo_final.json      final rating per club (only with --write)
-    data/processed/match_features.csv  one row per rated fixture: pre-match
-                                        Elo for both sides, is_home, season,
-                                        and target (NaN if not yet played).
+    data/processed/eeelo_final.json    final rating per club (only with --write)
+    data/processed/match_features.csv  one row per non-friendly fixture:
+                                        pre-match Elo for both sides, is_home,
+                                        season, timestamp, and target, the
+                                        90-minute result (NaN if not played).
                                         This is what the classifier trains on.
 
 Usage
@@ -37,6 +38,7 @@ OUT_JSON          = BASE_DIR / "data" / "processed" / "eeelo_final.json"
 OUT_FEATURES_CSV  = BASE_DIR / "data" / "processed" / "match_features.csv"
 
 GOAL_COLUMN_CANDIDATES = [
+    ("ft_home",        "ft_away"),      # 90 minutes: what the simulation models
     ("home_goals",     "away_goals"),
     ("goals_home",     "goals_away"),
     ("home_score",     "away_score"),
@@ -89,6 +91,39 @@ def result_scores(home_goals, away_goals):
     if home_goals < away_goals:
         return 0.0, 1.0
     return 0.5, 0.5
+
+
+# Share of the point the WINNER takes, by the way the match was decided.
+# The loser takes 1 - share, so every pair sums to 1 and Elo stays zero-sum.
+SHARE_90  = 1.0     # won in 90 minutes
+SHARE_ET  = 0.8     # level after 90mins, won in extra time
+SHARE_PEN = 0.7     # level after 120mins, won on penalties 
+
+
+def rating_scores(ft_home, ft_away, final_home, final_away, status, winner_home):
+    """(S_home, S_away) for the rating update, first rule that fits wins.
+
+    1. 90 minutes not level            -> winner takes SHARE_90
+    2. level after 90, 120 not level   -> winner takes SHARE_ET
+    3. level after 120, status "PEN"   -> shoot-out winner takes SHARE_PEN
+    4. anything else                   -> draw, 0.5 each
+
+    ft_* is the 90-minute score, final_* includes extra time.
+    winner_home is the API flag; it is only read in rule 3, where the match
+    itself was level, so it can only mean the shoot-out winner. (In a second
+    leg won on goals but lost on penalties it names the TIE winner, which is
+    why rule 1 comes first.)
+    """
+    if ft_home != ft_away:
+        share, home_won = SHARE_90, ft_home > ft_away
+    elif final_home != final_away:
+        share, home_won = SHARE_ET, final_home > final_away
+    elif status == "PEN" and winner_home in (True, False):
+        share, home_won = SHARE_PEN, bool(winner_home)
+    else:
+        return 0.5, 0.5
+    s_home = share if home_won else 1.0 - share
+    return s_home, 1.0 - s_home
 
 
 def season_from_date(date):
@@ -240,7 +275,13 @@ def run(write=True):
                                (row["away_team"], away_elo)) if e is None
             )
             continue
-        v = row["neutral_venue"]
+        if coef_table.get((row["league"], row["round"]), (1.0, 1.0))[0] == 0:
+            counts["zero_k"] += 1
+            continue
+        # Without the column, every match has a home side: that is what
+        # the warning above promises. Reading it unconditionally raised a
+        # KeyError right after printing that warning.
+        v = row["neutral_venue"] if has_neutral else None
         is_neutral = (not pd.isna(v)) and bool(v)
         home_goals, away_goals = row[home_goals_col], row[away_goals_col]
         played = not (pd.isna(home_goals) or pd.isna(away_goals))
@@ -256,6 +297,7 @@ def run(write=True):
             "elo_away_before": away_elo,
             "is_home":         is_home,
             "season":          row["season"],
+            "timestamp":       row["timestamp"],
             "target":          (np.sign(home_goals - away_goals) if played else np.nan),
         })
 
@@ -278,7 +320,9 @@ def run(write=True):
 
         e_home = expected_score(home_elo, away_elo)
         e_away = expected_score(away_elo, home_elo)
-        s_home, s_away = result_scores(home_goals, away_goals)
+        s_home, s_away = rating_scores(home_goals, away_goals,
+                                       row["home_goals"], row["away_goals"],
+                                       row["status"], row["winner_home"])
 
         elos[row["home_team"]] = update_rating(home_elo, K, s_home, e_home)
         elos[row["away_team"]] = update_rating(away_elo, K, s_away, e_away)
@@ -288,9 +332,13 @@ def run(write=True):
            missing_coefs, no_country_clubs)
 
     features_df = pd.DataFrame(training_rows)
-    features_df.to_csv(OUT_FEATURES_CSV, index=False)
-    print(f"\nWrote {len(features_df)} rows to {OUT_FEATURES_CSV} "
-          f"({features_df['target'].notna().sum()} with a known result)")
+    # "Report only" used to overwrite match_features.csv anyway: running the
+    # script to LOOK at the ratings silently replaced the model's training
+    # data. Both outputs are now written with --write, and only then.
+    if write:
+        features_df.to_csv(OUT_FEATURES_CSV, index=False)
+        print(f"\nWrote {len(features_df)} rows to {OUT_FEATURES_CSV} "
+              f"({features_df['target'].notna().sum()} with a known result)")
 
     if write:
         OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
@@ -299,7 +347,8 @@ def run(write=True):
                       fh, indent=2, ensure_ascii=False)
         print(f"Wrote {len(elos)} ratings to {OUT_JSON}")
     else:
-        print("(report only; pass --write to save elo_final.json)")
+        print(f"\n(report only: {len(features_df)} training rows, nothing written; "
+              f"pass --write to save eeelo_final.json and match_features.csv)")
 
     return elos
 
