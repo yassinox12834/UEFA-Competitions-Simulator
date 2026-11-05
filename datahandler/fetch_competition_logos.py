@@ -13,7 +13,11 @@ for ID, name in zip(IDs, competitions):
 
 
     image_URL = f"https://media.api-sports.io/football/leagues/{ID}.png"
-    response = requests.get(image_URL, headers=headers)
+    try:
+        response = requests.get(image_URL, headers=headers, timeout=15)  # seconds
+    except requests.RequestException as exc:
+        print(f"warning, {name}: {exc}")
+        continue
 
     final_link = COMPET_LOGOS_DIR / f"{name}_logo.png"
     final_link.parent.mkdir(parents=True, exist_ok=True)

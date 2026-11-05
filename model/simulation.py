@@ -32,13 +32,14 @@ from pickle import PicklingError
 
 from model import knockout, league_phase
 from model.match_engine import DEFAULT_ELO, STAGE_LABELS, MatchEngine, load_k_table
-from model.names import ALIASES, resolve_all
+from model.names import ALIASES, UNRATED_COUNTRY, resolve_all
 from model.predictor import MatchModel
 from model.scorelines import ScorelineSampler
 from uefa.paths import USER_DIR
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 ELO_JSON = BASE_DIR / "data" / "processed" / "eeelo_final.json"
+COUNTRY_SEEDS_JSON = BASE_DIR / "data" / "reference" / "country_seeds.json"
 LOG_DIR = USER_DIR / "data" / "processed"
 
 STAGES = ("top8", "top24", "r16", "qf", "sf", "final", "winner")
@@ -122,11 +123,26 @@ class SimulationResult:
 # ---------------------------------------------------------------------------
 
 def seed_ratings(clubs, ratings):
-    """{club as spelt in the pots: Elo}, and the resolution table."""
+    """{club as spelt in the pots: Elo}, and the resolution table.
+
+    A club the Elo file does not know starts at its country's seed when
+    names.UNRATED_COUNTRY says where it is from (Hamrun Spartans: Malta,
+    1419), and at DEFAULT_ELO otherwise.
+    """
     resolutions = resolve_all(clubs, ratings.keys())
+    country_seeds = None
     seeds = {}
     for res in resolutions:
-        seeds[res.club] = ratings[res.key] if res.key is not None else DEFAULT_ELO
+        if res.key is not None:
+            seeds[res.club] = ratings[res.key]
+        elif res.club in UNRATED_COUNTRY:
+            if country_seeds is None:
+                country_seeds = json.loads(
+                    COUNTRY_SEEDS_JSON.read_text(encoding="utf-8-sig"))
+            seeds[res.club] = float(
+                country_seeds.get(UNRATED_COUNTRY[res.club], DEFAULT_ELO))
+        else:
+            seeds[res.club] = DEFAULT_ELO
     return seeds, resolutions
 
 
@@ -145,7 +161,9 @@ def simulate(comp, teams, matchdays, config=None, resources=None):
     engine = MatchEngine(res.model, res.sampler, seeds, k_table,
                          random.Random(config.seed), expert=config.expert,
                          k_settings=k_settings)
-    warnings = [f"{r.club}: not found in the Elo file, starting at {DEFAULT_ELO:.0f}"
+    warnings = [f"{r.club}: not found in the Elo file, starting at {seeds[r.club]:.0f}"
+                + (f" ({UNRATED_COUNTRY[r.club]}'s country seed)"
+                   if r.club in UNRATED_COUNTRY else "")
                 for r in resolutions if r.key is None]
     warnings += [f"{r.club}: alias {ALIASES.get(r.club)!r} is not in the Elo file; "
                  f"matched to {r.key!r} by {r.how[len('alias-'):]} search, fix the alias"
@@ -197,7 +215,7 @@ def _log_header(engine, comp, config, res, resolutions, seeds, k):
                 ", ".join(f"{s} {engine.k_table[s]:.2f}" for s in engine.k_table))
     engine.section("Starting ratings")
     for r in sorted(resolutions, key=lambda r: -seeds[r.club]):
-        how = "" if r.how == "exact" else f"   [{r.how}: {r.key!r}]" if r.key else "   [NOT FOUND, default]"
+        how = "" if r.how == "exact" else f"   [{r.how}: {r.key!r}]" if r.key else f"   [NOT FOUND, {'country seed' if r.club in UNRATED_COUNTRY else 'default'}]"
         engine.note(f"   {r.club:28} {seeds[r.club]:7.1f}{how}")
 
 

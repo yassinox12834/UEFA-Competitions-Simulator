@@ -50,8 +50,14 @@ ALIASES = {
     "KuPS Kuopio": "KuPS",
     "Rakow": "Raków Częstochowa",
     "Lausanne-Sport": "Lausanne",
-    # Hamrun Spartans has no match in the data at all: it starts at the
-    # default rating, and the simulation says so in its warnings.
+}
+
+# Clubs with no match in the data at all, so no alias can find them. They
+# start from their country's seed in country_seeds.json instead of the flat
+# DEFAULT_ELO: Malta's seed is 1419, a long way under 1500. The simulation
+# still lists them in its warnings. Add a line here for any such club.
+UNRATED_COUNTRY = {
+    "Hamrun Spartans": "Malta",
 }
 
 # Words that carry no identity: "FC Porto" and "Porto" are one club.

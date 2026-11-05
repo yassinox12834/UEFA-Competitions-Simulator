@@ -75,7 +75,7 @@ Three things to know:
 
 - **The neutral rule is simple.** Every match called "Final" is marked neutral. That is wrong for the Emirates Cup final, and friendlies abroad are not marked.
 - **The season (`2024`) is typed by hand** in 3 scripts.
-- **No timeout** on the requests, and failed badge downloads say nothing.
+- **Failed badge downloads (an HTTP error) say nothing.** The requests have a 15-second timeout; a timeout or connection error prints a warning and the script goes on.
 - **Do not import the `fetch_` scripts.** Except `fetch_fixtures.py`, they run as soon as they are imported. The three `build`/`add`/`drop` scripts are safe to import since 1.1.0.
 
 ---
@@ -158,7 +158,7 @@ Trois choses à savoir :
 
 - **La règle du terrain neutre est simple.** Tout match appelé « Final » est marqué neutre. C'est faux pour la finale de l'Emirates Cup, et les amicaux à l'étranger ne sont pas marqués.
 - **La saison (`2024`) est écrite à la main** dans 3 scripts.
-- **Pas de délai maximum** sur les requêtes, et les téléchargements d'écussons qui échouent ne disent rien.
+- **Les téléchargements d'écussons qui échouent (erreur HTTP) ne disent rien.** Les requêtes ont un délai maximum de 15 secondes ; un délai dépassé ou une erreur de connexion affiche un avertissement et le script continue.
 - **N'importez pas les scripts `fetch_`.** Sauf `fetch_fixtures.py`, ils s'exécutent dès qu'on les importe. Les trois scripts `build`/`add`/`drop` peuvent être importés sans risque depuis la 1.1.0.
 
 ---

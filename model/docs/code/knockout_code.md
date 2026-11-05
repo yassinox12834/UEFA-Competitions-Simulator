@@ -25,11 +25,11 @@ from model.elo_score_updating import expected_score, update_rating
 | Code | Does |
 |---|---|
 | `METHODS = ("legs", "aggregate", "oneshot")` | the three ways to settle a tie |
-| `DEFAULT_METHOD = "legs"` | the method used when none is chosen |
+| `DEFAULT_METHOD = "aggregate"` | the method used when none is chosen |
 | `PLAYOFF_SEEDED = ((9, 10), (11, 12), (13, 14), (15, 16))` | the better-ranked pairs of the play-offs |
 | `PLAYOFF_UNSEEDED = ((23, 24), (21, 22), (19, 20), (17, 18))` | position `i` here meets position `i` of the seeded list |
 | `R16_TOP = ((1, 2), (3, 4), (5, 6), (7, 8))` | pair `i` meets the winners of play-off group `3 - i` |
-| `QF_BRACKET = ((1, 8), (3, 5), (2, 7), (4, 6))` | which round-of-16 ties meet in each quarter-final |
+| `QF_BRACKET = ((6, 3), (8, 2), (5, 4), (7, 1))` | which round-of-16 ties meet in each quarter-final |
 
 Writing the bracket as data, not as `if` statements, means the shape of the competition can be read and changed in four lines.
 
@@ -303,14 +303,14 @@ def _pair_up(seeded, unseeded, rng):
 - Each round-of-16 tie is tagged with the league position of its top-8 club, which `QF_BRACKET` uses.
 
 ```python
-    winner_by_tag = {tie.tag: tie.winner for tie in previous}
+    by_tag = {tie.tag: tie for tie in previous}
     for index, (t1, t2) in enumerate(pairs_by_tag):
-        first, second = winner_by_tag[t1], winner_by_tag[t2]
-        if rng.random() < 0.5:
-            first, second = second, first
+        x, y = by_tag[t1], by_tag[t2]
+        if by_position and y.pos < x.pos:
+            x, y = y, x
 ```
 
-- In `_next_round`: finds the winners by tag and pairs them as the bracket says; a coin decides who hosts the second leg. The new ties are tagged 0, 1, 2, ... so the same function builds the semi-finals with `((0, 1), (2, 3))` and the final with `((0, 1),)`.
+- In `_next_round`: finds the winners by tag and pairs them as the bracket says; the side with the better seed position (`pos`) hosts the second leg, as in Article 19.04 of the UEFA regulations. The new ties are tagged 0, 1, 2, ... so the same function builds the semi-finals with `((0, 1), (2, 3))` and the final with `((0, 1),)`.
 
 ---
 
@@ -336,9 +336,9 @@ def _pair_up(seeded, unseeded, rng):
 - Draw, then play, round after round. The round of 16 needs the play-off winners, so it can only be drawn after the play-offs are played.
 
 ```python
-    qf = _next_round(rounds["r16"], QF_BRACKET, "qf", rng, by_rank)
-    sf = _next_round(rounds["qf"], ((0, 1), (2, 3)), "sf", rng, by_rank)
-    final = _next_round(rounds["sf"], ((0, 1),), "final", rng, by_rank)[0]
+    qf = _next_round(rounds["r16"], QF_BRACKET, "qf", by_rank)
+    sf = _next_round(rounds["qf"], ((0, 1), (2, 3)), "sf", by_rank)
+    final = _next_round(rounds["sf"], ((0, 1),), "final", by_rank, by_position=False)[0]
     rounds["final"] = [play_final(engine, final)]
 ```
 
@@ -385,11 +385,11 @@ from model.elo_score_updating import expected_score, update_rating
 | Code | Fait |
 |---|---|
 | `METHODS = ("legs", "aggregate", "oneshot")` | les trois façons de décider une confrontation |
-| `DEFAULT_METHOD = "legs"` | la méthode utilisée quand aucune n'est choisie |
+| `DEFAULT_METHOD = "aggregate"` | la méthode utilisée quand aucune n'est choisie |
 | `PLAYOFF_SEEDED = ((9, 10), (11, 12), (13, 14), (15, 16))` | les paires les mieux classées des barrages |
 | `PLAYOFF_UNSEEDED = ((23, 24), (21, 22), (19, 20), (17, 18))` | la position `i` ici rencontre la position `i` de la liste des mieux classés |
 | `R16_TOP = ((1, 2), (3, 4), (5, 6), (7, 8))` | la paire `i` rencontre les vainqueurs du groupe de barrage `3 - i` |
-| `QF_BRACKET = ((1, 8), (3, 5), (2, 7), (4, 6))` | quelles confrontations des huitièmes se rencontrent en quarts |
+| `QF_BRACKET = ((6, 3), (8, 2), (5, 4), (7, 1))` | quelles confrontations des huitièmes se rencontrent en quarts |
 
 Écrire le tableau sous forme de données, et non de `if`, permet de lire et de changer la forme de la compétition en quatre lignes.
 
@@ -663,14 +663,14 @@ def _pair_up(seeded, unseeded, rng):
 - Chaque confrontation des huitièmes reçoit comme étiquette la place au classement de son club du top 8, utilisée par `QF_BRACKET`.
 
 ```python
-    winner_by_tag = {tie.tag: tie.winner for tie in previous}
+    by_tag = {tie.tag: tie for tie in previous}
     for index, (t1, t2) in enumerate(pairs_by_tag):
-        first, second = winner_by_tag[t1], winner_by_tag[t2]
-        if rng.random() < 0.5:
-            first, second = second, first
+        x, y = by_tag[t1], by_tag[t2]
+        if by_position and y.pos < x.pos:
+            x, y = y, x
 ```
 
-- Dans `_next_round` : retrouve les vainqueurs par étiquette et les associe comme le dit le tableau ; une pièce décide qui reçoit au retour. Les nouvelles confrontations sont étiquetées 0, 1, 2, ... donc la même fonction construit les demies avec `((0, 1), (2, 3))` et la finale avec `((0, 1),)`.
+- Dans `_next_round` : retrouve les vainqueurs par étiquette et les associe comme le dit le tableau ; le côté qui a la meilleure position de tête de série (`pos`) reçoit au retour, comme dans l'article 19.04 du règlement de l'UEFA. Les nouvelles confrontations sont étiquetées 0, 1, 2, ... donc la même fonction construit les demies avec `((0, 1), (2, 3))` et la finale avec `((0, 1),)`.
 
 ---
 
@@ -696,9 +696,9 @@ def _pair_up(seeded, unseeded, rng):
 - Tirer, puis jouer, tour après tour. Les huitièmes ont besoin des vainqueurs des barrages, donc ils ne peuvent être tirés qu'après les barrages.
 
 ```python
-    qf = _next_round(rounds["r16"], QF_BRACKET, "qf", rng, by_rank)
-    sf = _next_round(rounds["qf"], ((0, 1), (2, 3)), "sf", rng, by_rank)
-    final = _next_round(rounds["sf"], ((0, 1),), "final", rng, by_rank)[0]
+    qf = _next_round(rounds["r16"], QF_BRACKET, "qf", by_rank)
+    sf = _next_round(rounds["qf"], ((0, 1), (2, 3)), "sf", by_rank)
+    final = _next_round(rounds["sf"], ((0, 1),), "final", by_rank, by_position=False)[0]
     rounds["final"] = [play_final(engine, final)]
 ```
 

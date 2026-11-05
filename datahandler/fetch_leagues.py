@@ -14,7 +14,7 @@ params = {"id" : 848, "season" : 2024}
 URL = "https://v3.football.api-sports.io/leagues"
 headers = {"x-apisports-key": API_KEY}
 
-response = requests.get(URL, headers=headers, params=params)
+response = requests.get(URL, headers=headers, params=params, timeout=15)  # seconds
 data = response.json()
 
 if data.get("errors"):

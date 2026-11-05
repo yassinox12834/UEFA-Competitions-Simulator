@@ -72,7 +72,7 @@ Chances de gagner le titre avec les vrais chapeaux 2025/26 de la Ligue des champ
 | 9 | Benfica | 30 % | 34 % | 8 % | 3,5 % |
 | 10 | Sporting CP | 33 % | 35 % | 8 % | 3,5 % |
 
-<sub>Un seul tirage (graine 1, chapeaux de `templates/2025_2026/`) : un autre tirage déplace un club d'un point ou deux. Les confrontations aller-retour utilisent la méthode par défaut, « legs ». Les notes viennent d'environ une saison et demie de matchs et sont traitées comme exactes, donc les chances affichées sont un peu trop sûres d'elles. Voir [Limites connues](#limites-connues).</sub>
+<sub>Un seul tirage (graine 1, chapeaux de `templates/2025_2026/`) : un autre tirage déplace un club d'un point ou deux. Les confrontations aller-retour utilisent la méthode « legs », et les quarts suivent le tableau de la version 1.1.0, corrigé depuis (voir le [journal des modifications](CHANGELOG.md)) : ce tableau n'a pas été recalculé. Les notes viennent d'environ une saison et demie de matchs et sont traitées comme exactes, donc les chances affichées sont un peu trop sûres d'elles. Voir [Limites connues](#limites-connues).</sub>
 
 ## Ce que vous pouvez faire
 
@@ -174,8 +174,8 @@ Toutes les données de matchs viennent d'[API-Football](https://www.api-football
 - Un résultat ne dépend que des notes des deux clubs : pas de blessures, pas de joueurs, pas de forme récente avant la saison.
 - Le score d'un match ne dépend pas de l'écart de force entre les deux clubs.
 - Les notes sont considérées comme exactes, donc les chances affichées sont un peu trop sûres d'elles.
-- La façon de trancher une confrontation aller-retour par défaut (« legs ») compare les victoires et les nuls, pas les buts : environ 27 % des confrontations vont aux tirs au but, contre environ 10 % dans les vraies données. La méthode « aggregate », la vraie règle, en donne environ 6 %.
-- Hamrun Spartans (modèle 2025/26 de la Ligue Conférence) n'a aucun match dans les données et part de la note par défaut, 1500.
+- La méthode « legs » pour trancher une confrontation aller-retour, qui n'est plus la méthode par défaut, compare les victoires et les nuls, pas les buts : environ 27 % des confrontations vont aux tirs au but, contre environ 10 % dans les vraies données. La méthode « aggregate », la vraie règle et maintenant la méthode par défaut, en donne environ 6 %.
+- Hamrun Spartans (modèle 2025/26 de la Ligue Conférence) n'a aucun match dans les données. Il part de la note de départ de Malte (1419), pas d'une note qui lui est propre.
 
 ## Bugs connus de la version 1.1.0
 
@@ -183,9 +183,7 @@ Aucun ne change beaucoup un résultat. Restent ouverts :
 
 | Bug | Effet |
 |---|---|
-| Le match retour des quarts et des demies est donné à un club à pile ou face ; depuis 2025/26, l'UEFA le donne aux clubs classés 1 à 4 (1 et 2 en demies) | L'avantage du terrain au retour va parfois au mauvais club |
-| Le tableau des quarts (`QF_BRACKET` : 1-8, 3-5, 2-7, 4-6) n'a pas été vérifié avec l'annexe B du règlement de l'UEFA | Le chemin vers la finale peut différer de celui de l'UEFA |
-| `datahandler/` : la saison est écrite à la main et les requêtes n'ont pas de délai maximum | Voir [`datahandler/`](datahandler/README.md#problèmes-connus) |
+| `datahandler/` : la saison est écrite à la main | Voir [`datahandler/`](datahandler/README.md#problèmes-connus) |
 
 Les dix bugs de la version 1.0.2 sont corrigés. La liste, avec chaque correction, est dans le [journal des modifications](CHANGELOG.md) et dans [`model/docs/`](model/docs/README.md#les-bugs-connus-au-m%C3%AAme-endroit).
 
@@ -193,7 +191,7 @@ Les dix bugs de la version 1.0.2 sont corrigés. La liste, avec chaque correctio
 
 - [ ] Une interface plus facile à modifier.
 - [ ] Des données d'autres saisons.
-- [ ] La vraie règle qui décide qui reçoit au match retour en quarts et en demies (pile ou face pour l'instant).
+- [x] La vraie règle qui décide qui reçoit au match retour en quarts et en demies.
 - [ ] Une barre de « tension » qui montre à quel point un match est serré.
 - [ ] Les joueurs, et une simulation en direct.
 

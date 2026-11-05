@@ -2,6 +2,19 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.2.0] 05-11-2026
+
+### Changed
+
+- The default two-leg method is now "aggregate", the real UEFA rule (goals added over both legs, then extra time, then penalties), instead of "legs". "legs" sent about 27 % of ties to penalties against about 10 % in the real data; "aggregate" gives about 6 %. `DEFAULT_METHOD` in `model/knockout.py`. Every chance the app shows moves.
+- Hamrun Spartans, which has no match in the data, now starts at Malta's country seed (1419) instead of the flat 1500 (`UNRATED_COUNTRY` in `model/names.py`, used by `seed_ratings` in `model/simulation.py`). The warning gives the rating it started at, and the "not found" message in the app no longer says 1500.
+
+### Fixed
+
+- The quarter-final bracket (`QF_BRACKET`) did not match UEFA's. It is now QF1 = tie 6 v tie 3, QF2 = 8 v 2, QF3 = 5 v 4, QF4 = 7 v 1 (a tie is named after the league-phase rank of its top-8 club), then SF1 = QF1 v QF2 and SF2 = QF3 v QF4. Checked against the bracket UEFA published for 2025/26 and against the real 2025/26 results.
+- The second leg of the quarter-finals and semi-finals is no longer given by a coin toss. As in Article 19.04 of the Regulations, the side with the better seed position plays it at home (1 to 4 in the quarter-finals, 1 and 2 in the semi-finals), and a club that knocks out a seeded club takes over its position (`Tie.pos`, `_next_round` in `model/knockout.py`). In the final, the winner of SF1 is the nominal home side. The coin is gone, so a given seed now gives a different knockout phase than in 1.1.0.
+- `datahandler/`: every request now has a 15-second timeout. A timeout or a connection error prints a warning and the script goes on, instead of stopping with a traceback.
+
 ## [1.1.0] 31-10-2026 🎃
 
 A minor release, not a patch: it adds a feature (swapping two clubs between pots) and changes how the model rates matches decided after 90 minutes, so every chance the app shows moves. It also fixes the ten known bugs of 1.0.2 and rebuilds all of the model's data.
@@ -143,6 +156,19 @@ The first stable version.
 # Journal des modifications (version française)
 
 Tous les changements notables de ce projet sont documentés dans ce fichier.
+
+## [1.2.0] 05-11-2026
+
+### Modifié
+
+- La méthode par défaut pour les confrontations aller-retour est maintenant « aggregate », la vraie règle de l'UEFA (buts additionnés sur les deux matchs, puis prolongation, puis tirs au but), au lieu de « legs ». « legs » envoyait environ 27 % des confrontations aux tirs au but, contre environ 10 % dans les vraies données ; « aggregate » en donne environ 6 %. `DEFAULT_METHOD` dans `model/knockout.py`. Toutes les chances affichées par l'application bougent.
+- Hamrun Spartans, qui n'a aucun match dans les données, part maintenant de la note de départ de Malte (1419) au lieu de 1500 (`UNRATED_COUNTRY` dans `model/names.py`, utilisé par `seed_ratings` dans `model/simulation.py`). L'avertissement donne la note de départ, et le message « absent du fichier Elo » de l'application ne dit plus 1500.
+
+### Corrigé
+
+- Le tableau des quarts (`QF_BRACKET`) ne correspondait pas à celui de l'UEFA. Il est maintenant QF1 = confrontation 6 contre 3, QF2 = 8 contre 2, QF3 = 5 contre 4, QF4 = 7 contre 1 (une confrontation porte la place au classement de la phase de ligue de son club du top 8), puis SF1 = QF1 contre QF2 et SF2 = QF3 contre QF4. Vérifié avec le tableau publié par l'UEFA pour 2025/26 et avec les vrais résultats de 2025/26.
+- Le match retour des quarts et des demies n'est plus donné à pile ou face. Comme dans l'article 19.04 du règlement, le côté qui a la meilleure position de tête de série le joue à domicile (1 à 4 en quarts, 1 et 2 en demies), et un club qui élimine une tête de série prend sa position (`Tie.pos`, `_next_round` dans `model/knockout.py`). En finale, le vainqueur de SF1 est l'équipe « à domicile » sur le papier. La pièce a disparu : une même graine donne donc une phase à élimination directe différente de celle de la 1.1.0.
+- `datahandler/` : chaque requête a maintenant un délai maximum de 15 secondes. Un délai dépassé ou une erreur de connexion affiche un avertissement et le script continue, au lieu de s'arrêter avec une trace d'erreur.
 
 ## [1.1.0] 31-10-2026 🎃
 

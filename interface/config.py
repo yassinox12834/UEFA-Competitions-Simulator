@@ -329,7 +329,7 @@ STRINGS = {
         "sim_saved_title": "Log saved",
         "sim_saved": "Written to {file}.",
         "sim_save_bad_title": "Nothing was saved",
-        "sim_not_found": "{club}: not in the Elo file, started at 1500.",
+        "sim_not_found": "{club}: not in the Elo file, started from an estimated rating.",
     },
     "fr": {
         "tagline": "Moteur de tirage et de simulation des soirées européennes",
@@ -573,7 +573,7 @@ STRINGS = {
         "sim_saved_title": "Journal enregistré",
         "sim_saved": "Écrit dans {file}.",
         "sim_save_bad_title": "Rien n'a été enregistré",
-        "sim_not_found": "{club} : absent du fichier Elo, parti de 1500.",
+        "sim_not_found": "{club} : absent du fichier Elo, parti d'une note estimée.",
     },
 }
 LANG_NAMES = {"en": "English", "fr": "Français"}

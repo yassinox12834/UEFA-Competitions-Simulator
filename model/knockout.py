@@ -18,21 +18,26 @@ winners of 13/14 v 19/20, 5-6 the 11/12 v 21/22 winners, 7-8 the 9/10 v
 second leg at home.
 
 From the quarter-finals the bracket is fixed by the seed of the top-8
-club in each round-of-16 tie:
+club in each round-of-16 tie (UEFA's bracket, Annex B, as published for
+2025/26 on uefa.com and followed by the real results):
 
-    QF1 = tie(1) v tie(8)      SF1 = QF1 v QF2
-    QF2 = tie(3) v tie(5)      SF2 = QF3 v QF4
-    QF3 = tie(2) v tie(7)      Final = SF1 v SF2, single leg, neutral
-    QF4 = tie(4) v tie(6)
+    QF1 = tie(6) v tie(3)      SF1 = QF1 v QF2
+    QF2 = tie(8) v tie(2)      SF2 = QF3 v QF4
+    QF3 = tie(5) v tie(4)      Final = SF1 v SF2, single leg, neutral
+    QF4 = tie(7) v tie(1)
 
-Second-leg home advantage in the QF and SF is decided by a coin, as the
-real bracket draw does.
+Second-leg home advantage (Regulations, Article 19.04): in the QF the
+side whose seed POSITION is 1 to 4 hosts, in the SF the side whose
+position is 1 or 2. A club that knocks out a seeded club takes over that
+club's position (`Tie.pos`), so the host is the better position, not
+necessarily the club with the better league-phase rank. In the final,
+the winner of SF1 is the nominal home side (the ground is neutral).
 
 Three ways to settle a two-legged tie, chosen by the user. Every one of
 them uses the same logistic regression; they differ in what they ask
 of it.
 
-    "legs"       (default, Yassine's choice)
+    "legs"       (the default until the change to "aggregate")
                  Each leg is played as a match and worth 1 for a win,
                  0.5 for a draw. Higher total over the two legs goes
                  through. Level (1-1, or two draws) -> a shoot-out
@@ -40,7 +45,8 @@ of it.
                  E_A, the Elo expected score of the second-leg host,
                  and whose SCORE is a real shoot-out sampled for that
                  winner (penalties.kick_for).
-    "aggregate"  Each leg is played as a match with a scoreline. Goals
+    "aggregate"  (the default, the real rule)
+                 Each leg is played as a match with a scoreline. Goals
                  added over both legs. Level -> extra time (a thinned
                  scoreline, see scorelines.py) -> a penalty shoot-out
                  kicked one by one (penalties.py), 50/50 by symmetry.
@@ -63,14 +69,18 @@ from model.elo_score_updating import (SHARE_ET, SHARE_PEN, expected_score,
                                       update_rating)
 
 METHODS = ("legs", "aggregate", "oneshot")
-DEFAULT_METHOD = "legs"
+DEFAULT_METHOD = "aggregate"
 
 # Play-off pairs, in the order that lines them up with the round-of-16
 # pairs below (index 0 of PLAYOFF meets index 3 of R16_TOP, and so on).
 PLAYOFF_SEEDED = ((9, 10), (11, 12), (13, 14), (15, 16))
 PLAYOFF_UNSEEDED = ((23, 24), (21, 22), (19, 20), (17, 18))
 R16_TOP = ((1, 2), (3, 4), (5, 6), (7, 8))
-QF_BRACKET = ((1, 8), (3, 5), (2, 7), (4, 6))
+# Quarter-finals in UEFA's order QF1 to QF4. A number is the seed position of
+# a round-of-16 tie (the league-phase rank of its top-8 club). With
+# ((0, 1), (2, 3)) this gives SF1 = QF1 v QF2 and SF2 = QF3 v QF4.
+## QF == Quarter final
+QF_BRACKET = ((6, 3), (8, 2), (5, 4), (7, 1))
 
 
 class Tie:
@@ -78,11 +88,12 @@ class Tie:
 
     __slots__ = ("a", "b", "stage", "method", "legs", "score_a", "score_b",
                  "extra_time", "shootout", "p_advance", "winner", "lines",
-                 "seed_a", "seed_b", "tag")
+                 "seed_a", "seed_b", "tag", "pos")
 
     def __init__(self, a, b, stage, tag=None, seed_a=None, seed_b=None):
         self.a, self.b, self.stage, self.tag = a, b, stage, tag
         self.seed_a, self.seed_b = seed_a, seed_b
+        self.pos = tag      # seed position (1 to 8) this tie descends from
         self.method = None
         self.legs = []
         self.score_a = self.score_b = None      # aggregate goals or leg points
@@ -317,16 +328,31 @@ def _rank_of(by_rank, club):
 _REVERSE = {}
 
 
-def _next_round(previous, pairs_by_tag, stage, rng, by_rank):
-    """Pair the winners of `previous` following `pairs_by_tag`; coin for home."""
-    winner_by_tag = {tie.tag: tie.winner for tie in previous}
+def _next_round(previous, pairs_by_tag, stage, by_rank, by_position=True):
+    """Pair the winners of `previous` following `pairs_by_tag`.
+
+    Who hosts the second leg is not a coin (Article 19.04). Every tie
+    carries `pos`, the seed position (1 to 8) it descends from: a
+    round-of-16 tie has the rank of its top-8 club, and a later tie takes
+    the better (smaller) `pos` of the two ties it merges. A club that
+    knocks out a seeded club therefore inherits that club's position. The
+    side with the smaller `pos` is `a` and hosts the second leg. In the
+    bracket above, exactly one side of every QF has a position from 1 to 4
+    and exactly one side of every SF has 1 or 2, so no number needs naming.
+
+    `by_position=False` keeps the order of `pairs_by_tag`: used for the
+    final, where the winner of SF1 is the nominal home side.
+    """
+    by_tag = {tie.tag: tie for tie in previous}
     ties = []
     for index, (t1, t2) in enumerate(pairs_by_tag):
-        first, second = winner_by_tag[t1], winner_by_tag[t2]
-        if rng.random() < 0.5:
-            first, second = second, first
-        ties.append(Tie(first, second, stage, tag=index,
-                        seed_a=_rank_of(by_rank, first), seed_b=_rank_of(by_rank, second)))
+        x, y = by_tag[t1], by_tag[t2]
+        if by_position and y.pos < x.pos:
+            x, y = y, x
+        tie = Tie(x.winner, y.winner, stage, tag=index,
+                  seed_a=_rank_of(by_rank, x.winner), seed_b=_rank_of(by_rank, y.winner))
+        tie.pos = min(x.pos, y.pos)
+        ties.append(tie)
     return ties
 
 
@@ -348,12 +374,12 @@ def play_knockout(engine, table, method=DEFAULT_METHOD):
         engine.note(f"   {tie.a} ({tie.seed_a}) v {tie.b} ({tie.seed_b})")
     rounds["r16"] = [play_tie(engine, tie, method) for tie in r16]
 
-    qf = _next_round(rounds["r16"], QF_BRACKET, "qf", rng, by_rank)
+    qf = _next_round(rounds["r16"], QF_BRACKET, "qf", by_rank)
     rounds["qf"] = [play_tie(engine, tie, method) for tie in qf]
 
-    sf = _next_round(rounds["qf"], ((0, 1), (2, 3)), "sf", rng, by_rank)
+    sf = _next_round(rounds["qf"], ((0, 1), (2, 3)), "sf", by_rank)
     rounds["sf"] = [play_tie(engine, tie, method) for tie in sf]
 
-    final = _next_round(rounds["sf"], ((0, 1),), "final", rng, by_rank)[0]
+    final = _next_round(rounds["sf"], ((0, 1),), "final", by_rank, by_position=False)[0]
     rounds["final"] = [play_final(engine, final)]
     return rounds

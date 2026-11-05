@@ -13,7 +13,11 @@ for compet in competitions:
 
     for team_name, ID in dic.items():
         image_URL = f"https://media.api-sports.io/football/teams/{ID}.png"
-        response = requests.get(image_URL, headers=headers)
+        try:
+            response = requests.get(image_URL, headers=headers, timeout=15)  # seconds
+        except requests.RequestException as exc:
+            print(f"warning, {team_name}: {exc}")
+            continue
 
         final_link = CLUB_LOGOS_DIR / compet / f"{team_name}_logo.png"
         final_link.parent.mkdir(parents=True, exist_ok=True)

@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 HEADERS  = {"x-apisports-key": os.getenv("API_KEY")}
 URL = "https://v3.football.api-sports.io/fixtures"
+TIMEOUT = 15      # seconds to wait for the server; requests waits for ever by default
 
 
 def safe_filename(name: str) -> str:
@@ -28,10 +29,15 @@ def fetch_fixtures(competition: str, season: int) -> None:
             print(f"skip {path.name}")
             continue
 
-        data = requests.get(
-            URL, headers=HEADERS,
-            params={"season": season, "team": team_id},
-        ).json()
+        try:
+            data = requests.get(
+                URL, headers=HEADERS,
+                params={"season": season, "team": team_id},
+                timeout=TIMEOUT,
+            ).json()
+        except requests.RequestException as exc:
+            print(f"warning, {team_name}: {exc}; run again to retry")
+            continue
 
         if data.get("errors"):
             print(f"warning, {team_name}: {data['errors']}")

@@ -72,7 +72,7 @@ Title odds for the real 2025/26 Champions League pots (one draw, 10,000 replays,
 | 9 | Benfica | 30% | 34% | 8% | 3.5% |
 | 10 | Sporting CP | 33% | 35% | 8% | 3.5% |
 
-<sub>One draw only (seed 1, pots from `templates/2025_2026/`): another draw moves a club by a point or two. Two-legged ties use the default "legs" method. The ratings come from about a season and a half of matches and are treated as exact, so the chances are a little too sure of themselves. See [Known limits](#known-limits).</sub>
+<sub>One draw only (seed 1, pots from `templates/2025_2026/`): another draw moves a club by a point or two. Two-legged ties use the "legs" method, and the quarter-finals follow the bracket of version 1.1.0, corrected since (see the [changelog](CHANGELOG.md)): this table has not been recomputed. The ratings come from about a season and a half of matches and are treated as exact, so the chances are a little too sure of themselves. See [Known limits](#known-limits).</sub>
 
 ## What you can do
 
@@ -174,8 +174,8 @@ All match data comes from [API-Football](https://www.api-football.com), on its f
 - A result depends only on the two clubs' ratings: no injuries, no players, no recent form before the season.
 - The score of a match does not depend on how much stronger the winner is.
 - The ratings are treated as exact, so the chances shown are a little too sure of themselves.
-- The default way of settling a two-legged tie ("legs") compares wins and draws, not goals: about 27 % of ties go to penalties, against about 10 % in the real data. The "aggregate" method, the real rule, gives about 6 %.
-- Hamrun Spartans (2025/26 Conference League template) has no match in the data and starts at the default rating, 1500.
+- The "legs" method of settling a two-legged tie, no longer the default, compares wins and draws, not goals: about 27 % of ties go to penalties, against about 10 % in the real data. The default "aggregate" method, the real rule, gives about 6 %.
+- Hamrun Spartans (2025/26 Conference League template) has no match in the data. It starts at Malta's country seed (1419), not at a rating of its own.
 
 ## Known bugs in version 1.1.0
 
@@ -183,9 +183,7 @@ None of these changes a result by much. Still open:
 
 | Bug | Effect |
 |---|---|
-| The second leg of the quarter-finals and semi-finals is given to a club by a coin toss; since 2025/26 UEFA gives it to the clubs ranked 1 to 4 (1 and 2 in the semi-finals) | Home advantage in the second leg sometimes goes to the wrong club |
-| The quarter-final bracket (`QF_BRACKET`: 1 v 8, 3 v 5, 2 v 7, 4 v 6) has not been checked against Annex B of the UEFA regulations | The path to the final may differ from UEFA's |
-| `datahandler/`: the season is typed by hand and the requests have no timeout | See [`datahandler/`](datahandler/README.md#known-problems) |
+| `datahandler/`: the season is typed by hand | See [`datahandler/`](datahandler/README.md#known-problems) |
 
 The ten bugs of version 1.0.2 are fixed. The list, with each fix, is in the [changelog](CHANGELOG.md) and in [`model/docs/`](model/docs/README.md#known-bugs-all-in-one-place).
 
@@ -193,7 +191,7 @@ The ten bugs of version 1.0.2 are fixed. The list, with each fix, is in the [cha
 
 - [ ] An interface that is easier to change.
 - [ ] Data from other seasons.
-- [ ] The real rule for who plays the second leg at home in the quarter-finals and semi-finals (a coin toss for now).
+- [x] The real rule for who plays the second leg at home in the quarter-finals and semi-finals.
 - [ ] A "tension" bar that shows how tight a match is.
 - [ ] Players, and a live simulation.
 

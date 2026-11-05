@@ -13,14 +13,20 @@ HEADERS = {"x-apisports-key": os.getenv("API_KEY")}
 
 LEAGUES = {2: "UCL", 3: "UEL", 848: "UECL"}
 SEASON = 2024
+TIMEOUT = 15      # seconds to wait for the server; requests waits for ever by default
 
 OUT_DIR = REFERENCE_DIR
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 for league_id, name in LEAGUES.items():
-    resp = requests.get(URL, headers=HEADERS,
-                         params={"league": league_id, "season": SEASON})
-    data = resp.json()
+    try:
+        resp = requests.get(URL, headers=HEADERS,
+                            params={"league": league_id, "season": SEASON},
+                            timeout=TIMEOUT)
+        data = resp.json()
+    except requests.RequestException as exc:
+        print(f"warning, {name}: {exc}")
+        continue
 
     if data.get("errors"):
         print(f"warning, {name}: {data['errors']}")

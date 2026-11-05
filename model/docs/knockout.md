@@ -8,7 +8,7 @@
 
 - **What goes in:** the final league table ([`league_phase.md`](league_phase.md)).
 - **What comes out:** every knockout tie, with its matches, any extra time or penalty shoot-out, and the champion.
-- **The choice the user makes:** how a two-legged tie is settled: "legs" (the default), "aggregate" (the real UEFA rule) or "oneshot". Section 3 explains the three.
+- **The choice the user makes:** how a two-legged tie is settled: "aggregate" (the default, the real UEFA rule), "legs" or "oneshot". Section 3 explains the three.
 - **Code:** `model/knockout.py`. Line-by-line walkthrough: [`code/knockout_code.md`](code/knockout_code.md).
 
 ---
@@ -61,14 +61,14 @@ The best clubs get the easiest paths: 1st and 2nd meet winners of the 15th/16th 
 |---|---|
 | Play-off | the better-ranked club (9th to 16th) |
 | Round of 16 | the top-8 club |
-| Quarter-final, semi-final | decided by a coin |
+| Quarter-final, semi-final | the better seed position (1 to 4 in the quarter-finals, 1 and 2 in the semi-finals) |
 | Final | nobody: one match at a neutral ground |
 
 ---
 
 ## 3. Three ways to settle a two-legged tie
 
-### "legs" (the default): a point per match
+### "legs": a point per match
 
 Each leg is treated as its own match: **1 point for a win, 0.5 for a draw**. Over the two legs, the club with more points goes through.
 
@@ -220,7 +220,6 @@ How each line works: [`code/knockout_code.md`](code/knockout_code.md).
 
 - **"legs" ignores goals**: 5-0 then 0-1 is a level tie.
 - **Hosting the second leg is slightly worse** in the simulation (section 4).
-- **The home order of quarter-finals and semi-finals is a coin**, standing in for the real draw.
 - **"oneshot" moves the ratings once per tie**, the other methods twice (two legs), so ratings change at a different speed depending on the method.
 - **No other draw rules after the league phase** are modelled.
 
@@ -262,7 +261,7 @@ None in the logic. One rough edge: a tie built by hand, without league positions
 
 - **Ce qui entre :** le classement final de la phase de ligue ([`league_phase.md`](league_phase.md)).
 - **Ce qui sort :** chaque confrontation à élimination directe, avec ses matchs, une éventuelle prolongation ou séance de tirs au but, et le champion.
-- **Le choix de l'utilisateur :** comment se décide une confrontation aller-retour : « legs » (par défaut), « aggregate » (la vraie règle de l'UEFA) ou « oneshot ». La section 3 explique les trois.
+- **Le choix de l'utilisateur :** comment se décide une confrontation aller-retour : « aggregate » (par défaut, la vraie règle de l'UEFA), « legs » ou « oneshot ». La section 3 explique les trois.
 - **Code :** `model/knockout.py`. Explication ligne par ligne : [`code/knockout_code.md`](code/knockout_code.md).
 
 ---
@@ -315,7 +314,7 @@ Les meilleurs clubs ont les chemins les plus faciles : le 1er et le 2e rencontre
 |---|---|
 | Barrage | le mieux classé (9e à 16e) |
 | Huitièmes | le club du top 8 |
-| Quarts, demies | décidé à pile ou face |
+| Quarts, demies | le meilleur numéro de tête de série (1 à 4 en quarts, 1 et 2 en demies) |
 | Finale | personne : un seul match sur terrain neutre |
 
 ---
@@ -474,7 +473,6 @@ Comment marche chaque ligne : [`code/knockout_code.md`](code/knockout_code.md).
 
 - **« legs » ignore les buts** : 5-0 puis 0-1, c'est une égalité.
 - **Recevoir au retour est un peu désavantageux** dans la simulation (section 4).
-- **L'ordre domicile/extérieur des quarts et des demies est tiré à pile ou face**, à la place du vrai tirage.
 - **« oneshot » fait bouger les notes une fois par confrontation**, les autres méthodes deux fois (deux matchs), donc les notes changent à une vitesse différente selon la méthode.
 - **Aucune autre règle de tirage après la phase de ligue** n'est modélisée.
 
