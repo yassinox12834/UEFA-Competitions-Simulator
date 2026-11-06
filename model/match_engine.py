@@ -183,7 +183,7 @@ class MatchEngine:
             outcome, s_home = "draw", 0.5
         else:
             outcome, s_home = "away", 0.0
-        hg, ag = self.sampler.sample(outcome, rng)
+        hg, ag = self.sampler.sample(outcome, rng, r_home - r_away)
 
         k = self.k_table[stage]
         e_home = 1.0 / (1.0 + 10.0 ** ((r_away - r_home) / 400.0))
@@ -208,7 +208,7 @@ class MatchEngine:
             outcome = "draw"
         else:
             outcome = "away"
-        hg, ag = self.sampler.sample(outcome, self.rng)
+        hg, ag = self.sampler.sample(outcome, self.rng, r_home - r_away, neutral)
         assert outcome_of(hg, ag) == outcome
 
         k = self.k_table[stage]
@@ -236,7 +236,8 @@ class MatchEngine:
         cut1, cut2 = m.probs.p_home, m.probs.p_home + m.probs.p_draw
         t.append(f"   u = {m.u:.4f}  ->  {m.outcome.upper()}  "
                  f"(home if u < {cut1:.3f}, draw if u < {cut2:.3f}, else away)")
-        p_score = self.sampler.probability(m.outcome, m.home_goals, m.away_goals)
+        p_score = self.sampler.probability(m.outcome, m.home_goals, m.away_goals,
+                                           m.elo_home - m.elo_away, m.neutral)
         t.append(f"   scoreline {m.score}  (P = {p_score:.3f} given {m.outcome})")
         t.append(f"   Elo: E_home = 1/(1+10^(({m.elo_away:.1f}-{m.elo_home:.1f})/400)) = {m.e_home:.3f}   "
                  f"S_home = {m.s_home}   K = {m.k:.2f}")

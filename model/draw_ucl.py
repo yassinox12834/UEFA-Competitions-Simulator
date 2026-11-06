@@ -17,6 +17,8 @@ from functools import lru_cache
 from itertools import chain
 from pathlib import Path
 
+from uefa.seeds import new_seed      # a plain module: it pulls in neither dotenv nor the API key
+
 # model/draw_ucl.py -> model/ -> UEFA/. An absolute path means the module
 # works whatever folder Python was launched from, which matters now that
 # the interface imports it instead of running it as a script.
@@ -322,7 +324,7 @@ def generate_draw(*, comp='UCL', seed=None, verify_result=True,
     Returns the teams dict: {club: {'country', 'pot', 'home', 'away', ...}}.
     """
     if seed is None:
-        seed = random.random()  # evaluated fresh on every function call
+        seed = new_seed()  # evaluated fresh on every function call
     if pots is None:
         pots = POTS_BY_COMP[comp]
     if countries is None:

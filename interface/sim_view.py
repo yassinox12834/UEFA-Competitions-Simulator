@@ -69,6 +69,7 @@ class SimulateView(BaseView):
         # The settings survive from one run to the next.
         self.method = DEFAULT_METHOD
         self.expert = True
+        self.poisson = False            # goal model: False = table of real scores
         self.runs = DEFAULT_RUNS
         self.seed_text = ""
 
@@ -286,6 +287,16 @@ class SimulateView(BaseView):
             self.seed_entry.insert(0, self.seed_text)
         hint(2, self.app.t("sim_seed_h"))
 
+        label(3, "sim_goals_short")
+        self.goals_switch = ctk.CTkSwitch(grid, text="", width=46,
+                                          progress_color=self.app.accent,
+                                          command=self._toggle_goals)
+        self.goals_switch.grid(row=3, column=1, sticky="w")
+        if self.poisson:
+            self.goals_switch.select()
+        self.goals_hint = hint(3, "")
+        self._paint_goals_hint()
+
     def _describe_model(self):
         try:
             model = resources().model
@@ -301,6 +312,7 @@ class SimulateView(BaseView):
     def _pick_method(self, method):
         self.method = method
         self._paint_methods()
+        self._paint_goals_hint()
 
     def _paint_methods(self):
         for method, card in self.method_cards.items():
@@ -309,6 +321,14 @@ class SimulateView(BaseView):
 
     def _toggle_expert(self):
         self.expert = bool(self.expert_switch.get())
+
+    def _toggle_goals(self):
+        self.poisson = bool(self.goals_switch.get())
+
+    def _paint_goals_hint(self):
+        """What the goal model changes depends on how two-legged ties are settled."""
+        self.goals_hint.configure(text=self.app.t("sim_goals_h") + " "
+                                       + self.app.t("sim_goals_" + self.method))
 
     def _pick_runs(self, label):
         self.runs = self.run_labels.get(label, 0)
@@ -339,7 +359,8 @@ class SimulateView(BaseView):
                 seed = self.seed_text
         self.job = SimJob(self.comp, self.teams, self.matchdays,
                           method=self.method, expert=self.expert,
-                          runs=self.runs, seed=seed).start()
+                          runs=self.runs, seed=seed,
+                          goals="poisson" if self.poisson else "table").start()
         self._t0 = time.perf_counter()
         self._go("working")
         self._poll_job()

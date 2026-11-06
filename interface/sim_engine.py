@@ -31,6 +31,7 @@ if str(BASE_DIR) not in sys.path:
 from model import simulation as sim                          # noqa: E402
 from model.knockout import DEFAULT_METHOD, METHODS           # noqa: E402,F401 - re-exported
 from model.simulation import STAGES                          # noqa: E402,F401 - re-exported
+from model.simulation import DEFAULT_GOALS                   # noqa: E402
 from model.predictor import PredictorError                   # noqa: E402
 
 from config import MC_RUNS as RUN_CHOICES                     # noqa: E402,F401 - re-exported
@@ -63,11 +64,12 @@ class SimJob:
     """
 
     def __init__(self, comp, teams, matchdays, method=DEFAULT_METHOD,
-                 expert=True, runs=0, seed=None):
+                 expert=True, runs=0, seed=None, goals=DEFAULT_GOALS):
         self.comp = comp
         self.teams = teams
         self.matchdays = matchdays
-        self.config = sim.SimConfig(method=method, expert=expert, seed=seed)
+        self.config = sim.SimConfig(method=method, expert=expert, seed=seed,
+                                    goals=goals)
         self.runs = int(runs)
         self._result = None
         self._mc = None

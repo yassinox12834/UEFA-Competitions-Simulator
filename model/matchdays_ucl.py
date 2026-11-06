@@ -16,6 +16,7 @@ if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
 from model.draw_ucl import generate_draw
+from uefa.seeds import new_seed
 
 
 def _schedule_matchdays_once(all_matches, num_matchdays, rng, budget):
@@ -111,7 +112,7 @@ def generate_matchdays(teams, *, seed=None, node_budget=NODE_BUDGET, max_attempt
     once, as either home or away.
     """
     if seed is None:
-        seed = random.random()
+        seed = new_seed()
 
     all_matches = [(home, away) for home, data in teams.items() for away in data['home']]
     sample = next(iter(teams.values()))

@@ -34,8 +34,10 @@ from model import knockout, league_phase
 from model.match_engine import DEFAULT_ELO, STAGE_LABELS, MatchEngine, load_k_table
 from model.names import ALIASES, UNRATED_COUNTRY, resolve_all
 from model.predictor import MatchModel
+from model.poisson_goals import PoissonSampler
 from model.scorelines import ScorelineSampler
 from uefa.paths import USER_DIR
+from uefa.seeds import new_seed
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 ELO_JSON = BASE_DIR / "data" / "processed" / "eeelo_final.json"
@@ -48,26 +50,34 @@ STAGE_TITLES = {"top8": "Top 8", "top24": "Top 24", "r16": "Round of 16",
                 "winner": "Winner"}
 
 
+# How a scoreline is drawn once the outcome is known: the table of real
+# scorelines (scorelines.py) or a Poisson model of the Elo gap (poisson_goals.py).
+GOAL_MODELS = ("table", "poisson")
+DEFAULT_GOALS = "table"
+
+
 class SimConfig:
     """Everything the user can choose on the simulation screen."""
 
     def __init__(self, method=knockout.DEFAULT_METHOD, expert=False, seed=None,
-                 runs=1):
+                 runs=1, goals=DEFAULT_GOALS):
         if method not in knockout.METHODS:
             raise ValueError(f"method must be one of {knockout.METHODS}")
+        if goals not in GOAL_MODELS:
+            raise ValueError(f"goals must be one of {GOAL_MODELS}")
         self.method = method
+        self.goals = goals
         self.expert = expert
-        # Python's shared generator is only touched when a seed has to be
-        # invented: a given seed must not change the state of `random` for
-        # the rest of the program.
+        # An invented seed is an integer (uefa/seeds.py), so what the app shows
+        # is exactly what has to be typed back to replay the run.
         if seed is None:
-            seed = random.random() + random.randint(-400, 400)
+            seed = new_seed()
         self.seed = seed
         self.runs = int(runs)
 
     def as_dict(self):
         return {"method": self.method, "expert": self.expert,
-                "seed": self.seed, "runs": self.runs}
+                "seed": self.seed, "runs": self.runs, "goals": self.goals}
 
 
 class Resources:
@@ -76,11 +86,20 @@ class Resources:
     def __init__(self, model = None, sampler=None, ratings=None):
         self.model = model or MatchModel.load()
         self.sampler = sampler or ScorelineSampler.load()
+        self._poisson = None            # loaded the first time a run asks for it
         if ratings is None:
             ratings = {c: float(r) for c, r in
                        json.loads(ELO_JSON.read_text(encoding="utf-8")).items()}
         self.ratings = ratings
         self._seeds = {}
+
+    def sampler_for(self, goals):
+        """The sampler for a goal model of GOAL_MODELS."""
+        if goals == "poisson":
+            if self._poisson is None:
+                self._poisson = PoissonSampler.load()
+            return self._poisson
+        return self.sampler
 
     def seeds_for(self, clubs):
         """seed_ratings(clubs), computed once per set of clubs.
@@ -158,7 +177,7 @@ def simulate(comp, teams, matchdays, config=None, resources=None):
     clubs = list(teams)
     seeds, resolutions = res.seeds_for(clubs)
     k_table, k_settings = load_k_table(comp)
-    engine = MatchEngine(res.model, res.sampler, seeds, k_table,
+    engine = MatchEngine(res.model, res.sampler_for(config.goals), seeds, k_table,
                          random.Random(config.seed), expert=config.expert,
                          k_settings=k_settings)
     warnings = [f"{r.club}: not found in the Elo file, starting at {seeds[r.club]:.0f}"
@@ -209,7 +228,8 @@ def _log_header(engine, comp, config, res, resolutions, seeds, k):
     engine.note(f"   weights: coef away/draw/home = {res.model.coef}, "
                 f"intercept = {res.model.intercept}, mean = {res.model.mean:.3f}, "
                 f"scale = {res.model.scale:.3f}")
-    engine.note(f"   scorelines: {res.sampler.source} ({res.sampler.matches} matches)")
+    engine.note(f"   scorelines: {config.goals} model, {engine.sampler.source} "
+                f"({engine.sampler.matches} matches)")
     engine.note(f"   Elo K: k_base {k['k_base']:g} x comp_mult {k['comp_mult']:g} x stage_mult, "
                 f"capped at {k['k_max']:g}: " +
                 ", ".join(f"{s} {engine.k_table[s]:.2f}" for s in engine.k_table))
@@ -268,7 +288,7 @@ def monte_carlo(comp, teams, matchdays, config=None, runs=200, resources=None,
     if workers > 1:
         try:
             counts, points = _mc_parallel(comp, clubs, days, config.method, seeds,
-                                          workers, progress, res)
+                                          workers, progress, res, config.goals)
         except (BrokenProcessPool, OSError, PicklingError):
             # No usable process pool here (a sandbox that forbids new
             # processes, a frozen app without freeze_support...): play the
@@ -278,7 +298,7 @@ def monte_carlo(comp, teams, matchdays, config=None, runs=200, resources=None,
             counts = points = None
     if counts is None:
         counts, points = _mc_block(comp, clubs, days, config.method, seeds, res,
-                                   progress, runs)
+                                   progress, runs, config.goals)
     return MonteCarloResult(comp, runs, counts, points, time.perf_counter() - t0, config)
 
 
@@ -286,7 +306,8 @@ class Cancelled(Exception):
     """Raise it from a progress callback to abandon a Monte Carlo."""
 
 
-def _mc_block(comp, clubs, days, method, seeds, res, progress=None, total=None):
+def _mc_block(comp, clubs, days, method, seeds, res, progress=None, total=None,
+              goals=DEFAULT_GOALS):
     """Play one run per seed; return ({club: {stage: n}}, {club: points})."""
     counts = {club: dict.fromkeys(STAGES, 0) for club in clubs}
     points = dict.fromkeys(clubs, 0)
@@ -297,7 +318,7 @@ def _mc_block(comp, clubs, days, method, seeds, res, progress=None, total=None):
     upto = {stage: chain[:i + 1] for i, stage in enumerate(chain)}
     upto["top8"] = upto["top24"]
     for i, seed in enumerate(seeds):
-        run_cfg = SimConfig(method, expert=False, seed=seed)
+        run_cfg = SimConfig(method, expert=False, seed=seed, goals=goals)
         result = simulate(comp, clubs, days, run_cfg, res)
         for row in result.table:
             points[row.club] += row.points
@@ -321,11 +342,13 @@ def _mc_worker_init(res=None):
 
 
 def _mc_worker(args):
-    comp, clubs, days, method, seeds = args
-    return len(seeds), _mc_block(comp, clubs, days, method, seeds, _WORKER_RES)
+    comp, clubs, days, method, seeds, goals = args
+    return len(seeds), _mc_block(comp, clubs, days, method, seeds, _WORKER_RES,
+                                 goals=goals)
 
 
-def _mc_parallel(comp, clubs, days, method, seeds, workers, progress, res=None):
+def _mc_parallel(comp, clubs, days, method, seeds, workers, progress, res=None,
+                 goals=DEFAULT_GOALS):
     from concurrent.futures import ProcessPoolExecutor, as_completed
     # Small chunks so the progress bar moves; ~4 chunks per worker.
     size = max(50, len(seeds) // (workers * 4))
@@ -336,7 +359,7 @@ def _mc_parallel(comp, clubs, days, method, seeds, workers, progress, res=None):
     pool = ProcessPoolExecutor(max_workers=workers, initializer=_mc_worker_init,
                                initargs=(res,))
     try:
-        futures = [pool.submit(_mc_worker, (comp, clubs, days, method, chunk))
+        futures = [pool.submit(_mc_worker, (comp, clubs, days, method, chunk, goals))
                    for chunk in chunks]
         for fut in as_completed(futures):
             n, (c, p) = fut.result()
@@ -362,6 +385,7 @@ def summary_lines(result):
     """The result as plain text, with or without the expert trace."""
     lines = [f"{result.comp} simulation  |  {datetime.now():%Y-%m-%d %H:%M}  |  "
              f"seed {result.config.seed!r}  |  two-leg method {result.config.method}  |  "
+             f"goals {result.config.goals}  |  "
              f"{result.elapsed * 1000:.0f} ms", ""]
     for w in result.warnings:
         lines.append("WARNING " + w)

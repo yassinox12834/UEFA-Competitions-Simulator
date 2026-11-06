@@ -162,8 +162,12 @@ class ScorelineSampler:
             return cls(raw["table"], source=path.name)
         return cls(FALLBACK, source="fallback")
 
-    def sample(self, outcome, rng):
-        """One scoreline for `outcome` in {"home", "draw", "away"}."""
+    def sample(self, outcome, rng, elo_gap=0.0, neutral=False):
+        """One scoreline for `outcome` in {"home", "draw", "away"}.
+
+        elo_gap and neutral are ignored: they exist so that this sampler and
+        model/poisson_goals.PoissonSampler can be swapped without touching the engine.
+        """
         cum = self._cum[outcome]
         u = rng.random() * cum[-1]
         return self._keys[outcome][bisect(cum, u)]
@@ -181,8 +185,8 @@ class ScorelineSampler:
         return (sum(1 for _ in range(h) if rng.random() < keep),
                 sum(1 for _ in range(a) if rng.random() < keep))
 
-    def probability(self, outcome, home_goals, away_goals):
-        """P(this scoreline | outcome), for the expert log."""
+    def probability(self, outcome, home_goals, away_goals, elo_gap=0.0, neutral=False):
+        """P(this scoreline | outcome), for the expert log (elo_gap, neutral ignored)."""
         keys, cum = self._keys[outcome], self._cum[outcome]
         try:
             i = keys.index((home_goals, away_goals))

@@ -39,6 +39,7 @@ from model import draw_ucl, draw_uecl                       # noqa: E402
 from model.matchdays_ucl import generate_matchdays          # noqa: E402
 from model.matchdays_uecl import verify_matchdays           # noqa: E402
 from uefa.paths import USER_DIR                             # noqa: E402
+from uefa.seeds import new_seed                             # noqa: E402
 
 # Which competition runs on which engine. UCL and UEL have exactly the
 # same format (4 pots of 9, 8 opponents), so they use the same module.
@@ -335,7 +336,7 @@ class DrawJob:
     def __init__(self, comp, pots_model, seed=None):
         self.comp = comp
         self.model = pots_model
-        self.seed = random.random() if seed is None else seed
+        self.seed = new_seed() if seed is None else seed
         # Snapshot of the constraints NOW, on Tk's thread. The worker
         # thread will read this copy: if the user opened the constraints
         # box during the calculation, mutating the set while it was being

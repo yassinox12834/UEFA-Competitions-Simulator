@@ -15,6 +15,8 @@ import time
 from itertools import chain
 from pathlib import Path
 
+from uefa.seeds import new_seed      # a plain module: it pulls in neither dotenv nor the API key
+
 # model/draw_uecl.py -> model/ -> UEFA/. Absolute, so the module works
 # whatever folder Python was launched from -- the interface imports it
 # rather than running it as a script. Deliberately not uefa.config: that
@@ -346,7 +348,7 @@ def generate_draw(*, comp='UECL', seed=None, verify_result=True,
     if comp != 'UECL':
         raise ValueError(f"draw_uecl only draws UECL, not {comp!r}")
     if seed is None:
-        seed = random.random()
+        seed = new_seed()
     if pots is None:
         pots = POTS
     if countries is None:

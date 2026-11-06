@@ -2,6 +2,33 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.3.0-beta.1] 06-11-2026
+
+Pre-release, published from the branch `trying_vgoals` and not merged into `main`. The default behaviour is unchanged: with "Poisson goals" off, a simulation with a given seed gives exactly the result of 1.2.0.
+
+### Added
+
+- **Poisson goals, an experimental option.** A switch on the simulation settings screen. Instead of drawing a scoreline from one table of real scorelines, the app draws it from a Poisson model of the Elo gap: expected goals `lambda_H = mu_H * exp(gamma * d)` and `lambda_A = mu_A * exp(-gamma * d)`, with `d = (R_H - R_A) / 400`. The classifier still chooses the outcome; the model only chooses the score inside it. A final on neutral ground has no home advantage (both sides use the mean of `mu_H` and `mu_A` on the log scale), and extra time uses `lambda / 3` for each side.
+- `model/poisson_goals.py` (the sampler), `model/fit_goals.py` (fits `mu_H`, `mu_A` and `gamma` with a Poisson regression on `match_features.csv` and `fixtures_25.csv`; run it with `python -m model.fit_goals`) and `data/reference/goal_weights.json` (`mu_H` 1.575, `mu_A` 1.286, `gamma` 1.404, 4,626 matches).
+- `SimConfig(goals="table" | "poisson")` and `Resources.sampler_for`. The option is carried through the Monte Carlo and its worker processes, and the text report and the expert log say which goal model was used.
+- A hint under the switch explains what the option changes for the selected two-leg method: the league table and the final in every mode; also the ties and extra time with "aggregate"; with "legs" the scores of the legs are only displayed, and with "one-shot" nothing else changes.
+- `uefa/seeds.py`, with `new_seed()`.
+
+### Changed
+
+- `ScorelineSampler.sample` and `ScorelineSampler.probability` accept `elo_gap` and `neutral` (both ignored), and `MatchEngine` passes the rating gap from before the match, so both samplers are called in the same way.
+- A seed invented by the app is now an integer from 0 to 4 294 967 295 taken from the operating system (`uefa/seeds.py`), in the simulation, the UCL and UECL draws and the matchday generators. It used to be a float between about -400 and 401.
+
+### Fixed
+
+- The seed shown in the results could not replay the run: it was displayed with 6 decimals, and a rounded copy typed back was read as text, which seeds the random generator differently. An integer seed is displayed exactly and replays exactly.
+
+### Known issues
+
+- With Poisson goals, a replay of the 4,626 real matches (real outcome and real rating gap) gives the real average goals (1.626 against 1.633 for the home side, 1.330 against 1.349 for the away side) and follows the rating gap better than the table (correlation of the gap with the goal difference 0.474, against 0.368 for the table and 0.443 in the real data). It makes fewer heavy wins: 18.0 % of matches decided by 3 goals or more, against 21.4 % in the real data (20.7 % with the table).
+- The Poisson grid stops at 6 goals, extra time ignores the rating gap, and the final's no-home-advantage rule rests on only 53 neutral matches.
+- The odds in the README have not been recomputed.
+
 ## [1.2.0] 05-11-2026
 
 ### Changed
@@ -156,6 +183,33 @@ The first stable version.
 # Journal des modifications (version française)
 
 Tous les changements notables de ce projet sont documentés dans ce fichier.
+
+## [1.3.0-beta.1] 06-11-2026
+
+Pré-version publiée depuis la branche `trying_vgoals`, non fusionnée dans `main`. Le comportement par défaut ne change pas : avec « Buts de Poisson » désactivé, une simulation avec une graine donnée donne exactement le résultat de la 1.2.0.
+
+### Ajouté
+
+- **Buts de Poisson, une option expérimentale.** Un interrupteur sur l'écran de réglages de la simulation. Au lieu de tirer un score dans un seul tableau de scores réels, l'application le tire dans un modèle de Poisson de l'écart Elo : buts attendus `lambda_H = mu_H * exp(gamma * d)` et `lambda_A = mu_A * exp(-gamma * d)`, avec `d = (R_H - R_A) / 400`. Le classifieur choisit toujours le résultat ; le modèle ne choisit que le score à l'intérieur. Une finale sur terrain neutre n'a pas d'avantage du terrain (les deux côtés utilisent la moyenne de `mu_H` et `mu_A` à l'échelle logarithmique), et la prolongation utilise `lambda / 3` pour chaque côté.
+- `model/poisson_goals.py` (l'échantillonneur), `model/fit_goals.py` (ajuste `mu_H`, `mu_A` et `gamma` par une régression de Poisson sur `match_features.csv` et `fixtures_25.csv` ; à lancer avec `python -m model.fit_goals`) et `data/reference/goal_weights.json` (`mu_H` 1,575, `mu_A` 1,286, `gamma` 1,404, 4 626 matchs).
+- `SimConfig(goals="table" | "poisson")` et `Resources.sampler_for`. L'option est transmise au Monte Carlo et à ses processus de travail, et le compte rendu texte et le journal expert indiquent quel modèle de buts a servi.
+- Une aide sous l'interrupteur explique ce que l'option change pour la méthode aller-retour choisie : le classement et la finale dans tous les modes ; aussi les confrontations et la prolongation avec « aggregate » ; avec « legs », les scores des manches ne sont qu'affichés, et avec « one-shot » rien d'autre ne change.
+- `uefa/seeds.py`, avec `new_seed()`.
+
+### Modifié
+
+- `ScorelineSampler.sample` et `ScorelineSampler.probability` acceptent `elo_gap` et `neutral` (tous deux ignorés), et `MatchEngine` transmet l'écart de notes d'avant le match : les deux échantillonneurs s'appellent donc de la même façon.
+- Une graine inventée par l'application est maintenant un entier de 0 à 4 294 967 295 pris dans le système d'exploitation (`uefa/seeds.py`), dans la simulation, les tirages UCL et UECL et les générateurs de journées. C'était un nombre à virgule entre environ -400 et 401.
+
+### Corrigé
+
+- La graine affichée dans les résultats ne permettait pas de rejouer la simulation : elle était affichée avec 6 décimales, et une copie arrondie retapée était lue comme du texte, ce qui initialise le générateur aléatoire autrement. Une graine entière s'affiche exactement et se rejoue exactement.
+
+### Problèmes connus
+
+- Avec les buts de Poisson, un rejeu des 4 626 vrais matchs (vrai résultat et vrai écart de notes) donne les vraies moyennes de buts (1,626 contre 1,633 à domicile, 1,330 contre 1,349 à l'extérieur) et suit mieux l'écart de notes que le tableau (corrélation de l'écart avec la différence de buts 0,474, contre 0,368 pour le tableau et 0,443 dans les vraies données). Il donne moins de grosses victoires : 18,0 % des matchs décidés par 3 buts ou plus, contre 21,4 % dans les vraies données (20,7 % avec le tableau).
+- La grille de Poisson s'arrête à 6 buts, la prolongation ignore l'écart de notes, et la règle « sans avantage du terrain » de la finale ne repose que sur 53 matchs sur terrain neutre.
+- Les chances du README n'ont pas été recalculées.
 
 ## [1.2.0] 05-11-2026
 

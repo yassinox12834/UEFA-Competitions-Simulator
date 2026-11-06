@@ -24,6 +24,7 @@ if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 from model.draw_uecl import fixtures, generate_draw
 from model.matchdays_ucl import generate_matchdays
+from uefa.seeds import new_seed
 
 MATCHDAYS = 6            # six pots, one opponent from each
 MATCHES_PER_DAY = 18     # 36 clubs, all playing, two clubs per match
@@ -89,7 +90,7 @@ def generate_uecl_matchdays(*, seed=None, teams=None, verify_result=True,
     (home, away) pairs.
     """
     if seed is None:
-        seed = random.random()
+        seed = new_seed()
 
     if teams is None:
         teams = generate_draw(seed=seed, pots=pots, countries=countries)
