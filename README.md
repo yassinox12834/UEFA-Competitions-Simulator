@@ -20,13 +20,16 @@
 > [!NOTE]
 > **This is the `trying_vgoals` branch: an experiment, not the released version.**
 > It tests a Poisson goal model, where the score of a match depends on how much stronger one club is. The option is off by default, and with it off, a given seed gives the same results as in version 1.2.0. This branch is published as the pre-release `v1.3.0-beta.1`.
-> The Windows download below, and the title odds further down, come from `main`.
+> The blue Windows download below, and the title odds further down, come from `main`; the turquoise button downloads this pre-release.
 > To try the branch: `git clone -b trying_vgoals https://github.com/yassinox12834/UEFA-Competitions-Simulator.git`, follow the [quick start](#quick-start), then switch on **Poisson goals** on the simulation settings screen. Details in the [changelog](CHANGELOG.md).
 <!-- BRANCH-NOTE:END -->
 
 <p align="center">
   <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest/download/UEFA-Simulator-windows.zip">
     <img src="assets/images/github/readme/download_en.svg" alt="Download for Windows" width="340">
+  </a>
+  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/download/v1.3.0-beta.1/UEFA-Simulator-windows.zip">
+    <img src="assets/images/github/readme/download_prerelease_en.svg" alt="Download the pre-release for Windows" width="340">
   </a>
 </p>
 

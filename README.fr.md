@@ -20,13 +20,16 @@
 > [!NOTE]
 > **Voici la branche `trying_vgoals` : une expérience, pas la version publiée.**
 > Elle teste un modèle de buts de Poisson, où le score d'un match dépend de l'écart de force entre les clubs. L'option est désactivée par défaut, et sans elle, une graine donnée donne les mêmes résultats que la version 1.2.0. Cette branche est publiée comme pré-version `v1.3.0-beta.1`.
-> Le téléchargement Windows ci-dessous, et les chances de titre plus bas, viennent de `main`.
+> Le téléchargement Windows bleu ci-dessous, et les chances de titre plus bas, viennent de `main` ; le bouton turquoise télécharge cette pré-version.
 > Pour essayer la branche : `git clone -b trying_vgoals https://github.com/yassinox12834/UEFA-Competitions-Simulator.git`, suivez le [démarrage rapide](#démarrage-rapide), puis activez **Buts de Poisson** sur l'écran de réglages de la simulation. Détails dans le [journal des modifications](CHANGELOG.md).
 <!-- BRANCH-NOTE:END -->
 
 <p align="center">
   <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest/download/UEFA-Simulator-windows.zip">
     <img src="assets/images/github/readme/download_fr.svg" alt="Télécharger pour Windows" width="340">
+  </a>
+  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/download/v1.3.0-beta.1/UEFA-Simulator-windows.zip">
+    <img src="assets/images/github/readme/download_prerelease_fr.svg" alt="Télécharger la pré-version pour Windows" width="340">
   </a>
 </p>
 
