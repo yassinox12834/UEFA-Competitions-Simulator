@@ -16,20 +16,9 @@
   <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/issues">Signaler un bug</a>
 </p>
 
-<!-- BRANCH-NOTE:START (à supprimer quand la branche est fusionnée dans main) -->
-> [!NOTE]
-> **Voici la branche `trying_vgoals` : une expérience, pas la version publiée.**
-> Elle teste un modèle de buts de Poisson, où le score d'un match dépend de l'écart de force entre les clubs. L'option est désactivée par défaut, et sans elle, une graine donnée donne les mêmes résultats que la version 1.2.0. Cette branche est publiée comme pré-version `v1.3.0-beta.1`.
-> Le téléchargement Windows bleu ci-dessous, et les chances de titre plus bas, viennent de `main` ; le bouton turquoise télécharge cette pré-version.
-> Pour essayer la branche : `git clone -b trying_vgoals https://github.com/yassinox12834/UEFA-Competitions-Simulator.git`, suivez le [démarrage rapide](#démarrage-rapide), puis activez **Buts de Poisson** sur l'écran de réglages de la simulation. Détails dans le [journal des modifications](CHANGELOG.md).
-<!-- BRANCH-NOTE:END -->
-
 <p align="center">
   <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest/download/UEFA-Simulator-windows.zip">
     <img src="assets/images/github/readme/download_fr.svg" alt="Télécharger pour Windows" width="340">
-  </a>
-  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/download/v1.3.0-beta.1/UEFA-Simulator-windows.zip">
-    <img src="assets/images/github/readme/download_prerelease_fr.svg" alt="Télécharger la pré-version pour Windows" width="340">
   </a>
 </p>
 
@@ -93,7 +82,7 @@ Chances de gagner le titre avec les vrais chapeaux 2025/26 de la Ligue des champ
 | 🎬 **Regarder la cérémonie** | Chapeau par chapeau, ou directement le résultat. |
 | ✏️ **Changer les clubs** | En mode « Tirage seul » : remplacer n'importe quel club, échanger deux clubs de chapeau avec Ctrl + clic (Cmd + clic sur Mac ; un échange qui rendrait le tirage impossible est refusé), interdire un match (par exemple, Genk ne doit pas recevoir Brann), charger des chapeaux depuis un fichier, ou enregistrer les vôtres. |
 | ⚽ **Jouer une saison complète** | Classement, barrages, phases finales et une finale sur terrain neutre. Chaque match a un vrai score ; les tirs au but sont joués tir par tir. |
-| 🎯 **Choisir comment naissent les scores** | À partir d'un tableau de scores réels (par défaut), ou, dans la branche expérimentale `trying_vgoals`, à partir d'un modèle de Poisson de l'écart de force : plus l'écart est grand, plus le favori marque. L'écran de réglages indique ce que l'option change pour chaque façon de trancher une confrontation aller-retour. |
+| 🎯 **Choisir comment naissent les scores** | À partir d'un tableau de scores réels (par défaut), ou, avec l'option expérimentale « Buts de Poisson », à partir d'un modèle de Poisson de l'écart de force : plus l'écart est grand, plus le favori marque. L'écran de réglages indique ce que l'option change pour chaque façon de trancher une confrontation aller-retour. |
 | 📈 **Suivre la forme** | Un club qui gagne souvent devient plus fort pendant la saison. |
 | 🔁 **La rejouer 10 000 fois** | Voir, pour chaque club, à quelle fréquence il atteint chaque tour. |
 | 📄 **Lire chaque détail** | Un compte rendu complet de chaque match, dans l'application et dans un fichier texte. |
@@ -110,13 +99,12 @@ Les vrais chapeaux 2025/26 des trois compétitions sont fournis comme modèles d
 1. **Vrais matchs.** L'application apprend à partir d'environ 4 600 vrais matchs de la saison 2024/25 (amicaux exclus).
 2. **Notes des clubs.** À partir de ces résultats, chaque club reçoit une note de force, appelée note Elo. Battre un club fort rapporte plus que battre un club faible.
 3. **Le tirage.** Les chapeaux sont tirés avec les mêmes règles que l'UEFA.
-4. **La saison.** Pour chaque match, l'application transforme les notes des deux clubs en chances (victoire à domicile, nul, victoire à l'extérieur), puis choisit un résultat et un score. Le score vient d'un tableau de scores réels ou, avec l'option expérimentale « Buts de Poisson » de la branche `trying_vgoals`, d'un modèle de Poisson de l'écart de force.
+4. **La saison.** Pour chaque match, l'application transforme les notes des deux clubs en chances (victoire à domicile, nul, victoire à l'extérieur), puis choisit un résultat et un score. Le score vient d'un tableau de scores réels ou, avec l'option expérimentale « Buts de Poisson », d'un modèle de Poisson de l'écart de force.
 5. **On recommence.** Une saison, c'est une histoire ; 10 000 saisons donnent de vraies chances.
 
 Chaque étape est expliquée avec des exemples et de petits programmes Python dans [`model/docs/`](model/docs/README.md).
 
-<!-- BRANCH-NOTE:START (à supprimer ou à réécrire quand la branche est fusionnée dans main) -->
-### Buts de Poisson (expérimental, branche `trying_vgoals`)
+### Buts de Poisson (expérimental)
 
 Par défaut, une fois le résultat d'un match choisi, l'application tire le score dans un seul tableau de scores réels. L'option expérimentale utilise l'écart de force : plus le favori est fort, plus on s'attend à ce qu'il marque.
 
@@ -139,7 +127,6 @@ python model/elo_score_updating.py --write
 python -m model.fit_goals
 ```
 
-<!-- BRANCH-NOTE:END -->
 
 ### Comment se déroule une saison
 
@@ -210,12 +197,12 @@ Toutes les données de matchs viennent d'[API-Football](https://www.api-football
 
 - Les notes viennent d'environ une saison et demie de matchs, donc beaucoup de clubs restent proches de leur note de départ.
 - Un résultat ne dépend que des notes des deux clubs : pas de blessures, pas de joueurs, pas de forme récente avant la saison.
-- Avec le tableau de scores par défaut, le score d'un match ne dépend pas de l'écart de force entre les deux clubs. L'option expérimentale « Buts de Poisson » de la branche `trying_vgoals` en dépend, avec ses propres limites : elle s'arrête à 6 buts et donne moins de grosses victoires que le vrai football (18,0 % des matchs décidés par 3 buts ou plus, contre 21,4 % dans les vraies données), la prolongation ignore l'écart de notes, et la règle « sans avantage du terrain » de la finale ne repose que sur 53 matchs sur terrain neutre.
+- Avec le tableau de scores par défaut, le score d'un match ne dépend pas de l'écart de force entre les deux clubs. L'option expérimentale « Buts de Poisson » en dépend, avec ses propres limites : elle s'arrête à 6 buts et donne moins de grosses victoires que le vrai football (18,0 % des matchs décidés par 3 buts ou plus, contre 21,4 % dans les vraies données), la prolongation ignore l'écart de notes, et la règle « sans avantage du terrain » de la finale ne repose que sur 53 matchs sur terrain neutre.
 - Les notes sont considérées comme exactes, donc les chances affichées sont un peu trop sûres d'elles.
 - La méthode « legs » pour trancher une confrontation aller-retour, qui n'est plus la méthode par défaut, compare les victoires et les nuls, pas les buts : environ 27 % des confrontations vont aux tirs au but, contre environ 10 % dans les vraies données. La méthode « aggregate », la vraie règle et maintenant la méthode par défaut, en donne environ 6 %.
 - Hamrun Spartans (modèle 2025/26 de la Ligue Conférence) n'a aucun match dans les données. Il part de la note de départ de Malte (1419), pas d'une note qui lui est propre.
 
-## Bugs connus de la version 1.1.0
+## Bugs connus de la version 1.3.0
 
 Aucun ne change beaucoup un résultat. Restent ouverts :
 
@@ -230,7 +217,7 @@ Les dix bugs de la version 1.0.2 sont corrigés. La liste, avec chaque correctio
 - [ ] Une interface plus facile à modifier.
 - [ ] Des données d'autres saisons.
 - [x] La vraie règle qui décide qui reçoit au match retour en quarts et en demies.
-- [x] Des scores qui dépendent de l'écart de force (buts de Poisson, expérimental, branche `trying_vgoals`).
+- [x] Des scores qui dépendent de l'écart de force (buts de Poisson, expérimental).
 - [ ] Une finale plus serrée : un réglage de tension pour le modèle de Poisson.
 - [ ] Une barre de « tension » qui montre à quel point un match est serré.
 - [ ] Les joueurs, et une simulation en direct.

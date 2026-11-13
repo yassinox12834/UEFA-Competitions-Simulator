@@ -2,9 +2,18 @@
 
 All notable changes to this project are documented in this file.
 
-## [1.3.0-beta.1] 06-11-2026
+## [1.3.0] 13 November 2026
 
-Pre-release, published from the branch `trying_vgoals` and not merged into `main`. The default behaviour is unchanged: with "Poisson goals" off, a simulation with a given seed gives exactly the result of 1.2.0.
+### Changed
+
+- The branch `trying_vgoals` is merged into `main` (a fast-forward, so the history stays a straight line). The Poisson goals option of 1.3.0-beta.1 is now part of the main code; it is still off by default.
+- The READMEs no longer say "this is the experimental branch", and the turquoise pre-release download button is gone.
+- A new banner, `assets/images/github/banner.svg` and `.png`, that shows the whole pipeline: real matches, Elo ratings, logistic regression, Poisson goals and Monte Carlo.
+- Dates in this file are written in full, and the English pages use British number style (4,626 and 27%, not 4 626 and 27 %).
+
+## [1.3.0-beta.1] 6 November 2026
+
+Pre-release, first published from the branch `trying_vgoals`, since merged into `main`. The default behaviour is unchanged: with "Poisson goals" off, a simulation with a given seed gives exactly the result of 1.2.0.
 
 ### Added
 
@@ -17,7 +26,7 @@ Pre-release, published from the branch `trying_vgoals` and not merged into `main
 ### Changed
 
 - `ScorelineSampler.sample` and `ScorelineSampler.probability` accept `elo_gap` and `neutral` (both ignored), and `MatchEngine` passes the rating gap from before the match, so both samplers are called in the same way.
-- A seed invented by the app is now an integer from 0 to 4 294 967 295 taken from the operating system (`uefa/seeds.py`), in the simulation, the UCL and UECL draws and the matchday generators. It used to be a float between about -400 and 401.
+- A seed invented by the app is now an integer from 0 to 4,294,967,295 taken from the operating system (`uefa/seeds.py`), in the simulation, the UCL and UECL draws and the matchday generators. It used to be a float between about -400 and 401.
 
 ### Fixed
 
@@ -25,15 +34,15 @@ Pre-release, published from the branch `trying_vgoals` and not merged into `main
 
 ### Known issues
 
-- With Poisson goals, a replay of the 4,626 real matches (real outcome and real rating gap) gives the real average goals (1.626 against 1.633 for the home side, 1.330 against 1.349 for the away side) and follows the rating gap better than the table (correlation of the gap with the goal difference 0.474, against 0.368 for the table and 0.443 in the real data). It makes fewer heavy wins: 18.0 % of matches decided by 3 goals or more, against 21.4 % in the real data (20.7 % with the table).
+- With Poisson goals, a replay of the 4,626 real matches (real outcome and real rating gap) gives the real average goals (1.626 against 1.633 for the home side, 1.330 against 1.349 for the away side) and follows the rating gap better than the table (correlation of the gap with the goal difference 0.474, against 0.368 for the table and 0.443 in the real data). It makes fewer heavy wins: 18.0% of matches decided by 3 goals or more, against 21.4% in the real data (20.7% with the table).
 - The Poisson grid stops at 6 goals, extra time ignores the rating gap, and the final's no-home-advantage rule rests on only 53 neutral matches.
 - The odds in the README have not been recomputed.
 
-## [1.2.0] 05-11-2026
+## [1.2.0] 5 November 2026
 
 ### Changed
 
-- The default two-leg method is now "aggregate", the real UEFA rule (goals added over both legs, then extra time, then penalties), instead of "legs". "legs" sent about 27 % of ties to penalties against about 10 % in the real data; "aggregate" gives about 6 %. `DEFAULT_METHOD` in `model/knockout.py`. Every chance the app shows moves.
+- The default two-leg method is now "aggregate", the real UEFA rule (goals added over both legs, then extra time, then penalties), instead of "legs". "legs" sent about 27% of ties to penalties against about 10% in the real data; "aggregate" gives about 6%. `DEFAULT_METHOD` in `model/knockout.py`. Every chance the app shows moves.
 - Hamrun Spartans, which has no match in the data, now starts at Malta's country seed (1419) instead of the flat 1500 (`UNRATED_COUNTRY` in `model/names.py`, used by `seed_ratings` in `model/simulation.py`). The warning gives the rating it started at, and the "not found" message in the app no longer says 1500.
 
 ### Fixed
@@ -42,7 +51,7 @@ Pre-release, published from the branch `trying_vgoals` and not merged into `main
 - The second leg of the quarter-finals and semi-finals is no longer given by a coin toss. As in Article 19.04 of the Regulations, the side with the better seed position plays it at home (1 to 4 in the quarter-finals, 1 and 2 in the semi-finals), and a club that knocks out a seeded club takes over its position (`Tie.pos`, `_next_round` in `model/knockout.py`). In the final, the winner of SF1 is the nominal home side. The coin is gone, so a given seed now gives a different knockout phase than in 1.1.0.
 - `datahandler/`: every request now has a 15-second timeout. A timeout or a connection error prints a warning and the script goes on, instead of stopping with a traceback.
 
-## [1.1.0] 31-10-2026 🎃
+## [1.1.0] 31 October 2026 🎃
 
 A minor release, not a patch: it adds a feature (swapping two clubs between pots) and changes how the model rates matches decided after 90 minutes, so every chance the app shows moves. It also fixes the ten known bugs of 1.0.2 and rebuilds all of the model's data.
 
@@ -62,7 +71,7 @@ A minor release, not a patch: it adds a feature (swapping two clubs between pots
 - `model/simulation.py`: with several processes, the Monte Carlo ignored custom ratings, so 1 and 2 processes gave different counts. The processes now receive the same ratings, model and score table. An error inside a season was hidden by a silent restart in one process; now only a process pool that cannot start falls back. The expert log printed "holdout None" with the new model weights. `SimConfig` used Python's shared random generator even when a seed was given.
 - `model/names.py`: a misspelt alias failed silently. The alias itself is now searched first, the match is labelled, and the simulation warns.
 - `model/league_phase.py`: the log said "alphabetical order" for a perfect tie. The real order is the pot order.
-- `model/penalties.py`: the description said the club kicking first wins 50 %. It wins 51.3 %, and each club still wins half of its shoot-outs. `PRESSURE_DROP` now sits at the top of the file, the `MAX_ROUNDS` comment is corrected, and two variables are renamed.
+- `model/penalties.py`: the description said the club kicking first wins 50%. It wins 51.3%, and each club still wins half of its shoot-outs. `PRESSURE_DROP` now sits at the top of the file, the `MAX_ROUNDS` comment is corrected, and two variables are renamed.
 - `model/elo_score_updating.py`: "report only" overwrote `match_features.csv`, and without a `neutral_venue` column the script crashed right after saying it would carry on. The text at the top of the file is up to date.
 - `model/matchdays_ucl.py`: a junk line in a docstring and a typo in the error message.
 - `datahandler/build_fixtures_csv.py` only looked in the top folder, found nothing, and wrote an empty `fixtures_25.csv` over the real one. It now reads the season sub-folders, keeps one row per match, marks the finals as neutral, refuses to write an empty table, and no longer runs when it is imported. Rebuilt from the raw files, the CSV is identical to the current one. `add_neutral_venue.py` and `drop_duplicate_fixtures.py` used file names nothing else used; they now work on `fixtures_25.csv` in place.
@@ -74,8 +83,8 @@ A minor release, not a patch: it adds a feature (swapping two clubs between pots
 
 - Faster matchdays: the scheduler's step limit is 5,000 instead of 200,000. On 180 draws there was no failure, the slowest schedule went from 8.8 s to 0.37 s, and building the calendars is 3 to 10 times faster in total. The calendar changes for the few draws that needed more steps.
 - Faster failure: when the draw search proves that no draw exists (it runs out of options, not of steps), it stops at once with a clear message instead of trying 49 more seeds, about 2.5 s instead of about 2 minutes.
-- Rebuilt data: `eeelo_final.json`, `match_features.csv` (4,628 rows, 4,626 played), `scorelines.json` and `predictor_weights.json`. Exam on the newest 40 % of matches: log loss 0.967, against 1.051 for a model that always predicts the average.
-- A new odds table in both READMEs, with the real 2025/26 pots. Barcelona and Paris Saint-Germain lead at about 20 % each.
+- Rebuilt data: `eeelo_final.json`, `match_features.csv` (4,628 rows, 4,626 played), `scorelines.json` and `predictor_weights.json`. Exam on the newest 40% of matches: log loss 0.967, against 1.051 for a model that always predicts the average.
+- A new odds table in both READMEs, with the real 2025/26 pots. Barcelona and Paris Saint-Germain lead at about 20% each.
 - English interface: the replace box says "Replace" instead of "Swap", so that "swap" now only means the new exchange.
 - `model/docs/` and `datahandler/README.md`: every bug section says what was fixed and how. The file name `elo_score_updating_copy.py`, which does not exist, is corrected everywhere.
 - The French guides now always address the reader as « vous ».
@@ -84,10 +93,10 @@ A minor release, not a patch: it adds a feature (swapping two clubs between pots
 
 - The second leg of the quarter-finals and semi-finals is given by a coin toss; since 2025/26, UEFA gives it to the clubs ranked 1 to 4 (1 and 2 in the semi-finals).
 - The quarter-final bracket (`QF_BRACKET`) has not been checked against Annex B of the UEFA regulations.
-- The default "legs" method sends about 27 % of two-legged ties to penalties, against about 10 % in the real data.
+- The default "legs" method sends about 27% of two-legged ties to penalties, against about 10% in the real data.
 - Hamrun Spartans (2025/26 Conference League template) is not in the match data and starts at 1500.
 
-## [1.0.2] 29-10-2026
+## [1.0.2] 29 October 2026
 
 Small fix release: two bugs fixed in the model's code, a more reliable Windows build, an unused file removed, and the licence file renamed.
 
@@ -97,7 +106,7 @@ Small fix release: two bugs fixed in the model's code, a more reliable Windows b
 - `commands/windows/build.ps1` and `commands/python manager/build.ps1`: the zip step stopped with "being used by another process" when OneDrive or Windows Defender was still reading a file the build had just made. The scripts now wait and try again up to five times, check that the zip holds every file of the app, fall back to Windows' own `tar.exe`, and say what to do if it still fails.
 - `commands/MacOs/build.sh` and `commands/linux/build.sh`: without a `.venv`, they installed PyInstaller into the system Python, which recent Debian, Ubuntu and Homebrew Python refuse. They now stop and say to run `req.sh` first. They also close a running copy of the app, start from an empty archive (on macOS, `zip -r` kept files that were no longer in the app), use `ditto` on macOS so the app keeps its permissions, and check that the archive holds every file.
 - The `.sh` scripts in the project folder had Windows line endings, so bash stopped at the first line on macOS and Linux. They are back to Unix line endings.
-- `model/predictor.py`: the match model's exam was upside down (457 matches to train, 4,794 to test). The matches are now split by date: the oldest 60 % train, the newest 40 % are the exam. The model is still refit on all matches before it is saved.
+- `model/predictor.py`: the match model's exam was upside down (457 matches to train, 4,794 to test). The matches are now split by date: the oldest 60% train, the newest 40% are the exam. The model is still refit on all matches before it is saved.
 
 ### Added
 
@@ -118,7 +127,7 @@ Small fix release: two bugs fixed in the model's code, a more reliable Windows b
 - The two fixes above are in the code only. `data/processed/match_features.csv` and `data/reference/predictor_weights.json` have not been rebuilt, so the app and the odds table still use the old run. Run `model/elo_score_updating.py`, then `model/predictor.py`, to rebuild them.
 - Ten older bugs are still open; the list is in the READMEs.
 
-## [1.0.1] 27-10-2026
+## [1.0.1] 27 October 2026
 
 Small clean-up release: a results table in the READMEs, a tidier `docs/` folder and one unused model file removed.
 
@@ -135,7 +144,7 @@ Small clean-up release: a results table in the READMEs, a tidier `docs/` folder 
 - `model/prepredictator.py`, an older first version of the match model with two inputs. Nothing used it, and its "neutral ground" option did nothing. `model/predictor.py` is the model the app uses. Its mentions in `model/docs/logistic_regression.md` are removed too.
 - `model/monte_carlo_more.cpp`, an unused draft (only comments, and nothing included it).
 
-## [1.0.0] 23-10-2026
+## [1.0.0] 23 October 2026
 
 The first stable version.
 
@@ -153,7 +162,7 @@ The first stable version.
 - The `README.md` is rewritten in simpler words, with a download section and a "build the app yourself" section.
 - `GHANGELOG.md` is renamed `CHANGELOG.md`.
 
-## [0.9.8] 23-10-2026
+## [0.9.8] 23 October 2026
 
 ### Added
 
@@ -164,7 +173,7 @@ The first stable version.
 
 - The project structure tree in the `README.md` is brought up to date, in English and French. It leaves out everything listed in `.gitignore`.
 
-## [0.9.7] 22-10-2026
+## [0.9.7] 22 October 2026
 
 ### Removed
 
@@ -174,7 +183,7 @@ The first stable version.
 
 - Setting up a changelog: `CHANGELOG.md` (this document). It tracks all the notable changes made to this project.
 
-## [0.9.6] 21-10-2026
+## [0.9.6] 21 October 2026
 
 - First official release.
 
@@ -184,9 +193,18 @@ The first stable version.
 
 Tous les changements notables de ce projet sont documentés dans ce fichier.
 
-## [1.3.0-beta.1] 06-11-2026
+## [1.3.0] 13 novembre 2026
 
-Pré-version publiée depuis la branche `trying_vgoals`, non fusionnée dans `main`. Le comportement par défaut ne change pas : avec « Buts de Poisson » désactivé, une simulation avec une graine donnée donne exactement le résultat de la 1.2.0.
+### Modifié
+
+- La branche `trying_vgoals` est fusionnée dans `main` (une avance rapide, donc l'historique reste une ligne droite). L'option « Buts de Poisson » de la 1.3.0-beta.1 fait maintenant partie du code principal ; elle reste désactivée par défaut.
+- Les README ne disent plus « voici la branche expérimentale », et le bouton turquoise de la pré-version a disparu.
+- Une nouvelle bannière, `assets/images/github/banner.svg` et `.png`, qui montre toute la chaîne : matchs réels, notes Elo, régression logistique, buts de Poisson et Monte Carlo.
+- Les dates de ce fichier sont écrites en toutes lettres.
+
+## [1.3.0-beta.1] 6 novembre 2026
+
+Pré-version d'abord publiée depuis la branche `trying_vgoals`, depuis fusionnée dans `main`. Le comportement par défaut ne change pas : avec « Buts de Poisson » désactivé, une simulation avec une graine donnée donne exactement le résultat de la 1.2.0.
 
 ### Ajouté
 
@@ -211,7 +229,7 @@ Pré-version publiée depuis la branche `trying_vgoals`, non fusionnée dans `ma
 - La grille de Poisson s'arrête à 6 buts, la prolongation ignore l'écart de notes, et la règle « sans avantage du terrain » de la finale ne repose que sur 53 matchs sur terrain neutre.
 - Les chances du README n'ont pas été recalculées.
 
-## [1.2.0] 05-11-2026
+## [1.2.0] 5 novembre 2026
 
 ### Modifié
 
@@ -224,7 +242,7 @@ Pré-version publiée depuis la branche `trying_vgoals`, non fusionnée dans `ma
 - Le match retour des quarts et des demies n'est plus donné à pile ou face. Comme dans l'article 19.04 du règlement, le côté qui a la meilleure position de tête de série le joue à domicile (1 à 4 en quarts, 1 et 2 en demies), et un club qui élimine une tête de série prend sa position (`Tie.pos`, `_next_round` dans `model/knockout.py`). En finale, le vainqueur de SF1 est l'équipe « à domicile » sur le papier. La pièce a disparu : une même graine donne donc une phase à élimination directe différente de celle de la 1.1.0.
 - `datahandler/` : chaque requête a maintenant un délai maximum de 15 secondes. Un délai dépassé ou une erreur de connexion affiche un avertissement et le script continue, au lieu de s'arrêter avec une trace d'erreur.
 
-## [1.1.0] 31-10-2026 🎃
+## [1.1.0] 31 octobre 2026 🎃
 
 Une version mineure, pas un correctif : elle ajoute une fonction (échanger deux clubs de chapeau) et change la façon dont le modèle note les matchs décidés après 90 minutes, donc toutes les chances affichées par l'application bougent. Elle corrige aussi les dix bugs connus de la 1.0.2 et reconstruit toutes les données du modèle.
 
@@ -269,7 +287,7 @@ Une version mineure, pas un correctif : elle ajoute une fonction (échanger deux
 - La méthode par défaut « legs » envoie environ 27 % des confrontations aller-retour aux tirs au but, contre environ 10 % dans les vraies données.
 - Hamrun Spartans (modèle 2025/26 de la Ligue Conférence) n'est pas dans les données de matchs et part de 1500.
 
-## [1.0.2] 29-10-2026
+## [1.0.2] 29 octobre 2026
 
 Petite version de correction : deux bugs corrigés dans le code du modèle, une création de l'application Windows plus fiable, un fichier inutilisé retiré, et le fichier de licence renommé.
 
@@ -300,7 +318,7 @@ Petite version de correction : deux bugs corrigés dans le code du modèle, une 
 - Les deux corrections ci-dessus sont seulement dans le code. `data/processed/match_features.csv` et `data/reference/predictor_weights.json` n'ont pas été recalculés, donc l'application et le tableau des chances utilisent encore l'ancien calcul. Lancez `model/elo_score_updating.py`, puis `model/predictor.py`, pour les recalculer.
 - Dix bugs plus anciens sont encore ouverts ; la liste est dans les README.
 
-## [1.0.1] 27-10-2026
+## [1.0.1] 27 octobre 2026
 
 Petite version de nettoyage : un tableau de résultats dans les README, un dossier `docs/` mieux rangé et un fichier du modèle inutilisé retiré.
 
@@ -318,7 +336,7 @@ Petite version de nettoyage : un tableau de résultats dans les README, un dossi
 - `model/monte_carlo_more.cpp`, un brouillon inutilisé (seulement des commentaires, et rien ne l'incluait).
 
 
-## [1.0.0] 23-10-2026
+## [1.0.0] 23 octobre 2026
 
 La première version stable.
 
@@ -336,7 +354,7 @@ La première version stable.
 - Le `README.md` est réécrit avec des mots plus simples, avec une partie téléchargement et une partie « créer l'application vous-même ».
 - `GHANGELOG.md` devient `CHANGELOG.md`.
 
-## [0.9.8] 23-10-2026
+## [0.9.8] 23 octobre 2026
 
 ### Ajouté
 
@@ -347,7 +365,7 @@ La première version stable.
 
 - L'arborescence du projet dans le `README.md` est mise à jour, en anglais et en français. Elle laisse de côté tout ce qui figure dans `.gitignore`.
 
-## [0.9.7] 22-10-2026
+## [0.9.7] 22 octobre 2026
 
 ### Supprimé
 
@@ -357,6 +375,6 @@ La première version stable.
 
 - Mise en place d'un journal des modifications : `CHANGELOG.md` (ce document). Il suit tous les changements notables apportés à ce projet.
 
-## [0.9.6] 21-10-2026
+## [0.9.6] 21 octobre 2026
 
 - Première version officielle.

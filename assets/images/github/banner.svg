@@ -1,29 +1,174 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="UEFA Competitions Simulator: real matches, Elo ratings, logistic regression, Poisson goals and Monte Carlo, to play the Champions League, Europa League and Conference League." xmlns:c2pa="http://c2pa.org/manifest">
+  <title>UEFA Competitions Simulator</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A1633"/>
-      <stop offset="1" stop-color="#14306B"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#090B10"/></linearGradient>
+    <linearGradient id="tri" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3E7BFA"/><stop offset="0.5" stop-color="#E8833A"/><stop offset="1" stop-color="#2FA96B"/></linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6B9BFF"/><stop offset="0.55" stop-color="#F29A55"/><stop offset="1" stop-color="#45C083"/></linearGradient>
+    <radialGradient id="gB"><stop offset="0" stop-color="#3E7BFA" stop-opacity="0.95"/><stop offset="1" stop-color="#3E7BFA" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gO"><stop offset="0" stop-color="#E8833A" stop-opacity="0.95"/><stop offset="1" stop-color="#E8833A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gG"><stop offset="0" stop-color="#2FA96B" stop-opacity="0.95"/><stop offset="1" stop-color="#2FA96B" stop-opacity="0"/></radialGradient>
   </defs>
 
-  <!-- background -->
   <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1060" cy="110" r="320" fill="url(#gB)" opacity="0.45"/>
+  <circle cx="1230" cy="330" r="260" fill="url(#gO)" opacity="0.32"/>
+  <circle cx="860" cy="330" r="240" fill="url(#gG)" opacity="0.30"/>
 
-  <!-- pitch markings, low opacity, right side -->
-  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="4">
-    <line x1="1040" y1="0" x2="1040" y2="640"/>
-    <circle cx="1040" cy="320" r="170"/>
-    <circle cx="1040" cy="320" r="8" fill="#FFFFFF" fill-opacity="0.10" stroke="none"/>
-    <rect x="1210" y="170" width="190" height="300"/>
+  <!-- pitch, top right -->
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.13" stroke-width="3">
+    <line x1="1010" y1="10" x2="1010" y2="320"/>
+    <circle cx="1010" cy="165" r="110"/>
+    <rect x="1170" y="95" width="120" height="140"/>
   </g>
 
-  <!-- accent bar -->
-  <rect x="90" y="230" width="90" height="8" fill="#3FA9F5"/>
+  <rect width="1280" height="10" fill="url(#tri)"/>
 
-  <!-- title -->
-  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" fill="#FFFFFF">
-    <text x="86" y="340" font-size="92" font-weight="700">UEFA Competition</text>
-    <text x="86" y="436" font-size="92" font-weight="700">Simulator</text>
-    <text x="90" y="500" font-size="32" font-weight="400" fill="#9FB6E0">Python  |  CustomTkinter</text>
+  <!-- three competitions, three rings, and a ball -->
+  <g fill="none" stroke-width="9" stroke-linecap="round">
+    <circle cx="975" cy="130" r="62" stroke="#3E7BFA"/>
+    <circle cx="1045" cy="130" r="62" stroke="#E8833A"/>
+    <circle cx="1010" cy="184" r="62" stroke="#2FA96B"/>
   </g>
-</svg>
+  <g fill-opacity="0.2">
+    <circle cx="975" cy="130" r="62" fill="#3E7BFA"/><circle cx="1045" cy="130" r="62" fill="#E8833A"/><circle cx="1010" cy="184" r="62" fill="#2FA96B"/>
+  </g>
+  <g transform="translate(1010 152)">
+    <circle r="32" fill="#F6F8FC"/><circle r="32" fill="none" stroke="#C9D2E0" stroke-width="2.5"/>
+    <polygon points="0,-12 11,-3.5 7,10 -7,10 -11,-3.5" fill="#12151A"/>
+    <g stroke="#12151A" stroke-width="2.5" stroke-linecap="round">
+      <line x1="0" y1="-12" x2="0" y2="-31"/><line x1="11" y1="-3.5" x2="29" y2="-10"/><line x1="7" y1="10" x2="18" y2="26"/>
+      <line x1="-7" y1="10" x2="-18" y2="26"/><line x1="-11" y1="-3.5" x2="-29" y2="-10"/>
+    </g>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="72" y="74" font-size="19" font-weight="700" letter-spacing="4.5" fill="#8B93A5">DESKTOP APP  ·  PYTHON  ·  OPEN SOURCE</text>
+    <text x="68" y="150" font-size="68" font-weight="800" fill="#FFFFFF" letter-spacing="-2">UEFA Competitions</text>
+    <text x="68" y="218" font-size="68" font-weight="800" fill="url(#word)" letter-spacing="-2">Simulator</text>
+    <text x="72" y="262" font-size="25" font-weight="500" fill="#C9D2E0">Run the draw. Play the season. Find out who wins.</text>
+
+    <g font-size="17" font-weight="700">
+      <rect x="72" y="282" width="206" height="38" rx="19" fill="#3E7BFA" fill-opacity="0.18" stroke="#3E7BFA" stroke-width="2"/>
+      <circle cx="95" cy="301" r="6" fill="#3E7BFA"/><text x="111" y="307" fill="#DCE7FF">Champions League</text>
+      <rect x="290" y="282" width="172" height="38" rx="19" fill="#E8833A" fill-opacity="0.18" stroke="#E8833A" stroke-width="2"/>
+      <circle cx="313" cy="301" r="6" fill="#E8833A"/><text x="329" y="307" fill="#FFE4CF">Europa League</text>
+      <rect x="474" y="282" width="208" height="38" rx="19" fill="#2FA96B" fill-opacity="0.18" stroke="#2FA96B" stroke-width="2"/>
+      <circle cx="497" cy="301" r="6" fill="#2FA96B"/><text x="513" y="307" fill="#D5F6E4">Conference League</text>
+    </g>
+
+    <g transform="translate(40 338)">
+<rect width="224" height="262" rx="20" fill="#141820" stroke="#2A3140" stroke-width="2"/>
+<circle cx="30" cy="34" r="15" fill="#3E7BFA" fill-opacity="0.2" stroke="#3E7BFA" stroke-width="2"/>
+<text x="30" y="40" font-size="16" font-weight="800" fill="#DCE7FF" text-anchor="middle">1</text>
+<text x="56" y="38" font-size="20" font-weight="800" fill="#FFFFFF">Real matches</text>
+<text x="16" y="66" font-size="13.5" font-weight="500" fill="#8B93A5">2024/25, friendlies left out</text>
+<rect x="16" y="78" width="192" height="100" rx="10" fill="#0E1117"/>
+<text x="32" y="122" font-size="40" font-weight="800" fill="#FFFFFF">4,626</text>
+<text x="32" y="142" font-size="13" font-weight="600" fill="#8B93A5">matches played</text>
+<rect x="32" y="152" width="50" height="18" rx="9" fill="#3E7BFA" fill-opacity="0.2" stroke="#3E7BFA" stroke-width="1.5"/>
+<text x="57" y="165" font-size="12" font-weight="800" fill="#EEF1F6" text-anchor="middle">2 - 1</text>
+<rect x="90" y="152" width="50" height="18" rx="9" fill="#8B93A5" fill-opacity="0.2" stroke="#8B93A5" stroke-width="1.5"/>
+<text x="115" y="165" font-size="12" font-weight="800" fill="#EEF1F6" text-anchor="middle">0 - 0</text>
+<rect x="148" y="152" width="50" height="18" rx="9" fill="#E8833A" fill-opacity="0.2" stroke="#E8833A" stroke-width="1.5"/>
+<text x="173" y="165" font-size="12" font-weight="800" fill="#EEF1F6" text-anchor="middle">1 - 3</text>
+<line x1="16" y1="196" x2="208" y2="196" stroke="#2A3140" stroke-width="1.5"/>
+<text x="16" y="220" font-size="14.5" font-weight="700" fill="#F3D88A">result + score + date</text>
+<text x="16" y="242" font-size="13" font-weight="500" fill="#8B93A5">from API-Football</text>
+</g>
+<g transform="translate(284 338)">
+<rect width="224" height="262" rx="20" fill="#141820" stroke="#2A3140" stroke-width="2"/>
+<circle cx="30" cy="34" r="15" fill="#3E7BFA" fill-opacity="0.2" stroke="#3E7BFA" stroke-width="2"/>
+<text x="30" y="40" font-size="16" font-weight="800" fill="#DCE7FF" text-anchor="middle">2</text>
+<text x="56" y="38" font-size="20" font-weight="800" fill="#FFFFFF">Elo ratings</text>
+<text x="16" y="66" font-size="13.5" font-weight="500" fill="#8B93A5">a strength score per club</text>
+<rect x="16" y="78" width="192" height="100" rx="10" fill="#0E1117"/>
+<line x1="26" y1="128.0" x2="198" y2="128.0" stroke="#FFFFFF" stroke-opacity="0.15" stroke-dasharray="4 4"/>
+<polyline points="26.0,160.7 30.3,159.9 34.6,159.1 38.9,158.1 43.2,157.1 47.5,155.9 51.8,154.7 56.1,153.4 60.4,151.9 64.7,150.4 69.0,148.8 73.3,147.0 77.6,145.2 81.9,143.3 86.2,141.3 90.5,139.2 94.8,137.1 99.1,134.8 103.4,132.6 107.7,130.3 112.0,128.0 116.3,125.7 120.6,123.4 124.9,121.2 129.2,118.9 133.5,116.8 137.8,114.7 142.1,112.7 146.4,110.8 150.7,109.0 155.0,107.2 159.3,105.6 163.6,104.1 167.9,102.6 172.2,101.3 176.5,100.1 180.8,98.9 185.1,97.9 189.4,96.9 193.7,96.1 198.0,95.3" fill="none" stroke="#3E7BFA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="133.5" cy="116.8" r="6" fill="#E6BE5A" stroke="#0E1117" stroke-width="2"/>
+<text x="30" y="100" font-size="12" font-weight="700" fill="#C9D2E0">gap +100 gives 0.64</text>
+<text x="28" y="172" font-size="11" fill="#8B93A5">-400</text>
+<text x="196" y="172" font-size="11" fill="#8B93A5" text-anchor="end">+400</text>
+<line x1="16" y1="196" x2="208" y2="196" stroke="#2A3140" stroke-width="1.5"/>
+<text x="16" y="220" font-size="14.5" font-weight="700" fill="#F3D88A">E = 1 / (1 + 10^(-d/400))</text>
+<text x="16" y="242" font-size="13" font-weight="500" fill="#8B93A5">d = rating gap</text>
+</g>
+<g transform="translate(528 338)">
+<rect width="224" height="262" rx="20" fill="#141820" stroke="#2A3140" stroke-width="2"/>
+<circle cx="30" cy="34" r="15" fill="#3E7BFA" fill-opacity="0.2" stroke="#3E7BFA" stroke-width="2"/>
+<text x="30" y="40" font-size="16" font-weight="800" fill="#DCE7FF" text-anchor="middle">3</text>
+<text x="56" y="38" font-size="16.5" font-weight="800" fill="#FFFFFF">Logistic regression</text>
+<text x="16" y="66" font-size="13.5" font-weight="500" fill="#8B93A5">gap in, three chances out</text>
+<rect x="16" y="78" width="192" height="100" rx="10" fill="#0E1117"/>
+<polyline points="26.0,162.6 29.4,162.1 32.9,161.5 36.3,160.8 39.8,160.2 43.2,159.4 46.6,158.6 50.1,157.8 53.5,156.9 57.0,155.9 60.4,154.9 63.8,153.8 67.3,152.6 70.7,151.4 74.2,150.1 77.6,148.7 81.0,147.3 84.5,145.8 87.9,144.3 91.4,142.8 94.8,141.2 98.2,139.5 101.7,137.9 105.1,136.2 108.6,134.5 112.0,132.8 115.4,131.0 118.9,129.3 122.3,127.6 125.8,126.0 129.2,124.3 132.6,122.7 136.1,121.1 139.5,119.6 143.0,118.1 146.4,116.6 149.8,115.2 153.3,113.9 156.7,112.6 160.2,111.3 163.6,110.1 167.0,109.0 170.5,107.9 173.9,106.9 177.4,105.9 180.8,105.0 184.2,104.2 187.7,103.3 191.1,102.6 194.6,101.8 198.0,101.2" fill="none" stroke="#3E7BFA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="26.0,156.0 29.4,155.6 32.9,155.1 36.3,154.7 39.8,154.3 43.2,153.9 46.6,153.5 50.1,153.1 53.5,152.7 57.0,152.3 60.4,152.0 63.8,151.6 67.3,151.3 70.7,151.1 74.2,150.8 77.6,150.6 81.0,150.4 84.5,150.3 87.9,150.1 91.4,150.1 94.8,150.1 98.2,150.1 101.7,150.1 105.1,150.2 108.6,150.4 112.0,150.5 115.4,150.8 118.9,151.0 122.3,151.3 125.8,151.6 129.2,152.0 132.6,152.3 136.1,152.7 139.5,153.1 143.0,153.6 146.4,154.0 149.8,154.5 153.3,154.9 156.7,155.4 160.2,155.9 163.6,156.3 167.0,156.8 170.5,157.3 173.9,157.7 177.4,158.2 180.8,158.6 184.2,159.0 187.7,159.4 191.1,159.8 194.6,160.2 198.0,160.6" fill="none" stroke="#8B93A5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="26.0,108.3 29.4,109.2 32.9,110.2 36.3,111.3 39.8,112.4 43.2,113.5 46.6,114.7 50.1,116.0 53.5,117.3 57.0,118.6 60.4,120.0 63.8,121.5 67.3,122.9 70.7,124.4 74.2,126.0 77.6,127.5 81.0,129.1 84.5,130.8 87.9,132.4 91.4,134.0 94.8,135.6 98.2,137.3 101.7,138.9 105.1,140.5 108.6,142.0 112.0,143.6 115.4,145.1 118.9,146.5 122.3,147.9 125.8,149.3 129.2,150.6 132.6,151.8 136.1,153.0 139.5,154.2 143.0,155.2 146.4,156.2 149.8,157.2 153.3,158.1 156.7,158.9 160.2,159.7 163.6,160.4 167.0,161.0 170.5,161.7 173.9,162.2 177.4,162.8 180.8,163.2 184.2,163.7 187.7,164.1 191.1,164.4 194.6,164.8 198.0,165.1" fill="none" stroke="#E8833A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="32" cy="92" r="4.5" fill="#3E7BFA"/>
+<text x="41" y="96" font-size="11.5" font-weight="700" fill="#C9D2E0">home</text>
+<circle cx="92" cy="92" r="4.5" fill="#8B93A5"/>
+<text x="101" y="96" font-size="11.5" font-weight="700" fill="#C9D2E0">draw</text>
+<circle cx="152" cy="92" r="4.5" fill="#E8833A"/>
+<text x="161" y="96" font-size="11.5" font-weight="700" fill="#C9D2E0">away</text>
+<line x1="16" y1="196" x2="208" y2="196" stroke="#2A3140" stroke-width="1.5"/>
+<text x="16" y="220" font-size="14.5" font-weight="700" fill="#F3D88A">P(k) = softmax(a_k x + b_k)</text>
+<text x="16" y="242" font-size="13" font-weight="500" fill="#8B93A5">x = Elo gap</text>
+</g>
+<g transform="translate(772 338)">
+<rect width="224" height="262" rx="20" fill="#141820" stroke="#2A3140" stroke-width="2"/>
+<circle cx="30" cy="34" r="15" fill="#3E7BFA" fill-opacity="0.2" stroke="#3E7BFA" stroke-width="2"/>
+<text x="30" y="40" font-size="16" font-weight="800" fill="#DCE7FF" text-anchor="middle">4</text>
+<text x="56" y="38" font-size="20" font-weight="800" fill="#FFFFFF">Poisson goals</text>
+<text x="16" y="66" font-size="13.5" font-weight="500" fill="#8B93A5">the score, given the result</text>
+<rect x="16" y="78" width="192" height="100" rx="10" fill="#0E1117"/>
+<rect x="33.0" y="121.9" width="17.4" height="38.1" rx="4" fill="#2FA96B" fill-opacity="0.6"/>
+<text x="41.7" y="173" font-size="11" fill="#8B93A5" text-anchor="middle">0</text>
+<rect x="56.4" y="99.1" width="17.4" height="60.9" rx="4" fill="#2FA96B" fill-opacity="0.95"/>
+<text x="65.1" y="173" font-size="11" fill="#8B93A5" text-anchor="middle">1</text>
+<rect x="79.9" y="111.3" width="17.4" height="48.7" rx="4" fill="#2FA96B" fill-opacity="0.95"/>
+<text x="88.6" y="173" font-size="11" fill="#8B93A5" text-anchor="middle">2</text>
+<rect x="103.3" y="134.0" width="17.4" height="26.0" rx="4" fill="#2FA96B" fill-opacity="0.6"/>
+<text x="112.0" y="173" font-size="11" fill="#8B93A5" text-anchor="middle">3</text>
+<rect x="126.7" y="149.6" width="17.4" height="10.4" rx="4" fill="#2FA96B" fill-opacity="0.6"/>
+<text x="135.4" y="173" font-size="11" fill="#8B93A5" text-anchor="middle">4</text>
+<rect x="150.1" y="156.7" width="17.4" height="3.3" rx="4" fill="#2FA96B" fill-opacity="0.6"/>
+<text x="158.9" y="173" font-size="11" fill="#8B93A5" text-anchor="middle">5</text>
+<rect x="173.6" y="159.1" width="17.4" height="0.9" rx="4" fill="#2FA96B" fill-opacity="0.6"/>
+<text x="182.3" y="173" font-size="11" fill="#8B93A5" text-anchor="middle">6</text>
+<text x="196" y="98" font-size="12" font-weight="700" fill="#C9D2E0" text-anchor="end">goals, lambda = 1.6</text>
+<line x1="16" y1="196" x2="208" y2="196" stroke="#2A3140" stroke-width="1.5"/>
+<text x="16" y="220" font-size="14.5" font-weight="700" fill="#F3D88A">lambda_H = mu_H * e^(g*d)</text>
+<text x="16" y="242" font-size="13" font-weight="500" fill="#8B93A5">d = gap / 400, g = 1.404</text>
+</g>
+<g transform="translate(1016 338)">
+<rect width="224" height="262" rx="20" fill="#141820" stroke="#2A3140" stroke-width="2"/>
+<circle cx="30" cy="34" r="15" fill="#3E7BFA" fill-opacity="0.2" stroke="#3E7BFA" stroke-width="2"/>
+<text x="30" y="40" font-size="16" font-weight="800" fill="#DCE7FF" text-anchor="middle">5</text>
+<text x="56" y="38" font-size="20" font-weight="800" fill="#FFFFFF">Monte Carlo</text>
+<text x="16" y="66" font-size="13.5" font-weight="500" fill="#8B93A5">replay the season 10,000 times</text>
+<rect x="16" y="78" width="192" height="100" rx="10" fill="#0E1117"/>
+<text x="26" y="99.0" font-size="11" font-weight="600" fill="#C9D2E0">Barcelona</text>
+<rect x="82" y="90.0" width="84.0" height="11" rx="5.5" fill="#2FA96B"/>
+<text x="171.0" y="99.5" font-size="10.5" font-weight="700" fill="#FFFFFF">20.2%</text>
+<text x="26" y="116.5" font-size="11" font-weight="600" fill="#C9D2E0">PSG</text>
+<rect x="82" y="107.5" width="83.2" height="11" rx="5.5" fill="#2FA96B"/>
+<text x="170.2" y="117.0" font-size="10.5" font-weight="700" fill="#FFFFFF">20.0%</text>
+<text x="26" y="134.0" font-size="11" font-weight="600" fill="#C9D2E0">Bayern</text>
+<rect x="82" y="125.0" width="34.1" height="11" rx="5.5" fill="#3E7BFA"/>
+<text x="121.1" y="134.5" font-size="10.5" font-weight="700" fill="#FFFFFF">8.2%</text>
+<text x="26" y="151.5" font-size="11" font-weight="600" fill="#C9D2E0">Inter</text>
+<rect x="82" y="142.5" width="31.2" height="11" rx="5.5" fill="#3E7BFA"/>
+<text x="118.2" y="152.0" font-size="10.5" font-weight="700" fill="#FFFFFF">7.5%</text>
+<text x="26" y="169.0" font-size="11" font-weight="600" fill="#C9D2E0">Liverpool</text>
+<rect x="82" y="160.0" width="27.0" height="11" rx="5.5" fill="#3E7BFA"/>
+<text x="114.0" y="169.5" font-size="10.5" font-weight="700" fill="#FFFFFF">6.5%</text>
+<line x1="16" y1="196" x2="208" y2="196" stroke="#2A3140" stroke-width="1.5"/>
+<text x="16" y="220" font-size="14.5" font-weight="700" fill="#F3D88A">chance = wins / 10,000</text>
+<text x="16" y="242" font-size="13" font-weight="500" fill="#8B93A5">title odds of each club</text>
+</g>
+    <polyline points="270.0,460.0 278.0,469.0 270.0,478.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="514.0,460.0 522.0,469.0 514.0,478.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="758.0,460.0 766.0,469.0 758.0,478.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1002.0,460.0 1010.0,469.0 1002.0,478.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <text x="40" y="624" font-size="14.5" font-weight="600" fill="#8B93A5" letter-spacing="0.5">From real match data to a title chance for every club  ·  CustomTkinter  ·  Windows, macOS, Linux  ·  MIT</text>
+  </g>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxNzdhNTNkYy1iNDU2LTQ0ZDYtYWRjYi03MmZhYzA3MTU1N2IAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaPKCt/nn6D1tcX9oksERqq0AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmNGRkZWJmYS1iMWExLTQ1MTUtYTJiZS1mODM5NGZhYmFmZTNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoKfO1LfgJeWXYR8ZkBSf1CgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg2OFFLOZwBLKt0SdDBtrxwQqyRcQK1zAGaOj5S2G0R+ykZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaOCloT1HOz6mUOMYj0yC3fMAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIAd5djaiua5bSrgmaKmq0qn+ThGP30tqyyznONNEEarjZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GUD0Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjE3N2E1M2RjLWI0NTYtNDRkNi1hZGNiLTcyZmFjMDcxNTU3Yi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjM1YmQ0OTU2LTM0YjYtNDE5NS05NDQxLTdjM2JmZmU2MGY0NXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDY4UUs5nAEsq3RJ0MG2vHBCrJFxArXMAZo6PlLYbRH7KJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggMZ616SBlbPTZ+jcJm7JPtsMPDvURxSD0Q/JeShoEFEKiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggdTFKjDJugTI67cb4iqyymtLZ9+FqKf1RKGLy1MGmRU10Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQEtEFUPDaCbt9GHgsY/sC2in/3RXkk1wtHZWsV6fkFgZWB0qsvZjTSswJNvSp8TQXucHD/AW2aYll6UwDYNQDag=</c2pa:manifest></metadata></svg>

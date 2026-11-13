@@ -53,4 +53,4 @@ def fetch_fixtures(competition: str, season: int) -> None:
 
 if __name__ == "__main__":
     for comp in ("UCL", "UEL", "UECL"):
-        fetch_fixtures(comp, season=2024)
+        fetch_fixtures(comp, season=2023)

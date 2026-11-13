@@ -16,20 +16,9 @@
   <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/issues">Report a bug</a>
 </p>
 
-<!-- BRANCH-NOTE:START (delete this block when the branch is merged into main) -->
-> [!NOTE]
-> **This is the `trying_vgoals` branch: an experiment, not the released version.**
-> It tests a Poisson goal model, where the score of a match depends on how much stronger one club is. The option is off by default, and with it off, a given seed gives the same results as in version 1.2.0. This branch is published as the pre-release `v1.3.0-beta.1`.
-> The blue Windows download below, and the title odds further down, come from `main`; the turquoise button downloads this pre-release.
-> To try the branch: `git clone -b trying_vgoals https://github.com/yassinox12834/UEFA-Competitions-Simulator.git`, follow the [quick start](#quick-start), then switch on **Poisson goals** on the simulation settings screen. Details in the [changelog](CHANGELOG.md).
-<!-- BRANCH-NOTE:END -->
-
 <p align="center">
   <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest/download/UEFA-Simulator-windows.zip">
     <img src="assets/images/github/readme/download_en.svg" alt="Download for Windows" width="340">
-  </a>
-  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/download/v1.3.0-beta.1/UEFA-Simulator-windows.zip">
-    <img src="assets/images/github/readme/download_prerelease_en.svg" alt="Download the pre-release for Windows" width="340">
   </a>
 </p>
 
@@ -93,7 +82,7 @@ Title odds for the real 2025/26 Champions League pots (one draw, 10,000 replays,
 | 🎬 **Watch the ceremony** | Pot by pot, or skip straight to the result. |
 | ✏️ **Change the clubs** | In "Draw only" mode: replace any club, swap two clubs between pots with Ctrl + click (Cmd + click on a Mac; a swap that makes the draw impossible is refused), ban a match you do not want (for example, Genk must not play at home against Brann), load pots from a file, or save your own. |
 | ⚽ **Play a full season** | League table, play-offs, knockout rounds and a final on neutral ground. Every match gets a real score; penalty shoot-outs are played kick by kick. |
-| 🎯 **Choose how scores are made** | From a table of real scorelines (the default), or, in the experimental `trying_vgoals` branch, from a Poisson model of the rating gap: the bigger the gap, the more goals the favourite scores. The settings screen says what the option changes for each way of settling a two-legged tie. |
+| 🎯 **Choose how scores are made** | From a table of real scorelines (the default), or, with the experimental Poisson goals option, from a Poisson model of the rating gap: the bigger the gap, the more goals the favourite scores. The settings screen says what the option changes for each way of settling a two-legged tie. |
 | 📈 **Follow the form** | A club that keeps winning gets stronger during the season. |
 | 🔁 **Replay it 10,000 times** | See, for each club, how often it reaches each round. |
 | 📄 **Read every detail** | A full report of every match, in the app and as a text file. |
@@ -110,13 +99,12 @@ The real 2025/26 pots of all three competitions come as templates in `templates/
 1. **Real matches.** The app learns from about 4,600 real games of the 2024/25 season (friendlies left out).
 2. **Club ratings.** From those results, every club gets a strength score, called an Elo rating. Beating a strong club earns more than beating a weak one.
 3. **The draw.** The pots are drawn with the same rules UEFA uses.
-4. **The season.** For each match, the app turns the two clubs' ratings into chances (home win, draw, away win), then picks a result and a score. The score comes from a table of real scorelines or, with the experimental Poisson goals option of the `trying_vgoals` branch, from a Poisson model of the rating gap.
+4. **The season.** For each match, the app turns the two clubs' ratings into chances (home win, draw, away win), then picks a result and a score. The score comes from a table of real scorelines or, with the experimental Poisson goals option, from a Poisson model of the rating gap.
 5. **Repeat.** One season is a story; 10,000 seasons give real chances.
 
 Each step is explained with examples and small Python programs in [`model/docs/`](model/docs/README.md).
 
-<!-- BRANCH-NOTE:START (delete or rewrite this section when the branch is merged into main) -->
-### Poisson goals (experimental, branch `trying_vgoals`)
+### Poisson goals (experimental)
 
 By default, once the app has chosen the result of a match, it draws the score from one table of real scorelines. The experimental option uses the rating gap instead: the stronger the favourite, the more goals it is expected to score.
 
@@ -139,7 +127,6 @@ python model/elo_score_updating.py --write
 python -m model.fit_goals
 ```
 
-<!-- BRANCH-NOTE:END -->
 
 ### How a season works
 
@@ -210,12 +197,12 @@ All match data comes from [API-Football](https://www.api-football.com), on its f
 
 - The ratings come from about a season and a half of matches, so many clubs stay close to their starting value.
 - A result depends only on the two clubs' ratings: no injuries, no players, no recent form before the season.
-- With the default score table, the score of a match does not depend on how much stronger the winner is. The experimental Poisson goals option of the `trying_vgoals` branch does depend on it, within its own limits: it stops at 6 goals and makes fewer heavy wins than real football (18.0 % of matches decided by 3 goals or more, against 21.4 % in the real data), extra time ignores the rating gap, and the final's no-home-advantage rule rests on only 53 neutral matches.
+- With the default score table, the score of a match does not depend on how much stronger the winner is. The experimental Poisson goals option does depend on it, within its own limits: it stops at 6 goals and makes fewer heavy wins than real football (18.0% of matches decided by 3 goals or more, against 21.4% in the real data), extra time ignores the rating gap, and the final's no-home-advantage rule rests on only 53 neutral matches.
 - The ratings are treated as exact, so the chances shown are a little too sure of themselves.
-- The "legs" method of settling a two-legged tie, no longer the default, compares wins and draws, not goals: about 27 % of ties go to penalties, against about 10 % in the real data. The default "aggregate" method, the real rule, gives about 6 %.
+- The "legs" method of settling a two-legged tie, no longer the default, compares wins and draws, not goals: about 27% of ties go to penalties, against about 10% in the real data. The default "aggregate" method, the real rule, gives about 6%.
 - Hamrun Spartans (2025/26 Conference League template) has no match in the data. It starts at Malta's country seed (1419), not at a rating of its own.
 
-## Known bugs in version 1.1.0
+## Known bugs in version 1.3.0
 
 None of these changes a result by much. Still open:
 
@@ -230,7 +217,7 @@ The ten bugs of version 1.0.2 are fixed. The list, with each fix, is in the [cha
 - [ ] An interface that is easier to change.
 - [ ] Data from other seasons.
 - [x] The real rule for who plays the second leg at home in the quarter-finals and semi-finals.
-- [x] Scores that depend on the rating gap (Poisson goals, experimental, branch `trying_vgoals`).
+- [x] Scores that depend on the rating gap (Poisson goals, experimental).
 - [ ] A tighter final: a tension setting for the Poisson model.
 - [ ] A "tension" bar that shows how tight a match is.
 - [ ] Players, and a live simulation.
