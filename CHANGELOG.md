@@ -2,6 +2,73 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.3.1] 15 November 2026 Interface speed, stability and penalty shoot-outs
+
+The interface changed (plus `scripts/profile_ui.py`), and so did one model file, `model/penalties.py` (see "Penalty shoot-outs" below). A draw with a given seed gives exactly the same result as 1.3.0. A season gives the same results until its first penalty shoot-out, then different ones, because shoot-outs now end differently.
+
+Measured with `scripts/profile_ui.py` (median of 3 runs, Linux, virtual screen). "Longest callback" is the longest time a click could be ignored.
+
+| Step | Longest callback before | After |
+|---|---|---|
+| Competition -> mode (pots prewarm) | 309 ms | 58 ms |
+| Mode -> pots | 254 ms | 70 ms |
+| Light/dark switch | 362 ms | 51 ms |
+| Draw -> results | 285 ms | 125 ms |
+| Season + 200-run Monte Carlo | 347 ms | 160 ms |
+
+### Second pass: no more long blocks
+
+Measured with the updated `scripts/profile_ui.py` (median of 3 runs, Linux, virtual screen), against the first pass above. "Longest block" is the longest single event of the event loop (a callback, or one batch of redraws), so the longest time a click can wait.
+
+| Step | Longest block before | After | Usable after, before | After |
+|---|---|---|---|---|
+| Mode -> pots | 76 ms | 21 ms | 382 ms | 321 ms |
+| Pots -> choice | 63 ms | 1 ms | 100 ms | 23 ms |
+| Draw -> results | 124 ms | 44 ms | 319 ms | 202 ms |
+| Results -> simulation | 124 ms | 4 ms | 425 ms | 306 ms |
+| Season + 200-run Monte Carlo | 214 ms | 55 ms | 500 ms | 260 ms |
+| Competition -> mode | 68 ms, in the middle of the slide | 55 ms, after it | 328 ms | 329 ms |
+
+- **Panels built in slices.** A builder can now be a generator: each bare `yield` is a cut point, and `base_view.SliceBuild` runs the slices about 12 ms at a time, handing the event loop back between batches. The draw results, the simulation settings and the simulation results are built this way. The panel being left stays on screen and alive until the new one is complete, so the spinner keeps turning and the progress bar no longer freezes at 100%.
+- **Work queued until the slide ends.** Tk runs idle callbacks between two frames of a slide, so the pots prewarm used to land in the middle of the competition -> mode slide (a 230 ms hole in it). `App.when_settled()` now holds such work until the slide is over, and `App.prewarm()` goes through it.
+- **No fade on top of a slide.** A panel built while its screen slides in no longer fades in as well (`App.sliding`); the slide is the entrance, and the two together doubled the cost of every frame.
+- **Fades at 30 frames per second** (`transition.FADE_FPS`) instead of 60. A fade only changes colours, and each step redraws one CustomTkinter canvas per target. The slides stay at 60.
+- **Simulation settings built in advance and kept.** They are built in slices while the draw results are on screen, and kept between visits for the same competition and language, so "Simulate the season" and "Settings" answer at once. After "Simulate again" (which clears the seed) they are rebuilt, so the seed box never shows a stale seed.
+- **"Instant or ceremony?" built in advance** while the pots are on screen.
+- **Choosing the other mode** prewarms the pots again for that mode. The pots built on arrival were for the default mode, so they were thrown away and rebuilt inside the click on "Start".
+- **Light/dark switch on the simulation settings** no longer rebuilds them: they are all CustomTkinter, which repaints itself. Only the results (plain Tk canvases) are rebuilt.
+- **Spinner**: its 9 glow levels are drawn when it is created, before the draw thread starts, instead of during its first turns while the thread holds the GIL.
+- `scripts/profile_ui.py` times one Tcl event at a time, as `mainloop()` does, adds the `maxgap` column, and `WHO=1` prints which callback was the slowest in each step.
+
+### Changed
+
+- **Club chips** (`ClubChip`) are one plain `tkinter.Canvas` each, not a `CTkFrame` plus a `CTkLabel`. The rounded background is drawn by Pillow (antialiased, cached per size and colour), so hover, selection and "drawn" only swap an image. Building the pots went from about 340 ms to about 100 ms. `PotsBoard` follows the theme with one callback for all its chips.
+- **Matchday rows** (`MatchRow`) and the **draw spinner** (`Spinner`) use the same approach. The spinner used three `CTkFrame` dots faded at 60 fps; one frame cost up to 75 ms while the draw was running.
+- **Light/dark switch**: views now have `on_theme_change()`. The draw screen no longer rebuilds the pots on a theme switch (only the results panel, built from plain Tk widgets, is rebuilt). The switch lock went from 5 s to 0.8 s.
+- **Fades** (`transition.dissolve_in`): a frame whose fill would repaint all its children is no longer faded (its border and texts still are), and the "can this property be written?" test no longer calls `configure()` on a real widget. That test alone repainted whole panels.
+- **Worker threads**: the "working" screen is shown before the draw or simulation thread starts, it no longer fades in, and while a job runs `sys.setswitchinterval` is lowered from 5 ms to 0.5 ms (`platform_utils.begin_background_work`). The worker holds the GIL, and every Tk call used to wait up to 5 ms for it. The Monte Carlo progress is redrawn at most every 100 ms and only when it changed.
+- **Menu clicks** (language, competition): each click started about 30 colour animations that ran during the slide, most of them fading a colour to the value it already had. The top bar was refreshed twice per click, and cards passing under the pointer started hover fades. Now a fade to the same colour does nothing, the bars only redraw when what they show changes, hover fades are skipped while a slide runs, and the slide is the only animation left (about 20 frames played instead of about 230).
+- The pots prewarm builds one column at a time instead of the whole board in one block.
+- Matchday rows use the same 22 px badges as the pots, so the decoded badges are reused.
+
+### Fixed
+
+- **The app could stop responding to every click and key.** If a frame of a screen transition raised an error (a widget destroyed during the slide), the animation stopped without calling its end callback, and `App._busy` stayed `True` for good. Animations now always finish, and `App.show()` has a safety timer that completes the switch one second after the planned end.
+- **Enter typed in a text field** (seed, search) also triggered the screen's main action, such as launching a run.
+- An animation frame that fails with something other than a `TclError` is now logged instead of silently killing the animation.
+
+### Penalty shoot-outs
+
+- `P_SCORE` goes from 0.76 to 0.748, the share of shoot-out kicks scored in 14,189 kicks of European men's football (1,759 shoot-outs, arXiv:2310.04797).
+- `PRESSURE_DROP` goes from 0.1 to 0. In that study a kick that must be scored goes in as often as any other (about 74% against 75%), so the lowered fifth kick of 1.3.0 is gone. The club kicking first now wins 50% of shoot-outs instead of 51.3%; each club still wins half of its own.
+- Checked against how far real shoot-outs go (how many reach a fifth kick by the second club, sudden death, a ninth round): chi-square 3.9, against 21.7 before. Sudden death happens in 29% of simulated shoot-outs (30% in the real sample), against 26% before.
+- No link to the Elo ratings was added: in 268 UEFA club shoot-outs the better-rated club did not win more often (arXiv:2510.17641).
+- `model/docs/penalties.md` (English and French) is rewritten to match. `model/docs/code/penalties_code.md` only has its settings row corrected and a warning note; its listings are still out of date.
+
+### Added
+
+- `scripts/profile_ui.py`: drives the whole journey and prints, for each step, the time until it is usable, the cost of animation frames, the longest blocking callback and the number of widgets. `PROF_STEP="theme"` profiles one step with cProfile.
+
 ## [1.3.0] 13 November 2026
 
 ### Changed

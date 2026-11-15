@@ -27,7 +27,7 @@ import tkinter
 import customtkinter as ctk
 
 import transition as tr
-from base_view import BaseView
+from base_view import BaseView, SliceBuild, is_sliced
 from canvas_views import BracketView, LeagueTable, ProbTable, draw_shootout
 from config import (USER_DIR, BORDER, CARD, GOLD, MC_RUNS, SURFACE_2,
                     TEXT, TEXT_FAINT, TEXT_MUTED, ZONE_OUT, ZONE_PO, ZONE_R16)
@@ -60,11 +60,18 @@ class SimulateView(BaseView):
 
         self._phase = None
         self._panel = None
+        self._slicing = None            # a SliceBuild of the shown screen in progress
+        # The settings panel is kept between visits and built in advance
+        # (see prewarm): it depends only on the competition and the language.
+        self._setup_panel = None
+        self._setup_key = None
+        self._warm_job = None
         self._jobs = set()
         self._anims = []
         self._error = None
         self._tab = "table"
         self._t0 = 0.0
+        self._shown_progress = None
 
         # The settings survive from one run to the next.
         self.method = DEFAULT_METHOD
@@ -101,6 +108,16 @@ class SimulateView(BaseView):
     def refresh_text(self):
         if self._phase in ("setup", "results", "failed"):
             self._go(self._phase, force=True)
+        else:
+            self._drop_setup()           # the kept settings are in the old language
+
+    def on_theme_change(self):
+        """Only the results hold plain Tk canvases, whose colours are fixed
+        when drawn. Settings, progress and error panels are CustomTkinter,
+        which repaints itself: rebuilding them (the old behaviour, through
+        refresh_text) cost about 190 ms per switch on the settings."""
+        if self._phase == "results":
+            self._go("results", force=True)
 
     def on_back(self):
         if self._phase == "results":
@@ -144,25 +161,151 @@ class SimulateView(BaseView):
             except Exception:
                 pass
         self._anims.clear()
+        job, self._slicing = self._slicing, None
+        if job is not None:
+            job.cancel()
+            if job.panel.winfo_exists():
+                job.panel.destroy()
+
+    # ---------- the settings panel, kept and built in advance ----------
+    def _setup_key_now(self):
+        return (self.app.comp, self.app.lang)
+
+    def _drop_setup(self):
+        job, self._warm_job = self._warm_job, None
+        if job is not None:
+            job.cancel()
+        panel, self._setup_panel = self._setup_panel, None
+        self._setup_key = None
+        if panel is not None:
+            if panel is self._panel:
+                self._panel = None
+            if panel.winfo_exists():
+                panel.destroy()
+
+    def prewarm(self):
+        """Builds the settings panel BEFORE the screen is shown.
+
+        App calls this once the draw results are on screen in full
+        simulation. The settings used to cost about 190 ms, spent in the
+        click on "Simulate the season" before the slide could even start;
+        built here, in slices, while the user reads the fixtures, the click
+        answers at once.
+        """
+        panel = self._setup_panel
+        if (panel is not None and panel.winfo_exists()
+                and self._setup_key == self._setup_key_now()):
+            return                       # already built, or being built
+        self._drop_setup()
+        panel = ctk.CTkFrame(self.host, fg_color="transparent")
+        self._setup_panel, self._setup_key = panel, self._setup_key_now()
+        def done():
+            if self._warm_job is job:
+                self._warm_job = None
+
+        def failed(_exc):
+            if self._warm_job is job:
+                self._drop_setup()
+
+        job = SliceBuild(self, self._build_setup(panel), done, failed)
+        self._warm_job = job
+        job.start()
+
+    def _take_setup(self):
+        """The kept settings panel if it can be shown as it is, else None."""
+        if self._warm_job is not None:
+            job, self._warm_job = self._warm_job, None
+            job.finish_now()             # still filling: finish it now
+        panel = self._setup_panel
+        if (panel is None or not panel.winfo_exists()
+                or self._setup_key != self._setup_key_now()):
+            self._drop_setup()
+            return None
+        # "Simulate again" clears the seed (_launch_again). The kept entry
+        # would still show the old one: rebuild rather than lie.
+        try:
+            shown = self.seed_entry.get().strip()
+        except (AttributeError, tkinter.TclError):
+            shown = None
+        if shown != self.seed_text:
+            self._drop_setup()
+            return None
+        return panel
 
     # ---------- internal router ----------
+    # Built in slices (generators, see base_view.SliceBuild): the panel
+    # being left stays on screen, alive, until the new one is complete. The
+    # results used to cost about 200 ms in one callback, with the progress
+    # bar frozen at 100 %.
+    SLICED = ("setup", "results")
+
     def _go(self, phase, force=False, error=None):
         if phase == self._phase and not force:
             return
         self._cancel_all()
-        if self._panel is not None and self._panel.winfo_exists():
-            self._panel.destroy()
         self._phase = phase
         self._error = error
+
+        if phase == "setup":
+            if force:
+                self._drop_setup()       # texts or colours have changed
+            panel = self._take_setup()
+            if panel is not None:
+                self._swap_to(panel, phase, fresh=False)
+                return
+
         builder = {"setup": self._build_setup,
                    "working": self._build_working,
                    "results": self._build_results,
                    "failed": self._build_failed}[phase]
         panel = ctk.CTkFrame(self.host, fg_color="transparent")
+        built = builder(panel)
+        if not is_sliced(built):
+            self._swap_to(panel, phase, fresh=True)
+            return
+
+        def done():
+            if self._slicing is job:
+                self._slicing = None
+                self._swap_to(panel, phase, fresh=True)
+
+        def failed(exc):
+            if self._slicing is not job:
+                return
+            self._slicing = None
+            if panel.winfo_exists():
+                panel.destroy()
+            if phase == "setup":
+                self._setup_panel = None
+            self._go("failed", force=True, error=error_text(exc))
+
+        job = SliceBuild(self, built, done, failed)
+        job.panel = panel
+        self._slicing = job
+        # Entering the screen: the slide needs the finished panel, and
+        # nothing of the old one is visible anyway.
+        if self.app.sliding:
+            job.finish_now()
+        else:
+            job.start()
+
+    def _swap_to(self, panel, phase, fresh):
+        old = self._panel
+        if old is not None and old is not panel and old.winfo_exists():
+            if old is self._setup_panel:
+                old.pack_forget()        # kept for the next visit
+            else:
+                old.destroy()
         panel.pack(fill="both", expand=True)
-        builder(panel)
         self._panel = panel
-        self._anim(tr.dissolve_in(panel, self.app.surface_hex(), duration=200))
+        if phase == "setup":
+            self._setup_panel, self._setup_key = panel, self._setup_key_now()
+        # No fade on "working": the simulation thread holds the GIL there,
+        # which makes each fade frame 10 times slower (see DrawView._go).
+        # None on a kept panel (its colours are already right) and none
+        # while the whole screen slides in (the slide is the entrance).
+        if fresh and phase != "working" and not self.app.sliding:
+            self._anim(tr.dissolve_in(panel, self.app.surface_hex(), duration=200))
 
     # ---------- small factories ----------
     def _header(self, parent, question_key, hint_text=None):
@@ -201,6 +344,7 @@ class SimulateView(BaseView):
     #  STATE 1: THE SETTINGS
     # =================================================================
     def _build_setup(self, parent):
+        # A generator: each bare `yield` is a cut point (see SLICED).
         self._header(parent, "sim_setup_q", self.app.t("sim_setup_h"))
 
         footer = ctk.CTkFrame(parent, fg_color="transparent")
@@ -214,6 +358,7 @@ class SimulateView(BaseView):
                                        text_color=TEXT_FAINT, wraplength=820)
         self.model_line.pack(pady=(10, 0))
         self._describe_model()
+        yield
 
         # --- the two-legged method: three cards with an icon ---
         ctk.CTkLabel(parent, text=self.app.t("sim_method").upper(),
@@ -237,7 +382,9 @@ class SimulateView(BaseView):
                 tag.place(relx=1.0, x=-12, y=12, anchor="ne")
                 tag.bind("<Button-1>", lambda _e, m=method: self._pick_method(m))
             self.method_cards[method] = card
+            yield
         self._paint_methods()
+        yield
 
         # --- expert, Monte Carlo, seed: a label / control / help grid ---
         box = self._card(parent)
@@ -266,6 +413,7 @@ class SimulateView(BaseView):
         if self.expert:
             self.expert_switch.select()
         hint(0, self.app.t("sim_expert_h"))
+        yield
 
         label(1, "sim_runs")
         self.run_labels = {self._runs_label(n): n for n in MC_RUNS}
@@ -277,6 +425,7 @@ class SimulateView(BaseView):
         self.runs_seg.set(self._runs_label(self.runs if self.runs in MC_RUNS else 0))
         self.runs_hint = hint(1, "")
         self._paint_runs_hint()
+        yield
 
         label(2, "sim_seed")
         self.seed_entry = ctk.CTkEntry(grid, width=180, height=32,
@@ -286,6 +435,7 @@ class SimulateView(BaseView):
         if self.seed_text:
             self.seed_entry.insert(0, self.seed_text)
         hint(2, self.app.t("sim_seed_h"))
+        yield
 
         label(3, "sim_goals_short")
         self.goals_switch = ctk.CTkSwitch(grid, text="", width=46,
@@ -360,10 +510,26 @@ class SimulateView(BaseView):
         self.job = SimJob(self.comp, self.teams, self.matchdays,
                           method=self.method, expert=self.expert,
                           runs=self.runs, seed=seed,
-                          goals="poisson" if self.poisson else "table").start()
-        self._t0 = time.perf_counter()
+                          goals="poisson" if self.poisson else "table")
+        # Screen FIRST, thread SECOND. The worker is pure Python and holds
+        # the GIL; while it runs, every Tk call made by this thread waits
+        # for the lock (up to 5 ms each). Tearing down the settings panel
+        # with the simulation already running took about 0.8 s instead of
+        # about 0.1 s. The short delay below lets Tk paint the "working" panel
+        # before the competition for the lock begins.
         self._go("working")
-        self._poll_job()
+        job = self.job
+
+        def begin():
+            if self.job is job and self._phase == "working":
+                self._t0 = time.perf_counter()
+                self._shown_progress = None
+                job.start()
+                self._poll_job()
+
+        # Tracked timer: leaving the screen before it fires cancels it
+        # (_cancel_all), so no thread is started for a screen nobody sees.
+        self._later(1, begin)
 
     def _launch_again(self):
         self._launch(seed_text="")             # a new season, not the same one
@@ -394,7 +560,11 @@ class SimulateView(BaseView):
         answer = self.job.poll() if self.job else None
         if answer is None:
             done, total = self.job.progress()
-            if total and self._phase == "working":
+            # Redraw only what changed, and at most every 100 ms: each
+            # configure() redraws a CustomTkinter canvas, and each Tk call
+            # is slow while the worker thread holds the GIL.
+            if total and self._phase == "working" and (done, total) != self._shown_progress:
+                self._shown_progress = (done, total)
                 self.bar.set(done / total)
                 self.progress_label.configure(
                     text=self.app.t("sim_mc_progress", i=f"{done:,}", n=f"{total:,}"))
@@ -402,7 +572,7 @@ class SimulateView(BaseView):
                 if done and elapsed > 0.2:
                     self.rate_label.configure(
                         text=self.app.t("sim_mc_rate", rate=done / elapsed))
-            self._later(50, self._poll_job)
+            self._later(100, self._poll_job)
             return
         if answer[0] == "error":
             self._go("failed", error=error_text(answer[1]))
@@ -414,7 +584,9 @@ class SimulateView(BaseView):
     #  STATE 3: THE RESULTS
     # =================================================================
     def _build_results(self, parent):
-        self._hero(parent)
+        # A generator: each bare `yield` is a cut point (see SLICED).
+        yield from self._hero(parent)
+        yield
 
         bar = ctk.CTkFrame(parent, fg_color="transparent")
         bar.pack(fill="x", padx=24, pady=(10, 6))
@@ -435,13 +607,14 @@ class SimulateView(BaseView):
             side="right", padx=6)
         self._primary(bar, "sim_again", self._launch_again, width=130, height=38).pack(
             side="right", padx=6)
+        yield
 
         self.tab_host = ctk.CTkFrame(parent, fg_color="transparent")
         self.tab_host.pack(fill="both", expand=True, padx=24, pady=(0, 14))
         if self._tab not in self.tab_keys:
             self._tab = "table"
         self.tabs.set(self.tab_keys[self._tab])
-        self._show(self._tab)
+        yield from self._show_steps(self._tab)
 
     def _hero(self, parent):
         """The winner banner: cup, badge, name, the final, the figures.
@@ -449,6 +622,7 @@ class SimulateView(BaseView):
         Deliberately low (a single row): on a laptop, every pixel taken
         here is one pixel less for the knockout bracket.
         """
+        # A generator, driven by _build_results.
         r = self.result
         final = r.rounds["final"][0]
         hero = self._card(parent)
@@ -473,6 +647,7 @@ class SimulateView(BaseView):
                      text_color=TEXT, height=34).pack(anchor="w")
         ctk.CTkLabel(titles, text=self._final_line(final), height=16,
                      font=self.app.fonts["small"], text_color=TEXT_MUTED).pack(anchor="w")
+        yield
 
         stats = ctk.CTkFrame(inner, fg_color="transparent")
         stats.pack(side="right")
@@ -492,6 +667,7 @@ class SimulateView(BaseView):
                          text_color=TEXT_FAINT, height=24).pack(side="left", padx=(10, 8))
             ctk.CTkLabel(chip, text=value, font=self.app.fonts["small_b"],
                          text_color=TEXT, height=24).pack(side="right", padx=(0, 10))
+            yield
 
     def _final_line(self, final):
         m = final.legs[0]
@@ -518,11 +694,18 @@ class SimulateView(BaseView):
                 return
 
     def _show(self, key):
+        for _ in self._show_steps(key):
+            pass
+
+    def _show_steps(self, key):
+        """_show() as a generator, so the results build can slice it."""
         self._tab = key
         for child in self.tab_host.winfo_children():
             child.destroy()
-        {"table": self._show_table, "knockout": self._show_knockout,
-         "probs": self._show_probs, "expert": self._show_expert}[key]()
+        built = {"table": self._show_table, "knockout": self._show_knockout,
+                 "probs": self._show_probs, "expert": self._show_expert}[key]()
+        if is_sliced(built):
+            yield from built
 
     def _legend(self, parent, items):
         row = ctk.CTkFrame(parent, fg_color="transparent")
@@ -543,6 +726,7 @@ class SimulateView(BaseView):
         self._legend(self.tab_host, ((self.app.t("zone_r16"), ZONE_R16),
                                      (self.app.t("zone_po"), ZONE_PO),
                                      (self.app.t("zone_out"), ZONE_OUT)))
+        yield
         LeagueTable(self.tab_host, self.app, self, self.result).pack(
             fill="both", expand=True)
 

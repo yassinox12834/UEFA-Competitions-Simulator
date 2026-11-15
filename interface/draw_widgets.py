@@ -20,6 +20,7 @@ Contents:
     Spinner         the dot that spins during the calculation
 """
 
+import time
 import tkinter
 from tkinter import filedialog
 
@@ -27,11 +28,12 @@ import customtkinter as ctk
 from PIL import Image
 
 import transition as tr
-from config import (AWAY, BORDER, CARD, CARD_RADIUS, CHIP, CHIP_BORDER,
-                    CHIP_DRAWN, CHIP_HOVER, CHIP_RADIUS, HOME, HOVER_MS,
+from config import (AWAY, BORDER, CARD, CHIP, CHIP_BORDER,
+                    CHIP_DRAWN, CHIP_HOVER, CHIP_RADIUS, HOME,
                     POT_HEADER, REPLACED, SURFACE, SURFACE_2, TEXT,
                     TEXT_MUTED)
-from fonts import FONTS
+from canvas_views import _fit
+from fonts import FONTS, scaling, tk_font
 from images import ball_image, club_image, club_photo
 
 
@@ -106,79 +108,157 @@ def flat_label(parent, text, bg, fg, font=None, photo=None, **kwargs):
 # =====================================================================
 #  A CLUB IN A POT
 # =====================================================================
+# Performance note (2026-11, measured headless with profile_ui.py):
+#
+# A chip used to be a CTkFrame holding a CTkLabel. Each of those is a
+# canvas that CustomTkinter redraws by hand, and each one registers itself
+# with the appearance-mode tracker and the scaling tracker; destroying it
+# removes it from those lists again (a linear search). With 36 chips the
+# pots board cost about 340 ms to build and was rebuilt up to three times
+# per visit. CustomTkinter's own tracker lists issues #2652 ("rendering
+# multiple widgets") and #2687 ("destroy does not delete children") for
+# the same reason.
+#
+# A chip is now ONE plain tkinter.Canvas with three items: a background
+# image (the rounded rectangle), the badge and the name. The rounded
+# rectangle is drawn with Pillow at twice the size and scaled down, so the
+# corners stay antialiased like CustomTkinter's; every (size, colours)
+# combination is drawn once and cached, so hovering or greying a chip
+# only swaps one image id. The theme is followed by PotsBoard, which
+# registers a single callback for all its chips instead of 72.
 
-class ClubChip(ctk.CTkFrame):
+_CHIP_BG_CACHE = {}
+
+
+def _chip_background(w, h, radius, fill, border, border_w, behind):
+    """The chip's rounded rectangle as a PhotoImage, cached.
+
+    `behind` is the colour of whatever is under the chip: the corners are
+    painted with it, so no transparency is needed.
+    """
+    key = (w, h, radius, fill, border, border_w, behind)
+    photo = _CHIP_BG_CACHE.get(key)
+    if photo is not None:
+        return photo
+    from PIL import ImageDraw, ImageTk
+    k = 2                                   # supersampling factor
+    img = Image.new("RGB", (w * k, h * k), behind)
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle((0, 0, w * k - 1, h * k - 1), radius=radius * k,
+                        fill=border)
+    inset = border_w * k
+    d.rounded_rectangle((inset, inset, w * k - 1 - inset, h * k - 1 - inset),
+                        radius=max(0, (radius - border_w) * k), fill=fill)
+    photo = ImageTk.PhotoImage(img.resize((w, h), Image.LANCZOS))
+    _CHIP_BG_CACHE[key] = photo
+    return photo
+
+
+def _colour_behind(widget):
+    """The visible background colour under `widget` (first opaque ancestor)."""
+    return _colour_behind_widget(widget.master)
+
+
+def _colour_behind_widget(node):
+    """The colour of `node`, or of its first ancestor that is not transparent."""
+    while node is not None:
+        try:
+            colour = node.cget("fg_color")
+        except (ValueError, tkinter.TclError, AttributeError):
+            try:
+                colour = node.cget("bg")
+            except (ValueError, tkinter.TclError):
+                colour = None
+        if colour and colour != "transparent":
+            return tr.resolve_color(colour)
+        node = node.master
+    return tr.resolve_color(SURFACE)
+
+
+class ClubChip(tkinter.Canvas):
     """Badge + name, clickable. Greys out once the ball has come out."""
+
+    BADGE = 22          # logical px
 
     def __init__(self, master, comp, club, accent, width=210, height=36,
                  command=None, logo_path=None, replaced=False, **kwargs):
-        super().__init__(master, width=width, height=height,
-                         corner_radius=CHIP_RADIUS, fg_color=CHIP,
-                         border_width=1, border_color=CHIP_BORDER, **kwargs)
-        self.pack_propagate(False)
+        self.s = scaling(master)
+        self.w, self.h = round(width * self.s), round(height * self.s)
+        super().__init__(master, width=self.w, height=self.h,
+                         highlightthickness=0, bd=0, **kwargs)
         self.comp, self.club, self.accent = comp, club, accent
         self.command = command
         self._hover = False
         self._drawn = False
         self._selected = False     # first club picked for a swap
-        self._last_click = None    # (serial, time) of the last click handled
         self.click_state = 0       # modifier keys held during the last click
+        self._logo_path = logo_path
+        self._replaced = replaced
 
-        # Badge AND name in ONE SINGLE label, via compound="left".
-        # Thirty-six clubs make thirty-six chips: every CustomTkinter
-        # widget fewer is one canvas fewer to build and to redraw. Going
-        # from four widgets per chip to two halves the construction cost
-        # of the screen.
-        # The two spaces in front of the name are the only way to move the
-        # text away from the image: Tk exposes no spacing between the two
-        # parts of a compound label.
-        self.label = ctk.CTkLabel(
-            self, text="  " + club, font=FONTS.get("small"),
-            text_color=TEXT, anchor="w", compound="left",
-            image=club_image(comp, club, box=(22, 22), accent=accent,
-                             custom_path=logo_path))
-        self.label.pack(side="left", padx=(8, 0), fill="x", expand=True)
+        self._font = tk_font(self, 12)
+        pad = round(8 * self.s)
+        mid = self.h // 2
+        self._bg_item = self.create_image(0, 0, anchor="nw")
+        self._logo_item = self.create_image(pad, mid, anchor="w")
+        self._text_x = pad + round((self.BADGE + 6) * self.s)
+        self._text_item = self.create_text(self._text_x, mid, anchor="w",
+                                           font=self._font)
+        self._mark_item = None
 
-        # "Replaced club" badge: created only on the day it is needed. A
-        # replacement is rare; thirty-six invisible labels are not.
-        self.mark = None
-        if replaced:
-            self._show_mark(True)
+        # One widget, no children: a single binding of each kind is
+        # enough, and <Leave> is reliable (it no longer fires when the
+        # pointer moves onto an inner label), so the old after(10)
+        # pointer check is gone.
+        self.bind("<Button-1>", self._on_click)
+        self.bind("<Enter>", self._on_enter)
+        self.bind("<Leave>", self._on_leave)
+        self.bind("<Unmap>", self._on_unmap)
+        if command is not None:
+            self.configure(cursor="hand2")
 
-        self._bind_tree(self)
-        self.bind("<Unmap>", self._on_unmap, add="+")
-
-    def _show_mark(self, show):
-        if show and self.mark is None:
-            self.mark = ctk.CTkLabel(self, text="", width=8, height=8,
-                                     corner_radius=4, fg_color=REPLACED)
-            self.mark.pack(side="right", padx=(0, 9))
-        elif not show and self.mark is not None:
-            self.mark.destroy()
-            self.mark = None
+        self._draw_content()
+        self._paint()
 
     # ---------- content ----------
+    def _draw_content(self):
+        photo = club_photo(self.comp, self.club, round(self.BADGE * self.s),
+                           self.accent, self._logo_path)
+        self.itemconfigure(self._logo_item, image=photo or "")
+        self._logo_ref = photo
+        room = self.w - self._text_x - round(18 * self.s)
+        self.itemconfigure(self._text_item, text=_fit(self._font, self.club, room))
+        self._show_mark(self._replaced)
+
+    def _show_mark(self, show):
+        if show and self._mark_item is None:
+            r = round(4 * self.s)
+            cx, cy = self.w - round(13 * self.s), self.h // 2
+            self._mark_item = self.create_oval(cx - r, cy - r, cx + r, cy + r,
+                                               width=0)
+            self._paint_mark()
+        elif not show and self._mark_item is not None:
+            self.delete(self._mark_item)
+            self._mark_item = None
+
+    def _paint_mark(self):
+        if self._mark_item is not None:
+            self.itemconfigure(self._mark_item, fill=tr.resolve_color(REPLACED))
+
     def refresh(self, club, logo_path=None, replaced=False):
-        # A single configure() rather than two: each one redraws the
-        # label's canvas, and refresh() goes over all thirty-six clubs.
         if club != self.club or logo_path is not None:
             self.club = club
-            self.label.configure(
-                text="  " + club,
-                image=club_image(self.comp, club, box=(22, 22),
-                                 accent=self.accent, custom_path=logo_path))
-        self._show_mark(replaced)
+            self._logo_path = logo_path
+            self._replaced = replaced
+            self._draw_content()
+        else:
+            self._replaced = replaced
+            self._show_mark(replaced)
 
     def set_accent(self, accent):
-        # The guard is not cosmetic: _paint() ends with a configure(),
-        # which redraws the chip's canvas. A refresh() of the board goes
-        # over thirty-six chips, and it is called after EVERY replacement,
-        # whereas the accent only changes when the competition changes.
-        # Thirty-six redraws for nothing, on every click.
         if accent == self.accent:
             return
         self.accent = accent
-        self._paint(animated=False)
+        self._paint()
 
     def set_selected(self, selected):
         """Picked as the first club of a swap: an accent frame that stays
@@ -186,7 +266,6 @@ class ClubChip(ctk.CTkFrame):
         if selected == self._selected:
             return
         self._selected = selected
-        self.configure(border_width=2 if selected else 1)
         self._paint()
 
     def set_drawn(self, drawn):
@@ -194,62 +273,35 @@ class ClubChip(ctk.CTkFrame):
         if drawn == self._drawn:
             return
         self._drawn = drawn
-        self.label.configure(text_color=TEXT_MUTED if drawn else TEXT)
         self._paint()
 
     # ---------- colours ----------
-    def _paint(self, animated=True):
-        """
-        Colour applied at once, never as a fade.
+    def _paint(self, animated=False):
+        """Colours applied at once: a fade on 36 chips is not worth it.
 
-        A CardButton can afford a hover fade: there are two or three on
-        screen. A club chip cannot. A 140 ms fade is an after() loop at 60
-        frames per second calling configure() twice per frame, and
-        configure() redraws the widget's canvas. Sweep the grid with the
-        mouse and you launch dozens of these loops at the same time: the
-        interface starts to lag, for a 140 ms fade on a 210-pixel
-        rectangle that nobody sees go by.
-
-        `animated` stays in the signature because callers still pass it;
-        it is ignored, deliberately.
+        Also called by PotsBoard when the theme changes, which is why every
+        colour is resolved here and not at construction.
         """
         if self._drawn:
             border, fill = CHIP_BORDER, CHIP_DRAWN
-        elif self._selected:
-            border, fill = self.accent, CHIP_HOVER
-        elif self._hover and self.command is not None:
+        elif self._selected or (self._hover and self.command is not None):
             border, fill = self.accent, CHIP_HOVER
         else:
             border, fill = CHIP_BORDER, CHIP
-        self.configure(border_color=border, fg_color=fill)
+        behind = _colour_behind(self)
+        width = 2 if self._selected else 1
+        bg = _chip_background(self.w, self.h, round(CHIP_RADIUS * self.s),
+                              tr.resolve_color(fill), tr.resolve_color(border),
+                              max(1, round(width * self.s)), behind)
+        self.configure(bg=behind)
+        self.itemconfigure(self._bg_item, image=bg)
+        self.itemconfigure(self._text_item, fill=tr.resolve_color(
+            TEXT_MUTED if self._drawn else TEXT))
+        self._paint_mark()
 
     # ---------- mouse ----------
-    def _bind_tree(self, widget):
-        widget.bind("<Button-1>", self._on_click, add="+")
-        widget.bind("<Enter>", self._on_enter, add="+")
-        widget.bind("<Leave>", self._on_leave, add="+")
-        if self.command is not None:
-            try:
-                widget.configure(cursor="hand2")
-            except (tkinter.TclError, ValueError):
-                pass
-        for child in widget.winfo_children():
-            self._bind_tree(child)
-
     def _on_click(self, e=None):
-        # One click used to run the command TWICE: _bind_tree binds
-        # <Button-1> on a CustomTkinter widget (which forwards it to its
-        # inner label) and then again on that inner label. The replace box
-        # simply opened twice; a swap picked a club and un-picked it at once.
-        # Both calls carry the same Tk event, so the second one is dropped.
-        if e is not None:
-            key = (getattr(e, "serial", None), getattr(e, "time", None))
-            if key == self._last_click:
-                return
-            self._last_click = key
-            self.click_state = getattr(e, "state", 0) or 0
-        else:
-            self.click_state = 0
+        self.click_state = getattr(e, "state", 0) or 0 if e is not None else 0
         if self.command is not None:
             self.command(self)
 
@@ -258,26 +310,12 @@ class ClubChip(ctk.CTkFrame):
             self._hover = True
             self._paint()
 
-    def _on_unmap(self, _e=None):
+    def _on_leave(self, _e=None):
         if self._hover:
             self._hover = False
             self._paint()
 
-    def _on_leave(self, _e=None):
-        self.after(10, self._check_pointer)
-
-    def _check_pointer(self):
-        try:
-            px, py = self.winfo_pointerxy()
-            x, y = self.winfo_rootx(), self.winfo_rooty()
-            inside = (x <= px < x + self.winfo_width()
-                      and y <= py < y + self.winfo_height())
-        except tkinter.TclError:
-            return
-        if not inside and self._hover:
-            self._hover = False
-            self._paint()
-
+    _on_unmap = _on_leave
 
 # =====================================================================
 #  ONE POT, THEN ALL THE POTS
@@ -351,20 +389,73 @@ class PotsBoard(ctk.CTkScrollableFrame):
     nothing; a club that is cut off and cannot be reached does.
     """
 
-    def __init__(self, master, app, comp, model, on_click=None, **kwargs):
+    def __init__(self, master, app, comp, model, on_click=None, lazy=False,
+                 **kwargs):
         super().__init__(master, fg_color="transparent", **kwargs)
         self.app, self.model = app, model
+        self._comp, self._on_click = comp, on_click
         # 4 pots of 9 -> wide columns; 6 pots of 6 -> narrow ones.
-        chip_width = 210 if len(model.pots) <= 4 else 152
+        self._chip_width = 210 if len(model.pots) <= 4 else 152
 
-        row = ctk.CTkFrame(self, fg_color="transparent")
-        row.pack(expand=True)
+        self._row = ctk.CTkFrame(self, fg_color="transparent")
+        self._row.pack(expand=True)
         self.columns = []
-        for index, clubs in enumerate(model.pots, start=1):
-            column = PotColumn(row, app, comp, index, clubs, model,
-                               on_click=on_click, chip_width=chip_width)
-            column.pack(side="left", padx=7, anchor="n")
-            self.columns.append(column)
+        # lazy=True (the prewarm): one column per idle slot, so the screen
+        # the user is looking at never stalls for the whole board at once.
+        # complete() finishes the job synchronously if the board is needed
+        # before the last slot came.
+        self._idle_job = None
+        if lazy:
+            self._idle_job = self.after_idle(self._build_next)
+        else:
+            self.complete()
+
+        # The chips are plain Tk canvases: they do not follow the theme by
+        # themselves. ONE callback repaints all of them, instead of one
+        # registration per CustomTkinter widget as before.
+        ctk.AppearanceModeTracker.add(self._on_theme, self)
+        self.bind("<Destroy>", self._on_destroy, add="+")
+
+    def _build_column(self):
+        index = len(self.columns) + 1
+        column = PotColumn(self._row, self.app, self._comp, index,
+                           self.model.pots[index - 1], self.model,
+                           on_click=self._on_click, chip_width=self._chip_width)
+        column.pack(side="left", padx=7, anchor="n")
+        self.columns.append(column)
+
+    def _build_next(self):
+        self._idle_job = None
+        if len(self.columns) < len(self.model.pots):
+            self._build_column()
+            if len(self.columns) < len(self.model.pots):
+                # A short timer, not after_idle: Tk runs every idle callback
+                # in a single pass, which would rebuild the whole board in
+                # one block again. 10 ms lets clicks and repaints through.
+                self._idle_job = self.after(10, self._build_next)
+
+    def complete(self):
+        """Builds whatever columns are still missing, right now."""
+        if self._idle_job is not None:
+            try:
+                self.after_cancel(self._idle_job)
+            except (tkinter.TclError, ValueError):
+                pass
+            self._idle_job = None
+        while len(self.columns) < len(self.model.pots):
+            self._build_column()
+
+    def _on_theme(self, _mode=None):
+        for column in self.columns:
+            for chip in column.chips:
+                try:
+                    chip._paint()
+                except tkinter.TclError:
+                    pass
+
+    def _on_destroy(self, event):
+        if event.widget is self:
+            ctk.AppearanceModeTracker.remove(self._on_theme)
 
     def refresh(self):
         """The four (or six) pots. Expensive: keep it for real upheavals,
@@ -1079,71 +1170,131 @@ class BowlStrip(ctk.CTkFrame):
         return self.row
 
 
-class MatchRow(ctk.CTkFrame):
-    """A matchday fixture: home on the left, away on the right."""
+class MatchRow(tkinter.Canvas):
+    """A matchday fixture: home on the left, away on the right.
+
+    One plain canvas, like ClubChip (same cached rounded background). It
+    used to be a CTkFrame shell around three Tk labels: about 13 ms per
+    row, so a matchday of 18 fixtures had to be built in slices. Colours
+    are resolved once, as before: DrawView rebuilds the results panel when
+    the theme changes.
+    """
+
+    # Same size as ClubChip.BADGE on purpose: club_photo() caches by size,
+    # so the 36 badges decoded for the pots are reused here as they are
+    # (decoding them again at 20 px cost about 45 ms per results screen).
+    BADGE = ClubChip.BADGE
 
     def __init__(self, master, comp, home, away, accent, width=330, height=36,
                  home_logo=None, away_logo=None, **kwargs):
-        super().__init__(master, width=width, height=height,
-                         corner_radius=CHIP_RADIUS, fg_color=CARD,
-                         border_width=1, border_color=CHIP_BORDER, **kwargs)
-        self.pack_propagate(False)
+        s = scaling(master)
+        w, h = round(width * s), round(height * s)
+        behind = _colour_behind_widget(master)
+        super().__init__(master, width=w, height=h, bg=behind,
+                         highlightthickness=0, bd=0, **kwargs)
+        self.create_image(0, 0, anchor="nw", image=_chip_background(
+            w, h, round(CHIP_RADIUS * s), tr.resolve_color(CARD),
+            tr.resolve_color(CHIP_BORDER), max(1, round(s)), behind))
 
-        # The shell remains a CTkFrame: it carries the rounded corners and
-        # the border. Everything inside only carries text, so it is plain
-        # Tk: a matchday has eighteen of these rows, and the styling is
-        # only visible on the outline.
-        home_label = flat_label(self, "  " + home, CARD, TEXT,
-                                FONTS.get("small"), anchor="w",
-                                photo=club_photo(comp, home, 20, accent,
-                                                 home_logo))
-        home_label.pack(side="left", fill="x", expand=True, padx=(8, 0))
+        font = tk_font(self, 12)
+        tiny = tk_font(self, 11)
+        pad, badge, gap = round(8 * s), round(self.BADGE * s), round(6 * s)
+        mid, centre = h // 2, w // 2
+        half = centre - round(12 * s) - pad - badge - gap
 
-        flat_label(self, "v", CARD, TEXT_MUTED, FONTS.get("tiny"),
-                   width=3).pack(side="left")
+        self._photos = (club_photo(comp, home, badge, accent, home_logo),
+                        club_photo(comp, away, badge, accent, away_logo))
+        if self._photos[0] is not None:
+            self.create_image(pad, mid, anchor="w", image=self._photos[0])
+        if self._photos[1] is not None:
+            self.create_image(w - pad, mid, anchor="e", image=self._photos[1])
+        self.create_text(pad + badge + gap, mid, anchor="w", font=font,
+                         text=_fit(font, home, half),
+                         fill=tr.resolve_color(TEXT))
+        self.create_text(w - pad - badge - gap, mid, anchor="e", font=font,
+                         text=_fit(font, away, half),
+                         fill=tr.resolve_color(TEXT_MUTED))
+        self.create_text(centre, mid, text="v", font=tiny,
+                         fill=tr.resolve_color(TEXT_MUTED))
 
-        away_label = flat_label(self, away + "  ", CARD, TEXT_MUTED,
-                                FONTS.get("small"), anchor="e",
-                                photo=club_photo(comp, away, 20, accent,
-                                                 away_logo))
-        # compound="right": the badge is placed to the RIGHT of the text,
-        # mirroring the club that is hosting.
-        away_label.configure(compound="right")
-        away_label.pack(side="left", fill="x", expand=True, padx=(0, 8))
+
+_DOT_CACHE = {}
 
 
-class Spinner(ctk.CTkFrame):
+def _dot_image(d, colour, behind):
+    """An antialiased round dot (Tk's own ovals are jagged at 10 px)."""
+    key = (d, colour, behind)
+    photo = _DOT_CACHE.get(key)
+    if photo is None:
+        from PIL import ImageDraw, ImageTk
+        k = 4
+        img = Image.new("RGB", (d * k, d * k), behind)
+        ImageDraw.Draw(img).ellipse((0, 0, d * k - 1, d * k - 1), fill=colour)
+        photo = ImageTk.PhotoImage(img.resize((d, d), Image.LANCZOS))
+        _DOT_CACHE[key] = photo
+    return photo
+
+
+class Spinner(tkinter.Canvas):
     """
     Three dots that breathe during the calculation.
 
     Deliberately not a CTkProgressBar: the draw cannot say how far along
     it is (a backtrack can undo half the work already done), so a bar that
     moved forward would be lying.
+
+    One plain canvas with three ovals and ONE timer. It used to be three
+    CTkFrame dots, each with its own 60 fps colour fade: every frame
+    redrew CustomTkinter canvases, while the draw thread held the GIL, and
+    one frame of the spinner was measured at about 75 ms. Now a frame is
+    three itemconfigure() calls.
     """
 
+    STEP_MS = 230        # time spent on each dot
+    FRAME_MS = 33        # about 30 frames per second is plenty for a dot
+
     def __init__(self, master, app, count=3, **kwargs):
-        super().__init__(master, fg_color="transparent", **kwargs)
+        s = scaling(master)
+        self._d, self._gap = round(10 * s), round(8 * s)
+        w = count * self._d + (count - 1) * self._gap
+        super().__init__(master, width=w, height=self._d,
+                         bg=_colour_behind_widget(master),
+                         highlightthickness=0, bd=0, **kwargs)
         self.app = app
-        self.dots = []
-        for _ in range(count):
-            dot = ctk.CTkFrame(self, width=10, height=10, corner_radius=5,
-                               fg_color=SURFACE_2)
-            dot.pack(side="left", padx=4)
-            self.dots.append(dot)
-        self._index = 0
+        self.dots = [self.create_image(i * (self._d + self._gap), 0, anchor="nw")
+                     for i in range(count)]
         self._job = None
+        self._t0 = 0.0
+        # The 9 glow levels are drawn NOW, on the click, before the draw
+        # thread starts. Drawn lazily, the first frames made Pillow images
+        # while the engine held the GIL: about 150 ms of stalls spread over
+        # the first turns of the spinner.
+        self._images = self._render_levels()
+
+    def _render_levels(self):
+        rest, lit = tr.resolve_color(SURFACE_2), self.app.accent
+        behind = self.cget("bg")
+        return [_dot_image(self._d, tr.lerp_color(self, rest, lit, level / 8) or rest,
+                           behind)
+                for level in range(9)]
 
     def start(self):
         self.stop()
+        self._t0 = time.perf_counter()
         self._tick()
 
     def _tick(self):
-        for i, dot in enumerate(self.dots):
-            tr.animate_color(dot, "fg_color",
-                             self.app.accent if i == self._index else SURFACE_2,
-                             200)
-        self._index = (self._index + 1) % len(self.dots)
-        self._job = self.after(230, self._tick)
+        elapsed = (time.perf_counter() - self._t0) * 1000
+        pos = (elapsed / self.STEP_MS) % len(self.dots)   # 0..count, fractional
+        try:
+            for i, dot in enumerate(self.dots):
+                # 1 on the active dot, fading to 0 over the next step.
+                # Rounded to 8 levels so only a handful of images exist.
+                level = round(max(0.0, 1.0 - ((pos - i) % len(self.dots))) * 8)
+                self.itemconfigure(dot, image=self._images[level])
+            self._job = self.after(self.FRAME_MS, self._tick)
+        except tkinter.TclError:
+            self._job = None                 # destroyed meanwhile
 
     def stop(self):
         if self._job is not None:
@@ -1153,9 +1304,9 @@ class Spinner(ctk.CTkFrame):
                 pass
             self._job = None
 
-
-
-    
+    def destroy(self):
+        self.stop()
+        super().destroy()
 
 
 def flying_ball(parent, accent, box=(74, 74), label=None):

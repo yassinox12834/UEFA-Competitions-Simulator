@@ -32,3 +32,43 @@ def _work_area(root):
         except Exception:
             pass
     return root.winfo_screenwidth(), root.winfo_screenheight() - 80
+
+
+# ---------------------------------------------------------------------
+#  A RESPONSIVE WINDOW WHILE A WORKER THREAD COMPUTES
+# ---------------------------------------------------------------------
+# The draw and the simulation run on a thread, in pure Python, so the
+# worker holds the GIL. Tkinter releases the GIL around every call into
+# Tcl and must take it back afterwards; by default Python only asks a
+# running thread to hand it over every 5 ms (sys.getswitchinterval()).
+# A screen update made of a few hundred Tk calls could therefore wait
+# hundreds of milliseconds: measured, one progress-bar update during a
+# Monte Carlo took 0.36 s. While a job runs, the interval is lowered to
+# 0.5 ms; the worker loses a few percent of speed, the window stays
+# fluid. A counter allows two jobs to overlap safely.
+
+import threading as _threading
+
+FAST_SWITCH = 0.0005
+_switch_lock = _threading.Lock()
+_switch_users = 0
+_switch_saved = None
+
+
+def begin_background_work():
+    global _switch_users, _switch_saved
+    with _switch_lock:
+        if _switch_users == 0:
+            _switch_saved = sys.getswitchinterval()
+            sys.setswitchinterval(FAST_SWITCH)
+        _switch_users += 1
+
+
+def end_background_work():
+    global _switch_users
+    with _switch_lock:
+        if _switch_users == 0:
+            return
+        _switch_users -= 1
+        if _switch_users == 0 and _switch_saved is not None:
+            sys.setswitchinterval(_switch_saved)

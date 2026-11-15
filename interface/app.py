@@ -11,6 +11,8 @@ menu: that part goes to the on_complete callback, which main.py provides.
 This lets the draw engine be plugged in without touching the interface.
 """
 
+import tkinter
+
 import customtkinter as ctk
 
 import platform_utils as platform_utils
@@ -73,12 +75,14 @@ class App(ctk.CTk):
         self._current = None
         self._current_name = None
         self._busy = False        # prevents two animations at the same time
+        # Work that must not run while a screen slides (see when_settled).
+        self._after_slide = []
 
         if ctk.get_appearance_mode() == "Dark":
             self.appbar.theme_switch.select()
 
         self.bind("<Escape>", lambda _e: self._key(lambda v: v.on_back()))
-        self.bind("<Return>", lambda _e: self._key(lambda v: v.on_enter()))
+        self.bind("<Return>", self._on_return)
         self._apply_window_icon()
 
     @property
@@ -134,7 +138,37 @@ class App(ctk.CTk):
         view = self._views.get(name)
         hook = getattr(view, "prewarm", None)
         if hook is not None:
-            hook()
+            self.when_settled(hook)
+
+    @property
+    def sliding(self):
+        """True while a screen transition is playing, and from the moment
+        show() has decided to slide (so already inside the new screen's
+        on_show()). A screen uses it to skip its own fade-in: the slide is
+        the entrance, and a fade on top of it doubles the cost of every
+        frame for something the eye does not see."""
+        return self._busy
+
+    def when_settled(self, fn, delay=60):
+        """Runs `fn` once no screen transition is playing.
+
+        Tk runs after_idle() callbacks BETWEEN two frames of a slide, so a
+        "build it while the user is idle" job asked for during a screen
+        change used to land in the middle of the slide: building the pots
+        cost a 230 ms hole halfway through the competition -> mode slide.
+        Now such work is queued until the slide has ended.
+        """
+        def attempt():
+            if self._busy:
+                self._after_slide.append(fn)
+            else:
+                fn()
+        self.after(delay, attempt)
+
+    def _flush_after_slide(self):
+        pending, self._after_slide = self._after_slide, []
+        for fn in pending:
+            self.after(60, lambda f=fn: self.when_settled(f, delay=1))
 
     def show(self, name, transition=TRANSITION):
         if self._busy:
@@ -144,9 +178,16 @@ class App(ctk.CTk):
         if new is old:
             return
 
-        if old is not None:
-            old.on_hide()
-        new.on_show()
+        # _busy goes up BEFORE on_show(), so the new screen already knows
+        # it is about to slide in (see `sliding`).
+        self._busy = old is not None
+        try:
+            if old is not None:
+                old.on_hide()
+            new.on_show()
+        except Exception:
+            self._busy = False
+            raise
         self._current_name = name
         self.refresh_chrome()
 
@@ -161,18 +202,41 @@ class App(ctk.CTk):
             return
 
         self._busy = True
+        finished = []
 
         def done():
-            old.place_forget()
+            if finished:                 # the watchdog got there first
+                return
+            finished.append(True)
+            try:
+                old.place_forget()
+                new.place(x=0, y=0, relwidth=1, relheight=1)
+            except tkinter.TclError:
+                pass
             self._current = new
             self._busy = False
+            self._flush_after_slide()
 
         tr.Transition.run(self, self.container, old, new, transition, done,
                           duration=TRANS_DURATION_MS,
                           background=self.surface_hex())
+        # Safety net. If the animation dies (a widget destroyed mid-slide,
+        # an exception in a frame), done() would never run and _busy would
+        # stay True for ever: every later show(), Escape and Enter would
+        # be ignored and the app would look frozen. One second after the
+        # planned end, the switch is completed whatever happened.
+        self.after(TRANS_DURATION_MS + 1000, done)
 
     def back(self, name):
         self.show(name, "slide_right")
+
+    def _on_return(self, event):
+        # A key pressed in an entry also reaches the window's bindings.
+        # Without this test, Enter typed in the seed box or the search
+        # field also triggered the screen's main action (launching a run).
+        if isinstance(event.widget, (tkinter.Entry, tkinter.Text, tkinter.Spinbox)):
+            return
+        self._key(lambda v: v.on_enter())
 
     def _key(self, action):
         if self._current is not None and not self._busy:
@@ -187,13 +251,16 @@ class App(ctk.CTk):
         ctk.set_appearance_mode("dark" if dark else "light")
         self.refresh_chrome()
         if self._current is not None:
-            self._current.refresh_text()
+            # Not refresh_text(): the texts have not changed. Each view
+            # redoes only what CustomTkinter cannot repaint by itself.
+            self._current.on_theme_change()
 
-        # Switching the whole theme is expensive to redraw: lock the switch
-        # for a few seconds to avoid flipping back and forth.
+        # A short lock against double clicks. It used to be 5 seconds,
+        # because every switch rebuilt the whole draw screen; it no longer
+        # does, so 0.8 s is enough.
         self.appbar.theme_switch.configure(state="disabled")
         self.appbar.theme_switch.after(
-            5000,
+            800,
             lambda: self.appbar.theme_switch.configure(state="normal"))
 
     def refresh_chrome(self):

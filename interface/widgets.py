@@ -107,6 +107,12 @@ class CardButton(ctk.CTkFrame):
         # would fight the view's entry fade, which memorises the colours at
         # the start and restores them at the end.
         animated = animated and bool(self.winfo_viewable())
+        # During a screen slide the new cards pass under the mouse pointer
+        # and receive <Enter>/<Leave>: their hover fades used to run on top
+        # of the slide, each frame redrawing two canvases per card. While
+        # the router is busy, paint at once instead.
+        if animated and getattr(self.winfo_toplevel(), "_busy", False):
+            animated = False
         if self._selected:
             border, fill = self.accent, CARD_HOVER
         elif self._hover:

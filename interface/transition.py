@@ -19,6 +19,7 @@ therefore be shifted in x / y without breaking their internal layout.
 
 from __future__ import annotations
 
+import logging
 import time
 import tkinter
 
@@ -65,6 +66,8 @@ EASINGS = {
 }
 
 DEFAULT_FPS = 60
+
+log = logging.getLogger(__name__)
 
 
 # =====================================================================
@@ -144,23 +147,33 @@ class Animation:
         try:
             self.on_frame(eased)
             return True
-        except tkinter.TclError:
+        except Exception as exc:
+            # A widget destroyed mid-animation (TclError), or a CustomTkinter
+            # widget refusing a property (ValueError). Before, the loop just
+            # stopped WITHOUT calling on_done: a screen transition then
+            # never released App._busy and the whole app ignored clicks
+            # and keys from that moment on. Now the animation still ends.
+            if not isinstance(exc, tkinter.TclError):
+                log.warning("animation frame failed", exc_info=True)
             self._cancelled = True
+            self._job = None
+            self._done()
             return False
 
     def _done(self):
-        if self.on_done is not None:
+        callback, self.on_done = self.on_done, None     # never called twice
+        if callback is not None:
             try:
-                self.on_done()
+                callback()
             except tkinter.TclError:
                 pass
 
 
 def animate(widget, duration, on_frame, on_done=None,
-            easing=ease_out_cubic, delay=0):
+            easing=ease_out_cubic, delay=0, fps=DEFAULT_FPS):
     """Shortcut: creates the Animation and starts it."""
     return Animation(widget, duration, on_frame, on_done, easing,
-                     delay=delay).start()
+                     fps=fps, delay=delay).start()
 
 
 def animate_value(widget, setter, start, end, duration=260,
@@ -260,6 +273,16 @@ def animate_color(widget, prop, target, duration=150,
     except (ValueError, AttributeError, tkinter.TclError):
         return None
 
+    # Already there: no animation at all. Each frame of a colour fade is a
+    # configure(), which redraws a whole CustomTkinter canvas; the top bar
+    # and step rail used to start about a dozen fades from a colour to the
+    # SAME colour on every menu click, all running during the slide.
+    a, b = to_rgb(widget, start), to_rgb(widget, target)
+    if a is not None and a == b:
+        if on_done:
+            on_done()
+        return None
+
     if lerp_color(widget, start, target, 0.5) is None:
         widget.configure(**{prop: target})
         if on_done:
@@ -301,26 +324,35 @@ def _writable(widget, prop, value):
 
     CustomTkinter trap: cget(prop) can answer while configure(prop=...)
     refuses. CTkSegmentedButton, for example, lets you read border_color
-    but raises ValueError as soon as you write it. Without this test, the
-    fade starts and then breaks on the first frame.
+    but raises ValueError as soon as you write it.
 
-    The answer only depends on the widget's CLASS, never on the instance:
-    it is therefore cached by (class, property). That is what makes the
-    test free. Doing it on every widget cost 200 ms on its own on the pots
-    screen, because a configure() on a CustomTkinter widget redraws its
-    whole canvas.
+    The answer only depends on the widget's CLASS. It used to be found by
+    trying configure() on the real widget, once per class. Measured, that
+    test was the most expensive part of the fade: configure(fg_color=...)
+    on a CTkFrame also re-colours every child (it passes its colour down
+    as their bg_color), so one "free" test repainted a whole panel, and
+    the views share about twenty classes. Now an unknown class is assumed
+    writable; if it is not, the fade drops that target on its first frame
+    (see dissolve_in.apply) and remembers the answer here.
     """
-    key = (widget.__class__, prop)
-    known = _WRITABLE_CACHE.get(key)
-    if known is not None:
-        return known
-    try:
-        widget.configure(**{prop: value})
-        answer = True
-    except (ValueError, AttributeError, tkinter.TclError):
-        answer = False
-    _WRITABLE_CACHE[key] = answer
-    return answer
+    return _WRITABLE_CACHE.get((widget.__class__, prop), True)
+
+
+def _fill_cascades(widget):
+    """True if changing this widget's fill would repaint its children.
+
+    CTkFrame.configure(fg_color=...) passes the new colour down to every
+    CustomTkinter child as its bg_color, and each child redraws its whole
+    canvas. Animating such a fill means repainting the entire subtree on
+    every frame: measured at 30 to 80 ms per frame on the results panels
+    (the budget at 60 fps is 16 ms). Those fills are left alone; their
+    borders and the texts inside still fade, which is what the eye
+    follows.
+    """
+    if not isinstance(widget, ctk.CTkFrame):
+        return False
+    return any(isinstance(child, ctk.windows.widgets.core_widget_classes.CTkBaseClass)
+               for child in widget.winfo_children())
 
 
 def _snapshot(widget, out, depth=0):
@@ -330,7 +362,10 @@ def _snapshot(widget, out, depth=0):
     the tree, the less its fade is noticed, so it is the first to be
     sacrificed when the screen is too crowded.
     """
+    cascades = _fill_cascades(widget)
     for prop in _FADE_PROPS:
+        if prop == "fg_color" and cascades:
+            continue
         try:
             value = widget.cget(prop)
         except (ValueError, AttributeError, tkinter.TclError):
@@ -359,9 +394,16 @@ def _snapshot(widget, out, depth=0):
 # appear at once, which the eye does not notice.
 MAX_FADE_TARGETS = 20
 
+# A fade only changes colours, and the eye does not tell 30 steps a second
+# from 60 on a 200 ms colour change. Each step costs one configure() per
+# target, that is one CustomTkinter canvas redrawn: 30 fps halves the work
+# of every fade (measured about 15 ms per frame on the results panels)
+# and leaves the event loop free to answer clicks between two steps.
+FADE_FPS = 30
+
 
 def dissolve_in(widget, background, duration=260, delay=0,
-                easing=ease_out_cubic, on_done=None):
+                easing=ease_out_cubic, on_done=None, fps=FADE_FPS):
     """
     Fades `widget` in from the `background` colour.
 
@@ -393,11 +435,22 @@ def dissolve_in(widget, background, duration=260, delay=0,
         return None
 
     def apply(t):
-        for w, prop, value, a, b in targets:
-            w.configure(**{prop: "#%02x%02x%02x" % (
-                int(a[0] + (b[0] - a[0]) * t),
-                int(a[1] + (b[1] - a[1]) * t),
-                int(a[2] + (b[2] - a[2]) * t))})
+        dead = []
+        for row in targets:
+            w, prop, value, a, b = row
+            try:
+                w.configure(**{prop: "#%02x%02x%02x" % (
+                    int(a[0] + (b[0] - a[0]) * t),
+                    int(a[1] + (b[1] - a[1]) * t),
+                    int(a[2] + (b[2] - a[2]) * t))})
+            except (ValueError, AttributeError):
+                # This class reads the property but refuses to write it.
+                _WRITABLE_CACHE[(w.__class__, prop)] = False
+                dead.append(row)
+            except tkinter.TclError:
+                dead.append(row)            # widget destroyed meanwhile
+        for row in dead:
+            targets.remove(row)
 
     apply(0.0)
 
@@ -410,7 +463,7 @@ def dissolve_in(widget, background, duration=260, delay=0,
         if on_done:
             on_done()
 
-    return animate(widget, duration, apply, done, easing, delay)
+    return animate(widget, duration, apply, done, easing, delay, fps=fps)
 
 
 def stagger_in(widgets, background, duration=240, step_ms=70,

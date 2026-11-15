@@ -77,7 +77,20 @@ class AppBar(ctk.CTkFrame):
                                       text_color=TEXT)
         self.comp_name.pack(side="left", padx=(0, 14))
 
+    def _state(self, step):
+        """Everything the bar displays. Same state, nothing to redraw."""
+        return (self.app.lang, self.app.accent, self.app.comp,
+                self.app.current_view in ("mode", "draw", "simulation"),
+                ctk.get_appearance_mode())
+
     def refresh(self, step):
+        # refresh_chrome() runs on every screen change, sometimes twice per
+        # click. Each configure() below redraws a CustomTkinter canvas, and
+        # it all happened while the screen was sliding.
+        state = self._state(step)
+        if state == getattr(self, "_last", None):
+            return
+        self._last = state
         self.tagline.configure(text=self.app.t("tagline"))
         self.theme_switch.configure(text=self.app.t("dark_mode"),
                                     progress_color=self.app.accent)
@@ -150,6 +163,11 @@ class StepRail(ctk.CTkFrame):
                 widget.pack_forget()
 
     def refresh(self, step):
+        state = (step, self.app.lang, self.app.accent, self.app.mode,
+                 ctk.get_appearance_mode())
+        if state == getattr(self, "_last", None):
+            return                      # same rail as before: nothing to do
+        self._last = state
         accent = self.app.accent
         self._show_sim(self.app.mode == "simulate")
         for i, (badge, label) in enumerate(zip(self.badges, self.labels), start=1):

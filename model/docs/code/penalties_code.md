@@ -4,6 +4,8 @@
 
 *Version française : [plus bas](#penaltiespy-ligne-par-ligne).*
 
+> **Out of date in places.** `P_SCORE` is now 0.748 and `PRESSURE_DROP` is now 0 (top of the file), so the pressure lines below no longer change any result. The listings also predate 1.1.0, where `PRESSURE_DROP` was still inside `_kick_once`. See [`../penalties.md`](../penalties.md) for the current rules.
+
 ## How to read this page
 
 - Each function starts with its **arguments**.
@@ -17,7 +19,7 @@
 
 | Code | Does | Example value |
 |---|---|---|
-| `P_SCORE = 0.76` | chance that a normal kick goes in | 76 in 100 |
+| `P_SCORE = 0.748` | chance that a kick goes in | 74.8 in 100 |
 | `MAX_ROUNDS = 40` | most rounds of sudden death before the code settles it | 40 |
 
 ---
@@ -187,6 +189,8 @@
 
 > Cette page explique le code de la séance de tirs au but. Pour l'idée (les règles, la règle de pression, l'échantillonnage par rejet), lisez d'abord [`../penalties.md`](../penalties.md#les-tirs-au-but).
 
+> **Périmé par endroits.** `P_SCORE` vaut maintenant 0.748 et `PRESSURE_DROP` vaut 0 (en haut du fichier), donc les lignes de pression ci-dessous ne changent plus aucun résultat. Les listings datent aussi d'avant la 1.1.0, où `PRESSURE_DROP` était encore dans `_kick_once`. Voir [`../penalties.md`](../penalties.md) pour les règles actuelles.
+
 ## Comment lire cette page
 
 - Chaque fonction commence par ses **arguments**.
@@ -200,7 +204,7 @@
 
 | Code | Fait | Exemple |
 |---|---|---|
-| `P_SCORE = 0.76` | chance qu'un tir normal entre | 76 sur 100 |
+| `P_SCORE = 0.748` | chance qu'un tir entre | 74.8 sur 100 |
 | `MAX_ROUNDS = 40` | nombre maximum de tours de mort subite avant que le code tranche | 40 |
 
 ---

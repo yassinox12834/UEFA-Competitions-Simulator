@@ -34,6 +34,7 @@ from model.simulation import STAGES                          # noqa: E402,F401 -
 from model.simulation import DEFAULT_GOALS                   # noqa: E402
 from model.predictor import PredictorError                   # noqa: E402
 
+from platform_utils import begin_background_work, end_background_work  # noqa: E402
 from config import MC_RUNS as RUN_CHOICES                     # noqa: E402,F401 - re-exported
 DEFAULT_RUNS = 200
 
@@ -87,6 +88,7 @@ class SimJob:
         self._cancel = True
 
     def _run(self):
+        begin_background_work()      # keeps the window fluid, see platform_utils
         try:
             res = resources()
             self._result = sim.simulate(self.comp, self.teams, self.matchdays,
@@ -98,6 +100,7 @@ class SimJob:
         except BaseException as exc:            # noqa: BLE001 - passed up as it is
             self._error = exc
         finally:
+            end_background_work()
             self._done = True
 
     def _on_progress(self, done, total):

@@ -38,6 +38,7 @@ if str(BASE_DIR) not in sys.path:
 from model import draw_ucl, draw_uecl                       # noqa: E402
 from model.matchdays_ucl import generate_matchdays          # noqa: E402
 from model.matchdays_uecl import verify_matchdays           # noqa: E402
+from platform_utils import begin_background_work, end_background_work  # noqa: E402
 from uefa.paths import USER_DIR                             # noqa: E402
 from uefa.seeds import new_seed                             # noqa: E402
 
@@ -353,6 +354,7 @@ class DrawJob:
         return self
 
     def _run(self):
+        begin_background_work()      # keeps the window fluid, see platform_utils
         try:
             engine = ENGINES[self.comp]
             teams = engine.generate_draw(
@@ -365,6 +367,8 @@ class DrawJob:
             self._result = (teams, matchdays)
         except BaseException as exc:        # noqa: BLE001 - passed up to the view as it is
             self._error = exc
+        finally:
+            end_background_work()
 
     def poll(self):
         """None while it is running, otherwise ('ok', ...) or ('error', exc)."""

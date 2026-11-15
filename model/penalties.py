@@ -8,14 +8,17 @@ IFAB Law 10 in the form the simulation needs:
     3. still level after five each: sudden death, one kick each, until
        one scores and the other misses in the same round.
 
-Every kick is scored with probability P_SCORE, except one: the fifth
-kick of a club that must score to stay alive is scored with
-P_SCORE - PRESSURE_DROP. That pressure rule makes the club kicking FIRST
-win 51.3 % of shoot-outs (measured over 200 000 of them), not 50 %. The
-coin that picks who kicks first is fair, though, so each CLUB still wins
-exactly half of its shoot-outs: the "penalties at 50/50" rule of the
-previous version holds at the level of the clubs. The result also has a
-score (4-3, 5-4 after sudden death, ...).
+Every kick is scored with the same probability, P_SCORE = 0.748: the
+share of shoot-out kicks scored in 14 189 kicks of European men's
+football (arXiv:2310.04797, 1 759 shoot-outs). A flat probability also
+matches how far those shoot-outs go (how many reach a fifth kick by the
+second club, sudden death, a ninth round) much better than the earlier
+rule that lowered the fifth must-score kick: in that sample a kick that
+must be scored goes in as often as any other. PRESSURE_DROP is therefore
+0 by default; the code still honours another value. With it at 0 the two
+clubs are exactly symmetric, so the club kicking first wins 50 % of the
+shoot-outs, and so does each CLUB, whatever the coin says. The result
+also has a score (4-3, 5-4 after sudden death, ...).
 
 Two entry points:
 
@@ -30,9 +33,10 @@ all draws are accepted, so it takes two tries on average, and the score it
 returns is a genuine shoot-out score for that winner.
 """
 
-P_SCORE = 0.76          # share of shoot-out kicks scored, men's club football
-MAX_ROUNDS = 40         # a safety net; P(still level after 40 rounds) ~ 1e-8
-PRESSURE_DROP = 0.1     # lost by the fifth kick of a club that must score
+P_SCORE = 0.748         # share of shoot-out kicks scored, European men's football (14 189 kicks)
+MAX_ROUNDS = 40         # a safety net; P(still level after 40 rounds) ~ 6e-9 (0.623 ** 40)
+PRESSURE_DROP = 0.0     # lost by the fifth kick of a club that must score; 0.1 up to 1.3.0,
+                        # but the large sample shows no such drop (see the module docstring)
 
 
 class Shootout:

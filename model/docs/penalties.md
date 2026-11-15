@@ -27,11 +27,11 @@ These are the official rules (Law 10 of the game):
 
 ## 2. How likely is a goal?
 
-In men's club football, about **76 kicks in 100** are scored. So every kick goes in with a chance of 0.76.
+In European men's football, about **75 kicks in 100** are scored in a shoot-out: 74.8 % over 14 189 shoot-out kicks (study [arXiv:2310.04797](https://arxiv.org/abs/2310.04797), 1 759 shoot-outs). So every kick goes in with a chance of 0.748.
 
-One exception: **pressure**. A fifth kick that the kicker **must** score to stay alive (his club trails by one goal) goes in with a chance of only 0.66 (0.76 minus 0.10).
+No **pressure** rule: in the same study, a kick that could lose the shoot-out was scored about 74 % of the time, a kick that could win it about 76 %, and any other kick about 75 %. Up to 1.3.0 a fifth kick that the kicker **had** to score went in with only 0.66 (0.76 minus 0.10); the data do not support that, so it is now 0.748 like the others (`PRESSURE_DROP = 0`). Smaller samples of World Cup and Euro shoot-outs do show a large effect (62 % for a kick that avoids defeat, 92 % for a kick that wins, Geir Jordet), but those are national teams in tournaments; for UEFA club competitions the large club sample is the one that applies.
 
-There is no difference between clubs or players: a shoot-out between a giant and a small club is the same coin with a memory of the score.
+There is no difference between clubs or players: a shoot-out between a giant and a small club is the same coin.
 
 ---
 
@@ -39,33 +39,31 @@ There is no difference between clubs or players: a shoot-out between a giant and
 
 In one round of sudden death, the round is decided when exactly one of the two scores:
 
-- A scores and B misses: 0.76 × 0.24 = 0.18;
-- A misses and B scores: 0.24 × 0.76 = 0.18;
-- so a round is decided about **36.5 %** of the time, and level 63.5 % of the time.
+- A scores and B misses: 0.748 × 0.252 = 0.19;
+- A misses and B scores: 0.252 × 0.748 = 0.19;
+- so a round is decided about **37.7 %** of the time, and level 62.3 % of the time.
 
-Something that happens 36.5 % of the time takes on average 1 ÷ 0.365 = **2.7 rounds** to happen. It is the same idea as waiting for a 6 with a die: on average 6 rolls.
+Something that happens 37.7 % of the time takes on average 1 ÷ 0.377 = **2.7 rounds** to happen. It is the same idea as waiting for a 6 with a die: on average 6 rolls.
 
-Sudden death is perfectly fair: in a decided round, A and B win with the same chance (0.18 each), whoever kicks first.
+Sudden death is perfectly fair: in a decided round, A and B win with the same chance (0.19 each), whoever kicks first.
 
 ---
 
 ## 4. Is kicking first an advantage?
 
-Without the pressure rule, the club kicking first would win exactly half the time.
+No: the two clubs are treated the same way, so the club kicking first wins half the time (50.1 % over 400 000 simulated shoot-outs; the 0.1 is noise). This agrees with the two largest studies (1 759 and 7 116 shoot-outs) and with 268 UEFA club shoot-outs, which find no first-kicker advantage. Older, smaller samples had found about 60 % (129 shoot-outs) and 53 % (540 shoot-outs, not significant).
 
-With the pressure rule, it wins **51.3 %**. Why? The club kicking **second** more often finds itself taking a must-score fifth kick (in about 31 % of shoot-outs, against 23 % for the club kicking first), so the pressure hurts it more.
-
-But **who** kicks first is decided by a coin, so before the coin is thrown each club still has exactly 50 %. Winning the coin toss is worth about 1.3 percentage points.
+A coin still decides **who** kicks first, so each club has exactly 50 % before it is thrown, and the model no longer rewards winning the toss.
 
 ### The scores it produces
 
-| Score | 4-3 | 5-4 | 4-2 | 5-3 | 6-5 | 3-2 | 3-1 | 4-1 | 7-6 | 8-7 |
+| Score | 5-4 | 4-3 | 4-2 | 5-3 | 6-5 | 3-2 | 3-1 | 4-1 | 7-6 | 8-7 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Chance | 20.3 % | 18.8 % | 16.4 % | 10.7 % | 6.4 % | 6.0 % | 4.7 % | 4.4 % | 3.9 % | 2.4 % |
+| Chance | 19.1 % | 19.0 % | 16.7 % | 9.9 % | 7.0 % | 5.5 % | 5.3 % | 4.5 % | 4.2 % | 2.5 % |
 
-- About 26 % of shoot-outs go to sudden death.
-- On average 10.7 kicks are taken.
-- A shoot-out still level after 40 rounds of sudden death is so rare (about 1 in 300 million) that it never happens in practice; the code stops it there anyway.
+- About 29 % of shoot-outs go to sudden death (30 % in the real sample: 530 of 1 759).
+- On average 10.8 kicks are taken (10.75 in the real sample).
+- A shoot-out still level after 40 rounds of sudden death is so rare (about 1 in 170 million) that it never happens in practice; the code stops it there anyway.
 
 In the real data (41 usable shoot-outs), the most common scores were also 4-2, 4-3 and 5-4.
 
@@ -91,7 +89,7 @@ penalties Arsenal 3-4 Atalanta  (Arsenal kicked first)
    Atalanta  x o o o o   = 4
 ```
 
-After four rounds, Arsenal 2, Atalanta 3. Arsenal's fifth kick was a must-score (chance 0.66): scored, 3-3. Atalanta's fifth (no pressure, 0.76): scored, 3-4, over.
+After four rounds, Arsenal 2, Atalanta 3. Arsenal's fifth kick had to be scored (chance 0.748, like every kick): scored, 3-3. Atalanta's fifth (0.748): scored, 3-4, over.
 
 ---
 
@@ -103,19 +101,16 @@ The same rules as the real code, played 100 000 times.
 import random
 from collections import Counter
 
-P_SCORE = 0.76        # 76 kicks in 100 go in
-PRESSURE = 0.10       # a fifth kick that MUST go in is harder: 0.66
+P_SCORE = 0.748       # 74.8 kicks in 100 go in
 
 def shootout(rng):
     a = b = 0                                     # goals of the club kicking first (a) and second (b)
     for rnd in range(5):                          # five kicks each
         left = 4 - rnd                            # kicks a still has after this one
-        must = rnd == 4 and a + 1 == b            # a's last kick: miss it and a loses
-        a += rng.random() < (P_SCORE - PRESSURE if must else P_SCORE)
+        a += rng.random() < P_SCORE
         if a > b + left + 1 or b > a + left:      # b cannot catch up, or a cannot
             return a, b
-        must = rnd == 4 and b + 1 == a
-        b += rng.random() < (P_SCORE - PRESSURE if must else P_SCORE)
+        b += rng.random() < P_SCORE
         if a > b + left or b > a + left:
             return a, b
     while True:                                   # sudden death: one kick each
@@ -137,12 +132,12 @@ for score, n in scores.most_common(5):
 Output:
 
 ```
-club kicking first wins 0.512
-4-3 0.203
-5-4 0.187
-4-2 0.164
-5-3 0.107
-6-5 0.064
+club kicking first wins 0.499
+5-4 0.192
+4-3 0.190
+4-2 0.166
+5-3 0.098
+6-5 0.071
 ```
 
 `a += (True or False)` works because in Python `True` counts as 1 and `False` as 0: adding the result of "did it go in?" counts the goals.
@@ -168,8 +163,8 @@ None. The file only uses Python itself; the random numbers come from the season'
 
 | Setting | Value | Meaning |
 |---|---|---|
-| `P_SCORE` | 0.76 | chance that a normal kick goes in |
-| `PRESSURE_DROP` | 0.1 | how much harder a must-score fifth kick is |
+| `P_SCORE` | 0.748 | chance that a kick goes in (74.8 % of 14 189 real shoot-out kicks) |
+| `PRESSURE_DROP` | 0 | how much harder a must-score fifth kick is (0.1 up to 1.3.0; the club data show no drop) |
 | `MAX_ROUNDS` | 40 | safety limit for sudden death |
 
 The app draws the kick sheet in a tie's detail card (`interface/canvas_views.py`).
@@ -181,22 +176,22 @@ How each line works: [`code/penalties_code.md`](code/penalties_code.md).
 ## 9. What can go wrong
 
 - **One chance for every kicker**: no goalkeepers, no good or bad takers, no difference between clubs.
-- **Pressure only on the fifth kick.** In sudden death, many kicks are also "score or lose", but they keep 0.76.
-- **No link to the ratings** under "aggregate" and in the final: a shoot-out between a giant and an outsider is 50/50.
+- **No pressure at all, on purpose.** `PRESSURE_DROP = 0`: the 1 759-shoot-out club sample shows no drop for kicks that must be scored. Tournament samples of national teams do (62 % against 92 %), so a simulator of World Cups would want it back.
+- **No link to the ratings** under "aggregate" and in the final: a shoot-out between a giant and an outsider is 50/50. That is what the data say: in 268 UEFA club shoot-outs (2000 to 2025) the club with the higher Elo rating did not win more often (about 47 % when the gap was above 100 points; Csató and Petróczy, [arXiv:2510.17641](https://arxiv.org/abs/2510.17641)).
 
 ### Known bugs
 
-- **Fixed in 1.1.0: the text at the top of the file was out of date.** It now says the club kicking first wins 51.3 %, while each club still wins half of its shoot-outs, since a coin picks who kicks first.
+- **Fixed in 1.1.0: the text at the top of the file was out of date.** It now says the club kicking first wins 51.3 %, while each club still wins half of its shoot-outs, since a coin picks who kicks first. (Superseded: with no pressure rule, the club kicking first wins 50 %.)
 - **Fixed in 1.1.0: `PRESSURE_DROP` was hidden inside a function.** It now sits next to `P_SCORE` at the top of the file.
-- **Fixed in 1.1.0: the comment on `MAX_ROUNDS` was wrong.** It now says about 10⁻⁸ (0.6352⁴⁰).
+- **Fixed in 1.1.0: the comment on `MAX_ROUNDS` was wrong.** It now says about 10⁻⁸ (0.6352⁴⁰). (Now 0.623⁴⁰, about 6 × 10⁻⁹.)
 - **Fixed in 1.1.0: a confusing variable name.** The two chances in `_kick_once` are now `q_first` and `q_second`.
 
 ---
 
 ## 10. Ideas for later
 
-- **Pressure on every must-score kick**, including in sudden death, then measure again who wins more often.
-- **A small link to strength**: give stronger clubs a slightly higher chance, for example 0.80 instead of 0.76 for a club much stronger. Small, because real shoot-outs are close to a lottery.
+- **Pressure back, for national teams**: if the simulator ever covers World Cups or Euros, lower every must-score kick to about 0.62 and raise a winning kick to about 0.92 (Jordet), which the club data do not show.
+- **A link to strength**: not for club competitions, where 268 UEFA shoot-outs show no effect. It would only be worth testing for domestic cups, where one study found about 8 points of winning chance per division of difference (Krumer).
 
 ---
 
@@ -218,6 +213,7 @@ How each line works: [`code/penalties_code.md`](code/penalties_code.md).
 >I was slightly doubtful about the pressure on the fifth shooter in a decisive shoot-out. 
 >Let me know if you want us to keep it.
 >Perhaps I should create a new feature which indicates how tense and crucial the match is.
+>Update: the pressure rule is gone, because the club data do not show it (see sections 2 and 9).
 ---
 ---
 
@@ -248,11 +244,11 @@ Ce sont les règles officielles (loi 10 du jeu) :
 
 ## 2. Quelle chance de marquer ?
 
-Dans le football de clubs masculin, environ **76 tirs sur 100** sont marqués. Chaque tir entre donc avec une chance de 0.76.
+Dans le football européen masculin, environ **75 tirs sur 100** sont marqués pendant une séance : 74.8 % sur 14 189 tirs de séances (étude [arXiv:2310.04797](https://arxiv.org/abs/2310.04797), 1 759 séances). Chaque tir entre donc avec une chance de 0.748.
 
-Une exception : la **pression**. Un cinquième tir que le tireur **doit** marquer pour rester en vie (son club a un but de retard) entre avec une chance de seulement 0.66 (0.76 moins 0.10).
+Pas de règle de **pression** : dans la même étude, un tir qui pouvait faire perdre la séance a été marqué environ 74 % du temps, un tir qui pouvait la gagner environ 76 %, et tout autre tir environ 75 %. Jusqu'à la 1.3.0, un cinquième tir que le tireur **devait** marquer entrait avec seulement 0.66 (0.76 moins 0.10) ; les données ne le confirment pas, donc il vaut maintenant 0.748 comme les autres (`PRESSURE_DROP = 0`). De plus petits échantillons de séances de Coupe du monde et d'Euro montrent bien un grand effet (62 % pour un tir qui évite la défaite, 92 % pour un tir qui gagne, Geir Jordet), mais ce sont des équipes nationales en tournoi ; pour les compétitions de clubs de l'UEFA, c'est le grand échantillon de clubs qui s'applique.
 
-Il n'y a pas de différence entre les clubs ou les joueurs : une séance entre un géant et un petit club, c'est la même pièce qui se souvient du score.
+Il n'y a pas de différence entre les clubs ou les joueurs : une séance entre un géant et un petit club, c'est la même pièce.
 
 ---
 
@@ -260,33 +256,31 @@ Il n'y a pas de différence entre les clubs ou les joueurs : une séance entre u
 
 Dans un tour de mort subite, le tour est décidé quand exactement l'un des deux marque :
 
-- A marque et B rate : 0.76 × 0.24 = 0.18 ;
-- A rate et B marque : 0.24 × 0.76 = 0.18 ;
-- un tour est donc décidé environ **36.5 %** du temps, et à égalité 63.5 % du temps.
+- A marque et B rate : 0.748 × 0.252 = 0.19 ;
+- A rate et B marque : 0.252 × 0.748 = 0.19 ;
+- un tour est donc décidé environ **37.7 %** du temps, et à égalité 62.3 % du temps.
 
-Une chose qui arrive 36.5 % du temps met en moyenne 1 ÷ 0.365 = **2.7 tours** à arriver. C'est la même idée qu'attendre un 6 avec un dé : 6 lancers en moyenne.
+Une chose qui arrive 37.7 % du temps met en moyenne 1 ÷ 0.377 = **2.7 tours** à arriver. C'est la même idée qu'attendre un 6 avec un dé : 6 lancers en moyenne.
 
-La mort subite est parfaitement équitable : dans un tour décidé, A et B gagnent avec la même chance (0.18 chacun), quel que soit celui qui tire en premier.
+La mort subite est parfaitement équitable : dans un tour décidé, A et B gagnent avec la même chance (0.19 chacun), quel que soit celui qui tire en premier.
 
 ---
 
 ## 4. Tirer en premier, est-ce un avantage ?
 
-Sans la règle de pression, le club qui tire en premier gagnerait exactement une fois sur deux.
+Non : les deux clubs sont traités pareil, donc le club qui tire en premier gagne une fois sur deux (50.1 % sur 400 000 séances simulées ; le 0.1 est du bruit). Cela concorde avec les deux plus grandes études (1 759 et 7 116 séances) et avec 268 séances de clubs de l'UEFA, qui ne trouvent aucun avantage pour le premier tireur. Des échantillons plus anciens et plus petits avaient trouvé environ 60 % (129 séances) et 53 % (540 séances, non significatif).
 
-Avec la règle de pression, il gagne **51.3 %**. Pourquoi ? Le club qui tire en **second** se retrouve plus souvent à tirer un cinquième tir obligatoire (dans environ 31 % des séances, contre 23 % pour le club qui tire en premier), donc la pression le gêne davantage.
-
-Mais **qui** tire en premier est décidé par une pièce, donc avant le lancer de la pièce chaque club a toujours exactement 50 %. Gagner le tirage au sort vaut environ 1.3 point de pourcentage.
+Une pièce décide toujours **qui** tire en premier, donc chaque club a exactement 50 % avant le lancer, et le modèle ne récompense plus le tirage au sort.
 
 ### Les scores obtenus
 
-| Score | 4-3 | 5-4 | 4-2 | 5-3 | 6-5 | 3-2 | 3-1 | 4-1 | 7-6 | 8-7 |
+| Score | 5-4 | 4-3 | 4-2 | 5-3 | 6-5 | 3-2 | 3-1 | 4-1 | 7-6 | 8-7 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Chance | 20.3 % | 18.8 % | 16.4 % | 10.7 % | 6.4 % | 6.0 % | 4.7 % | 4.4 % | 3.9 % | 2.4 % |
+| Chance | 19.1 % | 19.0 % | 16.7 % | 9.9 % | 7.0 % | 5.5 % | 5.3 % | 4.5 % | 4.2 % | 2.5 % |
 
-- Environ 26 % des séances vont en mort subite.
-- En moyenne 10.7 tirs sont tirés.
-- Une séance encore à égalité après 40 tours de mort subite est si rare (environ 1 sur 300 millions) qu'elle n'arrive jamais en pratique ; le code l'arrête là de toute façon.
+- Environ 29 % des séances vont en mort subite (30 % dans l'échantillon réel : 530 sur 1 759).
+- En moyenne 10.8 tirs sont tirés (10.75 dans l'échantillon réel).
+- Une séance encore à égalité après 40 tours de mort subite est si rare (environ 1 sur 170 millions) qu'elle n'arrive jamais en pratique ; le code l'arrête là de toute façon.
 
 Dans les vraies données (41 séances utilisables), les scores les plus fréquents étaient aussi 4-2, 4-3 et 5-4.
 
@@ -312,7 +306,7 @@ penalties Arsenal 3-4 Atalanta  (Arsenal kicked first)
    Atalanta  x o o o o   = 4
 ```
 
-Après quatre tours, Arsenal 2, Atalanta 3. Le cinquième tir d'Arsenal était obligatoire (chance 0.66) : marqué, 3-3. Le cinquième de l'Atalanta (pas de pression, 0.76) : marqué, 3-4, fini.
+Après quatre tours, Arsenal 2, Atalanta 3. Le cinquième tir d'Arsenal devait être marqué (chance 0.748, comme chaque tir) : marqué, 3-3. Le cinquième de l'Atalanta (0.748) : marqué, 3-4, fini.
 
 ---
 
@@ -324,19 +318,16 @@ Les mêmes règles que le vrai code, jouées 100 000 fois.
 import random
 from collections import Counter
 
-P_SCORE = 0.76        # 76 tirs sur 100 entrent
-PRESSURE = 0.10       # un cinquième tir OBLIGATOIRE est plus dur : 0.66
+P_SCORE = 0.748       # 74.8 tirs sur 100 entrent
 
 def shootout(rng):
     a = b = 0                                     # buts du club qui tire en premier (a) et en second (b)
     for rnd in range(5):                          # cinq tirs chacun
         left = 4 - rnd                            # tirs qu'il reste à a après celui-ci
-        must = rnd == 4 and a + 1 == b            # dernier tir de a : s'il le rate, a perd
-        a += rng.random() < (P_SCORE - PRESSURE if must else P_SCORE)
+        a += rng.random() < P_SCORE
         if a > b + left + 1 or b > a + left:      # b ne peut plus rattraper, ou a ne peut plus
             return a, b
-        must = rnd == 4 and b + 1 == a
-        b += rng.random() < (P_SCORE - PRESSURE if must else P_SCORE)
+        b += rng.random() < P_SCORE
         if a > b + left or b > a + left:
             return a, b
     while True:                                   # mort subite : un tir chacun
@@ -358,12 +349,12 @@ for score, n in scores.most_common(5):
 Résultat :
 
 ```
-club kicking first wins 0.512
-4-3 0.203
-5-4 0.187
-4-2 0.164
-5-3 0.107
-6-5 0.064
+club kicking first wins 0.499
+5-4 0.192
+4-3 0.190
+4-2 0.166
+5-3 0.098
+6-5 0.071
 ```
 
 `a += (True ou False)` marche car en Python `True` compte comme 1 et `False` comme 0 : ajouter le résultat de « est-ce entré ? » compte les buts.
@@ -389,8 +380,8 @@ Aucun. Le fichier n'utilise que Python lui-même ; les nombres au hasard viennen
 
 | Réglage | Valeur | Sens |
 |---|---|---|
-| `P_SCORE` | 0.76 | chance qu'un tir normal entre |
-| `PRESSURE_DROP` | 0.1 | à quel point un cinquième tir obligatoire est plus dur |
+| `P_SCORE` | 0.748 | chance qu'un tir entre (74.8 % de 14 189 vrais tirs de séances) |
+| `PRESSURE_DROP` | 0 | à quel point un cinquième tir obligatoire est plus dur (0.1 jusqu'à la 1.3.0 ; les données de clubs ne montrent aucune baisse) |
 | `MAX_ROUNDS` | 40 | limite de sécurité pour la mort subite |
 
 L'appli dessine la feuille de tirs dans la fiche détaillée d'une confrontation (`interface/canvas_views.py`).
@@ -402,22 +393,22 @@ Comment marche chaque ligne : [`code/penalties_code.md`](code/penalties_code.md)
 ## 9. Ce qui peut mal tourner
 
 - **Une seule chance pour chaque tireur** : pas de gardiens, pas de bons ou mauvais tireurs, pas de différence entre clubs.
-- **Pression seulement sur le cinquième tir.** En mort subite, beaucoup de tirs sont aussi « marquer ou perdre », mais ils gardent 0.76.
-- **Pas de lien avec les notes** avec « aggregate » et en finale : une séance entre un géant et un outsider, c'est 50/50.
+- **Aucune pression, volontairement.** `PRESSURE_DROP = 0` : l'échantillon de clubs de 1 759 séances ne montre aucune baisse pour les tirs obligatoires. Les échantillons de tournois d'équipes nationales en montrent une (62 % contre 92 %), donc un simulateur de Coupes du monde voudrait la remettre.
+- **Pas de lien avec les notes** avec « aggregate » et en finale : une séance entre un géant et un outsider, c'est 50/50. C'est ce que disent les données : sur 268 séances de clubs de l'UEFA (2000 à 2025), le club le mieux classé en Elo n'a pas gagné plus souvent (environ 47 % quand l'écart dépassait 100 points ; Csató et Petróczy, [arXiv:2510.17641](https://arxiv.org/abs/2510.17641)).
 
 ### Bugs connus
 
-- **Corrigé en 1.1.0 : le texte en haut du fichier était périmé.** Il dit maintenant que le club qui tire en premier gagne 51.3 %, tandis que chaque club gagne toujours la moitié de ses séances, puisqu'une pièce décide qui tire en premier.
+- **Corrigé en 1.1.0 : le texte en haut du fichier était périmé.** Il dit maintenant que le club qui tire en premier gagne 51.3 %, tandis que chaque club gagne toujours la moitié de ses séances, puisqu'une pièce décide qui tire en premier. (Remplacé : sans règle de pression, le club qui tire en premier gagne 50 %.)
 - **Corrigé en 1.1.0 : `PRESSURE_DROP` était caché dans une fonction.** Il est maintenant à côté de `P_SCORE`, en haut du fichier.
-- **Corrigé en 1.1.0 : le commentaire de `MAX_ROUNDS` était faux.** Il dit maintenant environ 10⁻⁸ (0.6352⁴⁰).
+- **Corrigé en 1.1.0 : le commentaire de `MAX_ROUNDS` était faux.** Il dit maintenant environ 10⁻⁸ (0.6352⁴⁰). (Maintenant 0.623⁴⁰, environ 6 × 10⁻⁹.)
 - **Corrigé en 1.1.0 : un nom de variable trompeur.** Les deux chances de `_kick_once` s'appellent maintenant `q_first` et `q_second`.
 
 ---
 
 ## 10. Idées pour plus tard
 
-- **La pression sur chaque tir obligatoire**, y compris en mort subite, puis remesurer qui gagne le plus souvent.
-- **Un petit lien avec la force** : donner aux clubs plus forts une chance un peu plus haute, par exemple 0.80 au lieu de 0.76 pour un club bien plus fort. Petit, car les vraies séances ressemblent beaucoup à une loterie.
+- **La pression de retour, pour les équipes nationales** : si le simulateur couvre un jour des Coupes du monde ou des Euros, baisser chaque tir obligatoire à environ 0.62 et monter un tir gagnant à environ 0.92 (Jordet), ce que les données de clubs ne montrent pas.
+- **Un lien avec la force** : pas pour les compétitions de clubs, où 268 séances de l'UEFA ne montrent aucun effet. Cela ne vaudrait le coup d'être testé que pour les coupes nationales, où une étude a trouvé environ 8 points de chance de victoire par division d'écart (Krumer).
 
 ---
 
@@ -439,3 +430,4 @@ Comment marche chaque ligne : [`code/penalties_code.md`](code/penalties_code.md)
 > J'avais quelques doutes quant à la pression exercée sur le cinquième tireur lors d'une séance de tirs décisive.
 > Dis-moi si tu veux qu'on garde ça.
 > Je devrais peut-être créer une nouvelle fonctionnalité qui indique à quel point le match est tendu et crucial.
+> Mise à jour : la règle de pression a disparu, car les données de clubs ne la montrent pas (voir les sections 2 et 9).

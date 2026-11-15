@@ -20,9 +20,9 @@ from tkinter import filedialog
 import customtkinter as ctk
 
 import transition as tr
-from base_view import BaseView
+from base_view import BaseView, SliceBuild, is_sliced
 from config import (AWAY, BALL_FLY_MS, BALL_OPEN_MS, USER_DIR, BORDER, CARD,
-                    CARD_RADIUS, CHIP_BORDER, CHIP_DRAWN, CHIP_RADIUS,
+                    CARD_RADIUS, CHIP_DRAWN,
                     CLUB_HOLD_MS, COMP, DEFAULT_SPEED, DRAW_SPEEDS, FORMAT,
                     HOME, LANG_NAMES, MODES, OPPONENT_GAP_MS, OPPONENT_MS,
                     POT_BREAK_MS, REPLACED, STAGE, SURFACE, SURFACE_2,
@@ -76,8 +76,7 @@ class LanguageView(BaseView):
 
     def choose(self, code):
         self.app.lang = code
-        self.app.refresh_chrome()
-        self.app.show("competition")
+        self.app.show("competition")     # show() refreshes the bars itself
 
     def on_enter(self):
         self.choose(self.app.lang)
@@ -118,8 +117,7 @@ class CompetitionView(BaseView):
 
     def choose(self, key):
         self.app.comp = key
-        self.app.refresh_chrome()
-        self.app.show("mode")
+        self.app.show("mode")            # show() refreshes the bars itself
 
     def on_back(self):
         self.app.back("language")
@@ -179,11 +177,17 @@ class ModeView(BaseView):
                 self.start_btn, self.back_btn]
 
     def choose(self, mode):
+        changed = mode != self.app.mode
         self.app.mode = mode
         # The step rail shows or hides the "Simulation" badge depending on
         # the mode: it must be told, as for the competition.
         self.app.refresh_chrome()
         self.refresh_text()
+        if changed:
+            # The pots prewarmed on arrival were built for the other mode
+            # (clickable chips or not): without this they were thrown away
+            # and rebuilt inside the click on "Start", about 80 ms.
+            self.app.prewarm("draw")
 
     def on_show(self):
         # Last screen before the draw: the competition is known, so the
@@ -275,6 +279,8 @@ class DrawView(BaseView):
         self._kind = "instant"
         self._error = None
         self._chunk_token = 0
+        self._slicing = None       # a SliceBuild in progress (see _go_sliced)
+        self._warm_choice = None   # the "choice" panel being built ahead
 
         self.host = ctk.CTkFrame(self.body, fg_color="transparent")
         self.host.pack(fill="both", expand=True)
@@ -378,6 +384,15 @@ class DrawView(BaseView):
             self._drop_panels()        # the kept panels are in the old language
             self._go(self._phase, force=True)
 
+    def on_theme_change(self):
+        """Only the results panel is built from plain Tk widgets (colours
+        fixed at construction), so only it is rebuilt. The pots repaint
+        themselves (PotsBoard follows the theme) and every other panel is
+        CustomTkinter. This used to go through refresh_text(), which threw
+        away and rebuilt the pots board: about 400 ms frozen per switch."""
+        if self._phase == "results":
+            self._go("results", force=True)
+
     def on_back(self):
         if self._phase == "pots" and self._swap_pick is not None:
             # Esc first drops the club picked for a swap; a second Esc
@@ -443,6 +458,15 @@ class DrawView(BaseView):
                 pass
         self._anims.clear()
         self._pending = None
+        self._drop_slicing()
+
+    def _drop_slicing(self):
+        """Stops a sliced build in progress and throws its half panel away."""
+        job, self._slicing = self._slicing, None
+        if job is not None:
+            job.cancel()
+            if job.panel.winfo_exists():
+                job.panel.destroy()
 
     # ---------- internal router ----------
     # The panels we are allowed to keep from one visit to the next.
@@ -462,6 +486,13 @@ class DrawView(BaseView):
     # All four are light, so the rebuild cannot be felt.
     CACHEABLE = ("pots", "choice")
 
+    # The panels built in slices (their builder is a generator, see
+    # base_view.SliceBuild). The screen being left stays visible, and alive,
+    # until the new one is complete: on "results", the spinner keeps turning
+    # while the 180 ms of construction are spread over several frames,
+    # instead of the window freezing on a still spinner.
+    SLICED = ("results",)
+
     def _drop_panels(self):
         """Throws away the panels kept in memory.
 
@@ -469,6 +500,7 @@ class DrawView(BaseView):
         knowing: a different competition (other clubs), a different
         language (other texts).
         """
+        self._drop_warm_choice()
         for panel in self._panels.values():
             # The displayed panel may be one of those being thrown away.
             # If it is not detached here, _go() would call pack_forget()
@@ -498,14 +530,13 @@ class DrawView(BaseView):
             if not self._ensure_model():
                 return
         self._cancel_all()
-        if self._panel is not None and self._panel.winfo_exists():
-            # pack_forget, not destroy: a kept panel must survive.
-            self._panel.pack_forget()
-            # We test the WIDGET, not self._phase: on_show() resets _phase
-            # to None, and the kept panel would then be destroyed.
-            if self._panel not in self._panels.values():
-                self._panel.destroy()
-        self._panel = None
+        if phase == "choice" and self._warm_choice is not None and not force:
+            self._warm_choice.finish_now()   # puts it in self._panels
+        self._drop_warm_choice()
+        if phase in self.SLICED:
+            self._go_sliced(phase, error)
+            return
+        self._detach_panel()
         self._phase = phase
         self._error = error
 
@@ -522,23 +553,120 @@ class DrawView(BaseView):
                        "choice": self._build_choice,
                        "working": self._build_working,
                        "ceremony": self._build_ceremony,
-                       "results": self._build_results,
                        "failed": self._build_failed}[phase]
+            # ("results" never comes here: it is in SLICED.)
             panel = ctk.CTkFrame(self.host, fg_color="transparent")
             panel.pack(fill="both", expand=True)
-            builder(panel)
+            built = builder(panel)
+            if is_sliced(built):
+                for _ in built:          # needed now: built in one go
+                    pass
             if phase in self.CACHEABLE:
                 self._panels[phase] = panel
         else:
+            if phase == "pots" and getattr(self, "board", None) is not None:
+                self.board.complete()   # a prewarmed board may still be filling
             panel.pack(fill="both", expand=True)
 
+        self._show_panel(panel, phase, fresh)
+
+    def _detach_panel(self):
+        """Takes the displayed panel off the screen (destroyed unless kept)."""
+        if self._panel is not None and self._panel.winfo_exists():
+            # pack_forget, not destroy: a kept panel must survive.
+            self._panel.pack_forget()
+            # We test the WIDGET, not self._phase: on_show() resets _phase
+            # to None, and the kept panel would then be destroyed.
+            if self._panel not in self._panels.values():
+                self._panel.destroy()
+        self._panel = None
+
+    def _show_panel(self, panel, phase, fresh):
         self._panel = panel
         # The fade is only for the first appearance. A panel that is
         # brought back already has its right colours: fading it again is
         # expensive and shows nothing new.
-        if fresh:
+        # Never for "working": that panel is on screen while the engine
+        # thread holds the GIL, so every fade frame there costs 50 to 90 ms
+        # instead of 5, for a spinner nobody needs to see fade in.
+        # Never while the whole screen slides in either: the slide is the
+        # entrance, and a fade on top doubled the cost of every frame.
+        if fresh and phase != "working" and not self.app.sliding:
             self._anim(tr.dissolve_in(panel, self.app.surface_hex(),
                                       duration=220))
+        if phase == "pots":
+            self.app.when_settled(self._prewarm_choice, delay=250)
+
+    def _prewarm_choice(self):
+        """Builds "instant or ceremony?" while the user looks at the pots."""
+        if (self._phase != "pots" or "choice" in self._panels
+                or self._warm_choice is not None or self.model is None):
+            return
+        panel = ctk.CTkFrame(self.host, fg_color="transparent")
+
+        def done():
+            if self._warm_choice is job:
+                self._warm_choice = None
+                self._panels["choice"] = panel
+
+        def failed(_exc):
+            if self._warm_choice is job:
+                self._warm_choice = None
+            if panel.winfo_exists():
+                panel.destroy()
+
+        job = SliceBuild(self, self._build_choice(panel), done, failed)
+        job.panel = panel
+        self._warm_choice = job
+        job.start()
+
+    def _drop_warm_choice(self):
+        job, self._warm_choice = self._warm_choice, None
+        if job is not None and not job.finished:
+            job.cancel()
+            if job.panel.winfo_exists():
+                job.panel.destroy()
+
+    def _go_sliced(self, phase, error):
+        """_go() for a panel in SLICED: build it off screen, then swap."""
+        self._phase = phase
+        self._error = error
+        builder = {"results": self._build_results}[phase]
+        panel = ctk.CTkFrame(self.host, fg_color="transparent")
+
+        def done():
+            if self._slicing is not job:
+                return
+            self._slicing = None
+            self._detach_panel()
+            panel.pack(fill="both", expand=True)
+            self._show_panel(panel, phase, fresh=True)
+            self._after_shown(phase)
+
+        def failed(exc):
+            if self._slicing is not job:
+                return
+            self._slicing = None
+            if panel.winfo_exists():
+                panel.destroy()
+            self._go("failed", force=True, error=exc)
+
+        job = SliceBuild(self, builder(panel), done, failed)
+        job.panel = panel
+        self._slicing = job
+        # Already sliding in (the screen is being entered): everything is
+        # built at once, since nothing of the old panel is visible anyway
+        # and the slide needs the finished panel.
+        if self.app.sliding:
+            job.finish_now()
+        else:
+            job.start()
+
+    def _after_shown(self, phase):
+        # The results of a full simulation lead to the settings screen: it
+        # can be built now, while the user reads the fixtures.
+        if phase == "results" and self.app.mode == "simulate":
+            self.app.prewarm("simulation")
 
     def prewarm(self):
         """Builds the pots screen BEFORE it is asked for.
@@ -552,17 +680,19 @@ class DrawView(BaseView):
         otherwise we would make the current screen sluggish to make the
         next one snappy.
         """
-        if "pots" in self._panels:
-            return
         self.after_idle(self._prewarm_now)
 
     def _prewarm_now(self):
-        if "pots" in self._panels:
-            return
+        if self.app.current_view == "draw":
+            return                     # already on screen: nothing to get ahead of
+        # _ensure_model() first: it throws away panels built for another
+        # competition or another mode, so the test below is meaningful.
         if not self._ensure_model():
             return
+        if "pots" in self._panels:
+            return
         panel = ctk.CTkFrame(self.host, fg_color="transparent")
-        self._build_pots(panel)
+        self._build_pots(panel, lazy=True)
         self._panels["pots"] = panel    # built, but not shown yet
 
     def _header(self, parent, question_key, hint_key=None, hint_text=None,
@@ -583,7 +713,7 @@ class DrawView(BaseView):
     # =================================================================
     #  STATE 1: THE POTS
     # =================================================================
-    def _build_pots(self, parent):
+    def _build_pots(self, parent, lazy=False):
         editable = self.editable
         self._header(parent, "pots_q", "pots_h" if editable else "pots_h_ro",
                      compact=True)
@@ -640,7 +770,8 @@ class DrawView(BaseView):
                                                                padx=6)
 
         self.board = PotsBoard(parent, self.app, self.comp, self.model,
-                               on_click=self._on_chip if editable else None)
+                               on_click=self._on_chip if editable else None,
+                               lazy=lazy)
         self.board.pack(fill="both", expand=True, padx=16)
         # No board.refresh() here: the chips have just been built with the
         # right values. The refresh would rewrite the name, badge and
@@ -898,7 +1029,9 @@ class DrawView(BaseView):
     #  STATE 2: ALL AT ONCE, OR CEREMONY?
     # =================================================================
     def _build_choice(self, parent):
+        # A generator, so it can be built ahead in slices (_prewarm_choice).
         self._header(parent, "how_q", "how_h")
+        yield
 
         row = ctk.CTkFrame(parent, fg_color="transparent")
         row.pack(expand=True)
@@ -910,6 +1043,7 @@ class DrawView(BaseView):
                 accent=self.app.accent,
                 command=lambda k=kind: self._launch(k))
             card.pack(side="left", padx=14)
+            yield
 
         back = ghost_button(parent, command=lambda: self._go("pots"))
         back.configure(text=self.app.t("back"))
@@ -920,9 +1054,22 @@ class DrawView(BaseView):
     # =================================================================
     def _launch(self, kind):
         self._kind = kind
-        self.job = DrawJob(self.comp, self.model).start()
+        # Same order as SimulateView._launch: show the spinner first, then
+        # start the thread, so the screen change does not fight the draw
+        # engine for the GIL. DrawJob snapshots the constraints in its
+        # constructor, so that part still happens at click time.
+        self.job = DrawJob(self.comp, self.model)
         self._go("working")
-        self._poll_job()
+        job = self.job
+
+        def begin():
+            if self.job is job and self._phase == "working":
+                job.start()
+                self._poll_job()
+
+        # Tracked timer: leaving the screen before it fires cancels it
+        # (_cancel_all), so no thread is started for a screen nobody sees.
+        self._later(1, begin)
 
     def _build_working(self, parent):
         middle = ctk.CTkFrame(parent, fg_color="transparent")
@@ -1194,6 +1341,8 @@ class DrawView(BaseView):
     #  STATE 5: THE RESULTS
     # =================================================================
     def _build_results(self, parent):
+        # A generator: each bare `yield` is a point where the build may hand
+        # the event loop back for a frame (see SLICED and SliceBuild).
         matches = sum(len(day) for day in self.matchdays)
         self._header(parent, "results_q", compact=True, hint_text=self.app.t(
             "results_h").format(matches=matches, days=len(self.matchdays)))
@@ -1225,6 +1374,7 @@ class DrawView(BaseView):
                             width=170)
         menu.configure(text=self.app.t("to_menu"))
         menu.pack(side="left", padx=6)
+        yield
 
         self.tabs = ctk.CTkSegmentedButton(
             parent, values=[self.app.t("tab_matchdays"),
@@ -1234,6 +1384,7 @@ class DrawView(BaseView):
             command=self._switch_tab)
         self.tabs.pack(pady=(0, 10))
         self.tabs.set(self.app.t("tab_matchdays"))
+        yield
 
         self.day_bar = ctk.CTkFrame(parent, fg_color="transparent")
         self.day_bar.pack(pady=(0, 10))
@@ -1245,10 +1396,12 @@ class DrawView(BaseView):
                 command=lambda n=number: self._show_day(n))
             button.pack(side="left", padx=3)
             self.day_btns[number] = button
+            yield
 
         self.results_body = ctk.CTkScrollableFrame(parent,
                                                    fg_color="transparent")
         self.results_body.pack(fill="both", expand=True, padx=20)
+        yield
         self._show_day(1)
 
     def _switch_tab(self, value):
@@ -1338,11 +1491,10 @@ class DrawView(BaseView):
                      self.app.accent, home_logo=self.model.logo_for(home),
                      away_logo=self.model.logo_for(away)).pack(pady=3)
 
-        # size=4: a fixture keeps a CustomTkinter shell for its rounded
-        # corners, so it costs more than a line of text. Four per slice
-        # keeps the blocking under fifty milliseconds, the threshold below
-        # which a click feels instantaneous.
-        self._chunk(list(enumerate(day)), row, size=4)
+        # A fixture is now a single plain canvas (about 1 ms, it used to
+        # be a CustomTkinter shell at 13 ms), so a whole matchday fits in
+        # one slice and appears at once instead of filling up row by row.
+        self._chunk(list(enumerate(day)), row, size=18)
 
     def _show_clubs(self):
         self._clear_results()
