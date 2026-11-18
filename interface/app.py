@@ -17,7 +17,7 @@ import customtkinter as ctk
 
 import platform_utils as platform_utils
 import transition as tr
-from chrome import AppBar, StepRail
+from chrome import AppBar, FlagBand, StepRail
 from config import (APPEARANCE, BG, COLOR_THEME, COMP, DEFAULT_COMP,
                     DEFAULT_LANG, DEFAULT_MODE, MIN_HEIGHT, MIN_WIDTH,
                     START_HEIGHT, START_WIDTH, STRINGS, SURFACE,
@@ -25,6 +25,7 @@ from config import (APPEARANCE, BG, COLOR_THEME, COMP, DEFAULT_COMP,
 from fonts import build_fonts
 from theme import apply_theme
 from images import window_icon
+from loading import LoadingScreen
 
 
 class App(ctk.CTk):
@@ -62,6 +63,8 @@ class App(ctk.CTk):
         # (comp, teams, matchdays, pots_model). Read by SimulateView.
         self.draw_result = None
 
+        self.flagband = FlagBand(self)
+        self.flagband.pack(fill="x")
         self.appbar = AppBar(self, self)
         self.appbar.pack(fill="x")
         self.rail = StepRail(self, self)
@@ -328,4 +331,19 @@ class App(ctk.CTk):
             self._on_complete(self.lang, self.comp, self.mode)
         else:
             print(f"lang={self.lang}  comp={self.comp}  mode={self.mode}")
-        self.show("draw")
+        draw = self._views["draw"]
+        if draw.is_ready():
+            self.show("draw")
+            return
+        # The pots screen was not warmed up in time (a fast click): building
+        # it blocks Tk for a few hundred ms, so cover that with a loading
+        # screen instead of a frozen window. The bar is determinate, with
+        # steps around the blocking call, because the build cannot report
+        # progress itself.
+        loading = LoadingScreen(self, status=self.t("loading_draw"))
+        try:
+            loading.step(0.35)
+            self.show("draw")
+            loading.step(0.9)
+        finally:
+            loading.close()

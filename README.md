@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest"><img src="https://img.shields.io/github/v/release/yassinox12834/UEFA-Competitions-Simulator?style=flat-square&color=2FA96B&label=release" alt="Latest release"></a>
-  <img src="https://img.shields.io/badge/python-3.10%2B-3E7BFA?style=flat-square&logo=python&logoColor=white" alt="Python 3.10 or newer">
-  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-E8833A?style=flat-square" alt="Windows, macOS and Linux">
-  <img src="https://img.shields.io/badge/language-English%20%7C%20Fran%C3%A7ais-8B93A5?style=flat-square" alt="English and French">
+  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/tag/v1.3.1-uzb"><img src="https://img.shields.io/badge/release-v1.3.1--uzb-0099B5?style=flat-square" alt="Release v1.3.1-uzb"></a>
+  <img src="https://img.shields.io/badge/python-3.10%2B-0099B5?style=flat-square&logo=python&logoColor=white" alt="Python 3.10 or newer">
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-00A99D?style=flat-square" alt="Windows, macOS and Linux">
+  <img src="https://img.shields.io/badge/language-English%20%7C%20Fran%C3%A7ais-1EB53A?style=flat-square" alt="English and French">
   <a href="LICENCE"><img src="https://img.shields.io/badge/licence-MIT-E6BE5A?style=flat-square" alt="MIT licence"></a>
 </p>
 
@@ -17,10 +17,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest/download/UEFA-Simulator-windows.zip">
-    <img src="assets/images/github/readme/download_en.svg" alt="Download for Windows" width="340">
+  <a href="https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/download/v1.3.1-uzb/UEFA-Simulator-windows.zip">
+    <img src="assets/images/github/readme/download_uzb_en.svg" alt="Download the Uzbekistan edition for Windows" width="390">
   </a>
 </p>
+
+> **🇺🇿 You are on the `uzb` branch, the Uzbekistan edition.**
+> I like Uzbekistan, so I gave the whole app the colours of its flag: the sky blue band, the white one and the green one, with the crescent and the twelve stars as the app's logo. The draw, the model and the results are exactly the same as in [1.3.1](https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/tag/v1.3.1); only the look changes. For the regular version, go to the [`main` branch](https://github.com/yassinox12834/UEFA-Competitions-Simulator/tree/main).
 
 <p align="center">
   <a href="#see-it-in-action">See it</a> ·
@@ -142,7 +145,7 @@ Since 2024/25, the three competitions use a new format. If you have not followed
 
 ### The Windows app (no Python needed)
 
-1. Open the [latest release](https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/latest/download/UEFA-Simulator-windows.zip) and download `UEFA-Simulator-windows.zip`.
+1. Open the [Uzbekistan edition release](https://github.com/yassinox12834/UEFA-Competitions-Simulator/releases/tag/v1.3.1-uzb) and download `UEFA-Simulator-windows.zip`.
 2. Unzip it, open the folder, and double-click `UEFA-Simulator.exe`.
 
 Windows may say the publisher is unknown, because the app is not signed: click **More info**, then **Run anyway**.

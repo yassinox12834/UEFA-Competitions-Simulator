@@ -24,6 +24,8 @@ File map:
     views.py          the three menu screens, then the draw
     sim_engine.py     the bridge to model/simulation.py, on another thread
     sim_view.py       the simulation screen: settings, season, results
+    splash.py         the splash shown before the heavy imports
+    loading.py        the loading screen shown inside the window
     app.py            the window and the router
     main.py           this file: the assembly
 """
@@ -42,8 +44,18 @@ import platform_utils as platform_utils                          # noqa: E402
 # would create a widget.
 platform_utils._enable_dpi_awareness()
 
+# The splash appears before the heavy imports below, so the user sees
+# something immediately. It is closed again before App() is created.
+from splash import Splash                                   # noqa: E402
+
+_splash = Splash()
+_splash.step(0.1, "Loading interface…")
 from app import App                                         # noqa: E402
+_splash.step(0.6, "Loading screens…")
 from views import VIEW_REGISTRY                             # noqa: E402
+from loading import LoadingScreen                           # noqa: E402
+_splash.step(1.0, "Starting…")
+_splash.close()
 
 
 def run_engine(lang, comp, mode):
@@ -66,8 +78,12 @@ def run_engine(lang, comp, mode):
 def build_app():
     """Builds the complete app without launching it (handy for testing)."""
     app = App(on_complete=run_engine)
-    for name, view_cls in VIEW_REGISTRY:
+    loading = LoadingScreen(app)
+    total = len(VIEW_REGISTRY)
+    for i, (name, view_cls) in enumerate(VIEW_REGISTRY):
+        loading.step(i / total, f"Loading {name}…")
         app.register(name, view_cls)
+    loading.close()
     app.show(VIEW_REGISTRY[0][0])          # first screen of the journey
     return app
 

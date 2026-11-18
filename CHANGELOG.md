@@ -2,6 +2,21 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.3.1-uzb] 18 November 2026 Uzbekistan edition 🇺🇿
+
+I like Uzbekistan, so this edition dresses the whole app in the colours of its flag. It lives on its own branch, `uzb`, and is published as a pre-release, so the regular 1.3.1 on `main` stays the latest version. Only the interface changed: the engines, the model and the data are those of 1.3.1, and a given seed gives exactly the same draw and season.
+
+### Changed
+
+- **Palette.** The flag's sky blue (`#0099B5`), white and green (`#1EB53A`). The Champions League takes the blue band, the Conference League the green band, and the Europa League a teal halfway between the two (`#00A99D`). I left the flag's thin red lines out on purpose.
+- **Backgrounds.** Dark mode is a deep blue-teal night instead of a neutral grey-black; light mode is white tinted towards the sky blue. Text keeps a contrast of at least 4.5:1 on cards in both modes.
+- **Flag ribbon.** A blue, white and green band across the top of the window (`chrome.FlagBand`), made of plain Tk frames so it keeps its height at any Windows scaling.
+- **Logo.** The 8-pointed star is replaced by the flag: crescent and twelve stars (rows of 3, 4 and 5) in the blue band, then white and green.
+- **Splash screen.** The flag as a header strip, its green band as a footer, and a blue progress bar.
+- **Results and fixtures.** Wins, home fixtures and the round of 16 zone in flag green; away fixtures and the play-off zone in flag blue; the eliminated zone in a muted blue-grey.
+- **Draw ceremony.** White balls with a blue rim; stage, pots and club chips tinted to match.
+- **README.** New download buttons in the flag's colours (`download_uzb_en.svg`, `download_uzb_fr.svg`), pointing to this release.
+
 ## [1.3.1] 15 November 2026 Interface speed, stability and penalty shoot-outs
 
 The interface changed (plus `scripts/profile_ui.py`), and so did one model file, `model/penalties.py` (see "Penalty shoot-outs" below). A draw with a given seed gives exactly the same result as 1.3.0. A season gives the same results until its first penalty shoot-out, then different ones, because shoot-outs now end differently.
@@ -259,6 +274,21 @@ The first stable version.
 # Journal des modifications (version française)
 
 Tous les changements notables de ce projet sont documentés dans ce fichier.
+
+## [1.3.1-uzb] 18 novembre 2026 Édition Ouzbékistan 🇺🇿
+
+J'aime l'Ouzbékistan, alors cette édition habille toute l'application aux couleurs de son drapeau. Elle vit sur sa propre branche, `uzb`, et elle est publiée en pré-version : la 1.3.1 habituelle de `main` reste donc la dernière version. Seule l'interface change : les moteurs, le modèle et les données sont ceux de la 1.3.1, et une même graine donne exactement le même tirage et la même saison.
+
+### Modifié
+
+- **Palette.** Le bleu ciel du drapeau (`#0099B5`), le blanc et le vert (`#1EB53A`). La Ligue des champions prend la bande bleue, la Ligue Conférence la bande verte, et la Ligue Europa un bleu-vert à mi-chemin (`#00A99D`). J'ai volontairement laissé de côté les fines lignes rouges du drapeau.
+- **Fonds.** Le mode sombre est une nuit bleu-vert profonde au lieu d'un noir grisé neutre ; le mode clair est un blanc teinté de bleu ciel. Le texte garde un contraste d'au moins 4,5:1 sur les cartes dans les deux modes.
+- **Ruban du drapeau.** Une bande bleue, blanche et verte en haut de la fenêtre (`chrome.FlagBand`), faite de simples cadres Tk pour garder sa hauteur quelle que soit la mise à l'échelle de Windows.
+- **Logo.** L'étoile à 8 branches est remplacée par le drapeau : croissant et douze étoiles (rangées de 3, 4 et 5) dans la bande bleue, puis le blanc et le vert.
+- **Écran de démarrage.** Le drapeau en bandeau, sa bande verte en pied, et une barre de progression bleue.
+- **Résultats et matchs.** Victoires, matchs à domicile et zone des huitièmes en vert ; matchs à l'extérieur et zone des barrages en bleu ; zone éliminée en bleu-gris discret.
+- **Cérémonie du tirage.** Boules blanches cerclées de bleu ; scène, chapeaux et pastilles des clubs assortis.
+- **README.** Nouveaux boutons de téléchargement aux couleurs du drapeau (`download_uzb_en.svg`, `download_uzb_fr.svg`), qui pointent vers cette version.
 
 ## [1.3.0] 13 novembre 2026
 

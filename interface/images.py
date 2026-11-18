@@ -522,20 +522,57 @@ def _oneshot_pil(size, accent):
     return img
 
 
-def _brand_pil(size, accent):
-    """The app's mark: a rounded square in the accent colour, an 8-pointed star."""
+def _star_points(cx, cy, r_out, r_in, points=5):
     import math
-    img = Image.new("RGBA", size, (0, 0, 0, 0))
-    d = ImageDraw.Draw(img)
-    w = size[0]
-    d.rounded_rectangle((0, 0, w - 1, size[1] - 1), w * 0.28, fill=_rgba(accent))
-    cx, cy, ro, ri = w / 2, size[1] / 2, w * 0.30, w * 0.13
     pts = []
-    for i in range(16):
-        r = ro if i % 2 == 0 else ri
-        a = math.pi / 8 * i - math.pi / 2
+    for i in range(points * 2):
+        r = r_out if i % 2 == 0 else r_in
+        a = math.pi / points * i - math.pi / 2
         pts.append((cx + r * math.cos(a), cy + r * math.sin(a)))
-    d.polygon(pts, fill=(255, 255, 255, 255))
+    return pts
+
+
+def _brand_pil(size, accent):
+    """The app's mark, in the style of the Uzbek flag.
+
+    A rounded square split like the flag (blue, white, green), with the white crescent and the twelve stars (rows of 3, 4, 5)
+    in the blue band. `accent` is kept in the signature so callers and the
+    cache key do not change; the mark is now the same for every competition.
+    """
+    w, h = size
+    blue, green = _rgba("#0099B5"), _rgba("#1EB53A")
+    white = (255, 255, 255, 255)
+
+    # Flag bands drawn on a full canvas, then cut out with a rounded mask.
+    flag = Image.new("RGBA", size, white)
+    d = ImageDraw.Draw(flag)
+    b = h * 0.56                    # the blue band carries the emblem: give it room
+    g = h * 0.78
+    d.rectangle((0, 0, w, b), fill=blue)
+    d.rectangle((0, g, w, h), fill=green)
+
+    # Crescent: a white disc with a blue disc biting into it.
+    cy, r = b * 0.50, b * 0.33
+    cx = w * 0.24
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=white)
+    r2 = r * 0.82
+    off = r * 0.36
+    d.ellipse((cx - r2 + off, cy - r2, cx + r2 + off, cy + r2), fill=blue)
+
+    # Twelve stars: rows of 3, 4 and 5, right-aligned as on the flag.
+    rs = w * 0.040
+    gap = w * 0.105
+    right = w * 0.88
+    for row, count in enumerate((3, 4, 5)):
+        y = b * (0.24 + 0.27 * row)
+        for k in range(count):
+            x = right - gap * k
+            d.polygon(_star_points(x, y, rs, rs * 0.45), fill=white)
+
+    mask = Image.new("L", size, 0)
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, w - 1, h - 1), w * 0.24, fill=255)
+    img = Image.new("RGBA", size, (0, 0, 0, 0))
+    img.paste(flag, (0, 0), mask)
     return img
 
 

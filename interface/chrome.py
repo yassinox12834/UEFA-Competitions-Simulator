@@ -35,6 +35,27 @@ def _rule(parent, colour, width=None):
                          highlightthickness=0, bg=tr.resolve_color(colour), **kw)
 
 
+# The flag's stripes, top to bottom, in logical px: blue, white, green.
+# Thin enough to read as a ribbon, not a second toolbar.
+FLAG_BAND = (("#0099B5", 4), ("#FFFFFF", 3), ("#1EB53A", 4))
+
+
+class FlagBand(tkinter.Frame):
+    """The Uzbek tricolour as a ribbon across the top of the window.
+
+    Plain Tk frames for the same reason as _rule(): they keep their exact
+    height at any Windows scaling. Plain hex colours: the flag does not
+    change with the appearance mode.
+    """
+
+    def __init__(self, master):
+        super().__init__(master, bd=0, highlightthickness=0)
+        s = scaling(master)
+        for colour, px in FLAG_BAND:
+            tkinter.Frame(self, height=max(1, round(px * s)), bd=0,
+                          highlightthickness=0, bg=colour).pack(fill="x")
+
+
 class AppBar(ctk.CTkFrame):
     """Always visible: the app's identity on the left, settings on the right."""
 

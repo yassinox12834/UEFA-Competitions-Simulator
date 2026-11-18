@@ -301,6 +301,13 @@ class DrawView(BaseView):
         self._phase = None
         self._go("pots")
 
+    def is_ready(self):
+        """True if the pots screen is already built for the current choices,
+        so showing the draw is instant. False means on_show() will block for
+        a few hundred ms, which is when the app shows its loading screen."""
+        return (self.model is not None and self.comp == self.app.comp
+                and self._mode == self.app.mode and "pots" in self._panels)
+
     def _ensure_model(self):
         """Brings the model AND the kept panels in line with the current choices.
 

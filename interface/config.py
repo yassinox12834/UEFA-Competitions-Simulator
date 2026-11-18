@@ -25,11 +25,20 @@ COMP_FILES = {
     "UECL": COMPET_LOGOS_DIR / "UECL_logo.png",
 }
 
+# --- Uzbekistan flag palette (branch "uzb") --------------------------
+# Three horizontal bands, blue / white / green, with a white crescent
+# and twelve stars in the blue band. No red anywhere.
+UZ_BLUE = "#0099B5"
+UZ_WHITE = "#FFFFFF"
+UZ_GREEN = "#1EB53A"
+UZ_TEAL = "#00A99D"     # blue and green mixed: the third competition colour
+
 # --- Palette per competition -----------------------------------------
+# UCL and UECL take the two coloured bands; UEL sits between them.
 COMP = {
-    "UCL":  {"accent": "#3E7BFA", "accent_hover": "#2F62CC"},
-    "UEL":  {"accent": "#E8833A", "accent_hover": "#C06A2C"},
-    "UECL": {"accent": "#2FA96B", "accent_hover": "#248455"},   # the Conference green
+    "UCL":  {"accent": UZ_BLUE,  "accent_hover": "#007A91"},   # the sky band
+    "UEL":  {"accent": UZ_TEAL,  "accent_hover": "#00877D"},   # between the bands
+    "UECL": {"accent": UZ_GREEN, "accent_hover": "#17912F"},   # the green band
 }
 DEFAULT_COMP = "UCL"
 DEFAULT_LANG = "en"
@@ -60,19 +69,21 @@ UEFA_ASSOCIATIONS = (
 # --- Neutral colours --------------------------------------------------
 # Always a (light, dark) pair: CTk switches by itself when the appearance
 # mode changes. A plain colour would stay frozen.
-BG = ("#EEF1F6", "#0A0C11")          # window background
-SURFACE = ("#F6F8FB", "#0E1117")     # background of the views
-SURFACE_2 = ("#E9EDF4", "#161A22")   # secondary blocks, table headers
-CARD = ("#FFFFFF", "#141820")
-CARD_HOVER = ("#F2F5FA", "#1B202B")
-BORDER = ("#DDE2EB", "#242A36")
-TEXT = ("#0F131A", "#EEF1F6")
-TEXT_MUTED = ("#5A6272", "#8B93A5")   # contrast >= 4.5:1 on CARD, in both modes
-TEXT_FAINT = ("#8A91A0", "#5E6678")   # text separators, zeros, never the only carrier of information
+# Neutrals tinted towards the flag's sky blue: white like the middle
+# band in light mode, a deep blue-teal night in dark mode.
+BG = ("#E8F5F8", "#05141A")          # window background
+SURFACE = ("#F4FBFC", "#081C23")     # background of the views
+SURFACE_2 = ("#DDF0F5", "#0E2830")   # secondary blocks, table headers
+CARD = ("#FFFFFF", "#0C232B")
+CARD_HOVER = ("#EDF8FA", "#133139")
+BORDER = ("#C9E3EA", "#1B3D47")
+TEXT = ("#08202A", "#F2F9FB")
+TEXT_MUTED = ("#486A75", "#8FB3BE")   # contrast >= 4.5:1 on CARD, in both modes
+TEXT_FAINT = ("#7F9FA9", "#557883")   # text separators, zeros, never the only carrier of information
 
 # Result colours: W / D / L, and the winner's gold.
-WIN = ("#1E9A62", "#3CC486")
-DRAW_C = ("#8A91A0", "#6B7385")
+WIN = ("#178F2E", "#3BCB57")          # flag green
+DRAW_C = ("#7F9FA9", "#5F8691")
 LOSS = ("#D04444", "#F06A6A")
 GOLD = ("#B07F1F", "#E6BE5A")
 
@@ -153,6 +164,7 @@ STRINGS = {
         "run_live": "Live ceremony",
         "run_live_d": "Ball by ball, pot by pot, the way Monaco does it.",
         "drawing": "Drawing the league phase",
+        "loading_draw": "Preparing the pots…",
         "scheduling": "Splitting it into matchdays",
         "draw_failed": "The draw failed",
         "retry": "Try again",
@@ -404,6 +416,7 @@ STRINGS = {
         "run_live": "Cérémonie en direct",
         "run_live_d": "Boule par boule, chapeau par chapeau, comme à Monaco.",
         "drawing": "Tirage de la phase de ligue",
+        "loading_draw": "Préparation des chapeaux…",
         "scheduling": "Répartition en journées",
         "draw_failed": "Le tirage a échoué",
         "retry": "Réessayer",
@@ -611,21 +624,21 @@ FORMAT = {
 # Same rule as above: always a (light, dark) pair, except when the colour
 # is drawn into a Pillow image, which has no appearance mode and so takes
 # a plain hex.
-STAGE = ("#E4E9F2", "#0A0C11")        # background of the ceremony stage
-POT_HEADER = ("#DCE2EE", "#222834")   # banner at the top of a pot
-CHIP = ("#FFFFFF", "#191D25")         # a club at rest
-CHIP_HOVER = ("#F0F3F9", "#222836")
-CHIP_DRAWN = ("#E6EAF1", "#111419")   # club already drawn from the pot
-CHIP_BORDER = ("#DCE1EB", "#272E3A")
+STAGE = ("#E1F2F6", "#05141A")        # background of the ceremony stage
+POT_HEADER = ("#CFE8EF", "#14343E")   # banner at the top of a pot
+CHIP = ("#FFFFFF", "#0F2830")         # a club at rest
+CHIP_HOVER = ("#EAF6F9", "#17353F")
+CHIP_DRAWN = ("#DCEDF2", "#091A20")   # club already drawn from the pot
+CHIP_BORDER = ("#C9E3EA", "#1F424D")
 CHIP_RADIUS = 10
 
-HOME = ("#2E9E64", "#45C083")         # home fixture
-AWAY = ("#D2762F", "#EC9A55")         # away fixture
+HOME = ("#178F2E", "#3BCB57")         # home fixture: flag green
+AWAY = ("#0088A3", "#3BC0DA")         # away fixture: flag blue
 REPLACED = ("#A9741A", "#E3B84F")     # "replaced club" badge
 
-BALL_BODY = "#F6F8FC"                 # drawn by Pillow: plain hex
-BALL_EDGE = "#C9D2E0"
-BALL_TEXT = "#12151A"
+BALL_BODY = "#FFFFFF"                 # drawn by Pillow: plain hex
+BALL_EDGE = "#0099B5"                 # a blue rim, like the top band
+BALL_TEXT = "#08202A"
 
 # --- Ceremony pacing --------------------------------------------------
 # All these durations are divided by the chosen speed (x1, x2, x4).
@@ -643,7 +656,7 @@ CLUB_LOGOS_DIR = IMAGES_DIR / "clubs"     # clubs/UCL/, clubs/UEL/, clubs/UECL/
 LOGO_SUFFIX = "_logo.png"
 
 # --- Simulation screen ------------------------------------------------
-ZONE_R16 = ("#2E9E64", "#45C083")     # ranks 1 to 8: straight to the round of 16
-ZONE_PO = ("#A9741A", "#E3B84F")      # ranks 9 to 24: play-offs
-ZONE_OUT = ("#9AA1AE", "#5B6270")     # ranks 25 to 36: eliminated
+ZONE_R16 = ("#178F2E", "#3BCB57")     # ranks 1 to 8: straight to the round of 16
+ZONE_PO = ("#0088A3", "#3BC0DA")      # ranks 9 to 24: play-offs
+ZONE_OUT = ("#8FA9B1", "#4D6C76")     # ranks 25 to 36: eliminated
 MC_RUNS = (0, 200, 1000, 10000)            # choice of the number of Monte Carlo seasons

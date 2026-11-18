@@ -55,15 +55,15 @@ def apply_theme(accent, accent_hover, base="dark-blue"):
                          placeholder_text_color=_pair(TEXT_FAINT))
 
     t["CTkScrollbar"].update(
-        button_color=["#C9CFDA", "#2A303C"],
-        button_hover_color=["#AEB6C4", "#3A4252"])
+        button_color=["#B5D7E0", "#1F4550"],
+        button_hover_color=["#8FC3D1", "#2B5A67"])
     t["CTkScrollableFrame"]["label_fg_color"] = _pair(SURFACE_2)
 
     t["CTkSwitch"].update(fg_color=_pair(BORDER), progress_color=accent2,
                           # Dark knob in light mode: a white circle on a
                           # white card would disappear.
-                          button_color=["#3B4250", "#F2F4F8"],
-                          button_hover_color=["#2A303C", "#FFFFFF"],
+                          button_color=["#0A3B47", "#FFFFFF"],
+                          button_hover_color=["#06262E", "#FFFFFF"],
                           text_color=_pair(TEXT))
 
     t["CTkProgressBar"].update(fg_color=_pair(SURFACE_2), progress_color=accent2)
